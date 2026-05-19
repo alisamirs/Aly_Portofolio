@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   width="210mm"
+   height="297mm"
+   viewBox="0 0 210 297"
+   version="1.1"
+   id="svg13"
+   sodipodi:docname="TAX.min.svg"
+   inkscape:version="1.4.2 (f4327f4, 2025-05-13)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview13"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:document-units="mm"
+     inkscape:zoom="0.38083965"
+     inkscape:cx="-210.06216"
+     inkscape:cy="896.70286"
+     inkscape:window-width="1920"
+     inkscape:window-height="1057"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg13" />
+  <defs
+     id="defs2">
+    <linearGradient
+       id="prefix__a">
+      <stop
+         offset="0"
+         stop-color="#73cc38"
+         stop-opacity="0"
+         id="stop1" />
+      <stop
+         offset="1"
+         stop-color="#73cc38"
+         stop-opacity="0"
+         id="stop2" />
+    </linearGradient>
+    <linearGradient
+       xlink:href="#prefix__a"
+       id="prefix__b"
+       x1="50.177"
+       y1="24.343"
+       x2="160.638"
+       y2="24.343"
+       gradientUnits="userSpaceOnUse" />
+  </defs>
+  <path
+     fill="#748919"
+     fill-rule="evenodd"
+     d="M220 0h210v297H220zM0 0h210v297H0z"
+     id="path2" />
+  <text
+     style="-inkscape-font-specification:'Agency FB Condensed';text-align:start;white-space:pre;inline-size:81.3275"
+     x="50.353"
+     y="16.457"
+     transform="translate(-43.89 4.709)"
+     font-weight="400"
+     font-stretch="condensed"
+     font-size="19.756"
+     font-family="Agency FB"
+     fill="#73cc38"
+     fill-opacity="0"
+     stroke="#000"
+     stroke-width=".965"
+     id="text5"
+     xml:space="preserve"><tspan
+       x="50.353"
+       y="16.457001"
+       id="tspan6"><tspan
+         style="stroke:#fbfbfb"
+         id="tspan1">UK Tax ACCA </tspan></tspan><tspan
+       x="50.353"
+       y="41.152001"
+       id="tspan8"><tspan
+         style="stroke:#fbfbfb"
+         id="tspan7">CheatBook</tspan></tspan></text>
+  <path
+     fill="none"
+     stroke="#fbfbfb"
+     stroke-width=".965"
+     d="M0 0h210v297H0z"
+     id="path5" />
+</svg>

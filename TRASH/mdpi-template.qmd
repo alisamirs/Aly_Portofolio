@@ -1,0 +1,117 @@
+---
+title: "Full Title of the Manuscript"
+subtitle: "Optional Subtitle"
+format:
+  pdf:
+    pdf-engine: lualatex
+    toc: false
+    number-sections: true
+    papersize: a4
+    geometry:
+      - margin=2.5cm
+    include-in-header:
+      - mdpi-header.tex
+bibliography: mdpi-template.bib
+abstract: |
+  Write a structured or unstructured abstract here, depending on the target
+  MDPI journal. State the background, methods, results, and conclusions clearly.
+---
+
+<!--
+This is a Quarto drafting template for MDPI-style manuscripts using LaTeX PDF.
+It follows the usual MDPI manuscript structure, but it is not the official MDPI
+publisher class. For final submission, check the journal's current instructions:
+https://www.mdpi.com/authors/latex
+-->
+
+# Introduction
+
+Provide context, define the research problem, summarize the literature, and state
+the objective of the study. Cite sources like @ali2025example as needed.
+
+# Materials and Methods
+
+Describe the study design, materials, data sources, inclusion criteria, and
+statistical methods in enough detail for replication.
+
+## Study Design
+
+Explain the workflow, sampling strategy, and timeline.
+
+## Data Collection
+
+State how data were collected, cleaned, and validated.
+
+## Statistical Analysis
+
+Describe software, model choices, significance thresholds, and robustness checks.
+
+# Results
+
+Present the main findings clearly. Use tables and figures where needed.
+
+## Main Finding
+
+Insert the primary result here.
+
+## Secondary Finding
+
+Insert the secondary result here.
+
+# Discussion
+
+Interpret the findings, compare them with prior work, and explain implications.
+
+## Principal Interpretation
+
+Explain what the main result means.
+
+## Comparison with Previous Studies
+
+Relate your findings to the literature.
+
+## Strengths and Limitations
+
+State the main strengths and the main limitations directly.
+
+# Conclusions
+
+Provide a concise take-away and any practical or research implications.
+
+# Author Contributions
+
+Conceptualization, First Author and Second Author; methodology, First Author;
+software, First Author; validation, First Author and Second Author; formal
+analysis, First Author; investigation, First Author and Second Author; resources,
+Second Author; data curation, First Author; writing--original draft preparation,
+First Author; writing--review and editing, First Author and Second Author;
+visualization, First Author; supervision, Second Author; project administration,
+Second Author. All authors have read and agreed to the published version of the
+manuscript.
+
+# Funding
+
+This research received no external funding.
+
+# Institutional Review Board Statement
+
+Not applicable.
+
+# Informed Consent Statement
+
+Not applicable.
+
+# Data Availability Statement
+
+The data presented in this study are available on request from the corresponding
+author.
+
+# Acknowledgments
+
+Add acknowledgments here.
+
+# Conflicts of Interest
+
+The authors declare no conflicts of interest.
+
+# References
