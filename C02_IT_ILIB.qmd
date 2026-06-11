@@ -1,0 +1,33 @@
+---
+title: "Chapter 1: The UK Tax System and Its Administration"
+subtitle: "ACCA TX-UK Study Paper"
+format:
+  pdf:
+    pdf-engine: lualatex
+    toc: true
+    toc-depth: 3
+    number-sections: true
+    papersize: a4
+    geometry:
+      - margin=2.5cm
+    include-in-header:
+      - mdpi-header.tex
+bibliography: mdpi-template.bib
+abstract: |
+    This chapter deal with individuals, whether they are employed, self-employed or simply in receipt of investment income, are assessed to income tax. 
+    
+    Income tax is an important topic as it will be the focus of one 15 mark question in section C of the examination. You can also expect income tax questions in both sections A and B of the examination. 
+    
+    This chapter sets out the basis upon which individuals are assessed to income tax and how an individual’s income tax liability is calculated. 
+---
+
+# The scope of income tax
+
+## Assessable persons
+
+- All individuals, including children, are chargeable to income tax.
+- Both spouses within a married couple and both partners in a civil partnership are treated as separate individuals for the purposes of income tax.
+
+The tax residency status of an individual determines how much income is assessed to UK tax.  
+All persons resident for tax purposes in the UK are assessed to UK tax on their worldwide income.
+

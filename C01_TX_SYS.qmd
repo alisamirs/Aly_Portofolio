@@ -83,7 +83,7 @@ Taxation serves both **economic** and **social** objectives.
 
 The current UK tax system may encourage:
 
-- Individual saving through tax-advantaged products such as ISAs
+- Individual saving through tax-advantaged products such as Individual savings accounts (ISAs)
 - Charitable giving through reliefs such as Gift Aid
 - Entrepreneurship and investment through targeted reliefs
 
@@ -163,33 +163,31 @@ provided in @tbl-main-taxes.
 
 : Main UK taxes within TX-UK {#tbl-main-taxes}
 
-### Short Notes on the Main Taxes
-
-#### Income Tax
+### Income Tax
 
 Income tax is payable by individuals on earnings, trading income, and certain
 forms of investment income.
 
-#### National Insurance Contributions (NICs)
+### National Insurance Contributions (NICs)
 
 NICs are payable by employed and self-employed individuals. Employers also bear
  NIC obligations in respect of employees.
 
-#### Capital Gains Tax
+### Capital Gains Tax
 
 Capital gains tax is payable by individuals on the disposal of certain capital
 assets, including land, buildings, shares, and some valuable chattels.
 
-#### Inheritance Tax
+### Inheritance Tax
 
 Inheritance tax may arise on a deceased person's estate and on certain lifetime
 transfers.
 
-#### Corporation Tax
+### Corporation Tax
 
 Corporation tax is payable by companies on taxable income and chargeable gains.
 
-#### Value Added Tax (VAT)
+### Value Added Tax (VAT)
 
 VAT is an [indirect tax](#sec-direct-indirect) charged on the supply of goods
 and services, with the final burden generally borne by the consumer.
@@ -246,6 +244,14 @@ decisions are important where wording is uncertain or disputed.
 HMRC publishes guidance to explain how legislation is applied in practice and to
 set out its interpretation of the law. Guidance does not override legislation,
 but it is important in day-to-day administration.
+
+####  Extra-statutory concessions (ESCs)
+
+ESCs allow a relaxation of the strict letter of tax law in certain circumstances. HMRC can make an ESC to administer the tax system fairly and effectively, but cannot counter the clear words of tax law.
+
+An ESC confirms that HMRC will apply a tax law to a specific group in a more favourable way than another possible interpretation, to avoid undue hardship, unfairness, or an illogical result.
+
+HMRC publishes current ESCs and all taxpayers in the stated situation can rely on these. It is government policy for the content of issued ESCs to eventually be withdrawn or enacted into law.
 
 ### HMRC and Its Terms of Reference {#sec-hmrc}
 
@@ -439,5 +445,3 @@ Non-compliance may lead to:
 - Late payment penalties
 - Interest on overdue tax
 - Additional consequences where inaccuracies are deliberate
-
-19526

@@ -46,10 +46,72 @@ abstract: |
         - Calculate late payment interest and state the penalties that can be charged
 2. Income tax and NIC liabilities
     1. The scope of income tax
+        - Explain how the residence of an individual is determined.
     2. Income from employment
+        - Recognise the factors that determine whether an engagement is treated as employment or self-employment.
+        - Recognise the basis of assessment for employment income.
+        - Recognise the income assessable.
+        - Recognise the allowable deductions, including travelling expenses.
+        - Discuss the use of the statutory approved mileage allowances.
+        Explain the PAYE system, how benefits can be payrolled, and the purpose of form P11D.
+        - Explain and compute the amount of benefits assessable.
+        - Recognise the circumstances in which real time reporting late filing penalties will be imposed on an employer and the amount of penalty which is charged.
     3. Income from self-employment
+        - Recognise the basis of assessment for self-employment income under both cash and accruals bases.
+        - Describe and apply the badges of trade.
+        - Recognise the expenditure that is allowable in calculating the tax-adjusted trading profit.
+        - Recognise the relief which can be obtained for pre-trading expenditure.
+        - Capital allowances
+            - Define plant and machinery for capital allowances purposes.
+            - Compute writing down allowances, first-year allowances and the annual investment allowance.
+            - Compute capital allowances for cars.
+            - Compute balancing allowances and balancing charges.
+            - Compute structures and buildings allowances.
+            - Recognise the treatment of short life assets.
+            - Recognise the treatment of assets included in the special rate pool.
+        - Relief for trading losses
+            - Understand how trading losses can be carried forward.
+            - Understand how trading losses can be claimed against total income and chargeable gains, and the restriction that can apply.
+            - Explain and compute the relief for trading losses in the early years of a trade.
+            - Explain and compute terminal loss relief.
+            - Recognise the factors that will influence the choice of loss relief claim.
+        - Partnerships and limited liability partnerships
+            - Explain and compute how a partnership is assessed to tax.
+            - Explain and compute the assessable profits for each partner following a change in the profit sharing ratio.
+            - Explain and compute the assessable profits for each partner following a change in the membership of the partnership.
+            - Describe the alternative loss relief claims that are available to partners.
     4. Property and investment income
+        - Compute property business profits.
+        - Explain the treatment of furnished holiday lettings.
+        - Understand rent-a-room relief.
+        - Compute the amount assessable when a premium is received for the grant of a short lease.
+        - Understand and apply the restriction on property income finance costs.
+        - Understand how relief for a property business loss is given.
+        - Compute the tax payable on savings and dividends income.
+        - Recognise the treatment of individual savings accounts (ISAs) and other tax exempt investments.
+        - Understand how the accrued income scheme applies to UK Government securities (gilts).
     5. The comprehensive computation of taxable income and income tax liability
+        - Prepare a basic income tax computation involving different types of income.
+        - Calculate the amount of personal allowance available.
+        - Understand the impact of the transferable amount of personal allowance for spouses and civil partners.
+        - Compute the amount of income tax payable.
+        - Understand the treatment of interest paid for a qualifying purpose.
+        - Understand the treatment of gift aid donations and charitable giving.
+        - Explain and compute the child benefit tax charge.
+        - Understand the treatment of property owned jointly by a married couple, or by a couple in a civil partnership.
     6. National insurance contributions for employed and self-employed persons
+        - Explain and compute national insurance contributions payable:
+            - Class 1 and 1A NIC.
+            - Class 4 NIC.
+        - Understand the annual employment allowance.
     7. The use of exemptions and reliefs in deferring and minimising income tax liabilities
+        - Explain and compute the relief given for contributions to personal pension schemes, and to occupational pension schemes.
+        - Understand how a married couple or a couple in a civil partnership can minimise their tax liabilities.
+        - Basic income tax planning.
 3.  Chargeable gains for individuals
+    1. The scope of the taxation of capital gains
+    2. The basic principles of computing gains and losses
+    3. Gains and losses on the disposal of movable and immovable property
+    4. Gains and losses on the disposal of shares and securities
+    5. The computation of capital gains tax
+    6. The use of exemptions and reliefs in deferring and minimising tax liabilities arising on the disposal of capital assets
