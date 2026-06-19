@@ -555,7 +555,7 @@ C) £29,000
 
 **Solution**
 
-A) Employment income of £11,000
+**A) Employment income of £11,000**
 
 |                         | Non-savings income (£) | Savings income (£) | Total (£) |
 |-------------------------|------------------------|--------------------|-----------|
@@ -576,7 +576,7 @@ A) Employment income of £11,000
 
 In the examination always indicate the rate at which income is taxed, even if the rate is 0%. This shows that you understand that this income is still ‘taxable income’. It also shows that you know how to apply the correct tax rates, including the 0% rate. 
 
-B) Employment income of £15,200
+**B) Employment income of £15,200**
 
 |                         | Non-savings income (£) | Savings income (£) | Total (£) |
 |-------------------------|------------------------|--------------------|-----------|
@@ -599,7 +599,7 @@ B) Employment income of £15,200
 
 > N2: Jane is a basic rate taxpayer as her taxable income (£5,630) is less than £37,700. Her savings income nil rate band is therefore £1,000.
 
-C) Employment income of £29,000
+**C) Employment income of £29,000**
 
 |                         | Non-savings income (£) | Savings income (£) | Total (£) |
 |-------------------------|------------------------|--------------------|-----------|
@@ -621,15 +621,17 @@ C) Employment income of £29,000
 
 > N2: Jane is a basic rate taxpayer as her taxable income (£19,430) is less than £37,700. Her savings income nil rate band is therefore £1,000. The balance of her savings income of £2,000 (£3,000 - £1,000) is taxed at the basic rate.
 
+#### Example 2
 
+Alonso received bank interest of £7,850 during the tax year 2025/26.
 
+Calculate Alonso’s income tax liability assuming he also had trading income in the tax year 2025/26 of: 
 
+A. £43,000 \
+B. £53,000 \
+C. £145,000 \
 
-
-
-
-
-
+**Solution**
 
 
 
@@ -729,6 +731,8 @@ The employer is required to deduct income tax from employment income, under the 
 
 However, the employment income figure that must be included in the individual’s income tax computation is the **gross figure before PAYE** has been deducted. The individual’s income tax liability therefore includes income tax on the gross employment income.
 
+### Pay as You Earn PAYE & Self-assessment system
+
 To avoid the *double payment* of tax by the employee, credit is given for the income tax already paid (PAYE) by **deducting** it from the income tax liability, as the final adjustment in the income tax computation.
 
 Income tax payable is the income tax liability less any tax already deducted from taxable income i.e. PAYE. 
@@ -751,15 +755,33 @@ The income tax payable is collected via the ***self-assessment system***. In the
 
 Akram has taxable trading income of £41,870 and gross employment income of £12,250 for the tax year 2025/26. He does not have any savings income or dividend income. Pay as You Earn PAYE of £80 was deducted from his employment income. 
 
+**Solution**
 
+**Taxable income**
 
+|                         | £        |
+|-------------------------|----------|
+| Trading income          | 41,870   |
+| Employment income       | 12,250   |
+| **Total income**        | 54,120   |
+| Less: PA                | (12,570) |
+| **Taxable income**      | 41,550   |
 
+**Tax liability**
 
+| Income tax:                  | £        |
+|------------------------------|----------|
+| Basic rate (37,700 × 20%)    | 7,540    |
+| Higher rate (3,850 × 40%)    | 1,540    |
+| **Income tax liability**     | **9,080** |
 
+**Income tax payable**
 
-
-
-
+|                               | £        |
+|-------------------------------|----------|
+| Income tax liability          | 9,080    |
+| Less: PAYE                    | (80)     |
+| **Income tax payable**        | **9,000**|
 
 ## Reliefs against total income
 
@@ -885,8 +907,39 @@ The effect of extending the basic and higher rate bands is that the income equiv
 
 > This gives the further 20% (40% – 20%) tax relief that *the higher rate taxpayer* is entitled to, and a further 25% (45% – 20%) tax relief for *the additional rate taxpayer*. 
 
+#### Example 1
 
+Brenda has employment income of £55,000 each year and makes a payment of £3,600 to the RSPB under the gift aid scheme.
 
+Calculate Brenda's income tax liability for the tax year 2025/26. 
+
+**Solution**
+
+**Step 1: Taxable income**
+
+|                         | £        |
+|-------------------------|----------|
+| Employment income       | 55,000   |
+| Less: PA                | (12,570) |
+| **Taxable income**      | **42,430** |
+
+**Step 2: Extended basic rate band**
+
+|                                                   | £        |
+|---------------------------------------------------|----------|
+| Basic rate band                                   | 37,700   |
+| Plus: Gross gift aid donation (£3,600 × 100/80)   | 4,500    |
+| **Extended basic rate band**                      | **42,200** |
+
+**Step 3:Income tax liability**
+
+| Income tax:                  | £        |
+|------------------------------|----------|
+| Basic rate (42,200 × 20%)    | 8,440    |
+| Higher rate (230 × 40%)      | 92       |
+| **Income tax liability**     | **8,532** |
+
+> Although the higher rate band is also extended by £4,500, this has no effect as she is not an additional rate taxpayer.
 
 
 
