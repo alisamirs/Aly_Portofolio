@@ -44,7 +44,7 @@ abstract: |
         - Explain the procedures for dealing with appeals and First and Upper Tier Tribunals
     6. Penalties for non-compliance
         - Calculate late payment interest and state the penalties that can be charged
-2. Income tax and NIC liabilities
+2. Income tax and NIC (National insurance contributions) liabilities
     1. The scope of income tax
         - Explain how the residence of an individual is determined.
     2. Income from employment

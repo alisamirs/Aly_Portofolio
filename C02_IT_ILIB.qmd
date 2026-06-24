@@ -1,5 +1,5 @@
 ---
-title: "Chapter 1: The UK Tax System and Its Administration"
+title: "Chapter 2: The UK Tax System and Its Administration"
 subtitle: "ACCA TX-UK Study Paper"
 format:
   pdf:
@@ -21,8 +21,6 @@ abstract: |
     This chapter sets out the basis upon which individuals are assessed to income tax and how an individual’s income tax liability is calculated. 
 ---
 
-# The scope of income tax
-
 ::: {.center data-latex=""}
 ```{mermaid}
 %%| fig-width: 3
@@ -43,6 +41,8 @@ flowchart TD
     TI -.-> TL -.-> TP
 ```
 :::
+
+# The scope of income tax
 
 ## Basis of assessment
 
@@ -633,14 +633,92 @@ C. £145,000 \
 
 **Solution**
 
+**A) Trading income of £43,000**
+
+**Taxable income**
+
+|                         | Non-savings income (£) | Savings income (£) | Total (£) |
+|-------------------------|------------------------|--------------------|-----------|
+| Trading income          | 43,000                 |                    | 43,000    |
+| Bank interest           |                        | 7,850              | 7,850     |
+| **Total income**        | 43,000                 | 7,850              | 50,850    |
+| Less: PA                | (12,570)               |                    | (12,570)  |
+| **Taxable income**      | 30,430                 | 7,850              | 38,280    |
+
+**Tax liability**
+
+| Income tax:                                            |              | £         |
+|--------------------------------------------------------|--------------|-----------|
+| Non-savings income – basic rate                        |(30,430 × 20%)| 6,086     |
+| Savings income – nil rate (Note 1)                     |(500 × 0%)    | 0         |
+| Savings income – basic rate (Note 2)                   |(6,770 × 20%) | 1,354     |
+| basic rate - Limit                                     |**37,700**    |           |
+| Savings income – higher rate                           |(580 × 40%)   | 232       |
+| Taxable income - Total                                 |**38,280**    |           |
+| **Income tax liability**                               |              | **7,672** |
+
+> N0: The starting rate does not apply as savings income does not fall within the first £5,000 of taxable income.
+
+> N1: Alonso is a higher rate taxpayer as his taxable income (£38,280) falls in the band £37,701 to £125,140. His savings income nil rate band is therefore £500. 
+
+> N2: The savings income taxed at the savings income nil rate uses up part of the basic rate band. The remaining basic rate band is therefore £6,770 (£37,700 – £30,430 – £500). The savings income falling in the basic rate band is taxed at 20% and the balance of £580 is taxed at the higher rate.
+
+**B) Trading income of £53,000** 
+
+**Taxable income**
+
+|                         | Non-savings income (£) | Savings income (£) | Total (£) |
+|-------------------------|------------------------|--------------------|-----------|
+| Trading income          | 53,000                 |                    | 53,000    |
+| Bank interest           |                        | 7,850              | 7,850     |
+| **Total income**        | 53,000                 | 7,850              | 60,850    |
+| Less: PA                | (12,570)               |                    | (12,570)  |
+| **Taxable income**      | 40,430                 | 7,850              | 48,280    |
+
+**Tax liability**
+
+| Income tax:                                           | Calculation               | £        |
+|-------------------------------------------------------|---------------------------|----------|
+| Non-savings income – basic rate                       | 37,700 × 20%              | 7,540    |
+| Non-savings income – higher rate                      | 2,730 × 40%               | 1,092    |
+| Savings income – nil rate (Note 1)                    | 500 × 0%                  | 0        |
+| Savings income – higher rate                          | 7,350 × 40%               | 2,940    |
+| **Income tax liability**                              |                           | **11,572** |
+
+> N0: The starting rate does not apply as savings income does not fall within the first £5,000 of taxable income.
+
+> N1: Alonso is a higher rate taxpayer as his taxable income (£48,280) falls in the band £37,701 to £125,140. His savings income nil rate band is therefore £500.
+
+> The balance of his savings income of £7,350 (£7,850 – £500) is taxed at the higher rate. 
+
+**C) Trading income of £145,000** 
+
+**Taxable income**
+
+|                         | Non-savings income (£) | Savings income (£) | Total (£) |
+|-------------------------|------------------------|--------------------|-----------|
+| Trading income          | 145,000                |                    | 145,000   |
+| Bank interest           |                        | 7,850              | 7,850     |
+| **Total income**        | **145,000**            | **7,850**          | **152,850**|
+| Less: PA (Note)         | 0                      |                    | 0         |
+| **Taxable income**      | **145,000**            | **7,850**          | **152,850**|
+
+**Tax liability**
+
+| Income tax:                                           | Calculation               | £        |
+|-------------------------------------------------------|---------------------------|----------|
+| Non-savings income – basic rate                       | 37,700 × 20%              | 7,540    |
+| Non-savings income – higher rate                      | 87,440 × 40%              | 34,976   |
+| Non-savings income – additional rate                  | 19,860 × 45%              | 8,937    |
+| Savings income – additional rate (Note 1)               | 7,850 × 45%               | 3,533    |
+| **Income tax liability**                              |                           | **54,986** |
 
 
+> N0: The personal allowance is abated to £Nil as total income exceeds £125,140.
 
+> N0: The starting rate does not apply as savings income does not fall within the first £5,000 of taxable income. 
 
-
-
-
-
+> N1: Alonso is an additional rate taxpayer as his taxable income (£152,850) exceeds £125,140. His savings income nil rate band is therefore £Nil.
 
 ### Dividend income 
 
@@ -941,10 +1019,9 @@ Calculate Brenda's income tax liability for the tax year 2025/26.
 
 > Although the higher rate band is also extended by £4,500, this has no effect as she is not an additional rate taxpayer.
 
+***See Exam table below:-***
 
-
-
-
+![Exam Table](image.png)
 
 
 
