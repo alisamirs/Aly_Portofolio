@@ -87,21 +87,21 @@ The **order** of the procedure is important because it is possible for an indivi
 - the non-UK residence test takes priority and the decision is made at Step 1 
 - there is no need to continue to Step 2.
 
-### Automatic non-UK residency tests
+#### Automatic non-UK residency tests
 
 An individual is automatically not UK resident if the individual is ‘in the UK’ in the tax year for less than:
 
-- 16 days or 
-- 46 days, and has not been UK resident in any of the previous three tax years or
-- 91 days, and works full-time overseas. 
+1. 16 days or 
+2. 46 days, and has not been UK resident in any of the previous three tax years or
+3. 91 days, and works full-time overseas. 
 
-### Automatic UK residency tests 
+#### Automatic UK residency tests 
 
 An individual is automatically UK resident if:
 
-- the individual is in the UK for at least 183 days in the tax year or
-- the individual’s only home is in the UK or 
-- the individual works full-time in the UK. 
+1. the individual is in the UK for at least 183 days in the tax year or
+2. the individual’s only home is in the UK or 
+3. the individual works full-time in the UK. 
 
 Note that an individual is ‘in the UK’ if the individual is in the UK at *midnight*.
 
@@ -110,7 +110,7 @@ If the individual does not satisfy any of the automatic tests, the residency sta
 - how many of the five ‘sufficient ties tests’ are satisfied, and
 - how many of the five ‘sufficient ties tests’ are satisfied, and
 
-### Sufficient ties tests 
+#### Sufficient ties tests 
 
 To determine whether or not the individual is sufficiently connected to the UK to be considered UK resident, HMRC look at the following five ties:
 
@@ -131,7 +131,13 @@ To determine the residency status of the individual, consideration is given to:
 | 121 to 182     | Resident if 1 UK tie (or more)                         | Resident if 2 UK ties (or more)                        |
 | 183 or more    | Automatically resident                                 | Automatically resident                                 |
 
+> N: The SRT is a three-step test: first, the automatic non-UK residence tests, then the automatic residence UK tests, and finally the sufficient ties test.
+
 > N: These rules make it more difficult for someone leaving the UK to lose UK residency status than it is for someone arriving in the UK to remain non-UK resident. 
+
+> N: You need to be aware of the definition of residence and be able to apply it to scenarios in the TX examination that will require a written response. 
+
+> N: Income tax computational questions the individual will always be resident in the UK, and liable for tax on worldwide income. You will therefore not be required to calculate tax liabilities for an individual who is not resident in the UK. 
 
 
 ```{mermaid}
@@ -268,5 +274,302 @@ if __name__ == "__main__":
     result = check_residency_status()
     print(f"\n>>> FINAL DETERMINATION: {result} <<<")
 ```
+
+
+### Statutory Residence Test (SRT) Example
+
+Explain whether or not the following individuals are resident in the UK in the tax year 2025/26.
+
+1. Dieter was born in Germany. He has lived in his home town in Germany until the tax year 2025/26 when he came to the UK to visit on 10 June 2024 until 18 January 2026. 
+2. Simone was born in France. She has lived in her home town in France until the tax year 2025/26 when she came to the UK to visit for a month. 
+3. Fred has always spent more than 300 days in the UK and has therefore been UK resident. He gave up work on 5 April 2025 and on 18 May 2025 he set off on a round the world holiday. He did not return to the UK until 6 April 2026. \
+Initially he spent 5 weeks in his second home in Portugal but then did not spend more than 10 days in any other country whilst he was away. \
+Whilst he was away he kept in touch with his wife and young children who remained in the family home in the UK.  
+4. Olga, a housewife, has previously visited the UK on holiday for 30 days in each of the last five years and was not UK resident in those years. 
+On 6 April 2025 she purchased a holiday cottage in the UK.  \
+In the tax year 2025/26 she visited the UK for 80 days, staying in her UK home apart from the two weeks when she stayed with her 17 year old son who had come to study in the UK. \
+For the remainder of the year she lived in her home in Germany. 
+
+**Solution**
+
+**1. Dieter**
+
+**Conclusion: Likely UK Resident.**
+
+**Analysis:**
+*   **Day Count:** Dieter was in the UK from 10 June 2024 to 18 January 2026. For the 2025/26 tax year, this means he was present from 6 April 2025 to 18 January 2026, which is significantly more than 183 days .
+*   **Application of SRT:** Because his UK presence ***exceeds 183 days*** in the tax year, he meets the *first automatic UK test* and is therefore **UK resident** for the entire 2025/26 tax year. *The other steps of the SRT do not need to be considered.
+
+**2. Simone**
+
+**Conclusion: Likely Non-UK Resident.**
+
+**Analysis:**
+
+*   **Day Count:** Simone visited the UK for only one month. This is **less than 46 days** in the 2025/26 tax year.
+*   **Application of SRT:** As *she was not UK resident in any of the **three previous tax years*** (the "arriver" rule), she meets the second automatic overseas test . She is therefore **non-UK resident**, and the other tests do not need to be considered.
+
+**3. Fred**
+
+**Conclusion: Likely UK Resident.**
+
+**Analysis:**
+
+*   **Background:** Fred was UK resident before the 2025/26 tax year. ***The SRT makes a distinction between "leavers" (those resident in any of the previous three tax years) and "arrivers"***.
+*   **Application of SRT:** Since he was a UK resident in the previous years, he is a "leaver". He does not meet any automatic overseas tests (as he spent 0 days in the UK, he could meet the less-than-16-days test, but he may still have strong ties).
+    *   **Sufficient Ties Test:** As a "leaver", he must consider his ties to the UK. The key tie here is the **family tie** . His wife and children remained in the UK family home, so he has a strong family tie .
+    *   **Result:** Because *a "leaver" with at least 4 ties needs to have spent more than 16 days in the UK to be resident, You would say he is likely Non-UK Resident if he had less than 4 ties ***BUT*** Fred is a UK resident for the 2025/26 tax year (6 April 2025 to 5 April 2026) ***because he was resident in previous years and spent more than 15 days in the UK during this tax year**. Therefore, he remains a UK resident for the entire 2025/26 tax*
+
+**4. Olga**
+
+**Conclusion: Likely Non-UK Resident.**
+
+**Analysis:**
+
+*   **Day Count:** Olga spent 80 days in the UK in the 2025/26 tax year.
+*   **Application of SRT:** She was not UK resident in any of the three previous tax years, so she is an "arriver".
+*   **Sufficient Ties Test:** As an "arriver" who spent 80 days in the UK (46-90 days), she must have **all 4 UK ties** to become resident .
+    *   **Family Tie:** She has a 17-year-old son studying in the UK, but he is not a minor child. The family tie applies to a spouse, civil partner, or minor children . Her son is over 16, so no family tie.
+    *   **Accommodation Tie:** She owns a holiday cottage in the UK and spent nights there, so she has an accommodation tie .
+    *   **Work Tie:** She is a housewife and doesn't work, so no work tie.
+    *   **90-Day Tie:** She was not UK resident in the previous years, so no 90-day tie .
+    *   **Country Tie:** This only applies to "leavers," so it's not considered for an "arriver" .
+*   **Result:** She likely has only 1 tie (accommodation), which is fewer than the 3 ties required for an "arriver" spending 80 days in the UK. She is therefore **non-UK resident** .
+
+
+## Marriage allowance & Child benefit tax charge 
+
+### Marriage allowance - Transferable amount
+
+The marriage allowance (MA) permits a spouse or civil partner to elect to ***transfer a fixed amount of the personal allowance*** to a spouse or civil partner, provided neither spouse (or civil partner) is a higher rate or additional rate taxpayer.
+
+The MA may also be referred to as the **transferable amount** of the PA. 
+
+In practice, however, it will only be beneficial to make the election provided the transferor spouse (or civil partner) does not fully utilise the *PA of £12,570* but the recipient spouse (or civil partner) does, so that their total income tax liability as a couple is reduced. 
+
+Electing for the MA allows the transfer to the other spouse (or civil partner) of a ***fixed amount*** of PA (regardless of the amount of unused PA) equal to:  
+
+**= 10% × the individual personal allowance = £1,260 for 2025/26.**
+
+> There is no provision for transferring more or less than this amount. 
+
+| Item | Amount |
+| :--- | :--- |
+| Standard Personal Allowance | £12,570 |
+| Transferable amount | **10% × £12,570 ~ £1,260** |
+| This is a **fixed amount** — not based on actual unused PA | Always £1,260 (2025/26) |
+
+> The transferable amount of the PA of £1,260 is included in the tax rates and allowances provided to you in the examination
+
+> The recipient’s own PA is not increased.
+
+> The effect of the election is that the: 
+
+- the transferring spouse’s PA is reduced by the fixed amount of £1,260.
+- the recipient spouse’s income tax liability is reduced by a maximum of £252 (£1,260 MA × 20% basic rate (BR) income tax).
+
+> The relief is given as a deduction from the recipient’s income tax liability, the maximum benefit from the MA is £252 
+
+> If the recipient’s income tax liability is less than £252, a tax repayment is not possible but the amount by which the transferor’s PA is reduced remains £1,260 
+
+> At best the relief reduces the recipient’s income tax liability to £Nil 
+
+#### Marriage allowance tax saving eligibility 
+
+If one spouse (or civil partner) has unused PA of ≥ £1,260:
+
+- the maximum tax saving of £252 will be achieved, provided the recipient spouse has an income tax liability ≥ £252.
+- the fixed amount of £1,260 must still be transferred 
+- the maximum total tax saving for the couple will be = (unused PA × BR income tax) ~ £252. 
+
+#### Marriage Allowance (MA) election
+
+To be effective for the tax year 2025/26, the election can be made: 
+
+| Timing | Deadline | Effect |
+| :--- | :--- | :--- |
+| **In advance** (forward-looking) | By **5 April 2026** (end of the tax year) | Election applies to 2025/26 **and continues automatically** for future years unless withdrawn or conditions change |
+| **In arrears** (backdating) | By **5 April 2030** (4 years after the end of the tax year) | Election **only** applies to 2025/26 — it does **not** carry forward to future years |
+
+***"In Advance" Election — Key Details***
+
+- **Deadline:** 5 April 2026 (i.e., before the tax year ends)
+- **Ongoing effect:** The election remains valid for **all future tax years** until:
+  - Either spouse **withdraws** the election, or
+  - The **conditions** are no longer met (e.g., transferor's income exceeds PA, or transferee becomes higher rate taxpayer)
+- **No need to reapply** each year — it's a "set and forget" until circumstances change
+
+***"In Arrears" Election — Key Details***
+
+- **Deadline:** 5 April 2030 (within 4 years of the end of 2025/26)
+- **One‑off effect:** It only applies to **2025/26** — it does **not** roll forward
+- **Use case:** If you forgot to claim in time, you can still go back and claim the tax saving for that specific year
+- **Practical impact:** You'll get a refund or adjustment for that year only, but you'd need to make a fresh election for future years if you want it to continue
+
+
+#### Example 1 – Marriage allowance
+
+Kevin and Judy are married. Kevin is employed and has **employment income of £35,500 per annum.** Judy spends most of her time looking after their two children but works on a Saturday, and has **employment income of £6,000.** *They do not have any other income.* 
+
+Judy makes an election to transfer the marriage allowance to Kevin.
+
+Calculate Kevin and Judy’s **income tax liabilities** for the tax year 2025/26. 
+
+**Solution**
+
+|                                         | Kevin (£) | Judy (£) |
+|-----------------------------------------|-----------|----------|
+| Employment income = net income          | 35,500    | 6,000    |
+| Less: PA (Note)                         | (12,570)  | (6,000)  |
+| **Taxable income**                      | 22,930    | 0        |
+| Income tax liability (£22,930 × 20%)    | 4,586     | 0        |
+| Less: MA (£1,260 × 20%)                 | (252)     |          |
+| **Income tax liability**                | **4,334** | **0**    |
+
+> N: Judy's personal allowance is reduced to £11,310 (£12,570 – £1,260). This is still more than her total income of £6,000 so she still has no income tax liability. 
+
+### Child benefit tax charge
+
+Child benefit is a tax-free payment from the Government that can be claimed in respect of children. However, a child benefit income tax charge arises where: 
+
+- an individual receives child benefit, and
+- that individual, or the individual’s partner has 'adjusted net income' of £60,000 or more. 
+
+>>> 'Adjusted net income' is calculated in the same way as for the restriction of the personal allowance for high income individuals. 
+
+The tax charge is as follows: 
+
+| Adjusted net income                | Tax charge                                                                 |
+|------------------------------------|----------------------------------------------------------------------------|
+| Between £60,000 and £80,000        | 1% of child benefit for each £200 of adjusted net income over £60,000      |
+| Over £80,000                       | The amount of child benefit received                                       |
+
+>> The thresholds and method of calculating the child benefit tax charge are included in the tax rates and allowances provided to you in the examination, as shown in figure 2:
+
+![Tax Table CBE Exam Sheet](20260625092953.png)
+
+The charge effectively **removes** the child benefit for high income individuals. 
+
+#### Example 1: Child benefit tax charge
+
+Patrick and Hayley are married with two children. Hayley received **child benefit** of £2,252 during the tax year 2025/26. Patrick has no income as he looks after the couple’s children.
+
+Hayley is employed with a salary of £74,000 per annum and has no other source of income. She paid £1,800 (net) to a registered charity under the gift aid scheme during the tax year 2025/26. 
+
+Calculate Hayley’s **income tax liability** for the tax year 2025/26. 
+
+**Solution**
+
+**Taxable Income**
+
+|                                         | £        |
+|-----------------------------------------|----------|
+| Employment income                       | 74,000   |
+| Less: PA                                | (12,570) |
+| **Taxable income** (all = non-savings income) | 61,430   |
+
+**Income tax liability**
+
+| Income tax:                                   | £         |
+|-----------------------------------------------|-----------|
+| Basic rate (39,950 × 20%) (W1)                    | 7,990     |
+| Higher rate (21,480 × 40%)                    | 8,592     |
+| **Income tax liability (before CB charge)**   | **16,582**|
+| Add: Child benefit charge (W2)                | 1,306     |
+| **Income tax liability**                      | **17,888**|
+
+**W1: Revised basic rate threshold**
+
+|                                                   | £        |
+|---------------------------------------------------|----------|
+| Current basic rate threshold                      | 37,700   |
+| Add: Gross gift aid donation (£1,800 × 100/80)    | 2,250    |
+| **Revised basic rate threshold**                  | **39,950** |
+
+**W2: High Income Child Benefit Charge (HICBC)**
+
+The HICBC threshold is £60,000. To determine the charge, we first find Hayley's Adjusted Net Income (ANI):
+
+$$
+\text{ANI} = £74,000 - £2,250 = £71,750
+$$ 
+
+The charge is 1% of the child benefit received for every full £200 of ANI exceeding £60,000:
+$$
+\text{Excess Income} = £71,750 - £60,000 = £11,750
+$$ 
+
+$$
+\text{Charge Percentage} = \left\lfloor \frac{£11,750}{£200} \right\rfloor = 58\%
+$$ 
+
+$$
+\text{HICBC} = £2,252 \times 58\% = £1,306.16
+$$
+
+
+```{python}
+#| eval: false
+#| include: false
+def calculate_tax():
+    salary = 74000
+    gift_aid_net = 1800
+    gift_aid_gross = gift_aid_net / 0.8
+    child_benefit = 2252
+    
+    # Adjusted net income
+    ani = salary - gift_aid_gross
+    print(f"Gross Gift Aid: {gift_aid_gross}")
+    print(f"Adjusted Net Income: {ani}")
+    
+    # Personal allowance
+    pa = 12570
+    taxable_income = salary - pa
+    print(f"Taxable Income: {taxable_income}")
+    
+    # Bands
+    basic_band = 37700 + gift_aid_gross
+    print(f"Extended Basic Band: {basic_band}")
+    
+    # Income tax calculation
+    tax_at_20 = basic_band * 0.20
+    tax_at_40 = (taxable_income - basic_band) * 0.40
+    income_tax = tax_at_20 + tax_at_40
+    print(f"Tax at 20%: {tax_at_20}")
+    print(f"Tax at 40%: {tax_at_40}")
+    print(f"Total Income Tax on earnings: {income_tax}")
+    
+    # HICBC calculation
+    # For 2024/25 onwards: 1% for every £200 above £60,000
+    excess = ani - 60000
+    hicbc_pct = int(excess // 200) # rounded down to nearest whole percentage in ACCA
+    hicbc_charge = child_benefit * (hicbc_pct / 100)
+    print(f"HICBC percentage: {hicbc_pct}%")
+    print(f"HICBC charge: {hicbc_charge}")
+    
+    total_liability = income_tax + hicbc_charge
+    print(f"Total Income Tax Liability: {total_liability}")
+
+calculate_tax()
+```
+
+
+#### Example 2: 
+
+Rizwan and Gisala live together with their son. Gisala received child benefit of £1,355 during the tax year 2025/26. Rizwan has no income in the tax year 2025/26. Gisala runs a small nursery business and had taxable trading profits of £70,000 for the tax year 2025/26, and paid £2,000 to a charity under the gift aid scheme. 
+
+Calculate Gisala's **income tax liability** for the tax year 2025/26. 
+
+**Solution**
+
+
+
+
+
+
+
+
+
+
 
 
