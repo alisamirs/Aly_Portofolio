@@ -1,22 +1,8 @@
 project:
-  type: book
-
-book:
-  title: "ACCA TX-UK Study Papers"
-  subtitle: "Quarto book project"
-  chapters:
-    - index.qmd
-    - part: "The UK Tax System"
-      chapters:
-        - C01_TX_SYS.qmd
-    - part: "Income Tax and NIC"
-      chapters:
-        - C02_IT_ILIB.qmd
-        - C03_ADD_ASS.qmd
-        - C04_Prop_TA.qmd
-        - C05_Emp_Inc.qmd
-  appendices:
-    - Syllabus.qmd
+  type: default
+  # Render every root-level Quarto document automatically.
+  render:
+    - "*.qmd"
 
 format:
   html:
