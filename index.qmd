@@ -1,0 +1,28 @@
+---
+title: "ACCA TX-UK Study Papers"
+subtitle: "A Quarto book for revision and reference"
+abstract: |
+  This book collects the ACCA TX-UK study notes into a single Quarto project.
+  The chapters are organized to follow the syllabus structure, with a separate
+  appendix for the syllabus outline.
+---
+
+# How to use this book
+
+- Start with the book overview, then move through the chapters in order.
+- Use the table of contents to jump directly to a technical area.
+- Treat the appendix as a syllabus map rather than a study chapter.
+
+## Chapter map
+
+- [Chapter 1: The UK Tax System and Its Administration](C01_TX_SYS.qmd)
+- [Chapter 2: The scope of income tax](C02_IT_ILIB.qmd)
+- [Chapter 3: Income tax: Additional aspects](C03_ADD_ASS.qmd)
+- [Chapter 4: Property income](C04_Prop_TA.qmd)
+- [Chapter 5: Employment income](C05_Emp_Inc.qmd)
+
+## Build notes
+
+- Shared PDF settings live in `_quarto.yml`.
+- The custom shortcode logic is in `_extensions/_shortcodes.lua`.
+- Generated LaTeX artifacts should not be treated as source material.

@@ -1,0 +1,1540 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.9.37">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+
+<title>Chapter 23: VAT</title>
+<style>
+/* Default styles provided by pandoc.
+** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
+*/
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+  vertical-align: middle;
+}
+</style>
+
+
+<script src="C23_VAT_files/libs/clipboard/clipboard.min.js"></script>
+<script src="C23_VAT_files/libs/quarto-html/quarto.js" type="module"></script>
+<script src="C23_VAT_files/libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="C23_VAT_files/libs/quarto-html/popper.min.js"></script>
+<script src="C23_VAT_files/libs/quarto-html/tippy.umd.min.js"></script>
+<script src="C23_VAT_files/libs/quarto-html/anchor.min.js"></script>
+<link href="C23_VAT_files/libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="C23_VAT_files/libs/quarto-html/quarto-syntax-highlighting-7f8f88aac4f3542376d5c11b86a4c14d.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="C23_VAT_files/libs/bootstrap/bootstrap.min.js"></script>
+<link href="C23_VAT_files/libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="C23_VAT_files/libs/bootstrap/bootstrap-efbb37e9afcc02144ebbc7afd12a776f.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+
+  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
+  <script defer="" src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
+
+<script type="text/javascript">
+const typesetMath = (el) => {
+  if (window.MathJax) {
+    // MathJax Typeset
+    window.MathJax.typeset([el]);
+  } else if (window.katex) {
+    // KaTeX Render
+    var mathElements = el.getElementsByClassName("math");
+    var macros = [];
+    for (var i = 0; i < mathElements.length; i++) {
+      var texText = mathElements[i].firstChild;
+      if (mathElements[i].tagName == "SPAN" && texText && texText.data) {
+        window.katex.render(texText.data, mathElements[i], {
+          displayMode: mathElements[i].classList.contains('display'),
+          throwOnError: false,
+          macros: macros,
+          fleqn: false
+        });
+      }
+    }
+  }
+}
+window.Quarto = {
+  typesetMath
+};
+</script>
+
+</head>
+
+<body class="fullcontent quarto-light">
+
+<div id="quarto-content" class="page-columns page-rows-contents page-layout-article">
+
+<main class="content" id="quarto-document-content">
+
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<h1 class="title">Chapter 23: VAT</h1>
+</div>
+
+
+
+<div class="quarto-title-meta">
+
+    
+  
+    
+  </div>
+  
+<div>
+  <div class="abstract">
+    <div class="block-title">Abstract</div>
+    <ol type="1">
+    <li>recognise the circumstances in which a person must <em>register or deregister</em> for VAT (compulsory) and when a person may register or deregister for VAT (voluntary). <br></li>
+    <li>recognise the circumstances in which pre-registration input VAT can be recovered. <br></li>
+    <li>explain the conditions that must be met for two or more companies to be treated as a group for VAT purposes, and the consequences of being so treated. <br></li>
+    <li>calculate the amount of VAT payable/recoverable. <br></li>
+    <li>recognise the tax point when goods or services are supplied. <br></li>
+    <li>explain and apply the principles regarding the valuation of supplies. <br></li>
+    <li>recognise the principal zero-rated and exempt supplies. <br></li>
+    <li>recognise the circumstances in which input VAT is non-deductible. <br></li>
+    <li>recognise the relief that is available for impairment losses on trade debts. <br></li>
+    <li>understand the treatment of the sale of a business as a going concern. <br></li>
+    </ol>
+  </div>
+</div>
+
+
+</header>
+
+
+<p><img src="20260820151429.png" class="img-fluid"></p>
+<p>VAT is:</p>
+<ul>
+<li>an indirect tax on consumer spending</li>
+<li>charged on most goods and services supplied within the UK</li>
+<li>suffered by the final consumer, and</li>
+<li>collected by businesses on behalf of HMRC.</li>
+</ul>
+<p>A taxable person is one who is or should be registered for VAT, because they make taxable supplies</p>
+<p>A taxable supply is everything which is not exempt or outside the scope of VAT. It includes sales and purchases of most goods or services.</p>
+<p><strong><em>Input and output VAT</em></strong><br>
+It is important to distinguish between input and output VAT:</p>
+<ul>
+<li>Businesses pay input VAT on their purchases of goods and services.</li>
+<li>Input VAT is reclaimable from HMRC.</li>
+<li>Registered businesses charge output VAT on their sales of taxable goods and services.</li>
+<li>Output VAT is payable to HMRC.</li>
+<li>Every month or quarter the input and output VAT is <strong>netted off</strong> and paid to or recovered from HMRC.</li>
+</ul>
+<p>The business therefore accounts to HMRC for VAT on the ‘value added’ to the product.</p>
+<section id="types-of-supply" class="level1">
+<h1>Types of supply</h1>
+<p>Supplies can be taxable, exempt or outside the scope of VAT.</p>
+<section id="taxable-supplies" class="level2">
+<h2 class="anchored" data-anchor-id="taxable-supplies">Taxable supplies</h2>
+<p>VAT is charged on taxable supplies but not on exempt supplies or supplies which are outside the scope of VAT.</p>
+<p>It is therefore important to be able to correctly classify supplies in order to determine whether VAT should be charged.</p>
+<ul>
+<li><p>It is also important to correctly classify supplies because:</p>
+<ul>
+<li>only taxable supplies are taken into account in determining whether a trader needs to register for VAT</li>
+<li>input VAT related to exempt supplies is not recoverable.</li>
+</ul></li>
+<li><p>Taxable supplies are charged to VAT at one of three rates:</p>
+<ul>
+<li><strong>zero rate:</strong> This is a tax rate of nil. No VAT is charged but it is classed as a taxable supply. It is therefore taken into account in determining whether a trader should register for VAT and whether input VAT is recoverable.</li>
+<li><strong>reduced rate:</strong> Some supplies, mainly for domestic or charitable use are charged at the reduced rate.</li>
+<li>standard rate: Any taxable supply which is not charged at the zero or reduced rates is charged at the standard rate of <strong>20%</strong>.</li>
+</ul></li>
+</ul>
+<p>You do not need to remember the rates of VAT which apply to different goods and services. However, it is useful to know the treatment of some of the more common types of supply.</p>
+<p>For example, items such as wages and dividends are outside the scope of VAT.</p>
+<p>Remember that taxable supplies, which are not zero-rated or chargeable at the reduced rate, are standard-rated.</p>
+<p>Remember that taxable supplies, which are not zero-rated or chargeable at the reduced rate, are standard-rated.</p>
+<p><img src="20260820153756.png" class="img-fluid"></p>
+</section>
+<section id="zero-rated-and-exempt-supplies" class="level2">
+<h2 class="anchored" data-anchor-id="zero-rated-and-exempt-supplies">Zero-rated and exempt supplies</h2>
+<div class="columns">
+<div class="column" style="width:45%;">
+<p>The most important <strong><em>zero-rated items</em></strong> are briefly described below.</p>
+<ul>
+<li>Food: Food used for human consumption unless it is either a supply in the course of catering (e.g.&nbsp;in a restaurant) or is classed as a luxury item, such as alcohol or confectionery.</li>
+<li>Books and other printed matter (e.g.&nbsp;newspapers, books, maps and sheet music).</li>
+<li>Construction of dwellings, etc.: This includes new buildings for residential or charitable use, but not the reconstruction of an existing building.</li>
+<li>Transport: Transporting passengers by road, rail, sea or air, but excluding smaller vehicles (e.g.&nbsp;not taxis).</li>
+<li>Drugs, medicines and appliances: Drugs supplied on prescription and certain supplies to the disabled.</li>
+<li>Charities: Gifts to charities are zero-rated.</li>
+<li>Clothing and footwear: Young children’s clothing and footwear.</li>
+</ul>
+</div><div class="column" style="width:5%;">
+
+</div><div class="column" style="width:45%;">
+<p>The most important <strong>exempt supplies</strong> are briefly described below.</p>
+<ul>
+<li>Land: Transfers of land and rights over land, but not buildings.</li>
+<li>Insurance: premiums.</li>
+<li>Financial services, including making loans, hire purchase, share dealing and banking services.</li>
+<li>Education: If provided by schools and universities (VAT is now payable on private school fees but thisis not examinable by ACCA)</li>
+<li>Health: The services of registered doctors, dentists, opticians, chemists and hospitals (but not health farms).</li>
+<li>Sports: Entry fees to sports competitions used to provide prizes or charged by non-profit-making sporting bodies.</li>
+</ul>
+</div>
+</div>
+</section>
+</section>
+<section id="vat-registration" class="level1">
+<h1>VAT registration</h1>
+<section id="compulsory-vat-registration" class="level2">
+<h2 class="anchored" data-anchor-id="compulsory-vat-registration">Compulsory VAT registration</h2>
+<p><strong><em>Registration threshold</em></strong><br>
+If a person’s taxable supplies (excluding sales of capital assets) exceed the <strong>registration threshold</strong>, then registration is compulsory.</p>
+<p>There are two separate tests for compulsory registration:</p>
+<ul>
+<li><strong>Historic</strong> turnover test</li>
+<li><strong>Future</strong> turnover test.</li>
+</ul>
+<section id="historic-turnover-test" class="level3">
+<h3 class="anchored" data-anchor-id="historic-turnover-test">Historic Turnover test</h3>
+<p>At the <em>end of each month</em>, the trader must look at the <strong>cumulative</strong> total of taxable <strong>supplies</strong> for the <strong>last 12 months</strong>, or since commencing trade, whichever is the shorter.</p>
+<p>If the total exceeds the registration threshold, currently <strong>£90,000</strong>, then the trader must register as follows:</p>
+<ul>
+<li>Notify HMRC within 30 days of the end of the month in which the registration threshold is exceeded, by completing form VAT1, or via HMRC’s online services.</li>
+<li>Registration is effective from the <strong>first day of the second month</strong> after the taxable supplies exceed the threshold.</li>
+<li>A trader need not register if taxable supplies for the next 12 months are expected to be less than the <strong>deregistration threshold</strong>, currently <strong>£88,000</strong>.</li>
+<li>A trader can apply for an <em>exemption</em> from registration if supplies are <strong>wholly zero-rated</strong>. However this is not usually advantageous as the trader will be in a net repayment position if they have suffered any input VAT on purchases so it is beneficial to be registered to reclaim this.</li>
+</ul>
+<p>The registration and deregistration thresholds are provided in the tax rates and allowances in the examination.</p>
+<section id="example-1-compulsory-vat-registration-historic-turnover-test" class="level4">
+<h4 class="anchored" data-anchor-id="example-1-compulsory-vat-registration-historic-turnover-test">Example 1: Compulsory VAT registration – Historic turnover test</h4>
+<p>Hill Ltd commenced trading on 1 January 2024. Its monthly taxable supplies are as follows:</p>
+<table class="caption-top table">
+<thead>
+<tr class="header">
+<th>Month</th>
+<th>2024 (£)</th>
+<th>2025 (£)</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>January</td>
+<td>3,500</td>
+<td>5,090</td>
+</tr>
+<tr class="even">
+<td>February</td>
+<td>3,600</td>
+<td>5,160</td>
+</tr>
+<tr class="odd">
+<td>March</td>
+<td>3,700</td>
+<td>5,780</td>
+</tr>
+<tr class="even">
+<td>April</td>
+<td>3,800</td>
+<td>5,850</td>
+</tr>
+<tr class="odd">
+<td>May</td>
+<td>3,840</td>
+<td>5,970</td>
+</tr>
+<tr class="even">
+<td>June</td>
+<td>3,910</td>
+<td>6,440</td>
+</tr>
+<tr class="odd">
+<td>July</td>
+<td>3,980</td>
+<td>8,260</td>
+</tr>
+<tr class="even">
+<td>August</td>
+<td>4,050</td>
+<td>9,730</td>
+</tr>
+<tr class="odd">
+<td>September</td>
+<td>4,120</td>
+<td>10,900</td>
+</tr>
+<tr class="even">
+<td>October</td>
+<td>4,490</td>
+<td>10,750</td>
+</tr>
+<tr class="odd">
+<td>November</td>
+<td>4,550</td>
+<td>11,500</td>
+</tr>
+<tr class="even">
+<td>December</td>
+<td>4,630</td>
+<td>11,050</td>
+</tr>
+</tbody>
+</table>
+<p>In addition, in May 2025 the company sold surplus plant for £3,450.</p>
+<p><strong>State from what date Hill Ltd is liable to register for VAT.</strong></p>
+<p><strong>Solution</strong></p>
+<p>The disposal of capital assets is strictly excluded when calculating a business’s rolling taxable turnover for registration tests.</p>
+<p>By checking the <strong>cumulative trailing 12-month</strong> totals at the <strong>end of each month</strong>, Hill Ltd first breaches the statutory threshold in November 2025.</p>
+<p><span class="math display">\[
+\text{Rolling Turnover} = £4,630 \text{ (Dec 24)} + \text{All of 2025 up to Nov } (£85,430) = \mathbf{£90,060}
+\]</span></p>
+<p>Hill Ltd is therefore liable to register on 30 November 2025, and must <strong>notify HMRC by 30 December 2025</strong>.</p>
+<p>The company will be registered from <strong>1 January 2026</strong>, or such earlier date as may jointly be agreed.</p>
+</section>
+<section id="example-2-compulsory-vat-registration-historic-turnover-test" class="level4">
+<h4 class="anchored" data-anchor-id="example-2-compulsory-vat-registration-historic-turnover-test">Example 2: Compulsory VAT registration – Historic turnover test</h4>
+<p>Jana owns a shop selling newspapers (zero-rated) and stationery (standard-rated). In her first year of trading to 31 July 2025, her sales of newspapers were £3,050 per month and of stationery £2,250 per month.</p>
+<p>In her second year of trading, these figures increased to £5,400 and £4,280, respectively.</p>
+<p>State from what date Jana is liable to register for VAT.</p>
+<p><strong>Solution</strong></p>
+</section>
+</section>
+<section id="future-turnover-test" class="level3">
+<h3 class="anchored" data-anchor-id="future-turnover-test">Future turnover test</h3>
+<p>This test is considered at any time, when taxable supplies in the <strong>next 30 days in isolation are expected to exceed £90,000</strong>.</p>
+<ul>
+<li>HMRC must be notified before the end of the 30 days, by completing form VAT1, or using HMRC’s online services.</li>
+<li>Registration will be effective from the beginning of the 30 day period.</li>
+</ul>
+<section id="example-3-compulsory-vat-registration-future-turnover-test" class="level4">
+<h4 class="anchored" data-anchor-id="example-3-compulsory-vat-registration-future-turnover-test">Example 3: Compulsory VAT registration – Future turnover test</h4>
+<p>Cat Ltd signs a lease for new business premises on <em>1 May 2025</em> and opens for business on <em>20 July 2025</em>. The company estimates, from the outset, that taxable supplies will be in the region of £90,500 per month.</p>
+<p>State when, if at all, Cat Ltd is liable to register for VAT.</p>
+<p><strong>Solution</strong></p>
+<p>Cat Ltd is liable to <strong><em>register on 20 July 2025</em></strong> because supplies for the 30 days to 18 August 2025, are expected to exceed £90,000.</p>
+<p>The company must <em>notify HMRC of its liability to registration by 18 August 2025</em> and is registered with <em>effect from 20 July 2025</em>.</p>
+<p>Note: Cat Ltd does not make any taxable supplies during the period 1 May 2025 to 19 July 2025, so the liability to register under the future turnover test cannot arise during that period.</p>
+</section>
+<section id="example-4-compulsory-vat-registration" class="level4">
+<h4 class="anchored" data-anchor-id="example-4-compulsory-vat-registration">Example 4: Compulsory VAT registration</h4>
+<p>State which of the following unregistered traders are liable to register for VAT and the effective date of registration.</p>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 17%">
+<col style="width: 30%">
+<col style="width: 52%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Name</th>
+<th>Supplies</th>
+<th>Details</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Majid</td>
+<td>Accountancy services (standard-rated)</td>
+<td>Started in business 1 November 2025. Estimated fees £17,100 per month.</td>
+</tr>
+<tr class="even">
+<td>Jane</td>
+<td>Baby wear (zero-rated)</td>
+<td>Established the business 1 March 2026 when Jane signed a contract to supply a national retail store. Sales for March 2026 are expected to be £91,000.</td>
+</tr>
+<tr class="odd">
+<td>Sayso Ltd</td>
+<td>Insurance (exempt)</td>
+<td>Commenced trading 2 January 2026. Sales are £100,000 per month.</td>
+</tr>
+</tbody>
+</table>
+<p><strong>Soltion</strong></p>
+</section>
+</section>
+</section>
+<section id="consequences-of-registration" class="level2">
+<h2 class="anchored" data-anchor-id="consequences-of-registration">Consequences of registration</h2>
+<p>Once registered, a certificate of registration is issued and the taxable person must start accounting for VAT:</p>
+<ul>
+<li>Output tax must be charged on taxable supplies.</li>
+<li>Each registered trader is allocated a VAT registration number, which must be quoted on all invoices.</li>
+<li>Each registered trader is allocated a tax period for filing returns, which is normally every three months.</li>
+<li>Input tax (subject to some restrictions) is <strong>recoverable</strong> on business purchases and expenses.</li>
+<li>Appropriate VAT records must be maintained.</li>
+</ul>
+<p>There are penalties for late registration. In addition, the trader must pay over the VAT they should have collected in the period that they should have been registered.</p>
+</section>
+<section id="voluntary-registration" class="level2">
+<h2 class="anchored" data-anchor-id="voluntary-registration">Voluntary registration</h2>
+<p><strong><em>Actual or intending traders</em></strong><br>
+Even if not required to register, a trader may register voluntarily provided they are making, or intending to make, taxable supplies.</p>
+<p>HMRC will register the trader from the date of the request for voluntary registration, or a mutually agreed earlier date.</p>
+</section>
+<section id="advantages-and-disadvantages-of-voluntary-registration" class="level2">
+<h2 class="anchored" data-anchor-id="advantages-and-disadvantages-of-voluntary-registration"><strong>Advantages and disadvantages of voluntary registration</strong></h2>
+<div class="columns">
+<div class="column" style="width:45%;">
+<section id="advantages" class="level3">
+<h3 class="anchored" data-anchor-id="advantages">✅ Advantages</h3>
+<ul>
+<li>Avoids penalties for late registration</li>
+<li>Can recover input VAT on purchases</li>
+<li>Can disguise the small size of the business</li>
+</ul>
+</section>
+</div><div class="column" style="width:5%;">
+
+</div><div class="column" style="width:45%;">
+<section id="disadvantages" class="level3">
+<h3 class="anchored" data-anchor-id="disadvantages">❌ Disadvantages</h3>
+<ul>
+<li>Business will suffer the burden of compliance with all VAT administration rules</li>
+<li>Business must charge VAT. This makes their goods comparatively more expensive than an unregistered business, for customers who cannot recover the VAT (i.e.&nbsp;final consumers)</li>
+</ul>
+</section>
+</div>
+</div>
+<p>Voluntary registration is therefore <strong>beneficial</strong> where the business is making:</p>
+<ul>
+<li><em>zero-rated supplies</em> and has input VAT that it can recover, or</li>
+<li>supplies to VAT registered customers but is probably not beneficial where the business is making supplies to non-VAT registered customers (e.g.&nbsp;the general public).</li>
+</ul>
+<section id="example-5-voluntary-registration" class="level4">
+<h4 class="anchored" data-anchor-id="example-5-voluntary-registration">Example 5: Voluntary registration</h4>
+<p>Alfred sells goods, which would be <strong><em>standard-rated</em></strong> if he were registered for VAT. All of his sales are to members of the <strong>public</strong>. His current annual turnover is £40,000. He incurs input VAT of £5,000 on purchases each year.</p>
+<p>Assuming that, due to the competitive nature of his business, Alfred is unable to increase his prices to the public. Advise him whether it would be beneficial to register voluntarily for VAT.</p>
+<p><strong>Solution</strong></p>
+<p>If Alfred registered for VAT he would be required to charge his customers output VAT. As he is unable to increase his prices his VAT inclusive turnover would be £40,000 and he would have to account for output VAT to HMRC of £6,667 (£40,000 × 20/120). His profits would therefore decrease by £6,667.</p>
+<p>He would however be able to reclaim input VAT of £5,000 p.a. The net cost to Alfred of registering for VAT would be £1,667 (£6,667 – £5,000) and it is therefore not beneficial for him to register voluntarily.</p>
+<p>If Alfred’s sales were to other VAT registered businesses, he would be able to charge VAT in addition to his normal selling price, as his customers would be able to recover the VAT charged.</p>
+<p>In this situation it would be beneficial for Alfred to register for VAT voluntarily. He would be able to recover the input tax, on his purchases and, as a result his profits would increase by £5,000.</p>
+</section>
+<section id="accepting-additional-new-business" class="level3">
+<h3 class="anchored" data-anchor-id="accepting-additional-new-business">Accepting additional new business</h3>
+<p>Accepting additional new work may increase the taxable supplies of the business above the compulsory registration threshold.</p>
+<p>The VAT status of the customers of the business is therefore very important in deciding whether or not taking on the new business is beneficial.</p>
+<ul>
+<li><p>If customers are VAT registered:</p>
+<ul>
+<li>they can recover the output VAT charged, and</li>
+<li>it will be advantageous to accept the new work.</li>
+</ul></li>
+<li><p>If customers are not VAT registered:</p>
+<ul>
+<li>they cannot recover the output VAT charged, and</li>
+<li>if the selling price cannot be increased, the output VAT will become an additional cost to the business.</li>
+</ul></li>
+</ul>
+<p>This may make the additional new work unattractive it may be beneficial to decide to not accept the work, and maintain taxable supplies below the VAT registration threshold.</p>
+</section>
+</section>
+</section>
+<section id="vat-groups" class="level1">
+<h1>VAT Groups</h1>
+<p>Companies that are under common control can elect for a group VAT registration, provided that all the companies are established in, or have a fixed establishment, in the UK.</p>
+<p>A VAT group is treated as if it is a single company for the purposes of VAT. Group registration is optional; not all members of the group have to join the VAT group.</p>
+<p>The effect of a group VAT registration is as follows:</p>
+<ul>
+<li>Goods and services supplied by one group company to another within the group registration are disregarded for the purposes of VAT. Therefore there is no need to account for VAT on <strong>intra-group supplies</strong>.</li>
+<li>The VAT group appoints a <strong>representative</strong> member which is responsible for accounting for all input and output VAT for the group.</li>
+<li>The <strong>representative</strong> member submits a single VAT return covering all group members, but all companies are jointly and severally liable for the VAT payable.</li>
+<li>The normal time limits apply for submission of VAT returns.</li>
+</ul>
+<section id="advantages-and-disadvantages-of-group-vat-registration" class="level2">
+<h2 class="anchored" data-anchor-id="advantages-and-disadvantages-of-group-vat-registration"><strong><em>Advantages and disadvantages of group VAT registration</em></strong></h2>
+<div class="columns">
+<div class="column" style="width:45%;">
+<section id="advantages-1" class="level3">
+<h3 class="anchored" data-anchor-id="advantages-1">✅ Advantages</h3>
+<ul>
+<li>VAT on intra‑group supplies eliminated</li>
+<li>Only one VAT return required, which should save administration costs</li>
+</ul>
+</section>
+</div><div class="column" style="width:5%;">
+
+</div><div class="column" style="width:45%;">
+<section id="disadvantages-1" class="level3">
+<h3 class="anchored" data-anchor-id="disadvantages-1">❌ Disadvantages</h3>
+<ul>
+<li>All members remain jointly and severally liable</li>
+<li>A single return may cause administrative difficulties collecting and collating information</li>
+</ul>
+</section>
+</div>
+</div>
+</section>
+</section>
+<section id="pre-registration-and-deregistration" class="level1">
+<h1>Pre-registration and Deregistration</h1>
+<section id="recovery-of-pre-registration-input-vat" class="level2">
+<h2 class="anchored" data-anchor-id="recovery-of-pre-registration-input-vat">Recovery of pre-registration input VAT</h2>
+<p>Normally, VAT incurred before registration cannot be accounted for as input VAT. If the conditions below are satisfied, however, then it can be treated as input tax and reclaimed accordingly.</p>
+<div class="columns">
+<div class="column" style="border-right: 2px solid #2c3e50; padding-right: 20px;">
+<section id="goods" class="level3">
+<h3 class="anchored" data-anchor-id="goods">📦 Goods</h3>
+<table class="caption-top table">
+<tbody>
+<tr class="odd">
+<td>🎯</td>
+<td>Business purposes</td>
+</tr>
+<tr class="even">
+<td>🚫</td>
+<td>Not sold/consumed before registration</td>
+</tr>
+<tr class="odd">
+<td>⏰</td>
+<td>≤ 4 years prior to registration</td>
+</tr>
+</tbody>
+</table>
+</section>
+</div><div class="column" style="padding-left: 20px;">
+<section id="services" class="level3">
+<h3 class="anchored" data-anchor-id="services">💼 Services</h3>
+<table class="caption-top table">
+<tbody>
+<tr class="odd">
+<td>🎯</td>
+<td>Business purposes</td>
+</tr>
+<tr class="even">
+<td>⏰</td>
+<td>≤ 6 months prior to registration</td>
+</tr>
+</tbody>
+</table>
+</section>
+</div>
+</div>
+<blockquote class="blockquote">
+<p>Note that the term goods includes both current (e.g.&nbsp;inventory) and non-current (e.g.&nbsp;machinery) assets for VAT purposes.</p>
+</blockquote>
+<section id="example-1-recovery-of-pre-registration-input-vat" class="level4">
+<h4 class="anchored" data-anchor-id="example-1-recovery-of-pre-registration-input-vat">Example 1: Recovery of pre-registration input VAT</h4>
+<p>X Ltd registered for VAT with effect from 1 January 2026. The company incurred the following expenditure prior to registration:</p>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 2%">
+<col style="width: 11%">
+<col style="width: 75%">
+<col style="width: 10%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Item</th>
+<th>Date</th>
+<th>Description</th>
+<th>£</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>1</td>
+<td>12.2.2025</td>
+<td>Paid accountancy fees of £500 plus VAT for preparing cash flow forecasts.</td>
+<td>500 + VAT</td>
+</tr>
+<tr class="even">
+<td>2</td>
+<td>14.8.2025</td>
+<td>Paid rent of £1,500 to a landlord. This was an exempt supply hence no VAT paid.</td>
+<td>1,500 (exempt)</td>
+</tr>
+<tr class="odd">
+<td>3</td>
+<td>15.10.2025</td>
+<td>Bought headed stationery, paying £1,150 including VAT.</td>
+<td>1,150 inc. VAT</td>
+</tr>
+<tr class="even">
+<td>4</td>
+<td>1.11.2025</td>
+<td>Bought inventory intended for resale, costing £5,000 plus VAT.</td>
+<td>5,000 + VAT</td>
+</tr>
+<tr class="odd">
+<td>5</td>
+<td>14.11.2025</td>
+<td>Bought machine, costing £6,500 plus VAT.</td>
+<td>6,500 + VAT</td>
+</tr>
+</tbody>
+</table>
+<p>At the date of registration, <strong>60%</strong> of the inventory intended for resale had already been <strong>sold</strong>. The stationery was unused and the company still owned the machine.</p>
+<p><strong>State the amounts of pre-registration input VAT that can be claimed.</strong></p>
+<p><strong>Solution</strong></p>
+</section>
+</section>
+<section id="deregistration" class="level2">
+<h2 class="anchored" data-anchor-id="deregistration">Deregistration</h2>
+<section id="compulsory-deregistration" class="level3">
+<h3 class="anchored" data-anchor-id="compulsory-deregistration">Compulsory deregistration</h3>
+<p>A person must deregister when they <strong><em>cease</em></strong> to make taxable supplies.</p>
+<ul>
+<li>HMRC should be notified within 30 days of ceasing to make taxable supplies.</li>
+<li>VAT registration is cancelled from the date of cessation.</li>
+</ul>
+</section>
+<section id="voluntary-deregistration" class="level3">
+<h3 class="anchored" data-anchor-id="voluntary-deregistration">Voluntary deregistration</h3>
+<p>A person may voluntarily deregister, even if the business continues, if there is evidence that taxable supplies in the next 12 months, will not exceed £88,000.</p>
+<ul>
+<li>The 12 month period is measured starting at any time.</li>
+<li>The onus* is on the trader to satisfy HMRC that they qualify.
+<ul>
+<li>onus: responsibility.</li>
+</ul></li>
+<li>VAT registration is cancelled from the date of request or an agreed later date.</li>
+</ul>
+<p><strong><em>Effect of deregistration</em></strong><br>
+On deregistration, VAT output tax must be accounted for on the value of noncurrent assets and inventory held at the date of deregistration, on which a deduction for input tax has been claimed.</p>
+<p>However, this final tax liability is waived if it is £1,000 or less.</p>
+<section id="example-2-deregistration" class="level4">
+<h4 class="anchored" data-anchor-id="example-2-deregistration">Example 2: Deregistration</h4>
+<ol type="1">
+<li>Jig Ltd closes down its business on 10 January 2026.</li>
+<li>At 1 January 2026, Elk Ltd forecasts taxable turnover for the year to 31 December 2026, will be £40,000. It immediately decides to apply for deregistration.</li>
+</ol>
+<p>State when Jig Ltd should notify HMRC of the business cessation and from when the company will be deregistered.</p>
+<p>State when Elk Ltd will be deregistered.</p>
+<p><strong>Solution</strong></p>
+</section>
+</section>
+</section>
+</section>
+<section id="vat-on-sale-of-a-business" class="level1">
+<h1>VAT on sale of a business</h1>
+<section id="alternative-treatments" class="level2">
+<h2 class="anchored" data-anchor-id="alternative-treatments">Alternative treatments</h2>
+<p>Compulsory deregistration applies where a business is sold or otherwise transferred as a going concern to new owners.</p>
+<p>The sale may be treated in one of two ways:</p>
+<ol type="1">
+<li><strong><em>Transfer of business as a going concern</em></strong><br>
+If certain conditions are satisfied, then the sale/transfer:</li>
+</ol>
+<ul>
+<li>is not treated as a taxable supply</li>
+<li>no output tax is therefore charged on the assets transferred by the seller, and</li>
+<li>no input tax is recoverable by the purchaser.</li>
+</ul>
+<p>Conditions:</p>
+<ul>
+<li>The business is transferred as a going concern.</li>
+<li>There is no significant break in the trading.</li>
+<li>The same type of trade is carried on after the transfer.</li>
+<li>The new owner is or is liable to be registered for VAT, immediately after the transfer.</li>
+</ul>
+<p>Note that all these conditions must be met.</p>
+<ol start="2" type="1">
+<li><strong><em>Transfer of registration</em></strong><br>
+On the sale of a business it is normally compulsory to deregister. However, instead of doing so, both the transferor and the transferee may make a <strong>joint election</strong>, for the transferor’s registration to be transferred to the transferee.<br>
+Where this is done, the transferee assumes all rights and obligations in respect of the registration, including the liability to pay any outstanding VAT. Therefore, this may not be a good commercial decision.</li>
+</ol>
+</section>
+</section>
+<section id="the-time-of-supply-the-tax-point" class="level1">
+<h1>The time of supply (the tax point)</h1>
+<section id="importance-of-tax-point" class="level3">
+<h3 class="anchored" data-anchor-id="importance-of-tax-point">Importance of tax point</h3>
+<p>VAT is normally accounted for to HMRC on a quarterly basis, so it is important to know the time of a supply, to identify the quarter in which it falls.</p>
+<p>Also, if the standard rate of VAT were to change or if the classification of a supply altered (e.g.&nbsp;a zero-rated supply became standard-rated), it would be necessary to know whether a supply had been made before or after the date of change.</p>
+</section>
+<section id="basic-tax-point" class="level2">
+<h2 class="anchored" data-anchor-id="basic-tax-point">Basic tax point</h2>
+<p>The rules are different for goods and services.</p>
+<p><img src="20260821104526.png" class="img-fluid"></p>
+<section id="example-1-the-time-of-supply-the-tax-point" class="level4">
+<h4 class="anchored" data-anchor-id="example-1-the-time-of-supply-the-tax-point">Example 1: The time of supply (the tax point)</h4>
+<p>Queue Ltd received an order for goods from a customer on 14 August 2025. The goods were despatched on 18 August 2025 and the customer paid on 15 September 2025 when they received their invoice, which was dated 14 September 2025.</p>
+<p>What is the basic tax point date?</p>
+<p><strong>Solution</strong></p>
+<p>The basic tax point date is 18 August 2025 (i.e.&nbsp;the date of despatch).</p>
+</section>
+</section>
+<section id="actual-tax-point" class="level2">
+<h2 class="anchored" data-anchor-id="actual-tax-point">Actual tax point</h2>
+<p>The basic tax point (BTP) may be overridden by the actual tax point as follows:</p>
+<p><img src="20260821105044.png" class="img-fluid"></p>
+<blockquote class="blockquote">
+<p>Note that traders can agree an extension to the 14 day invoicing rule with HMRC, to fit in with their invoicing routines.</p>
+</blockquote>
+<section id="example-2-the-time-of-supply-the-tax-point" class="level4">
+<h4 class="anchored" data-anchor-id="example-2-the-time-of-supply-the-tax-point">Example 2: The time of supply (the tax point)</h4>
+<p>Explain the effect if Queue Ltd, in Example 1 above, were to issue an invoice for the goods dated 30 August 2025.</p>
+<p><strong>Solution</strong></p>
+<p>The tax point would become 30 August 2025 as an invoice is issued within 14 days after the basic tax point date.</p>
+</section>
+</section>
+<section id="tax-point-special-rules" class="level2">
+<h2 class="anchored" data-anchor-id="tax-point-special-rules">Tax point – special rules</h2>
+<p>Certain supplies of goods do not fit naturally into the above scheme:</p>
+<ol type="1">
+<li><p>Goods on sale or return: The time of supply is the earlier of:</p>
+<ul>
+<li>the date when the goods are adopted by the customer, or</li>
+<li>12 months after the despatch of the goods.</li>
+</ul></li>
+<li><p>Continuous supplies: Supplies such as electricity and tax advice do not have a basic tax point. The time of supply is the earlier of:</p>
+<ul>
+<li>a tax invoice being issued, and</li>
+<li>a payment received.</li>
+</ul></li>
+<li><p>The supplier may issue a tax invoice once a year in advance, showing the periodical payments and their due dates.</p>
+<p>In this case, there is a separate tax point for every amount due, being the earlier of</p>
+<pre><code> - the due date and 
+ - the date on which payment is received. </code></pre></li>
+<li><p>Sales under hire purchase. The goods are taxed as normal at the standard or zero rate. The interest charge is an exempt supply, provided it is disclosed as a separate amount.</p></li>
+</ol>
+<p>The time of supply for the full value of the goods follows the normal rules (i.e.&nbsp;the time that the goods are collected, delivered or made available).</p>
+<section id="example-3-the-time-of-supply-the-tax-point" class="level4">
+<h4 class="anchored" data-anchor-id="example-3-the-time-of-supply-the-tax-point">Example 3: The time of supply (the tax point)</h4>
+<p>On 30 April 2025, Oak Ltd ordered a new felling machine, and on 16 May 2025, paid a deposit of £25,000. The machine was despatched to Oak Ltd, on 31 May 2025. On 12 June 2025, an invoice was issued to Oak Ltd for the balance due of £75,000. This was paid on 20 June 2025.</p>
+<p>State the tax point for:</p>
+<ol type="a">
+<li>the £25,000 deposit<br>
+</li>
+<li>the balance of £75,000.</li>
+</ol>
+<p><strong>Solution</strong></p>
+</section>
+</section>
+</section>
+<section id="the-value-of-a-supply" class="level1">
+<h1>The value of a supply</h1>
+<section id="basic-rule" class="level3">
+<h3 class="anchored" data-anchor-id="basic-rule">Basic rule</h3>
+<p>The value of a taxable supply is the amount on which the VAT charge is based. This is normally the price (before VAT) charged by the supplier.</p>
+</section>
+<section id="vat-fraction-for-standard-rated-goods" class="level3">
+<h3 class="anchored" data-anchor-id="vat-fraction-for-standard-rated-goods">VAT fraction for standard-rated goods</h3>
+<p>The price of goods before VAT is the VAT-exclusive amount. If the price includes VAT, then this is the <strong>VAT-inclusive amount</strong>.</p>
+<p>VAT is 20% of the VAT-exclusive amount.<br>
+If a standard-rated supply is made at a price of (£2,000 + VAT), then the value of the supply is £2,000 and the total consideration given for the supply is £2,400.<br>
+If the VAT-inclusive amount is given, then the VAT element is <strong><em>(20/120)</em></strong> of the gross amount. The fraction of (1/6) gives the same result and is more commonly used.</p>
+</section>
+<section id="discounts" class="level3">
+<h3 class="anchored" data-anchor-id="discounts">Discounts</h3>
+<p>If a discount is offered, then VAT must be calculated on the amount that the customer actually pays.</p>
+<p>Customers may be offered:</p>
+<ul>
+<li>trade discounts – a reduced price for being a loyal customer or for buying large quantities of goods</li>
+<li>prompt payment discounts – a reduced price for paying within an agreed timescale.</li>
+</ul>
+<p>In both cases VAT is charged on the price paid by the customer.<br>
+For prompt payment discounts, the supplier may not know when the invoice is raised whether the customer will qualify for the discount. The supplier must therefore charge VAT on the invoice on the full price and either:</p>
+<ul>
+<li>issue a credit note if the discount is taken, or</li>
+<li>show full details of the terms of the prompt payment discount and include a statement that the customer can only recover input tax based on the amount paid to the supplier. If the discount is taken, the supplier must then adjust their records to account for output tax on the amount received.</li>
+</ul>
+<section id="example-1-the-value-of-a-supply" class="level4">
+<h4 class="anchored" data-anchor-id="example-1-the-value-of-a-supply">Example 1: The value of a supply</h4>
+<p>Gurminder sells standard-rated goods for <strong>£4,000</strong>, excluding VAT on 1 December 2025 and issues an invoice on the same day. He includes the following statement on the invoice:</p>
+<p>‘A discount of 5% of the full price applies if payment is made within 14 days of the invoice date. No credit note will be issued. Following payment you must ensure that you have only recovered the VAT actually paid.’</p>
+<p>State the amount of VAT that Gurminder should show on the VAT invoice and explain what Gurminder should do if the customer pays within 10 days of the invoice date.</p>
+<p><strong>Solution</strong></p>
+<p>VAT shown on the invoice must be based on the full price i.e.&nbsp;£800 (£4,000 × 20%).<br>
+If the customer pays within 10 days of the invoice date, Gurminder must adjust his VAT records to ensure that output tax of £760 (£4,000 × 20% × 95%) is paid to HMRC.</p>
+<p>Gurminder is not required to issue a credit note to the customer but must retain evidence that the invoice was paid within the terms of the discount arrangement (e.g.&nbsp;a bank statement).</p>
+</section>
+</section>
+<section id="goods-for-own-use" class="level3">
+<h3 class="anchored" data-anchor-id="goods-for-own-use">Goods for own use</h3>
+<p>The treatment of goods taken for the trader’s own use depends on the purpose for which the goods were purchased.</p>
+<ol type="1">
+<li>Where the trader withdraws goods which were purchased for business purposes, input VAT can be recovered andoutput VAT must be accounted for on the replacement cost of the supplies.</li>
+<li>Where the trader initially purchased the goods for private purposes, no input VAT can be reclaimed and there is no output VAT charge.</li>
+</ol>
+</section>
+<section id="gifts" class="level3">
+<h3 class="anchored" data-anchor-id="gifts">Gifts</h3>
+<p>Gifts of inventory or non-current assets are treated as taxable supplies at replacement cost, except gifts of:</p>
+<ul>
+<li>goods to the same person which cost the trader £50 (excluding VAT) or less in a 12 month period.</li>
+<li>business samples, regardless of the number of same samples given to the recipient.</li>
+</ul>
+<p>Gifts of services, whether to employees or customers, are not taxable supplies.</p>
+<section id="example-2-vat-on-gifts-replacement-and-discount" class="level4">
+<h4 class="anchored" data-anchor-id="example-2-vat-on-gifts-replacement-and-discount">Example 2: VAT on Gifts, Replacement and Discount</h4>
+<p>State the amount of VAT due in each of the following cases:</p>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 100%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Sale of standard-rated goods for £500, excluding VAT. A trade discount of 3% is then applied.</td>
+</tr>
+<tr class="even">
+<td>Sales of standard-rated goods for £5,500, including VAT.</td>
+</tr>
+<tr class="odd">
+<td>Gifts of 10 calendars costing £5 each, including VAT.</td>
+</tr>
+<tr class="even">
+<td>Removal of standard-rated goods by the owner. The goods cost £200 and would cost £220 to replace, both figures exclude VAT.</td>
+</tr>
+</tbody>
+</table>
+<p><strong>Assume that all transactions are in the quarter to 30 June 2024.</strong></p>
+<p><strong>Solution</strong></p>
+</section>
+</section>
+</section>
+<section id="recovery-of-input-vat" class="level1">
+<h1>Recovery of input VAT</h1>
+<section id="conditions-for-recovery-of-input-vat" class="level2">
+<h2 class="anchored" data-anchor-id="conditions-for-recovery-of-input-vat">Conditions for recovery of input VAT</h2>
+<p>Input VAT is recoverable by taxable persons on goods and services that are supplied to them for business purposes.</p>
+<p>A <strong><em>VAT invoice</em></strong> (Chapter 24) is needed to support the claim. Capital and revenue expenditure</p>
+<p>Unlike other taxes, there is <strong>no distinction</strong> between capital and revenue expenditure for VAT.</p>
+<p>Provided the assets are used for the purposes of the trade, the related input VAT is recoverable on both capital assets (i.e.&nbsp;purchase of plant and machinery, delivery vans, equipment, etc.) and revenue expenditure.</p>
+<p>If capital assets are subsequently sold, output VAT must be charged as a taxable supply of goods.</p>
+<p>However, the exception to this rule is the purchase of cars (covered latter).</p>
+</section>
+<section id="irrecoverable-input-vat" class="level2">
+<h2 class="anchored" data-anchor-id="irrecoverable-input-vat">Irrecoverable input VAT</h2>
+<p>Input VAT on Business entertaining (e.g.&nbsp;<em>entertaining suppliers and U.K. customers</em>) goods and services cannot be recovered.</p>
+<p>Although VAT incurred on staff entertaining and entertaining <em>overseas customers is recoverable</em>.</p>
+<p>Cars, unless they are:</p>
+<pre><code>- used 100% for business purposes (e.g. driving school cars or new cars for resale), in which case 100% recovery available, or 
+- leased, in which case 50% of input VAT is recoverable where the car has some private use. </code></pre>
+<blockquote class="blockquote">
+<p>Note that where input VAT cannot be recovered on the purchase of a car, no output VAT will be due on its disposal.</p>
+</blockquote>
+<section id="example-1-recovery-of-input-vat" class="level4">
+<h4 class="anchored" data-anchor-id="example-1-recovery-of-input-vat">Example 1: Recovery of input VAT</h4>
+<p>Riker plc makes <em>standard-rated supplies</em> and is registered for VAT. It incurs the following costs during 2025.</p>
+<ol type="1">
+<li>£5,400 on business entertaining (<em>UK customers</em>) and £2,400 on <em>staff entertaining</em>.</li>
+<li>£30,000 on a new <em>car for the managing director</em> and £72,000 on new delivery lorries.</li>
+</ol>
+<p>The managing director’s car is used partly for <em>private purposes</em>.<br>
+All figures are <strong>VAT-exclusive</strong>.</p>
+<p>State the amount of input tax the business can claim and the figures that should be included in the financial statements in respect of these items. Explain how they will be treated for corporation tax purposes.</p>
+<p><strong>Solution</strong></p>
+<ol type="1">
+<li>Entertaining UK customers</li>
+</ol>
+<p>No VAT recoverable on business entertaining of UK customers. The VAT-inclusive figure of (£5,400 × 120%) = £6,480, charged against profit will be a <strong>disallowed expense</strong> for the purpose of the tax adjusted trading profit computation.</p>
+<p>VAT of £480 (20% × £2,400), will be <strong>recoverable on staff entertaining</strong>. The VAT-exclusive amount of £2,400 will be charged against profits and is an allowable expense for tax purposes.</p>
+<ol start="2" type="1">
+<li>Car and lorries</li>
+</ol>
+<p>No VAT recoverable on cars with private use. The VAT-inclusive figure of (£30,000 × 120%) = £36,000, will be capitalised in the accounts and will be eligible for capital allowances.</p>
+<p>VAT of £14,400 (20% × £72,000) is recoverable on the lorries. The VAT-exclusive figure of £72,000 will be capitalised in the accounts and will be eligible for capital allowances.</p>
+</section>
+<section id="private-use" class="level3">
+<h3 class="anchored" data-anchor-id="private-use">Private use</h3>
+<p>Input VAT cannot be claimed for goods or services that are not used for business purposes.</p>
+<p>Where goods or services are used partly for private and partly for business purposes (e.g.&nbsp;use of telephone/mobile phone), an appropriate apportionment is made to calculate the recoverable input VAT.</p>
+<p>The exception to this rule is the recoverability of input VAT on car expenses.</p>
+</section>
+<section id="car-expenses" class="level3">
+<h3 class="anchored" data-anchor-id="car-expenses">Car expenses</h3>
+<p>A business can recover all input VAT incurred on the <strong>running costs</strong> of a car, such as fuel and repairs, even when there is some private use. Note that VAT is not charged on the insurance and road fund licence.</p>
+<p>When a business pays for fuel costs for an employee, sole trader or partner and there is some private use of the vehicle, a VAT charge will be payable:</p>
+<ul>
+<li>where the full cost of the private fuel is reimbursed by the employee/owner, output VAT is payable on the cost of fuel reimbursed.</li>
+<li>if the employee does not reimburse the employer, output VAT is due based on a prescribed scale charge.</li>
+</ul>
+<p>The scale charge depends on the CO2 emissions of the car and the period for which VAT is being accounted for (usually quarterly). The scale charges will be provided in the examination if necessary.</p>
+<section id="example-2-recovery-of-input-vat" class="level4">
+<h4 class="anchored" data-anchor-id="example-2-recovery-of-input-vat">Example 2: Recovery of input VAT</h4>
+<p>Forge Ltd provides a company car with CO2 emissions of 205 g/km for the managing director for business and private use. The company pays for all running costs including petrol, with no reimbursement by the employee. The relevant quarterly VAT fuel <strong>scale charge is £512</strong>.</p>
+<p>State the value of the output tax in respect of the running costs for this car for the quarter to 31 December 2025.</p>
+<p><strong>Solution</strong></p>
+<p>The scale charge for a petrol car with CO2 emissions of 205 g/km is £512. This is the VAT-inclusive output amount. The output VAT charge is £85 (£512 × 1/6).</p>
+<p>Note that the scale charge will be given in the question in the examination.</p>
+</section>
+<section id="example-3-recovery-of-input-vat" class="level4">
+<h4 class="anchored" data-anchor-id="example-3-recovery-of-input-vat">Example 3: Recovery of input VAT</h4>
+<p>For each of the following situations state whether the statement concerning the recovery of input tax is true or false. Assume all the businesses in the question are VAT registered traders and the transactions occur in the quarter to 30 September 2025.</p>
+<ol type="1">
+<li>VAT incurred by a business on entertaining overseas customers is recoverable.</li>
+<li>Firmin plc can recover £3,000 on the purchase of an item of plant and machinery costing £15,000, including VAT.</li>
+<li>A business can never recover the VAT incurred on buying a car.</li>
+<li>A business provides a company car with CO2 emissions of 200g/km to an employee. The company pays all the running costs of the car, incurring £2,100 of input tax for the VAT quarter. The employee does not reimburse any of the fuel costs. The quarterly scale charge for a car with CO2 emissions of 200g/km is £496 (VAT-inclusive). The net input tax recoverable in respect of car expenses is £2,017.</li>
+</ol>
+<p><strong>Solution</strong></p>
+</section>
+</section>
+<section id="relief-for-impairment-losses" class="level3">
+<h3 class="anchored" data-anchor-id="relief-for-impairment-losses">Relief for impairment losses</h3>
+<p>Normally, VAT output tax is accounted for when an invoice is issued. If the debt becomes irrecoverable, the seller has paid VAT to HMRC and never recovers this from the customer. This position is addressed by the seller being able to claim VAT relief for impairment losses.</p>
+<p>The following conditions apply:</p>
+<ul>
+<li>At least six months must have elapsed from the time that payment was due (or the date of supply if later).</li>
+<li>The debt must have been written off in the seller’s VAT account.</li>
+<li>Claims for relief for irrecoverable debts must be made within <em>four years and six months</em> of the payment being due.</li>
+</ul>
+<p>Relief is obtained by adding the VAT element of the irrecoverable debt to the <em>input tax</em> claimed.</p>
+<section id="example-4-relief-for-impairment-losses" class="level4">
+<h4 class="anchored" data-anchor-id="example-4-relief-for-impairment-losses">Example 4: Relief for impairment losses</h4>
+<p>Fox Ltd made sales to X Ltd as follows: £3,500 due for payment on 1 August 2025 and £2,260 due for payment on 1 September 2025. Fox Ltd wrote off the debts in January 2026.<br>
+All figures are <strong>VAT-inclusive</strong>.</p>
+<p>State the amount of relief available to Fox Ltd for irrecoverable debts in the quarter to 31 March 2026.</p>
+<p><strong>Solution</strong></p>
+<p><strong>At 31 March 2026</strong>, both invoices are unpaid <strong>more than 6 months</strong> from the due date of payment.</p>
+<p>The total debt to be written off is £5,760, including VAT. A claim for relief can be made for the VAT element of £960 (£5,760 × 1/6). This claim can be made by adding £960 to the input tax claimed for the quarter.</p>
+<p>Note that VAT is recovered at the rate at which it was originally charged, not at the rate at the time of the VAT recovery.</p>
+</section>
+<section id="example-5-relief-for-impairment-losses" class="level4">
+<h4 class="anchored" data-anchor-id="example-5-relief-for-impairment-losses">Example 5: Relief for impairment losses</h4>
+<p>On 1 December 2025, Berry Ltd wrote off two debts. The first was a debt of £2,456, due for payment on 1 May 2025 and the second a debt of £3,100, due for payment on 31 August 2025.<br>
+All figures are VAT-inclusive.</p>
+<p>State the amount of relief for impaired debts available to the company in the return for the quarter ended 31 December 2025.</p>
+<p><strong>Solution</strong></p>
+</section>
+<section id="comprehensive-example" class="level4">
+<h4 class="anchored" data-anchor-id="comprehensive-example">Comprehensive example</h4>
+<p>Dynamo Ltd commenced trading as a wholesaler on 1 November 2024.<br>
+Its sales have been as follows:</p>
+<table class="caption-top table">
+<thead>
+<tr class="header">
+<th>Year</th>
+<th>Month</th>
+<th>Amount (£)</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>2024</td>
+<td>November</td>
+<td>4,150</td>
+</tr>
+<tr class="even">
+<td></td>
+<td>December</td>
+<td>4,750</td>
+</tr>
+<tr class="odd">
+<td>2025</td>
+<td>January</td>
+<td>5,250</td>
+</tr>
+<tr class="even">
+<td></td>
+<td>February</td>
+<td>5,050</td>
+</tr>
+<tr class="odd">
+<td></td>
+<td>March</td>
+<td>4,450</td>
+</tr>
+<tr class="even">
+<td></td>
+<td>April</td>
+<td>4,650</td>
+</tr>
+<tr class="odd">
+<td></td>
+<td>May</td>
+<td>4,850</td>
+</tr>
+<tr class="even">
+<td></td>
+<td>June</td>
+<td>5,950</td>
+</tr>
+<tr class="odd">
+<td></td>
+<td>July</td>
+<td>5,850</td>
+</tr>
+<tr class="even">
+<td></td>
+<td>August</td>
+<td>7,500</td>
+</tr>
+<tr class="odd">
+<td></td>
+<td>September</td>
+<td>9,650</td>
+</tr>
+<tr class="even">
+<td></td>
+<td>October</td>
+<td>11,800</td>
+</tr>
+<tr class="odd">
+<td></td>
+<td>November</td>
+<td>12,250</td>
+</tr>
+<tr class="even">
+<td></td>
+<td>December</td>
+<td>13,200</td>
+</tr>
+</tbody>
+</table>
+<p>The company’s sales are all standard-rated, and the above figures are exclusive of VAT.</p>
+<ol type="a">
+<li><p>Explain from what date Dynamo Ltd will be required to compulsorily register for VAT, and what action the company must then take.</p></li>
+<li><p>Explain the circumstances in which Dynamo Ltd will be allowed to recover input VAT incurred on goods purchased and services incurred prior to the date of VAT registration.</p></li>
+<li><p>Advise Dynamo Ltd of the VAT rules that determine the tax point in respect of a supply of goods.</p></li>
+</ol>
+<p><strong>Solution</strong></p>
+</section>
+</section>
+</section>
+</section>
+<section id="practices-on-additional-aspects" class="level1">
+<h1>Practices on Additional aspects</h1>
+<section id="objective-test-ot-questions" class="level2">
+<h2 class="anchored" data-anchor-id="objective-test-ot-questions">Objective Test (OT) questions</h2>
+<section id="q1-tax-point" class="level3">
+<h3 class="anchored" data-anchor-id="q1-tax-point">Q1: Tax point</h3>
+<div class="callout callout-style-simple callout-none no-icon">
+<div class="callout-body d-flex">
+<div class="callout-icon-container">
+<i class="callout-icon no-icon"></i>
+</div>
+<div class="callout-body-container">
+<p>Eastwood Ltd sold goods to a customer for £4,400. The goods were made available to the customer on 14 June although the customer paid in full on 10 June. An invoice was issued on 15 June. The tax point for this supply is:</p>
+<p><strong>A. 10 June</strong><br>
+B. 14 June<br>
+C. 15 June<br>
+D. 28 June</p>
+<p>As the payment was made earlier, the 14 day invoice rule is irrelevant.</p>
+</div>
+</div>
+</div>
+</section>
+<section id="q2-input-vat" class="level3">
+<h3 class="anchored" data-anchor-id="q2-input-vat">Q2: Input VAT</h3>
+<div class="callout callout-style-simple callout-none no-icon">
+<div class="callout-body d-flex">
+<div class="callout-icon-container">
+<i class="callout-icon no-icon"></i>
+</div>
+<div class="callout-body-container">
+<p>Bennett Ltd is registered for VAT and makes wholly taxable supplies.<br>
+Bennett Ltd incurred the following expenditure (<strong>exclusive</strong> of VAT unless stated otherwise).</p>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 75%">
+<col style="width: 24%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Item</th>
+<th>Amount (£)</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>General expenses (inclusive of standard rate VAT)</td>
+<td>46,920</td>
+</tr>
+<tr class="even">
+<td>Capital purchases:</td>
+<td></td>
+</tr>
+<tr class="odd">
+<td>– Car (used by sales director partly for private purposes)</td>
+<td>15,000</td>
+</tr>
+<tr class="even">
+<td>– Van</td>
+<td>12,000</td>
+</tr>
+</tbody>
+</table>
+<p><strong>How much input VAT can Bennett Ltd reclaim in respect of the above expenditure?</strong></p>
+<p>A. £11,784<br>
+B. £13,220<br>
+C. £9,820<br>
+<strong>D. £10,220</strong></p>
+</div>
+</div>
+</div>
+</section>
+<section id="q3-output-vat" class="level3">
+<h3 class="anchored" data-anchor-id="q3-output-vat">Q3: Output VAT</h3>
+<div class="callout callout-style-simple callout-none no-icon">
+<div class="callout-body d-flex">
+<div class="callout-icon-container">
+<i class="callout-icon no-icon"></i>
+</div>
+<div class="callout-body-container">
+<p>Banana plc is registered for VAT. In the quarter to 31 December 2025 it made the following standard-rated supplies <strong>(all VAT-exclusive)</strong>:</p>
+<ol type="1">
+<li><p>Cash sales to non-VAT registered members of the public of <strong>£40,000</strong>.</p></li>
+<li><p>Credit sales to <em>two VAT registered companies</em> on 1 November 2025 for <strong>£1,200 each</strong>. Banana plc offered both companies a <strong>5% discount</strong> for paying within 14 days. <em>Only one</em> of the companies paid within the discount period.</p></li>
+</ol>
+<p><strong>How much output VAT must Banana plc pay to HMRC in respect of the quarter to 31 December 2025?</strong></p>
+<p><strong>A. £8,468</strong><br>
+B. £7,135<br>
+C. £8,456<br>
+D. £7,147</p>
+</div>
+</div>
+</div>
+</section>
+<section id="q4-tax-point" class="level3">
+<h3 class="anchored" data-anchor-id="q4-tax-point">Q4: Tax point</h3>
+<div class="callout callout-style-simple callout-none no-icon">
+<div class="callout-body d-flex">
+<div class="callout-icon-container">
+<i class="callout-icon no-icon"></i>
+</div>
+<div class="callout-body-container">
+<p>J Ltd received an order for 18,000 widgets on 14 December 2025. J Ltd despatched these to the customer on 18 December 2025. An invoice was sent on 31 December 2025 and full payment was received on 15 January 2026.</p>
+<p>What is the tax point (i.e.&nbsp;the deemed date of sale for VAT purposes) for the sale of the widgets?</p>
+<p>A. 18 December 2025<br>
+<strong>B. 31 December 2025</strong><br>
+C. 15 January 2026<br>
+D. 14 December 2025</p>
+</div>
+</div>
+</div>
+</section>
+<section id="q5-vat-registration" class="level3">
+<h3 class="anchored" data-anchor-id="q5-vat-registration">Q5: VAT registration</h3>
+<div class="callout callout-style-simple callout-none no-icon">
+<div class="callout-body d-flex">
+<div class="callout-icon-container">
+<i class="callout-icon no-icon"></i>
+</div>
+<div class="callout-body-container">
+<p>Which of the following VAT registration statements are true?</p>
+<ol type="1">
+<li>A business making wholly zero-rated supplies cannot register for VAT.</li>
+<li>A business which has a taxable turnover of £60,000 in its first year of trading cannot register for VAT.</li>
+<li>A business making only exempt supplies can register for VAT.</li>
+</ol>
+<p>A. 1 and 2 only<br>
+B. 2 and 3 only<br>
+<strong>C. None of them</strong><br>
+D. All of them</p>
+</div>
+</div>
+</div>
+</section>
+</section>
+</section>
+
+</main>
+<!-- /main column -->
+<script id="quarto-html-after-body" type="application/javascript">
+  window.document.addEventListener("DOMContentLoaded", function (event) {
+    const icon = "";
+    const anchorJS = new window.AnchorJS();
+    anchorJS.options = {
+      placement: 'right',
+      icon: icon
+    };
+    anchorJS.add('.anchored');
+    const isCodeAnnotation = (el) => {
+      for (const clz of el.classList) {
+        if (clz.startsWith('code-annotation-')) {                     
+          return true;
+        }
+      }
+      return false;
+    }
+    const onCopySuccess = function(e) {
+      // button target
+      const button = e.trigger;
+      // don't keep focus
+      button.blur();
+      // flash "checked"
+      button.classList.add('code-copy-button-checked');
+      var currentTitle = button.getAttribute("title");
+      button.setAttribute("title", "Copied!");
+      let tooltip;
+      if (window.bootstrap) {
+        button.setAttribute("data-bs-toggle", "tooltip");
+        button.setAttribute("data-bs-placement", "left");
+        button.setAttribute("data-bs-title", "Copied!");
+        tooltip = new bootstrap.Tooltip(button, 
+          { trigger: "manual", 
+            customClass: "code-copy-button-tooltip",
+            offset: [0, -8]});
+        tooltip.show();    
+      }
+      setTimeout(function() {
+        if (tooltip) {
+          tooltip.hide();
+          button.removeAttribute("data-bs-title");
+          button.removeAttribute("data-bs-toggle");
+          button.removeAttribute("data-bs-placement");
+        }
+        button.setAttribute("title", currentTitle);
+        button.classList.remove('code-copy-button-checked');
+      }, 1000);
+      // clear code selection
+      e.clearSelection();
+    }
+    const getTextToCopy = function(trigger) {
+      const outerScaffold = trigger.parentElement.cloneNode(true);
+      const codeEl = outerScaffold.querySelector('code');
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
+    }
+    const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
+      text: getTextToCopy
+    });
+    clipboard.on('success', onCopySuccess);
+    if (window.document.getElementById('quarto-embedded-source-code-modal')) {
+      const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
+        text: getTextToCopy,
+        container: window.document.getElementById('quarto-embedded-source-code-modal')
+      });
+      clipboardModal.on('success', onCopySuccess);
+    }
+      var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+      var mailtoRegex = new RegExp(/^mailto:/);
+        var filterRegex = new RegExp('/' + window.location.host + '/');
+      var isInternal = (href) => {
+          return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+      }
+      // Inspect non-navigation links and adorn them if external
+     var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
+      for (var i=0; i<links.length; i++) {
+        const link = links[i];
+        if (!isInternal(link.href)) {
+          // undo the damage that might have been done by quarto-nav.js in the case of
+          // links that we want to consider external
+          if (link.dataset.originalHref !== undefined) {
+            link.href = link.dataset.originalHref;
+          }
+        }
+      }
+    function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
+      const config = {
+        allowHTML: true,
+        maxWidth: 500,
+        delay: 100,
+        arrow: false,
+        appendTo: function(el) {
+            return el.parentElement;
+        },
+        interactive: true,
+        interactiveBorder: 10,
+        theme: 'quarto',
+        placement: 'bottom-start',
+      };
+      if (contentFn) {
+        config.content = contentFn;
+      }
+      if (onTriggerFn) {
+        config.onTrigger = onTriggerFn;
+      }
+      if (onUntriggerFn) {
+        config.onUntrigger = onUntriggerFn;
+      }
+      window.tippy(el, config); 
+    }
+    const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+    for (var i=0; i<noterefs.length; i++) {
+      const ref = noterefs[i];
+      tippyHover(ref, function() {
+        // use id or data attribute instead here
+        let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+        try { href = new URL(href).hash; } catch {}
+        const id = href.replace(/^#\/?/, "");
+        const note = window.document.getElementById(id);
+        if (note) {
+          return note.innerHTML;
+        } else {
+          return "";
+        }
+      });
+    }
+    const xrefs = window.document.querySelectorAll('a.quarto-xref');
+    const processXRef = (id, note) => {
+      // Strip column container classes
+      const stripColumnClz = (el) => {
+        el.classList.remove("page-full", "page-columns");
+        if (el.children) {
+          for (const child of el.children) {
+            stripColumnClz(child);
+          }
+        }
+      }
+      stripColumnClz(note)
+      if (id === null || id.startsWith('sec-')) {
+        // Special case sections, only their first couple elements
+        const container = document.createElement("div");
+        if (note.children && note.children.length > 2) {
+          container.appendChild(note.children[0].cloneNode(true));
+          for (let i = 1; i < note.children.length; i++) {
+            const child = note.children[i];
+            if (child.tagName === "P" && child.innerText === "") {
+              continue;
+            } else {
+              container.appendChild(child.cloneNode(true));
+              break;
+            }
+          }
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(container);
+          }
+          return container.innerHTML
+        } else {
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(note);
+          }
+          return note.innerHTML;
+        }
+      } else {
+        // Remove any anchor links if they are present
+        const anchorLink = note.querySelector('a.anchorjs-link');
+        if (anchorLink) {
+          anchorLink.remove();
+        }
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(note);
+        }
+        if (note.classList.contains("callout")) {
+          return note.outerHTML;
+        } else {
+          return note.innerHTML;
+        }
+      }
+    }
+    for (var i=0; i<xrefs.length; i++) {
+      const xref = xrefs[i];
+      tippyHover(xref, undefined, function(instance) {
+        instance.disable();
+        let url = xref.getAttribute('href');
+        let hash = undefined; 
+        if (url.startsWith('#')) {
+          hash = url;
+        } else {
+          try { hash = new URL(url).hash; } catch {}
+        }
+        if (hash) {
+          const id = hash.replace(/^#\/?/, "");
+          const note = window.document.getElementById(id);
+          if (note !== null) {
+            try {
+              const html = processXRef(id, note.cloneNode(true));
+              instance.setContent(html);
+            } finally {
+              instance.enable();
+              instance.show();
+            }
+          } else {
+            // See if we can fetch this
+            fetch(url.split('#')[0])
+            .then(res => res.text())
+            .then(html => {
+              const parser = new DOMParser();
+              const htmlDoc = parser.parseFromString(html, "text/html");
+              const note = htmlDoc.getElementById(id);
+              if (note !== null) {
+                const html = processXRef(id, note);
+                instance.setContent(html);
+              } 
+            }).finally(() => {
+              instance.enable();
+              instance.show();
+            });
+          }
+        } else {
+          // See if we can fetch a full url (with no hash to target)
+          // This is a special case and we should probably do some content thinning / targeting
+          fetch(url)
+          .then(res => res.text())
+          .then(html => {
+            const parser = new DOMParser();
+            const htmlDoc = parser.parseFromString(html, "text/html");
+            const note = htmlDoc.querySelector('main.content');
+            if (note !== null) {
+              // This should only happen for chapter cross references
+              // (since there is no id in the URL)
+              // remove the first header
+              if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
+                note.children[0].remove();
+              }
+              const html = processXRef(null, note);
+              instance.setContent(html);
+            } 
+          }).finally(() => {
+            instance.enable();
+            instance.show();
+          });
+        }
+      }, function(instance) {
+      });
+    }
+        let selectedAnnoteEl;
+        const selectorForAnnotation = ( cell, annotation) => {
+          let cellAttr = 'data-code-cell="' + cell + '"';
+          let lineAttr = 'data-code-annotation="' +  annotation + '"';
+          const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+          return selector;
+        }
+        const selectCodeLines = (annoteEl) => {
+          const doc = window.document;
+          const targetCell = annoteEl.getAttribute("data-target-cell");
+          const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+          const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+          const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+          const lineIds = lines.map((line) => {
+            return targetCell + "-" + line;
+          })
+          let top = null;
+          let height = null;
+          let parent = null;
+          if (lineIds.length > 0) {
+              //compute the position of the single el (top and bottom and make a div)
+              const el = window.document.getElementById(lineIds[0]);
+              top = el.offsetTop;
+              height = el.offsetHeight;
+              parent = el.parentElement.parentElement;
+            if (lineIds.length > 1) {
+              const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+              const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+              height = bottom - top;
+            }
+            if (top !== null && height !== null && parent !== null) {
+              // cook up a div (if necessary) and position it 
+              let div = window.document.getElementById("code-annotation-line-highlight");
+              if (div === null) {
+                div = window.document.createElement("div");
+                div.setAttribute("id", "code-annotation-line-highlight");
+                div.style.position = 'absolute';
+                parent.appendChild(div);
+              }
+              div.style.top = top - 2 + "px";
+              div.style.height = height + 4 + "px";
+              div.style.left = 0;
+              let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+              if (gutterDiv === null) {
+                gutterDiv = window.document.createElement("div");
+                gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+                gutterDiv.style.position = 'absolute';
+                const codeCell = window.document.getElementById(targetCell);
+                const gutter = codeCell.querySelector('.code-annotation-gutter');
+                gutter.appendChild(gutterDiv);
+              }
+              gutterDiv.style.top = top - 2 + "px";
+              gutterDiv.style.height = height + 4 + "px";
+            }
+            selectedAnnoteEl = annoteEl;
+          }
+        };
+        const unselectCodeLines = () => {
+          const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+          elementsIds.forEach((elId) => {
+            const div = window.document.getElementById(elId);
+            if (div) {
+              div.remove();
+            }
+          });
+          selectedAnnoteEl = undefined;
+        };
+          // Handle positioning of the toggle
+      window.addEventListener(
+        "resize",
+        throttle(() => {
+          elRect = undefined;
+          if (selectedAnnoteEl) {
+            selectCodeLines(selectedAnnoteEl);
+          }
+        }, 10)
+      );
+      function throttle(fn, ms) {
+      let throttle = false;
+      let timer;
+        return (...args) => {
+          if(!throttle) { // first call gets through
+              fn.apply(this, args);
+              throttle = true;
+          } else { // all the others get throttled
+              if(timer) clearTimeout(timer); // cancel #2
+              timer = setTimeout(() => {
+                fn.apply(this, args);
+                timer = throttle = false;
+              }, ms);
+          }
+        };
+      }
+        // Attach click handler to the DT
+        const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+        for (const annoteDlNode of annoteDls) {
+          annoteDlNode.addEventListener('click', (event) => {
+            const clickedEl = event.target;
+            if (clickedEl !== selectedAnnoteEl) {
+              unselectCodeLines();
+              const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+              if (activeEl) {
+                activeEl.classList.remove('code-annotation-active');
+              }
+              selectCodeLines(clickedEl);
+              clickedEl.classList.add('code-annotation-active');
+            } else {
+              // Unselect the line
+              unselectCodeLines();
+              clickedEl.classList.remove('code-annotation-active');
+            }
+          });
+        }
+    const findCites = (el) => {
+      const parentEl = el.parentElement;
+      if (parentEl) {
+        const cites = parentEl.dataset.cites;
+        if (cites) {
+          return {
+            el,
+            cites: cites.split(' ')
+          };
+        } else {
+          return findCites(el.parentElement)
+        }
+      } else {
+        return undefined;
+      }
+    };
+    var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+    for (var i=0; i<bibliorefs.length; i++) {
+      const ref = bibliorefs[i];
+      const citeInfo = findCites(ref);
+      if (citeInfo) {
+        tippyHover(citeInfo.el, function() {
+          var popup = window.document.createElement('div');
+          citeInfo.cites.forEach(function(cite) {
+            var citeDiv = window.document.createElement('div');
+            citeDiv.classList.add('hanging-indent');
+            citeDiv.classList.add('csl-entry');
+            var biblioDiv = window.document.getElementById('ref-' + cite);
+            if (biblioDiv) {
+              citeDiv.innerHTML = biblioDiv.innerHTML;
+            }
+            popup.appendChild(citeDiv);
+          });
+          return popup.innerHTML;
+        });
+      }
+    }
+  });
+  </script>
+</div> <!-- /content -->
+
+
+
+
+</body></html>

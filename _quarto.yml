@@ -1,0 +1,42 @@
+project:
+  type: book
+
+book:
+  title: "ACCA TX-UK Study Papers"
+  subtitle: "Quarto book project"
+  chapters:
+    - index.qmd
+    - part: "The UK Tax System"
+      chapters:
+        - C01_TX_SYS.qmd
+    - part: "Income Tax and NIC"
+      chapters:
+        - C02_IT_ILIB.qmd
+        - C03_ADD_ASS.qmd
+        - C04_Prop_TA.qmd
+        - C05_Emp_Inc.qmd
+  appendices:
+    - Syllabus.qmd
+
+format:
+  html:
+    toc: true
+    number-sections: true
+    theme:
+      light: flatly
+      dark: darkly
+  pdf:
+    pdf-engine: lualatex
+    toc: true
+    toc-depth: 3
+    number-sections: true
+    papersize: a4
+    geometry:
+      - margin=2.5cm
+    include-in-header:
+      - mdpi-header.tex
+
+bibliography: mdpi-template.bib
+
+execute:
+  freeze: auto

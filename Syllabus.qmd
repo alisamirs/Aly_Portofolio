@@ -1,17 +1,5 @@
 ---
-title: "ACCA F6 Tax UK Syllabus"
-subtitle: "Optional Subtitle"
-format:
-  pdf:
-    pdf-engine: lualatex
-    toc: false
-    number-sections: true
-    papersize: a4
-    geometry:
-      - margin=2.5cm
-    include-in-header:
-      - mdpi-header.tex
-bibliography: mdpi-template.bib
+title: "TX-UK Syllabus"
 abstract: |
     The aim of the syllabus is to develop knowledge and skills relating to the tax system as applicable to individuals, single companies, and groups of companies.
     The syllabus for Taxation - United Kingdom (TX-UK) introduces students to the subject of taxation and provides the core knowledge of the underlying principles and major technical areas of taxation as they affect the activities of individuals and businesses.

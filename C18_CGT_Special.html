@@ -1,0 +1,1875 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.9.37">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+
+<title>Chapter 18: Computation of gains: Special rules</title>
+<style>
+/* Default styles provided by pandoc.
+** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
+*/
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+  vertical-align: middle;
+}
+</style>
+
+
+<script src="C18_CGT_Special_files/libs/clipboard/clipboard.min.js"></script>
+<script src="C18_CGT_Special_files/libs/quarto-html/quarto.js" type="module"></script>
+<script src="C18_CGT_Special_files/libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="C18_CGT_Special_files/libs/quarto-html/popper.min.js"></script>
+<script src="C18_CGT_Special_files/libs/quarto-html/tippy.umd.min.js"></script>
+<script src="C18_CGT_Special_files/libs/quarto-html/anchor.min.js"></script>
+<link href="C18_CGT_Special_files/libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="C18_CGT_Special_files/libs/quarto-html/quarto-syntax-highlighting-7f8f88aac4f3542376d5c11b86a4c14d.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="C18_CGT_Special_files/libs/bootstrap/bootstrap.min.js"></script>
+<link href="C18_CGT_Special_files/libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="C18_CGT_Special_files/libs/bootstrap/bootstrap-efbb37e9afcc02144ebbc7afd12a776f.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+
+  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
+  <script defer="" src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
+
+<script type="text/javascript">
+const typesetMath = (el) => {
+  if (window.MathJax) {
+    // MathJax Typeset
+    window.MathJax.typeset([el]);
+  } else if (window.katex) {
+    // KaTeX Render
+    var mathElements = el.getElementsByClassName("math");
+    var macros = [];
+    for (var i = 0; i < mathElements.length; i++) {
+      var texText = mathElements[i].firstChild;
+      if (mathElements[i].tagName == "SPAN" && texText && texText.data) {
+        window.katex.render(texText.data, mathElements[i], {
+          displayMode: mathElements[i].classList.contains('display'),
+          throwOnError: false,
+          macros: macros,
+          fleqn: false
+        });
+      }
+    }
+  }
+}
+window.Quarto = {
+  typesetMath
+};
+</script>
+
+</head>
+
+<body class="fullcontent quarto-light">
+
+<div id="quarto-content" class="page-columns page-rows-contents page-layout-article">
+
+<main class="content" id="quarto-document-content">
+
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<h1 class="title">Chapter 18: Computation of gains: Special rules</h1>
+</div>
+
+
+
+<div class="quarto-title-meta">
+
+    
+  
+    
+  </div>
+  
+<div>
+  <div class="abstract">
+    <div class="block-title">Abstract</div>
+    <ol type="1">
+    <li>understand the treatment of transfers between spouses or between a couple in a civil partnership. <br></li>
+    <li>understand the amount of allowable expenditure for a part disposal. <br></li>
+    <li>recognise the treatment where an asset is damaged, lost or destroyed, and the implications of receiving insurance proceeds and reinvesting such proceeds. <br></li>
+    <li>identify when chattels and wasting assets are exempt. <br></li>
+    <li>compute the chargeable gain when a chattel or a wasting asset is disposed of. <br></li>
+    <li>understand basic capital gains tax planning. <br></li>
+    </ol>
+  </div>
+</div>
+
+
+</header>
+
+
+<p><img src="20260814153458.png" class="img-fluid"></p>
+<p><strong><em>Introduction</em></strong><br>
+The basic pro forma for calculating gains on the disposal of assets is adapted by special rules in the following circumstances:</p>
+<ol type="1">
+<li>transfers between spouses or civil partners</li>
+<li>part disposals</li>
+<li>chattels and wasting assets</li>
+<li>assets lost or destroyed</li>
+<li>damaged assets.</li>
+</ol>
+<p>Transfers between spouses or civil partners Where an asset is transferred between spouses or civil partners:</p>
+<p>• no gain or loss arises on the transfer • any actual proceeds are ignored • the transferor is deemed to dispose of the asset at its acquisition cost • the deemed proceeds of the transferor are treated as the deemed</p>
+<p>acquisition cost of the transferee (i.e.&nbsp;the recipient spouse acquires the asset at its original acquisition cost).</p>
+<section id="transfers-between-spouses-or-civil-partners" class="level1">
+<h1>Transfers between spouses or civil partners</h1>
+<p>Where an asset is transferred between spouses or civil partners:</p>
+<ul>
+<li>no gain or loss arises on the transfer</li>
+<li>any actual proceeds are ignored</li>
+<li>the transferor is deemed to dispose of the asset at its acquisition cost</li>
+<li>the deemed proceeds of the transferor are treated as the deemed</li>
+</ul>
+<p>acquisition cost of the transferee (i.e.&nbsp;the recipient spouse acquires the asset at its original acquisition cost).</p>
+<section id="example-1-transfers-between-spouses-and-civil-partners" class="level4">
+<h4 class="anchored" data-anchor-id="example-1-transfers-between-spouses-and-civil-partners">Example 1: Transfers between spouses and civil partners</h4>
+<p>David purchased some jewellery in August 2005 for £50,000. In July 2025 he gave it to his wife Victoria when it was worth £200,000.</p>
+<p>Calculate the deemed sale proceeds of David’s disposal and state Victoria’s deemed acquisition cost.</p>
+<p><strong>Solution</strong></p>
+<p>David is <strong>deemed</strong> to have transferred the asset at its acquisition cost so that no gain or loss arises on the transfer.</p>
+<p>The deemed proceeds are therefore £50,000 and Victoria’s deemed acquisition cost is the same as David’s deemed proceeds (i.e.&nbsp;£50,000).</p>
+<p><strong><em>Subsequent disposal by transferee</em></strong> On a subsequent disposal of the transferred asset by the transferee, the deemed acquisition cost (often referred to as the base cost of the asset) is the original acquisition cost to the first spouse.</p>
+</section>
+<section id="example-2-subsequent-disposal-cg" class="level4">
+<h4 class="anchored" data-anchor-id="example-2-subsequent-disposal-cg">Example 2: Subsequent disposal CG</h4>
+<p>Fernanda acquired a <strong>holiday cottage for £29,175</strong> on 1 September 1997 and transferred it to her husband, Luiz, on 31 August 2018. Luiz sold the cottage to a third party on 31 January 2026 for <strong>£42,000</strong>.</p>
+<p>Compute the <strong>chargeable gain</strong> on Luiz’s disposal in January 2025.</p>
+<p><strong>Solution</strong></p>
+<table class="caption-top table">
+<thead>
+<tr class="header">
+<th></th>
+<th>£</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Chargeable gain (before deduction)</td>
+<td>42,000</td>
+</tr>
+<tr class="even">
+<td>Less: Deduction</td>
+<td>(29,175)</td>
+</tr>
+<tr class="odd">
+<td><strong>Chargeable gain</strong></td>
+<td><strong>12,825</strong></td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="example-3-subsequent-disposal-cg" class="level4">
+<h4 class="anchored" data-anchor-id="example-3-subsequent-disposal-cg">Example 3: Subsequent disposal CG</h4>
+<p>John acquired a warehouse as an investment for <strong>£100,000</strong> on 1 September 2004. On 1 May 2018 he gave the warehouse to his wife,</p>
+<p>Tania, when it was worth £300,000. Tania sold the warehouse for <strong>£341,000</strong> on 1 July 2025. Tania had no other capital disposals in the tax year 2025/26, but has capital losses brought forward of <strong>£11,800</strong>. Her taxable income for the tax year 2025/26 is £45,000.</p>
+<p>Calculate Tania’s capital gains tax payable in the tax year 2025/26.</p>
+<p><strong>Solution</strong></p>
+<p><strong><em>Planning opportunities</em></strong><br>
+Married couples and civil partners can transfer assets between them at no tax cost (i.e.&nbsp;the assets are transferred at no gain/no loss). This provides opportunities to minimise their total capital gains tax liability.</p>
+<p>They can transfer assets between them to maximise the use of:</p>
+<ul>
+<li>each individual’s annual exempt amount</li>
+<li>each individual’s basic rate band, and</li>
+<li>capital losses.</li>
+</ul>
+</section>
+<section id="example-4-cgt-payable-advise" class="level4">
+<h4 class="anchored" data-anchor-id="example-4-cgt-payable-advise">Example 4: CGT payable Advise</h4>
+<p>Tereza, who is married to Kerry, made three chargeable disposals in the tax year 2025/26, as follows:</p>
+<table class="caption-top table">
+<thead>
+<tr class="header">
+<th>Asset</th>
+<th>Chargeable gain</th>
+<th>£</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Asset 1</td>
+<td>Chargeable gain</td>
+<td>10,900</td>
+</tr>
+<tr class="even">
+<td>Asset 2</td>
+<td>Chargeable gain</td>
+<td>19,600</td>
+</tr>
+<tr class="odd">
+<td>Asset 3</td>
+<td>Chargeable gain</td>
+<td>39,700</td>
+</tr>
+</tbody>
+</table>
+<p>Tereza’s only income for the year is a <strong>trading profit of £45,270</strong>, whilst Kerry has no taxable income.</p>
+<ol type="a">
+<li><p>Calculate Tereza’s CGT payable for the tax year 2025/26.</p></li>
+<li><p>Advise how tax savings could have been made by the couple, and calculate the revised CGT payable by the couple assuming they had taken your advice.</p></li>
+</ol>
+<hr>
+<p><strong>Solution</strong></p>
+<ol type="a">
+<li><strong>Tereza’s CGT payable – 2025/26</strong></li>
+</ol>
+<table class="caption-top table">
+<thead>
+<tr class="header">
+<th></th>
+<th>£</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Asset 1</td>
+<td>10,900</td>
+</tr>
+<tr class="even">
+<td>Asset 2</td>
+<td>19,600</td>
+</tr>
+<tr class="odd">
+<td>Asset 3</td>
+<td>39,700</td>
+</tr>
+<tr class="even">
+<td><strong>Total chargeable gains</strong></td>
+<td><strong>70,200</strong></td>
+</tr>
+<tr class="odd">
+<td>Less: AEA</td>
+<td>(3,000)</td>
+</tr>
+<tr class="even">
+<td><strong>Taxable gains</strong></td>
+<td><strong>67,200</strong></td>
+</tr>
+</tbody>
+</table>
+<table class="caption-top table">
+<thead>
+<tr class="header">
+<th></th>
+<th>£</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Basic rate (W) – £5,000 × 18%</td>
+<td>900</td>
+</tr>
+<tr class="even">
+<td>Higher rate – £62,200 × 24%</td>
+<td>14,928</td>
+</tr>
+<tr class="odd">
+<td><strong>Capital gains tax payable</strong></td>
+<td><strong>15,828</strong></td>
+</tr>
+</tbody>
+</table>
+<p><strong>Working:</strong><br>
+Taxable income = (£45,270 – £12,570) = £32,700<br>
+Remaining BR band = (£37,700 – £32,700) = £5,000</p>
+<p><strong>Note:</strong><br>
+The question stated Tereza’s trading income/profit rather than her taxable income and therefore her taxable income must be calculated to determine the remaining basic rate band.</p>
+<hr>
+<ol start="2" type="a">
+<li><strong><em>Advice</em></strong></li>
+</ol>
+<p>As a married couple, Kerry and Tereza can transfer assets between themselves at no gain/no loss (i.e.&nbsp;at no tax cost).</p>
+<p>Accordingly, they should transfer assets between themselves to ensure that they both use their AEAs and basic rate bands.</p>
+<p>If Tereza had transferred Asset 3 to Kerry, then the gain on the asset would be reduced by her AEA of £3,000 and taxed at 18%.</p>
+<p><strong>Tereza’s revised CGT payable for the year is as follows:</strong></p>
+<table class="caption-top table">
+<thead>
+<tr class="header">
+<th></th>
+<th>£</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Asset 1</td>
+<td>10,900</td>
+</tr>
+<tr class="even">
+<td>Asset 2</td>
+<td>19,600</td>
+</tr>
+<tr class="odd">
+<td><strong>Total</strong></td>
+<td><strong>30,500</strong></td>
+</tr>
+<tr class="even">
+<td>Less: AEA</td>
+<td>(3,000)</td>
+</tr>
+<tr class="odd">
+<td><strong>Taxable gain</strong></td>
+<td><strong>27,500</strong></td>
+</tr>
+</tbody>
+</table>
+<table class="caption-top table">
+<thead>
+<tr class="header">
+<th></th>
+<th>£</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Basic rate (as before) – £5,000 × 18%</td>
+<td>900</td>
+</tr>
+<tr class="even">
+<td>Higher rate – £22,500 × 24%</td>
+<td>5,400</td>
+</tr>
+<tr class="odd">
+<td><strong>Capital gains tax payable</strong></td>
+<td><strong>6,300</strong></td>
+</tr>
+</tbody>
+</table>
+<hr>
+<p><strong>Kerry’s CGT payable would be:</strong></p>
+<table class="caption-top table">
+<thead>
+<tr class="header">
+<th></th>
+<th>£</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Asset 3</td>
+<td>39,700</td>
+</tr>
+<tr class="even">
+<td>Less: AEA</td>
+<td>(3,000)</td>
+</tr>
+<tr class="odd">
+<td><strong>Taxable gain</strong></td>
+<td><strong>36,700</strong></td>
+</tr>
+<tr class="even">
+<td>Basic rate – £36,700 × 18%</td>
+<td>6,606</td>
+</tr>
+<tr class="odd">
+<td><strong>Capital gains tax payable</strong></td>
+<td><strong>6,606</strong></td>
+</tr>
+</tbody>
+</table>
+<table class="caption-top table">
+<thead>
+<tr class="header">
+<th></th>
+<th>£</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Total CGT payable (£6,300 + £6,606)</td>
+<td>12,906</td>
+</tr>
+<tr class="even">
+<td><strong>Tax saving</strong> (£15,828 – £12,906)</td>
+<td>2,922</td>
+</tr>
+</tbody>
+</table>
+<p><strong>Alternative tax saving calculation:</strong></p>
+<div class="line-block">Use of Kerry’s AEA (£3,000 × 24%) | 720 |<br>
+Use of Kerry’s basic rate band (£36,700 × (24% – 18%)) | 2,202 |<br>
+<strong>Total tax saving</strong> | <strong>2,922</strong> |</div>
+</section>
+</section>
+<section id="part-disposals" class="level1">
+<h1>Part disposals</h1>
+<p>When there is a part disposal of an asset, we need to identify how much of the original cost of the asset relates to the part of the asset disposed of.</p>
+<p>The allowable cost of the part of the asset disposed of is calculated using the following formula:</p>
+<p>Cost × A/(A + B)<br>
+<strong><em>Where:</em></strong></p>
+<p>A = Value of the part disposed of B = Market value of the remainder at the time of the part disposal.</p>
+<p>The allowable cost, calculated using the formula, is then used in the basic capital gains tax computation as normal. Incidental costs of acquisition or enhancement expenditure, relating to:</p>
+<ul>
+<li>solely the part of the asset being disposed of = deducted in full in the chargeable gain calculation</li>
+<li>the whole asset (rather than just the part being disposed of) = apportioned in the same way as cost (i.e.&nbsp;A/A+B).</li>
+</ul>
+<section id="example-5-part-disposals" class="level4">
+<h4 class="anchored" data-anchor-id="example-5-part-disposals">Example 5: Part disposals</h4>
+<p>Yayha acquired 20 hectares of land in March 2008 for <strong>£6,000</strong>. On 1 June 2025, he disposed of 8 hectares for <strong>£8,000</strong>. The value of the remaining 12 hectares at this date was <strong>£15,000</strong>.<br>
+On 1 July 2025, Yayha sold the remainder of the land for £18,000.</p>
+<p>Calculate the <strong>chargeable gains</strong> arising on the disposals of land in the tax year 2025/26.</p>
+<p><strong>Solution</strong></p>
+<p><strong><em>1 June 2025 disposal</em></strong></p>
+<table class="caption-top table">
+<thead>
+<tr class="header">
+<th></th>
+<th>£</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Sale proceeds</td>
+<td>8,000</td>
+</tr>
+<tr class="even">
+<td>Less: Deemed cost of part disposed of</td>
+<td></td>
+</tr>
+<tr class="odd">
+<td>£6,000 × £8,000 / (£8,000 + £15,000)</td>
+<td>(2,087)</td>
+</tr>
+<tr class="even">
+<td><strong>Chargeable gain</strong></td>
+<td><strong>5,913</strong></td>
+</tr>
+</tbody>
+</table>
+<blockquote class="blockquote">
+<p><strong>Note</strong> that the number of hectares owned and sold is irrelevant in calculating the cost of the land disposed of. <strong>Always</strong> use the (A/A + B) formula, which uses the <strong>value</strong> of the asset disposed of and retained.</p>
+</blockquote>
+<p><strong><em>1 July 2025 disposal</em></strong></p>
+<table class="caption-top table">
+<thead>
+<tr class="header">
+<th></th>
+<th>£</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Sale proceeds</td>
+<td>18,000</td>
+</tr>
+<tr class="even">
+<td>Less: Deemed cost of the remainder</td>
+<td></td>
+</tr>
+<tr class="odd">
+<td>(£6,000 – £2,087 (above))</td>
+<td>(3,913)</td>
+</tr>
+<tr class="even">
+<td><strong>Chargeable gain</strong></td>
+<td><strong>14,087</strong></td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="example-6-part-disposals" class="level4">
+<h4 class="anchored" data-anchor-id="example-6-part-disposals">Example 6: Part disposals</h4>
+<p>Jacob bought 10 hectares of land for £8,000 in August 2012. He sold 3 hectares of the land for £20,000 in January 2026. At that time the remaining land was worth £60,000.</p>
+<p>In May 2014, Jacob spent £3,000 levelling the 3 hectares of land that were sold in January 2026.</p>
+<p>In March 2026 Jacob sold the remaining hectares for £66,300. Jacob’s employment income for the tax year 2025/26 is £30,710. He has no other income.</p>
+<p>Calculate the chargeable gains arising on the two disposals of land and the capital gains tax payable for the tax year 2025/26. State the due date of payment.</p>
+<p><strong>Solution</strong></p>
+</section>
+<section id="example-7-part-disposals" class="level4">
+<h4 class="anchored" data-anchor-id="example-7-part-disposals">Example 7: Part disposals</h4>
+<p>Gemma a bought a commercial investment property in May 2010 for <strong>£50,000</strong>. On 1 July 2016 she disposed of part of the land attached to the property for <strong>£40,000</strong>. The value of the property and the remaining land at this date was <strong>£100,000</strong>.</p>
+<p>Gemma paid legal fees of <strong>£4,500</strong> in relation to the purchase of the investment property and the land.</p>
+<p>On 1 August 2025 Gemma sold the property and remaining land for <strong>£191,300</strong>.</p>
+<p>Gemma’s taxable income for the tax year 2025/26 is <strong>£52,000</strong>.</p>
+<p>Calculate the capital gains tax payable for the tax year 2025/26.</p>
+<p><strong>Solution</strong></p>
+</section>
+</section>
+<section id="chattels-and-wasting-assets" class="level1">
+<h1>Chattels and wasting assets</h1>
+<p>It is important to be able to identify a chattel and a wasting asset as there are special rules for calculating the gain or loss arising on them.</p>
+<section id="chattels" class="level2">
+<h2 class="anchored" data-anchor-id="chattels">Chattels</h2>
+<p>Chattels are defined as <strong>tangible</strong> movable property (e.g.&nbsp;a picture or table).</p>
+<p>Note that the asset must be:</p>
+<ul>
+<li>movable – therefore a building is not a chattel</li>
+<li>tangible – therefore shares are not chattels.</li>
+</ul>
+<p><strong><em>Wasting assets</em></strong><br>
+A wasting asset is an asset with a <strong>predictable life</strong> not exceeding 50 years.<br>
+Chattels may be wasting or non-wasting as follows.</p>
+<table class="caption-top table">
+<thead>
+<tr class="header">
+<th></th>
+<th>Wasting chattels</th>
+<th>Non-wasting chattels</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><strong>Expected life</strong></td>
+<td>Not exceeding 50 years</td>
+<td>More than 50 years</td>
+</tr>
+<tr class="even">
+<td><strong>Examples</strong></td>
+<td>Greyhound</td>
+<td>Antiques</td>
+</tr>
+<tr class="odd">
+<td></td>
+<td>Boat</td>
+<td>Jewellery</td>
+</tr>
+<tr class="even">
+<td></td>
+<td>Plant and machinery</td>
+<td>Paintings</td>
+</tr>
+<tr class="odd">
+<td></td>
+<td>Racehorse</td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<blockquote class="blockquote">
+<p>Plant and machinery are deemed to have a useful life of less than 50 years and are therefore always wasting chattels (however an exception applies to plant and machinery that is eligible for capital allowances).</p>
+</blockquote>
+<section id="exempt-disposals" class="level3">
+<h3 class="anchored" data-anchor-id="exempt-disposals">Exempt disposals</h3>
+<p>Certain disposals of chattels are exempt from capital gains tax as follows.</p>
+<p><img src="20260814204107.png" class="img-fluid"></p>
+<section id="example-1-chattels-wasting-or-non-wasting" class="level4">
+<h4 class="anchored" data-anchor-id="example-1-chattels-wasting-or-non-wasting">Example 1: Chattels (wasting or non-wasting)</h4>
+<p>Hana has made the following disposals in the tax year 2025/26.</p>
+<ol type="1">
+<li>A painting was sold in July 2025 for £5,600. She originally bought it in February 2000 for £3,500.</li>
+<li>A piece of land, which she bought in April 2015 for £2,000 (as an investment), was sold in September 2025 for £5,000.</li>
+<li>She sold a vintage car for £25,000 in November 2025 that had originally cost £5,500 in June 2009.</li>
+<li>She bought a movable crane for £20,000 in August 2002, which she used in her haulage business. She sold the crane for £10,000 in January 2026.</li>
+<li>An antique vase was sold in August 2025 for £10,000. It originally cost £8,000 in April 2010.</li>
+<li>In October 2025 she sold her half share in a racehorse for £5,000, which she had acquired in June 2011 for £4,000.</li>
+</ol>
+<p>For each of the above transactions, state whether they are chattels (wasting or non-wasting) and whether they will be subject to capital gains tax.</p>
+<p><strong>Solution</strong></p>
+<ol type="1">
+<li>The painting is a non-wasting chattel which was bought and sold <strong>for less than £6,000</strong>. This is therefore an <strong>exempt</strong> disposal.</li>
+<li>Land is not movable property and is therefore <strong>not a chattel</strong>. The disposal is therefore <em>chargeable to capital gains tax</em>.</li>
+<li>Cars are always exempt assets for capital gains tax purposes.</li>
+<li>The crane is a <strong>wasting chattel</strong>, which is <strong>eligible for capital allowances</strong> as it is used in a business. The disposal is therefore not an exempt disposal. The loss on disposal however, is not allowable as it is relieved via capital allowances.</li>
+</ol>
+<blockquote class="blockquote">
+<p>Because the crane is used in a trade, it qualifies for capital allowances. That means tax relief has already been given through the capital allowances system .</p>
+</blockquote>
+<blockquote class="blockquote">
+<p>Even though wasting chattels are often exempt from CGT, the exemption does not apply when the asset is used in a business and capital allowances have been claimed. So the disposal must be considered within the capital allowances framework, not CGT exemption rules.</p>
+</blockquote>
+<blockquote class="blockquote">
+<p>If the crane is sold at a loss compared to its cost, that loss is not allowable as a capital loss Because the tax system already provides relief for the decline in value through capital allowances. Allowing a capital loss as well would be double relief, which the rules prevent.</p>
+</blockquote>
+<ol start="5" type="1">
+<li>The antique vase is a non-wasting chattel. As it was bought and sold for more than £6,000 it is chargeable to capital gains tax.</li>
+<li>A racehorse is a wasting chattel and is therefore exempt from capital gains tax.</li>
+</ol>
+</section>
+<section id="example-2-chattels-wasting-or-non-wasting" class="level4">
+<h4 class="anchored" data-anchor-id="example-2-chattels-wasting-or-non-wasting">Example 2: Chattels (wasting or non-wasting)</h4>
+<p>Which of the following disposals are exempt from, and which are chargeable to, capital gains tax?</p>
+<ol type="1">
+<li>Gift of a necklace which was bought for £4,000. Its market value at the date of the gift was £7,000.</li>
+<li>Sale of shares in a quoted trading company for £2,000 which were bought for £1,000.</li>
+<li>Sale of a car, for £5,000, which was used for business purposes. It was acquired for £6,000.</li>
+<li>Sale of a boat for £20,000, which was acquired for £15,000.</li>
+<li>Sale of a painting for £5,000, which was acquired for £1,000.</li>
+<li>Sale of a greyhound for £10,000, which was acquired for £5,000.</li>
+</ol>
+<p><strong>Solution</strong></p>
+</section>
+</section>
+<section id="non-wasting-chattels" class="level3">
+<h3 class="anchored" data-anchor-id="non-wasting-chattels"><strong><em>Non-wasting chattels</em></strong></h3>
+<p>When a non-wasting chattel is disposed of the following rules apply:</p>
+<ol type="1">
+<li><p>asset bought and sold for £6,000 or less = exempt</p></li>
+<li><p>asset bought and sold for more than £6,000 = the chargeable gain is computed in the normal way</p></li>
+<li><p>asset either bought or sold for £6,000 or less = special rules apply:</p>
+<ul>
+<li>Sold at a gain Calculate the chargeable gain as normal but the gain is restricted to a maximum of: 5/3 × (gross disposal consideration – £6,000)</li>
+</ul></li>
+</ol>
+<p>These rules are referred to as the £6,000 rule and can be summarised in the table below:</p>
+<p><img src="20260815045007.png" class="img-fluid"></p>
+<section id="example-3-non-wasting-chattels-cgt" class="level4">
+<h4 class="anchored" data-anchor-id="example-3-non-wasting-chattels-cgt">Example 3: Non-wasting chattels CGT</h4>
+<p>Andrew sold a picture on 1 February 2026 for £6,600. He had acquired it on 1 March 2014 for £3,200.</p>
+<p><strong>Calculate the chargeable gain arising on the disposal.</strong></p>
+<p><strong>Solution</strong></p>
+<p>As the picture is a non-wasting chattel that was sold for more than £6,000, the disposal is not an exempt disposal.</p>
+<table class="caption-top table">
+<thead>
+<tr class="header">
+<th></th>
+<th>£</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Sale proceeds</td>
+<td>6,600</td>
+</tr>
+<tr class="even">
+<td>Less: Cost</td>
+<td>(3,200)</td>
+</tr>
+<tr class="odd">
+<td><strong>Unrestricted gain</strong></td>
+<td><strong>3,400</strong></td>
+</tr>
+</tbody>
+</table>
+<p><strong><em>Gain is restricted to:</em></strong><br>
+<span class="math inline">\(5/3 \times (£6,600 - £6,000) = £1,000\)</span><br>
+so the chargeable gain is <strong>£1,000</strong>.</p>
+</section>
+<section id="example-4-non-wasting-chattels-cgt" class="level4">
+<h4 class="anchored" data-anchor-id="example-4-non-wasting-chattels-cgt">Example 4: Non-wasting chattels CGT</h4>
+<p>Hasan bought an antique table for <strong>£6,500</strong> in September 2011 and sold it for <strong>£5,600</strong> in December 2025. He incurred <strong>£250</strong> to advertise it for sale.</p>
+<p><strong>Calculate the allowable loss arising, if any.</strong></p>
+<p><strong>Solution</strong></p>
+<p>This is a disposal of a non-wasting chattel that cost more than £6,000 but which was sold for less than £6,000. The disposal is not an exempt disposal but the allowable loss is restricted as follows:</p>
+<table class="caption-top table">
+<thead>
+<tr class="header">
+<th></th>
+<th>£</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Deemed gross sale proceeds</td>
+<td>6,000</td>
+</tr>
+<tr class="even">
+<td>Less: Expenses of sale</td>
+<td>(250)</td>
+</tr>
+<tr class="odd">
+<td><strong>Net sale proceeds</strong></td>
+<td><strong>5,750</strong></td>
+</tr>
+<tr class="even">
+<td>Less: Cost</td>
+<td>(6,500)</td>
+</tr>
+<tr class="odd">
+<td><strong>Allowable loss</strong></td>
+<td><strong>(750)</strong></td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="example-5-non-wasting-chattels-cgt" class="level4">
+<h4 class="anchored" data-anchor-id="example-5-non-wasting-chattels-cgt">Example 5: Non-wasting chattels CGT</h4>
+<p>Marjory bought two antique tables in March 1995 for £1,000 each. She sold them both in October 2025 for £6,400 and £13,600 respectively.</p>
+<p>Calculate the chargeable gains arising on the disposal of the two antique tables.</p>
+<p><strong>Solution</strong></p>
+</section>
+<section id="example-6-non-wasting-chattels-cgt" class="level4">
+<h4 class="anchored" data-anchor-id="example-6-non-wasting-chattels-cgt">Example 6: Non-wasting chattels CGT</h4>
+<p>Brian bought a picture in April 1993 for £10,400 plus purchase costs of £100. The market for the artist’s work slumped and Brian sold the picture on 27 June 2025 for £500, less disposal costs of £50.</p>
+<p>Calculate the allowable loss on disposal of the picture.</p>
+<p><strong>Solution</strong></p>
+</section>
+<section id="example-7-non-wasting-chattels-cgt" class="level4">
+<h4 class="anchored" data-anchor-id="example-7-non-wasting-chattels-cgt">Example 7: Non-wasting chattels CGT</h4>
+<p>During January 2026, Leyla sold four paintings, which she had acquired in May 2010. Details were as follows.</p>
+<table class="caption-top table">
+<thead>
+<tr class="header">
+<th>Painting</th>
+<th>Cost (£)</th>
+<th>Proceeds (£)</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>1</td>
+<td>2,000</td>
+<td>7,000</td>
+</tr>
+<tr class="even">
+<td>2</td>
+<td>8,000</td>
+<td>4,500</td>
+</tr>
+<tr class="odd">
+<td>3</td>
+<td>3,000</td>
+<td>5,500</td>
+</tr>
+<tr class="even">
+<td>4</td>
+<td>7,000</td>
+<td>9,500</td>
+</tr>
+</tbody>
+</table>
+<p>Calculate Leyla’s net chargeable gains for the tax year 2025/26.</p>
+<p><strong>Solution</strong></p>
+</section>
+</section>
+<section id="wasting-assets" class="level3">
+<h3 class="anchored" data-anchor-id="wasting-assets"><strong><em>Wasting assets</em></strong></h3>
+<p>Wasting assets (i.e.&nbsp;predictable life of 50 years or less) can be split into the following categories:</p>
+<ol type="1">
+<li>Chattels not eligible for capital allowances = exempt from CGT.</li>
+<li>Chattels eligible for capital allowances.</li>
+<li>Other wasting assets.</li>
+</ol>
+<div class="callout callout-style-simple callout-none no-icon">
+<div class="callout-body d-flex">
+<div class="callout-icon-container">
+<i class="callout-icon no-icon"></i>
+</div>
+<div class="callout-body-container">
+<p><strong><em>1. Chattels not eligible for capital allowances</em></strong></p>
+<p>This type of wasting asset is exempt from CGT.</p>
+<p>This category of asset could include plant and machinery, even where it is used in a trade.</p>
+<p>For example, if a sole trader is using the cash basis to calculate tax adjusted trading profits (Chapter 7), plant and machinery is not eligible for capital allowances. Instead, the original cost of plant and machinery is deductible against trading profits, and the sale proceeds included as income. Therefore, any profit on disposal would be included in trading profits, and there will be no CGT implications on disposal.</p>
+</div>
+</div>
+</div>
+<div class="callout callout-style-simple callout-none no-icon">
+<div class="callout-body d-flex">
+<div class="callout-icon-container">
+<i class="callout-icon no-icon"></i>
+</div>
+<div class="callout-body-container">
+<p><strong><em>2. Chattels eligible for capital allowances</em></strong></p>
+<p>For example, plant and machinery used for the purposes of a trade. Where capital allowances have been claimed on an asset, in the gain/loss computation we must consider the <em>tax relief</em> already given for the net cost of the asset in the capital allowances computation.</p>
+<p>Accordingly the following rules apply:</p>
+<ul>
+<li>Sold at a gain Calculate the gain as normal, applying the £6,000 rule if applicable. Any capital allowances given over the life of the asset will have been clawed back with a balancing charge on disposal.</li>
+<li>Sold at a loss The capital loss is restricted as relief for the loss has already been given through the capital allowances system.</li>
+</ul>
+<p>In the capital loss computation, the net capital allowances (i.e.&nbsp;net of balancing charges on disposal) are deducted from the allowable expenditure.</p>
+<blockquote class="blockquote">
+<p>Accordingly, plant and machinery which is eligible for capital allowances and sold at a loss, results in a no gain/no loss situation for CGT purposes.</p>
+</blockquote>
+</div>
+</div>
+</div>
+<section id="example-7-wasting-chattels-cgt" class="level4">
+<h4 class="anchored" data-anchor-id="example-7-wasting-chattels-cgt">Example 7: Wasting chattels CGT</h4>
+<p>Sarah elects to use the accruals basis for tax purposes. She bought a machine for use in her trade for <strong>£35,000</strong> in May 2016. In October 2025 she decided to replace it and sold the old machine for <strong>£40,000</strong>.</p>
+<p><strong>Calculate the chargeable gain arising on the disposal in October 2025.</strong></p>
+<p><strong>Solution</strong></p>
+<p>The asset was sold at a gain. The capital gain is therefore calculated as normal.</p>
+<table class="caption-top table">
+<thead>
+<tr class="header">
+<th></th>
+<th>£</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Sale proceeds</td>
+<td>£</td>
+</tr>
+<tr class="even">
+<td>Less: Cost</td>
+<td>(35,000)</td>
+</tr>
+<tr class="odd">
+<td><strong>Chargeable gain</strong></td>
+<td><strong>5,000</strong></td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="example-8-wasting-chattels-cgt" class="level4">
+<h4 class="anchored" data-anchor-id="example-8-wasting-chattels-cgt">Example 8: Wasting chattels CGT</h4>
+<p>Murad elects to use the accruals basis for tax purposes. He bought a machine for use in his trade for <strong>£35,000</strong> in April 2012. In October 2025 he decided to replace it and sold the old machine for <strong>£26,500</strong>.</p>
+<p><strong>Calculate the chargeable gain or allowable loss arising.</strong></p>
+<p><strong>Solution</strong></p>
+<p>Murad has sold the machine for a real loss of £8,500 (£35,000 – £26,500). <strong><em>He is compensated for this loss through the capital allowances system</em></strong> (i.e.&nbsp;he receives net capital allowances of £8,500 in respect of the machine).</p>
+<p>The capital loss computation is therefore adjusted to reflect the relief for the loss already given through capital allowances as follows:</p>
+<table class="caption-top table">
+<thead>
+<tr class="header">
+<th></th>
+<th>£</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Sale proceeds</td>
+<td>26,500</td>
+</tr>
+<tr class="even">
+<td>Less: Cost</td>
+<td>(35,000)</td>
+</tr>
+<tr class="odd">
+<td>Add: Net capital allowances</td>
+<td>8,500</td>
+</tr>
+<tr class="even">
+<td><strong>Adjusted loss</strong></td>
+<td><strong>0</strong></td>
+</tr>
+</tbody>
+</table>
+<div class="callout callout-style-simple callout-none no-icon">
+<div class="callout-body d-flex">
+<div class="callout-icon-container">
+<i class="callout-icon no-icon"></i>
+</div>
+<div class="callout-body-container">
+<p><strong><em>3. Other wasting assets</em></strong></p>
+<p>This category covers wasting assets that are not chattels as they are not tangible and/or not movable (e.g.&nbsp;a copyright). The allowable expenditure on these assets is deemed to waste away over the life of the asset on a <strong>straight line basis</strong>.</p>
+<p>Consequently, when a disposal is made:</p>
+<ul>
+<li>the allowable expenditure is restricted to take account of the asset’s <strong><em>natural fall in value</em></strong>.</li>
+<li>the asset’s fall in value is deemed to occur on a <strong>straight line basis</strong> over its predictable useful life</li>
+<li>the allowable cost is calculated as:</li>
+</ul>
+<p><span class="math display">\[
+\text{Cost} \times \frac{\text{Remaining life at disposal}}{\text{Estimated useful life}}
+\]</span></p>
+</div>
+</div>
+</div>
+</section>
+<section id="example-9-other-wasting-assets" class="level4">
+<h4 class="anchored" data-anchor-id="example-9-other-wasting-assets">Example 9: Other wasting assets</h4>
+<p>On 1 February 2015 Ian bought a wasting asset (that is not a chattel) at a cost of £24,000. It had an estimated useful life of 30 years. He sold the asset for £38,000 on 1 February 2026.</p>
+<p><strong>Calculate the chargeable gain or allowable loss arising.</strong></p>
+<p><strong>Solution</strong></p>
+<table class="caption-top table">
+<thead>
+<tr class="header">
+<th></th>
+<th>£</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Sale proceeds</td>
+<td>38,000</td>
+</tr>
+<tr class="even">
+<td>Less: Allowable element of acquisition cost (W)</td>
+<td>(16,000)</td>
+</tr>
+<tr class="odd">
+<td><strong>Chargeable gain</strong></td>
+<td><strong>22,000</strong></td>
+</tr>
+</tbody>
+</table>
+<hr>
+<p><strong>Working: Allowable element of acquisition cost</strong></p>
+<table class="caption-top table">
+<tbody>
+<tr class="odd">
+<td>Estimated useful life</td>
+<td>30 years</td>
+</tr>
+<tr class="even">
+<td>Remaining life at disposal</td>
+<td>20 years</td>
+</tr>
+<tr class="odd">
+<td>Allowable cost = £24,000 × 20/30</td>
+<td><strong>£16,000</strong></td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="example-10-other-wasting-assets" class="level4">
+<h4 class="anchored" data-anchor-id="example-10-other-wasting-assets">Example 10: Other wasting assets</h4>
+<p>On 1 March 2020 Jan bought a wasting asset (which is not a chattel) at a cost of £19,000. It had an estimated useful life of 40 years. She sold the asset for £30,000 on 1 March 2026.</p>
+<p>Calculate the chargeable gain or allowable loss arising.</p>
+<p><strong>Solution</strong></p>
+</section>
+</section>
+</section>
+</section>
+<section id="assets-lost-or-destroyed-or-damaged" class="level1">
+<h1>Assets lost or destroyed or damaged</h1>
+<p>A capital transaction usually has two parties, a buyer and a seller. However, when an asset is damaged, destroyed or lost and the asset’s owner receives compensation (either from the person who caused the loss, damage or destruction, or an insurance company) the position is different.</p>
+<p>The owner has received a capital sum without disposing of the asset and the compensation payer has received nothing in return.</p>
+<p>Consequently, a special set of rules is required. The rules vary according to whether:</p>
+<ol type="1">
+<li>the asset has been completely lost/destroyed or merely damaged</li>
+<li>the owner has replaced or restored the asset.</li>
+</ol>
+<p><img src="20260815094128.png" class="img-fluid"></p>
+<section id="assets-lost-or-destroyed" class="level2">
+<h2 class="anchored" data-anchor-id="assets-lost-or-destroyed">Assets lost or destroyed</h2>
+<p>There is a deemed disposal for capital gains tax purposes as follows:</p>
+<p><strong><em>(a) No insurance proceeds</em></strong><br>
+Compute a <em>capital loss</em> using the normal CGT computation:</p>
+<ul>
+<li>Disposal proceeds are £Nil.</li>
+<li>Deduction of the allowable expenditure will create a loss.</li>
+</ul>
+<p><strong><em>(b) Insurance proceeds received</em></strong><br>
+no replacement of asset Chargeable gain/loss is computed using the normal CGT computation pro forma. The insurance proceeds received are the proceeds in the CGT pro forma.</p>
+<p><strong><em>(c) Insurance proceeds received – asset replaced within 12 months</em></strong><br>
+The taxpayer can claim that the destruction/loss of the asset is treated as a no gain/no loss disposal (as for transfers between spouses/civil partners).<br>
+If the insurance proceeds are greater than the deemed disposal proceeds under the no gain/no loss computation, the <strong>excess is deducted from the replacement asset’s allowable cost</strong>.</p>
+<p><strong><em>(d) Insurance proceeds received – partially used to replace asset within 12 months</em></strong><br>
+There is an immediate chargeable gain in respect of the excess proceeds that are not reinvested in the replacement asset.<br>
+The remainder of the gain can be deferred by electing for the no gain/no loss treatment in (c) above.</p>
+<blockquote class="blockquote">
+<p>The date of disposal is the date that the insurance proceeds are received, not the date the destruction or loss of the asset occurred.</p>
+</blockquote>
+<p>Where insurance proceeds have been reinvested, a claim must be made <strong>within 4 years</strong> of the end of the tax year, if the taxpayer wishes to claim no gain/no loss treatment.</p>
+<section id="example-1-assets-lost-or-destroyed" class="level4">
+<h4 class="anchored" data-anchor-id="example-1-assets-lost-or-destroyed">Example 1: Assets lost or destroyed</h4>
+<p>Nadir purchased a capital asset for <strong>£15,000</strong> on 1 April 2000, which was destroyed by fire on 31 July 2025. <em>The asset was not insured</em>.</p>
+<p><strong>Calculate the allowable loss arising in the tax year 2025/26.</strong></p>
+<p><strong>Solution</strong></p>
+<table class="caption-top table">
+<thead>
+<tr class="header">
+<th></th>
+<th>£</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Proceeds</td>
+<td>0</td>
+</tr>
+<tr class="even">
+<td>Less: Cost</td>
+<td>(15,000)</td>
+</tr>
+<tr class="odd">
+<td><strong>Allowable loss</strong></td>
+<td><strong>(15,000)</strong></td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="example-2-assets-lost-or-destroyed" class="level4">
+<h4 class="anchored" data-anchor-id="example-2-assets-lost-or-destroyed">Example 2: Assets lost or destroyed</h4>
+<p>Padma purchased an antique table for <strong>£35,000</strong> on 1 May 2002, which was destroyed by fire on 30 June 2025. She received <em>insurance proceeds</em> of <strong>£50,000</strong> on 1 September 2025. <em>She did not replace the table</em>.</p>
+<p><strong>Calculate the chargeable gain arising in the tax year 2025/26.</strong></p>
+<p><strong>Solution</strong></p>
+<table class="caption-top table">
+<thead>
+<tr class="header">
+<th></th>
+<th>£</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Insurance proceeds</td>
+<td>50,000</td>
+</tr>
+<tr class="even">
+<td>Less: Cost</td>
+<td>(35,000)</td>
+</tr>
+<tr class="odd">
+<td><strong>Chargeable gain</strong></td>
+<td><strong>15,000</strong></td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="example-3-assets-lost-or-destroyed" class="level4">
+<h4 class="anchored" data-anchor-id="example-3-assets-lost-or-destroyed">Example 3: Assets lost or destroyed</h4>
+<p>Silvio purchased a painting for <strong>£57,000</strong> on 1 June 2004 which was destroyed in a fire on 31 July 2025. He received <em>insurance proceeds</em> of <strong>£50,000</strong> on 1 September 2025. <em>He did not replace the painting</em>.</p>
+<p><strong>Calculate the allowable loss arising in the tax year 2025/26.</strong></p>
+<p><strong>Solution</strong></p>
+<table class="caption-top table">
+<thead>
+<tr class="header">
+<th></th>
+<th>£</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Insurance proceeds</td>
+<td>50,000</td>
+</tr>
+<tr class="even">
+<td>Less: Cost</td>
+<td>(57,000)</td>
+</tr>
+<tr class="odd">
+<td><strong>Allowable loss</strong></td>
+<td><strong>(7,000)</strong></td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="example-4-assets-lost-or-destroyed" class="level4">
+<h4 class="anchored" data-anchor-id="example-4-assets-lost-or-destroyed">Example 4: Assets lost or destroyed</h4>
+<p>Bill purchased an asset for <strong>£25,000</strong> on 1 October 2000, which was destroyed by fire on 30 September 2025. He received compensation of <strong>£35,000</strong> from his insurance company on 1 January 2026. He purchased a replacement asset for <strong>£40,000</strong> on 1 February 2026.</p>
+<p>Assuming that Bill claims the loss by fire to be a no gain/no loss disposal, calculate the <strong>allowable expenditure (base cost)</strong> of the replacement asset.</p>
+<p><strong>Solution</strong></p>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 67%">
+<col style="width: 16%">
+<col style="width: 16%">
+</colgroup>
+<thead>
+<tr class="header">
+<th></th>
+<th>£</th>
+<th>£</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Cost of replacement asset</td>
+<td></td>
+<td>40,000</td>
+</tr>
+<tr class="even">
+<td>Compensation</td>
+<td>35,000</td>
+<td></td>
+</tr>
+<tr class="odd">
+<td>Less: Deemed disposal proceeds of old asset (N)</td>
+<td>(25,000)</td>
+<td></td>
+</tr>
+<tr class="even">
+<td></td>
+<td></td>
+<td>(10,000)</td>
+</tr>
+<tr class="odd">
+<td><strong>Replacement asset base cost</strong></td>
+<td></td>
+<td><strong>30,000</strong></td>
+</tr>
+</tbody>
+</table>
+<blockquote class="blockquote">
+<p><strong><em>n:</em></strong> Since the disposal of the old asset is assumed to be on a no gain/no loss basis. The disposal proceeds are the allowable cost of the asset.</p>
+</blockquote>
+<table class="caption-top table">
+<thead>
+<tr class="header">
+<th></th>
+<th>£</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Allowable cost = Deemed disposal proceeds</td>
+<td><strong>25,000</strong></td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="example-5-assets-lost-or-destroyed" class="level4">
+<h4 class="anchored" data-anchor-id="example-5-assets-lost-or-destroyed">Example 5: Assets lost or destroyed</h4>
+<p>Belinda purchased an antique necklace for <strong>£21,140</strong> on 1 October 2006, which she lost on 30 June 2018. She received compensation of <strong>£45,000</strong> from her insurance company on 1 October 2018 and purchased a replacement necklace for <strong>£50,000</strong> on 1 November 2018.</p>
+<p>She sold the replacement necklace for <strong>£65,000</strong> on 1 March 2026.</p>
+<p>Assuming that Belinda claims the loss of the necklace to be a no gain/no loss disposal, calculate the <strong><em>chargeable gain arising on the sale of the replacement necklace</em></strong> on 1 March 2026.</p>
+<p><strong>Solution</strong></p>
+<table class="caption-top table">
+<thead>
+<tr class="header">
+<th></th>
+<th>£</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Sale proceeds</td>
+<td>65,000</td>
+</tr>
+<tr class="even">
+<td>Less: Cost (W)</td>
+<td>(26,140)</td>
+</tr>
+<tr class="odd">
+<td><strong>Chargeable gain</strong></td>
+<td><strong>38,860</strong></td>
+</tr>
+</tbody>
+</table>
+<hr>
+<p><strong>W – Replacement asset base cost</strong></p>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 66%">
+<col style="width: 16%">
+<col style="width: 16%">
+</colgroup>
+<thead>
+<tr class="header">
+<th></th>
+<th>£</th>
+<th>£</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Cost of replacement necklace</td>
+<td></td>
+<td>50,000</td>
+</tr>
+<tr class="even">
+<td>Insurance proceeds</td>
+<td>45,000</td>
+<td></td>
+</tr>
+<tr class="odd">
+<td>Less: Deemed disposal proceeds ‘Base cost’</td>
+<td>(21,140)</td>
+<td></td>
+</tr>
+<tr class="even">
+<td></td>
+<td></td>
+<td>(23,680)</td>
+</tr>
+<tr class="odd">
+<td><strong>Replacement asset base cost</strong></td>
+<td></td>
+<td><strong>26,320</strong></td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="example-6-assets-lost-or-destroyed" class="level4">
+<h4 class="anchored" data-anchor-id="example-6-assets-lost-or-destroyed">Example 6: Assets lost or destroyed</h4>
+<p>Morgan purchased a holiday cottage for <strong>£83,040</strong> on 4 May 2011, which was destroyed in a hurricane on 27 October 2024. They received insurance proceeds of <strong>£113,000</strong> on 5 June 2025 and purchased a replacement holiday apartment for <strong>£103,440</strong>.</p>
+<p><strong>Assuming that Morgan claims to defer the gain arising from the insurance proceeds, calculate any gain arising in the tax year 2025/26 and state the base cost of the replacement apartment.</strong></p>
+<p><strong>Solution</strong></p>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 79%">
+<col style="width: 20%">
+</colgroup>
+<thead>
+<tr class="header">
+<th></th>
+<th>£</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Insurance proceeds</td>
+<td>113,000</td>
+</tr>
+<tr class="even">
+<td>Less: Cost</td>
+<td>(83,040)</td>
+</tr>
+<tr class="odd">
+<td><strong>Total gain</strong></td>
+<td><strong>29,960</strong></td>
+</tr>
+<tr class="even">
+<td>Less: Gain deferred (balancing figure)</td>
+<td><span style="font-size: 18px; text-decoration: underline;">(20,400)</span></td>
+</tr>
+<tr class="odd">
+<td><strong>Chargeable gain (£113,000 – £103,440)</strong></td>
+<td><strong>9,560</strong></td>
+</tr>
+</tbody>
+</table>
+<table class="caption-top table">
+<thead>
+<tr class="header">
+<th>Base cost of holiday apartment:</th>
+<th>£</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Purchase price</td>
+<td>103,440</td>
+</tr>
+<tr class="even">
+<td>Less: Deferred gain</td>
+<td>(20,400)</td>
+</tr>
+<tr class="odd">
+<td><strong>Base cost</strong></td>
+<td><strong>83,040</strong></td>
+</tr>
+</tbody>
+</table>
+</section>
+</section>
+<section id="asset-damaged" class="level2">
+<h2 class="anchored" data-anchor-id="asset-damaged">Asset damaged</h2>
+<p>There are no implications for capital gains tax purposes unless compensation (e.g.&nbsp;insurance proceeds) is received.</p>
+<p>Where an asset is damaged and compensation is received there is a <strong>part disposal</strong> for capital gains tax purposes. The allowable cost is calculated using the normal part disposal formula:</p>
+<p><strong><em>Cost × A/A + B</em></strong></p>
+<p>Where:</p>
+<ul>
+<li>A = Compensation received</li>
+<li>B = Market value of the remainder at the time of the part disposal (i.e.&nbsp;value in its damaged condition).</li>
+</ul>
+<p>The computation is varied depending on how the insurance proceeds are applied.</p>
+<ol type="a">
+<li><p>Proceeds not used in restoration work Normal part disposal capital gains computation is used. The value of the part retained is the value of the asset in its damaged condition.</p></li>
+<li><p>Proceeds fully used in restoration work Where all of the insurance proceeds are used in restoring the asset the taxpayer may claim to <em>deduct the proceeds from the cost of the asset</em> rather than be treated as having made a part disposal of the asset.</p></li>
+</ol>
+<section id="example-7-asset-damaged-sasha" class="level4">
+<h4 class="anchored" data-anchor-id="example-7-asset-damaged-sasha">Example 7: Asset damaged – Sasha</h4>
+<p>Sasha purchased a painting on 1 April 2010 for <strong>£10,000</strong>. The painting was damaged on 1 May 2025 when it was worth £50,000. After the damage the painting was worth <strong>£25,000</strong>. On 1 July 2025 insurance proceeds of <strong>£30,000</strong> were received, which were not used to restore the painting.</p>
+<p>Calculate the chargeable gain arising in respect of the painting.</p>
+<p><strong>Solution</strong></p>
+<table class="caption-top table">
+<thead>
+<tr class="header">
+<th></th>
+<th>£</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Insurance proceeds</td>
+<td>30,000</td>
+</tr>
+<tr class="even">
+<td>Less: Deemed cost £10,000 × £30,000/(£30,000 + £25,000)</td>
+<td>(5,455)</td>
+</tr>
+<tr class="odd">
+<td><strong>Chargeable gain</strong></td>
+<td><strong>24,545</strong></td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="example-8-asset-damaged" class="level4">
+<h4 class="anchored" data-anchor-id="example-8-asset-damaged">Example 8: Asset damaged</h4>
+<p>Amy purchased a painting on 1 April 2010 for <strong>£10,000</strong>. The painting was damaged on 1 May 2025 when it was worth £50,000. After the damage the painting was worth <strong>£40,000</strong>. On 1 July 2025 insurance proceeds of <strong>£8,000</strong> were received. All of the proceeds were <em>used immediately to restore the painting</em>.</p>
+<p>Assuming Amy elects for the insurance proceeds to be <em>rolled over</em> against the cost of the painting,calculate the <strong>revised base cost for CGT purposes</strong> of the painting after it has been restored.</p>
+<p><strong>Solution</strong></p>
+<p>There is <strong><em>no part disposal</em></strong> and the revised base cost of the painting is:</p>
+<table class="caption-top table">
+<thead>
+<tr class="header">
+<th></th>
+<th>£</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Original cost</td>
+<td>10,000</td>
+</tr>
+<tr class="even">
+<td>Plus: Restoration expenditure</td>
+<td>8,000</td>
+</tr>
+<tr class="odd">
+<td>Less: Insurance proceeds</td>
+<td>(8,000)</td>
+</tr>
+<tr class="even">
+<td><strong>Revised base cost</strong></td>
+<td><strong>10,000</strong></td>
+</tr>
+</tbody>
+</table>
+<p>Note that when the amount spent on restoring the asset is the same as the insurance proceeds then the <strong><em>revised base cost is the same as the original cost.</em></strong></p>
+</section>
+<section id="example-9-asset-damaged" class="level4">
+<h4 class="anchored" data-anchor-id="example-9-asset-damaged">Example 9: Asset damaged</h4>
+<p>Sari purchased a commercial investment property on 1 May 2012 for <strong>£200,000</strong>. In June 2023 it was damaged by fire. On 1 August 2025 insurance proceeds of <strong>£100,000</strong> were received. On 1 September 2025 <strong>£110,000</strong> was spent on restoring the property. After the restoration the property was worth £500,000.</p>
+<p>Assuming Sari elects for the insurance proceeds to be rolled over against the cost of the property calculate <strong>the revised base cost for CGT purposes</strong> of the property after it has been restored.</p>
+<p><strong>Solution</strong></p>
+<p>As the proceeds are fully used in restoration and the ‘rollover’ election is made, there is no part disposal and the revised base cost is:</p>
+<table class="caption-top table">
+<thead>
+<tr class="header">
+<th></th>
+<th>£</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Original cost</td>
+<td>200,000</td>
+</tr>
+<tr class="even">
+<td>Plus: Restoration expenditure</td>
+<td>110,000</td>
+</tr>
+<tr class="odd">
+<td>Less: Insurance proceeds</td>
+<td>(100,000)</td>
+</tr>
+<tr class="even">
+<td><strong>Revised base cost</strong></td>
+<td><strong>210,000</strong></td>
+</tr>
+</tbody>
+</table>
+</section>
+</section>
+</section>
+<section id="practices-on-additional-aspects" class="level1">
+<h1>Practices on Additional aspects</h1>
+<section id="objective-test-ot-questions" class="level2">
+<h2 class="anchored" data-anchor-id="objective-test-ot-questions">Objective Test (OT) questions</h2>
+<section id="q1-cg---part-disposal" class="level3">
+<h3 class="anchored" data-anchor-id="q1-cg---part-disposal">Q1: CG - Part Disposal</h3>
+<div class="callout callout-style-simple callout-none no-icon">
+<div class="callout-body d-flex">
+<div class="callout-icon-container">
+<i class="callout-icon no-icon"></i>
+</div>
+<div class="callout-body-container">
+<p>Denis bought 20 hectares of land on 13 September 2023 for <strong>£30,000</strong>.</p>
+<p>On 22 November 2025, Denis sold 10 hectares for <strong>£60,000</strong> and the market value of the remaining land at that time was <strong>£15,000</strong>.</p>
+<p>What is Denis’s chargeable gain arising on the disposal of the land in November 2025?</p>
+<p>A. £30,000<br>
+B. £24,000<br>
+C. £45,000<br>
+<strong>D. £36,000</strong></p>
+</div>
+</div>
+</div>
+</section>
+<section id="q2-wasting-chattel" class="level3">
+<h3 class="anchored" data-anchor-id="q2-wasting-chattel">Q2: Wasting Chattel</h3>
+<div class="callout callout-style-simple callout-none no-icon">
+<div class="callout-body d-flex">
+<div class="callout-icon-container">
+<i class="callout-icon no-icon"></i>
+</div>
+<div class="callout-body-container">
+<p>Laticia makes the following <strong>capital disposals</strong> in the tax year 2025/26:</p>
+<ol type="1">
+<li>A machine, which she used for business purposes, that was purchased for £8,000 and sold for £10,000.</li>
+<li>A greyhound which was purchased for £7,000 and sold for £15,000.</li>
+<li>A painting that was purchased for £4,000 and sold for £7,500.</li>
+<li>Land that was purchased for £1,000 and sold for £5,200.</li>
+</ol>
+<p>Which of these capital disposals are chargeable to capital gains tax?</p>
+<p>A. 1, 2 and 3<br>
+B. 1 and 4 only<br>
+C. 3 and 4 only<br>
+<strong>D. 1, 3 and 4</strong></p>
+<blockquote class="blockquote">
+<p>The greyhound is a <strong>wasting chattel</strong> and therefore exempt.</p>
+</blockquote>
+</div>
+</div>
+</div>
+</section>
+<section id="q3-insurance-compensation" class="level3">
+<h3 class="anchored" data-anchor-id="q3-insurance-compensation">Q3: Insurance Compensation</h3>
+<div class="callout callout-style-simple callout-none no-icon">
+<div class="callout-body d-flex">
+<div class="callout-icon-container">
+<i class="callout-icon no-icon"></i>
+</div>
+<div class="callout-body-container">
+<p>Nikhil purchased a valuable painting which was destroyed in a fire. He received compensation from his insurance company but did not purchase a replacement.</p>
+<p>The transaction is treated as follows:</p>
+<p>A. No gain arises as there is no disposal<br>
+B. The transaction is treated as a disposal at no gain/no loss<br>
+C. The value of the insurance proceeds received are treated as a chargeable gain<br>
+<strong>D. A gain/loss is computed using the normal chargeable gains rules</strong></p>
+</div>
+</div>
+</div>
+</section>
+<section id="q4-non-wasting-chattel" class="level3">
+<h3 class="anchored" data-anchor-id="q4-non-wasting-chattel">Q4: Non-wasting chattel</h3>
+<div class="callout callout-style-simple callout-none no-icon">
+<div class="callout-body d-flex">
+<div class="callout-icon-container">
+<i class="callout-icon no-icon"></i>
+</div>
+<div class="callout-body-container">
+<p>Gaynor sold an antique vase for £7,800 in July 2025, incurring an auctioneer’s fee of 1% of the gross sales value. She bought the vase in December 2014 for £2,300.</p>
+<p>What is Gaynor’s chargeable gain?</p>
+<p>A. Nothing, the transaction is exempt from capital gains tax<br>
+B. £5,422<br>
+C. £5,500<br>
+<strong>D. £3,000</strong></p>
+<table class="caption-top table">
+<thead>
+<tr class="header">
+<th></th>
+<th>£</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Gross sale proceeds</td>
+<td>7,800</td>
+</tr>
+<tr class="even">
+<td>Less: Auctioneer’s fee (7.8K × 1%)</td>
+<td>(78)</td>
+</tr>
+<tr class="odd">
+<td>Less: Allowable costs</td>
+<td>(2,300)</td>
+</tr>
+<tr class="even">
+<td><strong>Capital gain</strong></td>
+<td><strong>5,422</strong></td>
+</tr>
+</tbody>
+</table>
+<p><strong><em>Restricted to:</em></strong><br>
+<span class="math display">\[
+5/3 \times (£7,800 - £6,000) = £3,000
+\]</span></p>
+<blockquote class="blockquote">
+<p>The asset qualifies as a <strong>chattel</strong>, but is <strong>not a wasting chattel</strong>, and therefore is not exempt.</p>
+</blockquote>
+<blockquote class="blockquote">
+<p>As the chattel has been sold for more than £6,000 but <strong><em>purchased for equal to or less than £6,000</em></strong>, the eventual gain should be restricted to 5/3 × (gross sale proceeds – £6,000).</p>
+</blockquote>
+</div>
+</div>
+</div>
+</section>
+</section>
+<section id="constructed-response-questions" class="level2">
+<h2 class="anchored" data-anchor-id="constructed-response-questions">Constructed response questions</h2>
+<section id="q1" class="level3">
+<h3 class="anchored" data-anchor-id="q1">Q1:</h3>
+</section>
+</section>
+</section>
+
+</main>
+<!-- /main column -->
+<script id="quarto-html-after-body" type="application/javascript">
+  window.document.addEventListener("DOMContentLoaded", function (event) {
+    const icon = "";
+    const anchorJS = new window.AnchorJS();
+    anchorJS.options = {
+      placement: 'right',
+      icon: icon
+    };
+    anchorJS.add('.anchored');
+    const isCodeAnnotation = (el) => {
+      for (const clz of el.classList) {
+        if (clz.startsWith('code-annotation-')) {                     
+          return true;
+        }
+      }
+      return false;
+    }
+    const onCopySuccess = function(e) {
+      // button target
+      const button = e.trigger;
+      // don't keep focus
+      button.blur();
+      // flash "checked"
+      button.classList.add('code-copy-button-checked');
+      var currentTitle = button.getAttribute("title");
+      button.setAttribute("title", "Copied!");
+      let tooltip;
+      if (window.bootstrap) {
+        button.setAttribute("data-bs-toggle", "tooltip");
+        button.setAttribute("data-bs-placement", "left");
+        button.setAttribute("data-bs-title", "Copied!");
+        tooltip = new bootstrap.Tooltip(button, 
+          { trigger: "manual", 
+            customClass: "code-copy-button-tooltip",
+            offset: [0, -8]});
+        tooltip.show();    
+      }
+      setTimeout(function() {
+        if (tooltip) {
+          tooltip.hide();
+          button.removeAttribute("data-bs-title");
+          button.removeAttribute("data-bs-toggle");
+          button.removeAttribute("data-bs-placement");
+        }
+        button.setAttribute("title", currentTitle);
+        button.classList.remove('code-copy-button-checked');
+      }, 1000);
+      // clear code selection
+      e.clearSelection();
+    }
+    const getTextToCopy = function(trigger) {
+      const outerScaffold = trigger.parentElement.cloneNode(true);
+      const codeEl = outerScaffold.querySelector('code');
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
+    }
+    const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
+      text: getTextToCopy
+    });
+    clipboard.on('success', onCopySuccess);
+    if (window.document.getElementById('quarto-embedded-source-code-modal')) {
+      const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
+        text: getTextToCopy,
+        container: window.document.getElementById('quarto-embedded-source-code-modal')
+      });
+      clipboardModal.on('success', onCopySuccess);
+    }
+      var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+      var mailtoRegex = new RegExp(/^mailto:/);
+        var filterRegex = new RegExp('/' + window.location.host + '/');
+      var isInternal = (href) => {
+          return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+      }
+      // Inspect non-navigation links and adorn them if external
+     var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
+      for (var i=0; i<links.length; i++) {
+        const link = links[i];
+        if (!isInternal(link.href)) {
+          // undo the damage that might have been done by quarto-nav.js in the case of
+          // links that we want to consider external
+          if (link.dataset.originalHref !== undefined) {
+            link.href = link.dataset.originalHref;
+          }
+        }
+      }
+    function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
+      const config = {
+        allowHTML: true,
+        maxWidth: 500,
+        delay: 100,
+        arrow: false,
+        appendTo: function(el) {
+            return el.parentElement;
+        },
+        interactive: true,
+        interactiveBorder: 10,
+        theme: 'quarto',
+        placement: 'bottom-start',
+      };
+      if (contentFn) {
+        config.content = contentFn;
+      }
+      if (onTriggerFn) {
+        config.onTrigger = onTriggerFn;
+      }
+      if (onUntriggerFn) {
+        config.onUntrigger = onUntriggerFn;
+      }
+      window.tippy(el, config); 
+    }
+    const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+    for (var i=0; i<noterefs.length; i++) {
+      const ref = noterefs[i];
+      tippyHover(ref, function() {
+        // use id or data attribute instead here
+        let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+        try { href = new URL(href).hash; } catch {}
+        const id = href.replace(/^#\/?/, "");
+        const note = window.document.getElementById(id);
+        if (note) {
+          return note.innerHTML;
+        } else {
+          return "";
+        }
+      });
+    }
+    const xrefs = window.document.querySelectorAll('a.quarto-xref');
+    const processXRef = (id, note) => {
+      // Strip column container classes
+      const stripColumnClz = (el) => {
+        el.classList.remove("page-full", "page-columns");
+        if (el.children) {
+          for (const child of el.children) {
+            stripColumnClz(child);
+          }
+        }
+      }
+      stripColumnClz(note)
+      if (id === null || id.startsWith('sec-')) {
+        // Special case sections, only their first couple elements
+        const container = document.createElement("div");
+        if (note.children && note.children.length > 2) {
+          container.appendChild(note.children[0].cloneNode(true));
+          for (let i = 1; i < note.children.length; i++) {
+            const child = note.children[i];
+            if (child.tagName === "P" && child.innerText === "") {
+              continue;
+            } else {
+              container.appendChild(child.cloneNode(true));
+              break;
+            }
+          }
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(container);
+          }
+          return container.innerHTML
+        } else {
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(note);
+          }
+          return note.innerHTML;
+        }
+      } else {
+        // Remove any anchor links if they are present
+        const anchorLink = note.querySelector('a.anchorjs-link');
+        if (anchorLink) {
+          anchorLink.remove();
+        }
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(note);
+        }
+        if (note.classList.contains("callout")) {
+          return note.outerHTML;
+        } else {
+          return note.innerHTML;
+        }
+      }
+    }
+    for (var i=0; i<xrefs.length; i++) {
+      const xref = xrefs[i];
+      tippyHover(xref, undefined, function(instance) {
+        instance.disable();
+        let url = xref.getAttribute('href');
+        let hash = undefined; 
+        if (url.startsWith('#')) {
+          hash = url;
+        } else {
+          try { hash = new URL(url).hash; } catch {}
+        }
+        if (hash) {
+          const id = hash.replace(/^#\/?/, "");
+          const note = window.document.getElementById(id);
+          if (note !== null) {
+            try {
+              const html = processXRef(id, note.cloneNode(true));
+              instance.setContent(html);
+            } finally {
+              instance.enable();
+              instance.show();
+            }
+          } else {
+            // See if we can fetch this
+            fetch(url.split('#')[0])
+            .then(res => res.text())
+            .then(html => {
+              const parser = new DOMParser();
+              const htmlDoc = parser.parseFromString(html, "text/html");
+              const note = htmlDoc.getElementById(id);
+              if (note !== null) {
+                const html = processXRef(id, note);
+                instance.setContent(html);
+              } 
+            }).finally(() => {
+              instance.enable();
+              instance.show();
+            });
+          }
+        } else {
+          // See if we can fetch a full url (with no hash to target)
+          // This is a special case and we should probably do some content thinning / targeting
+          fetch(url)
+          .then(res => res.text())
+          .then(html => {
+            const parser = new DOMParser();
+            const htmlDoc = parser.parseFromString(html, "text/html");
+            const note = htmlDoc.querySelector('main.content');
+            if (note !== null) {
+              // This should only happen for chapter cross references
+              // (since there is no id in the URL)
+              // remove the first header
+              if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
+                note.children[0].remove();
+              }
+              const html = processXRef(null, note);
+              instance.setContent(html);
+            } 
+          }).finally(() => {
+            instance.enable();
+            instance.show();
+          });
+        }
+      }, function(instance) {
+      });
+    }
+        let selectedAnnoteEl;
+        const selectorForAnnotation = ( cell, annotation) => {
+          let cellAttr = 'data-code-cell="' + cell + '"';
+          let lineAttr = 'data-code-annotation="' +  annotation + '"';
+          const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+          return selector;
+        }
+        const selectCodeLines = (annoteEl) => {
+          const doc = window.document;
+          const targetCell = annoteEl.getAttribute("data-target-cell");
+          const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+          const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+          const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+          const lineIds = lines.map((line) => {
+            return targetCell + "-" + line;
+          })
+          let top = null;
+          let height = null;
+          let parent = null;
+          if (lineIds.length > 0) {
+              //compute the position of the single el (top and bottom and make a div)
+              const el = window.document.getElementById(lineIds[0]);
+              top = el.offsetTop;
+              height = el.offsetHeight;
+              parent = el.parentElement.parentElement;
+            if (lineIds.length > 1) {
+              const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+              const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+              height = bottom - top;
+            }
+            if (top !== null && height !== null && parent !== null) {
+              // cook up a div (if necessary) and position it 
+              let div = window.document.getElementById("code-annotation-line-highlight");
+              if (div === null) {
+                div = window.document.createElement("div");
+                div.setAttribute("id", "code-annotation-line-highlight");
+                div.style.position = 'absolute';
+                parent.appendChild(div);
+              }
+              div.style.top = top - 2 + "px";
+              div.style.height = height + 4 + "px";
+              div.style.left = 0;
+              let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+              if (gutterDiv === null) {
+                gutterDiv = window.document.createElement("div");
+                gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+                gutterDiv.style.position = 'absolute';
+                const codeCell = window.document.getElementById(targetCell);
+                const gutter = codeCell.querySelector('.code-annotation-gutter');
+                gutter.appendChild(gutterDiv);
+              }
+              gutterDiv.style.top = top - 2 + "px";
+              gutterDiv.style.height = height + 4 + "px";
+            }
+            selectedAnnoteEl = annoteEl;
+          }
+        };
+        const unselectCodeLines = () => {
+          const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+          elementsIds.forEach((elId) => {
+            const div = window.document.getElementById(elId);
+            if (div) {
+              div.remove();
+            }
+          });
+          selectedAnnoteEl = undefined;
+        };
+          // Handle positioning of the toggle
+      window.addEventListener(
+        "resize",
+        throttle(() => {
+          elRect = undefined;
+          if (selectedAnnoteEl) {
+            selectCodeLines(selectedAnnoteEl);
+          }
+        }, 10)
+      );
+      function throttle(fn, ms) {
+      let throttle = false;
+      let timer;
+        return (...args) => {
+          if(!throttle) { // first call gets through
+              fn.apply(this, args);
+              throttle = true;
+          } else { // all the others get throttled
+              if(timer) clearTimeout(timer); // cancel #2
+              timer = setTimeout(() => {
+                fn.apply(this, args);
+                timer = throttle = false;
+              }, ms);
+          }
+        };
+      }
+        // Attach click handler to the DT
+        const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+        for (const annoteDlNode of annoteDls) {
+          annoteDlNode.addEventListener('click', (event) => {
+            const clickedEl = event.target;
+            if (clickedEl !== selectedAnnoteEl) {
+              unselectCodeLines();
+              const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+              if (activeEl) {
+                activeEl.classList.remove('code-annotation-active');
+              }
+              selectCodeLines(clickedEl);
+              clickedEl.classList.add('code-annotation-active');
+            } else {
+              // Unselect the line
+              unselectCodeLines();
+              clickedEl.classList.remove('code-annotation-active');
+            }
+          });
+        }
+    const findCites = (el) => {
+      const parentEl = el.parentElement;
+      if (parentEl) {
+        const cites = parentEl.dataset.cites;
+        if (cites) {
+          return {
+            el,
+            cites: cites.split(' ')
+          };
+        } else {
+          return findCites(el.parentElement)
+        }
+      } else {
+        return undefined;
+      }
+    };
+    var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+    for (var i=0; i<bibliorefs.length; i++) {
+      const ref = bibliorefs[i];
+      const citeInfo = findCites(ref);
+      if (citeInfo) {
+        tippyHover(citeInfo.el, function() {
+          var popup = window.document.createElement('div');
+          citeInfo.cites.forEach(function(cite) {
+            var citeDiv = window.document.createElement('div');
+            citeDiv.classList.add('hanging-indent');
+            citeDiv.classList.add('csl-entry');
+            var biblioDiv = window.document.getElementById('ref-' + cite);
+            if (biblioDiv) {
+              citeDiv.innerHTML = biblioDiv.innerHTML;
+            }
+            popup.appendChild(citeDiv);
+          });
+          return popup.innerHTML;
+        });
+      }
+    }
+  });
+  </script>
+</div> <!-- /content -->
+
+
+
+
+</body></html>

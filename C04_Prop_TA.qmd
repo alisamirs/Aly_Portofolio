@@ -1,18 +1,5 @@
----
+﻿---
 title: "Chapter 4: Property income"
-subtitle: "ACCA TX-UK Study Paper"
-format:
-  pdf:
-    pdf-engine: lualatex
-    toc: true
-    toc-depth: 3
-    number-sections: true
-    papersize: a4
-    geometry:
-      - margin=2.5cm
-    include-in-header:
-      - mdpi-header.tex
-bibliography: mdpi-template.bib
 abstract: |
     The taxation of property income in the form of rental income from properties, as well as premiums received from the grant of short leases.  
     For the purposes of the examination, you are required to be able to deal with the following: 
@@ -21,7 +8,7 @@ abstract: |
     Rental income received which qualifies for the **rent-a-room scheme**.
 ---
 
-# Property income – basis of assessment for individuals or partnerships 
+# Property income - basis of assessment for individuals or partnerships 
 
 ## Basis of assessment (Cash Basis)
 
@@ -43,7 +30,7 @@ The main rules are as follows:
   This covers items such as:
 
     - Insurance
-    - Agents’ fees and other management expenses 
+    - Agents' fees and other management expenses 
     - Repairs
     - interest on a loan to acquire or improve a **let non-residential property**.
 
@@ -99,7 +86,7 @@ Calculate Hembery's **property income** for the tax year 2025/26.
 
 > N2: The repairs expense incurred during March 2026 but paid in May 2026 will be deductible in the tax year 2026/27 when it is paid. 
 
-## Financing costs – residential properties
+## Financing costs - residential properties
 
 Owners of residential property who live in their own property do not get tax relief for their mortgage costs.
 
@@ -114,14 +101,14 @@ Adam owns a residential property that he lets out. During the tax year 2025/26 h
 
 | Expense                                    | £        |
 |--------------------------------------------|----------|
-| Agent’s fees                               | 1,000    |
+| Agent's fees                               | 1,000    |
 | Insurance                                  | 1,500    |
-| Gardener’s costs                           | 1,300    |
+| Gardener's costs                           | 1,300    |
 | Interest costs on loan to acquire property | 7,500    |
 
 During the tax year 2025/26 Adam also has trading income of £42,000 and bank interest income of £800. 
 
-Calculate Adam’s income tax liability, after reliefs, for the tax year 2025/26. 
+Calculate Adam's income tax liability, after reliefs, for the tax year 2025/26. 
 
 **Solution**
 
@@ -140,11 +127,11 @@ Calculate Adam’s income tax liability, after reliefs, for the tax year 2025/26
 
 | Income tax                                                                 | £         | %    | £         |
 |----------------------------------------------------------------------------|-----------|------|-----------|
-| Non-savings income – basic rate                                            | 37,700    | 20%  | 7,540     |
-| Non-savings income – higher rate                                           | 2,930     | 40%  | 1,172     |
+| Non-savings income - basic rate                                            | 37,700    | 20%  | 7,540     |
+| Non-savings income - higher rate                                           | 2,930     | 40%  | 1,172     |
 | **Total non-savings taxable income**                                       | 40,630    |      |           |
-| Savings income – nil rate                                                  | 500       | 0%   | 0         |
-| Savings income – higher rate                                               | 300       | 40%  | 120       |
+| Savings income - nil rate                                                  | 500       | 0%   | 0         |
+| Savings income - higher rate                                               | 300       | 40%  | 120       |
 | **Total taxable income**                                                   | 41,430    |      |           |
 | **Income tax liability before relief**                                     |           |      | 8,832     |
 | **Less:** Basic rate tax relief on property income interest N              | 7,500     | 20%  | (1,500)   |
@@ -189,22 +176,22 @@ Capital expenditure on land and buildings is not an allowable deduction. Therefo
 
 ## Cars [Capital and Mileage allowances]
 
-For cars used in a business, you can either claim capital allowances and actual motoring costs, or use HMRC’s mileage allowance rates as a simplified alternative.
+For cars used in a business, you can either claim capital allowances and actual motoring costs, or use HMRC's mileage allowance rates as a simplified alternative.
 
 - The taxpayers have a choice: either claim detailed allowances and expenses, or use the simplified mileage method.
-- The mileage method is often easier for small businesses or landlords who don’t want to track every individual motoring expense.
-- However, for high‑cost cars or heavy usage, capital allowances plus actual costs may give greater relief.
+- The mileage method is often easier for small businesses or landlords who don't want to track every individual motoring expense.
+- However, for high-cost cars or heavy usage, capital allowances plus actual costs may give greater relief.
 
 ### Option 1: Capital allowances + actual costs
 
 - If a car is used in the property or trading business, the **capital cost** of the car qualifies for **capital allowances** (covered in Chapter 8).  
-- In addition, the **actual running costs**—such as petrol, insurance, servicing, repairs—are deductible as business expenses.  
-- This method requires keeping detailed records of both the car’s purchase and ongoing costs.
+- In addition, the **actual running costs**-such as petrol, insurance, servicing, repairs-are deductible as business expenses.  
+- This method requires keeping detailed records of both the car's purchase and ongoing costs.
 
 
-### Option 2: HMRC’s approved mileage allowances
+### Option 2: HMRC's approved mileage allowances
 
-- Instead of claiming capital allowances and actual motoring costs, a simpler method is to use **HMRC’s mileage rates**.  
+- Instead of claiming capital allowances and actual motoring costs, a simpler method is to use **HMRC's mileage rates**.  
 - These rates are designed to cover both depreciation and running costs.  
 - The approved rates are:
 
@@ -227,22 +214,22 @@ Replacement domestic items relief applies to things like:
 - Appliances (fridges, cookers, washing machines)  
 - Household items (TVs, carpets, curtains)  
 
-The relief allows landlords to deduct the cost of replacing an item, **less any proceeds from selling the old item**, as long as the replacement is for the tenant’s use in a residential property.  
+The relief allows landlords to deduct the cost of replacing an item, **less any proceeds from selling the old item**, as long as the replacement is for the tenant's use in a residential property.  
 
 Importantly, this relief only applies to **replacements**, not the original purchase.
 
 The replacement cost allowed is limited to the cost of a **similar item**, excluding any improvement, but allowing for the **modern equivalent**. For example, if a washing machine is replaced with a washer-dryer, only the cost of a replacement washing machine would qualify for relief. 
 
-Domestic items are those acquired for domestic use for example, furniture, furnishings, household appliances (including white goods), carpets, curtains and kitchenware. However, ***‘fixtures’*** i.e. any plant and machinery that is fixed to a dwelling, including boilers and radiators are specifically excluded. 
+Domestic items are those acquired for domestic use for example, furniture, furnishings, household appliances (including white goods), carpets, curtains and kitchenware. However, ***'fixtures'*** i.e. any plant and machinery that is fixed to a dwelling, including boilers and radiators are specifically excluded. 
 
 This relief is **not available** on accommodation for which **rent-a-room relief** has been claimed.
 
-- Rent‑a‑room relief is a special scheme for individuals who let furnished accommodation in their own home.
+- Rent-a-room relief is a special scheme for individuals who let furnished accommodation in their own home.
 - If gross rental income is below a set threshold (£7,500 per year, or £3,750 if jointly let), the income can be completely exempt from tax.
 - Alternatively, if income exceeds the threshold, the taxpayer can elect to deduct the allowance instead of actual expenses.
 
-> if a landlord has already claimed **rent‑a‑room relief**, they cannot also claim other property‑related reliefs (such as replacement domestic items relief or capital allowances) for the same accommodation. 
-> This prevents “double relief” on the same income stream.
+> if a landlord has already claimed **rent-a-room relief**, they cannot also claim other property-related reliefs (such as replacement domestic items relief or capital allowances) for the same accommodation. 
+> This prevents "double relief" on the same income stream.
 
 ## Example 1: Property income (Expenditures, Deductions & Replacements)
 
@@ -262,7 +249,7 @@ The tenant had vacated the property **during June 2025**, without having paid th
 
 The old bedroom curtains had no disposal value. A dishwasher had **not previously been provided** in the property.
 
-Amal drove 120 miles in her car in relation to the property business during the tax year 2025/26. Amal claims **HMRC’s approved mileage allowances**. 
+Amal drove 120 miles in her car in relation to the property business during the tax year 2025/26. Amal claims **HMRC's approved mileage allowances**. 
 
 Calculate the **property income** for the tax year 2025/26. 
 
@@ -276,9 +263,9 @@ Calculate the **property income** for the tax year 2025/26.
 | Less: Expenses:                          |          |          |
 | Replacement bedroom curtains (Note 2)    | (150)    |          |
 | Repair to kitchen units (Note 3)         | (275)    |          |
-| Insurance – cash basis                   | (480)    |          |
-| Dishwasher – capital (Note 4)            | 0        |          |
-| Redecoration – cash basis (Note 5)       | 0        |          |
+| Insurance - cash basis                   | (480)    |          |
+| Dishwasher - capital (Note 4)            | 0        |          |
+| Redecoration - cash basis (Note 5)       | 0        |          |
 | Mileage allowance (120 × £0.45)          | (54)     |          |
 | **Total expenses**                       |          | (959)    |
 | **Property income**                      |          | **2,341**|
@@ -309,7 +296,7 @@ Property A is let unfurnished for an annual rent of £4,000, payable **quarterly
 | 29.6.25  | Interest on loan to acquire property                           | £420    |
 | 1.2.26   | Repainting exterior                                            | £845    |
 
-Property B is let furnished for an annual rent of £5,000, payable **quarterly in arrears**. The tenants were late in paying the amount due on 31 March 2026 – this was **not received until 15 April 2026**.
+Property B is let furnished for an annual rent of £5,000, payable **quarterly in arrears**. The tenants were late in paying the amount due on 31 March 2026 - this was **not received until 15 April 2026**.
 
 Eastleigh incurred the following expenditure in respect of this property in the tax year 2025/26. 
 
@@ -330,7 +317,7 @@ Calculate Eastleigh's **property income** for the tax year 2025/26.
 
 
 
-# Property income – Accruals basis
+# Property income - Accruals basis
 
 An individual or partnership may opt to use the accruals basis and it must be used if property income receipts **exceed £150,000**. However, in the examination it should only be used if the question specifies to do so.
 
@@ -380,7 +367,7 @@ If rental income is less than the allowable expenditure, a loss arises.
   - **Carried forward** against future profits.
   - **Set off** against total income or chargeable gains.
   - **Terminal loss relief** in the final year of trade.
-  - If none of these apply, the loss is described as **“unrelieved.”**
+  - If none of these apply, the loss is described as **"unrelieved."**
 - **unrelieved loss** may occur because the taxpayer has insufficient income/gains to offset.
 
 
@@ -464,13 +451,13 @@ The amount assessable as property income is:
 | Calculation                                                                 | Formula     |
 |-----------------------------------------------------------------------------|-------------|
 | **Premium**                                                                 |     X       |
-| Less: Premium × 2% × (n − 1)                                                |    (X)      |
+| Less: Premium × 2% × (n - 1)                                                |    (X)      |
 | **Property income**                                                         |  **X**      |
 
 
 **Where::**  n = Length of lease = number of **complete** years (ignore part of a year). 
 
-**Alternative calculation::** Property income = Premium × (51 − n) / 50.
+**Alternative calculation::** Property income = Premium × (51 - n) / 50.
 
 > These formulae are not included in the tax rates and allowances provided to you in the TX examination.
 
@@ -485,12 +472,12 @@ Calculate the **amount assessable** on Wakana as **property income** in the tax 
 | **Property income**                    | £        |
 |----------------------------------------|----------|
 | Premium                                | 10,500   |
-| Less: £10,500 × 2% × (21 – 1)          | (4,200)  |
+| Less: £10,500 × 2% × (21 - 1)          | (4,200)  |
 | **Property income**                    | **6,300**|
 
 **Alternative calculation:**
 
-Property income = £10,500 × (51 – 21)/50 = £6,300
+Property income = £10,500 × (51 - 21)/50 = £6,300
 
 ## Example 2: Premiums received on the grant of a short lease
 
@@ -503,24 +490,24 @@ Calculate the **amount assessable** on Albert as **property income** for the tax
 | **Property income**                    | £        |
 |----------------------------------------|----------|
 | Premium                                | 26,000   |
-| Less: £26,000 × 2% × (18 – 1)          | (8,840)  |
+| Less: £26,000 × 2% × (18 - 1)          | (8,840)  |
 | **Property income**                    |**17,160**|
 
 **Alternative calculation:**
 
-Property income = £26,000 × (51 – 18)/50 = £17,160
+Property income = £26,000 × (51 - 18)/50 = £17,160
 
 # Rent-a-room relief 
 
-When a furnished room in an individual’s main residence is let, a special exemption applies.
+When a furnished room in an individual's main residence is let, a special exemption applies.
 
 - If gross rental income is below a set threshold (**£7,500 per year**, or £3,750 if jointly let), the income can be **completely exempt from tax**.  
 - Alternatively, if income exceeds the threshold, the taxpayer can **elect to deduct the allowance instead of actual expenses**.
-- if a landlord has already claimed rent‑a‑room relief, they **cannot also claim other property‑related reliefs** (such as replacement domestic items relief or capital allowances) for the same accommodation. This prevents “double relief” on the same income stream.  
+- if a landlord has already claimed rent-a-room relief, they **cannot also claim other property-related reliefs** (such as replacement domestic items relief or capital allowances) for the same accommodation. This prevents "double relief" on the same income stream.  
 
 The individual may choose between:
 
-## Method 1 – Normal assessment
+## Method 1 - Normal assessment
 
 | Rental income received (or receivable) | £        |
 |----------------------------------------|----------|
@@ -530,7 +517,7 @@ The individual may choose between:
 
 ---
 
-## Method 2 – Rent-a-room relief
+## Method 2 - Rent-a-room relief
 
 | Rental income received (or receivable) | £        |
 |----------------------------------------|----------|
@@ -606,4 +593,8 @@ B. **£550**
 C. £7,600    
 D. £7,500   
 :::
+
+
+
+
 

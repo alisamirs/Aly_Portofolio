@@ -1,0 +1,3982 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.9.37">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+
+<title>Chapter 13: Corporation tax</title>
+<style>
+/* Default styles provided by pandoc.
+** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
+*/
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+  vertical-align: middle;
+}
+</style>
+
+
+<script src="C13_Corp_TX_files/libs/clipboard/clipboard.min.js"></script>
+<script src="C13_Corp_TX_files/libs/quarto-html/quarto.js" type="module"></script>
+<script src="C13_Corp_TX_files/libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="C13_Corp_TX_files/libs/quarto-html/popper.min.js"></script>
+<script src="C13_Corp_TX_files/libs/quarto-html/tippy.umd.min.js"></script>
+<script src="C13_Corp_TX_files/libs/quarto-html/anchor.min.js"></script>
+<link href="C13_Corp_TX_files/libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="C13_Corp_TX_files/libs/quarto-html/quarto-syntax-highlighting-7f8f88aac4f3542376d5c11b86a4c14d.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="C13_Corp_TX_files/libs/bootstrap/bootstrap.min.js"></script>
+<link href="C13_Corp_TX_files/libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="C13_Corp_TX_files/libs/bootstrap/bootstrap-efbb37e9afcc02144ebbc7afd12a776f.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+
+  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
+  <script defer="" src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
+
+<script type="text/javascript">
+const typesetMath = (el) => {
+  if (window.MathJax) {
+    // MathJax Typeset
+    window.MathJax.typeset([el]);
+  } else if (window.katex) {
+    // KaTeX Render
+    var mathElements = el.getElementsByClassName("math");
+    var macros = [];
+    for (var i = 0; i < mathElements.length; i++) {
+      var texText = mathElements[i].firstChild;
+      if (mathElements[i].tagName == "SPAN" && texText && texText.data) {
+        window.katex.render(texText.data, mathElements[i], {
+          displayMode: mathElements[i].classList.contains('display'),
+          throwOnError: false,
+          macros: macros,
+          fleqn: false
+        });
+      }
+    }
+  }
+}
+window.Quarto = {
+  typesetMath
+};
+</script>
+
+</head>
+
+<body class="fullcontent quarto-light">
+
+<div id="quarto-content" class="page-columns page-rows-contents page-layout-article">
+
+<main class="content" id="quarto-document-content">
+
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<h1 class="title">Chapter 13: Corporation tax</h1>
+</div>
+
+
+
+<div class="quarto-title-meta">
+
+    
+  
+    
+  </div>
+  
+<div>
+  <div class="abstract">
+    <div class="block-title">Abstract</div>
+    <p>Define the terms ‘period of account’, ‘accounting period’, and ‘financial year’. <br> Recognise when an accounting period starts and when an accounting period finishes. <br> Explain how the residence of a company is determined. <br> Compute taxable total profits. <br> Compute the corporation tax liability and apply marginal relief. <br> Recognise the expenditure that is allowable in calculating the tax adjusted trading profit. <br> Recognise the relief which can be obtained for pre-trading expenditure. <br> Compute capital allowances as for income tax, for purchases and disposals of assets on which the 100% and 50% first year allowances have been claimed and for disposal of assets on which the main pool <em>super deduction</em> of 130% and special rate pool first year allowance of 50% for expenditure incurred from 1 April 2021 to 31 March 2023 were claimed. <br> Compute property business profits. <br> Recognise and apply the treatment of interest paid and received under the loan relationship rules. <br> Recognise and apply the treatment of qualifying charitable donations. <br></p>
+  </div>
+</div>
+
+
+</header>
+
+
+<p><img src="20260808093208.png" class="img-fluid"></p>
+<section id="basis-of-assessment" class="level1">
+<h1>Basis of assessment</h1>
+<p>• Corporation tax is assessed on a company’s taxable total profits arising in an accounting period. • The accounting period is not necessarily the same period as the company’s set of accounts (period of account).</p>
+<p>It is important when dealing with corporation tax to understand the terms ‘period of account’ and ‘accounting period’.</p>
+<div class="columns">
+<div class="column" style="width:45%;">
+<p><strong>1. Period of account</strong><br>
+A period of account is any period for which a company prepares accounts. It is usually 12 months in length, but may be shorter or longer than this.</p>
+</div><div class="column" style="width:5%;">
+
+</div><div class="column" style="width:45%;">
+<p><strong>2. Accounting period</strong><br>
+An accounting period (AP) is the period for which a charge to corporation tax is made. It is never longer than 12 months.</p>
+</div>
+</div>
+<section id="accounting-periods" class="level2">
+<h2 class="anchored" data-anchor-id="accounting-periods">Accounting periods</h2>
+<div class="columns">
+<div class="column" style="width:45%;">
+<p>When does an AP start?<br>
+An AP starts:</p>
+<ul>
+<li>When a company starts to trade (or receives income chargeable to corporation tax), and</li>
+<li>When the previous accounting period ends.</li>
+</ul>
+</div><div class="column" style="width:5%;">
+
+</div><div class="column" style="width:45%;">
+<p>When does an AP end?</p>
+<p>The main situations where an AP ends are:</p>
+<ul>
+<li>twelve months after the beginning of the accounting period</li>
+<li>the end of the company’s period of account, and</li>
+<li>the date the company begins or ceases to trade.</li>
+</ul>
+</div>
+</div>
+<blockquote class="blockquote">
+<p>Note that the date on which a company’s period of account ends is often referred to in the examination as the <em>accounting reference date</em>. It can also be referred to as the accounting date.</p>
+</blockquote>
+<p><strong><em>Long periods of account</em></strong><br>
+For corporation tax purposes, an AP can never exceed 12 months.<br>
+Therefore, if a company prepares accounts for a period of more than 12 months, there are two accounting periods for tax purposes.</p>
+<p>The long period of account is divided into APs as follows:</p>
+<ul>
+<li>First AP: first 12 months of long period</li>
+<li>Second AP: the balance of the long period.</li>
+</ul>
+<p><strong><em>Choice of accounting reference date</em></strong><br>
+A company can choose any accounting reference date, however there are certain tax advantages to having an accounting reference date of 31 March:</p>
+<ul>
+<li>Being aligned with the financial year makes it easier for a company to calculate its corporation tax liability, since the same reliefs and legislation will apply throughout the accounting period.</li>
+<li>For owner-managed companies, alignment with the income tax year (the odd five days can be ignored) makes it easier to calculate the most tax efficient method of extracting profits from the company for the individual owners.</li>
+</ul>
+</section>
+<section id="the-tax-residence-of-a-company" class="level2">
+<h2 class="anchored" data-anchor-id="the-tax-residence-of-a-company">The tax residence of a company</h2>
+<p>Companies resident in the UK are chargeable to corporation tax on <strong>all profits</strong> (i.e.&nbsp;income and chargeable gains) wherever they arise (i.e.&nbsp;on <strong>worldwide</strong> income and gains).</p>
+<p>It is therefore important to correctly determine where a company is resident.</p>
+<p><strong>Determining residence</strong><br>
+A company is UK resident if it is:</p>
+<ul>
+<li>incorporated in the UK, or</li>
+<li>incorporated elsewhere, but is centrally managed and controlled in the UK.</li>
+</ul>
+<blockquote class="blockquote">
+<p>A company that is incorporated in the UK is resident in the UK regardless of where it is centrally managed and controlled.</p>
+</blockquote>
+<section id="example-1-the-tax-residence-of-a-company" class="level4">
+<h4 class="anchored" data-anchor-id="example-1-the-tax-residence-of-a-company">Example 1: The tax residence of a company</h4>
+<p>X Ltd is incorporated in the UK. The directors hold monthly board meetings overseas when major policy decisions are made.</p>
+<p>Y Ltd is incorporated overseas. The directors hold frequent board meetings in the UK, which is where the directors are based.</p>
+<p>Z Ltd is incorporated overseas. The directors hold weekly meetings overseas, but have quarterly meetings in the UK because this is where the non-executive directors are based.</p>
+<p>Explain for each company whether they will be treated as UK resident.</p>
+<p><strong>Solution</strong></p>
+<ul>
+<li>X Ltd is resident in the UK. If a company is incorporated in the UK it is irrelevant where meetings are held and decisions are made.</li>
+<li>Y Ltd would probably be treated as resident in the UK for corporation tax purposes. Although not incorporated in the UK, it would appear that the company is <strong>centrally managed</strong> and controlled from the UK.</li>
+<li>Z Ltd would probably <strong>not</strong> be treated as resident in the UK. The company is not incorporated in the UK, and it appears to be centrally managed and controlled from overseas.</li>
+</ul>
+</section>
+<section id="example-2-resident-corporation" class="level4">
+<h4 class="anchored" data-anchor-id="example-2-resident-corporation">Example 2: Resident corporation</h4>
+<p>Mill Ltd is incorporated in France but holds all its board meetings in Germany. Its directors live in the UK most of the year.</p>
+<p>Marble Ltd is incorporated in Italy but holds its monthly board meetings in London. Other interim board meetings are held in Italy, where some of the directors are based. Most of the directors are based in the UK.</p>
+<p>Lamb Ltd is incorporated in the UK. Board meetings are held in France.</p>
+<p>Explain for each of the above companies whether they will be treated as resident in the UK for corporation tax purposes.</p>
+<p><strong>Solution</strong></p>
+<ul>
+<li>Mill Ltd would not be treated as resident in the UK. The company is not incorporated in the UK, and it appears to be <strong>centrally managed</strong> and controlled from overseas. The rules in each of the overseas countries in question would have to be reviewed to determine whether Mill Ltd is considered resident in those countries.</li>
+<li>Marble Ltd would <strong>probably</strong> be treated as resident in the UK for corporation tax purposes. Although not incorporated in the UK, it would appear that the company is centrally managed and controlled from the UK as its monthly board meetings are held in London and the majority of directors are based here.</li>
+<li>Lamb Ltd is resident in the UK as it is incorporated in the UK. It is therefore irrelevant where meetings are held and decisions are made.</li>
+</ul>
+</section>
+</section>
+<section id="taxable-total-profits" class="level2">
+<h2 class="anchored" data-anchor-id="taxable-total-profits">Taxable total profits</h2>
+<p>• A company’s taxable total profits for an accounting period are total profits from all sources, less <em>qualifying charitable donations (QCDs)</em>. • Taxable total profits (TTP) = Total profits – Qualifying charitable donations • A company’s total profits are worldwide income <em>(excluding dividends)</em> plus <em>net chargeable gains</em>. • The pro forma below sets out the different sources of income included in total profits.</p>
+<p><strong><em>Layout of a corporation tax computation</em></strong></p>
+<table class="caption-top table">
+<thead>
+<tr class="header">
+<th></th>
+<th>2025/26 (£)</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Tax adjusted trading profit</td>
+<td>×</td>
+</tr>
+<tr class="even">
+<td>Non-trade loan relationship (NTLR) income</td>
+<td>×</td>
+</tr>
+<tr class="odd">
+<td>Property income</td>
+<td>×</td>
+</tr>
+<tr class="even">
+<td>Miscellaneous income</td>
+<td>×</td>
+</tr>
+<tr class="odd">
+<td>Chargeable gains</td>
+<td>×</td>
+</tr>
+<tr class="even">
+<td><strong>Total profits</strong></td>
+<td><strong>×</strong></td>
+</tr>
+<tr class="odd">
+<td><strong>Less:</strong> Qualifying charitable donations (QCD)</td>
+<td>(×)</td>
+</tr>
+<tr class="even">
+<td><strong>Taxable total profits (TTP)</strong></td>
+<td><strong>×</strong></td>
+</tr>
+</tbody>
+</table>
+<p><strong><em>Tax adjusted trading profit</em></strong><br>
+Assesses all trading income net of trading expenditure.</p>
+<p><strong><em>Non-trade loan relationship income</em></strong><br>
+Assesses all interest receivable net of some interest payable.</p>
+<p><strong><em>Property income</em></strong><br>
+Assesses the profit (or loss) from letting furnished or unfurnished property and is calculated on the accruals basis.</p>
+<p><strong><em>Miscellaneous income</em></strong><br>
+Patent royalties receivable in respect of non-trade related patents would be included here.<br>
+These are obscure and unlikely to appear in the TX examination.</p>
+<p><strong><em>Dividends</em></strong><br>
+Dividends received from UK and overseas companies are exempt from corporation tax and are therefore excluded from the TTP computation. <strong>Only UK dividends are examinable in the TX examination</strong>.</p>
+<p><strong><em>Chargeable gains/losses</em></strong><br>
+Corporation tax is also charged on any chargeable gains that arise on chargeable disposals made by the company during an accounting period.<br>
+Chargeable gains for companies are covered in detail in Chapter 21.</p>
+<blockquote class="blockquote">
+<p>It is essential to understand that companies pay corporation tax on their chargeable gains, not capital gains tax.</p>
+</blockquote>
+<p><strong><em>Qualifying charitable donations</em></strong><br>
+All donations to charity by a company (except those allowed as a trading expense) are an allowable deduction from total profits in a corporation tax computation.<br>
+The relief is referred to as ‘qualifying charitable donations (QCD) relief’.<br>
+All charitable donations by a company are paid gross.</p>
+<blockquote class="blockquote">
+<p>Note that the tax treatment of donations to charity made by a company is different from that applied to payments made by an individual.</p>
+</blockquote>
+<section id="example-1-taxable-total-profits" class="level4">
+<h4 class="anchored" data-anchor-id="example-1-taxable-total-profits">Example 1: Taxable total profits</h4>
+<p>Westmorland Ltd has the following income and outgoings for the year ending 31 March 2026.</p>
+<table class="caption-top table">
+<thead>
+<tr class="header">
+<th></th>
+<th>2025/26 (£)</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Tax adjusted trading profit</td>
+<td>1,456,500</td>
+</tr>
+<tr class="even">
+<td>Property income</td>
+<td>25,000</td>
+</tr>
+<tr class="odd">
+<td>Interest receivable</td>
+<td>10,000</td>
+</tr>
+<tr class="even">
+<td>Chargeable gains</td>
+<td>35,000</td>
+</tr>
+<tr class="odd">
+<td>Dividends from UK companies</td>
+<td>14,400</td>
+</tr>
+<tr class="even">
+<td>Qualifying charitable donations (QCD)</td>
+<td>(10,000)</td>
+</tr>
+</tbody>
+</table>
+<p>Compute the taxable total profits for the y/e 31 March 2026.</p>
+<p><strong>Solution</strong></p>
+<table class="caption-top table">
+<thead>
+<tr class="header">
+<th></th>
+<th>2025/26 (£)</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Tax adjusted trading profit</td>
+<td>1,456,500</td>
+</tr>
+<tr class="even">
+<td>Property income</td>
+<td>25,000</td>
+</tr>
+<tr class="odd">
+<td>Interest receivable</td>
+<td>10,000</td>
+</tr>
+<tr class="even">
+<td>Chargeable gains</td>
+<td>35,000</td>
+</tr>
+<tr class="odd">
+<td><strong>Total profits</strong></td>
+<td><strong>1,526,500</strong></td>
+</tr>
+<tr class="even">
+<td><strong>Less:</strong> Qualifying charitable donations (QCD)</td>
+<td>(10,000)</td>
+</tr>
+<tr class="odd">
+<td><strong>Taxable total profits (TTP)</strong></td>
+<td><strong>1,516,500</strong></td>
+</tr>
+</tbody>
+</table>
+<blockquote class="blockquote">
+<p>Dividends received are not included when calculating taxable total profits as they are exempt from corporation tax.</p>
+</blockquote>
+<blockquote class="blockquote">
+<p>All charitable donations are allowable deductions from total profits and are paid gross.</p>
+</blockquote>
+</section>
+<section id="example-1-taxable-total-profits-1" class="level4">
+<h4 class="anchored" data-anchor-id="example-1-taxable-total-profits-1">Example 1: Taxable total profits</h4>
+<p>Cumberland Ltd has the following income and outgoings for the year ended 30 September 2025.</p>
+<table class="caption-top table">
+<thead>
+<tr class="header">
+<th></th>
+<th>£</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Tax adjusted trading profit</td>
+<td>81,500</td>
+</tr>
+<tr class="even">
+<td>Property income</td>
+<td>1,300</td>
+</tr>
+<tr class="odd">
+<td>Interest receivable</td>
+<td>2,200</td>
+</tr>
+<tr class="even">
+<td>Chargeable gains</td>
+<td>3,000</td>
+</tr>
+<tr class="odd">
+<td>Dividends from UK companies</td>
+<td>4,400</td>
+</tr>
+<tr class="even">
+<td>Qualifying charitable donations (QCD)</td>
+<td>(1,000)</td>
+</tr>
+</tbody>
+</table>
+<p>Compute the taxable total profits for the y/e 30 September 2025.</p>
+<p><strong>Solution</strong></p>
+<table class="caption-top table">
+<thead>
+<tr class="header">
+<th></th>
+<th>£</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Tax adjusted trading profit</td>
+<td>81,500</td>
+</tr>
+<tr class="even">
+<td>Property income</td>
+<td>1,300</td>
+</tr>
+<tr class="odd">
+<td>Non-trade loan relationship income</td>
+<td>2,200</td>
+</tr>
+<tr class="even">
+<td>Chargeable gains</td>
+<td>3,000</td>
+</tr>
+<tr class="odd">
+<td><strong>Total Profits</strong></td>
+<td><strong>88,000</strong></td>
+</tr>
+<tr class="even">
+<td>Qualifying charitable donations (QCD)</td>
+<td>(1,000)</td>
+</tr>
+<tr class="odd">
+<td>taxable total profits TTP</td>
+<td><strong>87,000</strong></td>
+</tr>
+</tbody>
+</table>
+</section>
+</section>
+<section id="the-corporation-tax-liability" class="level2">
+<h2 class="anchored" data-anchor-id="the-corporation-tax-liability">The corporation tax liability</h2>
+<p>A company’s corporation tax liability is calculated by applying the <em>appropriate rate of corporation tax</em> to the company’s taxable total profits.</p>
+<p><strong><em>Determining the relevant rate of corporation tax</em></strong><br>
+The rate of corporation tax is determined by comparing a company’s augmented profits to <strong>statutory limits</strong>.</p>
+<p>Augmented profits are calculated as follows:</p>
+<table class="caption-top table">
+<thead>
+<tr class="header">
+<th></th>
+<th>£</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Taxable total profits (TTP)</td>
+<td>X</td>
+</tr>
+<tr class="even">
+<td>Plus: Dividends received from non-associated companies</td>
+<td>X</td>
+</tr>
+<tr class="odd">
+<td><strong>Augmented profits</strong></td>
+<td><strong>X</strong></td>
+</tr>
+</tbody>
+</table>
+<p><strong><em>Dividends received</em></strong><br>
+Although dividends received are exempt from corporation tax, they can <em>have an impact on the rate of tax</em> that the company pays and also whether corporation tax needs to be paid by instalments (Chapter 16).</p>
+<ul>
+<li>The amount of <strong>cash dividends</strong> received from non-associated companies are <strong>added to TTP</strong> in order to arrive at the <strong>augmented profits</strong> figure.</li>
+<li>Dividends received from associated companies (defined later) are also ignored in the calculation.</li>
+</ul>
+<p><strong><em>Calculating the corporation tax liability</em></strong></p>
+<ul>
+<li>The rate of corporation tax is fixed by reference to financial years.</li>
+<li>A financial year runs from 1 April to the following 31 March and is identified by the calendar year in which it begins.</li>
+<li>The year commencing 1 April 2025 and ending on 31 March 2026 is the Financial Year 2025 (FY2025).</li>
+</ul>
+<p>Financial years should not be confused with tax years for personal taxes, which run from 6 April to the following 5 April.</p>
+<p>The rates of corporation tax needed for the TX exam are:</p>
+<table class="caption-top table">
+<thead>
+<tr class="header">
+<th>Financial year</th>
+<th>2023</th>
+<th>2024</th>
+<th>2025</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Small profits rate</td>
+<td>19%</td>
+<td>19%</td>
+<td>19%</td>
+</tr>
+<tr class="even">
+<td>Main rate</td>
+<td>25%</td>
+<td>25%</td>
+<td>25%</td>
+</tr>
+<tr class="odd">
+<td>Lower limit</td>
+<td>£50,000</td>
+<td>£50,000</td>
+<td>£50,000</td>
+</tr>
+<tr class="even">
+<td>Upper limit</td>
+<td>£250,000</td>
+<td>£250,000</td>
+<td>£250,000</td>
+</tr>
+<tr class="odd">
+<td>Standard fraction</td>
+<td>3/200</td>
+<td>3/200</td>
+<td>3/200</td>
+</tr>
+</tbody>
+</table>
+<ul>
+<li>The relevant rate is found by comparing the augmented profits (A) to the upper and lower limits.<br>
+</li>
+<li>If A &lt; lower limit (i.e.&nbsp;the augmented profits are below £50,000) TTP is charged at the small profits rate (19%).</li>
+<li>If A &gt; upper limit (i.e.&nbsp;the augmented profits exceed £250,000) TTP is charged at the main rate (25%).</li>
+<li>Where A falls in between the limits of £50,000 and £250,000 TTP is charged at the main rate (25%) but a <strong><em>special marginal relief applies</em></strong> and is deducted from the corporation tax liability.</li>
+</ul>
+<section id="example-1-corporation-tax-liability" class="level4">
+<h4 class="anchored" data-anchor-id="example-1-corporation-tax-liability">Example 1: Corporation tax liability</h4>
+<p>Z Ltd has taxable total profits of £28,000 in the y/e 31 March 2026 and receives dividends of £10,000 from unconnected companies.</p>
+<p>Calculate Z Ltd’s <strong>corporation tax liability</strong> for the y/e 31 March 2026.</p>
+<p><strong>Solution</strong></p>
+<p>Corporation tax liability (£28,000 × 19%) = £5,320.</p>
+<blockquote class="blockquote">
+<p>Z Ltd’s accounting period (y/e 31 March 2026) falls entirely in FY2025. Z Ltd has augmented profits of £38,000 (£28,000 + £10,000) and therefore the small companies tax rate for FY2025 of 19% is applied to the company’s TTP.</p>
+</blockquote>
+</section>
+<section id="example-2-corporation-tax-liability" class="level4">
+<h4 class="anchored" data-anchor-id="example-2-corporation-tax-liability">Example 2: Corporation tax liability</h4>
+<p>Birch Ltd has the following results for the y/e 31 March 2026:</p>
+<table class="caption-top table">
+<tbody>
+<tr class="odd">
+<td>Taxable total profits (TTP)</td>
+<td>£320,000</td>
+</tr>
+<tr class="even">
+<td>Dividends received from unconnected companies</td>
+<td>£18,000</td>
+</tr>
+</tbody>
+</table>
+<p>Calculate Birch Ltd’s corporation tax liability for the year ended 31 March 2026.</p>
+<p><strong>Solution</strong></p>
+<p>(320K * 0.25 = 80K)</p>
+<blockquote class="blockquote">
+<p>The company’s accounting period falls entirely in FY2025 and therefore as the augmented profits exceed the upper limit the FY2025 main tax rate of 25% is applied to the TTP.</p>
+</blockquote>
+</section>
+<section id="marginal-relief" class="level3">
+<h3 class="anchored" data-anchor-id="marginal-relief">Marginal relief</h3>
+<p>Marginal relief is available if augmented profits fall between the upper and lower limits and is calculated as follows:</p>
+<p><span class="math inline">\(\text{(Upper limit – augmented profits) × Standard fraction ×} \frac{\text{Taxable total profits}}{\text{Augmented profits}}\)</span></p>
+<section id="example-3-corporation-tax-liability" class="level4">
+<h4 class="anchored" data-anchor-id="example-3-corporation-tax-liability">Example 3: Corporation tax liability</h4>
+<p>Sycamore Ltd has the following results for the year ended 31 March 2026:</p>
+<table class="caption-top table">
+<tbody>
+<tr class="odd">
+<td>Taxable total profits (TTP)</td>
+<td>£150,000</td>
+</tr>
+<tr class="even">
+<td>Dividends received from <strong>unconnected</strong> companies</td>
+<td>£30,000</td>
+</tr>
+</tbody>
+</table>
+<p>Calculate the corporation tax liability for Sycamore Ltd.&nbsp;</p>
+<p><strong>Solution</strong></p>
+<table class="caption-top table">
+<thead>
+<tr class="header">
+<th></th>
+<th>£</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Taxable total profits (TTP)</td>
+<td>£150,000</td>
+</tr>
+<tr class="even">
+<td>Plus: Dividends received</td>
+<td>30,000</td>
+</tr>
+<tr class="odd">
+<td><strong>Augmented profits</strong></td>
+<td><strong>180,000</strong></td>
+</tr>
+</tbody>
+</table>
+<blockquote class="blockquote">
+<p>The AP all falls into FY2025.</p>
+</blockquote>
+<blockquote class="blockquote">
+<p>Marginal relief applies as augmented profits are between the limits.</p>
+</blockquote>
+<table class="caption-top table">
+<thead>
+<tr class="header">
+<th></th>
+<th>£</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Corporation tax on TTP (£150,000 × 25%)</td>
+<td>37,500</td>
+</tr>
+<tr class="even">
+<td><strong>Less:</strong> Marginal relief</td>
+<td></td>
+</tr>
+<tr class="odd">
+<td>(£250,000 – £180,000) × 3/200 × £150,000/£180,000</td>
+<td>(875)</td>
+</tr>
+<tr class="even">
+<td><strong>Corporation tax liability</strong></td>
+<td><strong>36,625</strong></td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="example-4-corporation-tax-liability" class="level4">
+<h4 class="anchored" data-anchor-id="example-4-corporation-tax-liability">Example 4: Corporation tax liability</h4>
+<p>Chestnut Ltd has the following results for the y/e 31 March 2026:</p>
+<table class="caption-top table">
+<thead>
+<tr class="header">
+<th></th>
+<th>£</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Taxable total profits (TTP)</td>
+<td>£120,000</td>
+</tr>
+<tr class="even">
+<td>Dividends received from <strong>unconnected</strong> companies</td>
+<td>£15,000</td>
+</tr>
+</tbody>
+</table>
+<p>Calculate Chestnut Ltd’s corporation tax liability for the year ended 31 March 2026.</p>
+<p><strong>Solution</strong></p>
+<table class="caption-top table">
+<thead>
+<tr class="header">
+<th></th>
+<th>£</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Taxable total profits (TTP)</td>
+<td>£120,000</td>
+</tr>
+<tr class="even">
+<td>Plus: Dividends received</td>
+<td>15,000</td>
+</tr>
+<tr class="odd">
+<td><strong>Augmented profits</strong></td>
+<td><strong>135,000</strong></td>
+</tr>
+</tbody>
+</table>
+<table class="caption-top table">
+<thead>
+<tr class="header">
+<th></th>
+<th>£</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Corporation tax on TTP (£120,000 × 25%)</td>
+<td>30,000</td>
+</tr>
+<tr class="even">
+<td><strong>Less:</strong> Marginal relief</td>
+<td></td>
+</tr>
+<tr class="odd">
+<td>(£250,000 – £135,000) × 3/200 × £120,000/£135,000</td>
+<td>(1,533)</td>
+</tr>
+<tr class="even">
+<td><strong>Corporation tax liability</strong></td>
+<td><strong>28,467</strong></td>
+</tr>
+</tbody>
+</table>
+<p><strong><em>Short accounting periods</em></strong></p>
+<ul>
+<li>The upper and lower augmented profits limits of £250,000 and £50,000 apply for accounting periods of 12 months.</li>
+<li>If an accounting period is for less than 12 months, the limits must be reduced <em>proportionately</em>.</li>
+</ul>
+</section>
+<section id="example-5-corporation-tax-liability" class="level4">
+<h4 class="anchored" data-anchor-id="example-5-corporation-tax-liability">Example 5: Corporation tax liability</h4>
+<p>Elm Ltd has the following results for the <strong>nine months</strong> ended 31 March 2026:</p>
+<table class="caption-top table">
+<thead>
+<tr class="header">
+<th></th>
+<th>£</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Taxable total profits (TTP)</td>
+<td>£150,000</td>
+</tr>
+<tr class="even">
+<td>Dividends received from <strong>unconnected</strong> companies</td>
+<td>£30,000</td>
+</tr>
+</tbody>
+</table>
+<p><strong>Solution</strong></p>
+<table class="caption-top table">
+<thead>
+<tr class="header">
+<th></th>
+<th>£</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Taxable total profits (TTP)</td>
+<td>£150,000</td>
+</tr>
+<tr class="even">
+<td>Plus: Dividends received</td>
+<td>30,000</td>
+</tr>
+<tr class="odd">
+<td><strong>Augmented profits</strong></td>
+<td><strong>180,000</strong></td>
+</tr>
+</tbody>
+</table>
+<blockquote class="blockquote">
+<p>The upper and lower limits must be scaled down as the AP is only nine months.</p>
+</blockquote>
+<table class="caption-top table">
+<tbody>
+<tr class="odd">
+<td>Lower limit (£50,000 × 9/12)</td>
+<td>£37,500</td>
+</tr>
+<tr class="even">
+<td>Upper limit (£250,000 × 9/12)</td>
+<td>£187,500</td>
+</tr>
+</tbody>
+</table>
+<p>Marginal relief applies as augmented profits are between the limits.</p>
+<table class="caption-top table">
+<tbody>
+<tr class="odd">
+<td>Corporation tax on TTP (£150,000 × 25%)</td>
+<td>£37,500</td>
+</tr>
+<tr class="even">
+<td>Less: Marginal relief</td>
+<td></td>
+</tr>
+<tr class="odd">
+<td>(£187,500 – £180,000) × 3/200 × £150,000/£180,000</td>
+<td>(94)</td>
+</tr>
+<tr class="even">
+<td><strong>Corporation tax liability</strong></td>
+<td><strong>37,406</strong></td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="example-6-corporation-tax-liability" class="level4">
+<h4 class="anchored" data-anchor-id="example-6-corporation-tax-liability">Example 6: Corporation tax liability</h4>
+<p>Red Ltd has the following results for the <strong>six months</strong> ended 31 December 2025:</p>
+<table class="caption-top table">
+<thead>
+<tr class="header">
+<th></th>
+<th>£</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Taxable total profits (TTP)</td>
+<td>£110,000</td>
+</tr>
+<tr class="even">
+<td>Dividends received from unconnected companies</td>
+<td>£10,000</td>
+</tr>
+</tbody>
+</table>
+<p>Calculate the corporation tax liability for Red Ltd.&nbsp;</p>
+<p><strong>Solution</strong></p>
+<table class="caption-top table">
+<thead>
+<tr class="header">
+<th></th>
+<th>£</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Corporation tax on TTP (£110,000 × 25%)</td>
+<td>27,500</td>
+</tr>
+<tr class="even">
+<td>Less: Marginal relief</td>
+<td></td>
+</tr>
+<tr class="odd">
+<td>(£125,000 – £120,000) × 3/200 × £110,000/£120,000</td>
+<td>(69)</td>
+</tr>
+<tr class="even">
+<td><strong>Corporation tax liability</strong></td>
+<td><strong>27,431</strong></td>
+</tr>
+</tbody>
+</table>
+<p><strong><em>Accounting periods straddling 31 March</em></strong><br>
+When a company’s AP falls into two financial years, the corporation tax liability must be calculated for each financial year separately if either of the following change:</p>
+<ul>
+<li>the corporation tax rates, or</li>
+<li>the statutory limits.</li>
+</ul>
+<p>If there is no change in the rates of tax (e.g.&nbsp;between FY2024 and FY2025) it is not necessary to calculate the tax in two stages.</p>
+<p>The statutory limits and the rates of corporation tax have not changed since 1 April 2023 (FY2023).</p>
+<p>The rates of corporation tax prior to FY2023 are not examinable and therefore it will not be necessary to calculate the tax in two stages in the examination.</p>
+<p><strong><em>Associated companies</em></strong><br>
+Two companies are associated companies if:</p>
+<ul>
+<li>One company controls the other(s), or</li>
+<li>Both are controlled by the same ‘person’ (company or individual).</li>
+</ul>
+<p><strong><em>Control</em></strong><br>
+Control means that the person has &gt; 50% of</p>
+<ul>
+<li>the issued share capital of another company, or</li>
+<li>the voting power, or</li>
+<li>the right to receive distributable profits, or</li>
+<li>the right to receive the net assets in the event of a winding up.</li>
+</ul>
+<p><strong><em>Points to note:</em></strong> When determining the number of associated companies:</p>
+<ul>
+<li>remember to include the parent company in the number of associated companies in the group.</li>
+<li>companies that are associated for only part of an accounting period are deemed to be associated for the whole of the accounting period.</li>
+<li>both UK resident and overseas resident companies are included.</li>
+<li>dormant companies are excluded.</li>
+</ul>
+<p><strong><em>Questions in the exam may require you to:</em></strong></p>
+<ul>
+<li>identify the number of associated companies in a group.</li>
+<li>justify a given number of associated companies.</li>
+<li>explain why companies are included and excluded.</li>
+</ul>
+</section>
+</section>
+<section id="associated-companies" class="level3">
+<h3 class="anchored" data-anchor-id="associated-companies">Associated companies</h3>
+<p><strong><em>Implications of being associated</em></strong><br>
+The tax implications of being associated are:</p>
+<ul>
+<li>The upper and lower limits, used to determine the rate of corporation tax, are divided by the number of associated companies.</li>
+<li>Intra-group dividends are not included in the calculation of augmented profits.</li>
+</ul>
+<p><strong><em>Tax rate</em></strong><br>
+The identification of the number of associated companies is the starting point for a corporation tax calculation, as this establishes:</p>
+<ul>
+<li>the applicable lower and upper limit for each company, and therefore</li>
+<li>the rate of corporation tax applicable to each company.</li>
+</ul>
+<blockquote class="blockquote">
+<p>Note that if marginal relief applies; use the revised upper limit in the marginal relief calculation.</p>
+</blockquote>
+<section id="example-7-corporation-tax-liability" class="level4">
+<h4 class="anchored" data-anchor-id="example-7-corporation-tax-liability">Example 7: Corporation tax liability</h4>
+<p>A Ltd is the parent company of a group of companies. The relationships between the companies in the group, are shown below:</p>
+<p><img src="20260809085145.png" class="img-fluid"></p>
+<p>All of the companies are UK resident except for E Ltd, which is resident outside the UK and all its trading activities are conducted outside the UK.<br>
+All of the companies have 31 December year ends.<br>
+All of the companies are trading companies except for B Ltd, which is dormant. D Ltd was bought by C Ltd on 1 July 2025.</p>
+<p>A Ltd is associated with:</p>
+<ul>
+<li>C Ltd (owns more than 50%).</li>
+<li>D Ltd (bought by C Ltd during the year, associated for the whole year. A Ltd controls C Ltd, and C Ltd controls D Ltd).</li>
+<li>E Ltd (even though it is resident overseas).</li>
+</ul>
+<p>A Ltd is not associated with B Ltd, as it is a dormant company. Therefore, there are <strong>four associated companies</strong> in the year ended 31 December 2025.</p>
+<p>A Ltd has tax adjusted trading profits for the year ended 31 December 2025 of <strong>£200,000</strong>. A Ltd had <em>no dividend</em> income during the year.</p>
+<p>Calculate the corporation tax payable by A Ltd, for the year ended 31 December 2025.</p>
+<p><strong>Solution</strong></p>
+<p>There are <strong><em>four associated companies</em></strong> in the group.</p>
+<p>Therefore, the corporation tax rate limits are as follows:</p>
+<table class="caption-top table">
+<thead>
+<tr class="header">
+<th></th>
+<th>£</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Upper limit: £250,000 ÷ 4</td>
+<td>62,500</td>
+</tr>
+<tr class="even">
+<td>Lower limit: £50,000 ÷ 4</td>
+<td>12,500</td>
+</tr>
+</tbody>
+</table>
+<p>A Ltd’s augmented profits exceed the <strong><em>revised upper limit</em></strong> and therefore, it will pay corporation tax at the <strong>main rate</strong>.</p>
+<p>The year ended 31 December 2025 straddles the financial years FY2024 and FY2025, but the rate of tax hasn’t changed between the two years, so corporation tax can be calculated in one step.</p>
+<p>Corporation tax liability = £200,000 × 25% = <span style="font-size: 18px; text-decoration: underline;">£50,000</span></p>
+</section>
+<section id="example-8-corporation-tax-liability" class="level4">
+<h4 class="anchored" data-anchor-id="example-8-corporation-tax-liability">Example 8: Corporation tax liability</h4>
+<p>Cob Ltd prepares accounts for the year ended 30 September 2025.</p>
+<p>On 1 February 2025, the company acquired <em>60%</em> of the shares of a company that is resident overseas.<br>
+On 1 May 2025, it acquired <em>75%</em> of the shares of a company that is resident in the UK.<br>
+Cob Ltd has held 10% of the shares in <em>Bun Ltd</em> for two years.</p>
+<p>Cob Ltd has taxable total profits of <strong>£100,000</strong>, for the year ended 30 September 2025, and also received dividend income of £10,000 from <em>Bun Ltd</em> during the year.</p>
+<p>Calculate Cob Ltd’s corporation tax payable for the year ended 30 September 2025.</p>
+<p><strong>Solution</strong></p>
+<table class="caption-top table">
+<thead>
+<tr class="header">
+<th></th>
+<th>£</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Lower limit (50,000 ÷ 3)</td>
+<td>16,667</td>
+</tr>
+<tr class="even">
+<td>Upper limit (250,000 ÷ 3)</td>
+<td>83,333</td>
+</tr>
+</tbody>
+</table>
+<blockquote class="blockquote">
+<p>Cob Ltd’s augmented profits (110K) exceed the revised upper limit (83.3K)</p>
+</blockquote>
+<p>Corporation tax on TTP = £100,000 × 25% = 25,000</p>
+<div class="callout callout-style-default callout-tip callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Tip
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p><strong><em>Dividends</em></strong> - Dividends received by UK companies from other companies are not taxable. - Normally they are included when calculating the company’s augmented profits. The company’s augmented profits then determine the rate of corporation tax payable. - Dividends received from associated companies however are not included as part of augmented profits.</p>
+</div>
+</div>
+</section>
+<section id="example-9-associated-companies---corporation-tax-payable" class="level4">
+<h4 class="anchored" data-anchor-id="example-9-associated-companies---corporation-tax-payable">Example 9: Associated companies - Corporation tax payable</h4>
+<p>Holly Ltd is the parent company of <strong>one wholly owned subsidiary</strong>, Berry Ltd.&nbsp;It also owns shares (&lt; 5% shareholdings) in several other companies.</p>
+<p>Holly Ltd had the following income for the y/e 31 March 2026:</p>
+<table class="caption-top table">
+<thead>
+<tr class="header">
+<th></th>
+<th>£</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Tax adjusted trading profit</td>
+<td>60,000</td>
+</tr>
+<tr class="even">
+<td>Interest income</td>
+<td>50,000</td>
+</tr>
+<tr class="odd">
+<td>Dividends received from Berry Ltd</td>
+<td>60,000</td>
+</tr>
+<tr class="even">
+<td>Dividends received from other UK companies</td>
+<td>10,000</td>
+</tr>
+</tbody>
+</table>
+<p>Calculate the corporation tax payable by Holly Ltd, for the y/e 31 March 2026.</p>
+<p><strong>Solution</strong></p>
+<p><strong><em>Corporation tax computation – y/e 31 March 2026</em></strong></p>
+<table class="caption-top table">
+<thead>
+<tr class="header">
+<th></th>
+<th>£</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Tax adjusted trading profit</td>
+<td>60,000</td>
+</tr>
+<tr class="even">
+<td>Non-trade loan relationship (NTLR) income</td>
+<td>50,000</td>
+</tr>
+<tr class="odd">
+<td><strong>Taxable total profits (TTP)</strong></td>
+<td><strong>110,000</strong></td>
+</tr>
+</tbody>
+</table>
+<p>Holly Ltd has one associate and therefore the limits for determining the corporation tax rate must be divided by two, as follows:</p>
+<table class="caption-top table">
+<tbody>
+<tr class="odd">
+<td>Upper limit: £250,000 ÷ 2</td>
+<td>£125,000</td>
+</tr>
+<tr class="even">
+<td>Lower limit: £50,000 ÷ 2</td>
+<td>£25,000</td>
+</tr>
+</tbody>
+</table>
+<table class="caption-top table">
+<thead>
+<tr class="header">
+<th>TTP</th>
+<th>£</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Plus: dividends from non-associated companies</td>
+<td>10,000</td>
+</tr>
+<tr class="even">
+<td><strong>Augmented profits</strong></td>
+<td><strong>120,000</strong></td>
+</tr>
+</tbody>
+</table>
+<p><strong><em>AP &gt; UP</em></strong><br>
+120K &gt; 125K</p>
+<p>∴ Therefore, Holly Ltd is a marginal company.</p>
+<table class="caption-top table">
+<thead>
+<tr class="header">
+<th>Corporation tax</th>
+<th>£</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>FY2025 (£110,000 × 25%)</td>
+<td>27,500</td>
+</tr>
+<tr class="even">
+<td><strong>Less:</strong> Marginal relief</td>
+<td></td>
+</tr>
+<tr class="odd">
+<td>(£125,000 – £120,000) × 3/200 × 110,000/120,000</td>
+<td>(69)</td>
+</tr>
+<tr class="even">
+<td><strong>Corporation tax liability</strong></td>
+<td><strong>27,431</strong></td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="example-10-associated-companies---corporation-tax-payable" class="level4">
+<h4 class="anchored" data-anchor-id="example-10-associated-companies---corporation-tax-payable">Example 10: Associated companies - Corporation tax payable</h4>
+<p>Bill Ltd is the parent company of <strong>one wholly owned subsidiary</strong>, Ben Ltd.<br>
+It also owns small shareholdings in other UK companies, each being an interest of 1% or less.</p>
+<p>Bill Ltd had the following income for the year ended 31 March 2026:</p>
+<table class="caption-top table">
+<thead>
+<tr class="header">
+<th></th>
+<th>£</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Tax adjusted trading profit</td>
+<td>30,000</td>
+</tr>
+<tr class="even">
+<td>Interest income</td>
+<td>25,000</td>
+</tr>
+<tr class="odd">
+<td>Dividends received from Ben Ltd</td>
+<td>70,000</td>
+</tr>
+<tr class="even">
+<td>Dividends received from other UK companies</td>
+<td>60,000</td>
+</tr>
+</tbody>
+</table>
+<p>Calculate the corporation tax payable by Bill Ltd, for the year ended 31 March 2026.</p>
+<p><strong>Solution</strong></p>
+<table class="caption-top table">
+<thead>
+<tr class="header">
+<th></th>
+<th>£</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Tax adjusted trading profit</td>
+<td>30,000</td>
+</tr>
+<tr class="even">
+<td>Interest income</td>
+<td>25,000</td>
+</tr>
+<tr class="odd">
+<td><strong>Taxable Total Profit TTP</strong></td>
+<td><strong>55,000</strong></td>
+</tr>
+</tbody>
+</table>
+<p>Aug.&nbsp;Profit = 55K + 60K = 115K</p>
+<p>Up. Limit = 250K / 2 = 125K</p>
+<p>Low. Limit = 50K / 2 = 25K</p>
+<p>∴ Marginal tax rate</p>
+<p>Marginal Allowance = (125K - 115K) × 3/200 × (55K/115K) = 71.7</p>
+<table class="caption-top table">
+<thead>
+<tr class="header">
+<th></th>
+<th>£</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>(TTP × 25%)</td>
+<td>13,750</td>
+</tr>
+<tr class="even">
+<td>Marginal Allowance/Relief</td>
+<td>72</td>
+</tr>
+<tr class="odd">
+<td><strong>Taxable Total Profit</strong></td>
+<td><strong>13,678</strong></td>
+</tr>
+</tbody>
+</table>
+</section>
+</section>
+</section>
+</section>
+<section id="trading-profit" class="level1">
+<h1>Trading profit</h1>
+<p>The calculation of trading profit for a company is similar to a sole trader using the accruals basis.<br>
+Companies cannot use the cash basis.</p>
+<p>For reference, a summary of the main adjustments are:</p>
+<ul>
+<li>Disallow expenditure which is not wholly and exclusively for the purposes of the trade</li>
+<li>Disallow entertaining (except entertaining staff)</li>
+<li>Disallow expenditure on capital items (this will include the costs associated with raising share capital for a company)</li>
+<li>Adjust for leased <em>high</em> emission cars (CO2 &gt; 50g/km)</li>
+<li>Adjust for gifts to customers</li>
+<li>Disallow depreciation</li>
+<li>Adjust for profits/losses on disposal of capital items</li>
+<li>Add back charitable donations (unless small and local)</li>
+<li>Adjust for non-trading income.</li>
+</ul>
+<p>All the above rules apply for companies.</p>
+<p>However, there are a number of key differences which apply when computing the taxable trading profits for a company.</p>
+<p><strong><em>Differences relating to companies</em></strong><br>
+The main differences are in relation to:</p>
+<ul>
+<li>private use adjustments</li>
+<li>interest payable/receivable</li>
+<li>dividends payable</li>
+<li>capital allowances.</li>
+</ul>
+<p>In addition, the accruals basis must always be used by a company to prepare its accounts for tax purposes.</p>
+<p><strong><em>Key differences</em></strong><br>
+Private use adjustments – there are no private use restrictions for companies:</p>
+<ul>
+<li>Any private expenses of a director or employee of a company are fully allowable, when calculating the tax adjusted trading profit.</li>
+<li>Any private use of assets by a director or employee of the company is <em>ignored in the capital allowances</em> calculation. There is no restriction for private usage.</li>
+</ul>
+<p>The director or employee may however suffer income tax on the private use as an employment benefit.</p>
+<p>Interest payable/receivable – Companies have special rules which cover interest payments and interest income. These are known as the <strong>loan relationship rules</strong>.</p>
+<p>Dividends payable – Dividends payable by a company are an appropriation of profit after tax, and are <strong>not allowable</strong> as a trading expense.</p>
+<blockquote class="blockquote">
+<p>Corporation tax examination questions will often include a set of accounts requiring adjustment for tax purposes.</p>
+</blockquote>
+<p>An adjustment of profit computation is likely to start with either the <em>operating profit or the profit before income taxes</em>.</p>
+<section id="example-1-trading-profit" class="level4">
+<h4 class="anchored" data-anchor-id="example-1-trading-profit">Example 1: Trading profit</h4>
+<p>The statement of profit or loss of Hart Ltd shows the following for the year ended 31 December 2025:</p>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 65%">
+<col style="width: 15%">
+<col style="width: 18%">
+</colgroup>
+<thead>
+<tr class="header">
+<th></th>
+<th>£</th>
+<th>£</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Gross profit from trading</td>
+<td></td>
+<td>280,000</td>
+</tr>
+<tr class="even">
+<td>Rental income</td>
+<td></td>
+<td>2,850</td>
+</tr>
+<tr class="odd">
+<td><strong>Total income</strong></td>
+<td></td>
+<td><strong>282,850</strong></td>
+</tr>
+<tr class="even">
+<td><strong><em>Less Expenses:-</em></strong></td>
+<td></td>
+<td></td>
+</tr>
+<tr class="odd">
+<td>Rent and rates</td>
+<td>(10,950)</td>
+<td></td>
+</tr>
+<tr class="even">
+<td>Depreciation</td>
+<td>(6,730)</td>
+<td></td>
+</tr>
+<tr class="odd">
+<td>Entertaining and gifts (Note 1)</td>
+<td>(7,420)</td>
+<td></td>
+</tr>
+<tr class="even">
+<td>Delivery costs</td>
+<td>(2,890)</td>
+<td></td>
+</tr>
+<tr class="odd">
+<td>Car expenses (Note 2)</td>
+<td>(5,480)</td>
+<td></td>
+</tr>
+<tr class="even">
+<td>Miscellaneous (Note 3)</td>
+<td>(12,000)</td>
+<td></td>
+</tr>
+<tr class="odd">
+<td><strong>Total expenses</strong></td>
+<td></td>
+<td><strong>(45,470)</strong></td>
+</tr>
+<tr class="even">
+<td><strong>Profit before income taxes</strong></td>
+<td></td>
+<td><strong>237,380</strong></td>
+</tr>
+</tbody>
+</table>
+<p><strong>Notes:</strong></p>
+<ol type="1">
+<li>Entertaining and gifts comprise:</li>
+</ol>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 86%">
+<col style="width: 13%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Description</th>
+<th></th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Gifts to customers (Christmas champagne: cost £25 per customer)</td>
+<td>1,500</td>
+</tr>
+<tr class="even">
+<td>Staff Christmas party</td>
+<td>3,430</td>
+</tr>
+<tr class="odd">
+<td>Client Christmas party</td>
+<td>2,490</td>
+</tr>
+</tbody>
+</table>
+<ol start="2" type="1">
+<li><p>Car expenses represent costs for the director’s car. He uses the car 60% for private use.</p></li>
+<li><p>Miscellaneous includes a fine of £3,500 for a breach of health and safety regulations.</p></li>
+</ol>
+<p>Calculate the <strong>tax adjusted trading profit</strong> before capital allowances for Hart Ltd, for the year ended 31 December 2025.<br>
+Your computation should commence with the profit before income taxes figure of <strong>£237,380</strong> and should list all the items referred to in notes 1 to 3, indicating by the use of a zero (0) any items that do not require adjustment.</p>
+<p><strong>Solution</strong></p>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 81%">
+<col style="width: 18%">
+</colgroup>
+<thead>
+<tr class="header">
+<th></th>
+<th>£</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Profit before income taxes</td>
+<td>237,380</td>
+</tr>
+<tr class="even">
+<td>Rental income (Note)</td>
+<td>(2,850)</td>
+</tr>
+<tr class="odd">
+<td>Rent and rates</td>
+<td>0</td>
+</tr>
+<tr class="even">
+<td>Depreciation</td>
+<td>6,730</td>
+</tr>
+<tr class="odd">
+<td>Gifts to customers: Drink (Note 1)</td>
+<td>1,500</td>
+</tr>
+<tr class="even">
+<td>Staff Christmas party</td>
+<td>0</td>
+</tr>
+<tr class="odd">
+<td>Client entertaining</td>
+<td>2,490</td>
+</tr>
+<tr class="even">
+<td>Delivery costs</td>
+<td>0</td>
+</tr>
+<tr class="odd">
+<td>Car expenses (Note 2)</td>
+<td>0</td>
+</tr>
+<tr class="even">
+<td>Health and safety fine (Note 3)</td>
+<td>3,500</td>
+</tr>
+<tr class="odd">
+<td><strong>Adjusted trading profit (before capital allowances)</strong></td>
+<td><strong>248,750</strong></td>
+</tr>
+</tbody>
+</table>
+<blockquote class="blockquote">
+<p><strong><em>N: Rental income Not a trading profit, so we substracted it</em></strong></p>
+</blockquote>
+<blockquote class="blockquote">
+<p><strong><em>N1: Gifts to customers are disallowed unless they amount to £50 or less per customer during the year and display a conspicuous advert for the business. Gifts of food or drink or tobacco are disallowed irrespective of their cost.</em></strong></p>
+</blockquote>
+<blockquote class="blockquote">
+<p><strong><em>N2: No adjustment is required for the private use car expenses of the director. These are fully deductible when calculating tax adjusted trading profits for a company. The director will be taxed on the benefit of private use as an employment benefit.</em></strong></p>
+</blockquote>
+<blockquote class="blockquote">
+<p><strong><em>N3: As for a sole trader, fines (with the exception of parking fines incurred by employees on business) are disallowable expenditure.</em></strong></p>
+</blockquote>
+<p>It is important to use a zero where no adjustment is necessary as above in order to obtain the maximum marks (as shown in Chapter 7).</p>
+<p>The notes above would not be required in the examination unless specifically asked for. They are provided here for tutorial purposes only.</p>
+<hr>
+</section>
+<section id="example-2-trading-profit" class="level4">
+<h4 class="anchored" data-anchor-id="example-2-trading-profit"><span style="color: darkred; text-decoration: underline;">Example 2: Trading profit</span></h4>
+<p>Corn Ltd runs a small printing business and the managing director wishes to know the amount of the company’s tax adjusted trading profit for the year ended 31 December 2025.</p>
+<p>You are presented with the following statement of profit or loss for Corn Ltd, for the year ended 31 December 2025.</p>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 65%">
+<col style="width: 15%">
+<col style="width: 18%">
+</colgroup>
+<thead>
+<tr class="header">
+<th></th>
+<th>£</th>
+<th>£</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Gross profit from trading</td>
+<td></td>
+<td>21,270</td>
+</tr>
+<tr class="even">
+<td>Profit on sale of business premises (Note 1)</td>
+<td></td>
+<td>1,750</td>
+</tr>
+<tr class="odd">
+<td><strong>Total income</strong></td>
+<td></td>
+<td><strong>23,020</strong></td>
+</tr>
+<tr class="even">
+<td><strong><em>Less Expenses:-</em></strong></td>
+<td></td>
+<td></td>
+</tr>
+<tr class="odd">
+<td>Advertising</td>
+<td>(760)</td>
+<td></td>
+</tr>
+<tr class="even">
+<td>Depreciation</td>
+<td>(2,381)</td>
+<td></td>
+</tr>
+<tr class="odd">
+<td>Light and heat</td>
+<td>(372)</td>
+<td></td>
+</tr>
+<tr class="even">
+<td>Miscellaneous (Note 2)</td>
+<td>(342)</td>
+<td></td>
+</tr>
+<tr class="odd">
+<td>Car expenses (Note 3)</td>
+<td>(555)</td>
+<td></td>
+</tr>
+<tr class="even">
+<td>Rates</td>
+<td>(1,057)</td>
+<td></td>
+</tr>
+<tr class="odd">
+<td>Repairs and renewals (Note 4)</td>
+<td>(2,480)</td>
+<td></td>
+</tr>
+<tr class="even">
+<td>Staff wages (Note 5)</td>
+<td>(12,124)</td>
+<td></td>
+</tr>
+<tr class="odd">
+<td>Telephone</td>
+<td>(351)</td>
+<td></td>
+</tr>
+<tr class="even">
+<td><strong>Total expenses</strong></td>
+<td></td>
+<td><strong>(20,422)</strong></td>
+</tr>
+<tr class="odd">
+<td><strong>Profit before income taxes</strong></td>
+<td></td>
+<td><strong>2,598</strong></td>
+</tr>
+</tbody>
+</table>
+<blockquote class="blockquote">
+<p><strong><em>N1: The profit on the sale of premises relates to the sale of a small freehold industrial unit in which the company stored paper, before building the extension (Note 4).</em></strong></p>
+</blockquote>
+<blockquote class="blockquote">
+<p><strong><em>N2: Miscellaneous expenses is made up as follows:</em></strong></p>
+</blockquote>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 86%">
+<col style="width: 13%">
+</colgroup>
+<thead>
+<tr class="header">
+<th></th>
+<th>£</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Subscription to Printers’ association</td>
+<td>40</td>
+</tr>
+<tr class="even">
+<td>Contribution to a national charity</td>
+<td>45</td>
+</tr>
+<tr class="odd">
+<td>Gifts to customers:</td>
+<td></td>
+</tr>
+<tr class="even">
+<td>- Calendars costing £7.50 each and bearing the company’s name</td>
+<td>75</td>
+</tr>
+<tr class="odd">
+<td>- Two food hampers bearing the company’s name</td>
+<td>95</td>
+</tr>
+<tr class="even">
+<td>Other allowable expenses</td>
+<td>87</td>
+</tr>
+<tr class="odd">
+<td><strong>Total</strong></td>
+<td><strong>342</strong></td>
+</tr>
+</tbody>
+</table>
+<blockquote class="blockquote">
+<p><strong><em>N3: A director uses the car 75% for business purposes and 25% for private purposes.</em></strong></p>
+</blockquote>
+<blockquote class="blockquote">
+<p><strong><em>N4: Repairs and renewals comprise the following expenditure:</em></strong></p>
+</blockquote>
+<table class="caption-top table">
+<thead>
+<tr class="header">
+<th></th>
+<th>£</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Redecorating administration offices</td>
+<td>833</td>
+</tr>
+<tr class="even">
+<td>Building extension to enlarge paper store</td>
+<td>1,647</td>
+</tr>
+<tr class="odd">
+<td><strong>Total</strong></td>
+<td><strong>2,480</strong></td>
+</tr>
+</tbody>
+</table>
+<blockquote class="blockquote">
+<p><strong><em>N5: Staff wages includes an amount of £182 for a staff Christmas lunch.</em></strong></p>
+</blockquote>
+<p>Calculate Corn Ltd’s <strong>tax adjusted trading profit</strong> before capital allowances for the year ended 31 December 2025. Your computation should commence with the profit before income taxes figure of £2,598 and should list all the items referred to in notes 1 to 5, indicating by the use of a zero (0) any items that do not require adjustment.</p>
+<p><strong>Solution</strong></p>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 67%">
+<col style="width: 16%">
+<col style="width: 15%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Description</th>
+<th>Adjustment</th>
+<th>Net Total</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Profit before income taxes</td>
+<td></td>
+<td>2,598</td>
+</tr>
+<tr class="even">
+<td>Add: Depreciation</td>
+<td>2,381</td>
+<td></td>
+</tr>
+<tr class="odd">
+<td>Less: Profit on sale of business premises (N1)</td>
+<td>(1,750)</td>
+<td></td>
+</tr>
+<tr class="even">
+<td>Advertising</td>
+<td>0</td>
+<td></td>
+</tr>
+<tr class="odd">
+<td>Light and heat</td>
+<td>0</td>
+<td></td>
+</tr>
+<tr class="even">
+<td>Miscellaneous expenses</td>
+<td></td>
+<td></td>
+</tr>
+<tr class="odd">
+<td>- Subscription to Printers’ association</td>
+<td>0</td>
+<td></td>
+</tr>
+<tr class="even">
+<td>- Contribution to a national charity (N2)</td>
+<td>45</td>
+<td></td>
+</tr>
+<tr class="odd">
+<td>- Gifts to customers: Calendars</td>
+<td>0</td>
+<td></td>
+</tr>
+<tr class="even">
+<td>- Gifts to customers: Food hampers (N3)</td>
+<td>95</td>
+<td></td>
+</tr>
+<tr class="odd">
+<td>Car expenses</td>
+<td>0</td>
+<td></td>
+</tr>
+<tr class="even">
+<td>Repairs and renewals</td>
+<td></td>
+<td></td>
+</tr>
+<tr class="odd">
+<td>- Redecorating administration offices</td>
+<td>0</td>
+<td></td>
+</tr>
+<tr class="even">
+<td>- Building extension to enlarge paper store</td>
+<td>1,647</td>
+<td></td>
+</tr>
+<tr class="odd">
+<td>Staff wages (Christmas lunch) (N4)</td>
+<td>0</td>
+<td></td>
+</tr>
+<tr class="even">
+<td><strong>Tax Adjusted Trading Profit</strong></td>
+<td></td>
+<td><strong>£5,016</strong></td>
+</tr>
+</tbody>
+</table>
+<blockquote class="blockquote">
+<p><strong><em>n1:</em></strong> This is a capital Proceeds rather than a trading profit. It is removed from trading income and will instead be processed under Corporation Tax capital gains rules.</p>
+</blockquote>
+<blockquote class="blockquote">
+<p><strong><em>n2:</em></strong> National Charity (+£45): Donations to national charities are disallowed. Instead, they are treated as Qualifying Charitable Donations QCDs and deducted from total taxable profits TTP later.</p>
+</blockquote>
+<blockquote class="blockquote">
+<p><strong><em>n3:</em></strong> Gifts of food or drink or tobacco are disallowed irrespective of their cost.</p>
+</blockquote>
+<blockquote class="blockquote">
+<p><strong><em>n4:</em></strong> The expenditure on the Christmas lunch is an allowable deduction for the employer.</p>
+</blockquote>
+<blockquote class="blockquote">
+<p>It is important to show a zero if no adjustment is required as shown above in order to obtain maximum marks. The notes above would not normally be required in the examination and are for tutorial purposes.</p>
+</blockquote>
+</section>
+</section>
+<section id="capital-allowances" class="level1">
+<h1>Capital allowances</h1>
+<p>Chapter 8 covered the main principles of calculating capital allowances (including SBAs) for sole traders.</p>
+<p>The same rules apply for companies, but in addition, the following points should be noted when calculating capital allowances for companies:</p>
+<ul>
+<li>There are <strong><em>no private use adjustments</em></strong> in a company’s capital allowances computation where company assets are used by directors or employees. -hort accounting period.</li>
+<li>Allowances are given for accounting periods by reference to acquisitions and disposals in that accounting period.</li>
+<li>As for sole traders, if the accounting period is less than 12 months:
+<ul>
+<li>the AIA and the WDA are proportionately reduced.</li>
+<li>but FYAs are always given in full. They are never reduced for a short accounting period.</li>
+</ul></li>
+</ul>
+<p><strong><em>Long accounting period</em></strong><br>
+• Unlike sole traders, where a company has a long period of account there are <strong>two accounting periods</strong> (APs) for corporation tax purposes, <strong>two capital allowances computations</strong> are required; one for each of these APs the first AP is 12 months in length the second AP is a short AP, therefore the rules for a short accounting period should be followed when calculating the capital allowances for this period.</p>
+<section id="enhanced-capital-allowances-ecas" class="level2">
+<h2 class="anchored" data-anchor-id="enhanced-capital-allowances-ecas">Enhanced capital allowances (ECAs)</h2>
+<p>Companies purchasing new qualifying plant and machinery are eligible to claim:</p>
+<ul>
+<li>100% first year allowance (FYA) – also known as full expensing for main pool assets.</li>
+<li>50% FYA for special rate pool assets.</li>
+</ul>
+<p>The enhanced capital allowances are included in the tax rates and allowances provided to you in the examination.</p>
+<p>Between <strong><em>1 April 2021 and 31 March 2023</em></strong> a 130% <strong>super deduction</strong> was available on new main pool assets. This allowance will <em>no longer be examinable for acquisitions</em>, however disposals of assets on which it was claimed may be tested.</p>
+<ul>
+<li><p>There is no upper limit to the amount of expenditure that can qualify for full expensing or 50% FYA.</p></li>
+<li><p>The reliefs are not available on:</p>
+<ul>
+<li>second-hand assets</li>
+<li>cars</li>
+<li>Assets bought in the final accounting period of trading.</li>
+</ul></li>
+</ul>
+<p>AIA should be claimed before ECAs, against purchases in the following order:</p>
+<ol type="1">
+<li>Second-hand special rate pool assets</li>
+<li>Second-hand main pool assets<br>
+</li>
+<li>New special rate pool assets<br>
+Any new special rate pool additions not covered by the available AIA are eligible for 50% FYA. The remaining 50% is then transferred to the special rate pool and will be eligible for 6% WDA from the following AP.</li>
+<li>New main pool assets The AIA should be used in preference to full expensing. This is because full expensing leads to a balancing charge when the asset is disposed of, which would not arise on a main pool disposal. If full expensing is claimed, there is no balance left to transfer to the main pool.</li>
+</ol>
+<section id="example-1-enhanced-capital-allowances-ecas" class="level4">
+<h4 class="anchored" data-anchor-id="example-1-enhanced-capital-allowances-ecas">Example 1: Enhanced capital allowances ECAs</h4>
+<p>Fizz Ltd has an accounting reference date of 31 March.<br>
+During the year ended 31 March 2026 Fizz Ltd purchased <em>new fixed machinery costing £5,000,000</em> and <em>new integral features costing £1,500,000</em>.<br>
+The balance brought forward on the main pool is £Nil.</p>
+<p>Calculate the maximum capital allowances Fizz Ltd can claim for the year ended 31 March 2026.</p>
+<p><strong>Solution</strong></p>
+<p><strong><em>Capital allowances – y/e 31 March 2026</em></strong></p>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 84%">
+<col style="width: 15%">
+</colgroup>
+<thead>
+<tr class="header">
+<th></th>
+<th>£</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>AIA on integral features</td>
+<td>1,000,000</td>
+</tr>
+<tr class="even">
+<td>(£1,500,000 – £1,000,000) × 50%</td>
+<td>250,000</td>
+</tr>
+<tr class="odd">
+<td>Full expensing relief (100% FYA) on fixed machinery</td>
+<td>5,000,000</td>
+</tr>
+<tr class="even">
+<td><strong>Total allowances</strong></td>
+<td><strong>6,250,000</strong></td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="disposal-of-assets-on-which-ecas-were-claimed" class="level3">
+<h3 class="anchored" data-anchor-id="disposal-of-assets-on-which-ecas-were-claimed">Disposal of assets on which ECAs were claimed</h3>
+<p>If the <strong>130% super deduction</strong> or full expensing was claimed on the purchase of the asset <strong><em>there will be a balancing charge of 100% of the proceeds</em></strong> the proceeds are <strong>not deducted from the main pool</strong>.</p>
+<blockquote class="blockquote">
+<p>A question will not be set in the exam involving the disposal of an asset on which the 130% super deduction or full expensing was only partially claimed.</p>
+</blockquote>
+<p>If the <strong>50% FYA</strong> was claimed on the entire purchase of an asset, On disposal there will be a <strong>balancing charge of 50%</strong> of the proceeds, the remaining proceeds are deducted from the balance on the special rate pool before the 6% WDA is calculated.</p>
+<p>If the 50% FYA was only partially claimed on the purchase of the asset, On disposal there will be a balancing charge equal to</p>
+<p><span class="math inline">\(\text{Proceeds} × \left( \frac{\text{Expenditure on which } 50\% \text{FYA claimed}}{\text{Total expenditure on asset}} \right) \times 50\%\)</span></p>
+<p>The remaining proceeds are deducted from the balance on the special rate pool before the 6% WDA is calculated.</p>
+<section id="example-2-enhanced-capital-allowances-ecas" class="level4">
+<h4 class="anchored" data-anchor-id="example-2-enhanced-capital-allowances-ecas">Example 2: Enhanced capital allowances ECAs</h4>
+<p>Spritz Ltd has an accounting reference date of 31 March. During the year ended 31 March 2026 Spritz Ltd sold the following assets:</p>
+<ul>
+<li>Machinery for <strong>proceeds of £70,000</strong>. This cost £90,000, on which the <strong>130% super deduction</strong> was claimed.</li>
+<li>Integral features for <strong>proceeds of £750,000</strong>. The original cost of these was <strong>£1,200,000</strong>, on which AIA of <em>£1,000,000 was claimed and 50% FYA on the balance</em>.</li>
+</ul>
+<p>As at 1 April 2025 the tax written down value on the <em>main pool was £450,000</em> and on the <em>special rate pool was £1,700,000</em>.</p>
+<p>Calculate the maximum capital allowances Spritz Ltd can claim for the year ended 31 March 2026.</p>
+<p><strong>Solution</strong></p>
+<p><strong><em>Capital allowances – y/e 31 March 2026</em></strong></p>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 48%">
+<col style="width: 15%">
+<col style="width: 22%">
+<col style="width: 14%">
+</colgroup>
+<thead>
+<tr class="header">
+<th></th>
+<th>Main pool</th>
+<th>Special rate pool</th>
+<th>Allowances</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>TWDV b/f</td>
+<td>450,000</td>
+<td>1,700,000</td>
+<td></td>
+</tr>
+<tr class="even">
+<td><strong>Disposals</strong></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr class="odd">
+<td>Super deduction: balancing charge</td>
+<td></td>
+<td></td>
+<td>(70,000)</td>
+</tr>
+<tr class="even">
+<td>Proceeds relating to 50% FYA:</td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr class="odd">
+<td>balancing charge (W1)</td>
+<td></td>
+<td></td>
+<td>(62,500)</td>
+</tr>
+<tr class="even">
+<td>Balance of proceeds (£750,000 – £62,500)</td>
+<td></td>
+<td>(687,500)</td>
+<td></td>
+</tr>
+<tr class="odd">
+<td>Balance before WDA</td>
+<td><strong>450,000</strong></td>
+<td><strong>1,012,500</strong></td>
+<td></td>
+</tr>
+<tr class="even">
+<td>WDA @ 18% / 6%</td>
+<td>(81,000)</td>
+<td>(60,750)</td>
+<td>141,750</td>
+</tr>
+<tr class="odd">
+<td><strong>TWDV c/f</strong></td>
+<td><strong>369,000</strong></td>
+<td><strong>951,750</strong></td>
+<td></td>
+</tr>
+<tr class="even">
+<td><strong>Total allowances</strong></td>
+<td></td>
+<td></td>
+<td><strong>9,250</strong></td>
+</tr>
+</tbody>
+</table>
+<p><strong><em>W1: FYA partially claimed</em></strong></p>
+<p>If the 50% FYA was only partially claimed on the purchase of the asset, On disposal there will be a balancing charge equal to</p>
+<p><span class="math inline">\(\text{Proceeds} × \left( \frac{\text{Expenditure on which } 50\% \text{FYA claimed}}{\text{Total expenditure on asset}} \right) \times 50\%\)</span></p>
+<p><span class="math inline">\(\text{750,000} × \left( \frac{\text{200,000}}{\text{1,200,000}} \right) \times 50\% = 62,500\)</span></p>
+<p>The remaining proceeds are deducted from the balance on the special rate pool before the 6% WDA is calculated.</p>
+<p>Balance of proceeds = 750,000 – 62,500 = 687,500</p>
+</section>
+<section id="example-3-enhanced-capital-allowances-ecas" class="level4">
+<h4 class="anchored" data-anchor-id="example-3-enhanced-capital-allowances-ecas">Example 3: Enhanced capital allowances ECAs</h4>
+<p>Bay Ltd makes up accounts to 30 September each year. The TWDV at 1 October 2024 on the <em>main pool was £15,000</em> and <em>£18,000 on the special rate pool</em>.</p>
+<p>On 1 February 2025 the company purchased <strong>new equipment for £25,000</strong> and <strong>second-hand computers for £15,000</strong>.<br>
+On 1 August 2025 the company purchased some <strong>new external solar shading costing £1,085,000</strong>.</p>
+<p>On 15 September 2025 the company sold a machine for £30,000 (original cost <strong><em>£27,000</em></strong>). The <strong>130% super deduction was claimed</strong> when the machine was acquired.</p>
+<p>Calculate the capital allowances for year ended 30 September 2025.</p>
+<p><strong>Solution</strong></p>
+<p><strong><em>Capital allowances – y/e 31 March 2026</em></strong></p>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 42%">
+<col style="width: 11%">
+<col style="width: 7%">
+<col style="width: 13%">
+<col style="width: 12%">
+<col style="width: 12%">
+</colgroup>
+<thead>
+<tr class="header">
+<th></th>
+<th>AIA/Full</th>
+<th>FYA@50%</th>
+<th>MP</th>
+<th>SRP</th>
+<th>Allowances</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>TWDV b/f</td>
+<td>18,000</td>
+<td></td>
+<td>15,000</td>
+<td>18,000</td>
+<td></td>
+</tr>
+<tr class="even">
+<td><strong>Additions</strong></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr class="odd">
+<td>New equipment FYA @ 100%</td>
+<td>25,000</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr class="even">
+<td></td>
+<td>(25,000)</td>
+<td></td>
+<td></td>
+<td></td>
+<td>25,000</td>
+</tr>
+<tr class="odd">
+<td>Second-hand computers</td>
+<td>15,000</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr class="even">
+<td>AIA Use (15K out 1M)</td>
+<td>(15,000)</td>
+<td></td>
+<td></td>
+<td></td>
+<td>15,000</td>
+</tr>
+<tr class="odd">
+<td>New external solar</td>
+<td>1,085,000</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr class="even">
+<td>AIA Use Max (1m - 15K)</td>
+<td>(985,000)</td>
+<td></td>
+<td></td>
+<td></td>
+<td>985,000</td>
+</tr>
+<tr class="odd">
+<td>Eligible for FYA @ 50%</td>
+<td></td>
+<td>100,000</td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr class="even">
+<td><strong>Disposals</strong></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr class="odd">
+<td>Super deduction: balancing charge</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td>(27,000)</td>
+</tr>
+<tr class="even">
+<td>Balance before WDA</td>
+<td></td>
+<td><strong>100,000</strong></td>
+<td><strong>15,000</strong></td>
+<td><strong>18,000</strong></td>
+<td></td>
+</tr>
+<tr class="odd">
+<td>WDA @ 50% / 18% / 6%</td>
+<td></td>
+<td>(50,000)</td>
+<td>(2,700)</td>
+<td>(1,080)</td>
+<td>53,780</td>
+</tr>
+<tr class="even">
+<td><strong>TWDV c/f</strong></td>
+<td></td>
+<td><strong>50,000</strong></td>
+<td><strong>12,300</strong></td>
+<td><strong>16,920</strong></td>
+<td></td>
+</tr>
+<tr class="odd">
+<td><strong>Total allowances</strong></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td><strong>1,051,780</strong></td>
+</tr>
+</tbody>
+</table>
+<p>When assets which qualified for the super deduction are sold, 100% of the proceeds (<strong><em>restricted to original cost</em></strong>) are brought in as a balancing charge.</p>
+<div class="callout callout-style-default callout-note callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Note
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p><strong><em>Pre-trading expenditure</em></strong><br>
+The rules for pre-trading expenditure are the same for companies and sole traders (Chapter 7) and are as follows:</p>
+<ul>
+<li>Any revenue expenditure incurred in the <strong><em>seven years</em></strong> before a company starts trading, is treated as an expense on the first day of trading, provided it would have been allowable had the company already been trading.</li>
+<li>Any capital expenditure is treated as if the assets were bought on the first day of trading. Any capital allowances will be claimed in the first capital allowances computation.</li>
+</ul>
+</div>
+</div>
+</section>
+</section>
+</section>
+</section>
+<section id="interest-loan-relationship-rules-impaired-debts" class="level1">
+<h1>Interest – loan relationship rules &amp; Impaired debts</h1>
+<p>All income and expenses related to the borrowing and lending of money are dealt with under the loan relationship rules.</p>
+<p><img src="20260810111443.png" class="img-fluid"></p>
+<p>In addition, the cost of writing down an impaired debt arising from the lending of money is an allowable expense under the loan relationship rules.</p>
+<p><strong><em>Trade v non-trade purposes</em></strong><br>
+In order to apply the loan relationship rules correctly, all interest paid/received must first be identified as either ‘trading’ or ‘non-trading’.</p>
+<div class="columns">
+<div class="column" style="width:45%;">
+<section id="trade-purpose" class="level2">
+<h2 class="anchored" data-anchor-id="trade-purpose">Trade purpose</h2>
+<p><strong>Interest receivable</strong><br>
+N/A (Generally, all interest received by a company is non-trade interest, unless it is a company’s trade to lend money (e.g.&nbsp;a bank, which is not likely to be the case in the examination).)</p>
+<p><strong>Interest payable</strong><br>
+- on a loan taken out to purchase plant and machinery for the trade<br>
+- on a loan taken out to purchase property used for trading purposes e.g.&nbsp;office, warehouse, factory<br>
+- on a loan or overdraft to fund daily operations (i.e.&nbsp;working capital)<br>
+- on loan notes to fund trading operations</p>
+</section>
+</div><div class="column" style="width:5%;">
+
+</div><div class="column" style="width:45%;">
+<section id="nontrade-purpose" class="level2">
+<h2 class="anchored" data-anchor-id="nontrade-purpose">Non‑trade purpose</h2>
+<p><strong>Interest receivable</strong><br>
+- interest received on bank accounts<br>
+- interest receivable on investments such as gilts and loan notes</p>
+<p><br></p>
+<p><strong>Interest payable</strong><br>
+- on a loan to purchase a commercially let property (where the rent would be taxable as property business income – section 8)<br>
+- on a loan to acquire shares of another company</p>
+</section>
+</div>
+</div>
+<section id="interest-income" class="level2">
+<h2 class="anchored" data-anchor-id="interest-income">Interest income</h2>
+<ul>
+<li>Interest receivable should be <strong>deducted</strong> when calculating <strong>adjusted trading profits</strong> and <strong>included in the TTP computation</strong> as non-trade loan relationship (<strong>NTLR</strong>) income.</li>
+<li>Interest is usually credited in the company accounts on an accruals basis. As interest receivable is taxed on an accruals basis, the figure included in the accounts is the figure which is taxed as NTLR income.</li>
+</ul>
+</section>
+<section id="interest-paid" class="level2">
+<h2 class="anchored" data-anchor-id="interest-paid">Interest paid</h2>
+<ul>
+<li>Interest paid and payable on borrowings for a trading purpose is deductible as a trading expense.</li>
+<li>Interest payable on borrowings for a non-trading purpose is <em>added back to trading profit</em> <strong>AND</strong> <em>deducted from NTLR income in the TTP computation</em>.</li>
+</ul>
+</section>
+<section id="impaired-debts" class="level2">
+<h2 class="anchored" data-anchor-id="impaired-debts">Impaired debts</h2>
+<ul>
+<li>The write off of impaired trade debts (i.e.&nbsp;trade receivables) is an allowable deduction from trading profits and the recovery of trade debts previously written off is taxable trading income.</li>
+<li>The write off of impaired non-trade debts (e.g.&nbsp;a loan to a customer or a former employee) is an allowable deduction from <strong><em>NTLR income</em></strong>. <em>The write off must be added back when calculating the tax adjusted trading profit and deducted from NTLR income in the calculation of TTP</em>.</li>
+</ul>
+<p><strong><em>Assessment in taxable total profits</em></strong><br>
+All interest paid by a company is deductible on the accruals basis.<br>
+As the company accounts are also prepared on the accruals basis, the figure included in the accounts is also the figure used for tax purposes.</p>
+<p>If only cash payments/receipts are provided, these must be adjusted for opening and closing accruals of interest payable/receivable.</p>
+<p>Where NTLR income exceeds non-trade related interest payable the net income is assessed as NTLR income in taxable total profits.<br>
+The situation where non-trade related interest payable exceeds NTLR income is not examinable.</p>
+<section id="example-1-interest---loan-relationship-rules" class="level4">
+<h4 class="anchored" data-anchor-id="example-1-interest---loan-relationship-rules">Example 1: Interest - loan relationship rules</h4>
+<p>Trinity Ltd, a clothing manufacturer, received bank interest of £2,800 on 14 December 2025 and <em>paid loan note interest of £19,500 to other companies, on 26 September 2025</em>.</p>
+<p>The loan notes were issued in January 2025, to raise finance for the purchase of a new packing machine.</p>
+<p>The company prepares accounts to 31 December each year. <em>Accrued loan note interest payable at 31 December 2025 was £9,000</em>. There was no interest receivable at 31 December 2024 or 31 December 2025.</p>
+<p>Explain how the bank and loan note interest will be treated in the corporation tax computation for the year to 31 December 2025.</p>
+<p><strong>Solution</strong></p>
+<p><strong><em>Bank interest receivable</em></strong><br>
+The bank interest receivable will be taxable as NTLR income.<br>
+As there was no interest receivable at the beginning or end of the year, the taxable NTLR income will be the amount received of £2,800.</p>
+<p><strong><em>Loan note interest payable</em></strong><br>
+The loan note interest relates to finance raised for the purposes of the trade (i.e.&nbsp;to purchase new machinery). It is therefore allowed as a trading expense.<br>
+The interest will be recorded in the accounts on the accruals basis (interest payable of £28,500 = £19,500 paid + £9,000 accrued). No adjustment will therefore be required for tax purposes.</p>
+</section>
+<section id="example-2-interest---loan-relationship-rules" class="level4">
+<h4 class="anchored" data-anchor-id="example-2-interest---loan-relationship-rules">Example 2: Interest - loan relationship rules</h4>
+<p>PQR Ltd prepares its accounts to 31 December. The company issued £100,000 of 12% loan notes <em>on 1 May 2025.</em> The proceeds of the issue were used to purchase a new factory.</p>
+<p>Explain how the interest on the loan notes is treated for tax purposes for the year ended 31 December 2025.</p>
+<p><strong>Solution</strong></p>
+<p>The loan note interest relates to financing for the purposes of the trade (i.e.&nbsp;to purchase a factory). It is therefore allowed as a trading expense.</p>
+<p>For the year ended 31 December 2025, PQR Ltd will be entitled to a deduction against trading profits of £8,000 (£100,000 at 12% × 8/12).</p>
+<p>Provided this amount is included in the accounts, no adjustment will be necessary when calculating the tax adjusted trading profit.<br>
+The amount of loan note interest actually paid is irrelevant as interest payable is deductible on the accruals basis.</p>
+</section>
+<section id="example-3-interest---loan-relationship-rules" class="level4">
+<h4 class="anchored" data-anchor-id="example-3-interest---loan-relationship-rules">Example 3: Interest - loan relationship rules</h4>
+<p>The profit before income taxes of Smith Ltd from the statement of profit or loss for the year ended 31 December 2025, is <strong>£105,940</strong>, which includes:</p>
+<table class="caption-top table">
+<thead>
+<tr class="header">
+<th>Description</th>
+<th>Amount (£)</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Depreciation (add back)</td>
+<td>9,750</td>
+</tr>
+<tr class="even">
+<td>Loan note interest payable (on trade related loan)</td>
+<td>12,760</td>
+</tr>
+<tr class="odd">
+<td>Bank interest payable (N2)</td>
+<td>6,590</td>
+</tr>
+<tr class="even">
+<td>Bank interest receivable (N1)</td>
+<td>(15,860)</td>
+</tr>
+</tbody>
+</table>
+<p><strong>Notes:</strong></p>
+<ol type="1">
+<li><p>Bank interest receivable includes an accrual of £2,340 as at 31 December 2025 and <strong>£1,210</strong>, as at 31 December 2024. There were no accruals in respect of the loan note or bank interest payable at either the beginning or the end of the year.</p></li>
+<li><p>The bank interest is payable on a loan to purchase an investment property, which is a non-trade related loan.</p></li>
+<li><p>The company’s capital allowances for the year are £11,800.</p></li>
+</ol>
+<p><strong>Calculate Smith Ltd’s taxable total profits for the year ended 31 December 2025, clearly showing the different types of income.</strong></p>
+<p><strong>Solution</strong></p>
+<table class="caption-top table">
+<thead>
+<tr class="header">
+<th></th>
+<th>£</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Trading profit before adjustments</td>
+<td>105,940</td>
+</tr>
+<tr class="even">
+<td>Add: Depreciation</td>
+<td>9,750</td>
+</tr>
+<tr class="odd">
+<td>Deduct: Bank interest payable (disallowable)</td>
+<td>(15,860)</td>
+</tr>
+<tr class="even">
+<td>Add: Bank interest receivable (non-trade income)</td>
+<td>6,590</td>
+</tr>
+<tr class="odd">
+<td>Less: Capital allowances</td>
+<td>(11,800)</td>
+</tr>
+<tr class="even">
+<td><strong>Tax adjusted trading profit</strong></td>
+<td><strong>94,620</strong></td>
+</tr>
+<tr class="odd">
+<td></td>
+<td></td>
+</tr>
+<tr class="even">
+<td><strong>Non-trade loan relationship income</strong></td>
+<td></td>
+</tr>
+<tr class="odd">
+<td>Bank note interest payable</td>
+<td>15,860</td>
+</tr>
+<tr class="even">
+<td>Bank interest receivable</td>
+<td>(6,590)</td>
+</tr>
+<tr class="odd">
+<td><strong>Net non-trade loan relationship income</strong></td>
+<td><strong>9,270</strong></td>
+</tr>
+<tr class="even">
+<td></td>
+<td></td>
+</tr>
+<tr class="odd">
+<td><strong>Taxable total profits</strong></td>
+<td><strong>103,890</strong></td>
+</tr>
+</tbody>
+</table>
+</section>
+</section>
+<section id="property-income" class="level2">
+<h2 class="anchored" data-anchor-id="property-income">Property income</h2>
+<p>A trading company may hold property for investment purposes or have premises which are rented out, as they are surplus to the company’s current trading requirements.</p>
+<p><strong>Treatment for companies</strong><br>
+The income from these properties is assessed as property business income, calculated basically in the same way as for sole traders:</p>
+<p>Allowable expenses are those associated with the normal running and upkeep of the property (generally revenue expenses, such as property maintenance, repairs, insurance and irrecoverable debts).</p>
+<p>However, there are a few differences in the way that companies are assessed on their property income as follows:</p>
+<ul>
+<li>Property income is always taxed on the accruals basis.</li>
+<li>The company is assessed on the property income arising in the accounting period (not the tax year as for individuals).</li>
+<li>The treatment of interest payable.</li>
+<li>The treatment of property losses.</li>
+</ul>
+<p><strong><em>Interest on a loan to buy a property</em></strong><br>
+Interest payable on a loan to acquire or improve an investment property, is <strong>not allowed</strong> as a deduction from property income. Instead, it is taxed under the <em>‘Loan Relationship’</em> rules and is therefore deducted from non-trade loan relationship (NTLR) income (section 7).</p>
+<p><strong><em>Lease premiums</em></strong><br>
+Where a company receives a premium for the grant of a lease, an element of the premium is taxed as property income, in the same way as for sole traders (Chapter 4), in the accounting period in which it is received.</p>
+<section id="example-1-property-income" class="level4">
+<h4 class="anchored" data-anchor-id="example-1-property-income">Example 1: Property income</h4>
+<p>Speed Ltd prepared accounts for the year ended 31 March 2026. During the year the company received a <strong>premium of £12,000</strong> on the grant of a seven-year lease.<br>
+The building was rented out <em>from 1 September 2025, for £6,000</em> p.a. It lay empty until this date. Rent is received quarterly in advance.</p>
+<p>Calculate the property income for the year ended 31 March 2026.</p>
+<p><strong>Solution</strong></p>
+<table class="caption-top table">
+<thead>
+<tr class="header">
+<th></th>
+<th>£</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Premium (W)</td>
+<td>10,560</td>
+</tr>
+<tr class="even">
+<td>Rent receivable (£6,000 × 7/12) (N)</td>
+<td>3,500</td>
+</tr>
+<tr class="odd">
+<td><strong>Total property income</strong></td>
+<td><strong>14,060</strong></td>
+</tr>
+</tbody>
+</table>
+<blockquote class="blockquote">
+<p>N: Property income for a company is always calculated using the accruals basis.</p>
+</blockquote>
+<p><strong><em>W1: Assessment of premium</em></strong></p>
+<table class="caption-top table">
+<thead>
+<tr class="header">
+<th></th>
+<th>£</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Premium</td>
+<td>12,000</td>
+</tr>
+<tr class="even">
+<td>Less: 2% × (7 – 1) × £12,000</td>
+<td>(1,440)</td>
+</tr>
+<tr class="odd">
+<td><strong>Property income from premium</strong></td>
+<td><strong>10,560</strong></td>
+</tr>
+</tbody>
+</table>
+<p>Alternative calculation: £12,000 × (51 – 7)/50 = £10,560</p>
+</section>
+<section id="example-2-property-income" class="level4">
+<h4 class="anchored" data-anchor-id="example-2-property-income">Example 2: Property income</h4>
+<p>Tasman Ltd is a UK resident trading company. The company lets out two warehouses that are surplus to requirements.<br>
+The company’s results regarding property income for the year ended 31 March 2026, are as follows:</p>
+<ul>
+<li>The first warehouse was empty from 1 April to 31 August 2025. On 1 September 2025 the company granted a <strong>seven-year lease</strong> and received a <strong>premium of £47,000</strong> and the annual rent of £10,500.</li>
+<li>The second warehouse was let until 31 January 2026, at an annual rent of £11,200. On that date the tenant <em>left owing three months’ rent</em>, which the company is not able to recover. The roof of the warehouse was repaired at a cost of £7,200, during March 2026.</li>
+</ul>
+<p>Calculate the property income for the year ended 31 March 2026.</p>
+<p><strong>Solution</strong></p>
+<table class="caption-top table">
+<thead>
+<tr class="header">
+<th></th>
+<th>£</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Premium (47*(51-7)/50)</td>
+<td>41,360</td>
+</tr>
+<tr class="even">
+<td>Rent receivable (10,500 × 7/12)</td>
+<td>6,125</td>
+</tr>
+<tr class="odd">
+<td>Rent receivable (11,200 × 10/12)</td>
+<td>9,333</td>
+</tr>
+<tr class="even">
+<td>Bad Debt (11,200 × 3/12)</td>
+<td>(2,800)</td>
+</tr>
+<tr class="odd">
+<td>Repairs</td>
+<td>(7,200)</td>
+</tr>
+<tr class="even">
+<td><strong>Total property income</strong></td>
+<td><strong>46,818</strong></td>
+</tr>
+</tbody>
+</table>
+<blockquote class="blockquote">
+<p>Profit and losses are <strong>pooled</strong> to obtain total property income.</p>
+</blockquote>
+</section>
+</section>
+</section>
+<section id="qualifying-charitable-donations-qcds" class="level1">
+<h1>Qualifying charitable donations (QCDs)</h1>
+<p>All donations to charity by companies are allowable if a <strong>small local donation</strong>; as a trading expense.<br>
+All other donations (whether under gift aid or not); as an allowable deduction from total profits. These are known as ‘qualifying charitable donations’ (QCDs).</p>
+<ul>
+<li>All charitable donations made by companies are paid gross.</li>
+<li>The amount paid in the accounting period is deducted from total profits.</li>
+<li>If the QCDs paid exceed the total profits of the company:
+<ul>
+<li>no relief for the excess is given (i.e.&nbsp;it cannot be carried forward or carried back)</li>
+<li>unless the company is part of a 75% group, in which case, group relief may be available (Chapter 15).</li>
+</ul></li>
+</ul>
+<div class="callout callout-style-default callout-note callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Note
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>The tax treatment of charitable donations for individuals is different to the treatment for companies.</p>
+<p>For individuals:</p>
+<ul>
+<li>a small local donation; is deductible as a trading expense (Chapter 7), or</li>
+<li>if made under the gift aid scheme (Chapter 2).<br>
+</li>
+<li>gift aid payments are paid net of basic rate tax.</li>
+<li>tax relief is given by extending the basic and higher rate tax bands by the gross amount of the gift aid paid in the tax year.</li>
+</ul>
+</div>
+</div>
+<section id="comprehensive-example" class="level3">
+<h3 class="anchored" data-anchor-id="comprehensive-example">Comprehensive Example</h3>
+<p>Geronimo Ltd is a UK resident company that manufactures motorcycles. The company’s summarised statement of profit or loss for the year ended 31 March 2026 is as follows:</p>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 66%">
+<col style="width: 14%">
+<col style="width: 18%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Description</th>
+<th>£</th>
+<th>£</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Gross profit</td>
+<td></td>
+<td>921,540</td>
+</tr>
+<tr class="even">
+<td><strong>Operating expenses:</strong></td>
+<td></td>
+<td></td>
+</tr>
+<tr class="odd">
+<td>Impaired debts (Note 1)</td>
+<td>22,360</td>
+<td></td>
+</tr>
+<tr class="even">
+<td>Depreciation</td>
+<td>83,320</td>
+<td></td>
+</tr>
+<tr class="odd">
+<td>Gifts and donations (Note 2)</td>
+<td>2,850</td>
+<td></td>
+</tr>
+<tr class="even">
+<td>Professional fees (Note 3)</td>
+<td>14,900</td>
+<td></td>
+</tr>
+<tr class="odd">
+<td>Staff party (Note 4)</td>
+<td>7,200</td>
+<td></td>
+</tr>
+<tr class="even">
+<td>Repairs and renewals (Note 5)</td>
+<td>42,310</td>
+<td></td>
+</tr>
+<tr class="odd">
+<td>Other expenses (all allowable)</td>
+<td>111,820</td>
+<td></td>
+</tr>
+<tr class="even">
+<td><strong>Total operating expenses</strong></td>
+<td></td>
+<td>(284,760)</td>
+</tr>
+<tr class="odd">
+<td><strong>Operating profit</strong></td>
+<td></td>
+<td><strong>636,780</strong></td>
+</tr>
+<tr class="even">
+<td><strong>Income from investments:</strong></td>
+<td></td>
+<td></td>
+</tr>
+<tr class="odd">
+<td>Bank interest (Note 6)</td>
+<td>2,800</td>
+<td></td>
+</tr>
+<tr class="even">
+<td>Loan interest (Note 7)</td>
+<td>22,000</td>
+<td></td>
+</tr>
+<tr class="odd">
+<td>Dividends (Note 8)</td>
+<td>36,000</td>
+<td></td>
+</tr>
+<tr class="even">
+<td><strong>Total Income from investments</strong></td>
+<td></td>
+<td>60,800</td>
+</tr>
+<tr class="odd">
+<td></td>
+<td></td>
+<td><strong>697,580</strong></td>
+</tr>
+<tr class="even">
+<td><strong>Interest payable (Note 9)</strong></td>
+<td></td>
+<td>(45,000)</td>
+</tr>
+<tr class="odd">
+<td><strong>Profit before income taxes</strong></td>
+<td></td>
+<td><strong>652,580</strong></td>
+</tr>
+</tbody>
+</table>
+<p><strong>Notes</strong></p>
+<table class="caption-top table">
+<thead>
+<tr class="header">
+<th>1</th>
+<th>Impaired debts</th>
+<th>£</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td></td>
+<td>Trade debts written off</td>
+<td>19,890</td>
+</tr>
+<tr class="even">
+<td></td>
+<td>Loan to customer written off</td>
+<td>600</td>
+</tr>
+<tr class="odd">
+<td></td>
+<td>Increase in allowance for trade debtors</td>
+<td>1,870</td>
+</tr>
+<tr class="even">
+<td></td>
+<td><strong>Total</strong></td>
+<td><strong>22,360</strong></td>
+</tr>
+</tbody>
+</table>
+<ol start="2" type="1">
+<li>Gifts and donations</li>
+</ol>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 88%">
+<col style="width: 11%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Amount</th>
+<th>£</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Donation to a national charity</td>
+<td>1,800</td>
+</tr>
+<tr class="even">
+<td>Donation to local charity (received free adv. in the charity’s magazine)</td>
+<td>50</td>
+</tr>
+<tr class="odd">
+<td>Gifts to customers (food hampers costing £40 each)</td>
+<td>1,000</td>
+</tr>
+<tr class="even">
+<td><strong>Total</strong></td>
+<td><strong>2,850</strong></td>
+</tr>
+</tbody>
+</table>
+<ol start="3" type="1">
+<li>Professional fees</li>
+</ol>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 87%">
+<col style="width: 12%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Amount</th>
+<th>£</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Accountancy and audit fee</td>
+<td>4,100</td>
+</tr>
+<tr class="even">
+<td>Legal fees re the renewal of a 20-year property lease</td>
+<td>2,400</td>
+</tr>
+<tr class="odd">
+<td>Legal fees in connection with the issue of loan notes (Note 9)</td>
+<td>8,400</td>
+</tr>
+<tr class="even">
+<td><strong>Total</strong></td>
+<td><strong>14,900</strong></td>
+</tr>
+</tbody>
+</table>
+<ol start="4" type="1">
+<li>Staff party</li>
+</ol>
+<p>The staff party, for employees only, cost <strong>£200 a head</strong>.</p>
+<ol start="5" type="1">
+<li>Repairs and renewals</li>
+</ol>
+<p>The figure of £42,310 for repairs includes £6,200 for replacing part of a wall that was knocked down by a lorry, and £12,200 for an extension to the office building. The extension was constructed on 15 October 2025 and brought into use on 1 January 2026.</p>
+<ol start="6" type="1">
+<li>Bank interest received</li>
+</ol>
+<p>The bank interest was received on 31 March 2026. The bank deposits are held for non-trading purposes.</p>
+<ol start="7" type="1">
+<li>Loan interest received</li>
+</ol>
+<p>The figure for loan interest received is calculated as follows:</p>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 87%">
+<col style="width: 12%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Amount</th>
+<th>£</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Accrued at 1 April 2025</td>
+<td>(5,500)</td>
+</tr>
+<tr class="even">
+<td>Received 30 June 2025</td>
+<td>11,000</td>
+</tr>
+<tr class="odd">
+<td>Received 31 December 2025</td>
+<td>11,000</td>
+</tr>
+<tr class="even">
+<td>Accrued at 31 March 2026</td>
+<td>5,500</td>
+</tr>
+<tr class="odd">
+<td><strong>Total</strong></td>
+<td><strong>22,000</strong></td>
+</tr>
+</tbody>
+</table>
+<p>The loan was made for non-trading purposes.</p>
+<ol start="8" type="1">
+<li>Dividends received</li>
+</ol>
+<p>The dividends were received from non-associated UK companies.</p>
+<ol start="9" type="1">
+<li>Interest payable</li>
+</ol>
+<p>Geronimo Ltd raised funding through loan notes on 1 May 2025. The loan was used for trading purposes. Interest of £30,000 was paid on 31 October 2025, and £15,000 was accrued at 31 March 2026.</p>
+<ol start="10" type="1">
+<li>Plant and machinery</li>
+</ol>
+<p>On 1 April 2025 the tax written down value of the main pool of plant and machinery was £66,000. There were no purchases or sales of plant and machinery during the year ended 31 March 2026.</p>
+<ol type="a">
+<li>Calculate Geronimo Ltd’s tax adjusted trading profit for the year ended 31 March 2026.<br>
+Your computation should commence with the profit before income taxes figure of £652,580 and should list all the items referred to in Notes 1 to 10, indicating by the use of a zero (0) any items that do not require adjustment.<br>
+</li>
+<li>Calculate the corporation tax payable by Geronimo Ltd for the year ended 31 March 2026.</li>
+</ol>
+<p><strong>Solution</strong></p>
+<p><strong>(a)</strong><br>
+<strong><em>Tax adjusted trading profit</em></strong></p>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 66%">
+<col style="width: 14%">
+<col style="width: 18%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Description</th>
+<th>£</th>
+<th>£</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><strong>Profit before income taxes</strong></td>
+<td></td>
+<td><strong>652,580</strong></td>
+</tr>
+<tr class="even">
+<td><strong>Disallowable expenses:</strong></td>
+<td></td>
+<td></td>
+</tr>
+<tr class="odd">
+<td>Impaired debts (Note 1)</td>
+<td>600</td>
+<td></td>
+</tr>
+<tr class="even">
+<td>Depreciation</td>
+<td>83,320</td>
+<td></td>
+</tr>
+<tr class="odd">
+<td>Donation to national charity (Note 2) n5</td>
+<td>1,800</td>
+<td></td>
+</tr>
+<tr class="even">
+<td>Gifts and donations (Note 2)</td>
+<td>1,000</td>
+<td></td>
+</tr>
+<tr class="odd">
+<td>Professional fees (Note 3) n4</td>
+<td>0</td>
+<td></td>
+</tr>
+<tr class="even">
+<td>Staff party (Note 4) n3</td>
+<td>0</td>
+<td></td>
+</tr>
+<tr class="odd">
+<td>Repairs and renewals (Note 5)</td>
+<td>12,200</td>
+<td></td>
+</tr>
+<tr class="even">
+<td>Other expenses (all allowable)</td>
+<td>0</td>
+<td></td>
+</tr>
+<tr class="odd">
+<td><strong>Total Disallowable expenses</strong></td>
+<td></td>
+<td>98,920</td>
+</tr>
+<tr class="even">
+<td><strong>Disallowable profit</strong></td>
+<td></td>
+<td></td>
+</tr>
+<tr class="odd">
+<td><strong>Income from investments:</strong></td>
+<td></td>
+<td></td>
+</tr>
+<tr class="even">
+<td>Bank interest (Note 6)</td>
+<td>(2,800)</td>
+<td></td>
+</tr>
+<tr class="odd">
+<td>Loan interest (Note 7)</td>
+<td>(22,000)</td>
+<td></td>
+</tr>
+<tr class="even">
+<td>Dividends (Note 8)</td>
+<td>(36,000)</td>
+<td></td>
+</tr>
+<tr class="odd">
+<td><strong>Total Disallowable Income from investment</strong></td>
+<td></td>
+<td>(60,800)</td>
+</tr>
+<tr class="even">
+<td><strong>Interest payable (Note 9)</strong> n2</td>
+<td></td>
+<td>0</td>
+</tr>
+<tr class="odd">
+<td><strong>CA MP @ 18%</strong></td>
+<td></td>
+<td>(11,880)</td>
+</tr>
+<tr class="even">
+<td><strong>CA SBA @ 3%</strong> ‘12,200 × 3% × 3/12’ n1</td>
+<td></td>
+<td>(91.5)</td>
+</tr>
+<tr class="odd">
+<td><strong><em>Tax adjusted trading profit</em></strong></td>
+<td></td>
+<td><strong>678,729</strong></td>
+</tr>
+</tbody>
+</table>
+<blockquote class="blockquote">
+<p><strong><em>n1:</em></strong> The cost of the extension to the office building is not allowable, being capital in nature. Structures and buildings allowances (SBAs) can be claimed on the expenditure as it was incurred on the construction of a building used in a business on or after 1 April 2020. The allowance is time apportioned in this accounting period, as the building was not brought into use until 1 January 2026.</p>
+</blockquote>
+<blockquote class="blockquote">
+<p><strong><em>n2:</em></strong> Interest on the loan notes used for trading purposes is deductible in calculating the taxable trading profit on an accruals basis.</p>
+</blockquote>
+<blockquote class="blockquote">
+<p><strong><em>n3:</em></strong> The <strong>individual employees</strong> will be assessed to income tax on the cost of the party (as it exceeds £150 per head) as a benefit of employment. However, all of the costs of providing the staff party are allowable for the company for corporation tax purposes.</p>
+</blockquote>
+<blockquote class="blockquote">
+<p><strong><em>n4:</em></strong> Costs of renewing a short lease (&lt; 50 years) are allowable.</p>
+</blockquote>
+<blockquote class="blockquote">
+<p><strong><em>n5:</em></strong> The donation to the national charity is <strong><em>deducted in the corporation tax computation</em></strong> from total profits and is therefore added back in calculating trading profits.</p>
+</blockquote>
+<p><strong>(b)</strong><br>
+<strong><em>Corporation tax payable</em></strong></p>
+<table class="caption-top table">
+<thead>
+<tr class="header">
+<th></th>
+<th>£</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><strong>Tax adjusted trading profit</strong></td>
+<td><strong>678,729</strong></td>
+</tr>
+<tr class="even">
+<td><strong>Non-trade loan relationship income</strong> <strong><em>NTLR</em></strong></td>
+<td></td>
+</tr>
+<tr class="odd">
+<td>Bank interest</td>
+<td>2,800</td>
+</tr>
+<tr class="even">
+<td>Loan interest</td>
+<td>22,000</td>
+</tr>
+<tr class="odd">
+<td>Impaired debts Customer loan written off</td>
+<td>(600)</td>
+</tr>
+<tr class="even">
+<td><strong>Net non-trade loan relationship income</strong></td>
+<td><strong>24,200</strong></td>
+</tr>
+<tr class="odd">
+<td>Donation to national charity</td>
+<td>(1,800)</td>
+</tr>
+<tr class="even">
+<td><strong>Taxable total profits TTP</strong></td>
+<td><strong>701,129</strong></td>
+</tr>
+</tbody>
+</table>
+<p>701,129 &gt; 250K ∴ HTR<br>
+Corporation tax payable = 701,129 × 25% = 175,282</p>
+<hr>
+</section>
+</section>
+<section id="long-periods-of-account" class="level1">
+<h1>Long periods of account</h1>
+<p>Where a company has a period of account of more than 12 months, it must be split into two accounting periods (APs) as follows:</p>
+<ul>
+<li>First 12 months.</li>
+<li>Remainder of the period of account.</li>
+</ul>
+<p>There are rules to determine how to allocate taxable profits between these two accounting periods.</p>
+<p><strong><em>Allocation of taxable profits</em></strong></p>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 44%">
+<col style="width: 55%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Profits</th>
+<th>Method of allocation</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Trading profits before capital allowances</td>
+<td>Adjust profit for period of account for tax purposes and then apportion on a time basis.</td>
+</tr>
+<tr class="even">
+<td>Capital allowances</td>
+<td>Separate calculation for each accounting period. AIA and WDAs are restricted if accounting period is less than 12 months.</td>
+</tr>
+<tr class="odd">
+<td>Property income <br> Non-trade loan relationship income</td>
+<td>Calculate accrued amount for each AP separately. If the information to apply the strict accruals basis is not available; time apportion.</td>
+</tr>
+<tr class="even">
+<td>Chargeable gains</td>
+<td>Taxed in the accounting period in which disposal takes place.</td>
+</tr>
+<tr class="odd">
+<td>Qualifying charitable donations (QCDs)</td>
+<td>Deducted from profits of the accounting period in which donations are paid.</td>
+</tr>
+</tbody>
+</table>
+<p>Having allocated profits and QCDs to the two separate APs:</p>
+<ul>
+<li>two separate corporation tax computations are prepared</li>
+<li>with two separate payment dates.</li>
+</ul>
+<section id="example-1-long-periods-of-account" class="level4">
+<h4 class="anchored" data-anchor-id="example-1-long-periods-of-account">Example 1: Long periods of account</h4>
+<p>Oak Ltd prepared accounts for the 15 months to 30 June 2026, with the following results:</p>
+<table class="caption-top table">
+<tbody>
+<tr class="odd">
+<td>Tax adjusted trading profit before capital allowances</td>
+<td>882,955</td>
+</tr>
+<tr class="even">
+<td>Bank interest (received 30 September 2025)</td>
+<td>22,000</td>
+</tr>
+<tr class="odd">
+<td>Property income</td>
+<td>10,000</td>
+</tr>
+<tr class="even">
+<td>Chargeable gain (asset disposed of 1 June 2026)</td>
+<td>16,000</td>
+</tr>
+<tr class="odd">
+<td>Charitable donation (paid 1 January 2026)</td>
+<td>24,000</td>
+</tr>
+<tr class="even">
+<td>Bank interest (income) accrued was as follows:</td>
+<td></td>
+</tr>
+<tr class="odd">
+<td>At 1 April 2025</td>
+<td>5,200</td>
+</tr>
+<tr class="even">
+<td>At 31 March 2026</td>
+<td>4,100</td>
+</tr>
+<tr class="odd">
+<td>At 30 June 2026</td>
+<td>9,780</td>
+</tr>
+</tbody>
+</table>
+<p>The company bought <strong>new plant costing £286,000</strong> for use in its trade on <strong>28 August 2025</strong>. The TWDV on the <strong>main pool on 1 April 2025 is £37,000</strong>.</p>
+<p>Calculate Oak Ltd’s taxable total profits for the accounting periods in the 15-month period to 30 June 2026.<br>
+Assume the FY2025 rates and allowances apply throughout.</p>
+<p><strong>Solution</strong></p>
+<p><strong><em>Oak Ltd – Taxable total profits</em></strong></p>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 50%">
+<col style="width: 23%">
+<col style="width: 25%">
+</colgroup>
+<thead>
+<tr class="header">
+<th></th>
+<th>y/e 31.3.2026 (£)</th>
+<th>3 m/e 30.6.2026 (£)</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><strong>Trading profit (12:3)</strong></td>
+<td>706,364</td>
+<td>176,591</td>
+</tr>
+<tr class="even">
+<td><strong>Less: Capital allowances (W1)</strong></td>
+<td>(292,660)</td>
+<td>(1,365)</td>
+</tr>
+<tr class="odd">
+<td><strong>Tax adjusted trading profit</strong></td>
+<td><strong>413,704</strong></td>
+<td><strong>175,226</strong></td>
+</tr>
+<tr class="even">
+<td><strong>NTLR income</strong></td>
+<td>22,000 – 5,200 + 4,100 = 20,900</td>
+<td>9,780 – 4,100 = 5,680</td>
+</tr>
+<tr class="odd">
+<td><strong>Property income (12:3)</strong></td>
+<td>8,000</td>
+<td>2,000</td>
+</tr>
+<tr class="even">
+<td><strong>Chargeable gain</strong></td>
+<td>0</td>
+<td>16,000</td>
+</tr>
+<tr class="odd">
+<td><strong>Total profits</strong></td>
+<td><strong>442,604</strong></td>
+<td><strong>198,906</strong></td>
+</tr>
+<tr class="even">
+<td><strong>Less: QCD relief</strong></td>
+<td>(24,000)</td>
+<td></td>
+</tr>
+<tr class="odd">
+<td><strong>TTP</strong></td>
+<td><strong>418,604</strong></td>
+<td><strong>198,906</strong></td>
+</tr>
+</tbody>
+</table>
+<hr>
+<p><strong><em>W1: Capital allowances</em></strong></p>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 55%">
+<col style="width: 13%">
+<col style="width: 15%">
+<col style="width: 16%">
+</colgroup>
+<thead>
+<tr class="header">
+<th><strong>y/e 31 March 2026</strong></th>
+<th></th>
+<th>Main pool</th>
+<th>Allowances</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>TWDV b/f</td>
+<td></td>
+<td>37,000</td>
+<td></td>
+</tr>
+<tr class="even">
+<td>Additions qualifying for AIA:</td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr class="odd">
+<td>Plant and machinery</td>
+<td>286,000</td>
+<td></td>
+<td></td>
+</tr>
+<tr class="even">
+<td>AIA</td>
+<td>(286,000)</td>
+<td></td>
+<td>286,000</td>
+</tr>
+<tr class="odd">
+<td>Balance before WDA</td>
+<td></td>
+<td><strong>37,000</strong></td>
+<td></td>
+</tr>
+<tr class="even">
+<td>WDA @ 18%</td>
+<td></td>
+<td>(6,660)</td>
+<td>6,660</td>
+</tr>
+<tr class="odd">
+<td><strong>TWDV c/f</strong></td>
+<td></td>
+<td><strong>30,340</strong></td>
+<td></td>
+</tr>
+<tr class="even">
+<td><strong>Total allowances</strong></td>
+<td></td>
+<td></td>
+<td><strong>292,660</strong></td>
+</tr>
+</tbody>
+</table>
+<hr>
+<table class="caption-top table">
+<thead>
+<tr class="header">
+<th><strong>3 m/e 30 June 2026</strong></th>
+<th>Main pool</th>
+<th>Allowances</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>TWDV b/f</td>
+<td>30,340</td>
+<td></td>
+</tr>
+<tr class="even">
+<td>WDA @ (18% × 3/12)</td>
+<td>(1,365)</td>
+<td>1,365</td>
+</tr>
+<tr class="odd">
+<td><strong>TWDV c/f</strong></td>
+<td><strong>28,975</strong></td>
+<td></td>
+</tr>
+<tr class="even">
+<td><strong>Total allowances</strong></td>
+<td></td>
+<td><strong>1,365</strong></td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="example-2-long-periods-of-account" class="level4">
+<h4 class="anchored" data-anchor-id="example-2-long-periods-of-account">Example 2: Long periods of account</h4>
+<p>Ash Ltd prepared accounts for the <strong><em>17-month period</em></strong> to 31 May 2026, with results as follows:</p>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 87%">
+<col style="width: 12%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Item</th>
+<th>Amount</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Trading profit (adjusted for tax purposes but before capital allowances)</td>
+<td>1,949,614</td>
+</tr>
+<tr class="even">
+<td>Bank interest (received 31 August 2025)</td>
+<td>11,540</td>
+</tr>
+<tr class="odd">
+<td>Property income</td>
+<td>25,500</td>
+</tr>
+<tr class="even">
+<td>Chargeable gain (asset disposed of 1 November 2025)</td>
+<td>12,995</td>
+</tr>
+<tr class="odd">
+<td>Charitable donations (paid 1 October 2025)</td>
+<td>16,500</td>
+</tr>
+<tr class="even">
+<td>Bank interest (income) accrued was as follows:</td>
+<td></td>
+</tr>
+<tr class="odd">
+<td>At 1 January 2025</td>
+<td>7,400</td>
+</tr>
+<tr class="even">
+<td>At 31 December 2025</td>
+<td>5,600</td>
+</tr>
+<tr class="odd">
+<td>At 31 May 2026</td>
+<td>10,540</td>
+</tr>
+</tbody>
+</table>
+<p>The company bought second-hand plant costing £1,040,000, for use in its trade on 1 February 2025. The tax written down value on the main pool on 1 January 2025 is £45,000.</p>
+<p><strong>Calculate Ash Ltd’s taxable total profits for the accounting periods in the 17-month period to 31 May 2026.</strong></p>
+<p><strong>Solution</strong></p>
+<p><strong><em>Taxable total profits y/e 31 Dec.&nbsp;2025</em></strong></p>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 70%">
+<col style="width: 14%">
+<col style="width: 14%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Item</th>
+<th>y/e Dec.25</th>
+<th>p/e May.26</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Trading profit Before CA ‘1,949,614 × 12/17; 5/17’</td>
+<td>1,376,198</td>
+<td>573,416</td>
+</tr>
+<tr class="even">
+<td>Capital Allowance CA (w1)</td>
+<td>(1,015,300)</td>
+<td>(5,228)</td>
+</tr>
+<tr class="odd">
+<td><strong>Non tread loan relationship NTLR</strong></td>
+<td></td>
+<td></td>
+</tr>
+<tr class="even">
+<td>- Bank intrest 1 January 2025 (w2)</td>
+<td>(7,400)</td>
+<td></td>
+</tr>
+<tr class="odd">
+<td>- Bank intrest 31 December 2025 (w2)</td>
+<td>5,600</td>
+<td>(5,600)</td>
+</tr>
+<tr class="even">
+<td>- Bank interest (received 31 August 2025) (w2)</td>
+<td>11,540</td>
+<td></td>
+</tr>
+<tr class="odd">
+<td>- Bank intrest 31 May 2026 (w2)</td>
+<td>-</td>
+<td>10,540</td>
+</tr>
+<tr class="even">
+<td>Chargeable gain</td>
+<td>12,995</td>
+<td></td>
+</tr>
+<tr class="odd">
+<td>Property income ‘25.5k × 12/17; 5/17’</td>
+<td>18,000</td>
+<td>7,500</td>
+</tr>
+<tr class="even">
+<td>Charitable donations (paid 1 October 2025)</td>
+<td>(16,500)</td>
+<td></td>
+</tr>
+<tr class="odd">
+<td><strong><em>Taxable total profits y/e 31 May 2026</em></strong></td>
+<td><strong>385,133</strong></td>
+<td><strong>580,628</strong></td>
+</tr>
+</tbody>
+</table>
+<p><strong>W1: Capital Allowance</strong></p>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 56%">
+<col style="width: 13%">
+<col style="width: 13%">
+<col style="width: 16%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Item</th>
+<th>Ex.</th>
+<th>MP</th>
+<th>Allowance</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>TWDV b/f</td>
+<td></td>
+<td>45,000</td>
+<td></td>
+</tr>
+<tr class="even">
+<td>Second-hand plant</td>
+<td>1,040,000</td>
+<td></td>
+<td></td>
+</tr>
+<tr class="odd">
+<td>AIA Max. 1M</td>
+<td>1,000,000</td>
+<td></td>
+<td>1,000,000</td>
+</tr>
+<tr class="even">
+<td></td>
+<td></td>
+<td>40,000</td>
+<td></td>
+</tr>
+<tr class="odd">
+<td><strong>Balance before WDA</strong></td>
+<td></td>
+<td><strong>85,000</strong></td>
+<td></td>
+</tr>
+<tr class="even">
+<td>WDA @ 18%</td>
+<td></td>
+<td>(15,300)</td>
+<td>15,300</td>
+</tr>
+<tr class="odd">
+<td>TWDV c/f</td>
+<td></td>
+<td><strong>69,700</strong></td>
+<td></td>
+</tr>
+<tr class="even">
+<td><strong>Capital Allowance y/e 31 Dec.&nbsp;2025</strong></td>
+<td></td>
+<td></td>
+<td><strong>1,015,300</strong></td>
+</tr>
+<tr class="odd">
+<td>TWDV b/f</td>
+<td></td>
+<td>69,700</td>
+<td></td>
+</tr>
+<tr class="even">
+<td>WDA @ 18% × 5/12</td>
+<td></td>
+<td>(5,228)</td>
+<td>5,228</td>
+</tr>
+<tr class="odd">
+<td>TWDV c/f</td>
+<td></td>
+<td><strong>64,472</strong></td>
+<td></td>
+</tr>
+<tr class="even">
+<td><strong>Capital Allowance p/e 31 may. 2026</strong></td>
+<td></td>
+<td></td>
+<td><strong>5,228</strong></td>
+</tr>
+</tbody>
+</table>
+<p><strong>W2: Bank Interest (Accruals Basis)</strong></p>
+<p>Interest income is calculated using the specific accounting accruals relating to each separate period: <span class="math display">\[
+\text{Received} + \text{Closing Accrual} - \text{Opening Accrual}
+\]</span></p>
+<ul>
+<li>Period 1: The £11,540 receipt on 31 August 2025 falls in this window. <span class="math display">\[
+\text{Interest} = £11,540 \text{ (Received)} + £5,600 \text{ (Accrued 31 Dec)} - £7,400 \text{ (Accrued 1 Jan)} = \mathbf{£9,740}
+\]</span></li>
+<li>Period 2: No interest cash was received during these 5 months. <span class="math display">\[
+\text{Interest} = £0 \text{ (Received)} + £10,540 \text{ (Accrued 31 May)} - £5,600 \text{ (Accrued 1 Jan 2026)} = \mathbf{£4,940}
+\]</span></li>
+</ul>
+</section>
+</section>
+<section id="practices-on-additional-aspects" class="level1">
+<h1>Practices on Additional aspects</h1>
+<section id="objective-test-ot-questions" class="level2">
+<h2 class="anchored" data-anchor-id="objective-test-ot-questions">Objective Test (OT) questions</h2>
+<section id="q1-long-period-of-account" class="level3">
+<h3 class="anchored" data-anchor-id="q1-long-period-of-account">Q1: Long period of account</h3>
+<div class="callout callout-style-simple callout-none no-icon">
+<div class="callout-body d-flex">
+<div class="callout-icon-container">
+<i class="callout-icon no-icon"></i>
+</div>
+<div class="callout-body-container">
+<p>Hum Ltd started trading on 1 February 2025 and prepared its first set of accounts to 30 April 2026.</p>
+<p>What is Hum Ltd’s first accounting period?</p>
+<p>A. 2 months ended 31 March 2025<br>
+<strong>B. 12 months ended 31 January 2026</strong><br>
+C. 14 months ended 31 March 2026<br>
+D. 15 months ended 30 April 2026</p>
+</div>
+</div>
+</div>
+</section>
+<section id="q2-taxable-total-profits-ttp" class="level3">
+<h3 class="anchored" data-anchor-id="q2-taxable-total-profits-ttp">Q2: Taxable Total Profits TTP</h3>
+<div class="callout callout-style-simple callout-none no-icon">
+<div class="callout-body d-flex">
+<div class="callout-icon-container">
+<i class="callout-icon no-icon"></i>
+</div>
+<div class="callout-body-container">
+<p>Fine Ltd has the following results for the year ended 31 July 2025:</p>
+<ul>
+<li>Trading profit: £100,000</li>
+<li>NTLR income: £22,000</li>
+<li>UK dividends received: £10,000</li>
+<li>Qualifying charitable donation paid: £1,000</li>
+</ul>
+<p><strong>What are the taxable total profits of Fine Ltd for the year ended 31 July 2025?</strong></p>
+<p>A. 123,000<br>
+<strong>B. 121,000</strong><br>
+C. 133,000<br>
+D. 131,000</p>
+</div>
+</div>
+</div>
+</section>
+<section id="q3-corporation-tax-liability" class="level3">
+<h3 class="anchored" data-anchor-id="q3-corporation-tax-liability">Q3: Corporation tax liability</h3>
+<div class="callout callout-style-simple callout-none no-icon">
+<div class="callout-body d-flex">
+<div class="callout-icon-container">
+<i class="callout-icon no-icon"></i>
+</div>
+<div class="callout-body-container">
+<p>Cardwell Ltd prepared its first set of accounts for the <strong>six months</strong> to 31 March 2026.</p>
+<p>Cardwell Ltd had a tax adjusted trading profit of £120,000, chargeable gains of £20,000, property income of £10,000 and dividends received of £25,000 from unrelated companies in this six-month period.</p>
+<p>What is the corporation tax liability of Cardwell Ltd for the six months ended 31 March 2026?</p>
+<p>A. £43,750<br>
+<strong>B. £37,500</strong><br>
+C. £28,500<br>
+D. £36,536</p>
+</div>
+</div>
+</div>
+</section>
+<section id="q4-car-co2-emissions-over-50gkm" class="level3">
+<h3 class="anchored" data-anchor-id="q4-car-co2-emissions-over-50gkm">Q4: Car CO2 emissions over 50g/km</h3>
+<div class="callout callout-style-simple callout-none no-icon">
+<div class="callout-body d-flex">
+<div class="callout-icon-container">
+<i class="callout-icon no-icon"></i>
+</div>
+<div class="callout-body-container">
+<p>Bailey Ltd prepared accounts for the three-month period ended 31 March 2026. On 1 February 2026 a car costing £18,000 was purchased for the sales director and used by him 60% for business purposes. The car has CO2 emissions over 50g/km.</p>
+<p>What are the capital allowances available on this car for the three months ended 31 March 2026?</p>
+<p>A. £1,080<br>
+B. £810<br>
+<strong>C. £270</strong><br>
+D. £162</p>
+<p>(18000 <em>3/12 </em>0.06)</p>
+</div>
+</div>
+</div>
+</section>
+<section id="q5-taxable-total-profits-ttp" class="level3">
+<h3 class="anchored" data-anchor-id="q5-taxable-total-profits-ttp">Q5: Taxable Total Profits TTP</h3>
+<div class="callout callout-style-simple callout-none no-icon">
+<div class="callout-body d-flex">
+<div class="callout-icon-container">
+<i class="callout-icon no-icon"></i>
+</div>
+<div class="callout-body-container">
+<p>Bennett Ltd prepared accounts for the year ended 31 December 2025.<br>
+The following information is available:</p>
+<table class="caption-top table">
+<thead>
+<tr class="header">
+<th>Description</th>
+<th>£</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Adjusted trading profits before capital allowances</td>
+<td>56,000</td>
+</tr>
+<tr class="even">
+<td>Bank interest receivable</td>
+<td>3,000</td>
+</tr>
+<tr class="odd">
+<td>Dividends received</td>
+<td>8,000</td>
+</tr>
+</tbody>
+</table>
+<p>The tax written down value of the main pool was £Nil on 1 January 2025 and on 1 March 2025 the company purchased a new lorry for £24,440.</p>
+<p><strong>What are Bennett Ltd’s taxable total profits for the year ended 31 December 2025?</strong></p>
+<p><strong>A. £34,560</strong><br>
+B. £42,560<br>
+C. £54,601<br>
+D. £62,601</p>
+</div>
+</div>
+</div>
+</section>
+<section id="q6-taxable-total-profits-ttp" class="level3">
+<h3 class="anchored" data-anchor-id="q6-taxable-total-profits-ttp">Q6: Taxable Total Profits TTP</h3>
+<div class="callout callout-style-simple callout-none no-icon">
+<div class="callout-body d-flex">
+<div class="callout-icon-container">
+<i class="callout-icon no-icon"></i>
+</div>
+<div class="callout-body-container">
+<p>Smith and Jones Ltd had the following results for the year ended 31 March 2026:</p>
+<ul>
+<li>Tax adjusted trading profit before capital allowances: £330,000</li>
+<li>Chargeable gains: £9,000</li>
+</ul>
+<p>The tax written down value on the main pool as at 1 April 2025 was £57,778.</p>
+<p>There were no additions or disposals of plant and machinery during the year.</p>
+<p><strong>What is the company’s taxable total profit for the year ended 31 March 2026?</strong></p>
+<p>A. £319,600<br>
+B. £339,000<br>
+C. £281,222<br>
+<strong>D. £328,600</strong></p>
+</div>
+</div>
+</div>
+</section>
+<section id="q7-leasing-costs-for-high-emissions-cars-adjustment" class="level3">
+<h3 class="anchored" data-anchor-id="q7-leasing-costs-for-high-emissions-cars-adjustment">Q7: Leasing costs for high emissions cars ‘adjustment’</h3>
+<div class="callout callout-style-simple callout-none no-icon">
+<div class="callout-body d-flex">
+<div class="callout-icon-container">
+<i class="callout-icon no-icon"></i>
+</div>
+<div class="callout-body-container">
+<p>X Ltd has included a deduction in its accounting profit of £3,200 in respect of the annual leasing cost for a car, which has CO2 emissions of 85g/km.</p>
+<p>The car has been used for the whole of the 12-month period ended 31 March 2026.</p>
+<p>When calculating the adjusted profit for tax purposes, what adjustment must be made to the accounting profit in the statement of profit or loss in respect of the leasing cost in the year ended 31 March 2026?</p>
+<p>A. £480 deduction<br>
+<strong>B. £480 add back</strong><br>
+C. £0<br>
+D. £2,720 add back</p>
+<p>(£3,200 × 15%) = £480 add back</p>
+<p>15% of car leasing costs are disallowed if CO2 emissions exceed 50g/km. <em>‘For both corporate and self-employed’</em></p>
+</div>
+</div>
+</div>
+</section>
+<section id="q8-tax-adjusted-trading-profit-adjustment" class="level3">
+<h3 class="anchored" data-anchor-id="q8-tax-adjusted-trading-profit-adjustment">Q8: Tax adjusted trading profit ‘adjustment’</h3>
+<div class="callout callout-style-simple callout-none no-icon">
+<div class="callout-body d-flex">
+<div class="callout-icon-container">
+<i class="callout-icon no-icon"></i>
+</div>
+<div class="callout-body-container">
+<p>Grange Ltd has the following expenses in its statement of profit or loss:</p>
+<ol type="1">
+<li>Legal fees for the purchase of a new building £800</li>
+<li>Legal fees for defending an action for faulty goods £1,500</li>
+<li>Christmas party for staff (the company has 20 employees) £3,200</li>
+<li>Bank fee for arranging a trade related long term loan £1,000</li>
+</ol>
+<p><strong>How much must be added back to Grange Ltd’s accounting profit when calculating the tax adjusted trading profit?</strong></p>
+<p>A. £2,300<br>
+<strong>B. £800</strong><br>
+C. £3,200<br>
+D. £1,800</p>
+<ol type="1">
+<li>The legal fees for the purchase of a new building are capital in nature and therefore not deductible from trading profits.<br>
+</li>
+<li>The legal fees for defending an action for faulty goods are a trade related revenue expense and therefore a deductible trading expense.</li>
+<li>Staff entertainment is fully allowable, although there may be a taxable benefit for the employee if the cost exceeds £150 per head.</li>
+<li>The bank fee on a trade related loan is a trading expense under the loan relationship rules.</li>
+</ol>
+</div>
+</div>
+</div>
+</section>
+</section>
+<section id="constructed-response-questions" class="level2">
+<h2 class="anchored" data-anchor-id="constructed-response-questions">Constructed response questions</h2>
+<section id="q1" class="level3">
+<h3 class="anchored" data-anchor-id="q1">Q1:</h3>
+</section>
+</section>
+</section>
+
+</main>
+<!-- /main column -->
+<script id="quarto-html-after-body" type="application/javascript">
+  window.document.addEventListener("DOMContentLoaded", function (event) {
+    const icon = "";
+    const anchorJS = new window.AnchorJS();
+    anchorJS.options = {
+      placement: 'right',
+      icon: icon
+    };
+    anchorJS.add('.anchored');
+    const isCodeAnnotation = (el) => {
+      for (const clz of el.classList) {
+        if (clz.startsWith('code-annotation-')) {                     
+          return true;
+        }
+      }
+      return false;
+    }
+    const onCopySuccess = function(e) {
+      // button target
+      const button = e.trigger;
+      // don't keep focus
+      button.blur();
+      // flash "checked"
+      button.classList.add('code-copy-button-checked');
+      var currentTitle = button.getAttribute("title");
+      button.setAttribute("title", "Copied!");
+      let tooltip;
+      if (window.bootstrap) {
+        button.setAttribute("data-bs-toggle", "tooltip");
+        button.setAttribute("data-bs-placement", "left");
+        button.setAttribute("data-bs-title", "Copied!");
+        tooltip = new bootstrap.Tooltip(button, 
+          { trigger: "manual", 
+            customClass: "code-copy-button-tooltip",
+            offset: [0, -8]});
+        tooltip.show();    
+      }
+      setTimeout(function() {
+        if (tooltip) {
+          tooltip.hide();
+          button.removeAttribute("data-bs-title");
+          button.removeAttribute("data-bs-toggle");
+          button.removeAttribute("data-bs-placement");
+        }
+        button.setAttribute("title", currentTitle);
+        button.classList.remove('code-copy-button-checked');
+      }, 1000);
+      // clear code selection
+      e.clearSelection();
+    }
+    const getTextToCopy = function(trigger) {
+      const outerScaffold = trigger.parentElement.cloneNode(true);
+      const codeEl = outerScaffold.querySelector('code');
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
+    }
+    const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
+      text: getTextToCopy
+    });
+    clipboard.on('success', onCopySuccess);
+    if (window.document.getElementById('quarto-embedded-source-code-modal')) {
+      const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
+        text: getTextToCopy,
+        container: window.document.getElementById('quarto-embedded-source-code-modal')
+      });
+      clipboardModal.on('success', onCopySuccess);
+    }
+      var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+      var mailtoRegex = new RegExp(/^mailto:/);
+        var filterRegex = new RegExp('/' + window.location.host + '/');
+      var isInternal = (href) => {
+          return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+      }
+      // Inspect non-navigation links and adorn them if external
+     var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
+      for (var i=0; i<links.length; i++) {
+        const link = links[i];
+        if (!isInternal(link.href)) {
+          // undo the damage that might have been done by quarto-nav.js in the case of
+          // links that we want to consider external
+          if (link.dataset.originalHref !== undefined) {
+            link.href = link.dataset.originalHref;
+          }
+        }
+      }
+    function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
+      const config = {
+        allowHTML: true,
+        maxWidth: 500,
+        delay: 100,
+        arrow: false,
+        appendTo: function(el) {
+            return el.parentElement;
+        },
+        interactive: true,
+        interactiveBorder: 10,
+        theme: 'quarto',
+        placement: 'bottom-start',
+      };
+      if (contentFn) {
+        config.content = contentFn;
+      }
+      if (onTriggerFn) {
+        config.onTrigger = onTriggerFn;
+      }
+      if (onUntriggerFn) {
+        config.onUntrigger = onUntriggerFn;
+      }
+      window.tippy(el, config); 
+    }
+    const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+    for (var i=0; i<noterefs.length; i++) {
+      const ref = noterefs[i];
+      tippyHover(ref, function() {
+        // use id or data attribute instead here
+        let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+        try { href = new URL(href).hash; } catch {}
+        const id = href.replace(/^#\/?/, "");
+        const note = window.document.getElementById(id);
+        if (note) {
+          return note.innerHTML;
+        } else {
+          return "";
+        }
+      });
+    }
+    const xrefs = window.document.querySelectorAll('a.quarto-xref');
+    const processXRef = (id, note) => {
+      // Strip column container classes
+      const stripColumnClz = (el) => {
+        el.classList.remove("page-full", "page-columns");
+        if (el.children) {
+          for (const child of el.children) {
+            stripColumnClz(child);
+          }
+        }
+      }
+      stripColumnClz(note)
+      if (id === null || id.startsWith('sec-')) {
+        // Special case sections, only their first couple elements
+        const container = document.createElement("div");
+        if (note.children && note.children.length > 2) {
+          container.appendChild(note.children[0].cloneNode(true));
+          for (let i = 1; i < note.children.length; i++) {
+            const child = note.children[i];
+            if (child.tagName === "P" && child.innerText === "") {
+              continue;
+            } else {
+              container.appendChild(child.cloneNode(true));
+              break;
+            }
+          }
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(container);
+          }
+          return container.innerHTML
+        } else {
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(note);
+          }
+          return note.innerHTML;
+        }
+      } else {
+        // Remove any anchor links if they are present
+        const anchorLink = note.querySelector('a.anchorjs-link');
+        if (anchorLink) {
+          anchorLink.remove();
+        }
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(note);
+        }
+        if (note.classList.contains("callout")) {
+          return note.outerHTML;
+        } else {
+          return note.innerHTML;
+        }
+      }
+    }
+    for (var i=0; i<xrefs.length; i++) {
+      const xref = xrefs[i];
+      tippyHover(xref, undefined, function(instance) {
+        instance.disable();
+        let url = xref.getAttribute('href');
+        let hash = undefined; 
+        if (url.startsWith('#')) {
+          hash = url;
+        } else {
+          try { hash = new URL(url).hash; } catch {}
+        }
+        if (hash) {
+          const id = hash.replace(/^#\/?/, "");
+          const note = window.document.getElementById(id);
+          if (note !== null) {
+            try {
+              const html = processXRef(id, note.cloneNode(true));
+              instance.setContent(html);
+            } finally {
+              instance.enable();
+              instance.show();
+            }
+          } else {
+            // See if we can fetch this
+            fetch(url.split('#')[0])
+            .then(res => res.text())
+            .then(html => {
+              const parser = new DOMParser();
+              const htmlDoc = parser.parseFromString(html, "text/html");
+              const note = htmlDoc.getElementById(id);
+              if (note !== null) {
+                const html = processXRef(id, note);
+                instance.setContent(html);
+              } 
+            }).finally(() => {
+              instance.enable();
+              instance.show();
+            });
+          }
+        } else {
+          // See if we can fetch a full url (with no hash to target)
+          // This is a special case and we should probably do some content thinning / targeting
+          fetch(url)
+          .then(res => res.text())
+          .then(html => {
+            const parser = new DOMParser();
+            const htmlDoc = parser.parseFromString(html, "text/html");
+            const note = htmlDoc.querySelector('main.content');
+            if (note !== null) {
+              // This should only happen for chapter cross references
+              // (since there is no id in the URL)
+              // remove the first header
+              if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
+                note.children[0].remove();
+              }
+              const html = processXRef(null, note);
+              instance.setContent(html);
+            } 
+          }).finally(() => {
+            instance.enable();
+            instance.show();
+          });
+        }
+      }, function(instance) {
+      });
+    }
+        let selectedAnnoteEl;
+        const selectorForAnnotation = ( cell, annotation) => {
+          let cellAttr = 'data-code-cell="' + cell + '"';
+          let lineAttr = 'data-code-annotation="' +  annotation + '"';
+          const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+          return selector;
+        }
+        const selectCodeLines = (annoteEl) => {
+          const doc = window.document;
+          const targetCell = annoteEl.getAttribute("data-target-cell");
+          const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+          const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+          const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+          const lineIds = lines.map((line) => {
+            return targetCell + "-" + line;
+          })
+          let top = null;
+          let height = null;
+          let parent = null;
+          if (lineIds.length > 0) {
+              //compute the position of the single el (top and bottom and make a div)
+              const el = window.document.getElementById(lineIds[0]);
+              top = el.offsetTop;
+              height = el.offsetHeight;
+              parent = el.parentElement.parentElement;
+            if (lineIds.length > 1) {
+              const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+              const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+              height = bottom - top;
+            }
+            if (top !== null && height !== null && parent !== null) {
+              // cook up a div (if necessary) and position it 
+              let div = window.document.getElementById("code-annotation-line-highlight");
+              if (div === null) {
+                div = window.document.createElement("div");
+                div.setAttribute("id", "code-annotation-line-highlight");
+                div.style.position = 'absolute';
+                parent.appendChild(div);
+              }
+              div.style.top = top - 2 + "px";
+              div.style.height = height + 4 + "px";
+              div.style.left = 0;
+              let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+              if (gutterDiv === null) {
+                gutterDiv = window.document.createElement("div");
+                gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+                gutterDiv.style.position = 'absolute';
+                const codeCell = window.document.getElementById(targetCell);
+                const gutter = codeCell.querySelector('.code-annotation-gutter');
+                gutter.appendChild(gutterDiv);
+              }
+              gutterDiv.style.top = top - 2 + "px";
+              gutterDiv.style.height = height + 4 + "px";
+            }
+            selectedAnnoteEl = annoteEl;
+          }
+        };
+        const unselectCodeLines = () => {
+          const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+          elementsIds.forEach((elId) => {
+            const div = window.document.getElementById(elId);
+            if (div) {
+              div.remove();
+            }
+          });
+          selectedAnnoteEl = undefined;
+        };
+          // Handle positioning of the toggle
+      window.addEventListener(
+        "resize",
+        throttle(() => {
+          elRect = undefined;
+          if (selectedAnnoteEl) {
+            selectCodeLines(selectedAnnoteEl);
+          }
+        }, 10)
+      );
+      function throttle(fn, ms) {
+      let throttle = false;
+      let timer;
+        return (...args) => {
+          if(!throttle) { // first call gets through
+              fn.apply(this, args);
+              throttle = true;
+          } else { // all the others get throttled
+              if(timer) clearTimeout(timer); // cancel #2
+              timer = setTimeout(() => {
+                fn.apply(this, args);
+                timer = throttle = false;
+              }, ms);
+          }
+        };
+      }
+        // Attach click handler to the DT
+        const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+        for (const annoteDlNode of annoteDls) {
+          annoteDlNode.addEventListener('click', (event) => {
+            const clickedEl = event.target;
+            if (clickedEl !== selectedAnnoteEl) {
+              unselectCodeLines();
+              const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+              if (activeEl) {
+                activeEl.classList.remove('code-annotation-active');
+              }
+              selectCodeLines(clickedEl);
+              clickedEl.classList.add('code-annotation-active');
+            } else {
+              // Unselect the line
+              unselectCodeLines();
+              clickedEl.classList.remove('code-annotation-active');
+            }
+          });
+        }
+    const findCites = (el) => {
+      const parentEl = el.parentElement;
+      if (parentEl) {
+        const cites = parentEl.dataset.cites;
+        if (cites) {
+          return {
+            el,
+            cites: cites.split(' ')
+          };
+        } else {
+          return findCites(el.parentElement)
+        }
+      } else {
+        return undefined;
+      }
+    };
+    var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+    for (var i=0; i<bibliorefs.length; i++) {
+      const ref = bibliorefs[i];
+      const citeInfo = findCites(ref);
+      if (citeInfo) {
+        tippyHover(citeInfo.el, function() {
+          var popup = window.document.createElement('div');
+          citeInfo.cites.forEach(function(cite) {
+            var citeDiv = window.document.createElement('div');
+            citeDiv.classList.add('hanging-indent');
+            citeDiv.classList.add('csl-entry');
+            var biblioDiv = window.document.getElementById('ref-' + cite);
+            if (biblioDiv) {
+              citeDiv.innerHTML = biblioDiv.innerHTML;
+            }
+            popup.appendChild(citeDiv);
+          });
+          return popup.innerHTML;
+        });
+      }
+    }
+  });
+  </script>
+</div> <!-- /content -->
+
+
+
+
+</body></html>

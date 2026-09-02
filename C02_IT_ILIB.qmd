@@ -1,24 +1,11 @@
----
-title: "Chapter 2: The UK Tax System and Its Administration"
-subtitle: "ACCA TX-UK Study Paper"
-format:
-  pdf:
-    pdf-engine: lualatex
-    toc: true
-    toc-depth: 3
-    number-sections: true
-    papersize: a4
-    geometry:
-      - margin=2.5cm
-    include-in-header:
-      - mdpi-header.tex
-bibliography: mdpi-template.bib
+﻿---
+title: "Chapter 2: The scope of income tax"
 abstract: |
     This chapter deal with individuals, whether they are employed, self-employed or simply in receipt of investment income, are assessed to income tax. 
     
     Income tax is an important topic as it will be the focus of one 15 mark question in section C of the examination. You can also expect income tax questions in both sections A and B of the examination. 
     
-    This chapter sets out the basis upon which individuals are assessed to income tax and how an individual’s income tax liability is calculated. 
+    This chapter sets out the basis upon which individuals are assessed to income tax and how an individual's income tax liability is calculated. 
 ---
 
 ::: {.center data-latex=""}
@@ -136,16 +123,16 @@ Non-savings income comprises earned income and property income.
 
 Earned income comprises: 
 
-- Trading income – the profit of a trade, profession or vocation of a self-employed individual. 
-- Employment income – earnings including salaries, bonuses and other benefits from an office or employment are assessed as employment income. 
-- Pension income – income from an occupational or personal pension fund. 
+- Trading income - the profit of a trade, profession or vocation of a self-employed individual. 
+- Employment income - earnings including salaries, bonuses and other benefits from an office or employment are assessed as employment income. 
+- Pension income - income from an occupational or personal pension fund. 
 - Property income is typically rental income, but also includes other items such as the income element of a premium on granting a short lease.
 
 ### Investment income 
 
 Sources of investment income include: 
 
-- Savings income – usually bank and building society interest
+- Savings income - usually bank and building society interest
 - Dividend income
 
 ### Exempt income 
@@ -204,7 +191,7 @@ Calculate the **Net income** for Anwar and Mila for the tax year 2025/26.
 |                                         | Anwar (£) | Mila (£) |
 |-----------------------------------------|-----------|----------|
 | Total income                            | 54,000    | 54,000   |
-| Less: Reliefs – Qualifying interest paid | -         | (2,000)  |
+| Less: Reliefs - Qualifying interest paid | -         | (2,000)  |
 | **Net income**                              | 54,000    | 52,000   |
 | Less: PA                                | (12,570)  | (12,570) |
 | Taxable income                          | 41,430    | 39,430   |
@@ -226,7 +213,7 @@ Every taxpayer (including children) is entitled to a personal allowance (PA).
 
 > The PA is included in the tax rates and allowances provided to you in the examination. 
 
-#### Reduction of personal allowance – high income individuals 
+#### Reduction of personal allowance - high income individuals 
 
 - The PA is gradually reduced for individuals with income in excess of £100,000. 
 - The reduction of the PA is based on the taxpayer's Adjusted Net Income (ANI) which is calculated as follows:
@@ -256,7 +243,7 @@ A taxpayer with ANI in excess of £125,140 will therefore be entitled to **no PA
 
 #### Why Do We Subtract Gift Aid & Pension Contributions?
 
-Both **gift aid donations** and **personal pension contributions** (relief at source) are treated as if they were paid **after tax** – but for the purpose of checking the £100,000 Personal Allowance threshold, we add back the basic rate tax to make them **gross** and then deduct them from net income.
+Both **gift aid donations** and **personal pension contributions** (relief at source) are treated as if they were paid **after tax** - but for the purpose of checking the £100,000 Personal Allowance threshold, we add back the basic rate tax to make them **gross** and then deduct them from net income.
 
 **Example (2025/26)**
 
@@ -264,14 +251,14 @@ Both **gift aid donations** and **personal pension contributions** (relief at so
 - Gift aid donation paid = £800 (net)
 - Grossed up = £800 ÷ 0.8 = £1,000
 
-**Adjusted net income** = £110,000 – £1,000 = £109,000
+**Adjusted net income** = £110,000 - £1,000 = £109,000
 
 Because ANI is still above £100,000, Personal Allowance is reduced by:
 $$
-(£109,000 – £100,000) ÷ 2 = £4,500
+(£109,000 - £100,000) ÷ 2 = £4,500
 $$
 
-Personal Allowance = £12,570 – £4,500 = **£8,070**
+Personal Allowance = £12,570 - £4,500 = **£8,070**
 
 \begin{mdframed}
 \textcolor{red}{\textbf{Do not}} deduct gift aid / pension contributions twice:
@@ -282,10 +269,10 @@ Personal Allowance = £12,570 – £4,500 = **£8,070**
 \textcolor{red}{Many students lose marks here.}
 \end{mdframed}
 
-#### Income tax computation – 2025/26
+#### Income tax computation - 2025/26
 
 Ethan received trading income of £110,000 in the tax year 2025/26. He also made gift aid donations of £4,000 (gross). \
-Compute Ethan’s taxable income for the tax year 2025/26. 
+Compute Ethan's taxable income for the tax year 2025/26. 
 
 |                                | £       |
 |--------------------------------|---------|
@@ -305,7 +292,7 @@ Compute Ethan’s taxable income for the tax year 2025/26.
 | **Reduction of PA (50% × £6,000)**   | 6,000   |
 | **Adjusted PA**                      | 9,570   |
 
-**Note:** In this example, as there are no other sources of income and no reliefs, Ethan’s trading income = total income = net income.
+**Note:** In this example, as there are no other sources of income and no reliefs, Ethan's trading income = total income = net income.
 
 ## Income tax liability 
 
@@ -332,7 +319,7 @@ The rates of income tax for the tax year 2025/26 for 'non-savings income' are as
 | Level of income                         | Non-savings income |
 |-----------------------------------------|--------------------|
 | Basic rate band (first £37,700)         | 20%                |
-| Higher rate (£37,701 – £125,140)        | 40%                |
+| Higher rate (£37,701 - £125,140)        | 40%                |
 | Additional rate (excess over £125,140)  | 45%                |
 
 #### Approach to the income tax computation 
@@ -346,7 +333,7 @@ The rates of income tax for the tax year 2025/26 for 'non-savings income' are as
 
 Amir has taxable trading income of £21,165 and employment income of £3,000 for the tax year 2025/26. He has no savings or dividend income. 
 
-Calculate Amir’s income tax liability for the tax year 2025/26. 
+Calculate Amir's income tax liability for the tax year 2025/26. 
 
 **Solution**
 
@@ -363,7 +350,7 @@ Calculate Amir’s income tax liability for the tax year 2025/26.
 
 Tala has taxable trading income of £43,765 and employment income of £7,000 for the tax year 2025/26. She has no savings or dividend income. 
 
-Calculate Tala’s income tax liability for the tax year 2025/26. 
+Calculate Tala's income tax liability for the tax year 2025/26. 
 
 **Solution**
 
@@ -383,7 +370,7 @@ Calculate Tala’s income tax liability for the tax year 2025/26.
 
 Thomas has taxable trading income of £135,000 and employment income of £33,680 for the tax year 2025/26. He does not have any savings income or dividend income.
 
-Calculate Thomas’ income tax liability for the tax year 2025/26. 
+Calculate Thomas' income tax liability for the tax year 2025/26. 
 
 **Solution**
 
@@ -412,30 +399,30 @@ How much additional income tax would Fernanda have paid if, in addition to her a
 
 **Solution**
 
-Income tax computation 2025/26 – *assuming no bonus* 
+Income tax computation 2025/26 - *assuming no bonus* 
 
 |                                                | £         |
 |------------------------------------------------|-----------|
 | Employment income                              | 100,000   |
-| Less: PA (ANI ≤ £100,000)                      | (12,570)  |
+| Less: PA (ANI â‰¤ £100,000)                      | (12,570)  |
 | **Total income**                               | 87,430    |
 | Income tax:                                    |           |
 | Basic rate (£37,700 × 20%)                     | 7,540     |
 | Higher rate (£49,730 × 40%)                    | 19,892    |
 | **Income tax liability**                       | 27,432    |
 
-Income tax computation 2025/26 – *with bonus of £25,140* 
+Income tax computation 2025/26 - *with bonus of £25,140* 
 
 |                                                | £         |
 |------------------------------------------------|-----------|
 | Employment income                              | 125,140   |
-| Less: PA (ANI ≥ £125,140)                      | (0)       |
+| Less: PA (ANI â‰¥ £125,140)                      | (0)       |
 | **Total income**                               | 125,140   |
 | Income tax:                                    |           |
 | Basic rate (£37,700 × 20%)                     | 7,540     |
 | Higher rate (£87,440 × 40%)                    | 34,976    |
 | **Income tax liability**                       | 42,516    |
-| Additional tax (£42,516 – £27,432) (Note)      | 15,084    |
+| Additional tax (£42,516 - £27,432) (Note)      | 15,084    |
 
 > Note: On an additional taxable income of £25,140, tax of £15,084 has been paid. This represents an effective tax rate of 60% (£15,084/ £25,140). A quicker way to calculate the additional tax is: 
 
@@ -455,14 +442,14 @@ The main types of savings income are bank and building society interest.  \
 Other sources of savings income include: 
 
 - Interest from NS&I (National Savings and Investments) accounts, including both NS&I investment accounts and NS&I direct saver accounts.
-- Interest from gilt-edged securities, or ‘gilts’ i.e. government bonds, such as treasury stock and exchequer stock. 
+- Interest from gilt-edged securities, or 'gilts' i.e. government bonds, such as treasury stock and exchequer stock. 
 - Interest from quoted company loan stock, also called company bonds, debentures or loan notes. 
 
 Remember, income from ***NS&I certificates***, and ***premium bond winnings*** are exempt. 
 
 #### Rates of tax on savings 
 
-Savings income is normally taxed in the same way as ‘non-savings income’ at the basic, higher and additional rates of tax (20%, 40% and 45%).
+Savings income is normally taxed in the same way as 'non-savings income' at the basic, higher and additional rates of tax (20%, 40% and 45%).
 
 > However, a starting rate of tax of 0% applies to all taxpayers where savings income falls into the first £5,000 of taxable income. 
 
@@ -470,13 +457,13 @@ Savings income is normally taxed in the same way as ‘non-savings income’ at 
 
 The savings income nil rate band is: 
 
-- Basic rate taxpayer – £1,000
-- Higher rate taxpayer – £500 
-- Additional rate taxpayer – £Nil
+- Basic rate taxpayer - £1,000
+- Higher rate taxpayer - £500 
+- Additional rate taxpayer - £Nil
 
-Savings income is taxed as ***the [next slice]{#middle-slice} of income after ‘non-savings income’*** (i.e. employment income, trading income, pension income and property income). Therefore the rates of tax applicable to savings income depend on the level of taxable ‘non-savings income’. The procedure to follow is: 
+Savings income is taxed as ***the [next slice]{#middle-slice} of income after 'non-savings income'*** (i.e. employment income, trading income, pension income and property income). Therefore the rates of tax applicable to savings income depend on the level of taxable 'non-savings income'. The procedure to follow is: 
 
-1. Calculate income tax on ‘non-savings income’. 
+1. Calculate income tax on 'non-savings income'. 
 2. Apply the different rates of tax on savings income in the following order: 
       1. Starting rate 
       2. Savings income nil rate band
@@ -484,19 +471,19 @@ Savings income is taxed as ***the [next slice]{#middle-slice} of income after �
 
 #### Starting rate 
 
-This only applies in *fairly limited situations* i.e. where taxable \underline{‘non-savings income’ is less than £5,000}. If: 
+This only applies in *fairly limited situations* i.e. where taxable \underline{'non-savings income' is less than £5,000}. If: 
 
-- Taxable ‘non-savings income’ is £Nil – the first £5,000 of taxable savings income is taxed at 0% (in effect received tax free) 
-- Taxable ‘non-savings income’ is below £5,000 – savings income falling into the rest of the first £5,000 is taxed at 0% 
-- Taxable ‘non-savings income’ is in excess of £5,000 – the 0% starting rate is not applicable.
+- Taxable 'non-savings income' is £Nil - the first £5,000 of taxable savings income is taxed at 0% (in effect received tax free) 
+- Taxable 'non-savings income' is below £5,000 - savings income falling into the rest of the first £5,000 is taxed at 0% 
+- Taxable 'non-savings income' is in excess of £5,000 - the 0% starting rate is not applicable.
 
 #### Savings income nil rate band
 
 If there is *further savings* income to tax, consider the savings income nil rate band. If the taxpayer is: 
 
-- A basic rate taxpayer – the next £1,000 falls in the savings income nil rate band and is taxed at 0% 
-- A higher rate taxpayer – the next £500 falls in the savings income nil rate band and is taxed at 0% 
-- An additional rate taxpayer i.e. taxable income is £125,140 or more – the savings income nil rate band is not applicable. 
+- A basic rate taxpayer - the next £1,000 falls in the savings income nil rate band and is taxed at 0% 
+- A higher rate taxpayer - the next £500 falls in the savings income nil rate band and is taxed at 0% 
+- An additional rate taxpayer i.e. taxable income is £125,140 or more - the savings income nil rate band is not applicable. 
 
 > To determine whether the taxpayer is a basic, higher or additional rate taxpayer, ascertain the highest tax band that the taxable income falls within. 
 
@@ -510,7 +497,7 @@ If there is further savings income to tax, apply the normal savings rates as fol
 - The higher rate of 40% applies to savings income falling within the \underline{higher rate band (HRB)}, i.e. taxable income in the range £37,701 to £125,140.
 - The additional rate of 45% applies to savings income where taxable income exceeds £125,140. 
 
-> Note that the BRB and HRB are first reduced by ‘non-savings income’ and savings income that has been taxed at the starting rate and the savings income nil rate.
+> Note that the BRB and HRB are first reduced by 'non-savings income' and savings income that has been taxed at the starting rate and the savings income nil rate.
 
 > The above procedure may seem complicated but if you use the ***columnar layout*** of the income tax computation (as shown on the following page) it is relatively easy to determine which rates to apply. 
 
@@ -547,7 +534,7 @@ Remember that in the TX examination the PA and reliefs are deducted from income 
 
 Jane received bank interest of £3,000 during the tax year 2025/26.
 
-Calculate Jane’s income tax liability assuming she also had employment income in the tax year 2025/26 of: 
+Calculate Jane's income tax liability assuming she also had employment income in the tax year 2025/26 of: 
 
 A) £11,000
 B) £15,200
@@ -567,14 +554,14 @@ C) £29,000
 
 | Income tax:                                    | £         |
 |------------------------------------------------|-----------|
-| Savings income – starting rate (Note 2)        | 1,430     |
+| Savings income - starting rate (Note 2)        | 1,430     |
 | × 0%                                          | 0         |
 | **Income tax liability**                       | 0         |
 
 > The PA is always offset first against non-savings income, then savings income and then dividend income. 
 > The starting rate applies as savings income falls within the first £5,000 of taxable income.
 
-In the examination always indicate the rate at which income is taxed, even if the rate is 0%. This shows that you understand that this income is still ‘taxable income’. It also shows that you know how to apply the correct tax rates, including the 0% rate. 
+In the examination always indicate the rate at which income is taxed, even if the rate is 0%. This shows that you understand that this income is still 'taxable income'. It also shows that you know how to apply the correct tax rates, including the 0% rate. 
 
 **B) Employment income of £15,200**
 
@@ -588,10 +575,10 @@ In the examination always indicate the rate at which income is taxed, even if th
 
 | Income tax:                                                      | Calculation | £       |
 |------------------------------------------------------------------|-------------|---------|
-| Non-savings income – basic rate                                  | 2,630 X 20% |  526    |
-| Savings income – starting rate (Note 1)                          | 2,370 X 0%  |  0      |
+| Non-savings income - basic rate                                  | 2,630 X 20% |  526    |
+| Savings income - starting rate (Note 1)                          | 2,370 X 0%  |  0      |
 |                                                                  | 5,000       |  0      |
-| Savings income – nil rate (Note 2)                               | 630 X 0%    |  0      |
+| Savings income - nil rate (Note 2)                               | 630 X 0%    |  0      |
 |                                                                  | 5,630       |         |
 | **Income tax liability**                                         |             | **526** |
 
@@ -611,9 +598,9 @@ In the examination always indicate the rate at which income is taxed, even if th
 
 | Income tax:                                          | Calculation | £         |
 |------------------------------------------------------|-------------|-----------|
-| Non-savings income – basic rate                      | 16,430 X 20%| 3,286     |
-| Savings income – nil rate (Note 2)                   | 1,000 X 0%  | 0         |
-| Savings income – basic rate (Note 2)                 | 2,000 X 20% | 400       |
+| Non-savings income - basic rate                      | 16,430 X 20%| 3,286     |
+| Savings income - nil rate (Note 2)                   | 1,000 X 0%  | 0         |
+| Savings income - basic rate (Note 2)                 | 2,000 X 20% | 400       |
 |                                                      | 19,430      |           |
 | **Income tax liability**                             |             | **3,686** |
 
@@ -625,7 +612,7 @@ In the examination always indicate the rate at which income is taxed, even if th
 
 Alonso received bank interest of £7,850 during the tax year 2025/26.
 
-Calculate Alonso’s income tax liability assuming he also had trading income in the tax year 2025/26 of: 
+Calculate Alonso's income tax liability assuming he also had trading income in the tax year 2025/26 of: 
 
 A. £43,000 \
 B. £53,000 \
@@ -649,11 +636,11 @@ C. £145,000 \
 
 | Income tax:                                            |              | £         |
 |--------------------------------------------------------|--------------|-----------|
-| Non-savings income – basic rate                        |(30,430 × 20%)| 6,086     |
-| Savings income – nil rate (Note 1)                     |(500 × 0%)    | 0         |
-| Savings income – basic rate (Note 2)                   |(6,770 × 20%) | 1,354     |
+| Non-savings income - basic rate                        |(30,430 × 20%)| 6,086     |
+| Savings income - nil rate (Note 1)                     |(500 × 0%)    | 0         |
+| Savings income - basic rate (Note 2)                   |(6,770 × 20%) | 1,354     |
 | basic rate - Limit                                     |**37,700**    |           |
-| Savings income – higher rate                           |(580 × 40%)   | 232       |
+| Savings income - higher rate                           |(580 × 40%)   | 232       |
 | Taxable income - Total                                 |**38,280**    |           |
 | **Income tax liability**                               |              | **7,672** |
 
@@ -661,7 +648,7 @@ C. £145,000 \
 
 > N1: Alonso is a higher rate taxpayer as his taxable income (£38,280) falls in the band £37,701 to £125,140. His savings income nil rate band is therefore £500. 
 
-> N2: The savings income taxed at the savings income nil rate uses up part of the basic rate band. The remaining basic rate band is therefore £6,770 (£37,700 – £30,430 – £500). The savings income falling in the basic rate band is taxed at 20% and the balance of £580 is taxed at the higher rate.
+> N2: The savings income taxed at the savings income nil rate uses up part of the basic rate band. The remaining basic rate band is therefore £6,770 (£37,700 - £30,430 - £500). The savings income falling in the basic rate band is taxed at 20% and the balance of £580 is taxed at the higher rate.
 
 **B) Trading income of £53,000** 
 
@@ -679,17 +666,17 @@ C. £145,000 \
 
 | Income tax:                                           | Calculation               | £        |
 |-------------------------------------------------------|---------------------------|----------|
-| Non-savings income – basic rate                       | 37,700 × 20%              | 7,540    |
-| Non-savings income – higher rate                      | 2,730 × 40%               | 1,092    |
-| Savings income – nil rate (Note 1)                    | 500 × 0%                  | 0        |
-| Savings income – higher rate                          | 7,350 × 40%               | 2,940    |
+| Non-savings income - basic rate                       | 37,700 × 20%              | 7,540    |
+| Non-savings income - higher rate                      | 2,730 × 40%               | 1,092    |
+| Savings income - nil rate (Note 1)                    | 500 × 0%                  | 0        |
+| Savings income - higher rate                          | 7,350 × 40%               | 2,940    |
 | **Income tax liability**                              |                           | **11,572** |
 
 > N0: The starting rate does not apply as savings income does not fall within the first £5,000 of taxable income.
 
 > N1: Alonso is a higher rate taxpayer as his taxable income (£48,280) falls in the band £37,701 to £125,140. His savings income nil rate band is therefore £500.
 
-> The balance of his savings income of £7,350 (£7,850 – £500) is taxed at the higher rate. 
+> The balance of his savings income of £7,350 (£7,850 - £500) is taxed at the higher rate. 
 
 **C) Trading income of £145,000** 
 
@@ -707,10 +694,10 @@ C. £145,000 \
 
 | Income tax:                                           | Calculation               | £        |
 |-------------------------------------------------------|---------------------------|----------|
-| Non-savings income – basic rate                       | 37,700 × 20%              | 7,540    |
-| Non-savings income – higher rate                      | 87,440 × 40%              | 34,976   |
-| Non-savings income – additional rate                  | 19,860 × 45%              | 8,937    |
-| Savings income – additional rate (Note 1)               | 7,850 × 45%               | 3,533    |
+| Non-savings income - basic rate                       | 37,700 × 20%              | 7,540    |
+| Non-savings income - higher rate                      | 87,440 × 40%              | 34,976   |
+| Non-savings income - additional rate                  | 19,860 × 45%              | 8,937    |
+| Savings income - additional rate (Note 1)               | 7,850 × 45%               | 3,533    |
 | **Income tax liability**                              |                           | **54,986** |
 
 
@@ -732,7 +719,7 @@ The following rates of tax apply to any remaining dividend income:
 | Dividends falling into the:               | Dividend rates |
 |-------------------------------------------|----------------|
 | Basic rate band (first £37,700)           | 8.75%          |
-| Higher rate band (£37,701 – £125,140)     | 33.75%         |
+| Higher rate band (£37,701 - £125,140)     | 33.75%         |
 | Additional rate band (over £125,140)      | 39.35%         |
 
 Dividend income is taxed as the ***top slice of income*** (i.e. after non-savings income and savings income ["the middle slice"](#middle-slice)). 
@@ -762,16 +749,16 @@ Calculate Jeremy's income tax liability for the tax year 2025/26.
 
 | Description                                              | Calculation            | £       |
 |----------------------------------------------------------|------------------------|---------|
-| Non-savings income – basic rate                          | 2,280 × 20%            | 456     |
-| Dividend income – nil rate (Note 2)                      | 500 × 0%               | 0       |
-| Dividend income – basic rate (Note 3)                    | 4,000 × 8.75%          | 350     |
+| Non-savings income - basic rate                          | 2,280 × 20%            | 456     |
+| Dividend income - nil rate (Note 2)                      | 500 × 0%               | 0       |
+| Dividend income - basic rate (Note 3)                    | 4,000 × 8.75%          | 350     |
 | **Income tax liability**                                 |                        | **806** |
 
 > N1: The PA is deducted from non-savings income in priority to dividend income.
 
-> N2: The dividends are taxed as the final part of Jeremy’s income. The first £500 fall in the dividend nil rate band and are taxed at 0% (i.e. tax-free). 
+> N2: The dividends are taxed as the final part of Jeremy's income. The first £500 fall in the dividend nil rate band and are taxed at 0% (i.e. tax-free). 
 
-> N3: The remaining dividend income falls into the remaining basic rate band of £34,920 (£37,700 – £2,280 – £500) and is taxed at the dividend basic rate of 8.75%. 
+> N3: The remaining dividend income falls into the remaining basic rate band of £34,920 (£37,700 - £2,280 - £500) and is taxed at the dividend basic rate of 8.75%. 
  
 #### Example 2
 
@@ -793,13 +780,13 @@ Calculate Imane's income tax liability for the tax year 2025/26.
 
 | Description                                      | Calculation               | £       |
 |--------------------------------------------------|---------------------------|---------|
-| Non-savings income – basic rate                  | 21,680 × 20%              | 4,336   |
-| Dividend income – nil rate                       | 500 × 0%                  | 0       |
-| Dividend income – basic rate                     | 15,520 × 8.75%            | 1,358   |
-| Dividend income – higher rate (Note)             | 1,480 × 33.75%            | 500     |
+| Non-savings income - basic rate                  | 21,680 × 20%              | 4,336   |
+| Dividend income - nil rate                       | 500 × 0%                  | 0       |
+| Dividend income - basic rate                     | 15,520 × 8.75%            | 1,358   |
+| Dividend income - higher rate (Note)             | 1,480 × 33.75%            | 500     |
 | **Income tax liability**                         |                           | **6,194** |
 
-> N: The first £500 of dividends falls into the dividend nil rate band. £15,520 falls into the remaining available basic rate band (£37,700 – £21,680 – £500 = £15,520) and is taxed at the dividend basic rate of 8.75%, and then the balance of dividends (39,180 - 37,700 = £1,480) are taxed at the dividend higher rate of 33.75%. 
+> N: The first £500 of dividends falls into the dividend nil rate band. £15,520 falls into the remaining available basic rate band (£37,700 - £21,680 - £500 = £15,520) and is taxed at the dividend basic rate of 8.75%, and then the balance of dividends (39,180 - 37,700 = £1,480) are taxed at the dividend higher rate of 33.75%. 
 
 ## Income tax payable 
 
@@ -807,7 +794,7 @@ Employment income is received by an individual \underline{**after** income tax h
 
 The employer is required to deduct income tax from employment income, under the \underline{PAYE (Pay as You Earn)} system and pay it to HMRC on behalf of the employee. 
 
-However, the employment income figure that must be included in the individual’s income tax computation is the **gross figure before PAYE** has been deducted. The individual’s income tax liability therefore includes income tax on the gross employment income.
+However, the employment income figure that must be included in the individual's income tax computation is the **gross figure before PAYE** has been deducted. The individual's income tax liability therefore includes income tax on the gross employment income.
 
 ### Pay as You Earn PAYE & Self-assessment system
 
@@ -887,7 +874,7 @@ Calculate the **income tax liability** for Anwar and Mila for the tax year 2025/
 |                                         | Anwar (£) | Mila (£) |
 |-----------------------------------------|-----------|----------|
 | Total income                            | 54,000    | 54,000   |
-| Less: Reliefs – Qualifying interest paid| -         | (2,000)  |
+| Less: Reliefs - Qualifying interest paid| -         | (2,000)  |
 | Net income                              | 54,000    | 52,000   |
 | Less: PA                                | (12,570)  | (12,570) |
 | Taxable income                          | 41,430    | 39,430   |
@@ -905,7 +892,7 @@ Calculate the **income tax liability** for Anwar and Mila for the tax year 2025/
 
 Ashley earned employment income of £13,085 and received building society interest of £7,500 in the tax year 2025/26. They paid qualifying interest of £100 during the year. 
 
-PAYE (Pay as You Earn) of £47 was deducted from Ashley’s employment income. 
+PAYE (Pay as You Earn) of £47 was deducted from Ashley's employment income. 
 
 Calculate the income **tax payable** by Ashley. 
 
@@ -927,11 +914,11 @@ Calculate the income **tax payable** by Ashley.
 
 | Income tax                                 | Calculation                   | £       |
 |--------------------------------------------|-------------------------------|---------|
-| Non-savings income – basic rate            | 415 × 20%                     | 83      |
-| Savings income – starting rate             | 4,585 × 0%                    | 0       |
+| Non-savings income - basic rate            | 415 × 20%                     | 83      |
+| Savings income - starting rate             | 4,585 × 0%                    | 0       |
 | Total (starting rate band)                 | **5,000**                     |         |
-| Savings income – nil rate                  | 1,000 × 0%                    | 0       |
-| Savings income – basic rate                | 1,915 × 20%                   | 383     |
+| Savings income - nil rate                  | 1,000 × 0%                    | 0       |
+| Savings income - basic rate                | 1,915 × 20%                   | 383     |
 | Total (Taxable income)                     | **7,915**                     |         |
 | **Income tax liability**                   |                               | **466** |
 | Less: PAYE                                 |                               | (47)    |
@@ -955,7 +942,7 @@ Tax relief is also available for charitable donations made by self-employed indi
 
 Taxpayers who wish to make gifts of money to charity can obtain tax relief under the gift aid scheme as follows: 
 
-- Donations made under the scheme attract relief at the donor’s highest rate of tax.
+- Donations made under the scheme attract relief at the donor's highest rate of tax.
 - There are no minimum or maximum contribution limits, and gifts can either be one-off or a series of donations. 
 - The payments are made with basic rate tax deducted at source. Effectively providing basic rate tax relief (20%) at the time of payment. 
 - That basic rate tax is then claimed by the charity from HMRC.
@@ -965,9 +952,9 @@ Therefore, if an individual wants a charity to receive £100:
 1. the individual pays the charity £80, and 
 2. the charity claims £20 from HMRC. 
 
-Basic rate taxpayers – obtain the tax relief at the time of payment, by only paying 80% of the amount of the donation. 
+Basic rate taxpayers - obtain the tax relief at the time of payment, by only paying 80% of the amount of the donation. 
 
-Higher and additional rate taxpayers – relief comes in two parts: 
+Higher and additional rate taxpayers - relief comes in two parts: 
 
 - 20% tax relief is granted at the time the payment is made, as above. 
 - Higher and additional rate relief is obtained by adding the gross amount of the donation to the basic and higher rate bands in the income tax liability calculation.
@@ -983,7 +970,7 @@ The effect of extending the basic and higher rate bands is that the income equiv
 - 20%, rather than 40% for a higher rate taxpayer or 
 - if an additional rate taxpayer, at 20% rather than 45%. 
 
-> This gives the further 20% (40% – 20%) tax relief that *the higher rate taxpayer* is entitled to, and a further 25% (45% – 20%) tax relief for *the additional rate taxpayer*. 
+> This gives the further 20% (40% - 20%) tax relief that *the higher rate taxpayer* is entitled to, and a further 25% (45% - 20%) tax relief for *the additional rate taxpayer*. 
 
 #### Example 1
 
@@ -1046,7 +1033,7 @@ D. £13,646
 Which one of the following **interest payments** is deductible from total income to arrive at net income?
 
 A. **Interest on a loan to buy an interest in a partnership.**    
-B. Interest on a loan to invest in machinery for a sole trader’s business.     
+B. Interest on a loan to invest in machinery for a sole trader's business.     
 C. Interest on a loan to purchase a UK property to be rented as furnished holiday accommodation.    
 D. Interest on a loan to purchase a foreign holiday home which will not be rented out.     
 :::
@@ -1123,15 +1110,15 @@ D. £8,930
 | **Less: PA**                                        | (12,570)               |                    | (12,570)  |
 | **Taxable income**                                  | **3,930**              | **10,000**         |**\underline{13,930}**|
 | **Income tax:**                                     |                        |                    |           |
-| Non-savings income – basic rate                     | 3,930 × 20%            |                    | 786       |
-| Savings income – starting rate                      | 1,070 × 0%             |                    | 0         |
+| Non-savings income - basic rate                     | 3,930 × 20%            |                    | 786       |
+| Savings income - starting rate                      | 1,070 × 0%             |                    | 0         |
 | **Total** (Starting Rate of 0%) N1                  | **5,000**              |                    |           |
-| Savings income – nil rate N2                        | 1,000 × 0%             |                    | 0         |
-| Savings income – basic rate                         | \underline{7,930} × 20%|                    | 1,586     |
+| Savings income - nil rate N2                        | 1,000 × 0%             |                    | 0         |
+| Savings income - basic rate                         | \underline{7,930} × 20%|                    | 1,586     |
 | **Total** (5,000 + 1,000 + 7,930)                   | **\underline{13,930}** |                    |           |
 | **Income tax liability**                            |                        |                    | **2,372** |
 
-> N1: A **starting rate** of **0%** applies to savings income where it falls ***within the first €5,000*** of taxable income.
+> N1: A **starting rate** of **0%** applies to savings income where it falls ***within the first â‚¬5,000*** of taxable income.
 
 > N2: Savings income ***nil rate band*** is 1,000 for Basic rate taxpayers
 :::
@@ -1162,7 +1149,7 @@ D. 3 and 4 only
 
 The only income Aminata received during the tax year 2025/26 was dividends of £55,000. 
 
-What is Aminata’s income tax liability for the tax year 2025/26? 
+What is Aminata's income tax liability for the tax year 2025/26? 
 
 A. £4,895       
 B. **£4,851**       
@@ -1268,7 +1255,7 @@ Assume that these taxpayers have no other income in the tax year 2025/26.
 | **Aya Taxable income**                  | £        |
 |-----------------------------------------|----------|
 | Trading income / Total income           | 238,780  |
-| Less: PA (ANI ≥ £125,140) (N1)          | (0)      |
+| Less: PA (ANI â‰¥ £125,140) (N1)          | (0)      |
 | **Taxable income**                      |**238,780**|
 
 | **Aya Income tax liability**                  | Band     | £        |
@@ -1282,7 +1269,7 @@ Assume that these taxpayers have no other income in the tax year 2025/26.
 
 > N1: In the example, **Trading income = Total income = Net income = ANI.** because there are **no other income sources or reliefs**, 
 
-- **Trading income**: The profits from self‑employment or business activity.  
+- **Trading income**: The profits from self-employment or business activity.  
 - **Total income**: All taxable income sources combined.  
 - **Net income**: Total income after certain deductions (like gross pension contributions or charitable donations).  
 - **ANI (Adjusted Net Income)**: Net income adjusted for specific reliefs (e.g., Gift Aid, pension contributions).  
@@ -1297,9 +1284,9 @@ As for Personal allowance (PA):
 ::: {.callout-note}
 **If ANI (Adjusted Net Income):**
 
-- Below £100,000 → full PA available.  
-- Between £100,000 and £125,140 → PA gradually reduced.  
-- Above £125,140 → PA completely lost.  
+- Below £100,000 â†’ full PA available.  
+- Between £100,000 and £125,140 â†’ PA gradually reduced.  
+- Above £125,140 â†’ PA completely lost.  
 :::
 
 ### Example: Starting vs. Different nil Saving income rate band
@@ -1323,9 +1310,9 @@ A)
 
 | Income tax:                                           | Calculation               | £        |
 |-------------------------------------------------------|---------------------------|----------|
-| Non-savings income – basic rate                       | 12,430 × 20%              | 2,486    |
-| Savings income – nil rate (N)                         | 1,000 × 0%                | 0        |
-| Savings income – basic rate                           | 2,350 × 20%               | 470      |
+| Non-savings income - basic rate                       | 12,430 × 20%              | 2,486    |
+| Savings income - nil rate (N)                         | 1,000 × 0%                | 0        |
+| Savings income - basic rate                           | 2,350 × 20%               | 470      |
 | **Income tax liability**                              |                           | **2,956** |
 
 > N: The starting rate for savings income is not applicable as 'non-savings income' exceeds the £5,000 band limit. The savings income nil rate band is £1,000 as Jamie is a basic rate taxpayer. The remaining savings income falls in the basic rate band and is taxed at 20%.  
@@ -1349,10 +1336,10 @@ B)
 
 | Income tax:                                           | Calculation               | £        |
 |-------------------------------------------------------|---------------------------|----------|
-| Non-savings income – basic rate                       | 34,930 × 20%              | 6,986    |
-| Savings income – nil rate (N)                         | 500 × 0%                  | 0        |
-| Savings income – basic rate                           | 2,270 × 20%               | 454      |
-| Savings income – higher rate                          | 580 × 40%                 | 232      |
+| Non-savings income - basic rate                       | 34,930 × 20%              | 6,986    |
+| Savings income - nil rate (N)                         | 500 × 0%                  | 0        |
+| Savings income - basic rate                           | 2,270 × 20%               | 454      |
+| Savings income - higher rate                          | 580 × 40%                 | 232      |
 | **Income tax liability**                              |                           |**7,672** |
 
 > N: In this situation, the starting rate for savings income is not applicable as non-savings income exceeds £5,000. Jamie is a higher rate taxpayer so his savings income **nil rate band is £500.**
@@ -1375,10 +1362,10 @@ B)
 
 | Income tax:                                           | Calculation               | £        |
 |-------------------------------------------------------|---------------------------|----------|
-| Non-savings income – basic rate                       | 3,530 × 20%               | 706      |
-| Savings income – starting rate (N)                    | 1,470 × 0%                | 0        |
-| Savings income – nil rate (N)                         | 1,000 × 0%                | 0        |
-| Savings income – basic rate                           | 880 × 20%                 | 176      |
+| Non-savings income - basic rate                       | 3,530 × 20%               | 706      |
+| Savings income - starting rate (N)                    | 1,470 × 0%                | 0        |
+| Savings income - nil rate (N)                         | 1,000 × 0%                | 0        |
+| Savings income - basic rate                           | 880 × 20%                 | 176      |
 | **Income tax liability**                              |                           | **882**  |
 
 > N: The starting rate band of £5,000 for savings income is firstly reduced by taxable non-savings income before being applied to savings income. The savings income nil rate band is £1,000 as Jamie is a basic rate taxpayer. The balance of the savings income is taxed at the basic rate of 20%.
@@ -1406,12 +1393,12 @@ B)
 
 | Income tax:                                           | Calculation               | £        |
 |-------------------------------------------------------|---------------------------|----------|
-| Non-savings income – basic rate                       | 32,530 × 20%              | 6,506    |
-| Savings income – nil rate (N)                         | 500 × 0%                  | 0        |
-| Savings income – basic rate                           | 1,500 × 20%               | 300      |
-| Dividend income – nil rate (N)                        | 500 × 0%                  | 0        |
-| Dividend income – basic rate                          | 2,670 × 8.75%             | 234      |
-| Dividend income – higher rate                         | 2,830 × 33.75%            | 955      |
+| Non-savings income - basic rate                       | 32,530 × 20%              | 6,506    |
+| Savings income - nil rate (N)                         | 500 × 0%                  | 0        |
+| Savings income - basic rate                           | 1,500 × 20%               | 300      |
+| Dividend income - nil rate (N)                        | 500 × 0%                  | 0        |
+| Dividend income - basic rate                          | 2,670 × 8.75%             | 234      |
+| Dividend income - higher rate                         | 2,830 × 33.75%            | 955      |
 | **Income tax liability**                              |                           | **7,995**|
 
 > N: Emily is a higher rate taxpayer as her taxable income exceeds the basic rate band limit of £37,700. She is therefore entitled to a savings income nil rate band of £500 for both saving and income dividend.
@@ -1438,12 +1425,12 @@ B)
 
 | Income tax:                                           | Calculation               | £        |
 |-------------------------------------------------------|---------------------------|----------|
-| Non-savings income – basic rate                       | 37,700 × 20%              | 7,540    |
-| Non-savings income – higher rate                      | 87,440 × 40%              | 34,976   |
-| Non-savings income – additional rate                  | 62,310 × 45%              | 28,040   |
-| Savings income – additional rate (N2)                 | 18,750 × 45%              | 8,438    |
-| Dividend income – nil rate                            | 500 × 0%                  | 0        |
-| Dividend income – additional rate                     | 11,500 × 39.35%           | 4,525    |
+| Non-savings income - basic rate                       | 37,700 × 20%              | 7,540    |
+| Non-savings income - higher rate                      | 87,440 × 40%              | 34,976   |
+| Non-savings income - additional rate                  | 62,310 × 45%              | 28,040   |
+| Savings income - additional rate (N2)                 | 18,750 × 45%              | 8,438    |
+| Dividend income - nil rate                            | 500 × 0%                  | 0        |
+| Dividend income - additional rate                     | 11,500 × 39.35%           | 4,525    |
 | **Income tax liability**                              |                           | **83,519** |
 
 > N1: As total income exceeds £100,000 by more than double the PA, the PA is reduced to £Nil. 
@@ -1492,7 +1479,7 @@ B)
 | Trading income                            | 26,000   |
 | Employment income                         | 29,950   |
 | **Total income**                          | 55,950   |
-| **Less**: Reliefs – Qualifying interest   | (4,000)  |
+| **Less**: Reliefs - Qualifying interest   | (4,000)  |
 | **Net income**                            | 51,950   |
 | **Less**: PA                              | (12,570) |
 | **Taxable income**                        |**39,380**|
@@ -1533,11 +1520,11 @@ B)
 
 | Income tax:                                           | Calculation               | £        |
 |-------------------------------------------------------|---------------------------|----------|
-| Non-savings income – basic rate                       | 11,545 × 20%              | 2,309    |
-| Savings income – nil rate (Note)                      | 1,000 × 0%                | 0        |
-| Savings income – basic rate                           | 2,500 × 20%               | 500      |
-| Dividend income – nil rate                            | 500 × 0%                  | 0        |
-| Dividend income – basic rate                          | 500 × 8.75%               | 44       |
+| Non-savings income - basic rate                       | 11,545 × 20%              | 2,309    |
+| Savings income - nil rate (Note)                      | 1,000 × 0%                | 0        |
+| Savings income - basic rate                           | 2,500 × 20%               | 500      |
+| Dividend income - nil rate                            | 500 × 0%                  | 0        |
+| Dividend income - basic rate                          | 500 × 8.75%               | 44       |
 | **Income tax liability**                              |                           | **2,853**|
 | **Less**: PAYE                                        |                           | (330)    |
 | **Income tax payable**                                |                           | **2,523** |
@@ -1566,7 +1553,7 @@ B)
 | × 40%                        | **1,630**| **630**   |
 | **Income tax liability**     | \underline{**9,170**}| \underline{**8,670**} |
 
-**(W) Grace’s extended basic rate band**
+**(W) Grace's extended basic rate band**
 
 |                                                   | £        |
 |---------------------------------------------------|----------|
@@ -1574,6 +1561,8 @@ B)
 | Plus: Gross gift aid donation (£2,000 × 100/80)   | 2,500    |
 | **Extended basic rate band**                      | **40,200** |
 
-> Despite having the same income, Grace’s income tax liability is £500 lower (2,500 * 20%) than Paul’s. This represents the additional 20% tax saving on the gross donation of £2,500 (£2,000 × 100/80) to the charity. 
+> Despite having the same income, Grace's income tax liability is £500 lower (2,500 * 20%) than Paul's. This represents the additional 20% tax saving on the gross donation of £2,500 (£2,000 × 100/80) to the charity. 
 
 ### Example: 
+
+
