@@ -1,0 +1,2744 @@
+{
+  "version": "1.0.0",
+  "kind": "knowledge",
+  "project": {
+    "name": "Tax Exam Knowledge Map",
+    "languages": [
+      "markdown"
+    ],
+    "frameworks": [
+      "karpathy-wiki"
+    ],
+    "description": "Knowledge graph for Tax Exam Knowledge Map",
+    "analyzedAt": "2026-10-08T23:02:25.623962+00:00",
+    "gitCommitHash": "49dff0522573941f1a27d258e1cb99ece9310b1a"
+  },
+  "nodes": [
+    {
+      "id": "article:C01_TX_SYS",
+      "type": "article",
+      "name": "C01 — Tax system",
+      "filePath": "C01_TX_SYS.md",
+      "summary": "Foundation: purpose and structure of the UK tax system, direct and indirect taxes, sources of law, HMRC, ethics, avoidance, evasion, and double taxation.",
+      "tags": [
+        "foundations and administration"
+      ],
+      "complexity": "simple",
+      "knowledgeMeta": {
+        "wikilinks": [
+          "C02_IT_ILIB",
+          "C03_ADD_ASS",
+          "C12_TX_ADMN"
+        ],
+        "category": "Foundations and administration",
+        "content": "# C01 — Tax system\n\nFoundation: purpose and structure of the UK tax system, direct and indirect taxes, sources of law, HMRC, ethics, avoidance, evasion, and double taxation.\n\nOriginal notes: [C01_TX_SYS.qmd](../C01_TX_SYS.qmd)\n\nRelated: [[C02_IT_ILIB]], [[C03_ADD_ASS]], [[C12_TX_ADMN]]\n",
+        "backlinks": [
+          "article:C02_IT_ILIB",
+          "article:C12_TX_ADMN",
+          "article:C22_Inherit",
+          "article:C23_VAT",
+          "article:C24_VAT_OS",
+          "article:Exam_Connections",
+          "article:Study_Workflow"
+        ]
+      }
+    },
+    {
+      "id": "article:C02_IT_ILIB",
+      "type": "article",
+      "name": "C02 — Income tax and liabilities",
+      "filePath": "C02_IT_ILIB.md",
+      "summary": "Core income-tax concepts: taxable income, liability, rates, allowances, and the framework used before moving into individual income categories.",
+      "tags": [
+        "foundations and administration"
+      ],
+      "complexity": "simple",
+      "knowledgeMeta": {
+        "wikilinks": [
+          "C01_TX_SYS",
+          "C04_Prop_TA",
+          "C05_Emp_Inc",
+          "C07_INC_SELF_EP",
+          "C11_NIC"
+        ],
+        "category": "Foundations and administration",
+        "content": "# C02 — Income tax and liabilities\n\nCore income-tax concepts: taxable income, liability, rates, allowances, and the framework used before moving into individual income categories.\n\nOriginal notes: [C02_IT_ILIB.qmd](../C02_IT_ILIB.qmd)\n\nRelated: [[C01_TX_SYS]], [[C04_Prop_TA]], [[C05_Emp_Inc]], [[C07_INC_SELF_EP]], [[C11_NIC]]\n",
+        "backlinks": [
+          "article:C01_TX_SYS",
+          "article:C03_ADD_ASS",
+          "article:C04_Prop_TA",
+          "article:C05_Emp_Inc",
+          "article:C06_Pension",
+          "article:C07_INC_SELF_EP",
+          "article:C10_TL_IND"
+        ]
+      }
+    },
+    {
+      "id": "article:C03_ADD_ASS",
+      "type": "article",
+      "name": "C03 — Assessment and additional assessment",
+      "filePath": "C03_ADD_ASS.md",
+      "summary": "Assessment principles and the process for establishing or correcting a taxpayer’s liability.",
+      "tags": [
+        "foundations and administration"
+      ],
+      "complexity": "simple",
+      "knowledgeMeta": {
+        "wikilinks": [
+          "C02_IT_ILIB",
+          "C12_TX_ADMN",
+          "C16_TX_ADM_CORP"
+        ],
+        "category": "Foundations and administration",
+        "content": "# C03 — Assessment and additional assessment\n\nAssessment principles and the process for establishing or correcting a taxpayer’s liability.\n\nOriginal notes: [C03_ADD_ASS.qmd](../C03_ADD_ASS.qmd)\n\nRelated: [[C02_IT_ILIB]], [[C12_TX_ADMN]], [[C16_TX_ADM_CORP]]\n",
+        "backlinks": [
+          "article:C01_TX_SYS",
+          "article:C07_INC_SELF_EP",
+          "article:C12_TX_ADMN",
+          "article:Exam_Connections"
+        ]
+      }
+    },
+    {
+      "id": "article:C04_Prop_TA",
+      "type": "article",
+      "name": "C04 — Property tax",
+      "filePath": "C04_Prop_TA.md",
+      "summary": "Tax treatment of property income, including the classification and calculation issues commonly tested for landlords and property businesses.",
+      "tags": [
+        "income taxes"
+      ],
+      "complexity": "simple",
+      "knowledgeMeta": {
+        "wikilinks": [
+          "C02_IT_ILIB",
+          "C05_Emp_Inc",
+          "C17_CGT",
+          "C23_VAT"
+        ],
+        "category": "Income taxes",
+        "content": "# C04 — Property tax\n\nTax treatment of property income, including the classification and calculation issues commonly tested for landlords and property businesses.\n\nOriginal notes: [C04_Prop_TA.qmd](../C04_Prop_TA.qmd)\n\nRelated: [[C02_IT_ILIB]], [[C05_Emp_Inc]], [[C17_CGT]], [[C23_VAT]]\n",
+        "backlinks": [
+          "article:C02_IT_ILIB",
+          "article:C23_VAT"
+        ]
+      }
+    },
+    {
+      "id": "article:C05_Emp_Inc",
+      "type": "article",
+      "name": "C05 — Employment income",
+      "filePath": "C05_Emp_Inc.md",
+      "summary": "Employment income, benefits, expenses, and the distinction between taxable remuneration and allowable deductions.",
+      "tags": [
+        "income taxes"
+      ],
+      "complexity": "simple",
+      "knowledgeMeta": {
+        "wikilinks": [
+          "C02_IT_ILIB",
+          "C06_Pension",
+          "C07_INC_SELF_EP",
+          "C11_NIC"
+        ],
+        "category": "Income taxes",
+        "content": "# C05 — Employment income\n\nEmployment income, benefits, expenses, and the distinction between taxable remuneration and allowable deductions.\n\nOriginal notes: [C05_Emp_Inc.qmd](../C05_Emp_Inc.qmd)\n\nRelated: [[C02_IT_ILIB]], [[C06_Pension]], [[C07_INC_SELF_EP]], [[C11_NIC]]\n",
+        "backlinks": [
+          "article:C02_IT_ILIB",
+          "article:C04_Prop_TA",
+          "article:C06_Pension",
+          "article:C10_TL_IND",
+          "article:C11_NIC"
+        ]
+      }
+    },
+    {
+      "id": "article:C06_Pension",
+      "type": "article",
+      "name": "C06 — Pensions",
+      "filePath": "C06_Pension.md",
+      "summary": "Tax treatment of pension contributions and pension income, including how pensions interact with individual income-tax computations.",
+      "tags": [
+        "income taxes"
+      ],
+      "complexity": "simple",
+      "knowledgeMeta": {
+        "wikilinks": [
+          "C02_IT_ILIB",
+          "C05_Emp_Inc",
+          "C07_INC_SELF_EP"
+        ],
+        "category": "Income taxes",
+        "content": "# C06 — Pensions\n\nTax treatment of pension contributions and pension income, including how pensions interact with individual income-tax computations.\n\nOriginal notes: [C06_Pension.qmd](../C06_Pension.qmd)\n\nRelated: [[C02_IT_ILIB]], [[C05_Emp_Inc]], [[C07_INC_SELF_EP]]\n",
+        "backlinks": [
+          "article:C05_Emp_Inc"
+        ]
+      }
+    },
+    {
+      "id": "article:C07_INC_SELF_EP",
+      "type": "article",
+      "name": "C07 — Self-employment income",
+      "filePath": "C07_INC_SELF_EP.md",
+      "summary": "Computation of trading income for self-employed individuals, including adjustments from accounting profit to taxable profit.",
+      "tags": [
+        "income taxes"
+      ],
+      "complexity": "simple",
+      "knowledgeMeta": {
+        "wikilinks": [
+          "C02_IT_ILIB",
+          "C03_ADD_ASS",
+          "C09_Partner",
+          "C10_TL_IND",
+          "C11_NIC"
+        ],
+        "category": "Income taxes",
+        "content": "# C07 — Self-employment income\n\nComputation of trading income for self-employed individuals, including adjustments from accounting profit to taxable profit.\n\nOriginal notes: [C07_INC_SELF_EP.qmd](../C07_INC_SELF_EP.qmd)\n\nRelated: [[C02_IT_ILIB]], [[C03_ADD_ASS]], [[C09_Partner]], [[C10_TL_IND]], [[C11_NIC]]\n",
+        "backlinks": [
+          "article:C02_IT_ILIB",
+          "article:C05_Emp_Inc",
+          "article:C06_Pension",
+          "article:C09_Partner",
+          "article:C10_TL_IND",
+          "article:C11_NIC"
+        ]
+      }
+    },
+    {
+      "id": "article:C09_Partner",
+      "type": "article",
+      "name": "C09 — Partnerships",
+      "filePath": "C09_Partner.md",
+      "summary": "How partnership profits and losses are allocated and brought into the tax computations of individual partners.",
+      "tags": [
+        "income taxes"
+      ],
+      "complexity": "simple",
+      "knowledgeMeta": {
+        "wikilinks": [
+          "C07_INC_SELF_EP",
+          "C14_COMP_LOS",
+          "C15_Groups"
+        ],
+        "category": "Income taxes",
+        "content": "# C09 — Partnerships\n\nHow partnership profits and losses are allocated and brought into the tax computations of individual partners.\n\nOriginal notes: [C09_Partner.qmd](../C09_Partner.qmd)\n\nRelated: [[C07_INC_SELF_EP]], [[C14_COMP_LOS]], [[C15_Groups]]\n",
+        "backlinks": [
+          "article:C07_INC_SELF_EP"
+        ]
+      }
+    },
+    {
+      "id": "article:C10_TL_IND",
+      "type": "article",
+      "name": "C10 — Tax liabilities of individuals",
+      "filePath": "C10_TL_IND.md",
+      "summary": "Putting individual income sources together to calculate total liability, including allowances, rates, reliefs, and payment obligations.",
+      "tags": [
+        "income taxes"
+      ],
+      "complexity": "simple",
+      "knowledgeMeta": {
+        "wikilinks": [
+          "C02_IT_ILIB",
+          "C05_Emp_Inc",
+          "C07_INC_SELF_EP",
+          "C17_CGT",
+          "C22_Inherit"
+        ],
+        "category": "Income taxes",
+        "content": "# C10 — Tax liabilities of individuals\n\nPutting individual income sources together to calculate total liability, including allowances, rates, reliefs, and payment obligations.\n\nOriginal notes: [C10_TL_IND.qmd](../C10_TL_IND.qmd)\n\nRelated: [[C02_IT_ILIB]], [[C05_Emp_Inc]], [[C07_INC_SELF_EP]], [[C17_CGT]], [[C22_Inherit]]\n",
+        "backlinks": [
+          "article:C07_INC_SELF_EP",
+          "article:C11_NIC",
+          "article:C12_TX_ADMN",
+          "article:C22_Inherit"
+        ]
+      }
+    },
+    {
+      "id": "article:C11_NIC",
+      "type": "article",
+      "name": "C11 — National Insurance contributions",
+      "filePath": "C11_NIC.md",
+      "summary": "National Insurance categories, liability, and interaction with employment and self-employment income.",
+      "tags": [
+        "income taxes"
+      ],
+      "complexity": "simple",
+      "knowledgeMeta": {
+        "wikilinks": [
+          "C05_Emp_Inc",
+          "C07_INC_SELF_EP",
+          "C10_TL_IND"
+        ],
+        "category": "Income taxes",
+        "content": "# C11 — National Insurance contributions\n\nNational Insurance categories, liability, and interaction with employment and self-employment income.\n\nOriginal notes: [C11_NIC.qmd](../C11_NIC.qmd)\n\nRelated: [[C05_Emp_Inc]], [[C07_INC_SELF_EP]], [[C10_TL_IND]]\n",
+        "backlinks": [
+          "article:C02_IT_ILIB",
+          "article:C05_Emp_Inc",
+          "article:C07_INC_SELF_EP"
+        ]
+      }
+    },
+    {
+      "id": "article:C12_TX_ADMN",
+      "type": "article",
+      "name": "C12 — Tax administration",
+      "filePath": "C12_TX_ADMN.md",
+      "summary": "Administration for individuals: registration, returns, deadlines, payment, records, enquiries, penalties, and appeals.",
+      "tags": [
+        "foundations and administration"
+      ],
+      "complexity": "simple",
+      "knowledgeMeta": {
+        "wikilinks": [
+          "C01_TX_SYS",
+          "C03_ADD_ASS",
+          "C10_TL_IND",
+          "C16_TX_ADM_CORP"
+        ],
+        "category": "Foundations and administration",
+        "content": "# C12 — Tax administration\n\nAdministration for individuals: registration, returns, deadlines, payment, records, enquiries, penalties, and appeals.\n\nOriginal notes: [C12_TX_ADMN.qmd](../C12_TX_ADMN.qmd)\n\nRelated: [[C01_TX_SYS]], [[C03_ADD_ASS]], [[C10_TL_IND]], [[C16_TX_ADM_CORP]]\n",
+        "backlinks": [
+          "article:C01_TX_SYS",
+          "article:C03_ADD_ASS",
+          "article:C16_TX_ADM_CORP",
+          "article:C24_VAT_OS",
+          "article:Exam_Connections",
+          "article:Study_Workflow"
+        ]
+      }
+    },
+    {
+      "id": "article:C13_Corp_TX",
+      "type": "article",
+      "name": "C13 — Corporation tax",
+      "filePath": "C13_Corp_TX.md",
+      "summary": "Corporation-tax computation for companies, including taxable total profits, rates, reliefs, and payment considerations.",
+      "tags": [
+        "corporate and group taxation"
+      ],
+      "complexity": "simple",
+      "knowledgeMeta": {
+        "wikilinks": [
+          "C14_COMP_LOS",
+          "C15_Groups",
+          "C16_TX_ADM_CORP",
+          "C21_CG_Corp",
+          "C23_VAT"
+        ],
+        "category": "Corporate and group taxation",
+        "content": "# C13 — Corporation tax\n\nCorporation-tax computation for companies, including taxable total profits, rates, reliefs, and payment considerations.\n\nOriginal notes: [C13_Corp_TX.qmd](../C13_Corp_TX.qmd)\n\nRelated: [[C14_COMP_LOS]], [[C15_Groups]], [[C16_TX_ADM_CORP]], [[C21_CG_Corp]], [[C23_VAT]]\n",
+        "backlinks": [
+          "article:C14_COMP_LOS",
+          "article:C15_Groups",
+          "article:C16_TX_ADM_CORP",
+          "article:C21_CG_Corp",
+          "article:C23_VAT"
+        ]
+      }
+    },
+    {
+      "id": "article:C14_COMP_LOS",
+      "type": "article",
+      "name": "C14 — Company losses",
+      "filePath": "C14_COMP_LOS.md",
+      "summary": "Company loss rules and the ways losses may be relieved against profits across periods or within the corporate group context.",
+      "tags": [
+        "corporate and group taxation"
+      ],
+      "complexity": "simple",
+      "knowledgeMeta": {
+        "wikilinks": [
+          "C13_Corp_TX",
+          "C15_Groups",
+          "C19_CGT_SH"
+        ],
+        "category": "Corporate and group taxation",
+        "content": "# C14 — Company losses\n\nCompany loss rules and the ways losses may be relieved against profits across periods or within the corporate group context.\n\nOriginal notes: [C14_COMP_LOS.qmd](../C14_COMP_LOS.qmd)\n\nRelated: [[C13_Corp_TX]], [[C15_Groups]], [[C19_CGT_SH]]\n",
+        "backlinks": [
+          "article:C09_Partner",
+          "article:C13_Corp_TX",
+          "article:C15_Groups"
+        ]
+      }
+    },
+    {
+      "id": "article:C15_Groups",
+      "type": "article",
+      "name": "C15 — Groups",
+      "filePath": "C15_Groups.md",
+      "summary": "Tax consequences of company groups, including group relationships, loss relief, asset transfers, and group planning constraints.",
+      "tags": [
+        "corporate and group taxation"
+      ],
+      "complexity": "simple",
+      "knowledgeMeta": {
+        "wikilinks": [
+          "C13_Corp_TX",
+          "C14_COMP_LOS",
+          "C16_TX_ADM_CORP",
+          "C21_CG_Corp"
+        ],
+        "category": "Corporate and group taxation",
+        "content": "# C15 — Groups\n\nTax consequences of company groups, including group relationships, loss relief, asset transfers, and group planning constraints.\n\nOriginal notes: [C15_Groups.qmd](../C15_Groups.qmd)\n\nRelated: [[C13_Corp_TX]], [[C14_COMP_LOS]], [[C16_TX_ADM_CORP]], [[C21_CG_Corp]]\n",
+        "backlinks": [
+          "article:C09_Partner",
+          "article:C13_Corp_TX",
+          "article:C14_COMP_LOS",
+          "article:C16_TX_ADM_CORP",
+          "article:C21_CG_Corp"
+        ]
+      }
+    },
+    {
+      "id": "article:C16_TX_ADM_CORP",
+      "type": "article",
+      "name": "C16 — Corporate tax administration",
+      "filePath": "C16_TX_ADM_CORP.md",
+      "summary": "Company filing, payment, compliance, enquiry, and penalty rules.",
+      "tags": [
+        "corporate and group taxation"
+      ],
+      "complexity": "simple",
+      "knowledgeMeta": {
+        "wikilinks": [
+          "C12_TX_ADMN",
+          "C13_Corp_TX",
+          "C15_Groups"
+        ],
+        "category": "Corporate and group taxation",
+        "content": "# C16 — Corporate tax administration\n\nCompany filing, payment, compliance, enquiry, and penalty rules.\n\nOriginal notes: [C16_TX_ADM_CORP.qmd](../C16_TX_ADM_CORP.qmd)\n\nRelated: [[C12_TX_ADMN]], [[C13_Corp_TX]], [[C15_Groups]]\n",
+        "backlinks": [
+          "article:C03_ADD_ASS",
+          "article:C12_TX_ADMN",
+          "article:C13_Corp_TX",
+          "article:C15_Groups",
+          "article:Exam_Connections"
+        ]
+      }
+    },
+    {
+      "id": "article:C17_CGT",
+      "type": "article",
+      "name": "C17 — Capital gains tax",
+      "filePath": "C17_CGT.md",
+      "summary": "General capital-gains framework: disposals, gains and losses, allowable costs, annual exemptions, rates, and computation structure.",
+      "tags": [
+        "capital gains tax"
+      ],
+      "complexity": "simple",
+      "knowledgeMeta": {
+        "wikilinks": [
+          "C18_CGT_Special",
+          "C19_CGT_SH",
+          "C20_CGT_Relief",
+          "C21_CG_Corp"
+        ],
+        "category": "Capital gains tax",
+        "content": "# C17 — Capital gains tax\n\nGeneral capital-gains framework: disposals, gains and losses, allowable costs, annual exemptions, rates, and computation structure.\n\nOriginal notes: [C17_CGT.QMD](../C17_CGT.QMD)\n\nRelated: [[C18_CGT_Special]], [[C19_CGT_SH]], [[C20_CGT_Relief]], [[C21_CG_Corp]]\n",
+        "backlinks": [
+          "article:C04_Prop_TA",
+          "article:C10_TL_IND",
+          "article:C18_CGT_Special",
+          "article:C19_CGT_SH",
+          "article:C20_CGT_Relief",
+          "article:C21_CG_Corp",
+          "article:C22_Inherit"
+        ]
+      }
+    },
+    {
+      "id": "article:C18_CGT_Special",
+      "type": "article",
+      "name": "C18 — Special capital gains cases",
+      "filePath": "C18_CGT_Special.md",
+      "summary": "Special rules for capital gains, including transactions or assets requiring treatment different from the standard disposal computation.",
+      "tags": [
+        "capital gains tax"
+      ],
+      "complexity": "simple",
+      "knowledgeMeta": {
+        "wikilinks": [
+          "C17_CGT",
+          "C19_CGT_SH",
+          "C20_CGT_Relief"
+        ],
+        "category": "Capital gains tax",
+        "content": "# C18 — Special capital gains cases\n\nSpecial rules for capital gains, including transactions or assets requiring treatment different from the standard disposal computation.\n\nOriginal notes: [C18_CGT_Special.qmd](../C18_CGT_Special.qmd)\n\nRelated: [[C17_CGT]], [[C19_CGT_SH]], [[C20_CGT_Relief]]\n",
+        "backlinks": [
+          "article:C17_CGT",
+          "article:C19_CGT_SH",
+          "article:C20_CGT_Relief"
+        ]
+      }
+    },
+    {
+      "id": "article:C19_CGT_SH",
+      "type": "article",
+      "name": "C19 — Capital gains on shares",
+      "filePath": "C19_CGT_SH.md",
+      "summary": "Capital-gains treatment of share disposals, reorganisations, and share-specific computational issues.",
+      "tags": [
+        "capital gains tax"
+      ],
+      "complexity": "simple",
+      "knowledgeMeta": {
+        "wikilinks": [
+          "C17_CGT",
+          "C18_CGT_Special",
+          "C20_CGT_Relief",
+          "C21_CG_Corp"
+        ],
+        "category": "Capital gains tax",
+        "content": "# C19 — Capital gains on shares\n\nCapital-gains treatment of share disposals, reorganisations, and share-specific computational issues.\n\nOriginal notes: [C19_CGT_SH.qmd](../C19_CGT_SH.qmd)\n\nRelated: [[C17_CGT]], [[C18_CGT_Special]], [[C20_CGT_Relief]], [[C21_CG_Corp]]\n",
+        "backlinks": [
+          "article:C14_COMP_LOS",
+          "article:C17_CGT",
+          "article:C18_CGT_Special",
+          "article:C20_CGT_Relief"
+        ]
+      }
+    },
+    {
+      "id": "article:C20_CGT_Relief",
+      "type": "article",
+      "name": "C20 — Capital gains reliefs",
+      "filePath": "C20_CGT_Relief.md",
+      "summary": "Reliefs that defer, reduce, or otherwise modify capital gains, with attention to eligibility conditions and interactions.",
+      "tags": [
+        "capital gains tax"
+      ],
+      "complexity": "simple",
+      "knowledgeMeta": {
+        "wikilinks": [
+          "C17_CGT",
+          "C18_CGT_Special",
+          "C19_CGT_SH",
+          "C21_CG_Corp"
+        ],
+        "category": "Capital gains tax",
+        "content": "# C20 — Capital gains reliefs\n\nReliefs that defer, reduce, or otherwise modify capital gains, with attention to eligibility conditions and interactions.\n\nOriginal notes: [C20_CGT_Relief.qmd](../C20_CGT_Relief.qmd)\n\nRelated: [[C17_CGT]], [[C18_CGT_Special]], [[C19_CGT_SH]], [[C21_CG_Corp]]\n",
+        "backlinks": [
+          "article:C17_CGT",
+          "article:C18_CGT_Special",
+          "article:C19_CGT_SH",
+          "article:C21_CG_Corp",
+          "article:C22_Inherit"
+        ]
+      }
+    },
+    {
+      "id": "article:C21_CG_Corp",
+      "type": "article",
+      "name": "C21 — Corporate capital gains",
+      "filePath": "C21_CG_Corp.md",
+      "summary": "Capital gains arising to companies and the relationship between corporation tax and chargeable gains.",
+      "tags": [
+        "capital gains tax"
+      ],
+      "complexity": "simple",
+      "knowledgeMeta": {
+        "wikilinks": [
+          "C13_Corp_TX",
+          "C15_Groups",
+          "C17_CGT",
+          "C20_CGT_Relief"
+        ],
+        "category": "Capital gains tax",
+        "content": "# C21 — Corporate capital gains\n\nCapital gains arising to companies and the relationship between corporation tax and chargeable gains.\n\nOriginal notes: [C21_CG_Corp.qmd](../C21_CG_Corp.qmd)\n\nRelated: [[C13_Corp_TX]], [[C15_Groups]], [[C17_CGT]], [[C20_CGT_Relief]]\n",
+        "backlinks": [
+          "article:C13_Corp_TX",
+          "article:C15_Groups",
+          "article:C17_CGT",
+          "article:C19_CGT_SH",
+          "article:C20_CGT_Relief"
+        ]
+      }
+    },
+    {
+      "id": "article:C22_Inherit",
+      "type": "article",
+      "name": "C22 — Inheritance tax",
+      "filePath": "C22_Inherit.md",
+      "summary": "Inheritance-tax framework, transfers, exemptions, reliefs, taxable estates, and the timing of liabilities.",
+      "tags": [
+        "inheritance tax"
+      ],
+      "complexity": "simple",
+      "knowledgeMeta": {
+        "wikilinks": [
+          "C01_TX_SYS",
+          "C10_TL_IND",
+          "C17_CGT",
+          "C20_CGT_Relief"
+        ],
+        "category": "Inheritance tax",
+        "content": "# C22 — Inheritance tax\n\nInheritance-tax framework, transfers, exemptions, reliefs, taxable estates, and the timing of liabilities.\n\nOriginal notes: [C22_Inherit.qmd](../C22_Inherit.qmd)\n\nRelated: [[C01_TX_SYS]], [[C10_TL_IND]], [[C17_CGT]], [[C20_CGT_Relief]]\n",
+        "backlinks": [
+          "article:C10_TL_IND"
+        ]
+      }
+    },
+    {
+      "id": "article:C23_VAT",
+      "type": "article",
+      "name": "C23 — Value added tax",
+      "filePath": "C23_VAT.md",
+      "summary": "VAT fundamentals: taxable supplies, registration, output and input tax, liability, and compliance.",
+      "tags": [
+        "vat"
+      ],
+      "complexity": "simple",
+      "knowledgeMeta": {
+        "wikilinks": [
+          "C01_TX_SYS",
+          "C04_Prop_TA",
+          "C13_Corp_TX",
+          "C24_VAT_OS"
+        ],
+        "category": "VAT",
+        "content": "# C23 — Value added tax\n\nVAT fundamentals: taxable supplies, registration, output and input tax, liability, and compliance.\n\nOriginal notes: [C23_VAT.qmd](../C23_VAT.qmd)\n\nRelated: [[C01_TX_SYS]], [[C04_Prop_TA]], [[C13_Corp_TX]], [[C24_VAT_OS]]\n",
+        "backlinks": [
+          "article:C04_Prop_TA",
+          "article:C13_Corp_TX",
+          "article:C24_VAT_OS"
+        ]
+      }
+    },
+    {
+      "id": "article:C24_VAT_OS",
+      "type": "article",
+      "name": "C24 — VAT special and overseas issues",
+      "filePath": "C24_VAT_OS.md",
+      "summary": "VAT rules for special or overseas transactions, including place-of-supply and transaction-specific considerations.",
+      "tags": [
+        "vat"
+      ],
+      "complexity": "simple",
+      "knowledgeMeta": {
+        "wikilinks": [
+          "C23_VAT",
+          "C01_TX_SYS",
+          "C12_TX_ADMN"
+        ],
+        "category": "VAT",
+        "content": "# C24 — VAT special and overseas issues\n\nVAT rules for special or overseas transactions, including place-of-supply and transaction-specific considerations.\n\nOriginal notes: [C24_VAT_OS.qmd](../C24_VAT_OS.qmd)\n\nRelated: [[C23_VAT]], [[C01_TX_SYS]], [[C12_TX_ADMN]]\n",
+        "backlinks": [
+          "article:C23_VAT"
+        ]
+      }
+    },
+    {
+      "id": "article:Exam_Connections",
+      "type": "article",
+      "name": "Exam connections",
+      "filePath": "Exam_Connections.md",
+      "summary": "Most exam questions combine classification, computation, reliefs, administration, and deadlines. Start by identifying the taxpayer and tax, classify the income or transaction, apply exemptions or r...",
+      "tags": [
+        "study workflow"
+      ],
+      "complexity": "simple",
+      "knowledgeMeta": {
+        "wikilinks": [
+          "C01_TX_SYS",
+          "C03_ADD_ASS",
+          "C12_TX_ADMN",
+          "C16_TX_ADM_CORP",
+          "Study_Workflow"
+        ],
+        "category": "Study workflow",
+        "content": "# Exam connections\n\nMost exam questions combine classification, computation, reliefs, administration, and deadlines. Start by identifying the taxpayer and tax, classify the income or transaction, apply exemptions or reliefs, calculate the liability, and check filing and payment rules.\n\nRelated: [[C01_TX_SYS]], [[C03_ADD_ASS]], [[C12_TX_ADMN]], [[C16_TX_ADM_CORP]], [[Study_Workflow]]\n",
+        "backlinks": [
+          "article:Study_Workflow"
+        ]
+      }
+    },
+    {
+      "id": "article:Study_Workflow",
+      "type": "article",
+      "name": "Study workflow",
+      "filePath": "Study_Workflow.md",
+      "summary": "Use the map in passes: learn the tax system, practise computation chapters, connect reliefs and administration, then finish with mixed exam questions. Each map page points to the corresponding orig...",
+      "tags": [
+        "study workflow"
+      ],
+      "complexity": "simple",
+      "knowledgeMeta": {
+        "wikilinks": [
+          "C01_TX_SYS",
+          "C12_TX_ADMN",
+          "Exam_Connections"
+        ],
+        "category": "Study workflow",
+        "content": "# Study workflow\n\nUse the map in passes: learn the tax system, practise computation chapters, connect reliefs and administration, then finish with mixed exam questions. Each map page points to the corresponding original Quarto note in the parent directory.\n\nRelated: [[C01_TX_SYS]], [[C12_TX_ADMN]], [[Exam_Connections]]\n",
+        "backlinks": [
+          "article:Exam_Connections"
+        ]
+      }
+    },
+    {
+      "id": "topic:foundations-and-administration",
+      "type": "topic",
+      "name": "Foundations and administration",
+      "summary": "Category from index: Foundations and administration (4 articles)",
+      "tags": [
+        "category"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "topic:income-taxes",
+      "type": "topic",
+      "name": "Income taxes",
+      "summary": "Category from index: Income taxes (7 articles)",
+      "tags": [
+        "category"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "topic:corporate-and-group-taxation",
+      "type": "topic",
+      "name": "Corporate and group taxation",
+      "summary": "Category from index: Corporate and group taxation (4 articles)",
+      "tags": [
+        "category"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "topic:capital-gains-tax",
+      "type": "topic",
+      "name": "Capital gains tax",
+      "summary": "Category from index: Capital gains tax (5 articles)",
+      "tags": [
+        "category"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "topic:inheritance-tax",
+      "type": "topic",
+      "name": "Inheritance tax",
+      "summary": "Category from index: Inheritance tax (1 articles)",
+      "tags": [
+        "category"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "topic:vat",
+      "type": "topic",
+      "name": "VAT",
+      "summary": "Category from index: VAT (2 articles)",
+      "tags": [
+        "category"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "topic:study-workflow",
+      "type": "topic",
+      "name": "Study workflow",
+      "summary": "Category from index: Study workflow (2 articles)",
+      "tags": [
+        "category"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "entity:hmrc",
+      "type": "entity",
+      "name": "HM Revenue and Customs",
+      "summary": "The UK tax authority responsible for administering and collecting taxes.",
+      "tags": [
+        "tax administration",
+        "foundations"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "entity:uk-tax-system",
+      "type": "entity",
+      "name": "UK tax system",
+      "summary": "The overall structure of UK taxes, including direct and indirect taxes and their legal sources.",
+      "tags": [
+        "tax system",
+        "foundations"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "entity:direct-taxes",
+      "type": "entity",
+      "name": "Direct taxes",
+      "summary": "Taxes imposed directly on income, profits, or gains of taxpayers.",
+      "tags": [
+        "tax classification"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "entity:indirect-taxes",
+      "type": "entity",
+      "name": "Indirect taxes",
+      "summary": "Taxes charged through transactions or consumption rather than directly on a taxpayer's income or gains.",
+      "tags": [
+        "tax classification"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "entity:income-tax",
+      "type": "entity",
+      "name": "Income tax",
+      "summary": "A direct tax computed by applying the income-tax framework to taxable income after relevant allowances and reliefs.",
+      "tags": [
+        "income taxes"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "entity:taxable-income",
+      "type": "entity",
+      "name": "Taxable income",
+      "summary": "Income falling within the income-tax charge after classification and permitted deductions, allowances, or reliefs.",
+      "tags": [
+        "income taxes",
+        "computation"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "entity:assessment",
+      "type": "entity",
+      "name": "Tax assessment",
+      "summary": "The process of establishing or correcting the amount of tax for which a taxpayer is liable.",
+      "tags": [
+        "tax administration",
+        "assessment"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "entity:property-income",
+      "type": "entity",
+      "name": "Property income",
+      "summary": "Income arising from property interests and property businesses, subject to classification and allowable-expense rules.",
+      "tags": [
+        "income taxes",
+        "property"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "entity:employment-income",
+      "type": "entity",
+      "name": "Employment income",
+      "summary": "Remuneration and taxable benefits arising from employment, considered alongside employment-related expenses.",
+      "tags": [
+        "income taxes",
+        "employment"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "entity:pension-income",
+      "type": "entity",
+      "name": "Pension income",
+      "summary": "Income from pensions and the related treatment of pension contributions in individual income-tax computations.",
+      "tags": [
+        "income taxes",
+        "pensions"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "entity:trading-income",
+      "type": "entity",
+      "name": "Trading income",
+      "summary": "Income from self-employment or a trade, computed by adjusting accounting profit to arrive at taxable profit.",
+      "tags": [
+        "income taxes",
+        "self-employment"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "entity:partnership-profits",
+      "type": "entity",
+      "name": "Partnership profits and losses",
+      "summary": "Partnership results allocated among partners and brought into each partner's individual tax computation.",
+      "tags": [
+        "income taxes",
+        "partnerships"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "entity:national-insurance-contributions",
+      "type": "entity",
+      "name": "National Insurance contributions",
+      "summary": "Contributions whose categories and liabilities interact with employment and self-employment income.",
+      "tags": [
+        "income taxes",
+        "national insurance"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "entity:individual-tax-liability",
+      "type": "entity",
+      "name": "Individual tax liability",
+      "summary": "The combined tax outcome after bringing together an individual's income sources, allowances, rates, reliefs, and payment obligations.",
+      "tags": [
+        "income taxes",
+        "individuals",
+        "computation"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "claim:tax-system-classifies-taxes",
+      "type": "claim",
+      "name": "The UK tax system distinguishes direct and indirect taxes",
+      "summary": "The tax-system foundation organizes taxes by whether they are imposed directly on income, profits, or gains or arise through transactions and consumption.",
+      "tags": [
+        "foundations",
+        "tax classification"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "claim:income-tax-liability-starts-with-taxable-income",
+      "type": "claim",
+      "name": "Income-tax liability is derived from taxable income",
+      "summary": "The income-tax framework moves from identifying taxable income to applying allowances, rates, and reliefs to determine liability.",
+      "tags": [
+        "income taxes",
+        "computation"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "claim:assessment-establishes-or-corrects-liability",
+      "type": "claim",
+      "name": "Assessment establishes or corrects a taxpayer's liability",
+      "summary": "Assessment is the administrative mechanism for establishing or correcting the liability produced by the substantive tax computation.",
+      "tags": [
+        "tax administration",
+        "assessment"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "claim:income-sources-feed-individual-liability",
+      "type": "claim",
+      "name": "Multiple income sources feed an individual's total liability",
+      "summary": "Property, employment, pension, and trading income are distinct categories that can be brought together in an individual's overall income-tax computation.",
+      "tags": [
+        "income taxes",
+        "individuals",
+        "computation"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "claim:self-employment-profit-is-adjusted-from-accounts",
+      "type": "claim",
+      "name": "Self-employment taxable profit is derived from accounting profit",
+      "summary": "Self-employment computation requires adjustments from accounting profit to the profit recognized for tax purposes.",
+      "tags": [
+        "income taxes",
+        "self-employment",
+        "computation"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "claim:partnership-results-allocated-to-partners",
+      "type": "claim",
+      "name": "Partnership results are allocated to individual partners",
+      "summary": "Partnership profits and losses are allocated among partners and then included in the partners' individual tax computations.",
+      "tags": [
+        "income taxes",
+        "partnerships"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "claim:nic-interacts-with-earned-income",
+      "type": "claim",
+      "name": "National Insurance interacts with employment and self-employment income",
+      "summary": "National Insurance categories and liabilities are connected to the taxpayer's employment and self-employment status and income.",
+      "tags": [
+        "income taxes",
+        "national insurance"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "claim:employment-tax-treatment-separates-remuneration-and-expenses",
+      "type": "claim",
+      "name": "Employment computation distinguishes remuneration from allowable expenses",
+      "summary": "Employment income analysis separates taxable remuneration and benefits from expenses that may be allowable for tax purposes.",
+      "tags": [
+        "income taxes",
+        "employment"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "claim:administration-follows-substantive-computation",
+      "type": "claim",
+      "name": "Tax administration operationalizes substantive liability",
+      "summary": "Registration, returns, payment, assessment, records, enquiries, penalties, and appeals provide the administrative lifecycle for tax liabilities.",
+      "tags": [
+        "tax administration",
+        "compliance"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "entity:self-employment-income",
+      "type": "entity",
+      "name": "Self-employment income",
+      "summary": "Trading income of self-employed individuals is a context in which National Insurance liability is considered.",
+      "tags": [
+        "income",
+        "self-employment"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "entity:individual-tax-administration",
+      "type": "entity",
+      "name": "Individual tax administration",
+      "summary": "Administrative lifecycle covering registration, returns, deadlines, payment, records, enquiries, penalties, and appeals for individuals.",
+      "tags": [
+        "administration",
+        "individual taxation"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "entity:corporation-tax-computation",
+      "type": "entity",
+      "name": "Corporation-tax computation",
+      "summary": "Computation of a company’s taxable total profits, rates, reliefs, and payment considerations.",
+      "tags": [
+        "corporation tax",
+        "computation"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "entity:company-loss-relief",
+      "type": "entity",
+      "name": "Company loss relief",
+      "summary": "Relief mechanisms for company losses against profits across periods or in a corporate group context.",
+      "tags": [
+        "corporation tax",
+        "losses",
+        "relief"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "entity:corporate-group",
+      "type": "entity",
+      "name": "Corporate group",
+      "summary": "A group relationship used to analyze loss relief, asset transfers, and planning constraints between companies.",
+      "tags": [
+        "groups",
+        "corporation tax"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "entity:corporate-tax-administration",
+      "type": "entity",
+      "name": "Corporate tax administration",
+      "summary": "Company filing, payment, compliance, enquiry, and penalty processes.",
+      "tags": [
+        "administration",
+        "corporation tax"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "entity:capital-gains-framework",
+      "type": "entity",
+      "name": "Capital-gains framework",
+      "summary": "General structure for disposals, gains and losses, allowable costs, annual exemptions, rates, and computations.",
+      "tags": [
+        "capital gains tax",
+        "computation"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "entity:special-capital-gains-treatment",
+      "type": "entity",
+      "name": "Special capital-gains treatment",
+      "summary": "Rules for transactions or assets requiring treatment different from the standard capital-gains disposal computation.",
+      "tags": [
+        "capital gains tax",
+        "special cases"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "claim:nic-connects-income-and-liability",
+      "type": "claim",
+      "name": "NIC connects income categories to individual liability computations",
+      "summary": "National Insurance is analyzed in relation to employment and self-employment income and to the wider calculation of individual tax liabilities.",
+      "tags": [
+        "national insurance",
+        "individual taxation"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "claim:individual-administration-is-process-oriented",
+      "type": "claim",
+      "name": "Individual tax administration is a process chain",
+      "summary": "The individual administration article groups registration, filing, deadlines, payment, record keeping, enquiries, penalties, and appeals into one compliance lifecycle.",
+      "tags": [
+        "tax administration",
+        "compliance"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "claim:corporation-tax-is-computation-hub",
+      "type": "claim",
+      "name": "Corporation tax is the corporate computation hub",
+      "summary": "The corporation-tax computation provides the central connection between taxable profits, company losses, groups, corporate administration, corporate gains, and VAT context.",
+      "tags": [
+        "corporation tax",
+        "computation"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "claim:company-losses-operate-across-periods-and-groups",
+      "type": "claim",
+      "name": "Company losses can operate across periods and group context",
+      "summary": "Company loss rules address relief against profits across periods and also interact with the corporate-group context.",
+      "tags": [
+        "company losses",
+        "groups",
+        "relief"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "claim:group-taxation-links-relief-assets-and-planning",
+      "type": "claim",
+      "name": "Group taxation links relief, asset transfers, and planning constraints",
+      "summary": "The group-taxation topic combines group relationships with loss relief, asset transfers, and constraints on planning.",
+      "tags": [
+        "groups",
+        "loss relief",
+        "asset transfers"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "claim:corporate-administration-supports-computation",
+      "type": "claim",
+      "name": "Corporate administration operationalizes corporation tax",
+      "summary": "Company filing, payment, compliance, enquiry, and penalty rules provide the administrative counterpart to corporation-tax computation.",
+      "tags": [
+        "corporate administration",
+        "compliance"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "claim:standard-cgt-framework-precedes-special-cases",
+      "type": "claim",
+      "name": "The standard CGT framework precedes special cases",
+      "summary": "The general capital-gains framework supplies the baseline for handling special transactions or assets that require different treatment.",
+      "tags": [
+        "capital gains tax",
+        "special cases"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "claim:special-cgt-interacts-with-shares-and-reliefs",
+      "type": "claim",
+      "name": "Special CGT cases interact with shares and reliefs",
+      "summary": "Special capital-gains cases are positioned alongside share disposals and reorganisations and capital-gains reliefs rather than as an isolated computation.",
+      "tags": [
+        "capital gains tax",
+        "shares",
+        "reliefs"
+      ],
+      "complexity": "moderate"
+    }
+  ],
+  "edges": [
+    {
+      "source": "article:C01_TX_SYS",
+      "target": "article:C02_IT_ILIB",
+      "type": "related",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "article:C01_TX_SYS",
+      "target": "article:C03_ADD_ASS",
+      "type": "related",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "article:C01_TX_SYS",
+      "target": "article:C12_TX_ADMN",
+      "type": "related",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "article:C02_IT_ILIB",
+      "target": "article:C01_TX_SYS",
+      "type": "related",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "article:C02_IT_ILIB",
+      "target": "article:C04_Prop_TA",
+      "type": "related",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "article:C02_IT_ILIB",
+      "target": "article:C05_Emp_Inc",
+      "type": "related",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "article:C02_IT_ILIB",
+      "target": "article:C07_INC_SELF_EP",
+      "type": "related",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "article:C02_IT_ILIB",
+      "target": "article:C11_NIC",
+      "type": "related",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "article:C03_ADD_ASS",
+      "target": "article:C02_IT_ILIB",
+      "type": "related",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "article:C03_ADD_ASS",
+      "target": "article:C12_TX_ADMN",
+      "type": "related",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "article:C03_ADD_ASS",
+      "target": "article:C16_TX_ADM_CORP",
+      "type": "related",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "article:C04_Prop_TA",
+      "target": "article:C02_IT_ILIB",
+      "type": "related",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "article:C04_Prop_TA",
+      "target": "article:C05_Emp_Inc",
+      "type": "related",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "article:C04_Prop_TA",
+      "target": "article:C17_CGT",
+      "type": "related",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "article:C04_Prop_TA",
+      "target": "article:C23_VAT",
+      "type": "related",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "article:C05_Emp_Inc",
+      "target": "article:C02_IT_ILIB",
+      "type": "related",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "article:C05_Emp_Inc",
+      "target": "article:C06_Pension",
+      "type": "related",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "article:C05_Emp_Inc",
+      "target": "article:C07_INC_SELF_EP",
+      "type": "related",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "article:C05_Emp_Inc",
+      "target": "article:C11_NIC",
+      "type": "related",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "article:C06_Pension",
+      "target": "article:C02_IT_ILIB",
+      "type": "related",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "article:C06_Pension",
+      "target": "article:C05_Emp_Inc",
+      "type": "related",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "article:C06_Pension",
+      "target": "article:C07_INC_SELF_EP",
+      "type": "related",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "article:C07_INC_SELF_EP",
+      "target": "article:C02_IT_ILIB",
+      "type": "related",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "article:C07_INC_SELF_EP",
+      "target": "article:C03_ADD_ASS",
+      "type": "related",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "article:C07_INC_SELF_EP",
+      "target": "article:C09_Partner",
+      "type": "related",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "article:C07_INC_SELF_EP",
+      "target": "article:C10_TL_IND",
+      "type": "related",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "article:C07_INC_SELF_EP",
+      "target": "article:C11_NIC",
+      "type": "related",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "article:C09_Partner",
+      "target": "article:C07_INC_SELF_EP",
+      "type": "related",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "article:C09_Partner",
+      "target": "article:C14_COMP_LOS",
+      "type": "related",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "article:C09_Partner",
+      "target": "article:C15_Groups",
+      "type": "related",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "article:C10_TL_IND",
+      "target": "article:C02_IT_ILIB",
+      "type": "related",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "article:C10_TL_IND",
+      "target": "article:C05_Emp_Inc",
+      "type": "related",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "article:C10_TL_IND",
+      "target": "article:C07_INC_SELF_EP",
+      "type": "related",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "article:C10_TL_IND",
+      "target": "article:C17_CGT",
+      "type": "related",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "article:C10_TL_IND",
+      "target": "article:C22_Inherit",
+      "type": "related",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "article:C11_NIC",
+      "target": "article:C05_Emp_Inc",
+      "type": "related",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "article:C11_NIC",
+      "target": "article:C07_INC_SELF_EP",
+      "type": "related",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "article:C11_NIC",
+      "target": "article:C10_TL_IND",
+      "type": "related",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "article:C12_TX_ADMN",
+      "target": "article:C01_TX_SYS",
+      "type": "related",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "article:C12_TX_ADMN",
+      "target": "article:C03_ADD_ASS",
+      "type": "related",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "article:C12_TX_ADMN",
+      "target": "article:C10_TL_IND",
+      "type": "related",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "article:C12_TX_ADMN",
+      "target": "article:C16_TX_ADM_CORP",
+      "type": "related",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "article:C13_Corp_TX",
+      "target": "article:C14_COMP_LOS",
+      "type": "related",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "article:C13_Corp_TX",
+      "target": "article:C15_Groups",
+      "type": "related",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "article:C13_Corp_TX",
+      "target": "article:C16_TX_ADM_CORP",
+      "type": "related",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "article:C13_Corp_TX",
+      "target": "article:C21_CG_Corp",
+      "type": "related",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "article:C13_Corp_TX",
+      "target": "article:C23_VAT",
+      "type": "related",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "article:C14_COMP_LOS",
+      "target": "article:C13_Corp_TX",
+      "type": "related",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "article:C14_COMP_LOS",
+      "target": "article:C15_Groups",
+      "type": "related",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "article:C14_COMP_LOS",
+      "target": "article:C19_CGT_SH",
+      "type": "related",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "article:C15_Groups",
+      "target": "article:C13_Corp_TX",
+      "type": "related",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "article:C15_Groups",
+      "target": "article:C14_COMP_LOS",
+      "type": "related",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "article:C15_Groups",
+      "target": "article:C16_TX_ADM_CORP",
+      "type": "related",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "article:C15_Groups",
+      "target": "article:C21_CG_Corp",
+      "type": "related",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "article:C16_TX_ADM_CORP",
+      "target": "article:C12_TX_ADMN",
+      "type": "related",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "article:C16_TX_ADM_CORP",
+      "target": "article:C13_Corp_TX",
+      "type": "related",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "article:C16_TX_ADM_CORP",
+      "target": "article:C15_Groups",
+      "type": "related",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "article:C17_CGT",
+      "target": "article:C18_CGT_Special",
+      "type": "related",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "article:C17_CGT",
+      "target": "article:C19_CGT_SH",
+      "type": "related",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "article:C17_CGT",
+      "target": "article:C20_CGT_Relief",
+      "type": "related",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "article:C17_CGT",
+      "target": "article:C21_CG_Corp",
+      "type": "related",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "article:C18_CGT_Special",
+      "target": "article:C17_CGT",
+      "type": "related",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "article:C18_CGT_Special",
+      "target": "article:C19_CGT_SH",
+      "type": "related",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "article:C18_CGT_Special",
+      "target": "article:C20_CGT_Relief",
+      "type": "related",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "article:C19_CGT_SH",
+      "target": "article:C17_CGT",
+      "type": "related",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "article:C19_CGT_SH",
+      "target": "article:C18_CGT_Special",
+      "type": "related",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "article:C19_CGT_SH",
+      "target": "article:C20_CGT_Relief",
+      "type": "related",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "article:C19_CGT_SH",
+      "target": "article:C21_CG_Corp",
+      "type": "related",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "article:C20_CGT_Relief",
+      "target": "article:C17_CGT",
+      "type": "related",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "article:C20_CGT_Relief",
+      "target": "article:C18_CGT_Special",
+      "type": "related",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "article:C20_CGT_Relief",
+      "target": "article:C19_CGT_SH",
+      "type": "related",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "article:C20_CGT_Relief",
+      "target": "article:C21_CG_Corp",
+      "type": "related",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "article:C21_CG_Corp",
+      "target": "article:C13_Corp_TX",
+      "type": "related",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "article:C21_CG_Corp",
+      "target": "article:C15_Groups",
+      "type": "related",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "article:C21_CG_Corp",
+      "target": "article:C17_CGT",
+      "type": "related",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "article:C21_CG_Corp",
+      "target": "article:C20_CGT_Relief",
+      "type": "related",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "article:C22_Inherit",
+      "target": "article:C01_TX_SYS",
+      "type": "related",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "article:C22_Inherit",
+      "target": "article:C10_TL_IND",
+      "type": "related",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "article:C22_Inherit",
+      "target": "article:C17_CGT",
+      "type": "related",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "article:C22_Inherit",
+      "target": "article:C20_CGT_Relief",
+      "type": "related",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "article:C23_VAT",
+      "target": "article:C01_TX_SYS",
+      "type": "related",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "article:C23_VAT",
+      "target": "article:C04_Prop_TA",
+      "type": "related",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "article:C23_VAT",
+      "target": "article:C13_Corp_TX",
+      "type": "related",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "article:C23_VAT",
+      "target": "article:C24_VAT_OS",
+      "type": "related",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "article:C24_VAT_OS",
+      "target": "article:C23_VAT",
+      "type": "related",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "article:C24_VAT_OS",
+      "target": "article:C01_TX_SYS",
+      "type": "related",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "article:C24_VAT_OS",
+      "target": "article:C12_TX_ADMN",
+      "type": "related",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "article:Exam_Connections",
+      "target": "article:C01_TX_SYS",
+      "type": "related",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "article:Exam_Connections",
+      "target": "article:C03_ADD_ASS",
+      "type": "related",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "article:Exam_Connections",
+      "target": "article:C12_TX_ADMN",
+      "type": "related",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "article:Exam_Connections",
+      "target": "article:C16_TX_ADM_CORP",
+      "type": "related",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "article:Exam_Connections",
+      "target": "article:Study_Workflow",
+      "type": "related",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "article:Study_Workflow",
+      "target": "article:C01_TX_SYS",
+      "type": "related",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "article:Study_Workflow",
+      "target": "article:C12_TX_ADMN",
+      "type": "related",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "article:Study_Workflow",
+      "target": "article:Exam_Connections",
+      "type": "related",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "article:C01_TX_SYS",
+      "target": "topic:foundations-and-administration",
+      "type": "categorized_under",
+      "direction": "forward",
+      "weight": 0.6
+    },
+    {
+      "source": "article:C02_IT_ILIB",
+      "target": "topic:foundations-and-administration",
+      "type": "categorized_under",
+      "direction": "forward",
+      "weight": 0.6
+    },
+    {
+      "source": "article:C03_ADD_ASS",
+      "target": "topic:foundations-and-administration",
+      "type": "categorized_under",
+      "direction": "forward",
+      "weight": 0.6
+    },
+    {
+      "source": "article:C12_TX_ADMN",
+      "target": "topic:foundations-and-administration",
+      "type": "categorized_under",
+      "direction": "forward",
+      "weight": 0.6
+    },
+    {
+      "source": "article:C04_Prop_TA",
+      "target": "topic:income-taxes",
+      "type": "categorized_under",
+      "direction": "forward",
+      "weight": 0.6
+    },
+    {
+      "source": "article:C05_Emp_Inc",
+      "target": "topic:income-taxes",
+      "type": "categorized_under",
+      "direction": "forward",
+      "weight": 0.6
+    },
+    {
+      "source": "article:C06_Pension",
+      "target": "topic:income-taxes",
+      "type": "categorized_under",
+      "direction": "forward",
+      "weight": 0.6
+    },
+    {
+      "source": "article:C07_INC_SELF_EP",
+      "target": "topic:income-taxes",
+      "type": "categorized_under",
+      "direction": "forward",
+      "weight": 0.6
+    },
+    {
+      "source": "article:C09_Partner",
+      "target": "topic:income-taxes",
+      "type": "categorized_under",
+      "direction": "forward",
+      "weight": 0.6
+    },
+    {
+      "source": "article:C10_TL_IND",
+      "target": "topic:income-taxes",
+      "type": "categorized_under",
+      "direction": "forward",
+      "weight": 0.6
+    },
+    {
+      "source": "article:C11_NIC",
+      "target": "topic:income-taxes",
+      "type": "categorized_under",
+      "direction": "forward",
+      "weight": 0.6
+    },
+    {
+      "source": "article:C13_Corp_TX",
+      "target": "topic:corporate-and-group-taxation",
+      "type": "categorized_under",
+      "direction": "forward",
+      "weight": 0.6
+    },
+    {
+      "source": "article:C14_COMP_LOS",
+      "target": "topic:corporate-and-group-taxation",
+      "type": "categorized_under",
+      "direction": "forward",
+      "weight": 0.6
+    },
+    {
+      "source": "article:C15_Groups",
+      "target": "topic:corporate-and-group-taxation",
+      "type": "categorized_under",
+      "direction": "forward",
+      "weight": 0.6
+    },
+    {
+      "source": "article:C16_TX_ADM_CORP",
+      "target": "topic:corporate-and-group-taxation",
+      "type": "categorized_under",
+      "direction": "forward",
+      "weight": 0.6
+    },
+    {
+      "source": "article:C17_CGT",
+      "target": "topic:capital-gains-tax",
+      "type": "categorized_under",
+      "direction": "forward",
+      "weight": 0.6
+    },
+    {
+      "source": "article:C18_CGT_Special",
+      "target": "topic:capital-gains-tax",
+      "type": "categorized_under",
+      "direction": "forward",
+      "weight": 0.6
+    },
+    {
+      "source": "article:C19_CGT_SH",
+      "target": "topic:capital-gains-tax",
+      "type": "categorized_under",
+      "direction": "forward",
+      "weight": 0.6
+    },
+    {
+      "source": "article:C20_CGT_Relief",
+      "target": "topic:capital-gains-tax",
+      "type": "categorized_under",
+      "direction": "forward",
+      "weight": 0.6
+    },
+    {
+      "source": "article:C21_CG_Corp",
+      "target": "topic:capital-gains-tax",
+      "type": "categorized_under",
+      "direction": "forward",
+      "weight": 0.6
+    },
+    {
+      "source": "article:C22_Inherit",
+      "target": "topic:inheritance-tax",
+      "type": "categorized_under",
+      "direction": "forward",
+      "weight": 0.6
+    },
+    {
+      "source": "article:C23_VAT",
+      "target": "topic:vat",
+      "type": "categorized_under",
+      "direction": "forward",
+      "weight": 0.6
+    },
+    {
+      "source": "article:C24_VAT_OS",
+      "target": "topic:vat",
+      "type": "categorized_under",
+      "direction": "forward",
+      "weight": 0.6
+    },
+    {
+      "source": "article:Study_Workflow",
+      "target": "topic:study-workflow",
+      "type": "categorized_under",
+      "direction": "forward",
+      "weight": 0.6
+    },
+    {
+      "source": "article:Exam_Connections",
+      "target": "topic:study-workflow",
+      "type": "categorized_under",
+      "direction": "forward",
+      "weight": 0.6
+    },
+    {
+      "source": "article:C01_TX_SYS",
+      "target": "entity:uk-tax-system",
+      "type": "related",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "article:C01_TX_SYS",
+      "target": "entity:direct-taxes",
+      "type": "related",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "article:C01_TX_SYS",
+      "target": "entity:indirect-taxes",
+      "type": "related",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "article:C01_TX_SYS",
+      "target": "entity:hmrc",
+      "type": "related",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "article:C01_TX_SYS",
+      "target": "claim:tax-system-classifies-taxes",
+      "type": "related",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "article:C02_IT_ILIB",
+      "target": "entity:income-tax",
+      "type": "related",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "article:C02_IT_ILIB",
+      "target": "entity:taxable-income",
+      "type": "related",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "article:C02_IT_ILIB",
+      "target": "claim:income-tax-liability-starts-with-taxable-income",
+      "type": "related",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "article:C03_ADD_ASS",
+      "target": "entity:assessment",
+      "type": "related",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "article:C03_ADD_ASS",
+      "target": "claim:assessment-establishes-or-corrects-liability",
+      "type": "related",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "article:C04_Prop_TA",
+      "target": "entity:property-income",
+      "type": "related",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "article:C05_Emp_Inc",
+      "target": "entity:employment-income",
+      "type": "related",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "article:C05_Emp_Inc",
+      "target": "entity:national-insurance-contributions",
+      "type": "related",
+      "direction": "forward",
+      "weight": 0.6
+    },
+    {
+      "source": "article:C05_Emp_Inc",
+      "target": "claim:employment-tax-treatment-separates-remuneration-and-expenses",
+      "type": "related",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "article:C05_Emp_Inc",
+      "target": "claim:nic-interacts-with-earned-income",
+      "type": "related",
+      "direction": "forward",
+      "weight": 0.6
+    },
+    {
+      "source": "article:C06_Pension",
+      "target": "entity:pension-income",
+      "type": "related",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "article:C07_INC_SELF_EP",
+      "target": "entity:trading-income",
+      "type": "related",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "article:C07_INC_SELF_EP",
+      "target": "entity:national-insurance-contributions",
+      "type": "related",
+      "direction": "forward",
+      "weight": 0.6
+    },
+    {
+      "source": "article:C07_INC_SELF_EP",
+      "target": "claim:self-employment-profit-is-adjusted-from-accounts",
+      "type": "related",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "article:C07_INC_SELF_EP",
+      "target": "claim:nic-interacts-with-earned-income",
+      "type": "related",
+      "direction": "forward",
+      "weight": 0.6
+    },
+    {
+      "source": "article:C09_Partner",
+      "target": "entity:partnership-profits",
+      "type": "related",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "article:C09_Partner",
+      "target": "claim:partnership-results-allocated-to-partners",
+      "type": "related",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "article:C10_TL_IND",
+      "target": "entity:individual-tax-liability",
+      "type": "related",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "article:C10_TL_IND",
+      "target": "claim:income-sources-feed-individual-liability",
+      "type": "related",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "article:C01_TX_SYS",
+      "target": "claim:administration-follows-substantive-computation",
+      "type": "builds_on",
+      "direction": "forward",
+      "weight": 0.5
+    },
+    {
+      "source": "entity:property-income",
+      "target": "entity:taxable-income",
+      "type": "builds_on",
+      "direction": "forward",
+      "weight": 0.5
+    },
+    {
+      "source": "entity:employment-income",
+      "target": "entity:taxable-income",
+      "type": "builds_on",
+      "direction": "forward",
+      "weight": 0.5
+    },
+    {
+      "source": "entity:pension-income",
+      "target": "entity:taxable-income",
+      "type": "builds_on",
+      "direction": "forward",
+      "weight": 0.5
+    },
+    {
+      "source": "entity:trading-income",
+      "target": "entity:taxable-income",
+      "type": "builds_on",
+      "direction": "forward",
+      "weight": 0.5
+    },
+    {
+      "source": "entity:partnership-profits",
+      "target": "entity:trading-income",
+      "type": "related",
+      "direction": "forward",
+      "weight": 0.6
+    },
+    {
+      "source": "entity:national-insurance-contributions",
+      "target": "entity:employment-income",
+      "type": "related",
+      "direction": "forward",
+      "weight": 0.6
+    },
+    {
+      "source": "entity:national-insurance-contributions",
+      "target": "entity:trading-income",
+      "type": "related",
+      "direction": "forward",
+      "weight": 0.6
+    },
+    {
+      "source": "entity:individual-tax-liability",
+      "target": "entity:income-tax",
+      "type": "builds_on",
+      "direction": "forward",
+      "weight": 0.6
+    },
+    {
+      "source": "claim:income-sources-feed-individual-liability",
+      "target": "entity:individual-tax-liability",
+      "type": "exemplifies",
+      "direction": "forward",
+      "weight": 0.6
+    },
+    {
+      "source": "article:C11_NIC",
+      "target": "entity:national-insurance-contributions",
+      "type": "exemplifies",
+      "direction": "forward",
+      "weight": 0.9
+    },
+    {
+      "source": "article:C11_NIC",
+      "target": "entity:employment-income",
+      "type": "related",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "article:C11_NIC",
+      "target": "entity:self-employment-income",
+      "type": "related",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "article:C11_NIC",
+      "target": "claim:nic-connects-income-and-liability",
+      "type": "builds_on",
+      "direction": "forward",
+      "weight": 0.9
+    },
+    {
+      "source": "article:C10_TL_IND",
+      "target": "claim:nic-connects-income-and-liability",
+      "type": "builds_on",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "article:C12_TX_ADMN",
+      "target": "entity:individual-tax-administration",
+      "type": "exemplifies",
+      "direction": "forward",
+      "weight": 0.9
+    },
+    {
+      "source": "article:C12_TX_ADMN",
+      "target": "claim:individual-administration-is-process-oriented",
+      "type": "builds_on",
+      "direction": "forward",
+      "weight": 0.9
+    },
+    {
+      "source": "article:C13_Corp_TX",
+      "target": "entity:corporation-tax-computation",
+      "type": "exemplifies",
+      "direction": "forward",
+      "weight": 0.9
+    },
+    {
+      "source": "article:C13_Corp_TX",
+      "target": "claim:corporation-tax-is-computation-hub",
+      "type": "builds_on",
+      "direction": "forward",
+      "weight": 0.9
+    },
+    {
+      "source": "article:C14_COMP_LOS",
+      "target": "entity:company-loss-relief",
+      "type": "exemplifies",
+      "direction": "forward",
+      "weight": 0.9
+    },
+    {
+      "source": "article:C14_COMP_LOS",
+      "target": "claim:company-losses-operate-across-periods-and-groups",
+      "type": "builds_on",
+      "direction": "forward",
+      "weight": 0.9
+    },
+    {
+      "source": "article:C15_Groups",
+      "target": "entity:corporate-group",
+      "type": "exemplifies",
+      "direction": "forward",
+      "weight": 0.9
+    },
+    {
+      "source": "article:C15_Groups",
+      "target": "claim:group-taxation-links-relief-assets-and-planning",
+      "type": "builds_on",
+      "direction": "forward",
+      "weight": 0.9
+    },
+    {
+      "source": "article:C16_TX_ADM_CORP",
+      "target": "entity:corporate-tax-administration",
+      "type": "exemplifies",
+      "direction": "forward",
+      "weight": 0.9
+    },
+    {
+      "source": "article:C16_TX_ADM_CORP",
+      "target": "claim:corporate-administration-supports-computation",
+      "type": "builds_on",
+      "direction": "forward",
+      "weight": 0.9
+    },
+    {
+      "source": "article:C17_CGT",
+      "target": "entity:capital-gains-framework",
+      "type": "exemplifies",
+      "direction": "forward",
+      "weight": 0.9
+    },
+    {
+      "source": "article:C17_CGT",
+      "target": "claim:standard-cgt-framework-precedes-special-cases",
+      "type": "builds_on",
+      "direction": "forward",
+      "weight": 0.9
+    },
+    {
+      "source": "article:C18_CGT_Special",
+      "target": "entity:special-capital-gains-treatment",
+      "type": "exemplifies",
+      "direction": "forward",
+      "weight": 0.9
+    },
+    {
+      "source": "article:C18_CGT_Special",
+      "target": "claim:special-cgt-interacts-with-shares-and-reliefs",
+      "type": "builds_on",
+      "direction": "forward",
+      "weight": 0.9
+    },
+    {
+      "source": "article:C18_CGT_Special",
+      "target": "claim:standard-cgt-framework-precedes-special-cases",
+      "type": "builds_on",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "article:C13_Corp_TX",
+      "target": "claim:corporation-tax-is-computation-hub",
+      "type": "exemplifies",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "article:C14_COMP_LOS",
+      "target": "entity:corporate-group",
+      "type": "related",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "article:C15_Groups",
+      "target": "entity:company-loss-relief",
+      "type": "related",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "article:C16_TX_ADM_CORP",
+      "target": "entity:corporation-tax-computation",
+      "type": "related",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "article:C17_CGT",
+      "target": "entity:special-capital-gains-treatment",
+      "type": "related",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "article:C18_CGT_Special",
+      "target": "entity:capital-gains-framework",
+      "type": "builds_on",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "article:C19_CGT_SH",
+      "target": "article:C20_CGT_Relief",
+      "type": "builds_on",
+      "direction": "forward",
+      "weight": 0.86,
+      "inferredEntities": [
+        "share disposals",
+        "share reorganisations",
+        "capital-gains reliefs"
+      ],
+      "claim": "Share transactions may require relief analysis in addition to the ordinary gains computation."
+    },
+    {
+      "source": "article:C20_CGT_Relief",
+      "target": "article:C21_CG_Corp",
+      "type": "builds_on",
+      "direction": "forward",
+      "weight": 0.8,
+      "inferredEntities": [
+        "capital-gains reliefs",
+        "chargeable gains of companies"
+      ],
+      "claim": "Relief conditions can be relevant when gains arise to companies."
+    },
+    {
+      "source": "article:C22_Inherit",
+      "target": "article:C20_CGT_Relief",
+      "type": "builds_on",
+      "direction": "forward",
+      "weight": 0.76,
+      "inferredEntities": [
+        "transfers and estates",
+        "capital-gains reliefs"
+      ],
+      "claim": "Inheritance-tax revision intersects with relief concepts and transfer analysis."
+    },
+    {
+      "source": "article:C23_VAT",
+      "target": "article:C24_VAT_OS",
+      "type": "builds_on",
+      "direction": "forward",
+      "weight": 0.95,
+      "inferredEntities": [
+        "taxable supplies",
+        "output tax and input tax",
+        "place of supply"
+      ],
+      "claim": "Special and overseas VAT issues extend the VAT fundamentals."
+    },
+    {
+      "source": "article:C24_VAT_OS",
+      "target": "article:C01_TX_SYS",
+      "type": "builds_on",
+      "direction": "forward",
+      "weight": 0.7,
+      "inferredEntities": [
+        "place of supply"
+      ],
+      "claim": "Place-of-supply rules illustrate the distinction between direct and indirect tax treatment."
+    },
+    {
+      "source": "article:Study_Workflow",
+      "target": "article:Exam_Connections",
+      "type": "builds_on",
+      "direction": "forward",
+      "weight": 0.96,
+      "inferredEntities": [
+        "mixed exam questions"
+      ],
+      "claim": "The staged study workflow culminates in integrated exam practice."
+    },
+    {
+      "source": "article:Exam_Connections",
+      "target": "article:C23_VAT",
+      "type": "exemplifies",
+      "direction": "forward",
+      "weight": 0.8,
+      "inferredEntities": [
+        "taxpayer and tax classification"
+      ],
+      "claim": "VAT questions exemplify the need to classify the taxpayer, transaction, liability, and compliance rules."
+    },
+    {
+      "source": "article:Exam_Connections",
+      "target": "article:C19_CGT_SH",
+      "type": "exemplifies",
+      "direction": "forward",
+      "weight": 0.8,
+      "inferredEntities": [
+        "taxpayer and tax classification"
+      ],
+      "claim": "Share-disposal questions require classification, computation, relief selection, and administrative checks."
+    },
+    {
+      "source": "article:Exam_Connections",
+      "target": "article:C22_Inherit",
+      "type": "exemplifies",
+      "direction": "forward",
+      "weight": 0.75,
+      "inferredEntities": [
+        "taxpayer and tax classification",
+        "transfers and estates"
+      ],
+      "claim": "Inheritance-tax questions fit the same classify, compute, relieve, and check workflow."
+    }
+  ],
+  "layers": [
+    {
+      "id": "layer:foundations-and-administration",
+      "name": "Foundations and administration",
+      "description": "Foundations and administration (18 nodes)",
+      "nodeIds": [
+        "article:C01_TX_SYS",
+        "article:C02_IT_ILIB",
+        "article:C03_ADD_ASS",
+        "article:C12_TX_ADMN",
+        "topic:foundations-and-administration",
+        "entity:uk-tax-system",
+        "entity:direct-taxes",
+        "entity:indirect-taxes",
+        "entity:hmrc",
+        "claim:tax-system-classifies-taxes",
+        "entity:income-tax",
+        "entity:taxable-income",
+        "claim:income-tax-liability-starts-with-taxable-income",
+        "entity:assessment",
+        "claim:assessment-establishes-or-corrects-liability",
+        "claim:administration-follows-substantive-computation",
+        "entity:individual-tax-administration",
+        "claim:individual-administration-is-process-oriented"
+      ]
+    },
+    {
+      "id": "layer:income-taxes",
+      "name": "Income taxes",
+      "description": "Income taxes (22 nodes)",
+      "nodeIds": [
+        "article:C04_Prop_TA",
+        "article:C05_Emp_Inc",
+        "article:C06_Pension",
+        "article:C07_INC_SELF_EP",
+        "article:C09_Partner",
+        "article:C10_TL_IND",
+        "article:C11_NIC",
+        "topic:income-taxes",
+        "entity:property-income",
+        "entity:employment-income",
+        "entity:national-insurance-contributions",
+        "claim:employment-tax-treatment-separates-remuneration-and-expenses",
+        "claim:nic-interacts-with-earned-income",
+        "entity:pension-income",
+        "entity:trading-income",
+        "claim:self-employment-profit-is-adjusted-from-accounts",
+        "entity:partnership-profits",
+        "claim:partnership-results-allocated-to-partners",
+        "entity:individual-tax-liability",
+        "claim:income-sources-feed-individual-liability",
+        "entity:self-employment-income",
+        "claim:nic-connects-income-and-liability"
+      ]
+    },
+    {
+      "id": "layer:corporate-and-group-taxation",
+      "name": "Corporate and group taxation",
+      "description": "Corporate and group taxation (13 nodes)",
+      "nodeIds": [
+        "article:C13_Corp_TX",
+        "article:C14_COMP_LOS",
+        "article:C15_Groups",
+        "article:C16_TX_ADM_CORP",
+        "topic:corporate-and-group-taxation",
+        "entity:corporation-tax-computation",
+        "claim:corporation-tax-is-computation-hub",
+        "entity:company-loss-relief",
+        "claim:company-losses-operate-across-periods-and-groups",
+        "entity:corporate-group",
+        "claim:group-taxation-links-relief-assets-and-planning",
+        "entity:corporate-tax-administration",
+        "claim:corporate-administration-supports-computation"
+      ]
+    },
+    {
+      "id": "layer:capital-gains-tax",
+      "name": "Capital gains tax",
+      "description": "Capital gains tax (10 nodes)",
+      "nodeIds": [
+        "article:C17_CGT",
+        "article:C18_CGT_Special",
+        "article:C19_CGT_SH",
+        "article:C20_CGT_Relief",
+        "article:C21_CG_Corp",
+        "topic:capital-gains-tax",
+        "entity:capital-gains-framework",
+        "claim:standard-cgt-framework-precedes-special-cases",
+        "entity:special-capital-gains-treatment",
+        "claim:special-cgt-interacts-with-shares-and-reliefs"
+      ]
+    },
+    {
+      "id": "layer:inheritance-tax",
+      "name": "Inheritance tax",
+      "description": "Inheritance tax (2 nodes)",
+      "nodeIds": [
+        "article:C22_Inherit",
+        "topic:inheritance-tax"
+      ]
+    },
+    {
+      "id": "layer:vat",
+      "name": "VAT",
+      "description": "VAT (3 nodes)",
+      "nodeIds": [
+        "article:C23_VAT",
+        "article:C24_VAT_OS",
+        "topic:vat"
+      ]
+    },
+    {
+      "id": "layer:study-workflow",
+      "name": "Study workflow",
+      "description": "Study workflow (3 nodes)",
+      "nodeIds": [
+        "article:Study_Workflow",
+        "article:Exam_Connections",
+        "topic:study-workflow"
+      ]
+    }
+  ],
+  "tour": [
+    {
+      "order": 1,
+      "title": "Foundations and administration",
+      "description": "Explore the Foundations and administration section (4 articles)",
+      "nodeIds": [
+        "article:C01_TX_SYS",
+        "article:C02_IT_ILIB",
+        "article:C03_ADD_ASS"
+      ]
+    },
+    {
+      "order": 2,
+      "title": "Income taxes",
+      "description": "Explore the Income taxes section (7 articles)",
+      "nodeIds": [
+        "article:C04_Prop_TA",
+        "article:C05_Emp_Inc",
+        "article:C06_Pension"
+      ]
+    },
+    {
+      "order": 3,
+      "title": "Corporate and group taxation",
+      "description": "Explore the Corporate and group taxation section (4 articles)",
+      "nodeIds": [
+        "article:C13_Corp_TX",
+        "article:C14_COMP_LOS",
+        "article:C15_Groups"
+      ]
+    },
+    {
+      "order": 4,
+      "title": "Capital gains tax",
+      "description": "Explore the Capital gains tax section (5 articles)",
+      "nodeIds": [
+        "article:C17_CGT",
+        "article:C18_CGT_Special",
+        "article:C19_CGT_SH"
+      ]
+    },
+    {
+      "order": 5,
+      "title": "Inheritance tax",
+      "description": "Explore the Inheritance tax section (1 articles)",
+      "nodeIds": [
+        "article:C22_Inherit"
+      ]
+    },
+    {
+      "order": 6,
+      "title": "VAT",
+      "description": "Explore the VAT section (2 articles)",
+      "nodeIds": [
+        "article:C23_VAT",
+        "article:C24_VAT_OS"
+      ]
+    },
+    {
+      "order": 7,
+      "title": "Study workflow",
+      "description": "Explore the Study workflow section (2 articles)",
+      "nodeIds": [
+        "article:Study_Workflow",
+        "article:Exam_Connections"
+      ]
+    }
+  ]
+}
