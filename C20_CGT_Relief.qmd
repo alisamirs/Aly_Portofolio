@@ -1320,10 +1320,9 @@ Calculate the amount of Fred’s chargeable gain and the amount that can be held
 
 ## Objective Test (OT) questions
 
-### Q1: Rollover Relief ROR 
 
 :::{.callout}
-
+### Q1: Rollover Relief ROR 
 Kalid purchased a freehold building in September 1999 and sold it for **£550,000** in May 2025, generating a capital gain of **£290,000**. He purchased a new building in February 2026 for **£515,000**.         
 Both buildings were used in his sole trader business.     
 
@@ -1336,9 +1335,9 @@ D. £0
 
 :::
 
-### Q2: Private Residence Relief PRR - period of her occupation
 
 :::{.callout}
+### Q2: Private Residence Relief PRR - period of her occupation
 Martha has owned her house since 1 January 2014. She moved in as soon as she bought it and occupied it until 1 January 2015 when she left to travel the world. Whilst travelling, she got married and moved to London and did not reoccupy the property. She sold the house on 1 January 2026. 
 
 In calculating the amount of ***private residence relief*** available to Martha, what is the **period of her occupation**?         
@@ -1353,9 +1352,9 @@ D. 12 months
 
 :::
 
-### Q3: Rollover Relief ROR
 
 :::{.callout}
+### Q3: Rollover Relief ROR
 Leon is a sole trader. He sold a factory in December 2025 which he had used in his business since 2009. 
 
 Leon can claim to rollover the gain on the factory against which of the following? 
@@ -1367,9 +1366,9 @@ D. The purchase of a new forklift truck in December 2025 for use in Leon's trade
 
 :::
 
-### Q4: CGT - BADR
 
 :::{.callout}
+### Q4: CGT - BADR
 Josefine has taxable income of £18,200 for the tax year 2025/26. She also has capital gains of **£17,000** on quoted shares not qualifying for business asset disposal (BADR) relief and **£40,000** of gains qualifying for BADR relief. 
 
 What is her capital gains tax liability for the tax year 2025/26? 
@@ -1383,9 +1382,9 @@ C. £8,660
 
 :::
 
-### Q5: Gift Relief GR
 
 :::{.callout}
+### Q5: Gift Relief GR
 Paul gives an antique vase to his son for his birthday. It has a market value of £7,000. 
 
 Which of the following reliefs are available, if any? 
@@ -1399,9 +1398,9 @@ C. Gift holdover relief
 
 :::
 
-#### Q6: Available reliefs
 
 :::{.callout}
+### Q6: Available reliefs
 On 5 July 2025 David **subscribed** for new ordinary shares in Gardening Ltd, an **unquoted trading company**. He [works for the company and his shareholding represents 4%]{style="color: Darkred;"} of the company’s ordinary shares. He intends to continue working for the company and to own the shares for the next 10 years when he will give the shares to his daughter. 
 
 Which of the following reliefs are available? 
@@ -1415,6 +1414,447 @@ D. None of the above
 
 :::
 
+:::{.callout}
+### Q7: CGT Different Bands
+Naomi realised a chargeable gain of £20,700 in the tax year 2025/26. The gain related to the disposal of a residential property held for investment purposes and did not qualify for business asset disposal relief.
+
+In the tax year 2025/26, Naomi had taxable income of £29,700 and she contributed £2,000 (net) into her personal pension scheme. 
+
+What is Naomi's capital gains tax liability for the tax year 2025/26? 
+
+**A. £3,618**     
+B. £4,338     
+C. £3,768     
+D. £4,488     
+
+> (8000+(2000 × 100/80)) × 0.18+((20700-3000-(2000 × 100/80))-8000) × 0.24
+
+:::
+
+:::{.callout}
+### Q8: Chargeable Assests
+Massita is planning to dispose of several assets and wants to avoid any capital gains tax liability. He is unsure which of his assets to sell and which to retain. 
+
+Which TWO of the following assets would potentially realise a chargeable gain? 
+
+A. Qualifying corporate bonds        
+**B. Painting by a famous artist**        
+C. Gilt-edged securities     
+D. Main residence that he has always lived in     
+**E. A machine used in his trade, on which he has claimed capital allowances and which would be sold for £22,000 and realise a profit**     
+F. A car used in his trade, on which he has claimed capital allowances and which would be sold for £15,000 and realise a profit     
+
+:::
+
+:::{.callout}
+### Q9: Exempt Assets
+Which of the following gifts made by an individual is exempt from capital gains tax? 
+
+**A. Gift of a motor boat valued at £10,000 (cost £5,000) to an aunt**        
+B. Gift of shares in an unquoted company valued at £2,500 (original cost £1,800) to a brother        
+C. Gift of antique jewellery valued at £6,800 (cost £3,200) to a sister        
+D. Gift of land valued at £120,000 (original cost £90,000) to a nephew       
+
+:::
+
+:::{.callout}
+### Q10: Spouses transfers No gain / No Loss
+Jackson acquired a holiday villa for £115,000 on 1 May 2014. He gave it to his wife Sophia on 30 September 2020 when it was worth £100,000. Sophia sold the villa for £159,000 on 1 July 2025. The villa was never the couple’s main home.             
+Sophia had no other capital disposals in the tax year 2025/26 and has capital losses brought forward of £4,300. Her taxable income for the tax year 2025/26 is £60,000.  
+
+What is Sophia’s capital gains tax payable in the tax year 2025/26? 
+
+**8,808**
+
+> (159000-115000-3000-4300) × 0.24
+
+> A transfer between spouses is a no gain/no loss transfer. Sophia’s deemed acquisition cost is equal to the deemed proceeds on the transfer from her husband. This is equal to his acquisition cost. 
+
+:::
+
+:::{.callout}
+### Q11: CGT BRB & AEA
+Brian had the following income and chargeable gains for the tax year 2025/26:
+
+|                                         | £        |
+|-----------------------------------------|----------|
+| Employment income                       | 43,000   |
+| Chargeable gain from the sale of an antique vase | 8,700    |
+
+**What is Brian's capital gains tax liability for the tax year 2025/26?**
+
+A. £1,652  
+B. £2,088  
+**C. £1,026**  
+D. £1,368
+
+> Basic Band available: 37700-(43000-12570) = 7,270
+
+> CG: 8,700 - 3,000 = 5,700 --> Rest within Basic rate band
+
+> CGT: 5,700 × 0.18 = 1,026
+
+:::
+
+:::{.callout}
+### Q12: (CGT) planning
+Putting an asset into joint names with a spouse (or a partner in a registered civil partnership) prior to the asset’s disposal can be sensible capital gains tax (CGT) planning. 
+
+Which of the following CANNOT be achieved as a direct result of using this type of tax planning? 
+
+A. Making the best use of annual exempt amounts       
+**B. Deferring the CGT due date**       
+C. Reducing the amount of CGT payable       
+D. Making the best use of capital losses      
+
+:::
+
+:::{.callout}
+### Q13: Capital losses
+Which TWO of the following statements about allowable capital losses for an individual are true?
+
+**A. The annual exempt amount is deducted before any brought forward capital losses are utilised against current year gains**       
+B. Current year capital losses remaining after offset against current year chargeable gains can always be offset against current year income       
+C. The annual exempt amount is deducted before any current year capital losses are utilised against current year gains       
+**D. Excess current year capital losses are carried forward indefinitely until future chargeable gains arise**      
+
+:::
+
+:::{.callout}
+### Q14: Chattels with OS < 6k
+Noah sold two paintings at an auction on 14 May 2025 for £4,000 and £7,200 respectively. He had purchased the two paintings for £1,000 each on 22 May 2013.  
+
+What is Noah’s total chargeable gain arising on the sale of the two paintings?  
+
+**2,000**
+
+> 4k < 6k --> Exempt 
+
+> 7,200 > 6k --> Can't exceed --> 5/3 × (7,200 - 6,000) = 2,000 < 6,200 = (7,200 - 1,000)
+
+:::
+
+:::{.callout}
+### Q15: Chattels - Non-wasting chattel, OS > 6k And Sold < 6k
+Liam purchased an antique glass vase for £22,000 on 30 March 2009, incurring legal fees of £800.     
+The market for antique glassware has since slumped and Liam sold the vase for £5,500 on 1 January 2026 incurring auctioneer fees of £300.  
+
+What is Liam’s allowable loss on this disposal? 
+
+A. £16,000     
+B. £16,800     
+**C. £17,100**     
+D. £17,600  
+
+> (22000+800) - (6000-300)
+
+> If a non-wasting chattel cost more than £6,000 but is sold for £6,000 or less, the allowable loss is calculated using deemed gross sale proceeds of £6,000. 
+
+:::
+
+:::{.callout}
+### Q16: Carry forward Capital losses 
+For the tax year 2025/26, Nog has a chargeable gain of £17,400 and a capital loss of £10,100. She has unused capital losses of £5,300 brought forward from the tax year 2024/25. 
+
+What amount of capital losses can Nog carry forward to the tax year 2026/27?  
+
+**1,000**
+
+> 17,400 - 10,100 - 3,000 - 5,300
+
+:::
+
+:::{.callout}
+### Q17: CG Copyright
+On 31 March 2026, Jessica sold a copyright for £28,800. The copyright had been purchased on 1 April 2020 for £21,000 when it had an unexpired life of 15 years. 
+
+What is Jessica’s chargeable gain in respect of the disposal of the copyright? 
+
+A. £0          
+B. £20,400          
+**C. £16,200**          
+D. £7,800          
+
+| Sale proceeds                                     | £        |
+|---------------------------------------------------|----------|
+| Less: Allowable element of acquisition cost (W)   | (12,600) |
+| **Chargeable gain**                                | **16,200** |
+
+| Remaining life at disposal      | 9 years |
+|---------------------------------|---------|
+| Estimated useful life           | 15 years |
+| Allowable cost = £21,000 × 9/15 | **£12,600** |
+
+:::
+
+:::{.callout}
+### Q18: CG PRT DISPOSAL
+Aiden bought 30 hectares of land on 1 March 2017 for £300,000.       
+On 1 March 2020 he sold 10 hectares of the land for £150,000. At this time the remaining land was worth £250,000.    
+On 1 January 2026 Aiden sold the remaining hectares for £425,600.    
+
+Identify Aiden’s chargeable gain and the due date for the capital gains tax payable thereon. 
+
+**238.1K**
+
+***31 January 2027***
+
+> 150 - (300 × 150/400) = 37.5K
+
+> 425.6 - 187.5 = 238.1K
+
+:::
+
+:::{.callout}
+### Q19: Disposal of the copyright
+Habib purchased a copyright on 30 April 2009 for £31,320. The remaining life of the copyright at the date of purchase was 30 years. On 30 April 2025, Habib sold the copyright for £27,900. 
+
+What is Habib’s chargeable gain or allowable loss for the tax year 2025/26 in respect of the disposal of the copyright? 
+
+A. (£3,420)        
+B. £11,196        
+C. £0        
+**D. £13,284**       
+
+> 27900-(31320*14/30)
+
+> Remaining life = 30-16 = 14
+
+:::
+
+:::{.callout}
+### Q20: Proceeds not reinvested
+Lotte purchased a freehold warehouse on 24 November 2020 for £52,000. On 30 June 2025, the warehouse was destroyed in a fire.          
+On 28 August 2025, Lotte received insurance proceeds of £71,000. She spent £64,000 of the proceeds on a replacement warehouse on 29 January 2026.  
+
+Assuming that, as far as possible, Lotte claims to defer any chargeable gains arising in the tax year 2025/26, calculate the carried forward base cost of the new warehouse purchased on 29 January 2026.   
+
+A. £45,000       
+**B. £52,000**       
+C. £57,000       
+D. £64,000       
+
+> (71,000-64,000)-(71,000-52,000) = -12k
+
+> 54k-12k = 52k
+
+:::
+
+:::{.callout}
+### Q21: Cost of Replacement   
+On 10 January 2026, a freehold property owned by Winifred was damaged by a fire. The property had been purchased on 29 May 2012 for £73,000. Winifred received insurance proceeds of £37,200 on 23 February 2026, and she spent a total of £41,700 during March 2026 restoring the property. Winifred has elected to disregard the part disposal. 
+
+What is the base cost of the restored freehold property for capital gains tax purposes? 
+
+A. £68,500      
+**B. £77,500**      
+C. £114,700      
+D. £35,800
+
+:::
+
+:::{.callout}
+### Q22: Lifetime IHT
+Madison gave 10,000 shares in Miles plc to her daughter during the tax year 2025/26. The shares were quoted in the Stock Exchange Official List at 120p – 136p per share on the day of the sale.         
+Madison acquired 15,000 shares in Miles plc on 1 January 2020 for £4,000. 
+
+What is the chargeable gain on the gift of the 10,000 shares?  
+
+|                                                | £        |
+|------------------------------------------------|----------|
+| Sales proceeds (W) 10,000 × 128p               | 12,800   |
+| Cost (£4,000 × 10,000/15,000)                  | (2,667)  |
+| **Chargeable gain**                            | **10,133** |
+
+---
+
+**Working: Average of quoted prices**
+
+| (120p + 136p) ÷ 2                              | **128p** |
+
+:::
+
+:::{.callout}
+### Q23: Gilts and Shares
+Clarissa has disposed of the following shares and securities during the tax year 2025/26: 
+
+1. Gilts for £8,000 which were purchased in 2023 for £2,500.  
+2. 20,000 shares in Martin plc sold to her sister for £7,000. 
+ 
+The market value of the shares on the day of the sale was £12,300.      
+The shares were purchased for £8,000 in February 2023. 
+
+What is Clarissa’s total chargeable gain on these disposals in the tax year 2025/26? 
+
+A. £4,500       
+**B. £4,300**       
+C. £5,500       
+D. £9,800       
+
+:::
+
+:::{.callout}
+### Q25: Investors’ relief (IR)
+In February 2026 Siobhan, a higher rate taxpayer, sold shares in Banana Ltd, a trading company.  She realised a gain of £36,000. Siobhan acquired the newly issued shares in July 2022.          
+
+Siobhan has never worked at Banana Ltd, nor has she made any previous share disposals. 
+
+What is the capital gains tax liability arising on the disposal of the shares in February 2026 assuming all available reliefs are claimed and Siobhan makes no other disposals in the tax year 2025/26?
+
+**4,620**
+
+> (36000-3000)*0.14
+
+> The gain on the shares is taxed at 14% as the disposal is eligible for Investors’ relief (IR). 
+
+:::
+
+:::{.callout}
+### Q26: Share as Part Disposal as a result of the takeover 
+Hunter purchased 50,000 shares in Grayson Ltd for £90,000 on 30 May 2014.  
+
+On 1 November 2025 Grayson Ltd was taken over by Riley plc. Grayson Ltd shareholders received £3 cash and 2 Riley plc ordinary £1 shares for every Grayson Ltd share. Immediately after takeover Riley plc shares were worth £1.20 each. 
+
+What is Hunter’s chargeable gain as a result of the takeover?
+
+**100,000** 
+
+![](20260903214953.png)
+
+:::
+
+:::{.callout}
+### Q27: Qualifying months of occupation
+On 31 March 2026, Angus sold a house, which he had bought on 31 March 2012.    
+
+Angus occupied the house as his main residence until 31 March 2017, when he left for employment abroad. 
+
+Angus returned to the UK on 1 April 2019 and lived in the house until 31 March 2020, when he bought a flat in a neighbouring town and made that his main private residence. 
+
+What is Angus’ total number of qualifying months of occupation for private residence relief on the sale of the house? 
+
+A. 72 months      
+B. 63 months      
+**C. 105 months**      
+D. 96 months     
+
+![](20260903220125.png)
+
+:::
+
+:::{.callout}
+### Q26: Private Residence Relief PRR
+Masuma sold her only home and realised a gain before reliefs of £120,000. She had used six of the ten rooms herself and let out the other four for the duration of her ownership. 
+
+What is her chargeable gain, assuming she claims all available reliefs? 
+
+**8,000**
+
+|                                                         | £        |
+|---------------------------------------------------------|----------|
+| Chargeable gain before reliefs                          | 120,000  |
+| Less: PRR (£120,000 × 6/10)                             | (72,000) |
+| Less: Letting relief (W)                                | (40,000) |
+| **Chargeable gain**                                     | **8,000**|
+
+---
+
+**Working: Letting relief**
+
+Lowest of:
+
+1. Maximum = £40,000  
+2. PRR = £72,000  
+3. Gain on letting = £48,000  
+
+**Letting relief = £40,000**
+
+:::
+
+:::{.callout}
+### Q27: Rollover relief
+
+The disposal of which TWO of the following assets qualifies for rollover relief? 
+
+A. A portable sewing machine used by a sole trader in the business           
+B. Shares in an individual’s personal trading company           
+**C. Land used by a sole trader in the business**           
+D. Shares in the company of which the individual is an employee           
+E. A building owned by a company and let out to other businesses           
+**F. The goodwill in a sole trader’s business**          
+
+> Only fixed (i.e. not movable) plant and machinery qualifies for rollover relief. 
+
+> Goodwill qualifies for rollover relief provided it is disposed of by a sole trader and not a company.
+
+:::
+
+:::{.callout}
+### Q28: Rollover relief cost of the replacement
+Alice is in business as a sole trader. On 13 May 2025, she sold a freehold warehouse for £184,000, and this resulted in a chargeable gain of £38,600. 
+
+Alice purchased a replacement freehold warehouse on 20 May 2025 for £143,000.     
+Where possible, Alice always makes a claim to roll over gains against the cost of replacement assets. Both buildings have been, or will be, used for business purposes by Alice. 
+
+What is the base cost of the replacement warehouse for capital gains tax purposes? 
+
+A. £181,600        
+B. £104,400        
+**C. £143,000**        
+D. £102,000        
+
+:::
+
+:::{.callout}
+### Q29: Rollover relief
+
+In October 2014 Hitesh sold a factory for £230,574 and realised a gain of £31,083.  
+
+In May 2015 he bought a warehouse for £231,211. He then sold the warehouse in December 2025 for £270,213.       
+Both of the buildings were used for the purposes of his sole trader business. 
+
+What is the chargeable gain arising on the disposal of the warehouse in December 2025 assuming all available reliefs are claimed? 
+
+**70,085**
+
+> 270,213-(231,211-31,083)
+
+:::
+
+:::{.callout}
+### Q30: Holdover relief
+
+Daniel has had a 30% share in a manufacturing partnership since 2019. He intends to dispose of his entire interest in the partnership in the tax year 2025/26 by selling it to his son for less than its market value. 
+
+Daniel has also been a director and 10% shareholder in an unquoted investment (non trading) company since 2015. He has decided to gift his shares to his daughter in the tax year 2025/26. 
+
+Which of the following statements is true? 
+
+**A. Gift holdover relief is available on the disposal of the interest in the partnership but not on the shares**        
+B. Gift holdover relief is available on the disposal of the shares but not the interest in the partnership        
+C. Gift holdover relief is available on both disposals        
+D. Gift holdover relief is available on neither disposal        
+
+---
+
+Anika sold her entire holding of 3,000 £1 ordinary shares in Distribo Ltd, a trading company, to her son, Hemi, for £53,000 on 14 July 2025. The market value of the shares on that date was £98,000. Anika had purchased the 3,000 shares on 28 October 2012 for £41,500. She has never worked for Distribo Ltd. 
+
+What is the amount of gift (holdover) relief (if any) which could be claimed in respect of the disposal of these shares? 
+
+A. £0      
+B. £11,500      
+**C. £45,000**      
+D. £56,500     
+
+![](20260904074912.png)
+
+:::
+
+:::{.callout}
+
+
+
+:::
 
 ## Objective Test Cases (OTC)
 
@@ -1431,9 +1871,9 @@ During the tax year 2025/26 Charles made a gift aid donation of £800 (gross) to
 
 Charles has been a member of a personal pension scheme since May 2023. He made a gross contribution of £45,000 in the tax year 2023/24 but has not made any subsequent contributions. 
 
-#### Q1.1: Nil frist 5k Band and Nil Saving band  
 
 :::{.callout}
+#### Q1.1: Nil frist 5k Band and Nil Saving band  
 
 **What is Philip’s income tax liability for the tax year 2025/26?** 
 
@@ -1446,9 +1886,9 @@ D. £3,406
 
 :::
 
-#### Q1.2: PA Tampering 
 
 :::{.callout}
+#### Q1.2: PA Tampering 
 
 **Charles is entitled to a personal allowance of £__________ for the tax year 2025/26.**     
 Select the appropriate answer from the options below. 
@@ -1462,9 +1902,9 @@ C. £6,870
 
 :::
 
-#### Q1.3: Class 4 NIC
 
 :::{.callout}
+#### Q1.3: Class 4 NIC
 
 **What is the amount of class 4 national insurance liability in respect of Charles for the tax year 2025/26?** 
 
@@ -1474,9 +1914,9 @@ C. £6,870
 
 :::
 
-#### Q1.4: Available Annual Allowance AA
 
 :::{.callout}
+#### Q1.4: Available Annual Allowance AA
 
 What was the total available annual allowance available to Charles for pension contribution purposes in the tax year 2025/26? 
 
@@ -1487,19 +1927,434 @@ D. £75,000
 
 > Charles has been a member of a personal pension scheme since May 2023.
 
-- Tax year 2023/24 b/f AA: 60,000 - 45,000 = 15,000
-- Tax year 2024/25 b/f AA: 60,000
+- Tax year 2023/24 c/f AA: 60,000 - 45,000 = 15,000
+- Tax year 2024/25 c/f AA: 60,000
 - Tax year 2025/26 AA: 60,000 + 60,000 + 15,000 = **135,000**
 
 :::
 
-#### Q1.5:
 
-:::{}
+:::{.callout}
+#### Q1.5: PPP
 
+Charles had considered making **payments of £6,880** into a personal pension scheme during the tax year 2025/26.
 
+For each of the following statements select whether it would be true or false if he had made such a contribution:
+
+| Statement                                                                 | True | False |
+|---------------------------------------------------------------------------|------|-------|
+| His basic rate band for the tax year 2025/26 would have been increased by £8,600 in relation to this contribution | O    | □     |
+| His taxable income for the tax year 2025/26 would have been reduced by £8,600 | □    | O     |
+| HM Revenue & Customs would have paid £1,376 into the pension fund on his behalf | □    | O     |
+| His personal allowance would have increased by £4,300 in the tax year 2025/26 | O    | □     |
 
 :::
+
+### Q2: KIM BAXTER
+
+Kim is employed as a sales person by Sharp-Suit plc. During the tax year 2025/26 her employment package included the following benefits:
+
+**1. Mileage Allowance**
+
+During the period from 1 June 2025 to 5 April 2026 Kim used her private car for business and private purposes. She received 36p for each business mile travelled from Sharp-Suit plc.  
+
+Kim’s mileage during this period was as follows:
+
+| Description | Miles |
+|---|---|
+| Normal daily travel between home and permanent workplace | 3,400 |
+| Travel between permanent workplace and Sharp-Suit plc’s customers | 9,200 |
+| Travel between home and a temporary workplace for one month | 1,300 |
+
+**2. On 1 June 2025 Sharp-Suit plc provided Kim with a loan of £14,600, at an annual interest rate of 2.25%, so that she could purchase a new car.**
+
+**3. On 6 April 2025 Kim purchased a television from Sharp-Suit plc for £50 when its market value was £200. The company had purchased the television for £800 on 6 April 2024 and Kim had used it at home since that date.**
+
+Kim’s total employment income, including the above benefits/deductions, for the tax year 2025/26 was £25,650.
+
+**Other information**           
+During the tax year 2025/26 Kim paid interest of £140 on a personal loan, taken out on 1 January 2025, to purchase a laptop computer for use in her employment with Sharp-Suit plc. 
+
+She also paid a charitable contribution of £800 under the gift aid scheme. She had no other sources of income. 
+
+Kim’s husband Richard stays at home to look after their children while Kim is at work. Richard’s only income in the tax year 2025/26 was savings income of £11,700.
+
+
+:::{.callout}
+#### Q2.1: Millage Allowance
+
+What effect will the use of her car for business purposes have on Kim’s taxable employment income in the tax year 2025/26? 
+
+> AMA: (10,000 * 0.45) + (500 * 0.25) = 4,625
+
+> Benefit: 10,500 * 0.36 = 3,780
+
+> Allowable Deduction = 3,780 - 4,625 = -845
+
+:::
+
+
+:::{.callout}
+#### Q2.2: Beneficial Loan
+
+What is the taxable benefit in respect of the loan from Kim’s employer for the tax year 2025/26? 
+
+A. £219       
+B. £456       
+C. £274       
+**D. £182**      
+
+> 14600 * (0.0375-0.0225) * 10/12
+
+:::
+
+
+:::{.callout}
+#### Q2.3: Use and Transfer of Asset
+
+**What is the taxable benefit in respect of the purchase of the television from SharpSuit plc in the tax year 2025/26?** 
+
+| Higher of:                                            | £        |
+|-------------------------------------------------------|----------|
+| - **Market value when gifted**                        | **200**  |
+| Market value when first made available                | 800      |
+| Less: Use of asset benefit:                           |          |
+| 2024/25 (£800 × 20%)                                  | (160)    |
+| - **Deemed market value at time of transfer**         | **640**  |
+| Less: Price paid                                      | (50)     |
+| **Taxable benefit**                                   | **590**  |
+
+:::
+
+
+:::{.callout}
+#### Q2.4: Taxable income 'Net of Intrest paid and PA'
+
+**What is the amount of Kim’s taxable income for the tax year 2025/26?**  
+
+**A. £12,940**           
+B. £13,080           
+C. £25,510           
+D. £25,650           
+
+|                                         | £        |
+|-----------------------------------------|----------|
+| Employment income = total income        | 25,650   |
+| Less: Relief for interest paid (Note)   | (140)    |
+| **Net income**                          | 25,510   |
+| Less: PA                                | (12,570) |
+| **Taxable income**                      |**12,940**|
+
+:::
+
+
+:::{.callout}
+#### Q2.5: Marriage Allowance MA
+
+**Assuming that Kim and Richard make a marriage allowance election in respect of the tax year 2025/26, match the correct tax impact to each individual.**
+
+**Kim Income tax liability reduced by £252**
+
+> Making the election reduces Richard's Personal Allowance by £1,260 (from £12,570 down to £11,310). This leaves him with a small amount of taxable income of 390. However, because Richard has no non-savings income, this £390 falls entirely within the Starting Rate for Savings band.
+
+:::
+
+
+### Q3: DILL
+
+On 6 April 2024 Dill started employment with Herb plc as the IT manager. She also set up a small technology business, which she ran on a self-employed basis, but this business failed and Dill ceased self-employment on 5 April 2026. The following information is available for the tax year 2025/26: 
+
+**Employment** 
+
+1. During the tax years 2024/25 and 2025/26, Dill was paid a gross annual salary of £350,000.  
+2. During the tax year 2025/26, Dill contributed the maximum possible tax relievable amount into Herb plc’s money purchase occupational pension scheme. The company also contributed £15,000 on her behalf. Dill first became a member of a personal pension scheme in the tax year 2024/25 and had an unused annual allowance brought forward of £9,000.  
+3. Throughout the tax year 2025/26, Dill had the use of Herb plc’s company gym which is only open to employees of the company. The cost to Herb plc of providing this benefit was £780.  
+4. During the tax year 2025/26, Dill’s three-year-old son was provided with a place at Herb plc’s workplace nursery. The total cost to the company of providing this nursery place was £7,200 (240 days at £30 per day).  
+5. On 25 January 2026, Herb plc paid a health club membership fee of £990 for the benefit of Dill.  
+6. Dill also received various other taxable benefits during 2025/26.  
+
+Dill’s total employment income for the tax years 2024/25 and 2025/26 was **£361,990**, inclusive of the items in Notes 1 to 6 above.  
+
+**Self-employment**
+
+For the tax year 2024/25, Dill’s self-employed business did not make any profit and for the tax year 2025/26, made a tax adjusted trading loss of £58,000. Dill will claim relief for this loss against her total income for the tax year 2024/25.  
+
+**Other income** 
+
+1. On 1 November 2024, Dill received a premium bond prize of £1,000. 
+2. On 28 February 2025, Dill received interest of £1,840 on the maturity of savings certificates from NS&I (National Savings and Investments).
+
+
+:::{.callout}
+#### Q3.1: Maximum employee contribution 
+
+What was the maximum employee contribution made by Dill in the tax year 2025/26 in relation to Herb plc’s occupational pension scheme? 
+
+**A. £4,000**      
+B. £9,000      
+C. £19,000      
+D. £54,000      
+
+| Category                                                      | £        |
+|---------------------------------------------------------------|----------|
+| Brought forward annual allowance from 2024/25                 | 9,000    |
+| Current year annual allowance                                 | 10,000   |
+| Less: Employer's contribution                                 |**19,000**|
+| Less: Employer's contribution                                 | (15,000) |
+| **Maximum employee contribution**                             | **4,000**|
+
+:::
+
+
+:::{.callout}
+#### Q3.2: Employment benefits
+
+For each of the employment benefits stated in Notes 3 to 5, what is the taxable benefit for Dill for the tax year 2025/26?
+
+**990**
+
+:::
+
+
+:::{.callout}
+#### Q3.3: PA Tampered
+
+What is the amount of personal allowance that Dill is entitled to for the tax year 2025/26? 
+
+**0**
+
+:::
+
+
+:::{.callout}
+#### Q3.4: trading loss relief
+
+For each of the statements below regarding sole trader trading loss relief, select which statements are true or false.
+
+| Statement                                                                 | True | False |
+|---------------------------------------------------------------------------|------|-------|
+| The carry forward of trading losses is indefinite if the business continues to trade. | O    | □     |
+| When carrying forward trading losses, obtaining relief in a later period is advantageous from a cashflow and time value of money perspective. | □    | □     |
+| Trading loss relief against total income permits the taxpayer to relieve trading losses against the total income of the tax year of the loss, and/or previous tax year. | O    | □     |
+
+:::
+
+
+:::{.callout}
+#### Q3.5: Net income
+
+**What is Dill’s net income for the tax year 2024/25?**
+
+|                                         | £        |
+|-----------------------------------------|----------|
+| Employment income                       | 361,990  |
+| Trading income                          | 0        |
+| Premium bond prize                      | 0        |
+| Interest from savings certificate       | 0        |
+| **Total income**                        | 361,990  |
+| Less: Loss relief                       | (58,000) |
+| **Net income**                          |**303,990**|
+
+> Loss relief claimed against total income is capped at the higher of £50,000 and 25% of adjusted total income (25% × £361,990 = £90,498). Therefore there is full relief for the £58,000 loss against total income.
+
+:::
+
+### Q4: JOHN BEACH
+
+John has been employed as a sales director by Surf plc since 1 December 2002. During the tax year 2025/26 his employment package included the following:
+
+1. During the tax year 2025/26, he was paid gross director’s remuneration of **£234,000**.
+
+2. During the period 6 April to 31 October 2025, John used his private car for both private and business journeys. He was reimbursed by Surf plc at the rate of 60p per mile for the following mileage:
+
+| Description                                                                 | Miles |
+|-----------------------------------------------------------------------------|-------|
+| Normal daily travel between home and Surf plc’s offices                     | 1,180 |
+| Travel between Surf plc’s offices and the premises of Surf plc’s clients    | 4,270 |
+| Travel between home and the premises of Surf plc’s clients (none of the clients’ premises were located near the offices of Surf plc) | 510   |
+| **Total mileage reimbursed by Surf plc**                                    | **5,960** |
+
+3. During 2022 Surf plc provided John with a loan which was used to purchase a yacht. The amount of loan outstanding at 6 April 2025 was £84,000. John repaid £12,000 of the loan on 31 July 2025, and then repaid a further £12,000 on 31 December 2025. He paid loan interest of £2,170 to Surf plc during the tax year 2025/26. The taxable benefit in respect of this loan is calculated using the average method. 
+4. Surf plc gave John an engraved gold watch costing £465 on 1 December 2025 in recognition of his long service with the company. 
+
+John’s total employment income for the tax year 2025/26 was £207,995, inclusive of the items in Notes 1 to 4 above and after adjustment for pension contributions.
+
+:::{.callout}
+#### Q4.1: Mileage allowance
+
+What is the total mileage allowance in respect of John using his car for business purposes for the tax year 2025/26?
+
+**1,425**
+
+> (5960) × 0.6 - (4270+510) × 0.45
+
+:::
+
+:::{.callout}
+
+#### Q4.2: Beneficial Loan
+
+**What is the taxable benefit in respect of the loan from John’s employer for the tax year 2025/26?** 
+
+A. £80      
+**B. £530**      
+C. £980      
+D. £568      
+
+| Average method                          | £        |
+|-----------------------------------------|----------|
+| ((£84,000 + £60,000) ÷ 2) × 3.75%       | 2,700    |
+| Less: Interest paid                     | (2,170)  |
+| **Net amount**                          | **530**  |
+
+:::
+
+:::{.callout}
+#### Q4.3: Gift
+
+**What is the taxable benefit in respect of the gold watch gifted by John’s employer for the tax year 2025/26?** 
+
+**A. £0**      
+B. £93      
+C. £415      
+D. £465     
+
+> Long service awards are exempt where there has been at least 20 years of service by the employee and where the cost is £50 or less for each year of service.
+
+:::
+
+:::{.callout}
+#### Q4.4: PA
+
+**What amount of personal allowance is John entitled to for the tax year 2025/26?**
+
+**0**
+
+> As John’s adjusted net income exceeds £125,140, he is not entitled to a personal allowance for the tax year 2025/26.
+
+:::
+
+:::{.callout}
+#### Q4.5: Class 1 NICs
+
+**Which TWO of the following statements concerning class 1 NICs for the tax year 2025/26 are correct?** 
+
+A. Employers are entitled to a maximum employment allowance of £10,500 per employee     
+**B. Taxable mileage allowances paid in respect of home to office travel are subject to class 1 NIC**     
+**C. Non-cash benefits are not subject to class 1 NIC**     
+D. Class 1 primary NICs are always payable by employees at a rate of 8% on earnings above £12,570    
+
+:::
+
+
+### Q5: FOO DEE
+
+On 31 December 2025 Foo Dee resigned as an employee of Gastronomic Food plc and on 1 January 2026 Foo started self-employment running her own restaurant, preparing accounts to 30 September.
+
+The following information is available for the tax year 2025/26:
+
+**Employment**
+
+During the period 6 April 2025 to 31 December 2025 Foo earned a salary of £38,000 and was provided with the following benefits:
+
+1. A car with CO₂ emissions of 132 grams per kilometre and a list price of £19,000. Foo was also provided with all diesel fuel for the car. The car does not meet the RDE2 standard.
+
+2. Gastronomic Food plc paid Foo £6 per night to cover incidental expenses when she was working away in the UK for 14 nights.
+
+3. The company contributed 6% of Foo’s gross salary of £38,000 into Gastronomic-Food plc’s occupational pension scheme.
+
+**Self-employment**
+
+1. Foo’s statement of profit or loss for her restaurant business for the nine-month period ended 30 September 2026 is as follows:
+
+|                                | £        | £        |
+|--------------------------------|----------|----------|
+| Gross profit                   |          | 202,054  |
+| Legal fees (Note 2)            | 4,200    |          |
+| Property expenses (Note 3)     | 12,800   |          |
+| Other expenses (all allowable) | 50,700   |          |
+|                                |          | (67,700) |
+| **Net profit**                 |          | 134,354  |
+
+2. Legal fees include conveyancing fees of £1,400 for the purchase of the restaurant.
+
+3. Foo purchased a 10-year old restaurant on 1 January 2026. She lives in a flat that is situated above the restaurant, and one quarter of the total property expenses of £12,800 relate to this flat.
+
+4. On 30 September 2026 Foo purchased a car with CO₂ emissions of 40 grams per kilometre for £14,600. Private use of the car by Foo is 30%. Foo chooses to claim capital allowances for this purchase.
+
+Foo never had to complete a tax return whilst she was employed by Gastronomic Food plc.
+
+:::{.callout}
+#### Q5.1: Car and Fuel Benefit
+
+Which TWO of the following statements concerning the taxable benefits in respect of the company car for the tax year 2025/26 are correct? 
+
+A. Foo will have a car benefit of £4,560      
+**B. Foo will have a car benefit of £5,130**      
+C. Foo will have a car benefit of £6,840      
+D. Foo will have a fuel benefit of £6,768      
+**E. Foo will have a fuel benefit of £7,614**      
+F. Foo will have a fuel benefit of £10,152     
+
+:::
+
+:::{.callout}
+#### Q5.2: Overnight expenses
+How much is the total taxable benefit for the payment of the ***overnight expenses*** and the pension contribution by the company for the tax year 2025/26? 
+
+A. £0     
+**B. £84**    
+C. £14    
+D. £2,364    
+
+
+> 6 × 14
+
+> The expenses paid to Foo exceed £5 per night therefore the full amount is a taxable benefit. 
+
+> If the amount paid to cover overnight expenses in the UK was ≤£5 per night it is fully exempt. 
+
+:::
+
+:::{.callout}
+#### Q5.3: tax adjusted trading profit before CA
+
+What is Foo’s tax adjusted trading profit before capital allowances for the nine month period ended 30 September 2026, assuming she elects to use the accruals basis?
+
+**138,954**
+
+> 134,354 + 1,400 + (12,800/4)
+
+:::
+
+:::{.callout}
+#### Q5.4: Car capital allowances 
+What is the maximum capital allowances claim that Foo can make in respect of the nine-month period ended 30 September 2026? 
+
+**A. £1,380**       
+B. £1,971       
+C. £1,840       
+D. £460      
+
+> 14,600 * 0.7 * 0.18 * 9/12
+
+:::
+
+:::{.callout}
+#### Q5.5: Informing HMRC and filing dates
+Foo has not previously been required to submit a tax return to HMRC. By what date must Foo inform HMRC of her new source of self-employment income and what is the filing date for the first tax return that includes income from self employment?
+
+For Foo, who started her self-employment on 1 January 2026, the key administrative deadlines are as follows:
+
+- Date to inform HMRC of her new source of income: **5 October 2026**
+- Filing date for her first self-assessment tax return: **31 January 2027** (assuming electronic filing)
+
+> The filing date for the tax return is 31 January following the end of the tax year i.e. 31 January 2027 for the tax year 2025/26
+
+:::
+
+
+
 
 ## Constructed response questions
 

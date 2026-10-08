@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.9.37">
+<meta name="generator" content="quarto-1.10.18">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -12,10 +12,13 @@
 /* Default styles provided by pandoc.
 ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
 */
-code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
-div.columns{display: flex; gap: min(4vw, 1.5em);}
-div.column{flex: auto; overflow-x: auto;}
+div.columns{display: flex; gap: 1.5em;}
+div.column{flex: auto;}
+@media screen {
+div.columns{gap: min(4vw, 1.5em);}
+div.column{overflow-x: auto;}
+}
 div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
 ul.task-list{list-style: none;}
 ul.task-list li input[type="checkbox"] {
@@ -33,13 +36,17 @@ ul.task-list li input[type="checkbox"] {
 <script src="C21_CG_Corp_files/libs/quarto-html/tippy.umd.min.js"></script>
 <script src="C21_CG_Corp_files/libs/quarto-html/anchor.min.js"></script>
 <link href="C21_CG_Corp_files/libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="C21_CG_Corp_files/libs/quarto-html/quarto-syntax-highlighting-7f8f88aac4f3542376d5c11b86a4c14d.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<link href="C21_CG_Corp_files/libs/quarto-html/quarto-syntax-highlighting-64a204ab8560d761af7679ceaba22944.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
+<link href="C21_CG_Corp_files/libs/quarto-html/quarto-syntax-highlighting-dark-b85bc7c33db8c58e0ec93c3465666fed.css" rel="stylesheet" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
+<link href="C21_CG_Corp_files/libs/quarto-html/quarto-syntax-highlighting-64a204ab8560d761af7679ceaba22944.css" rel="stylesheet" class="quarto-color-scheme-extra" id="quarto-text-highlighting-styles">
 <script src="C21_CG_Corp_files/libs/bootstrap/bootstrap.min.js"></script>
 <link href="C21_CG_Corp_files/libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="C21_CG_Corp_files/libs/bootstrap/bootstrap-efbb37e9afcc02144ebbc7afd12a776f.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<link href="C21_CG_Corp_files/libs/bootstrap/bootstrap-8fd0a66505689c34dc5b7c06239434da.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
+<link href="C21_CG_Corp_files/libs/bootstrap/bootstrap-dark-65a9ced8f92a8dd03898fd51d5651c73.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
+<link href="C21_CG_Corp_files/libs/bootstrap/bootstrap-8fd0a66505689c34dc5b7c06239434da.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme-extra" id="quarto-bootstrap" data-mode="light">
 
   <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
-  <script defer="" src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
+  <script defer="" src="https://cdn.jsdelivr.net/npm/mathjax@4/tex-chtml.js" type="text/javascript"></script>
 
 <script type="text/javascript">
 const typesetMath = (el) => {
@@ -70,11 +77,218 @@ window.Quarto = {
 
 </head>
 
-<body class="fullcontent quarto-light">
+<body class="quarto-light"><script id="quarto-html-before-body" type="application/javascript">
+    const toggleBodyColorMode = (bsSheetEl) => {
+      const mode = bsSheetEl.getAttribute("data-mode");
+      const bodyEl = window.document.querySelector("body");
+      if (mode === "dark") {
+        bodyEl.classList.add("quarto-dark");
+        bodyEl.classList.remove("quarto-light");
+      } else {
+        bodyEl.classList.add("quarto-light");
+        bodyEl.classList.remove("quarto-dark");
+      }
+    }
+    const toggleBodyColorPrimary = () => {
+      const bsSheetEl = window.document.querySelector("link#quarto-bootstrap:not([rel=disabled-stylesheet])");
+      if (bsSheetEl) {
+        toggleBodyColorMode(bsSheetEl);
+      }
+    }
+    const setColorSchemeToggle = (alternate) => {
+      const toggles = window.document.querySelectorAll('.quarto-color-scheme-toggle');
+      for (let i=0; i < toggles.length; i++) {
+        const toggle = toggles[i];
+        if (toggle) {
+          if (alternate) {
+            toggle.classList.add("alternate");
+          } else {
+            toggle.classList.remove("alternate");
+          }
+        }
+      }
+    };
+    const toggleColorMode = (alternate) => {
+      // Switch the stylesheets
+      const primaryStylesheets = window.document.querySelectorAll('link.quarto-color-scheme:not(.quarto-color-alternate)');
+      const alternateStylesheets = window.document.querySelectorAll('link.quarto-color-scheme.quarto-color-alternate');
+      manageTransitions('#quarto-margin-sidebar .nav-link', false);
+      if (alternate) {
+        // note: dark is layered on light, we don't disable primary!
+        enableStylesheet(alternateStylesheets);
+        for (const sheetNode of alternateStylesheets) {
+          if (sheetNode.id === "quarto-bootstrap") {
+            toggleBodyColorMode(sheetNode);
+          }
+        }
+      } else {
+        disableStylesheet(alternateStylesheets);
+        enableStylesheet(primaryStylesheets)
+        toggleBodyColorPrimary();
+      }
+      manageTransitions('#quarto-margin-sidebar .nav-link', true);
+      // Switch the toggles
+      setColorSchemeToggle(alternate)
+      // Hack to workaround the fact that safari doesn't
+      // properly recolor the scrollbar when toggling (#1455)
+      if (navigator.userAgent.indexOf('Safari') > 0 && navigator.userAgent.indexOf('Chrome') == -1) {
+        manageTransitions("body", false);
+        window.scrollTo(0, 1);
+        setTimeout(() => {
+          window.scrollTo(0, 0);
+          manageTransitions("body", true);
+        }, 40);
+      }
+    }
+    const disableStylesheet = (stylesheets) => {
+      for (let i=0; i < stylesheets.length; i++) {
+        const stylesheet = stylesheets[i];
+        stylesheet.rel = 'disabled-stylesheet';
+      }
+    }
+    const enableStylesheet = (stylesheets) => {
+      for (let i=0; i < stylesheets.length; i++) {
+        const stylesheet = stylesheets[i];
+        if(stylesheet.rel !== 'stylesheet') { // for Chrome, which will still FOUC without this check
+          stylesheet.rel = 'stylesheet';
+        }
+      }
+    }
+    const manageTransitions = (selector, allowTransitions) => {
+      const els = window.document.querySelectorAll(selector);
+      for (let i=0; i < els.length; i++) {
+        const el = els[i];
+        if (allowTransitions) {
+          el.classList.remove('notransition');
+        } else {
+          el.classList.add('notransition');
+        }
+      }
+    }
+    const isFileUrl = () => {
+      return window.location.protocol === 'file:';
+    }
+    const hasAlternateSentinel = () => {
+      let styleSentinel = getColorSchemeSentinel();
+      if (styleSentinel !== null) {
+        return styleSentinel === "alternate";
+      } else {
+        return false;
+      }
+    }
+    const setStyleSentinel = (alternate) => {
+      const value = alternate ? "alternate" : "default";
+      if (!isFileUrl()) {
+        window.localStorage.setItem("quarto-color-scheme", value);
+      } else {
+        localAlternateSentinel = value;
+      }
+    }
+    const getColorSchemeSentinel = () => {
+      if (!isFileUrl()) {
+        const storageValue = window.localStorage.getItem("quarto-color-scheme");
+        return storageValue != null ? storageValue : localAlternateSentinel;
+      } else {
+        return localAlternateSentinel;
+      }
+    }
+    const toggleGiscusIfUsed = (isAlternate, darkModeDefault) => {
+      const baseTheme = document.querySelector('#giscus-base-theme')?.value ?? 'light';
+      const alternateTheme = document.querySelector('#giscus-alt-theme')?.value ?? 'dark';
+      let newTheme = '';
+      if(authorPrefersDark) {
+        newTheme = isAlternate ? baseTheme : alternateTheme;
+      } else {
+        newTheme = isAlternate ? alternateTheme : baseTheme;
+      }
+      const changeGiscusTheme = () => {
+        // From: https://github.com/giscus/giscus/issues/336
+        const sendMessage = (message) => {
+          const iframe = document.querySelector('iframe.giscus-frame');
+          if (!iframe) return;
+          iframe.contentWindow.postMessage({ giscus: message }, 'https://giscus.app');
+        }
+        sendMessage({
+          setConfig: {
+            theme: newTheme
+          }
+        });
+      }
+      const isGiscussLoaded = window.document.querySelector('iframe.giscus-frame') !== null;
+      if (isGiscussLoaded) {
+        changeGiscusTheme();
+      }
+    };
+    const authorPrefersDark = false;
+    const darkModeDefault = authorPrefersDark;
+      document.querySelector('link#quarto-text-highlighting-styles.quarto-color-scheme-extra').rel = 'disabled-stylesheet';
+      document.querySelector('link#quarto-bootstrap.quarto-color-scheme-extra').rel = 'disabled-stylesheet';
+    let localAlternateSentinel = darkModeDefault ? 'alternate' : 'default';
+    // Dark / light mode switch
+    window.quartoToggleColorScheme = () => {
+      // Read the current dark / light value
+      let toAlternate = !hasAlternateSentinel();
+      toggleColorMode(toAlternate);
+      setStyleSentinel(toAlternate);
+      toggleGiscusIfUsed(toAlternate, darkModeDefault);
+      window.dispatchEvent(new Event('resize'));
+    };
+    // Switch to dark mode if need be
+    if (hasAlternateSentinel()) {
+      toggleColorMode(true);
+    } else {
+      toggleColorMode(false);
+    }
+  </script>
 
 <div id="quarto-content" class="page-columns page-rows-contents page-layout-article">
-
+<div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+  <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">Table of contents</h2>
+   
+  <ul>
+  <li><a href="#chargeable-gains-for-a-company" id="toc-chargeable-gains-for-a-company" class="nav-link active" data-scroll-target="#chargeable-gains-for-a-company"><span class="header-section-number">1</span> Chargeable gains for a company</a>
+  <ul class="collapse">
+  <li><a href="#calculation-of-total-net-chargeable-gains-for-a-company" id="toc-calculation-of-total-net-chargeable-gains-for-a-company" class="nav-link" data-scroll-target="#calculation-of-total-net-chargeable-gains-for-a-company"><span class="header-section-number">1.1</span> Calculation of total net chargeable gains for a company</a></li>
+  <li><a href="#indexation-allowance" id="toc-indexation-allowance" class="nav-link" data-scroll-target="#indexation-allowance"><span class="header-section-number">1.2</span> Indexation allowance</a></li>
+  </ul></li>
+  <li><a href="#capital-losses" id="toc-capital-losses" class="nav-link" data-scroll-target="#capital-losses"><span class="header-section-number">2</span> Capital losses</a>
+  <ul class="collapse">
+  <li><a href="#utilisation-of-a-capital-loss" id="toc-utilisation-of-a-capital-loss" class="nav-link" data-scroll-target="#utilisation-of-a-capital-loss"><span class="header-section-number">2.1</span> Utilisation of a capital loss</a></li>
+  </ul></li>
+  <li><a href="#shares-and-securities" id="toc-shares-and-securities" class="nav-link" data-scroll-target="#shares-and-securities"><span class="header-section-number">3</span> Shares and securities</a>
+  <ul class="collapse">
+  <li><a href="#bonus-and-rights-issues" id="toc-bonus-and-rights-issues" class="nav-link" data-scroll-target="#bonus-and-rights-issues"><span class="header-section-number">3.1</span> Bonus and rights issues</a>
+  <ul class="collapse">
+  <li><a href="#bonus-issues" id="toc-bonus-issues" class="nav-link" data-scroll-target="#bonus-issues"><span class="header-section-number">3.1.1</span> Bonus issues</a></li>
+  <li><a href="#rights-issues" id="toc-rights-issues" class="nav-link" data-scroll-target="#rights-issues"><span class="header-section-number">3.1.2</span> Rights issues</a></li>
+  </ul></li>
+  </ul></li>
+  <li><a href="#takeoversreorganisations" id="toc-takeoversreorganisations" class="nav-link" data-scroll-target="#takeoversreorganisations"><span class="header-section-number">4</span> Takeovers/reorganisations</a></li>
+  <li><a href="#reliefs-available-to-companies" id="toc-reliefs-available-to-companies" class="nav-link" data-scroll-target="#reliefs-available-to-companies"><span class="header-section-number">5</span> Reliefs available to companies</a></li>
+  <li><a href="#practices-on-additional-aspects" id="toc-practices-on-additional-aspects" class="nav-link" data-scroll-target="#practices-on-additional-aspects"><span class="header-section-number">6</span> Practices on Additional aspects</a>
+  <ul class="collapse">
+  <li><a href="#objective-test-ot-questions" id="toc-objective-test-ot-questions" class="nav-link" data-scroll-target="#objective-test-ot-questions"><span class="header-section-number">6.1</span> Objective Test (OT) questions</a>
+  <ul class="collapse">
+  <li><a href="#q5-indexation" id="toc-q5-indexation" class="nav-link" data-scroll-target="#q5-indexation"><span class="header-section-number">6.1.1</span> Q5: Indexation</a></li>
+  </ul></li>
+  <li><a href="#objective-test-cases-otc" id="toc-objective-test-cases-otc" class="nav-link" data-scroll-target="#objective-test-cases-otc"><span class="header-section-number">6.2</span> Objective Test Cases (OTC)</a>
+  <ul class="collapse">
+  <li><a href="#q1-michael-chin" id="toc-q1-michael-chin" class="nav-link" data-scroll-target="#q1-michael-chin"><span class="header-section-number">6.2.1</span> Q1: MICHAEL CHIN</a></li>
+  <li><a href="#q2-bo" id="toc-q2-bo" class="nav-link" data-scroll-target="#q2-bo"><span class="header-section-number">6.2.2</span> Q2: BO</a></li>
+  <li><a href="#q3-alphabet-ltd" id="toc-q3-alphabet-ltd" class="nav-link" data-scroll-target="#q3-alphabet-ltd"><span class="header-section-number">6.2.3</span> Q3: ALPHABET LTD</a></li>
+  <li><a href="#q4-lily" id="toc-q4-lily" class="nav-link" data-scroll-target="#q4-lily"><span class="header-section-number">6.2.4</span> Q4: LILY</a></li>
+  </ul></li>
+  <li><a href="#constructed-response-questions" id="toc-constructed-response-questions" class="nav-link" data-scroll-target="#constructed-response-questions"><span class="header-section-number">6.3</span> Constructed response questions</a>
+  <ul class="collapse">
+  <li><a href="#q1" id="toc-q1" class="nav-link" data-scroll-target="#q1"><span class="header-section-number">6.3.1</span> Q1:</a></li>
+  </ul></li>
+  </ul></li>
+  </ul>
+<div class="quarto-alternate-formats"><h2>Other Formats</h2><ul><li><a href="C21_CG_Corp.pdf"><i class="bi bi-file-pdf"></i>PDF</a></li></ul></div></nav>
+</div>
 <main class="content" id="quarto-document-content">
+
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
@@ -110,12 +324,12 @@ window.Quarto = {
 
 
 <p><img src="20260818084637.png" class="img-fluid"></p>
-<section id="chargeable-gains-for-a-company" class="level1">
-<h1>Chargeable gains for a company</h1>
+<section id="chargeable-gains-for-a-company" class="level1" data-number="1">
+<h1 data-number="1"><span class="header-section-number">1</span> Chargeable gains for a company</h1>
 <p>The total net chargeable gains that a company makes during an accounting period (AP) are included in the taxable total profits computation.</p>
 <p>It is important to remember that companies pay <strong>corporation tax</strong> on <strong>chargeable gains</strong>, not capital gains tax.</p>
-<section id="calculation-of-total-net-chargeable-gains-for-a-company" class="level2">
-<h2 class="anchored" data-anchor-id="calculation-of-total-net-chargeable-gains-for-a-company">Calculation of total net chargeable gains for a company</h2>
+<section id="calculation-of-total-net-chargeable-gains-for-a-company" class="level2" data-number="1.1">
+<h2 data-number="1.1" class="anchored" data-anchor-id="calculation-of-total-net-chargeable-gains-for-a-company"><span class="header-section-number">1.1</span> Calculation of total net chargeable gains for a company</h2>
 <p>The following steps should be completed:</p>
 <ol type="1">
 <li>Calculate the chargeable gain/allowable loss arising on the disposal of each chargeable asset separately.</li>
@@ -171,8 +385,8 @@ window.Quarto = {
 <li>There are a few other key differences when dealing with the disposal of assets by companies. These include the treatment of capital losses the treatment of shares and securities, and the availability of reliefs.</li>
 </ul>
 </section>
-<section id="indexation-allowance" class="level2">
-<h2 class="anchored" data-anchor-id="indexation-allowance">Indexation allowance</h2>
+<section id="indexation-allowance" class="level2" data-number="1.2">
+<h2 data-number="1.2" class="anchored" data-anchor-id="indexation-allowance"><span class="header-section-number">1.2</span> Indexation allowance</h2>
 <p>The indexation allowance (IA) gives a company some allowance for the effect of <strong>inflation</strong> in calculating a gain.</p>
 <p>The rules for the IA are as follows:</p>
 <ul>
@@ -184,8 +398,8 @@ window.Quarto = {
 <li>the IA is calculated <strong>separately</strong> for each item of expenditure (e.g.&nbsp;calculate a different IA for the <em>original acquisition cost</em> and any <em>subsequent enhancement expenditure</em> because they have <strong><em>different purchase dates</em></strong>).</li>
 <li>the IA cannot create or increase a capital loss.</li>
 </ul>
-<section id="example-1-indexation-allowances" class="level4">
-<h4 class="anchored" data-anchor-id="example-1-indexation-allowances">Example 1: Indexation Allowances</h4>
+<section id="example-1-indexation-allowances" class="level4" data-number="1.2.0.1">
+<h4 data-number="1.2.0.1" class="anchored" data-anchor-id="example-1-indexation-allowances"><span class="header-section-number">1.2.0.1</span> Example 1: Indexation Allowances</h4>
 <p>Pye Ltd bought a factory for <strong>£250,000</strong>, on <em>1 April 1998</em>. On <em>15 August 2001</em>, the company spent <strong>£70,000</strong> on an extension to the factory. The factory was sold on <em>30 September 2025</em>, for <strong>£950,000</strong>.</p>
 <p>Assume the relevant indexation factors are as follows:</p>
 <table class="caption-top table">
@@ -252,8 +466,8 @@ window.Quarto = {
 </tbody>
 </table>
 </section>
-<section id="example-2-indexation-allowances" class="level4">
-<h4 class="anchored" data-anchor-id="example-2-indexation-allowances">Example 2: Indexation Allowances</h4>
+<section id="example-2-indexation-allowances" class="level4" data-number="1.2.0.2">
+<h4 data-number="1.2.0.2" class="anchored" data-anchor-id="example-2-indexation-allowances"><span class="header-section-number">1.2.0.2</span> Example 2: Indexation Allowances</h4>
 <p>Hobbit Ltd bought a factory for £175,000 on 1 June 2000. On 15 January 2019, the company spent £62,000 on an extension to the factory. The factory was sold on 31 August 2025, for £680,000.<br>
 Assume the indexation factor is as follows:</p>
 <p>June 2000 to December 2017: <strong>0.625</strong></p>
@@ -262,14 +476,14 @@ Assume the indexation factor is as follows:</p>
 </section>
 </section>
 </section>
-<section id="capital-losses" class="level1">
-<h1>Capital losses</h1>
+<section id="capital-losses" class="level1" data-number="2">
+<h1 data-number="2"><span class="header-section-number">2</span> Capital losses</h1>
 <p>A capital loss arises if the proceeds received for an asset are lower than the allowable expenditure.</p>
 <blockquote class="blockquote">
 <p>Remember that the indexation allowance cannot create or increase a capital loss.</p>
 </blockquote>
-<section id="example-1-capital-loss" class="level4">
-<h4 class="anchored" data-anchor-id="example-1-capital-loss">Example 1: Capital loss</h4>
+<section id="example-1-capital-loss" class="level4" data-number="2.0.0.1">
+<h4 data-number="2.0.0.1" class="anchored" data-anchor-id="example-1-capital-loss"><span class="header-section-number">2.0.0.1</span> Example 1: Capital loss</h4>
 <p>JNN Ltd is considering selling a field at auction in July 2025. It acquired the field in August 1992, for £10,000 and the sale proceeds are likely to be one of three figures:</p>
 <ol type="a">
 <li>£25,000<br>
@@ -282,8 +496,8 @@ Assume the indexation factor is as follows:</p>
 Assume the indexation factor from August 1992 to December 2017 is <strong>1.002</strong>.</p>
 <p><strong>Solution</strong></p>
 </section>
-<section id="utilisation-of-a-capital-loss" class="level2">
-<h2 class="anchored" data-anchor-id="utilisation-of-a-capital-loss">Utilisation of a capital loss</h2>
+<section id="utilisation-of-a-capital-loss" class="level2" data-number="2.1">
+<h2 data-number="2.1" class="anchored" data-anchor-id="utilisation-of-a-capital-loss"><span class="header-section-number">2.1</span> Utilisation of a capital loss</h2>
 <ul>
 <li><p>Where allowable losses arise, they are set off against chargeable gains arising in the same accounting period.</p></li>
 <li><p>Any loss remaining, is carried forward against chargeable gains of future accounting periods, <strong>as soon as they arise</strong>.</p></li>
@@ -294,8 +508,8 @@ Assume the indexation factor from August 1992 to December 2017 is <strong>1.002<
 <li>carried back against gains in previous accounting periods.</li>
 </ul></li>
 </ul>
-<section id="example-2-capital-losses" class="level4">
-<h4 class="anchored" data-anchor-id="example-2-capital-losses">Example 2: Capital losses</h4>
+<section id="example-2-capital-losses" class="level4" data-number="2.1.0.1">
+<h4 data-number="2.1.0.1" class="anchored" data-anchor-id="example-2-capital-losses"><span class="header-section-number">2.1.0.1</span> Example 2: Capital losses</h4>
 <p>For the year ended 31 March 2026, Jump Ltd has a tax adjusted trading profit of <strong>£65,000</strong>, and a chargeable gain of <strong>£3,600</strong>.</p>
 <p>At 1 April 2025, it had <em>unused</em> capital losses brought forward of <strong>£6,000</strong>.</p>
 <p><strong>Calculate Jump Ltd’s </strong>corporation tax liability** for the year ended 31 March 2026.**</p>
@@ -372,16 +586,16 @@ Assume the indexation factor from August 1992 to December 2017 is <strong>1.002<
 <p>Net chargeable gain in the accounting period is therefore <strong>£Nil</strong>.</p>
 <p>The remaining capital losses cannot be set against the tax adjusted trading profit of the company in the year, they can only be carried forward and set against future chargeable gains.</p>
 </section>
-<section id="example-3-capital-losses" class="level4">
-<h4 class="anchored" data-anchor-id="example-3-capital-losses">Example 3: Capital losses</h4>
+<section id="example-3-capital-losses" class="level4" data-number="2.1.0.2">
+<h4 data-number="2.1.0.2" class="anchored" data-anchor-id="example-3-capital-losses"><span class="header-section-number">2.1.0.2</span> Example 3: Capital losses</h4>
 <p>For the year ended 31 March 2026, High Ltd has a tax adjusted trading profit of £300,000, and a chargeable gain of £17,000. At 1 April 2025, it had unused capital losses brought forward of £23,000.</p>
 <p>Calculate High Ltd’s corporation tax liability for the year ended 31 March 2026.</p>
 <p><strong>Solution</strong></p>
 </section>
 </section>
 </section>
-<section id="shares-and-securities" class="level1">
-<h1>Shares and securities</h1>
+<section id="shares-and-securities" class="level1" data-number="3">
+<h1 data-number="3"><span class="header-section-number">3</span> Shares and securities</h1>
 <p>The issues regarding the disposal of shares by a company are similar to those set out in Chapter 19 for disposals by individuals.</p>
 <div class="callout callout-style-default callout-tip callout-titled">
 <div class="callout-header d-flex align-content-center">
@@ -407,8 +621,8 @@ For a company, disposals are matched against acquisitions as follows:</p>
 <li>shares acquired during the nine days before the sale (FIFO basis)</li>
 <li>shares in the share pool.</li>
 </ol>
-<section id="example-1-disposal-of-shares-and-securities" class="level4">
-<h4 class="anchored" data-anchor-id="example-1-disposal-of-shares-and-securities">Example 1: Disposal of shares and securities</h4>
+<section id="example-1-disposal-of-shares-and-securities" class="level4" data-number="3.0.0.1">
+<h4 data-number="3.0.0.1" class="anchored" data-anchor-id="example-1-disposal-of-shares-and-securities"><span class="header-section-number">3.0.0.1</span> Example 1: Disposal of shares and securities</h4>
 <p>Minnie Ltd sold <em>3,000 shares</em> in Mickey plc for <strong>£15,000</strong>, on 15 February 2026. The shares in Mickey plc were purchased as follows:</p>
 <table class="caption-top table">
 <thead>
@@ -511,8 +725,8 @@ For a company, disposals are matched against acquisitions as follows:</p>
 </tbody>
 </table>
 </section>
-<section id="example-2-disposal-of-shares-and-securities" class="level4">
-<h4 class="anchored" data-anchor-id="example-2-disposal-of-shares-and-securities">Example 2: Disposal of shares and securities</h4>
+<section id="example-2-disposal-of-shares-and-securities" class="level4" data-number="3.0.0.2">
+<h4 data-number="3.0.0.2" class="anchored" data-anchor-id="example-2-disposal-of-shares-and-securities"><span class="header-section-number">3.0.0.2</span> Example 2: Disposal of shares and securities</h4>
 <p>From the previous illustration (Minnie Ltd), calculate the gains on the shares purchased:</p>
 <ol type="a">
 <li>on the same day<br>
@@ -586,8 +800,8 @@ For a company, disposals are matched against acquisitions as follows:</p>
 <li><p>When shares are disposed of out of the share pool, the appropriate proportion of the cost and indexed cost which relates to the shares disposed of is calculated on an average cost basis (as for individuals).</p></li>
 </ul>
 </section>
-<section id="example-3-disposal-of-shares-and-securities" class="level4">
-<h4 class="anchored" data-anchor-id="example-3-disposal-of-shares-and-securities">Example 3: Disposal of shares and securities</h4>
+<section id="example-3-disposal-of-shares-and-securities" class="level4" data-number="3.0.0.3">
+<h4 data-number="3.0.0.3" class="anchored" data-anchor-id="example-3-disposal-of-shares-and-securities"><span class="header-section-number">3.0.0.3</span> Example 3: Disposal of shares and securities</h4>
 <p>Continuing the previous illustration of Minnie Ltd, calculate the chargeable gain on the <strong><em>disposal from the share pool.</em></strong></p>
 <p>Assume the indexation factors are as follows:</p>
 <ul>
@@ -708,8 +922,8 @@ For a company, disposals are matched against acquisitions as follows:</p>
 </table>
 <p><strong>Note:</strong> Half of the shares sold, therefore take out half of the cost and indexed cost.</p>
 </section>
-<section id="example-4-disposal-of-shares-and-securities" class="level4">
-<h4 class="anchored" data-anchor-id="example-4-disposal-of-shares-and-securities">Example 4: Disposal of shares and securities</h4>
+<section id="example-4-disposal-of-shares-and-securities" class="level4" data-number="3.0.0.4">
+<h4 data-number="3.0.0.4" class="anchored" data-anchor-id="example-4-disposal-of-shares-and-securities"><span class="header-section-number">3.0.0.4</span> Example 4: Disposal of shares and securities</h4>
 <p>Braganza Ltd sold 10,000 ordinary shares in the FRP Co plc, a quoted company, on 20 December 2025, for £70,000.</p>
 <p>The company had bought the ordinary shares on the following dates:</p>
 <table class="caption-top table">
@@ -741,12 +955,12 @@ For a company, disposals are matched against acquisitions as follows:</p>
 </ul>
 <p><strong>Solution</strong></p>
 </section>
-<section id="bonus-and-rights-issues" class="level2">
-<h2 class="anchored" data-anchor-id="bonus-and-rights-issues">Bonus and rights issues</h2>
+<section id="bonus-and-rights-issues" class="level2" data-number="3.1">
+<h2 data-number="3.1" class="anchored" data-anchor-id="bonus-and-rights-issues"><span class="header-section-number">3.1</span> Bonus and rights issues</h2>
 <p>The key points to remember are as follows:</p>
 <p>• A <strong>bonus issue</strong> is the distribution of <strong>free shares</strong> to shareholders, based on existing shareholdings. • A <strong>rights issue</strong> involves shareholders paying for new shares, usually at a rate below market price and in proportion to their existing shareholdings. • In both cases, the shareholder is making a new acquisition of shares. • However, for matching purposes, such acquisitions arise out of the original holdings. They are not treated as a separate holding of shares. • Bonus and rights issues are therefore added to the shares already held within the pool.</p>
-<section id="bonus-issues" class="level3">
-<h3 class="anchored" data-anchor-id="bonus-issues">Bonus issues</h3>
+<section id="bonus-issues" class="level3" data-number="3.1.1">
+<h3 data-number="3.1.1" class="anchored" data-anchor-id="bonus-issues"><span class="header-section-number">3.1.1</span> Bonus issues</h3>
 <ul>
 <li>As a bonus issue is free shares (i.e.&nbsp;no cost is involved), there is <strong>no indexation</strong> to be calculated.</li>
 <li>A bonus issue is <strong>not an operative event</strong> in the share pool.</li>
@@ -754,8 +968,8 @@ For a company, disposals are matched against acquisitions as follows:</p>
 </ul>
 <p>When the next operative event occurs (e.g.&nbsp;next sale or purchase), index from the operative event before the date of the bonus issue.</p>
 </section>
-<section id="rights-issues" class="level3">
-<h3 class="anchored" data-anchor-id="rights-issues">Rights issues</h3>
+<section id="rights-issues" class="level3" data-number="3.1.2">
+<h3 data-number="3.1.2" class="anchored" data-anchor-id="rights-issues"><span class="header-section-number">3.1.2</span> Rights issues</h3>
 <ul>
 <li>A rights issue is simply a purchase of shares (usually at a price below the market rate).</li>
 <li>Therefore, it should be treated as an operative event, in the same way as a normal purchase in the share pool:</li>
@@ -764,8 +978,8 @@ For a company, disposals are matched against acquisitions as follows:</p>
 <li>Index up to the date of the rights issue (or December 2017, if earlier), then</li>
 <li>Add in the number of shares and their cost.</li>
 </ol>
-<section id="example-5-bonus-issue" class="level4">
-<h4 class="anchored" data-anchor-id="example-5-bonus-issue">Example 5: Bonus issue</h4>
+<section id="example-5-bonus-issue" class="level4" data-number="3.1.2.1">
+<h4 data-number="3.1.2.1" class="anchored" data-anchor-id="example-5-bonus-issue"><span class="header-section-number">3.1.2.1</span> Example 5: Bonus issue</h4>
 <p>Alpha Ltd acquired shares in S plc, a quoted company, as follows:<br>
 2,000 shares acquired <em>in June 2003</em>, for £11,500.</p>
 <p>In October 2016, there was <strong><em>a 1 for 2 bonus issue</em></strong>.</p>
@@ -815,8 +1029,8 @@ For a company, disposals are matched against acquisitions as follows:</p>
 </table>
 <p><strong>Note:</strong> Do not index up to the date of the bonus issue as no cost is involved. The next time there is an operative event, IA will be calculated from June 2003 (the last operative event).</p>
 </section>
-<section id="example-6-bonus-issue" class="level4">
-<h4 class="anchored" data-anchor-id="example-6-bonus-issue">Example 6: Bonus issue</h4>
+<section id="example-6-bonus-issue" class="level4" data-number="3.1.2.2">
+<h4 data-number="3.1.2.2" class="anchored" data-anchor-id="example-6-bonus-issue"><span class="header-section-number">3.1.2.2</span> Example 6: Bonus issue</h4>
 <p>Spencer Ltd sold 2,000 ordinary shares out of a holding of 5,000 shares in Plumb Ltd, on 30 September 2025, for £15,400.</p>
 <p>Spencer Ltd prepares accounts every year to 31 March. The holding of shares in Plumb Ltd had been built up as follows:</p>
 <table class="caption-top table">
@@ -849,8 +1063,8 @@ For a company, disposals are matched against acquisitions as follows:</p>
 </ul>
 <p><strong>Solution</strong></p>
 </section>
-<section id="example-7-rights-issue" class="level4">
-<h4 class="anchored" data-anchor-id="example-7-rights-issue">Example 7: Rights issue</h4>
+<section id="example-7-rights-issue" class="level4" data-number="3.1.2.3">
+<h4 data-number="3.1.2.3" class="anchored" data-anchor-id="example-7-rights-issue"><span class="header-section-number">3.1.2.3</span> Example 7: Rights issue</h4>
 <p>Amber Ltd sold 2,600 shares in Pearl Ltd in December 2025 for <strong>£30,000</strong>.</p>
 <p>Amber Ltd originally acquired 3,000 shares in Pearl Ltd in June 2002 for <strong>£11,500</strong>. In December 2009 Amber Ltd took up its entitlement <strong><em>to a 1 for 4 rights issue</em></strong> at <strong><em>£3 per share</em></strong>.</p>
 <p><strong>Calculate the chargeable gain arising on disposal of the shares, in December 2025.</strong></p>
@@ -980,8 +1194,8 @@ For a company, disposals are matched against acquisitions as follows:</p>
 </section>
 </section>
 </section>
-<section id="takeoversreorganisations" class="level1">
-<h1>Takeovers/reorganisations</h1>
+<section id="takeoversreorganisations" class="level1" data-number="4">
+<h1 data-number="4"><span class="header-section-number">4</span> Takeovers/reorganisations</h1>
 <p>We have already considered takeovers and reorganisations in relation to an individual taxpayer (Chapter 19). The same principles apply to disposals by companies as summarised below.</p>
 <p><strong>Consideration: shares for shares</strong></p>
 <p>Where the consideration for the reorganisation or takeover only involves the issue of shares in the acquiring company, the tax consequences are:</p>
@@ -1008,8 +1222,8 @@ When both cash and shares are received on a takeover:</p>
 </div>
 </div>
 </div>
-<section id="example-1-takeoversreorganisations" class="level4">
-<h4 class="anchored" data-anchor-id="example-1-takeoversreorganisations">Example 1: Takeovers/reorganisations</h4>
+<section id="example-1-takeoversreorganisations" class="level4" data-number="4.0.0.1">
+<h4 data-number="4.0.0.1" class="anchored" data-anchor-id="example-1-takeoversreorganisations"><span class="header-section-number">4.0.0.1</span> Example 1: Takeovers/reorganisations</h4>
 <p>In June 2002, Major Ltd purchased <strong>2,000</strong> ordinary shares in Blue plc, for <strong>£5,000</strong>.</p>
 <p>In July 2017, Blue plc was taken over by Red plc, and Major Ltd <strong><em>received 2 ordinary shares and 1 preference share in Red plc</em></strong>, for each ordinary share in Blue plc.</p>
 <p>Immediately after the takeover, the ordinary shares in Red plc, were <em>quoted at £2</em> and the preference shares in Red plc, <em>were quoted at £1</em>.</p>
@@ -1242,8 +1456,8 @@ Technically IA should be calculated up to the date of the takeover (i.e.&nbsp;fr
 </tbody>
 </table>
 </section>
-<section id="example-2-takeoversreorganisations" class="level4">
-<h4 class="anchored" data-anchor-id="example-2-takeoversreorganisations">Example 2: Takeovers/reorganisations</h4>
+<section id="example-2-takeoversreorganisations" class="level4" data-number="4.0.0.2">
+<h4 data-number="4.0.0.2" class="anchored" data-anchor-id="example-2-takeoversreorganisations"><span class="header-section-number">4.0.0.2</span> Example 2: Takeovers/reorganisations</h4>
 <p>In July 2025, during its year ended 31 December 2025, Concert Ltd sold its entire holding of ordinary shares in Corus plc, for £75,000.<br>
 Concert Ltd had originally purchased 20,000 £1 ordinary shares in BNB plc, at a cost of £20,000, in April 2007.</p>
 <p>In July 2013, BNB plc was taken over by Corus plc. Concert Ltd received one ordinary 50p share and one 50p 6% preference share in Corus plc, for each ordinary share it held in BNB plc.</p>
@@ -1258,8 +1472,8 @@ Concert Ltd had originally purchased 20,000 £1 ordinary shares in BNB plc, at a
 <p><strong>Solution</strong></p>
 </section>
 </section>
-<section id="reliefs-available-to-companies" class="level1">
-<h1>Reliefs available to companies</h1>
+<section id="reliefs-available-to-companies" class="level1" data-number="5">
+<h1 data-number="5"><span class="header-section-number">5</span> Reliefs available to companies</h1>
 <p>The only capital gains relief available to companies is <strong>rollover relief</strong>. The other reliefs covered in Chapter 20 are not applicable to companies.</p>
 <p><strong><em>Rollover relief for companies</em></strong><br>
 Rollover relief (ROR) for companies operates, in general, in the same way as for individuals. The rules are summarised below.</p>
@@ -1308,8 +1522,8 @@ Important
 <li>replaced.</li>
 </ul></li>
 </ul>
-<section id="example-1-reliefs-available-to-companies" class="level4">
-<h4 class="anchored" data-anchor-id="example-1-reliefs-available-to-companies">Example 1: Reliefs available to companies</h4>
+<section id="example-1-reliefs-available-to-companies" class="level4" data-number="5.0.0.1">
+<h4 data-number="5.0.0.1" class="anchored" data-anchor-id="example-1-reliefs-available-to-companies"><span class="header-section-number">5.0.0.1</span> Example 1: Reliefs available to companies</h4>
 <p>Medway Ltd has been offered 160,000 for a freehold factory that it owns, and is considering disposing of the factory in January 2026. The company acquired the factory on 15 March 2009, for 45,000.<br>
 The factory has always been used by Medway Ltd for business purposes.</p>
 <p>Explain the chargeable gains implications of each of the following alternative courses of action that Medway Ltd is considering:</p>
@@ -1325,8 +1539,8 @@ The factory has always been used by Medway Ltd for business purposes.</p>
 </section>
 <div class="columns">
 <div class="column" style="width:45%;">
-<section id="individuals" class="level2">
-<h2 class="anchored" data-anchor-id="individuals">👤 Individuals</h2>
+<section id="individuals" class="level2" data-number="5.1">
+<h2 data-number="5.1" class="anchored" data-anchor-id="individuals"><span class="header-section-number">5.1</span> 👤 Individuals</h2>
 <p><strong>Taxation:</strong></p>
 <ul>
 <li>Capital gains tax (CGT) – tax separately from income</li>
@@ -1356,8 +1570,8 @@ The factory has always been used by Medway Ltd for business purposes.</p>
 </div><div class="column" style="width:5%;">
 
 </div><div class="column" style="width:50%;">
-<section id="companies" class="level2">
-<h2 class="anchored" data-anchor-id="companies">🏢 Companies</h2>
+<section id="companies" class="level2" data-number="5.2">
+<h2 data-number="5.2" class="anchored" data-anchor-id="companies"><span class="header-section-number">5.2</span> 🏢 Companies</h2>
 <p><strong>Taxation:</strong></p>
 <ul>
 <li>Corporation tax – include in TTP</li>
@@ -1388,18 +1602,20 @@ The factory has always been used by Medway Ltd for business purposes.</p>
 </div>
 </div>
 </section>
-<section id="practices-on-additional-aspects" class="level1">
-<h1>Practices on Additional aspects</h1>
-<section id="objective-test-ot-questions" class="level2">
-<h2 class="anchored" data-anchor-id="objective-test-ot-questions">Objective Test (OT) questions</h2>
-<section id="q1-chargeable-gain---indexation" class="level3">
-<h3 class="anchored" data-anchor-id="q1-chargeable-gain---indexation">Q1: Chargeable gain - Indexation</h3>
-<div class="callout callout-style-simple callout-none no-icon">
-<div class="callout-body d-flex">
+<section id="practices-on-additional-aspects" class="level1" data-number="6">
+<h1 data-number="6"><span class="header-section-number">6</span> Practices on Additional aspects</h1>
+<section id="objective-test-ot-questions" class="level2" data-number="6.1">
+<h2 data-number="6.1" class="anchored" data-anchor-id="objective-test-ot-questions"><span class="header-section-number">6.1</span> Objective Test (OT) questions</h2>
+<div class="callout callout-style-simple callout-none no-icon callout-titled">
+<div class="callout-header d-flex align-content-center">
 <div class="callout-icon-container">
 <i class="callout-icon no-icon"></i>
 </div>
-<div class="callout-body-container">
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">None</span>Q1: Chargeable gain - Indexation
+</div>
+</div>
+<div class="callout-body-container callout-body">
 <p>X Ltd sold a building for proceeds of <strong>£330,000</strong>. The building cost <strong>£250,000</strong>. Surveyor and agents fees totalling <strong>£2,500</strong> were also paid by X Ltd when the building was purchased.</p>
 <p>What is the chargeable gain or allowable loss arising on this disposal?<br>
 Use an indexation factor of <strong>0.316</strong>.</p>
@@ -1409,16 +1625,16 @@ B. (£2,290) loss<br>
 D. (£1,500) loss</p>
 </div>
 </div>
-</div>
-</section>
-<section id="q2-chargeable-gain---part-disposal" class="level3">
-<h3 class="anchored" data-anchor-id="q2-chargeable-gain---part-disposal">Q2: Chargeable gain - Part Disposal</h3>
-<div class="callout callout-style-simple callout-none no-icon">
-<div class="callout-body d-flex">
+<div class="callout callout-style-simple callout-none no-icon callout-titled">
+<div class="callout-header d-flex align-content-center">
 <div class="callout-icon-container">
 <i class="callout-icon no-icon"></i>
 </div>
-<div class="callout-body-container">
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">None</span>Q2: Chargeable gain - Part Disposal
+</div>
+</div>
+<div class="callout-body-container callout-body">
 <p>Walton Ltd bought 20 hectares of land on 13 January 2021 for <strong>£30,000</strong>. On 22 November 2025, the company sold 10 hectares for <strong>£60,000</strong> and the market value of the remaining land at that time was <strong>£15,000</strong>.</p>
 <p>On 17 March 2022 Walton Ltd had levelled the 10 hectares that were not sold at a cost of £7,400.</p>
 <p>What is the chargeable gain arising on the disposal of the land in November 2025?</p>
@@ -1431,16 +1647,16 @@ C. £30,080<br>
 </blockquote>
 </div>
 </div>
-</div>
-</section>
-<section id="q3-chargeable-gain---indexation" class="level3">
-<h3 class="anchored" data-anchor-id="q3-chargeable-gain---indexation">Q3: Chargeable gain - Indexation</h3>
-<div class="callout callout-style-simple callout-none no-icon">
-<div class="callout-body d-flex">
+<div class="callout callout-style-simple callout-none no-icon callout-titled">
+<div class="callout-header d-flex align-content-center">
 <div class="callout-icon-container">
 <i class="callout-icon no-icon"></i>
 </div>
-<div class="callout-body-container">
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">None</span>Q3: Chargeable gain - Indexation
+</div>
+</div>
+<div class="callout-body-container callout-body">
 <p>In August 2025, Greengrass plc sold a property for <strong>£750,000</strong> which it purchased in April 1999 for <strong>£125,000</strong>. In November 2010 the property was redecorated at a cost of <strong>£5,000</strong>.</p>
 <p>What is the chargeable gain arising on the disposal? The indexation factors are:</p>
 <table class="caption-top table">
@@ -1470,15 +1686,16 @@ D. £533,495</p>
 </blockquote>
 </div>
 </div>
-</div>
-<section id="q5-chargeable-gain---indexation" class="level4">
-<h4 class="anchored" data-anchor-id="q5-chargeable-gain---indexation">Q5: Chargeable gain - Indexation</h4>
-<div class="callout callout-style-simple callout-none no-icon">
-<div class="callout-body d-flex">
+<div class="callout callout-style-simple callout-none no-icon callout-titled">
+<div class="callout-header d-flex align-content-center">
 <div class="callout-icon-container">
 <i class="callout-icon no-icon"></i>
 </div>
-<div class="callout-body-container">
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">None</span>Q4: Chargeable gain - Indexation
+</div>
+</div>
+<div class="callout-body-container callout-body">
 <p>XYZ Ltd sold an unwanted factory for <strong>£634,000</strong> on 15 March 2026. The company had paid <strong>£120,000</strong> for the factory on 2 January 2012. XYZ Ltd had incurred expenses of <strong>£8,000</strong> in buying the factory.</p>
 <p>The relevant indexation factor is <strong>0.168</strong>.<br>
 What is XYZ Ltd’s chargeable gain arising on the above disposal?</p>
@@ -1491,14 +1708,542 @@ D. £506,000</p>
 </blockquote>
 </div>
 </div>
+<section id="q5-indexation" class="level3" data-number="6.1.1">
+<h3 data-number="6.1.1" class="anchored" data-anchor-id="q5-indexation"><span class="header-section-number">6.1.1</span> Q5: Indexation</h3>
+<div class="callout callout-style-simple callout-none no-icon">
+<div class="callout-body d-flex">
+<div class="callout-icon-container">
+<i class="callout-icon no-icon"></i>
+</div>
+<div class="callout-body-container">
+<p>Forrest Ltd bought a warehouse for £250,000 in December 2009, incurring £20,000 legal fees in connection with the acquisition. The warehouse was sold for £830,000 in May 2025, incurring legal fees of £30,000.</p>
+<p>Assume the relevant indexation factors are as follows:</p>
+<p>December 2009 to December 2017 <strong>0.276</strong></p>
+<p>What is the chargeable gain arising on the sale of the warehouse?</p>
+<p>A. £461,000<br>
+<strong>B. £455,480</strong><br>
+C. £447,200<br>
+D. £530,000</p>
+<hr>
+<p>Harrop Ltd sold two assets during the accounting period: 1. Two hectares of land which it had acquired for £20,000 and sold for £45,000. The relevant indexation factor is <strong>1.418</strong>. 2. A warehouse which it had acquired for £80,000 and sold for £75,000. The relevant indexation factor is <strong>0.702</strong>.</p>
+<p>What is the company’s allowable loss for the period, assuming it sold no other assets?</p>
+<p>A. £64,520<br>
+B. £8,360<br>
+<strong>C. £5,000</strong><br>
+D. £61,160</p>
+<blockquote class="blockquote">
+<p>The indexation allowance cannot increase or create a loss.</p>
+</blockquote>
+</div>
+</div>
+</div>
+<div class="callout callout-style-simple callout-none no-icon callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon no-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">None</span>Q6: Capital loss c/f
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>In the year ended 30 June 2025 Lompy Ltd had a tax adjusted trading profit of £800,200 and property income of £45,000. It also realised a chargeable gain of £25,000 and a capital loss of £80,000 on assets that were used for the purposes of the property business. In the year ended 30 June 2024 it had a tax adjusted trading profit of £520,000 and chargeable gains of £9,000.</p>
+<p>How much, if any, of the capital loss arising in the year ended 30 June 2025 is carried forward to the year ended 30 June 2026?</p>
+<p><strong>55k</strong></p>
+</div>
+</div>
+<div class="callout callout-style-simple callout-none no-icon callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon no-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">None</span>Q7: Indexation - Shares
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>Rimbo Ltd had the following transactions in the shares of Profitable Ltd, an investment company:</p>
+<table class="caption-top table">
+<thead>
+<tr class="header">
+<th>Date</th>
+<th>Transaction</th>
+<th>Number of shares</th>
+<th>£</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>April 1995</td>
+<td>Purchase</td>
+<td>25,000</td>
+<td>33,000</td>
+</tr>
+<tr class="even">
+<td>June 2025</td>
+<td>Sale</td>
+<td>8,000</td>
+<td>26,000</td>
+</tr>
+</tbody>
+</table>
+<p>Assume the relevant indexation factors are as follows:</p>
+<p>April 1995 to December 2017: 0.866</p>
+<p>What is the amount of the indexed cost available on the sale of the shares in June 2025?</p>
+<p>A. £61,578<br>
+B. £28,578<br>
+<strong>C. £19,705</strong><br>
+D. £10,560</p>
+</div>
+</div>
+<div class="callout callout-style-simple callout-none no-icon">
+<div class="callout-body d-flex">
+<div class="callout-icon-container">
+<i class="callout-icon no-icon"></i>
+</div>
+<div class="callout-body-container">
+<p>On 1 October 2025 Smooth Ltd sold a factory for £850,000, realising a gain of £250,000.<br>
+On 1 November 2024 the company had purchased an immovable machine for £900,000. The machine is expected to be used by the company for at least 25 years.</p>
+<p>The company prepares accounts to 31 December.</p>
+<p>The company wishes to defer the gain arising on the sale of the factory by making a rollover relief election in respect of the acquisition of the machine.</p>
+<p>For each of the following statements select whether it is true or false:</p>
+<p>The £250,000 gain which could be deferred as a result of the acquisition of the machine will become chargeable on 1 October 2035</p>
+<p>The company must make a rollover relief election by 31 December 2029</p>
+</div>
+</div>
 </div>
 </section>
 </section>
+<section id="objective-test-cases-otc" class="level2" data-number="6.2">
+<h2 data-number="6.2" class="anchored" data-anchor-id="objective-test-cases-otc"><span class="header-section-number">6.2</span> Objective Test Cases (OTC)</h2>
+<section id="q1-michael-chin" class="level3" data-number="6.2.1">
+<h3 data-number="6.2.1" class="anchored" data-anchor-id="q1-michael-chin"><span class="header-section-number">6.2.1</span> Q1: MICHAEL CHIN</h3>
+<p>Michael Chin made the following disposals of assets during the tax year 2025/26:</p>
+<ol type="1">
+<li><p>On 30 June 2025 Michael sold a business that he had run as a sole trader since 1 January 2021. He realised the following gains and losses on the chargeable assets of the business:</p>
+<table class="caption-top table">
+<thead>
+<tr class="header">
+<th>Asset</th>
+<th>Amount (£)</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Goodwill</td>
+<td>60,000</td>
+</tr>
+<tr class="even">
+<td>Freehold property</td>
+<td>64,000</td>
+</tr>
+<tr class="odd">
+<td>Storage unit</td>
+<td>(13,000)</td>
+</tr>
+</tbody>
+</table>
+<p>The goodwill has been built up since 1 January 2021. The freehold property had been acquired 6 months prior to the date of disposal and the storage unit had been acquired on 1 June 2022.</p></li>
+<li><p>On 8 December 2025 Michael gave Mika, his daughter, his entire holding of 50,000 50p ordinary shares (a 60% holding) in Minnow Ltd, an unquoted trading company. The market value of the shares on that date was £180,000.</p>
+<p>Michael had originally purchased the shares on 5 January 2025 for £87,500. On 8 December 2025 the market value of Minnow Ltd’s chargeable assets was £250,000, of which £200,000 was in respect of chargeable business assets. Michael has never been employed by Minnow Ltd.</p></li>
+<li><p>On 28 February 2026 Michael sold a painting for £5,900 after auctioneer’s fees of £656. He had originally acquired the painting on 1 June 2024 for £4,000.</p></li>
+<li><p>On 15 March 2026 Michael gave Mika, his daughter, the following assets:</p>
+<ul>
+<li>Necklace valued at £4,000. Acquired by Michael for £5,000.</li>
+<li>Boat valued at £80,000. Acquired by Michael for £70,000.</li>
+<li>Machine used for trading activities valued at £7,000. Acquired by Michael for £8,000.</li>
+</ul></li>
+</ol>
+<p>Michael incurred a capital loss of £16,800 during the tax year 2023/24, and made a chargeable gain of £7,800 and a capital loss of £7,000 during the tax year 2024/25.</p>
+<p>Assume that the tax rates and allowances for the tax year 2025/26 apply throughout.</p>
+<div class="callout callout-style-simple callout-none no-icon callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon no-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">None</span>Q1.1: Sole trader business CG
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>What is the net chargeable gain on the disposal of the sole trader business on 30 June 2025 that qualifies for business asset disposal relief?</p>
+<p>A. £124,000<br>
+<strong>B. £111,000</strong><br>
+C. £60,000<br>
+D. £51,000</p>
+</div>
+</div>
+<div class="callout callout-style-simple callout-none no-icon callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon no-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">None</span>Q1.2: Gift holdover relief - personal trading company
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>What amount of gift holdover relief, if any, is available on the gift of shares in Minnow Ltd on 8 December 2025?</p>
+<p><img src="20260904093552.png" class="img-fluid"></p>
+<blockquote class="blockquote">
+<p>Gift holdover relief is available as ordinary shares in an unquoted trading company are qualifying assets for gift holdover relief purposes. However full relief is not available as the shares are in Michael’s personal trading company and the company holds investments.</p>
+</blockquote>
+</div>
+</div>
+<div class="callout callout-style-simple callout-none no-icon callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon no-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">None</span>Q1.3: Non wasting chattels
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>What is the chargeable gain, if any, arising on the sale of the painting on 28 February 2026?</p>
+<p>A. £1,244<br>
+B. £0<br>
+C. £1,900<br>
+<strong>D. £927</strong></p>
+<p><img src="20260904095230.png" class="img-fluid"></p>
+</div>
+</div>
 </section>
-<section id="constructed-response-questions" class="level2">
-<h2 class="anchored" data-anchor-id="constructed-response-questions">Constructed response questions</h2>
-<section id="q1" class="level3">
-<h3 class="anchored" data-anchor-id="q1">Q1:</h3>
+<section id="q2-bo" class="level3" data-number="6.2.2">
+<h3 data-number="6.2.2" class="anchored" data-anchor-id="q2-bo"><span class="header-section-number">6.2.2</span> Q2: BO</h3>
+<p>You are a trainee accountant and your manager has asked for your help regarding a client who disposed of assets during the tax year 2025/26.</p>
+<p><strong>Bo Neptune</strong><br>
+On 31 July 2025 Bo made a gift to his son, Chi, of his entire holding of 50,000 £1 ordinary shares (a 100% holding) in Botune Ltd, an unquoted trading company. The market value of the shares on that date was £210,000. The shares had been purchased by Bo on 22 January 2018 for £94,000. Bo and Chi have elected to hold over the gain as a gift of a business asset.</p>
+<p>Bo has taxable income in the tax year 2025/26 of £30,700 and had made a chargeable gain on the sale of a painting of £11,400. Bo has never made any other chargeable disposals.</p>
+<p><strong>Saffie Jupiter</strong><br>
+On 30 September 2025 Saffie sold a house for £282,000, resulting in a chargeable gain of £172,000. The house had been purchased on 1 October 2013.</p>
+<p>She occupied the house as her main residence from the date of purchase until 30 September 2015. Saffie then moved in with her girlfriend and the house was unoccupied between 1 October 2015 and 30 September 2025. Throughout the period 1 October 2013 to 30 September 2025 Saffie did not have any other main residence.</p>
+<div class="callout callout-style-simple callout-none no-icon callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon no-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">None</span>Q2.1: Base cost for gifted shares
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>What is Chi’s base cost in the 50,000 £1 ordinary shares in Botune Ltd?</p>
+<p><strong>A. £94,000</strong><br>
+B. £97,000<br>
+C. £116,000<br>
+D. £210,000</p>
+<blockquote class="blockquote">
+<p>Since no consideration has been paid for the shares, all of Bo’s chargeable gain can be held over (i.e.&nbsp;deferred) with a gift holdover relief claim.</p>
+</blockquote>
+</div>
+</div>
+<div class="callout callout-style-simple callout-none no-icon callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon no-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">None</span>Q2.2: Sold shares instead of gifting
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>If Bo had instead sold the shares in Botune Ltd to Chi for £160,000, for each of the following statements select whether it is true or false:</p>
+<p>Bo’s chargeable gain would have been £66,000 T<br>
+Bo and Chi would not have been able to claim gift holdover relief F<br>
+The base cost of the shares for Chi would be £210,000 F</p>
+</div>
+</div>
+<div class="callout callout-style-simple callout-none no-icon callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon no-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">None</span>Q2.3: CG and Claim dates
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>When is the capital gains tax due date(s) for the tax year 2025/26 and by what date must Bo and Chi make the election to hold over the gain on the Botune Ltd shares?</p>
+<blockquote class="blockquote">
+<p>Capital gains tax is due under self-assessment, with the balancing payment for income tax, on 31 January following the tax year i.e.&nbsp;31 January 2027 for the tax year 2025/26.</p>
+</blockquote>
+<blockquote class="blockquote">
+<p>A gift holdover relief claim must be made within four years of the end of tax year of the gift i.e.&nbsp;5 April 2030 for a disposal in the tax year 2025/26.</p>
+</blockquote>
+</div>
+</div>
+<div class="callout callout-style-simple callout-none no-icon callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon no-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">None</span>Q2.4: CG Bands
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>Assuming that no other chargeable gains arise in the tax year, how much capital gains tax would Bo pay on the disposal of the painting in the tax year 2025/26?</p>
+<p><strong>1,400</strong></p>
+<blockquote class="blockquote">
+<p>1400 × 0.24 + 7000 × 0.18</p>
+</blockquote>
+</div>
+</div>
+<div class="callout callout-style-simple callout-none no-icon callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon no-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">None</span>Q2.5: private residence relief PRR
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>How much private residence relief is Saffie entitled to on the sale of her main residence?</p>
+<p>A. £172,000<br>
+B. £82,417<br>
+<strong>C. £39,417</strong><br>
+D. £38,729</p>
+<blockquote class="blockquote">
+<p>172 × ((2+9/12)/12)</p>
+</blockquote>
+</div>
+</div>
+</section>
+<section id="q3-alphabet-ltd" class="level3" data-number="6.2.3">
+<h3 data-number="6.2.3" class="anchored" data-anchor-id="q3-alphabet-ltd"><span class="header-section-number">6.2.3</span> Q3: ALPHABET LTD</h3>
+<p>On 15 October 2025 Alphabet Ltd, an unquoted trading company, was taken over by XYZ plc. Prior to the takeover Alphabet Ltd’s share capital consisted of 100,000 £1 ordinary shares and under the terms of the takeover the shareholders received either cash of £6 per share or one £1 ordinary share in XYZ plc for each £1 ordinary share in Alphabet Ltd.&nbsp;</p>
+<p>The following information is available regarding three shareholders of Alphabet Ltd:</p>
+<p><strong>Aloi</strong><br>
+Aloi has been the managing director of Alphabet Ltd since the company’s incorporation on 1 January 2015, and she accepted XYZ plc’s cash alternative of £6 per share in respect of her shareholding of 60,000 £1 ordinary shares in Alphabet Ltd.&nbsp;Aloi had originally subscribed for 50,000 shares in Alphabet Ltd on 1 January 2015 at their par value, and purchased a further 10,000 shares on 20 May 2016 for £18,600.</p>
+<p><strong>Bon</strong><br>
+Bon has been the sales director of Alphabet Ltd since 1 February 2024, having not previously been an employee of the company. She accepted XYZ plc’s share alternative of one £1 ordinary share for each of her 25,000 £1 ordinary shares in Alphabet Ltd.&nbsp;Bon had purchased her shareholding on 1 February 2024 for £92,200.</p>
+<p>On 4 March 2026 Bon gave 10,000 of her £1 ordinary shares in XYZ plc to her brother for £50,000. On that date the shares were quoted on the Stock Exchange Daily Official List at £7.10 – £7.18. Gift holdover relief is not available in respect of this disposal.</p>
+<p><strong>Cherry</strong><br>
+Cherry has been an employee of Alphabet Ltd since 1 May 2016. She accepted XYZ plc’s share alternative of one £1 ordinary share for each of her 3,000 £1 ordinary shares in Alphabet Ltd.&nbsp;</p>
+<p>Cherry had purchased her shareholding on 20 June 2017 for £4,800. On 13 November 2025 Cherry sold 1,000 of her £1 ordinary shares in XYZ plc for £6,600.</p>
+<p>Cherry died on 5 April 2026, and her remaining 2,000 £1 ordinary shares in XYZ plc were inherited by her daughter. On that date these shares were valued at £15,600.</p>
+<div class="callout callout-style-simple callout-none no-icon callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon no-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">None</span>Q3.1: Share as part disposal, cuz takeover bruh..
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>What is the chargeable gain, if any, arising on Aloi on the takeover of Alphabet Ltd?</p>
+<p><strong>291,400</strong></p>
+<blockquote class="blockquote">
+<p>360,000 - 68,600</p>
+</blockquote>
+</div>
+</div>
+<div class="callout callout-style-simple callout-none no-icon callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon no-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">None</span>Q3.2: CG
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>What is the chargeable gain or allowable loss on the disposal of shares in XYZ plc by Bon to her brother?</p>
+<p>A. £13,120 gain<br>
+B. £34,120 gain<br>
+<strong>C. £34,520 gain</strong><br>
+D. (£20,800) loss</p>
+<blockquote class="blockquote">
+<p>((7.1+7.18)/2<em>10000)-(92200</em>10/25)</p>
+</blockquote>
+</div>
+</div>
+<div class="callout callout-style-simple callout-none no-icon callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon no-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">None</span>Q3.3: capital gains tax due date
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>By what date(s) must Bon pay any capital gains tax due as a result of the disposal of shares in XYZ plc?</p>
+<p><strong>A. 31 January 2027</strong><br>
+B. 30 September 2026<br>
+C. 4 March 2027<br>
+D. 5 December 2026</p>
+</div>
+</div>
+<div class="callout callout-style-simple callout-none no-icon callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon no-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">None</span>Q3.4: Cost of Shares on Death
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>What is the allowable cost that will be used by Cherry’s daughter in the capital gains computation on a subsequent disposal of her inherited shares in XYZ plc?</p>
+<p><strong>A. £15,600</strong><br>
+B. £4,800<br>
+C. £2,000<br>
+D. £3,200</p>
+<blockquote class="blockquote">
+<p>Transfers on death are exempt disposals for CGT purposes. The daughter’s cost of acquisition on a subsequent disposal is the probate value i.e.&nbsp;the market value of the shares at the date of death.</p>
+</blockquote>
+</div>
+</div>
+</section>
+<section id="q4-lily" class="level3" data-number="6.2.4">
+<h3 data-number="6.2.4" class="anchored" data-anchor-id="q4-lily"><span class="header-section-number">6.2.4</span> Q4: LILY</h3>
+<p>Lily disposed of various assets during the tax year 2025/26, resulting in chargeable gains. Lily’s disposals included the following:</p>
+<p><strong>A copyright sold on 30 June 2025</strong></p>
+<p>The copyright had been purchased on 1 July 2022 for £22,000 when it had an unexpired life of 15 years.</p>
+<hr>
+<p><strong>Four hectares of land sold on 12 August 2025</strong></p>
+<p>Lily had originally purchased six hectares of land on 30 May 2013 for £84,000. The four hectares of land were sold for £140,000, and the market value of the unsold two hectares of land at the time of sale was £60,000. Prior to the disposal, Lily spent £14,400 clearing and levelling the four hectares of land that were sold.</p>
+<hr>
+<p><strong>A house sold on 31 December 2025</strong></p>
+<p>The house had been purchased on 1 January 2012, and throughout the 168 months of ownership had been occupied by Lily as follows (periods shown chronologically):</p>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 80%">
+<col style="width: 19%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Period</th>
+<th>Months</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Occupied</td>
+<td>32</td>
+</tr>
+<tr class="even">
+<td>Unoccupied – travelling overseas</td>
+<td>36</td>
+</tr>
+<tr class="odd">
+<td>Unoccupied – required to work elsewhere in the United Kingdom</td>
+<td>60</td>
+</tr>
+<tr class="even">
+<td>Occupied</td>
+<td>20</td>
+</tr>
+<tr class="odd">
+<td>Unoccupied – travelling overseas</td>
+<td>20</td>
+</tr>
+<tr class="even">
+<td><strong>Total</strong></td>
+<td><strong>168</strong></td>
+</tr>
+</tbody>
+</table>
+<p>Throughout the period 1 January 2012 to 31 December 2025, Lily did not have any other main residence.</p>
+<p><strong>Cash received following the takeover of Moon plc by Sun plc on 22 February 2026</strong></p>
+<p>Lily had originally purchased her £1 ordinary shares in Moon plc on 18 July 2016 for £27,280.<br>
+Under the terms of the takeover, Lily received total cash of £19,800 and 22,000 £1 ordinary shares in Sun plc. Immediately after the takeover, Sun plc’s £1 ordinary shares were quoted at £2.20.</p>
+<p><strong>Lily’s sister</strong><br>
+Lily’s sister has chargeable gains for the year 2025/26 of £44,200 which qualify for business asset disposal relief and £107,400 of chargeable gains relating to the disposal of a residential property which is not her main residence.</p>
+<p>Lily’s sister does not have any taxable income for the tax year 2025/26.</p>
+<div class="callout callout-style-simple callout-none no-icon callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon no-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">None</span>Q4.1: Base Cost copyright - Remaining Life Paet Disposal
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>What cost figure will have been used in calculating the chargeable gain on the disposal of Lily’s copyright?</p>
+<p>A. £22,000<br>
+<strong>B. £17,600</strong><br>
+C. £4,400<br>
+D. £19,067</p>
+</div>
+</div>
+<div class="callout callout-style-simple callout-none no-icon callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon no-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">None</span>Q4.2: Part the disposal of land - Total deductions
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>What are the total deductions which will have been allowed in calculating the chargeable gain on the disposal of Lily’s four hectares of land?</p>
+<p>A. £68,880<br>
+<strong>B. £73,200</strong><br>
+C. £70,400<br>
+D. £58,800</p>
+<blockquote class="blockquote">
+<p>84000*140/200+14400</p>
+</blockquote>
+</div>
+</div>
+<div class="callout callout-style-simple callout-none no-icon callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon no-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">None</span>Q4.3: Period of occupation
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>What is the total period of occupation (both actual and deemed) for the purposes of calculating the private residence relief on the disposal of Lily’s house?</p>
+<p><strong>A. 145 months</strong><br>
+B. 157 months<br>
+C. 168 months<br>
+D. 136 months</p>
+<blockquote class="blockquote">
+<p>The deemed occupation must be preceded and succeeded by periods of occupation so the first period of 36 months is covered as absence for any reason (up to three years) and</p>
+</blockquote>
+<blockquote class="blockquote">
+<p>the second period of working elsewhere in the UK is covered for 48 months, and</p>
+</blockquote>
+<blockquote class="blockquote">
+<p>the “three years for any reason” period has already been utilised. The final period of travelling is not covered as deemed occupation since there was no actual occupation afterwards (and the “three years for any reason” period has already been utilised).</p>
+</blockquote>
+<blockquote class="blockquote">
+<p>However, nine months of the final period of ownership are covered as deemed occupation, even if not actually occupied.</p>
+</blockquote>
+</div>
+</div>
+<div class="callout callout-style-simple callout-none no-icon callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon no-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">None</span>Q4.4: CG on Cash for Takeover
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>What is Lily’s chargeable gain in respect of the cash received following the takeover of Moon plc by Sun plc?</p>
+<p>A. £11,880<br>
+B. £6,878<br>
+C. £19,800<br>
+D. £8,640</p>
+</div>
+</div>
+</section>
+</section>
+<section id="constructed-response-questions" class="level2" data-number="6.3">
+<h2 data-number="6.3" class="anchored" data-anchor-id="constructed-response-questions"><span class="header-section-number">6.3</span> Constructed response questions</h2>
+<section id="q1" class="level3" data-number="6.3.1">
+<h3 data-number="6.3.1" class="anchored" data-anchor-id="q1"><span class="header-section-number">6.3.1</span> Q1:</h3>
 </section>
 </section>
 </section>
@@ -1507,6 +2252,19 @@ D. £506,000</p>
 <!-- /main column -->
 <script id="quarto-html-after-body" type="application/javascript">
   window.document.addEventListener("DOMContentLoaded", function (event) {
+    // Ensure there is a toggle, if there isn't float one in the top right
+    if (window.document.querySelector('.quarto-color-scheme-toggle') === null) {
+      const a = window.document.createElement('a');
+      a.classList.add('top-right');
+      a.classList.add('quarto-color-scheme-toggle');
+      a.href = "";
+      a.onclick = function() { try { window.quartoToggleColorScheme(); } catch {} return false; };
+      const i = window.document.createElement("i");
+      i.classList.add('bi');
+      a.appendChild(i);
+      window.document.body.appendChild(a);
+    }
+    setColorSchemeToggle(hasAlternateSentinel())
     const icon = "";
     const anchorJS = new window.AnchorJS();
     anchorJS.options = {

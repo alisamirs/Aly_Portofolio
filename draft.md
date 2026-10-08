@@ -1137,3 +1137,510 @@ Note: If possible, your loss relief claims should not result in donations becomi
 
 
  
+---
+
+
+
+
+
+
+
+
+TX-UK Pre-September 2026 Mock Exam
+
+This scenario relates to two requirements
+
+Maya currently runs a sole-trade business baking cakes at home. She expects her total income tax liability and national insurance contributions for the tax year 2025-26 to be £12,242 on this basis. She would be a basic rate taxpayer for that tax year as a sole trader.
+
+Maya has been considering incorporating her business and would like to compare the potential tax liability of that to her sole trade business. 
+
+The forecast trading profits of the new limited company would be £72,000 (before taking account of any director’s remuneration or associated costs). Maya would be planning to pay herself gross director’s remuneration of £40,000 and dividends of £10,000. The balance of profits would be retained within the new company. The new company would not qualify for the NIC annual employment allowance. 
+
+Whichever structure is used, Maya would like to start contributing £10,000 into a pension scheme and would like some advice on the tax implications of doing so. She is not sure yet whether to invest into a personal pension scheme or an occupational scheme.
+
+(a)  Calculate whether there would be an overall saving of tax (income tax, corporation tax, employee and employer national insurance contributions) if Maya were to set up a new limited company compared with her current sole trade business.  
+
+(7 marks)
+
+---
+
+
+
+
+
+
+
+
+
+
+
+TX-UK Pre-September 2026 Mock Exam
+
+This scenario relates to two requirements
+
+Joyce
+
+Joyce was an employee of Arko Ltd, a UK resident company but resigned on 30 June 2025. For 2025-26, her annual salary had been £70,000 and she was awarded a bonus of £5,000 on 30 April 2025 for her performance during the previous year.
+
+On 1 August 2025, Joyce started work at Kyro Ltd with an annual salary of £73,500. Joyce was provided with the following benefits from the day she joined Kyro Ltd:
+
+Accommodation
+
+Joyce was provided with non-job-related accommodation. The annual value of the accommodation was £15,000 and the company paid a monthly rent of £750 for it.
+
+Joyce also pays £200 per month to Kyro Ltd as rent for the accommodation.
+
+Car
+
+Joyce was also provided with a new diesel car with a list price of £31,000. Joyce has both business and personal use of the car. The CO2 emissions of the car are 84g/km. Joyce made a one-off capital contribution of £4,200 towards the purchase price of the car. Kyro Ltd also provides fuel.
+
+The car meets the RDE2 standard.
+
+Personal Pension Scheme Contribution
+
+Joyce contributes a gross amount of £5,000 in a personal pension scheme and Kyro Ltd pays 10% of Joyce’s salary into the same scheme as an employer contribution.
+
+Other Income
+
+Joyce received interest of £4,000 from her bank and £7,000 dividends from her shares in various UK companies.
+
+PAYE
+
+A total PAYE amount of £29,000 has been paid on behalf of Joyce by both her employers for the tax year 2025-26.
+
+(a)     Calculate Joyce’s income tax payable or refundable for the tax year 2025-26.
+
+(11 marks)
+
+---
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Haven Ltd, an event management company, ceased trading on 31 December 2025, having traded profitably for many years. The company has always previously used an accounting period end date of 31 March until its final period of trading. 
+
+A summary of Haven Ltd’s statement of profit or loss for the nine-month period to 31 December 2025 is shown below: 
+
+|                                         | Note | £          |
+|-----------------------------------------|------|------------|
+| Sales                                   |      | 179,000    |
+| Property business income                | 1    | 12,500     |
+| Profit on sale of freehold office building | 2  | 90,700    |
+| Less: Depreciation                      |      | (16,250)   |
+| Salaries and staff costs                | 3    | (186,000)  |
+| Vehicle leasing                         | 4    | (1,700)    |
+| Other expenses                          | 5    | (196,500)  |
+| Loss                                    |      | 118,250    |
+                                                                       
+Notes:
+
+1. The property business income is in respect of a freehold office building that had always been rented out.
+
+During the last 12 months of Haven Ltd’s trade the property income and expenses included:
+
+-    1 February 2025:
+
+        -    received rent of £18,000 for the 6 months to 30 June 2025
+            paid insurance of £4,200 for the 12 months to 31 December 2025
+
+-    1 August 2025:
+
+        -    received rent of £21,000 for the 6 months to 31 December 2025
+            paid for repairs following a roof leak (uninsured) costing £3,750
+
+2. The freehold office building was sold on 31 December 2025 for proceeds of £164,000. The office had originally cost £42,600. Indexation allowance for the relevant time period to December 2017 is £17,230
+
+3. The salaries and staff costs figure includes:
+
+- An amount of £12,570 for bonuses that have been declared but won’t be paid until early 2027 and
+
+- An amount of £2,100 on counselling services provided to employees who were made redundant
+
+4. The vehicle leasing is made up of £700 in respect of a car with CO2 emissions of 32g/km and £1,000 in respect of a van with CO2 emissions of 145g/km.
+
+5. Other expenses include the following items: 
+
+-    Entertainment of UK suppliers: £4,160
+
+-    Entertainment of overseas customers: £780
+
+-    Qualifying charitable donations: £1,200
+
+
+6. The tax written down value of Haven Ltd’s main pool on 1 April 2025 was £50,800. All items in the pool were disposed of for £24,750 on 31 December 2025, each of them at a loss compared with the original purchase price.
+
+(a) Calculate the tax-adjusted trading loss for Haven Ltd for the 9-month period ending 31 December 2025.
+
+(b)      Assuming that Haven Ltd claims the maximum amount of loss relief in the 9-month period ending 31 December 2025, calculate the taxable total profits or loss for that period. 
+
+---
+
+
+
+
+
+
+
+
+
+TX-UK September/December 2025 (25/26 syllabus)
+
+This scenario relates to five requirements.
+
+You should assume that the tax rates and allowances for the tax year 2024-25 apply throughout.
+
+The following information is available for Kroot for the four years 2022-23, 2023-24, 2024-25 and 2025-26:
+
+**2022-23 and 2023-24**
+
+**Employment income**    
+
+Kroot was employed at a gross annual salary of £200,000, with all the income tax on this employment income collected at source via PAYE.
+
+**Dividend income**
+
+Kroot received dividend income of £5,000 in the tax years 2022-23 and 2023-24.
+
+**2024-25**
+
+Employment income    
+
+Kroot ceased employment on 5 April 2024 to take a career break. Kroot did not work at all during the tax year 2024-25.
+
+**Dividend income**    
+
+Kroot received dividend income of £100,000. This is Kroot’s only income for the tax year 2024-25.
+
+**Chargeable gain** 
+
+Kroot had a portfolio of quoted shares. He sold the entire portfolio on 10 April 2024, and this disposal resulted in chargeable gains of £120,000. Kroot has not made any other chargeable disposals. 
+
+**2025-26**
+
+**Employment income**
+
+Kroot commenced employment again on 6 April 2025 on a gross annual salary of at least £175,000, with all of the income tax on this income collected at source via PAYE.
+
+Kroot did not have any other income from employment or dividends for the tax year 2025-26. 
+
+(a) Explain if there would have been any capital gains tax (CGT) advantage or disadvantage to Kroot of disposing of his portfolio of quoted shares on 1 April 2024 rather than disposing of them on 10 April 2024.
+
+Note: Your answer should include the calculation of Kroot’s CGT liability for the tax year 2024-25, and should show if there is any tax saving.
+
+
+---
+
+
+
+
+
+TX-UK September/December 2025 (25/26 syllabus)
+
+This scenario relates to three requirements.
+
+ 
+
+Michael commenced self-employment on 6 April 2024.
+
+ 
+
+For the year ended 5 April 2025, Michael's accounts have been prepared using the default cash basis. However, his bank has requested figures that have been prepared using the accruals basis.
+
+ 
+
+Accounts prepared on the cash basis are as follows:
+
+|                                         | Note | £          |
+|-----------------------------------------|------|------------|
+| Receipts                                | 1    | 194,300    |
+| **Expenses:**                           |      |            |
+| Cost of equipment                       | 2    | (6,200)    |
+| Loan interest                           | 3    | (2,400)    |
+| Mileage allowance                       | 4    | (3,780)    |
+| Other allowable expenses                | 5    | (105,300)  |
+| **Net profit**                          |      | **76,620**  |
+ 
+
+Notes:
+
+(1) Receipts of £194,300 exclude amounts owed as receivable of £6,900 at 5 April 2025.
+
+ 
+
+(2) On 10 April 2024, Michael purchased equipment costing £6,200.
+
+ 
+
+(3) The loan interest is in respect of a bank loan of £30,000 that Michael took out to provide working capital for the business.
+
+ 
+
+(4) During the year ended 5 April 2025, Michael drove 8,400 business miles and claimed the fixed rate mileage allowance of £3,780 on this.
+
+ 
+
+If Michael uses the accruals basis he will not use the fixed rate mileage allowance.
+
+ 
+
+Michael purchased his car on 6 April 2024 for £28,800. The car was purchased new and has zero CO2 emissions. It is used 70% for business mileage and 30% for private mileage.
+
+ 
+
+Total car expenses (including private usage) for the year ended 5 April 2025 were £5,430 as follows (none of which are included in the net profit calculated on the cash basis):
+
+|                                         | £        |
+|-----------------------------------------|----------|
+| Car running costs                       | 3,220    |
+| Fuel                                    | 1,670    |
+| Speeding fine (incurred by Michael)     | 80       |
+| Parking fines (incurred when Michael was visiting clients) | 460 |
+| **Total**                               | **5,430** |
+
+
+(5) Other allowable expenses of £105,300 exclude amounts owed as payable of £5,700 at 5 April 2025.
+
+ 
+
+Additional information
+
+In addition to the self-employed business, the following information is relevant to Michael's income tax liability for the tax year 2024-25:
+
+ 
+
+(1) Michael is employed part-time. His gross annual salary was £16,400 for the tax year 2024-25. Michael’s employer contributed £820 into their occupational pension scheme for him during the tax year 2024-25 and Michael's contribution into this scheme was £656.
+
+ 
+
+(2) Michael lets out a furnished spare room in his house. For the tax year 2024-25, he received rental income of £8,400 and incurred additional allowable expenditure of £1,260 as a result of the letting. Michael always uses the most favourable basis as regards the tax treatment of the furnished room.
+
+ 
+
+(3) Michael received savings income of £480 during the tax year 2024-25.
+
+ 
+
+(4) On 1 February 2025, Michael made a charitable gift aid donation of £700 (gross).
+
+ 
+
+(b) Calculate Michael's tax-adjusted trading profit for the year ended 5 April 2025 if he elects to use the accruals basis rather than the cash basis.
+
+ 
+
+Notes:
+
+1. You should start your computation with the cash basis net profit figure of £76,620 and should list all items referred to in notes (1) to (5), indicating by the use of zero (0) any items which do not impact on your computation. However, marks will be awarded for any other approach to determine the tax-adjusted trading profit using the accruals basis.
+
+ 
+
+2.  You should assume that Micheal does not claim fixed rate expenses
+
+(7 marks)
+Draggable item help was dropped.
+
+
+
+
+---
+
+
+
+
+
+
+TX-UK September/December 2025 (25/26 syllabus)
+
+This scenario relates to one requirement.
+
+ 
+
+The following information is available in respect of Sliwing Ltd for the year ended 31 March 2025:
+
+ 
+
+Trading profit
+
+The information from the draft financial statements shows a trading profit for the year ended 31 March 2025 of £982,200.
+
+ 
+
+This figure is before making any deductions arising from the following expenditure:
+
+ 
+
+(1) Before legal fees for the year totalling £33,730. These are in connection with:
+
+ 
+| Description                                                       | £        |
+|-------------------------------------------------------------------|----------|
+| The purchase of freehold buildings (see notes (3) and (4))        | 16,280   |
+| An issue of £1 ordinary shares                                   | 9,100    |
+| The registration of trade marks                                   | 2,880    |
+| The repayment of loan notes (see note (5))                        | 5,470    |
+| **Total legal fees not deducted**                                  | **33,730** |
+ 
+    
+ 
+
+(2) Before qualifying charitable donations of £4,600 and political donations of £600 which Sliwing Ltd made during the year ended 31 March 2025.
+
+ 
+
+(3) Before the annual investment allowance available in respect of expenditure on a second-hand freehold warehouse which was purchased for £292,000 on 1 August 2024. The warehouse was originally constructed 15 years ago. Sliwing Ltd and the vendor of the warehouse have made a joint election to allocate the purchase cost of £292,000 as follows:
+
+ 
+
+ 
+    
+| Description                 | £        |
+|-----------------------------|----------|
+| Building cost               | 182,400  |
+| Land                        | 71,000   |
+| Ventilation system          | 14,700   |
+| Heating system              | 23,900   |
+| **Total purchase cost**      | **292,000** | 
+
+The tax written down value of Sliwing Ltd’s main pool and special rate pool as at 1 April 2024 is £0 in both cases.
+
+ 
+
+(4) Before the structures and buildings allowance available in respect of a newly constructed office building which was purchased from a builder for £384,000 on 1 July 2024. The purchase price included land valued at £94,000. The office building was brought into use on 1 November 2024.
+
+ 
+
+(5) Before the deduction relating to loan notes of £220,000 which were repaid on 31 May 2024 together with interest of £3,300 for the three-month period 1 March to 31 May 2024. An accrual of £1,100 was brought forward at 1 April 2024. The loan notes were issued in order to finance Sliwing Ltd’s trading activities.
+
+ 
+
+Chargeable gain
+
+On 20 February 2025, Sliwing Ltd sold its entire shareholding (a 1% shareholding) of £1 ordinary shares in JKL plc, an unconnected company, for £136,800. Sliwing Ltd had originally purchased 24,000 shares in JKL plc on 1 August 2014 for £39,600. The indexation factor from August 2014 to December 2017 is 0.082.
+
+ 
+
+Subsidiary companies
+
+Sliwing Ltd has an 80% subsidiary company, Up Ltd. Up Ltd in turn has an 80% subsidiary company, Down Ltd. The group structure, showing the percentage holding of ordinary share capital, is therefore as follows: 
+
+ 
+
+Sliwing Ltd
+       |
+    80%
+       |
+  Up Ltd
+       |
+    80%
+       |
+ Down Ltd
+
+ 
+
+Both shareholdings have been held for several years. For the year ended 31 March 2025, Up Ltd and Down Ltd have made the following trading losses and capital losses:
+
+ 
+| Subsidiary   | Trading loss (£) | Capital loss (£) |
+|--------------|------------------|------------------|
+| Up Ltd       | (35,700)         | (23,300)         |
+| Down Ltd     | (16,600)         | (9,900)          |
+
+
+Neither company has any other income or outgoings.
+
+Where possible, all elections have been made to reduce the taxable total profits of Sliwing Ltd.
+
+(a) On the basis that all available claims and elections are made, calculate Sliwing Ltd’s taxable total profits for the year ended 31 March 2025.
+
+Note: Your computation should commence with the draft trading profit figure of £982,200, indicating by the use of zero (0) any items that do not require adjustment or are not to be included.
+
+(15 marks)
+
+
+
+---
+
+
+
+
+
+
+
+TX-UK June 2026 (26/27 syllabus)
+
+This scenario relates to one requirement.
+
+ 
+
+You should assume that today’s date is 15 March 2025.
+
+ 
+
+You are a trainee Chartered Certified Accountant dealing with the tax affairs of Kahuna and Jacey, a married couple. Before taking account of any tax planning measures, you have prepared a forecast of the couple’s tax position for the tax year 2025-26.
+
+ 
+
+Kahuna
+
+Kahuna will have an income tax liability of £42,508. This is based on taxable income of £127,000, consisting of gross director’s remuneration of £116,000 and dividend income from quoted shares of £11,000. He has an unused capital loss of £13,100 brought forward from the tax year 2024-25.
+
+ 
+
+Jacey
+
+Jacey will have an income tax liability of £1,506. This is based solely on employment income of £20,100.
+
+ 
+
+Jacey will also have a capital gains tax liability of £9,230. This is in respect of the disposal of quoted shares which will result in chargeable gains of £49,000. The disposal will not qualify for business asset disposal relief.
+
+ 
+
+Tax planning measures
+
+After a meeting with Kahuna and Jacey, you have identified three tax planning measures which the couple could undertake for the tax year 2025-26:
+
+ 
+
+(1)
+    
+
+Kahuna's quoted shares will be put into joint names so that Jacey receives 50% of the dividend income of £11,000
+
+(2)
+    
+
+Kahuna will contribute £20,000 (net) into a personal pension scheme
+
+(3)
+    
+
+Jacey's quoted shares will be put into joint names prior to their disposal
+
+ 
+
+(a) Calculate the overall amount of tax which Kahuna and Jacey will save for the tax year 2025-26 if they undertake the three tax planning measures which you have identified.
+
+ 
+
+Note: In support of your answer, you are expected to prepare full income tax and capital gains tax computations for both Kahuna and Jacey.
+
+(10 marks)
+
+
+
+
+
