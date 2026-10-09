@@ -10,3 +10,9 @@ _site/
 
 /.quarto/
 **/*.quarto_ipynb
+
+# Static dashboard build artifacts and local dependencies
+dashboard/node_modules/
+dashboard/dist/
+dashboard/public/
+dashboard/*.tsbuildinfo
