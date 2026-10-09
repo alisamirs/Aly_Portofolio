@@ -10,15 +10,15 @@
       "karpathy-wiki"
     ],
     "description": "Knowledge graph for Tax Exam Knowledge Map",
-    "analyzedAt": "2026-10-08T23:02:25.623962+00:00",
-    "gitCommitHash": "49dff0522573941f1a27d258e1cb99ece9310b1a"
+    "analyzedAt": "2026-10-09T05:30:35.955295+00:00",
+    "gitCommitHash": "1ed13220a2bd5cc23dea57b94caecf087016fcc0"
   },
   "nodes": [
     {
       "id": "article:C01_TX_SYS",
       "type": "article",
       "name": "C01 — Tax system",
-      "filePath": "C01_TX_SYS.md",
+      "filePath": "wiki/C01_TX_SYS.md",
       "summary": "Foundation: purpose and structure of the UK tax system, direct and indirect taxes, sources of law, HMRC, ethics, avoidance, evasion, and double taxation.",
       "tags": [
         "foundations and administration"
@@ -31,7 +31,7 @@
           "C12_TX_ADMN"
         ],
         "category": "Foundations and administration",
-        "content": "# C01 — Tax system\n\nFoundation: purpose and structure of the UK tax system, direct and indirect taxes, sources of law, HMRC, ethics, avoidance, evasion, and double taxation.\n\nOriginal notes: [C01_TX_SYS.qmd](../C01_TX_SYS.qmd)\n\nRelated: [[C02_IT_ILIB]], [[C03_ADD_ASS]], [[C12_TX_ADMN]]\n",
+        "content": "# C01 — Tax system\n\nFoundation: purpose and structure of the UK tax system, direct and indirect taxes, sources of law, HMRC, ethics, avoidance, evasion, and double taxation.\n\nOriginal notes: [C01_TX_SYS.qmd](../C01_TX_SYS.qmd)\n\nRelated: [[C02_IT_ILIB]], [[C03_ADD_ASS]], [[C12_TX_ADMN]]\n\n## Original note content\n\n---\ntitle: \"Chapter 1: The UK Tax System and Its Administration\"\nabstract: |\n  This chapter introduces the overall structure and purpose of the United Kingdom\n  tax system within the ACCA TX-UK syllabus. It explains why taxation exists,\n  distinguishes direct and indirect taxation, identifies the main capital and\n  revenue taxes, and summarises the legal and administrative framework in which\n  HM Revenue and Customs (HMRC) operates. The chapter also outlines\n  self-assessment, filing and payment deadlines, compliance activity, and the\n  ethical responsibilities of tax advisers. The aim is to provide a professional,\n  exam-focused foundation for later computational and advisory topics.\n---\n\n# Introduction {#sec-introduction}\n\nThis study paper provides a structured overview of the UK tax system for ACCA\nTX-UK. It is written in a concise reference style so that key definitions,\ncomparisons, and administrative rules can be revised quickly.\n\n::: {.columns}\n::: {.column width=\"48%\"}\n## Chapter Focus\n\n- Purpose of taxation in a modern economy\n- Direct and indirect taxation\n- Capital and revenue taxes\n- Revenue law, practice, and HMRC guidance\n- Self-assessment and tax administration\n- Ethics, avoidance, and evasion\n:::\n\n::: {.column width=\"48%\"}\n## Revision Route\n\n- Start with [purpose of taxation](#sec-purpose-taxation)\n- Compare [direct and indirect taxes](#sec-direct-indirect)\n- Learn the [main UK taxes](#sec-main-taxes)\n- Review [sources of revenue law](#sec-revenue-law)\n- Finish with [ethics and professional conduct](#sec-ethics)\n:::\n:::\n\n# The UK Tax System and Its Administration {#sec-uk-tax-system}\n\n## The Overall Function and Purpose of Taxation {#sec-purpose-taxation}\n\n### Purpose of Taxation {#sec-tax-purpose}\n\nTaxation serves both **economic** and **social** objectives.\n\n::: {.columns}\n::: {.column width=\"48%\"}\n#### Economic Purpose\n\n- Funds public expenditure and public services\n- Influences inflation, employment, and trade activity\n- Encourages or discourages particular behaviour\n- Supports wider fiscal policy goals\n:::\n\n::: {.column width=\"48%\"}\n#### Social Purpose\n\n- Contributes to redistribution of wealth\n- Supports social justice objectives\n- Shapes fairness through tax burden design\n- Can target support to specific groups\n:::\n:::\n\nThe current UK tax system may encourage:\n\n- Individual saving through tax-advantaged products such as Individual savings accounts (ISAs)\n- Charitable giving through reliefs such as Gift Aid\n- Entrepreneurship and investment through targeted reliefs\n\nThe current UK tax system may discourage:\n\n- Motoring through fuel duties\n- Smoking and alcohol consumption through excise duties\n- Environmental damage ",
         "backlinks": [
           "article:C02_IT_ILIB",
           "article:C12_TX_ADMN",
@@ -47,7 +47,7 @@
       "id": "article:C02_IT_ILIB",
       "type": "article",
       "name": "C02 — Income tax and liabilities",
-      "filePath": "C02_IT_ILIB.md",
+      "filePath": "wiki/C02_IT_ILIB.md",
       "summary": "Core income-tax concepts: taxable income, liability, rates, allowances, and the framework used before moving into individual income categories.",
       "tags": [
         "foundations and administration"
@@ -62,7 +62,7 @@
           "C11_NIC"
         ],
         "category": "Foundations and administration",
-        "content": "# C02 — Income tax and liabilities\n\nCore income-tax concepts: taxable income, liability, rates, allowances, and the framework used before moving into individual income categories.\n\nOriginal notes: [C02_IT_ILIB.qmd](../C02_IT_ILIB.qmd)\n\nRelated: [[C01_TX_SYS]], [[C04_Prop_TA]], [[C05_Emp_Inc]], [[C07_INC_SELF_EP]], [[C11_NIC]]\n",
+        "content": "# C02 — Income tax and liabilities\n\nCore income-tax concepts: taxable income, liability, rates, allowances, and the framework used before moving into individual income categories.\n\nOriginal notes: [C02_IT_ILIB.qmd](../C02_IT_ILIB.qmd)\n\nRelated: [[C01_TX_SYS]], [[C04_Prop_TA]], [[C05_Emp_Inc]], [[C07_INC_SELF_EP]], [[C11_NIC]]\n\n## Original note content\n\n﻿---\ntitle: \"Chapter 2: The scope of income tax\"\nabstract: |\n    This chapter deal with individuals, whether they are employed, self-employed or simply in receipt of investment income, are assessed to income tax. \n    \n    Income tax is an important topic as it will be the focus of one 15 mark question in section C of the examination. You can also expect income tax questions in both sections A and B of the examination. \n    \n    This chapter sets out the basis upon which individuals are assessed to income tax and how an individual's income tax liability is calculated. \n---\n\n::: {.center data-latex=\"\"}\n```{mermaid}\n%%| fig-width: 3\n%%| fig-align: center\nflowchart TD\n    %% Nodes\n    C(\"BASIC INCOME TAX COMPUTATION\")\n    AI(\"ASSESSABLE INCOME\")\n    R(\"RELIEFS\")\n    AL(\"ALLOWANCES\")\n    TI(\"TAXABLE INCOME\")\n    TL(\"INCOME TAX LIABILITY\")\n    TP(\"INCOME TAX PAYABLE\")\n\n    %% Compact Connections\n    C -.-> AI & R & AL\n    AI & R & AL -.-> TI\n    TI -.-> TL -.-> TP\n```\n:::\n\n# The scope of income tax\n\n## Basis of assessment\n\nIndividuals are assessed to income tax on their income arising in a **tax year**. \n\nThe UK tax year runs from 6 April to 5 April the following year.\n\n- Current Tax Year (2026/27): Began on 6 April 2026 and will end on 5 April 2027.\n- Previous Tax Year (2025/26): Ran from 6 April 2025 to 5 April 2026.\n\n## Assessable persons\n\n- All individuals, including children, are chargeable to income tax.\n- Both spouses within a married couple and both partners in a civil partnership are treated as separate individuals for the purposes of income tax.\n\nThe tax residency status of an individual determines how much income is assessed to UK tax.  \nAll persons resident for tax purposes in the UK are assessed to UK tax on their worldwide income.\n\n## Personal allowance \n\nEvery taxpayer is entitled to a personal allowance (PA). \n\n- The PA is an amount of tax-free income that every taxpayer is entitled to each tax year. \n- The amount is reduced, potentially to £Nil, for high income individuals.\n\n## Married couples and civil partners \n\nThere are special rules governing the allocation of income between spouses where assets are jointly owned: \n\nGenerally, income generated from assets jointly owned is split 50:50 between spouses regardless of the actual percentage ownership.\n\n**Election available:** Where jointly owned assets are held other than in a 50:50 ratio, an election can be made to HM Revenue & Customs (HMRC) for the income  to be taxed on the individual spouses according to their actual percentage  ownership.  \n\nCivil partners are treated in the same way as married couples. \n\nChildren under the age of ",
         "backlinks": [
           "article:C01_TX_SYS",
           "article:C03_ADD_ASS",
@@ -78,7 +78,7 @@
       "id": "article:C03_ADD_ASS",
       "type": "article",
       "name": "C03 — Assessment and additional assessment",
-      "filePath": "C03_ADD_ASS.md",
+      "filePath": "wiki/C03_ADD_ASS.md",
       "summary": "Assessment principles and the process for establishing or correcting a taxpayer’s liability.",
       "tags": [
         "foundations and administration"
@@ -91,7 +91,7 @@
           "C16_TX_ADM_CORP"
         ],
         "category": "Foundations and administration",
-        "content": "# C03 — Assessment and additional assessment\n\nAssessment principles and the process for establishing or correcting a taxpayer’s liability.\n\nOriginal notes: [C03_ADD_ASS.qmd](../C03_ADD_ASS.qmd)\n\nRelated: [[C02_IT_ILIB]], [[C12_TX_ADMN]], [[C16_TX_ADM_CORP]]\n",
+        "content": "# C03 — Assessment and additional assessment\n\nAssessment principles and the process for establishing or correcting a taxpayer’s liability.\n\nOriginal notes: [C03_ADD_ASS.qmd](../C03_ADD_ASS.qmd)\n\nRelated: [[C02_IT_ILIB]], [[C12_TX_ADMN]], [[C16_TX_ADM_CORP]]\n\n## Original note content\n\n---\ntitle: \"Chapter 3: Income tax: Additional aspects\"\nabstract: |\n    Prepare computations of taxable amounts and tax liabilities according to legal requirements and Advise on mitigating and deferring liabilities through **legitimate tax planning measures**.  \n    \n---\n\n::: {.center data-latex=\"\"}\n```{mermaid}\n%%| fig-width: 6\n%%| fig-align: center\nflowchart TD\n    %% Main Node\n    A([INCOME TAX<br>ADDITIONAL ASPECTS])\n\n    %% First Level Sub-Nodes\n    B([RESIDENCE])\n    C([RELIEFS AND<br>ALLOWANCES])\n    D([CHILD BENEFIT<br>TAX CHARGE])\n    E([Individual Savings Accounts<br>ISAs])\n    F([ACCRUED<br>INCOME SCHEME])\n\n    %% Second Level Sub-Node\n    G([SPOUSE/CIVIL<br>PARTNER<br>PLANNING])\n\n    %% Connections\n    A -.- B\n    A -.- C\n    A -.- D\n    A -.- E\n    A -.- F\n    \n    C -.- G\n\n    %% Styling to mimic the rounded blue boxes\n    style A fill:#fff,stroke:#1e3a8a,stroke-width:2px,color:#1e3a8a\n    style B fill:#fff,stroke:#1e3a8a,stroke-width:2px,color:#1e3a8a\n    style C fill:#fff,stroke:#1e3a8a,stroke-width:2px,color:#1e3a8a\n    style D fill:#fff,stroke:#1e3a8a,stroke-width:2px,color:#1e3a8a\n    style E fill:#fff,stroke:#1e3a8a,stroke-width:2px,color:#1e3a8a\n    style F fill:#fff,stroke:#1e3a8a,stroke-width:2px,color:#1e3a8a\n    style G fill:#fff,stroke:#1e3a8a,stroke-width:2px,color:#1e3a8a\n```\n::: \n\n# Tax status of an individual\n\nThe tax ***residency status*** of an individual determines how much income is assessed to UK tax. \n\nAll persons resident in the UK for tax purposes are assessed to UK tax on their **worldwide income**.\n\n\n## Definition of residence \n\nA person is UK resident in the tax year if the individual:\n\n1. Does not meet one of the automatic non-UK residence tests, and\n2. Meets one of the automatic UK residence tests, or\n3. Meets one or more of the sufficient ties tests.  \n\nThese rules are complex in practice; however the examining team have confirmed that the following simplified rules are to be applied in the TX examination.\n\n\n### Procedure to determine residence \n\n| Step   | Description                                                                 |\n|--------|-----------------------------------------------------------------------------|\n| Step 1 | **Check automatic non-UK residence tests** \\newline - If satisfy one test = non-UK resident \\newline - If not = go to Step 2 |\n| Step 2 | **Check automatic UK residence tests** \\newline - If satisfy one test = UK resident \\newline - If not = go to Step 3 |\n| Step 3 | **Determine how many sufficient ties with the UK exist**, and \\newline **How many days are spent in the UK in the tax year**, then \\newline **Use tax tables to decide status** |\n\nThe **order** of the procedure is important because it ",
         "backlinks": [
           "article:C01_TX_SYS",
           "article:C07_INC_SELF_EP",
@@ -104,7 +104,7 @@
       "id": "article:C04_Prop_TA",
       "type": "article",
       "name": "C04 — Property tax",
-      "filePath": "C04_Prop_TA.md",
+      "filePath": "wiki/C04_Prop_TA.md",
       "summary": "Tax treatment of property income, including the classification and calculation issues commonly tested for landlords and property businesses.",
       "tags": [
         "income taxes"
@@ -118,7 +118,7 @@
           "C23_VAT"
         ],
         "category": "Income taxes",
-        "content": "# C04 — Property tax\n\nTax treatment of property income, including the classification and calculation issues commonly tested for landlords and property businesses.\n\nOriginal notes: [C04_Prop_TA.qmd](../C04_Prop_TA.qmd)\n\nRelated: [[C02_IT_ILIB]], [[C05_Emp_Inc]], [[C17_CGT]], [[C23_VAT]]\n",
+        "content": "# C04 — Property tax\n\nTax treatment of property income, including the classification and calculation issues commonly tested for landlords and property businesses.\n\nOriginal notes: [C04_Prop_TA.qmd](../C04_Prop_TA.qmd)\n\nRelated: [[C02_IT_ILIB]], [[C05_Emp_Inc]], [[C17_CGT]], [[C23_VAT]]\n\n## Original note content\n\n﻿---\ntitle: \"Chapter 4: Property income\"\nabstract: |\n    The taxation of property income in the form of rental income from properties, as well as premiums received from the grant of short leases.  \n    For the purposes of the examination, you are required to be able to deal with the following: \n    Property business profits arising from the **rental/lease of property**;\n    The **premium** received on the grant of a short lease;  \n    Rental income received which qualifies for the **rent-a-room scheme**.\n---\n\n# Property income - basis of assessment for individuals or partnerships \n\n## Basis of assessment (Cash Basis)\n\nThe amount assessable for a tax year is usually the net profit arising from the letting of all properties owned by the landlord in the tax year ending on **5 April**.\n\nProperty income can be assessed using the cash basis, or the accruals basis. However, the **cash basis is the default basis** for an individual with property income.\n\n> The cash basis is the default basis for non-corporate bodies with property income, therefore in exam questions involving property income for **individuals or partnerships**, it should be assumed that the cash basis is used, unless a question specifically states otherwise.\n\nThe rental income and related expenses are assessable/deductible on a received/paid basis. Accordingly, the period to which the income/expense relates is irrelevant. \n\n## Allowable deductions \n\nThe types of allowable expenses for property income are generally the same as those allowable under the normal rules for the assessment of trading income. \n\nThe main rules are as follows: \n\n- The general rule is that to be allowable, the expenses must have been incurred wholly and exclusively for the purposes of the property business.   \n  This covers items such as:\n\n    - Insurance\n    - Agents' fees and other management expenses \n    - Repairs\n    - interest on a loan to acquire or improve a **let non-residential property**.\n\n> there are special rules which apply to the **financing costs** of a let **residential property**.\n\n**Non-residential property**\n\n- For **non-residential property** (e.g., offices, shops, warehouses), interest on loans taken out to buy or improve the property is treated as a straightforward **deductible expense**.  \n- This means it can be offset directly against rental income when calculating taxable property profits.\n\n**Residential property**\n\n- For **residential property**, the rules are different.  \n- Since April 2020, landlords cannot deduct finance costs (like mortgage interest) in full from rental income.  \n- Instead, they receive a **basic rate tax reduction (20%)** on those costs.  \n- This change was in",
         "backlinks": [
           "article:C02_IT_ILIB",
           "article:C23_VAT"
@@ -129,7 +129,7 @@
       "id": "article:C05_Emp_Inc",
       "type": "article",
       "name": "C05 — Employment income",
-      "filePath": "C05_Emp_Inc.md",
+      "filePath": "wiki/C05_Emp_Inc.md",
       "summary": "Employment income, benefits, expenses, and the distinction between taxable remuneration and allowable deductions.",
       "tags": [
         "income taxes"
@@ -143,7 +143,7 @@
           "C11_NIC"
         ],
         "category": "Income taxes",
-        "content": "# C05 — Employment income\n\nEmployment income, benefits, expenses, and the distinction between taxable remuneration and allowable deductions.\n\nOriginal notes: [C05_Emp_Inc.qmd](../C05_Emp_Inc.qmd)\n\nRelated: [[C02_IT_ILIB]], [[C06_Pension]], [[C07_INC_SELF_EP]], [[C11_NIC]]\n",
+        "content": "# C05 — Employment income\n\nEmployment income, benefits, expenses, and the distinction between taxable remuneration and allowable deductions.\n\nOriginal notes: [C05_Emp_Inc.qmd](../C05_Emp_Inc.qmd)\n\nRelated: [[C02_IT_ILIB]], [[C06_Pension]], [[C07_INC_SELF_EP]], [[C11_NIC]]\n\n## Original note content\n\n---\ntitle: \"Chapter 5: Employment income\"\nabstract: |\n     to prepare computations of taxable amounts and tax liabilities according to legal requirements.  \n---\n\n# The scope of employment income\n\n## Employment or self-employment\n\nThe distinction between employment and self-employment is fundamental: \n\n```{=typst}\n#table(\n  columns: (1fr, 1fr),\n  stroke: none,\n  inset: 0pt,\n  [An employee is taxable under the employment income provisions],\n  [A self-employed person is assessed on the profits derived from a trade, profession or vocation, under the trading income provisions.]\n)\n```\n---\n\nHowever, even in the absence of a written contract of service any of the following matters would corroborate the existence of such a contract, and, therefore, employment:\n\n- Mutuality of obligations: an obligation by the employer to offer work and an obligation by the employee to undertake the work offered. An employee would not normally be in a position to decline work when offered.\n- Control: the employer controls the manner and method of the work \n- Benefits: the individual is entitled to benefits normally provided to employees such as sick pay and holiday pay.\n- Basis of payment: the individual is committed to work a specified number of hours at certain fixed times, and is paid by the hour, week or month. \n- Length of engagement: the engagement is for a long period of time. \n- Equipment: equipment is not provided by the individual \n- Personal service: the individual is obliged to work personally and exclusively for the employer, and cannot hire any helpers. \n- Part and parcel of organisation: the work performed by the individual is an integral part of the business of the employer, and not merely an accessory to it. \n- Financial risk: the economic reality of self-employment is missing namely the financial risk arising from not being paid an agreed, regular amount. \n- Sound management: the individual cannot profit from sound management. \n\n### Tax advantages of self-employment \n\nThere are some tax advantages to an individual being classed as self-employed rather than employed: \n\n- National insurance: For the contracting organisation there is no employers’ NIC to be paid. For the self-employed individual lower NIC rates apply.\n- PAYE: Income tax and the individual’s NIC do not have to be collected under PAYE. Income tax and NIC are therefore paid later under self assessment.\n- Expenses: There are less strict rules with regard to the deductibility of expenses.\n\n### Calculation of employment income\n\n| Additions                                                                 | £        |\n|---------------------------------------------------------------------------|----------|\n",
         "backlinks": [
           "article:C02_IT_ILIB",
           "article:C04_Prop_TA",
@@ -157,7 +157,7 @@
       "id": "article:C06_Pension",
       "type": "article",
       "name": "C06 — Pensions",
-      "filePath": "C06_Pension.md",
+      "filePath": "wiki/C06_Pension.md",
       "summary": "Tax treatment of pension contributions and pension income, including how pensions interact with individual income-tax computations.",
       "tags": [
         "income taxes"
@@ -170,7 +170,7 @@
           "C07_INC_SELF_EP"
         ],
         "category": "Income taxes",
-        "content": "# C06 — Pensions\n\nTax treatment of pension contributions and pension income, including how pensions interact with individual income-tax computations.\n\nOriginal notes: [C06_Pension.qmd](../C06_Pension.qmd)\n\nRelated: [[C02_IT_ILIB]], [[C05_Emp_Inc]], [[C07_INC_SELF_EP]]\n",
+        "content": "# C06 — Pensions\n\nTax treatment of pension contributions and pension income, including how pensions interact with individual income-tax computations.\n\nOriginal notes: [C06_Pension.qmd](../C06_Pension.qmd)\n\nRelated: [[C02_IT_ILIB]], [[C05_Emp_Inc]], [[C07_INC_SELF_EP]]\n\n## Original note content\n\n---\ntitle: \"Chapter 6: Pensions\"\nabstract: |\n     explain and compute the relief given for contributions to personal pension schemes, and to occupational pension schemes. \n---\n\n# Types of registered pension schemes (Occupational and Personal)\n\nAn individual can set up an investment of funds to provide an income during retirement in a tax efficient way by making payments into a *registered* pension scheme.\n\nA pension scheme is a *savings plan* for retirement that enjoys special tax privileges, but only if the scheme is registered with HM Revenue & Customs (HMRC).\n\nThe conditions that a pension scheme must satisfy to be registered with HMRC are excluded from the TX examination. Therefore, the exam will not refer to the scheme being a “registered” pension scheme as such, and you can assume that a pension scheme in the exam will be “registered”.  \n\nInvesting in a pension scheme is a *long term investment* and is very tax efficient for the following reasons:\n\n- The individual obtains tax relief on the contributions made into the scheme. \n- Where an employer contributes into the scheme, tax relief for the employer contributions is available *without there being a taxable benefit* for the employee. \n- Pension scheme funds grow tax-free as the scheme is exempt from income tax and capital gains tax. \n- Some funds can be withdrawn as a tax-free lump sum on retirement. This amount is not examinable. \n\nThe two main types of pension scheme available are: \n\n- **Occupational** pension schemes \n- **Personal** pension schemes.\n\nA self-employed or unemployed individual *can only set up a personal pension scheme*. \n\nAn employed individual may: \n\n- Join an occupational pension scheme provided by the employer (the employee may be automatically enrolled depending on the size of the employer), or \n- Choose not to join the employer’s scheme and set up a personal pension scheme, or \n- Contribute into both the employer’s occupational scheme and set up a personal pension scheme. \n\n\n## Automatic enrolment in an employer-sponsored pension scheme \n\nThere is a legal duty for employers to provide a pension scheme to the majority of employees under *automatic enrolment*. The scheme provided can be an occupational or a personal pension scheme.\n\n## Occupational pension schemes \n\nAn occupational pension scheme is a scheme set up by a specific employer for the benefit of its employees.\n\nThe employer may use an **insurance company** to provide and run a pension scheme for employees, or it may set up its own **self-administered pension fund**. \n\nContributions into an occupational scheme may be made by both the employer and the employee.\n\n\n### Types of occupational pension schemes \n\n\n::: {.colum",
         "backlinks": [
           "article:C05_Emp_Inc"
         ]
@@ -180,7 +180,7 @@
       "id": "article:C07_INC_SELF_EP",
       "type": "article",
       "name": "C07 — Self-employment income",
-      "filePath": "C07_INC_SELF_EP.md",
+      "filePath": "wiki/C07_INC_SELF_EP.md",
       "summary": "Computation of trading income for self-employed individuals, including adjustments from accounting profit to taxable profit.",
       "tags": [
         "income taxes"
@@ -195,7 +195,7 @@
           "C11_NIC"
         ],
         "category": "Income taxes",
-        "content": "# C07 — Self-employment income\n\nComputation of trading income for self-employed individuals, including adjustments from accounting profit to taxable profit.\n\nOriginal notes: [C07_INC_SELF_EP.qmd](../C07_INC_SELF_EP.qmd)\n\nRelated: [[C02_IT_ILIB]], [[C03_ADD_ASS]], [[C09_Partner]], [[C10_TL_IND]], [[C11_NIC]]\n",
+        "content": "# C07 — Self-employment income\n\nComputation of trading income for self-employed individuals, including adjustments from accounting profit to taxable profit.\n\nOriginal notes: [C07_INC_SELF_EP.qmd](../C07_INC_SELF_EP.qmd)\n\nRelated: [[C02_IT_ILIB]], [[C03_ADD_ASS]], [[C09_Partner]], [[C10_TL_IND]], [[C11_NIC]]\n\n## Original note content\n\n---\ntitle: \"Chapter 7: Income from self-employment\"\nabstract: |\n    recognise the basis of assessment for self-employment income under both cash and accruals bases. <br>    \n    describe and apply the badges of trade. <br>            \n    recognise the expenditure that is allowable in calculating the tax adjusted trading profit. <br> \n    recognise the relief which can be obtained for pre-trading expenditure. <br>\n---\n\n# Income from self-employment\n\n## Basis of assessment for self-employment\n\nThe profits of an unincorporated trader arising from a trade, profession or vocation are taxed as trading income.\n\nIndividuals with an unincorporated business are usually referred to as 'self-employed' or 'sole traders'.\n\nFor tax years up to *2022/23 profits* of an ongoing business were taxed on a ***current year basis (CYB)***, i.e. the trading income taxed in a particular tax year were the profits of the 12-month accounting period ending in that tax year.  \n\nThis basis of assessment is ***no longer examinable***.\n\n### Tax year 2023/24: Transitional year\n\nTo move from one system to the other, businesses with accounting dates not aligned to 31 March/5 April had to bring extra months of profit into charge. These extra profits are called transition profits.\n\nFor the tax year 2023/24 transitional rules applied. These are special rules for taxing the profits of any business where the accounting period is **not aligned with the tax year**, i.e. any business that did not have an accounting period ending on 5 April or 31 March.  \n\nAdditional transition profits may have arisen that will automatically be spread over **five years**. There was also an option to ***override*** the five year spreading of transition profits and tax the full amount in 2023/24. \n\nYou are only required to have an awareness of *basis period* reform and that transition profits will be taxed in the future. \n\nThe **calculation** of transition profits and the election to override the five year spreading **are not examinable** in the TX exam. Furthermore, the **interaction** between transition profits and the annual allowance, the child benefit tax charge and the restriction on income tax reliefs set against other income **are not examinable**. \n\nIn the TX examination, you may be given the amount of transition profits and be required to tax these in any of the tax years 2025/26 to 2027/28: \n\n- One fifth of the transition profits will be taxed in each of these years.  \n- The transition profits are included as a separate amount of non-savings income in the income tax computation. \n- The transition profits may impact on the availability of the personal allowance.\n\n### Ta",
         "backlinks": [
           "article:C02_IT_ILIB",
           "article:C05_Emp_Inc",
@@ -210,7 +210,7 @@
       "id": "article:C09_Partner",
       "type": "article",
       "name": "C09 — Partnerships",
-      "filePath": "C09_Partner.md",
+      "filePath": "wiki/C09_Partner.md",
       "summary": "How partnership profits and losses are allocated and brought into the tax computations of individual partners.",
       "tags": [
         "income taxes"
@@ -223,7 +223,7 @@
           "C15_Groups"
         ],
         "category": "Income taxes",
-        "content": "# C09 — Partnerships\n\nHow partnership profits and losses are allocated and brought into the tax computations of individual partners.\n\nOriginal notes: [C09_Partner.qmd](../C09_Partner.qmd)\n\nRelated: [[C07_INC_SELF_EP]], [[C14_COMP_LOS]], [[C15_Groups]]\n",
+        "content": "# C09 — Partnerships\n\nHow partnership profits and losses are allocated and brought into the tax computations of individual partners.\n\nOriginal notes: [C09_Partner.qmd](../C09_Partner.qmd)\n\nRelated: [[C07_INC_SELF_EP]], [[C14_COMP_LOS]], [[C15_Groups]]\n\n## Original note content\n\n---\ntitle: \"Chapter 9: Partnerships\"\nabstract: |\n    explain and compute how a partnership is assessed to tax.            \n    explain and compute the assessable profits for each partner following a change in the profit sharing ratio.               \n    explain and compute the assessable profits for each partner following a change in the membership of the partnership.     \n---\n\n![](20260731082100.png)\n\n# Basis of Assessment\n\n## Introduction\n\nA partnership is a body of persons carrying on business together with a view to profit. \n\n\n- Each partner is taxed **individually**, despite the partnership being a single trading entity, with its own accounts.\n- Each partner is taxed based on their *allocated share* of the partnership profits as if the partner were a sole trader making that amount of profit.\n- To determine a partner’s taxable profits: \n    \n    - Firstly, the trading profits of the partnership are calculated for tax purposes as for a sole trader, on the ***cash basis by default or the accruals basis by election*** (Chapter 7).\n    - Secondly, deduct the capital allowances of the partnership if using the accruals basis or claiming capital allowances on cars under the cash basis (Chapter 8). \n    - Thirdly, the taxable trading profits of the partnership are allocated to the individual partners \n    - Finally, each of the partners are taxed on their allocation of the taxable profits on a tax year basis. Therefore, if the partnership accounts are not prepared to a 31 March/5 April year end the partners’ allocated profits will need to be ***time apportioned*** to calculate the taxable trading income for the tax year. \n\n## The allocation of profits and losses\n\n### The computation of partnership profits and losses\n\nThe principles of computation of a partnership’s trading profits for tax purposes are the same as those for a sole trader. \n\nPartners’ salaries and interest on capital ***are not deductible expenses for tax purposes***, since these are merely an allocation of profit.                    \nAs for sole traders, the cash basis will be used for partnerships by default, but the accruals basis is available by election. ***Flat rate expenses*** are also available, as for a sole trader.  \n\n\n### The allocation of the profit or loss\n\nThe taxable trading profit or loss is allocated (divided) between the partners according to their *profit sharing arrangements* for that period of account. \n\nPartners may be entitled by the partnership agreement to ‘salaries’ (a fixed allocation of profit) and ‘interest on capital’. \n\nThe balance of profits remaining after the allocation of any ‘salaries’ or interest is allocated in the ***profit sharing ratio (PSR)***. \n\nWhether it is described ",
         "backlinks": [
           "article:C07_INC_SELF_EP"
         ]
@@ -233,7 +233,7 @@
       "id": "article:C10_TL_IND",
       "type": "article",
       "name": "C10 — Tax liabilities of individuals",
-      "filePath": "C10_TL_IND.md",
+      "filePath": "wiki/C10_TL_IND.md",
       "summary": "Putting individual income sources together to calculate total liability, including allowances, rates, reliefs, and payment obligations.",
       "tags": [
         "income taxes"
@@ -248,7 +248,7 @@
           "C22_Inherit"
         ],
         "category": "Income taxes",
-        "content": "# C10 — Tax liabilities of individuals\n\nPutting individual income sources together to calculate total liability, including allowances, rates, reliefs, and payment obligations.\n\nOriginal notes: [C10_TL_IND.qmd](../C10_TL_IND.qmd)\n\nRelated: [[C02_IT_ILIB]], [[C05_Emp_Inc]], [[C07_INC_SELF_EP]], [[C17_CGT]], [[C22_Inherit]]\n",
+        "content": "# C10 — Tax liabilities of individuals\n\nPutting individual income sources together to calculate total liability, including allowances, rates, reliefs, and payment obligations.\n\nOriginal notes: [C10_TL_IND.qmd](../C10_TL_IND.qmd)\n\nRelated: [[C02_IT_ILIB]], [[C05_Emp_Inc]], [[C07_INC_SELF_EP]], [[C17_CGT]], [[C22_Inherit]]\n\n## Original note content\n\n---\ntitle: \"Chapter 10: Trading losses for individuals\"\nabstract: |\n    understand how trading losses can be carried forward.            <br>\n    understand how trading losses can be claimed against total income and chargeable gains and the restriction that can apply.                <br>\n    explain and compute the relief for trading losses in the early years of a trade.             <br>\n    explain and compute terminal loss relief.                   <br>\n    recognise the factors that will influence the choice of loss relief claim.                <br>\n    describe the alternative loss relief claims that are available to partners.     <br>\n---\n\n![](20260802094253.png)\n\n\n\n# Trading losses\n\n## Identifying a trading loss\n\nA trading loss arises when the normal tax adjusted trading profit computation gives a negative result. \n\nA trading loss can occur in two situations, as follows: \n\n|                                                                 | £        |\n|-----------------------------------------------------------------|----------|\n| Tax adjusted trading profit/(loss) before capital allowances    | X        |\n| Less: Capital allowances (if relevant)                          | (X)      |\n| **Trading loss**                                                | **(X)**  |\n\n|                                                                 | £        |\n|-----------------------------------------------------------------|----------|\n| Tax adjusted trading profit/(loss) before capital allowances    | (X)      |\n| Less: Capital allowances (if relevant)                          | (X)      |\n| **Trading loss**                                                | **(X)**  |\n\n\n\nNote that capital allowances: \n\n- are taken into account in calculating the amount of the trading loss available for relief, and \n- can increase a tax adjusted trading loss, and \n- can turn a tax adjusted trading profit into a trading loss. \n\nWhere a trading loss occurs: \n\n- the trading loss is allocated to the relevant tax year  \n- if the overall position for the tax year is a trading loss the individual's taxable trading income for the tax year is £Nil \n- a number of loss relief options are available to obtain relief for the loss. \n\nIf the accounting period coincides with the tax year, the allocation to the relevant tax year is straightforward.              \nFor example, a loss made in the year ended 31 March 2026, is allocated directly to the tax year 2025/26.                     \nIf the accounting period does not coincide with the tax year, a **time apportionment** is required as for trading profits. This may mean some of the loss will automatica",
         "backlinks": [
           "article:C07_INC_SELF_EP",
           "article:C11_NIC",
@@ -261,7 +261,7 @@
       "id": "article:C11_NIC",
       "type": "article",
       "name": "C11 — National Insurance contributions",
-      "filePath": "C11_NIC.md",
+      "filePath": "wiki/C11_NIC.md",
       "summary": "National Insurance categories, liability, and interaction with employment and self-employment income.",
       "tags": [
         "income taxes"
@@ -274,7 +274,7 @@
           "C10_TL_IND"
         ],
         "category": "Income taxes",
-        "content": "# C11 — National Insurance contributions\n\nNational Insurance categories, liability, and interaction with employment and self-employment income.\n\nOriginal notes: [C11_NIC.qmd](../C11_NIC.qmd)\n\nRelated: [[C05_Emp_Inc]], [[C07_INC_SELF_EP]], [[C10_TL_IND]]\n",
+        "content": "# C11 — National Insurance contributions\n\nNational Insurance categories, liability, and interaction with employment and self-employment income.\n\nOriginal notes: [C11_NIC.qmd](../C11_NIC.qmd)\n\nRelated: [[C05_Emp_Inc]], [[C07_INC_SELF_EP]], [[C10_TL_IND]]\n\n## Original note content\n\n---\ntitle: \"Chapter 11: National Insurance Contribution (NIC)\"\nabstract: |\n    explain and compute national insurance contributions payable:  <br>\n        - Class 1 and 1A NIC  <br>\n        - Class 4 NIC <br>\n    understand the annual employment allowance. <br>\n---\n\n![](20260805163302.png)\n\n# National Insurance Contribution (NIC)\n\n## Classes of national insurance contributions \n\nThe amount of national insurance contributions (NICs) a person pays and the payment of contributions depend on the class of contribution.                \nThe main classes and persons who are liable are as follows: \n\n| **Class of contribution** | **Basis of assessment** | **Person liable** |\n| :--- | :-------- | :--- |\n| **Class 1 employee** | A percentage based contribution levied on employee earnings in excess of the **employee** limit for the tax year 2025/26 of £12,570 | Employee |\n| **Class 1 employer's** | A percentage based contribution levied on employee earnings in excess of the **employer's** limit for the tax year 2025/26 of £5,000 | Employer |\n| **Class 1A** | A percentage based contribution levied on taxable employment benefits provided to employees | Employer |\n| **Class 4** | A percentage based contribution levied on taxable trading profits in excess of the lower profits limit £12,570 for the tax year 2025/26 | Self-employed |\n\n\n#### Example 1: Classes of NICs\n\nCatalina has been self-employed for many years. She employs a fulltime salesman and six part-time employees. Catalina’s taxable trading profits for the tax year 2025/26 are £86,000. \n\nThe salesman earns a salary of £21,000 p.a. and is provided with a company car. The remaining members of staff are part time and earn £4,900 per annum.\n\nExplain which classes of NICs are payable by Catalina. \n\n**Solution** \n\nCatalina will pay: \n\n1. Class 4 NICs in respect of her self-employed business based on her taxable trading profits as they are in excess of £12,570. \n2. Class 1 employer's NICs as Catalina is an employer. The contributions are based on the salesman’s salary of £21,000 as his earnings are in excess of £5,000. \n3. Class 1A NICs based on the taxable employment benefit arising from the provision of a company car to the salesman. \n \n> No NICs are payable in respect of the remaining six part-time staff members as they each earn less than £5,000 p.a. \n\n> The salesman is liable to pay employee class 1 contributions based on his salary of £21,000. \n\n\n#### Example 2: Classes of NICs \n\nStephen works for Camberley Cars Ltd on a part-time basis earning a salary of £19,000 per annum. He is provided with a company car, with petrol for both business and private mileage, and a place is provided for his daughter at the company’s workplace nur",
         "backlinks": [
           "article:C02_IT_ILIB",
           "article:C05_Emp_Inc",
@@ -286,7 +286,7 @@
       "id": "article:C12_TX_ADMN",
       "type": "article",
       "name": "C12 — Tax administration",
-      "filePath": "C12_TX_ADMN.md",
+      "filePath": "wiki/C12_TX_ADMN.md",
       "summary": "Administration for individuals: registration, returns, deadlines, payment, records, enquiries, penalties, and appeals.",
       "tags": [
         "foundations and administration"
@@ -300,7 +300,7 @@
           "C16_TX_ADM_CORP"
         ],
         "category": "Foundations and administration",
-        "content": "# C12 — Tax administration\n\nAdministration for individuals: registration, returns, deadlines, payment, records, enquiries, penalties, and appeals.\n\nOriginal notes: [C12_TX_ADMN.qmd](../C12_TX_ADMN.qmd)\n\nRelated: [[C01_TX_SYS]], [[C03_ADD_ASS]], [[C10_TL_IND]], [[C16_TX_ADM_CORP]]\n",
+        "content": "# C12 — Tax administration\n\nAdministration for individuals: registration, returns, deadlines, payment, records, enquiries, penalties, and appeals.\n\nOriginal notes: [C12_TX_ADMN.qmd](../C12_TX_ADMN.qmd)\n\nRelated: [[C01_TX_SYS]], [[C03_ADD_ASS]], [[C10_TL_IND]], [[C16_TX_ADM_CORP]]\n\n## Original note content\n\n---\ntitle: \"Chapter 12: Tax administration for individuals\"\nabstract: |\n    1. explain and apply the features of the self-assessment system as it applies to individuals.  <br>\n    2. recognise the time limits that apply to the filing of returns and the making of claims. <br>\n    3. recognise the due dates for the payment of tax under the self-assessment system, and compute payments on account and balancing payments/repayments for individuals. <br>\n    4. list the information and records that taxpayers need to retain for tax purposes. <br>  \n    5. explain the circumstances in which HM Revenue & Customs can make a compliance check into a self-assessment tax return. <br>  \n    6. explain the procedures for dealing with appeals and First and Upper Tier Tribunals. <br> \n    7. calculate late payment interest and state the penalties that can be charged  \n    8. explain the PAYE system, how benefits can be payrolled, and the purpose of form P11D. <br> \n    9. recognise the circumstances in which real time reporting late filing penalties will be imposed on an employer and the amount of penalty which is charged. <br>\n---\n\n\n\n# Personal tax administration \n\nThe collection of income tax Employees have their income tax and national insurance contribution (NIC) liabilities on their employment income, and in some cases on small amounts of other income, collected at source through the *PAYE system*. \n\n**Self-assessment** is the system for the collection of tax, which is **not deducted through the PAYE system**. \n\nTherefore, employees with more complicated tax affairs and other taxpayers (e.g. the self-employed) will normally be required to submit details of their taxable income and gains annually in a tax return, so that their tax liability can be calculated and collected through the **self-assessment system**. \n\n\n## Self-assessment \n\nUnder the self-assessment system for individuals, taxpayers are responsible for providing the information to calculate the tax liability on the income tax return: \n\n- The taxpayer will be sent a notice to complete a self-assessment tax return annually. A return must be completed and filed – either on paper or online. \n- Different deadlines exist for filing paper and electronic (online) returns. \n- The tax return covers income tax and class 4 NICs and capital gains tax (CGT) liabilities for the tax year. \n- **Payment** of the tax must be made by 31 January following the end of the tax year to which it relates. \n- Interim payments on account in respect of income tax and class 4 NIC may be required on 31 January in the tax year and 31 July following the tax year for certain taxpayers. \n\n### Return – filing deadline \n\nThe deadline f",
         "backlinks": [
           "article:C01_TX_SYS",
           "article:C03_ADD_ASS",
@@ -315,7 +315,7 @@
       "id": "article:C13_Corp_TX",
       "type": "article",
       "name": "C13 — Corporation tax",
-      "filePath": "C13_Corp_TX.md",
+      "filePath": "wiki/C13_Corp_TX.md",
       "summary": "Corporation-tax computation for companies, including taxable total profits, rates, reliefs, and payment considerations.",
       "tags": [
         "corporate and group taxation"
@@ -330,7 +330,7 @@
           "C23_VAT"
         ],
         "category": "Corporate and group taxation",
-        "content": "# C13 — Corporation tax\n\nCorporation-tax computation for companies, including taxable total profits, rates, reliefs, and payment considerations.\n\nOriginal notes: [C13_Corp_TX.qmd](../C13_Corp_TX.qmd)\n\nRelated: [[C14_COMP_LOS]], [[C15_Groups]], [[C16_TX_ADM_CORP]], [[C21_CG_Corp]], [[C23_VAT]]\n",
+        "content": "# C13 — Corporation tax\n\nCorporation-tax computation for companies, including taxable total profits, rates, reliefs, and payment considerations.\n\nOriginal notes: [C13_Corp_TX.qmd](../C13_Corp_TX.qmd)\n\nRelated: [[C14_COMP_LOS]], [[C15_Groups]], [[C16_TX_ADM_CORP]], [[C21_CG_Corp]], [[C23_VAT]]\n\n## Original note content\n\n---\ntitle: \"Chapter 13: Corporation tax\"\nabstract: |\n     Define the terms ‘period of account’, ‘accounting period’, and ‘financial year’. <br>\n     Recognise when an accounting period starts and when an accounting period finishes. <br>\n     Explain how the residence of a company is determined. <br> \n     Compute taxable total profits. <br>  \n     Compute the corporation tax liability and apply marginal relief. <br> \n     Recognise the expenditure that is allowable in calculating the tax adjusted trading profit. <br> \n     Recognise the relief which can be obtained for pre-trading expenditure. <br> \n     Compute capital allowances as for income tax, for purchases and disposals of assets on which the 100% and 50% first year allowances have been claimed and for disposal of assets on which the main pool *super deduction* of 130% and special rate pool first year allowance of 50% for expenditure incurred from 1 April 2021 to 31 March 2023 were claimed. <br> \n     Compute property business profits. <br> \n     Recognise and apply the treatment of interest paid and received under the loan relationship rules. <br> \n     Recognise and apply the treatment of qualifying charitable donations. <br>   \n---\n\n![](20260808093208.png)\n\n# Basis of assessment \n\n• Corporation tax is assessed on a company’s taxable total profits arising in an accounting period. \n• The accounting period is not necessarily the same period as the company’s set of accounts (period of account). \n\nIt is important when dealing with corporation tax to understand the terms ‘period of account’ and ‘accounting period’. \n\n\n::: {.columns}\n\n::: {.column width=\"45%\"}\n\n**1. Period of account**            \nA period of account is any period for which a company prepares accounts. It is usually 12 months in length, but may be shorter or longer than this. \n\n:::\n\n::: {.column width=\"5%\"}\n\n:::\n\n::: {.column width=\"45%\"}\n\n**2. Accounting period**          \nAn accounting period (AP) is the period for which a charge to corporation tax is made. It is never longer than 12 months. \n\n:::\n\n:::\n\n\n## Accounting periods \n\n::: {.columns}\n\n::: {.column width=\"45%\"}\n\nWhen does an AP start?        \nAn AP starts: \n\n- When a company starts to trade (or receives income chargeable to corporation tax), and \n- When the previous accounting period ends. \n\n:::\n\n::: {.column width=\"5%\"}\n\n:::\n\n::: {.column width=\"45%\"}\n\nWhen does an AP end? \n\nThe main situations where an AP ends are: \n\n- twelve months after the beginning of the accounting period \n- the end of the company’s period of account, and \n- the date the company begins or ceases to trade. \n\n:::\n\n:::\n\n> Note that the date on which a company’s period of account en",
         "backlinks": [
           "article:C14_COMP_LOS",
           "article:C15_Groups",
@@ -344,7 +344,7 @@
       "id": "article:C14_COMP_LOS",
       "type": "article",
       "name": "C14 — Company losses",
-      "filePath": "C14_COMP_LOS.md",
+      "filePath": "wiki/C14_COMP_LOS.md",
       "summary": "Company loss rules and the ways losses may be relieved against profits across periods or within the corporate group context.",
       "tags": [
         "corporate and group taxation"
@@ -357,7 +357,7 @@
           "C19_CGT_SH"
         ],
         "category": "Corporate and group taxation",
-        "content": "# C14 — Company losses\n\nCompany loss rules and the ways losses may be relieved against profits across periods or within the corporate group context.\n\nOriginal notes: [C14_COMP_LOS.qmd](../C14_COMP_LOS.qmd)\n\nRelated: [[C13_Corp_TX]], [[C15_Groups]], [[C19_CGT_SH]]\n",
+        "content": "# C14 — Company losses\n\nCompany loss rules and the ways losses may be relieved against profits across periods or within the corporate group context.\n\nOriginal notes: [C14_COMP_LOS.qmd](../C14_COMP_LOS.qmd)\n\nRelated: [[C13_Corp_TX]], [[C15_Groups]], [[C19_CGT_SH]]\n\n## Original note content\n\n---\ntitle: \"Chapter 14: Losses for companies\"\nabstract: |\n    1. understand how trading losses can be carried forward.  <br>\n    2. understand how trading losses can be claimed against income of the current or previous accounting periods. <br>\n    3. recognise the factors that will influence the choice of loss relief claim. <br>\n    4. understand how relief for a property business loss is given. <br>  \n    5. explain and compute the treatment of capital losses. <br>  \n---\n\n![](20260810201010.png)\n\n\n# Trading losses  \n\n## Calculation of a trading loss \n\nTrading losses are computed in the same way as tax adjusted trading profits:\n\n|                                               | £        |\n|-----------------------------------------------|----------|\n| Tax adjusted profit/(loss)                    | X/(X)    |\n| Less: Capital allowances                      | (X)      |\n| **Adjusted trading loss**                     | **X**    |\n\n\nIf a company has made an adjusted trading loss, the **tax adjusted trading profit shown in the TTP** computation for that period is ***£Nil***.\n\n\n#### Example 1: Trading losses\n\nCarlos Ltd had the following results for its year ended 31 August 2025: \n\n|                                                     | £          | £          |\n|-----------------------------------------------------|------------|------------|\n| Gross profit                                        |            | 30,000     |\n| Less: Expenditure                                   |            |            |\n| Depreciation                                        | (5,000)    |            |\n| Allowable costs                                     | (12,000)   |            |\n| **Total expenditure**                               |            | (17,000)   |\n| **Profit before income taxes**                      |            | **13,000** |\n\nThe capital allowances for the year amount to £21,000. \n\n(a) Calculate the tax adjusted trading loss for the year ended  31 August 2025.             \n(b) Calculate the tax adjusted trading loss for the year ended 31 August 2025 assuming the facts are the same except that the company made a loss before income taxes of £10,000.     \n\n**Solution** \n\n***(a) Tax adjusted trading loss – y/e 31 August 2025***\n\n|                                                    | £           |\n|----------------------------------------------------|-------------|\n| Profit before income taxes                         | 13,000      |\n| Add: Depreciation                                  | 5,000       |\n| **Profit before adjustments**                      | 18,000      |\n| Less: Capital allowances                           | (21,000)    |\n| **Tax adjusted trading loss**    ",
         "backlinks": [
           "article:C09_Partner",
           "article:C13_Corp_TX",
@@ -369,7 +369,7 @@
       "id": "article:C15_Groups",
       "type": "article",
       "name": "C15 — Groups",
-      "filePath": "C15_Groups.md",
+      "filePath": "wiki/C15_Groups.md",
       "summary": "Tax consequences of company groups, including group relationships, loss relief, asset transfers, and group planning constraints.",
       "tags": [
         "corporate and group taxation"
@@ -383,7 +383,7 @@
           "C21_CG_Corp"
         ],
         "category": "Corporate and group taxation",
-        "content": "# C15 — Groups\n\nTax consequences of company groups, including group relationships, loss relief, asset transfers, and group planning constraints.\n\nOriginal notes: [C15_Groups.qmd](../C15_Groups.qmd)\n\nRelated: [[C13_Corp_TX]], [[C14_COMP_LOS]], [[C16_TX_ADM_CORP]], [[C21_CG_Corp]]\n",
+        "content": "# C15 — Groups\n\nTax consequences of company groups, including group relationships, loss relief, asset transfers, and group planning constraints.\n\nOriginal notes: [C15_Groups.qmd](../C15_Groups.qmd)\n\nRelated: [[C13_Corp_TX]], [[C14_COMP_LOS]], [[C16_TX_ADM_CORP]], [[C21_CG_Corp]]\n\n## Original note content\n\n---\ntitle: \"Chapter 15: Groups of companies\"\nabstract: |\n    1. compute the corporation tax liability and apply marginal relief.  <br>\n    2. define a 75% group, and recognise the reliefs that are available to members of such a group . <br>\n    3. define a 75% chargeable gains group, and recognise the reliefs that are available to members of such a group. <br>\n---\n\n\n![](20260811173745.png)\n\nAssociated companies were defined in Chapter 13. In group questions in the TX examination it is often necessary to determine the number of associates, or to state which companies are associated and potentially why. \n\n# Group relief group \n\nGroup loss relief is available to members of a 75% group relief group. Losses of one member of the group can be surrendered to other group companies, to utilise against their own taxable total profits. \n\n## Introduction\n\n### Definition of a 75% group relief group \n\nTwo companies are members of a 75% group relief group where one company is the 75% subsidiary of the other, or both companies are 75% subsidiaries of a third company. \n\nA company (the parent company) has a 75% subsidiary if it owns, directly or indirectly, at least 75% of its ordinary share \ncapital, and it has the right to 75% or more of its distributable profits, and it has the right to 75% or more of its net assets on a winding up. \n\nFor sub-subsidiaries to be in a group, the parent company must have an effective interest in the sub-subsidiary of at least 75%. \n\nGroups can be created through companies resident overseas. However, for the purposes of the TX examination, the companies actually claiming/surrendering group relief must be resident in the UK.              \nCompanies can be in more than one loss relief group.\n\n### Implications of being in a group relief group  \n\nWhere a group of companies form a group relief group: \n\n- Losses of one group company may be surrendered to other companies in the group. \n- The recipient company can then relieve the losses against its own taxable total profits. \n\nA loss may be surrendered by any member company to any other member of the same group, provided they are UK resident. \n\n\n## Mechanics of group relief \n\n- Companies which form part of the same group relief group can transfer losses between each other. \n- The surrendering company is the company that surrenders its loss. \n- The claimant company is the company to which the loss is surrendered. \n- The losses which may be surrendered are:\n\n    - trading losses \n        - current period  \n        - brought forward trading losses to the extent that they cannot be used against the surrendering company’s own total profits \n    - unrelieved QCDs \n    - unrelieved property busi",
         "backlinks": [
           "article:C09_Partner",
           "article:C13_Corp_TX",
@@ -397,7 +397,7 @@
       "id": "article:C16_TX_ADM_CORP",
       "type": "article",
       "name": "C16 — Corporate tax administration",
-      "filePath": "C16_TX_ADM_CORP.md",
+      "filePath": "wiki/C16_TX_ADM_CORP.md",
       "summary": "Company filing, payment, compliance, enquiry, and penalty rules.",
       "tags": [
         "corporate and group taxation"
@@ -410,7 +410,7 @@
           "C15_Groups"
         ],
         "category": "Corporate and group taxation",
-        "content": "# C16 — Corporate tax administration\n\nCompany filing, payment, compliance, enquiry, and penalty rules.\n\nOriginal notes: [C16_TX_ADM_CORP.qmd](../C16_TX_ADM_CORP.qmd)\n\nRelated: [[C12_TX_ADMN]], [[C13_Corp_TX]], [[C15_Groups]]\n",
+        "content": "# C16 — Corporate tax administration\n\nCompany filing, payment, compliance, enquiry, and penalty rules.\n\nOriginal notes: [C16_TX_ADM_CORP.qmd](../C16_TX_ADM_CORP.qmd)\n\nRelated: [[C12_TX_ADMN]], [[C13_Corp_TX]], [[C15_Groups]]\n\n## Original note content\n\n---\ntitle: \"Chapter 16: Tax administration for a company\"\nabstract: |\n    1. explain and apply the features of the self-assessment system as it applies to companies, including the use of iXBRL.  <br>\n    2. recognise the time limits that apply to the filing of returns and the making of claims. <br>\n    3. explain how large companies are required to account for corporation tax on a quarterly basis and compute the quarterly instalment payments. <br>\n    4. list the information and records that taxpayers need to retain for tax purposes. <br>\n    5. explain the circumstances in which HM Revenue & Customs can make a compliance check into a self-assessment tax return. <br>\n    6. explain the procedures for dealing with appeals and First and Upper Tier Tribunals. <br>\n    7. calculate late payment interest and state the penalties that can be charged. <br>   \n---\n\n![](20260812133220.png)\n\n# The self-assessment system for companies \n\nAs for individuals, self-assessment applies for corporate taxpayers. Responsibility rests with the company to: \n\n- calculate its own corporation tax liability for each accounting period \n- submit a self-assessment corporation tax return within 12 months after the end of the period of account \n- pay any corporation tax due within nine months and one day after the end of the accounting period. \n\nGiven the timing of the due date for payment of tax, in practice, many companies will aim to complete the self-assessment tax return prior to the nine month deadline for paying the corporation tax. \n\n***The self-assessment tax return***    \nThe self-assessment tax return must be submitted by the later of: \n\n- 12 months after the end of the period of account, and \n- three months after the issue of the notice to file a return.  \n\n***The return must:***      \n\n- contain all information required to calculate the company’s taxable total profits \n- include a self-assessment of the amount of corporation tax payable for that accounting period \n- be submitted online. \n\nA company has to submit a copy of its financial accounts together with the self-assessment tax return.\n\n\nAll companies must file self-assessment returns and copies of accounts electronically using **'Inline eXtensible Business Reporting Language' (iXBRL).** \n\niXBRL is the global standard for exchanging business information in an electronic format and tags the accounts so they can be read by a computer. \n\nHMRC provide free online filing software applications for companies with straightforward tax affairs that automatically produces and submits a self-assessment return with accounts and computations in the required iXBRL format, as well as calculating the tax liability. \n\nFor other companies, commercial software applications and servic",
         "backlinks": [
           "article:C03_ADD_ASS",
           "article:C12_TX_ADMN",
@@ -424,7 +424,7 @@
       "id": "article:C17_CGT",
       "type": "article",
       "name": "C17 — Capital gains tax",
-      "filePath": "C17_CGT.md",
+      "filePath": "wiki/C17_CGT.md",
       "summary": "General capital-gains framework: disposals, gains and losses, allowable costs, annual exemptions, rates, and computation structure.",
       "tags": [
         "capital gains tax"
@@ -438,7 +438,7 @@
           "C21_CG_Corp"
         ],
         "category": "Capital gains tax",
-        "content": "# C17 — Capital gains tax\n\nGeneral capital-gains framework: disposals, gains and losses, allowable costs, annual exemptions, rates, and computation structure.\n\nOriginal notes: [C17_CGT.QMD](../C17_CGT.QMD)\n\nRelated: [[C18_CGT_Special]], [[C19_CGT_SH]], [[C20_CGT_Relief]], [[C21_CG_Corp]]\n",
+        "content": "# C17 — Capital gains tax\n\nGeneral capital-gains framework: disposals, gains and losses, allowable costs, annual exemptions, rates, and computation structure.\n\nOriginal notes: [C17_CGT.QMD](../C17_CGT.QMD)\n\nRelated: [[C18_CGT_Special]], [[C19_CGT_SH]], [[C20_CGT_Relief]], [[C21_CG_Corp]]\n\n## Original note content\n\n---\ntitle: \"Chapter 17: Computation of gains and tax payable\"\nabstract: |\n    1. describe the scope of capital gains tax.  <br>\n    2. recognise those assets which are exempt. <br>\n    3. compute and explain the treatment of capital gains. <br>\n    4. compute and explain the treatment of capital losses. <br>\n    5. compute the amount of capital gains tax payable. <br>\n    6. understand basic capital gains tax planning. <br>\n---\n\n![](20260813172112.png)\n\n# Scope of capital gains tax \n\nCapital gains tax (CGT) is charged on gains arising on chargeable persons making chargeable disposals of chargeable assets. \n\n## Chargeable persons \n\nChargeable persons include individuals and companies. \n\nIn these CGT chapters we are concerned with disposals by individuals. \n\n- Individuals who are UK resident in the tax year in which the disposal takes place are subject to capital gains tax on their gains. \n- UK resident individuals are subject to UK CGT on all disposals of chargeable assets, regardless of where in the world the assets are situated. \n- Non-UK residents only pay UK CGT on the disposal of interests in UK land. However, this is not examinable. \n\n::::: {.columns}\n\n::: {.column width=\"50%\" style=\"border-right: 2px solid #2c3e50; padding-right: 20px;\"}\n## Chargeable assets\n\nAll forms of capital assets, wherever situated, are **chargeable assets**.\n\n**Common examples include:**\n\n- Freehold land and buildings\n- Goodwill\n- Unquoted shares\n- Quoted shares\n- Certain types of chattels – Chapter 18\n\n> **Note:** Chattels are tangible movable assets (e.g. furniture, plant and machinery).\n:::\n\n::: {.column width=\"50%\" style=\"padding-left: 20px;\"}\n## Exempt assets\n\n**Exempt assets include:**\n\n- Motor vehicles (including vintage cars)\n- Main residence\n- Cash\n- Certain types of chattels – Chapter 18\n- Investments held within an ISA\n- Qualifying corporate bonds (QCBs)\n- Gilt‑edged securities\n- NS&I certificates\n- Foreign currency for private use\n- Receivables\n- Trading inventory\n- Prizes and betting winnings\n- Decorations for valour (unless purchased)\n:::\n\n:::::\n\n## Calculation of capital gain/loss on individual disposals \n\nAn individual is subject to CGT on the total taxable gains arising on the disposal of all assets in a tax year.          \nThe following steps are carried out to compute the capital gains tax payable by an individual for a tax year: \n\n| Step | Description                                                                 |\n|------|-----------------------------------------------------------------------------|\n| 1    | Calculate the chargeable gain/allowable loss arising on the disposal of each chargeable asset separately |\n| 2    | Calculate th",
         "backlinks": [
           "article:C04_Prop_TA",
           "article:C10_TL_IND",
@@ -454,7 +454,7 @@
       "id": "article:C18_CGT_Special",
       "type": "article",
       "name": "C18 — Special capital gains cases",
-      "filePath": "C18_CGT_Special.md",
+      "filePath": "wiki/C18_CGT_Special.md",
       "summary": "Special rules for capital gains, including transactions or assets requiring treatment different from the standard disposal computation.",
       "tags": [
         "capital gains tax"
@@ -467,7 +467,7 @@
           "C20_CGT_Relief"
         ],
         "category": "Capital gains tax",
-        "content": "# C18 — Special capital gains cases\n\nSpecial rules for capital gains, including transactions or assets requiring treatment different from the standard disposal computation.\n\nOriginal notes: [C18_CGT_Special.qmd](../C18_CGT_Special.qmd)\n\nRelated: [[C17_CGT]], [[C19_CGT_SH]], [[C20_CGT_Relief]]\n",
+        "content": "# C18 — Special capital gains cases\n\nSpecial rules for capital gains, including transactions or assets requiring treatment different from the standard disposal computation.\n\nOriginal notes: [C18_CGT_Special.qmd](../C18_CGT_Special.qmd)\n\nRelated: [[C17_CGT]], [[C19_CGT_SH]], [[C20_CGT_Relief]]\n\n## Original note content\n\n---\ntitle: \"Chapter 18: Computation of gains: Special rules\"\nabstract: |\n    1. understand the treatment of transfers between spouses or between a couple in a civil partnership.  <br>\n    2. understand the amount of allowable expenditure for a part disposal. <br>\n    3. recognise the treatment where an asset is damaged, lost or destroyed, and the implications of receiving insurance proceeds and reinvesting such proceeds. <br>\n    4. identify when chattels and wasting assets are exempt. <br>\n    5. compute the chargeable gain when a chattel or a wasting asset is disposed of. <br>\n    6. understand basic capital gains tax planning. <br>\n---\n\n![](20260814153458.png)\n\n***Introduction***     \nThe basic pro forma for calculating gains on the disposal of assets is adapted by special rules in the following circumstances: \n\n1. transfers between spouses or civil partners \n2. part disposals \n3. chattels and wasting assets \n4. assets lost or destroyed \n5. damaged assets. \n\nTransfers between spouses or civil partners Where an asset is transferred between spouses or civil partners: \n\n• no gain or loss arises on the transfer \n• any actual proceeds are ignored \n• the transferor is deemed to dispose of the asset at its acquisition cost \n• the deemed proceeds of the transferor are treated as the deemed \n\nacquisition cost of the transferee (i.e. the recipient spouse acquires the asset at its original acquisition cost).\n\n# Transfers between spouses or civil partners \n\nWhere an asset is transferred between spouses or civil partners: \n\n- no gain or loss arises on the transfer \n- any actual proceeds are ignored \n- the transferor is deemed to dispose of the asset at its acquisition cost \n- the deemed proceeds of the transferor are treated as the deemed \n\nacquisition cost of the transferee (i.e. the recipient spouse acquires the asset at its original acquisition cost).\n\n\n#### Example 1: Transfers between spouses and civil partners\n\nDavid purchased some jewellery in August 2005 for £50,000. In July 2025 he gave it to his wife Victoria when it was worth £200,000. \n\nCalculate the deemed sale proceeds of David’s disposal and state Victoria’s deemed acquisition cost. \n\n**Solution**\n\nDavid is **deemed** to have transferred the asset at its acquisition cost so that no gain or loss arises on the transfer. \n\nThe deemed proceeds are therefore £50,000 and Victoria’s deemed acquisition cost is the same as David’s deemed proceeds (i.e. £50,000).\n\n\n***Subsequent disposal by transferee*** \nOn a subsequent disposal of the transferred asset by the transferee, the deemed acquisition cost (often referred to as the base cost of the asset) is the original acquisition cost to t",
         "backlinks": [
           "article:C17_CGT",
           "article:C19_CGT_SH",
@@ -479,7 +479,7 @@
       "id": "article:C19_CGT_SH",
       "type": "article",
       "name": "C19 — Capital gains on shares",
-      "filePath": "C19_CGT_SH.md",
+      "filePath": "wiki/C19_CGT_SH.md",
       "summary": "Capital-gains treatment of share disposals, reorganisations, and share-specific computational issues.",
       "tags": [
         "capital gains tax"
@@ -493,7 +493,7 @@
           "C21_CG_Corp"
         ],
         "category": "Capital gains tax",
-        "content": "# C19 — Capital gains on shares\n\nCapital-gains treatment of share disposals, reorganisations, and share-specific computational issues.\n\nOriginal notes: [C19_CGT_SH.qmd](../C19_CGT_SH.qmd)\n\nRelated: [[C17_CGT]], [[C18_CGT_Special]], [[C20_CGT_Relief]], [[C21_CG_Corp]]\n",
+        "content": "# C19 — Capital gains on shares\n\nCapital-gains treatment of share disposals, reorganisations, and share-specific computational issues.\n\nOriginal notes: [C19_CGT_SH.qmd](../C19_CGT_SH.qmd)\n\nRelated: [[C17_CGT]], [[C18_CGT_Special]], [[C20_CGT_Relief]], [[C21_CG_Corp]]\n\n## Original note content\n\n---\ntitle: \"Chapter 19: CGT: Shares and securities for individuals\"\nabstract: |\n    1. recognise the value of quoted shares where they are disposed of by way of a gift.  <br>\n    2. explain and apply the identification rules as they apply to individuals including the same day and 30 day matching rules. <br>\n    3. explain and apply the pooling provisions. <br>\n    4. explain and apply the treatment of bonus issues, rights issues, takeovers and reorganisations . <br>\n    5. identify the exemption available for gilt-edged securities and qualifying corporate bonds. <br>\n---\n\n# Government securities and qualifying corporate bonds \n\nAll shares and securities disposed of by an individual are subject to capital gains tax except for the following, which are exempt: \n\n- listed government securities (gilt-edged securities or gilts) \n- qualifying corporate bonds (e.g. company loan notes) \n- shares held in an Individual Savings Account (ISA).\n\n***Definition of a qualifying corporate bond***    \nA qualifying corporate bond (QCB) is one that:  \n\n(a) represents a normal commercial loan     \n(b) is expressed in sterling and has no provision for either conversion into, or redemption in, any other currency, and                 \n(c) was issued after ***13 March 1984*** or was acquired by the disposer after that date (whenever it was issued).\n\n\n# Valuation of quoted shares \n\nOn a sale of shares between unconnected parties, the actual proceeds are used in the capital gains computation.                  \nHowever, it is necessary to identify the market value of quoted shares when shares are either: \n\n- gifted \n- transferred to a connected party. \n\nFor capital gains tax purposes, their market value is determined by taking the **mid-price (i.e. average)** of the prices quoted in the Stock Exchange Daily Official List on the disposal date. \n\n#### Example 1: Valuation of quoted shares\n\nThe shares in Panda plc are quoted in the Stock Exchange Daily OfficialList at 230p - 270p. If a disposal of Panda plc shares were made on that day to ***aconnected party***, \n\nwhat would their value be for CGT purposes?\n\n**Solution**\n\nThe value of Panda plc shares is 250p, being the:           \nAverage of the two quoted prices = (270p + 230p) x 1/2 = 250p\n\n\n#### Example 2: Valuation of quoted shares\n\nThe shares in Sawyer plc are quoted in the Stock Exchange Daily Official List at 460p – 540p. \n\nIf a **gift** of Sawyer plc shares were made on that day, what would their value be for CGT purposes? \n\n**Solution**\n\n\n\n\n\n\n\n\n\n\n\n\n\n## Identification rules \n\nIt is necessary to have identification (or matching) rules to determine ***which*** shares have been disposed of as: \n\n- Shares and securities that are boug",
         "backlinks": [
           "article:C14_COMP_LOS",
           "article:C17_CGT",
@@ -506,7 +506,7 @@
       "id": "article:C20_CGT_Relief",
       "type": "article",
       "name": "C20 — Capital gains reliefs",
-      "filePath": "C20_CGT_Relief.md",
+      "filePath": "wiki/C20_CGT_Relief.md",
       "summary": "Reliefs that defer, reduce, or otherwise modify capital gains, with attention to eligibility conditions and interactions.",
       "tags": [
         "capital gains tax"
@@ -520,7 +520,7 @@
           "C21_CG_Corp"
         ],
         "category": "Capital gains tax",
-        "content": "# C20 — Capital gains reliefs\n\nReliefs that defer, reduce, or otherwise modify capital gains, with attention to eligibility conditions and interactions.\n\nOriginal notes: [C20_CGT_Relief.qmd](../C20_CGT_Relief.qmd)\n\nRelated: [[C17_CGT]], [[C18_CGT_Special]], [[C19_CGT_SH]], [[C21_CG_Corp]]\n",
+        "content": "# C20 — Capital gains reliefs\n\nReliefs that defer, reduce, or otherwise modify capital gains, with attention to eligibility conditions and interactions.\n\nOriginal notes: [C20_CGT_Relief.qmd](../C20_CGT_Relief.qmd)\n\nRelated: [[C17_CGT]], [[C18_CGT_Special]], [[C19_CGT_SH]], [[C21_CG_Corp]]\n\n## Original note content\n\n---\ntitle: \"Chapter 20: CGT: Reliefs for individuals\"\nabstract: |\n    1. calculate the chargeable gain when a private residence is disposed of.  <br>\n    2. explain and apply business asset disposal relief. <br>\n    3. explain and apply investors' relief. <br>\n    4. explain and apply capital gains tax reliefs: <br>\n        1. rollover relief. <br>\n        2. gift holdover relief for the gift of business assets. <br>\n    5. understand basic capital gains tax planning. <br>\n---\n\n![](20260816074244.png)\n\nIn certain situations, the tax payable on the disposal of an asset may be reduced or a gain may be delayed by claiming capital gains tax reliefs. The main reliefs available to individuals are as follows:\n\n![](20260816074541.png)\n\n\n# Private residence relief (PRR) \n\nPRR applies when an individual disposes of: \n\n- a dwelling house (including normally up to half a hectare of adjoining land) \n- which has at some time during their ownership been their only or main private residence.\n\nThe relief applies where the main residence has been occupied for either the whole or part of the period of ownership.\n\n![](20260816075843.png)\n\n\n## Calculating the relief\n\nWhere there has been a period of absence from the main residence the procedure is: \n\n1. Calculate the gain on the disposal of the property. \n2. Compute the total period of ownership. \n3. Calculate the periods of occupation (covered below). \n4. Calculate the PRR as follows: \n\nGain × (Periods of occupation/Total period of ownership) \n\n5. Deduct the PRR from the gain on the property.\n\n***Periods of occupation***     \nThe period of occupation includes periods of **both actual occupation and deemed occupation**.\n\nPeriods of deemed occupation are: \n\nA. the ***last nine months*** of ownership (always exempt, unconditionally as long as the dwelling has been the main residence at some point)\nB. up to **three years** of absence for any reason\nC. any period spent living **overseas** due to employment\nD. up to four years of absence as a result of working elsewhere in the UK (employed or self-employed). \n\n:::{.callout-note}\nThe absences in (b) to (d) must be preceded and *followed by a period of actual occupation*.\n\nThe condition to reoccupy the property after the period of absence does not need to be satisfied for (c) and (d) where an employer requires the individual to work elsewhere immediately, thus making it impossible to resume occupation. \n\nHowever, they have said that you should provide brief explanatory \nnotes for periods of deemed occupation in PRR questions, and that such \nexplanations will earn marks. \n\n:::\n\n***Ownership of more than one residence***    \nWhere there is ownership of more than on",
         "backlinks": [
           "article:C17_CGT",
           "article:C18_CGT_Special",
@@ -534,7 +534,7 @@
       "id": "article:C21_CG_Corp",
       "type": "article",
       "name": "C21 — Corporate capital gains",
-      "filePath": "C21_CG_Corp.md",
+      "filePath": "wiki/C21_CG_Corp.md",
       "summary": "Capital gains arising to companies and the relationship between corporation tax and chargeable gains.",
       "tags": [
         "capital gains tax"
@@ -548,7 +548,7 @@
           "C20_CGT_Relief"
         ],
         "category": "Capital gains tax",
-        "content": "# C21 — Corporate capital gains\n\nCapital gains arising to companies and the relationship between corporation tax and chargeable gains.\n\nOriginal notes: [C21_CG_Corp.qmd](../C21_CG_Corp.qmd)\n\nRelated: [[C13_Corp_TX]], [[C15_Groups]], [[C17_CGT]], [[C20_CGT_Relief]]\n",
+        "content": "# C21 — Corporate capital gains\n\nCapital gains arising to companies and the relationship between corporation tax and chargeable gains.\n\nOriginal notes: [C21_CG_Corp.qmd](../C21_CG_Corp.qmd)\n\nRelated: [[C13_Corp_TX]], [[C15_Groups]], [[C17_CGT]], [[C20_CGT_Relief]]\n\n## Original note content\n\n---\ntitle: \"Chapter 21: Chargeable gains for companies\"\nabstract: |\n    1. compute and explain the treatment of chargeable gains .  <br>\n    2. explain and compute the indexation allowance available using a given indexation factor. <br>\n    3. explain and compute the treatment of capital losses. <br>\n    4. understand the treatment of disposals of shares by companies and apply the identification rules including the same day and nine day matching rules.  <br>\n    5. explain and apply the pooling provisions. <br>\n    6. explain and apply the treatment of bonus issues, rights issues, takeovers and reorganisations. <br>\n    7. explain and apply rollover relief. <br>\n---\n\n![](20260818084637.png)\n\n\n# Chargeable gains for a company\n\nThe total net chargeable gains that a company makes during an accounting period (AP) are included in the taxable total profits computation.\n\nIt is important to remember that companies pay **corporation tax** on **chargeable gains**, not capital gains tax. \n\n\n## Calculation of total net chargeable gains for a company  \n\nThe following steps should be completed: \n\n1. Calculate the chargeable gain/allowable loss arising on the disposal of each chargeable asset separately. \n2. Calculate the net chargeable gains arising in the AP = (chargeable gains less allowable losses) \n3. Deduct capital losses brought forward = total net chargeable gains \n4. Include in taxable total profits computation. \n\n> Note that there is ***no annual exempt*** amount available to companies. The total net chargeable gains are therefore simply included in the company’s taxable total profits computation.\n\n***Pro forma – companies***\n\n| Description                                      | £         |\n|--------------------------------------------------|-----------|\n| Disposal proceeds                                | X         |\n| Less: Incidental disposal costs                  | (X)       |\n| **Net proceeds**                                 | **X**     |\n| Less: Allowable expenditure (as for individuals) | (X)       |\n| **Unindexed gain**                               | **X**     |\n| Less: Indexation allowance (section 2)           | (X)       |\n| **Chargeable gain/(allowable loss)**             | **X/(X)** |\n\n\n***Note that:*** \n\n- The calculation of chargeable gains is the same as for individuals except that companies are entitled to an **indexation allowance** for assets acquired **prior to December 2017**. \n- There are a few other key differences when dealing with the disposal of assets by companies. These include the treatment of capital losses the treatment of shares and securities, and the availability of reliefs. \n\n## Indexation allowance \n\nThe indexation allowance (",
         "backlinks": [
           "article:C13_Corp_TX",
           "article:C15_Groups",
@@ -562,7 +562,7 @@
       "id": "article:C22_Inherit",
       "type": "article",
       "name": "C22 — Inheritance tax",
-      "filePath": "C22_Inherit.md",
+      "filePath": "wiki/C22_Inherit.md",
       "summary": "Inheritance-tax framework, transfers, exemptions, reliefs, taxable estates, and the timing of liabilities.",
       "tags": [
         "inheritance tax"
@@ -576,7 +576,7 @@
           "C20_CGT_Relief"
         ],
         "category": "Inheritance tax",
-        "content": "# C22 — Inheritance tax\n\nInheritance-tax framework, transfers, exemptions, reliefs, taxable estates, and the timing of liabilities.\n\nOriginal notes: [C22_Inherit.qmd](../C22_Inherit.qmd)\n\nRelated: [[C01_TX_SYS]], [[C10_TL_IND]], [[C17_CGT]], [[C20_CGT_Relief]]\n",
+        "content": "# C22 — Inheritance tax\n\nInheritance-tax framework, transfers, exemptions, reliefs, taxable estates, and the timing of liabilities.\n\nOriginal notes: [C22_Inherit.qmd](../C22_Inherit.qmd)\n\nRelated: [[C01_TX_SYS]], [[C10_TL_IND]], [[C17_CGT]], [[C20_CGT_Relief]]\n\n## Original note content\n\n---\ntitle: \"Chapter 22: Inheritance tax\"\nabstract: |\n    1. identify the persons chargeable.  <br>\n    2. understand and apply the meaning of transfer of value, chargeable transfer and potentially exempt transfer. <br>\n    3. demonstrate the diminution in value principle. <br>\n    4. demonstrate the seven year accumulation principle taking into account changes in the level of the nil rate band.  <br>\n    5. understand the tax implications of lifetime transfers and compute the relevant liabilities. <br>\n    6. understand and compute the tax liability on a death estate. <br>\n    7. understand and apply the transfer of any unused nil rate band between spouses and civil partners. <br>\n    8. understand and apply the residence nil rate band available when a residential property is inherited by direct descendants. <br>\n    9. understand and apply the following exemptions: small gifts exemption; annual exemption; normal expenditure out of income; gifts in consideration of marriage; gifts between spouses and civil partners. <br>\n    10. understand basic inheritance tax planning. <br>\n    11. identify who is responsible for the payment of inheritance tax and the due date for payment of inheritance tax.  <br>\n---\n\n> Most inheritance tax (IHT) is collected on the death of an individual based on the value of the individual’s death estate. However, if IHT only applied on death, it would be an easy tax to avoid by giving away assets immediately before death. Therefore, there are IHT implications arising on some lifetime gifts as well as on death.\n\n\n# The charge to inheritance tax (IHT) \n\n\nInheritance tax is charged on: \n\n- a transfer of value \n- of chargeable property \n- by a chargeable person. \n\nA charge to inheritance tax (IHT) arises: \n\n- on the death of an individual \n- on lifetime gifts to individuals when the donor dies within seven years of the date of a gift \n- on lifetime gifts into trusts which are taxed at the date of the gift.\n\nThe donor is the person who makes the transfer of the asset, and the recipient is known as the donee. \n\n***Transfer of value***     \nA transfer of value is a gift of any asset which results in a reduction in the value of the donor’s estate. \n\nTo be treated as a transfer of value the transfer must be a ***‘gratuitous disposition’***. This basically means a gift. \n\nA bad business deal will therefore **not be liable** to inheritance tax, even though there is a fall in value of the estate, as it was not the donor’s intention to give anything away. \n\nTo calculate the transfer of value for IHT purposes, the loss to donor principle is used (also referred to as the diminution in value concept). \n\nThe loss to the donor is the difference between the va",
         "backlinks": [
           "article:C10_TL_IND"
         ]
@@ -586,7 +586,7 @@
       "id": "article:C23_VAT",
       "type": "article",
       "name": "C23 — Value added tax",
-      "filePath": "C23_VAT.md",
+      "filePath": "wiki/C23_VAT.md",
       "summary": "VAT fundamentals: taxable supplies, registration, output and input tax, liability, and compliance.",
       "tags": [
         "vat"
@@ -600,7 +600,7 @@
           "C24_VAT_OS"
         ],
         "category": "VAT",
-        "content": "# C23 — Value added tax\n\nVAT fundamentals: taxable supplies, registration, output and input tax, liability, and compliance.\n\nOriginal notes: [C23_VAT.qmd](../C23_VAT.qmd)\n\nRelated: [[C01_TX_SYS]], [[C04_Prop_TA]], [[C13_Corp_TX]], [[C24_VAT_OS]]\n",
+        "content": "# C23 — Value added tax\n\nVAT fundamentals: taxable supplies, registration, output and input tax, liability, and compliance.\n\nOriginal notes: [C23_VAT.qmd](../C23_VAT.qmd)\n\nRelated: [[C01_TX_SYS]], [[C04_Prop_TA]], [[C13_Corp_TX]], [[C24_VAT_OS]]\n\n## Original note content\n\n---\ntitle: \"Chapter 23: VAT\"\nabstract: |\n    1. recognise the circumstances in which a person must *register or deregister* for VAT (compulsory) and when a person may register or deregister for VAT (voluntary).  <br>\n    2. recognise the circumstances in which pre-registration input VAT can be recovered. <br>\n    3. explain the conditions that must be met for two or more companies to be treated as a group for VAT purposes, and the consequences of being so treated. <br>\n    4. calculate the amount of VAT payable/recoverable. <br>\n    5. recognise the tax point when goods or services are supplied. <br>\n    6. explain and apply the principles regarding the valuation of supplies. <br>\n    7. recognise the principal zero-rated and exempt supplies. <br>\n    8. recognise the circumstances in which input VAT is non-deductible. <br>\n    9. recognise the relief that is available for impairment losses on trade debts. <br>\n    10. understand the treatment of the sale of a business as a going concern. <br>\n---\n\n![](20260820151429.png)\n\nVAT is: \n\n- an indirect tax on consumer spending \n- charged on most goods and services supplied within the UK \n- suffered by the final consumer, and \n- collected by businesses on behalf of HMRC.\n\nA taxable person is one who is or should be registered for VAT, because they make taxable supplies \n\nA taxable supply is everything which is not exempt or outside the scope of VAT. It includes sales and purchases of most goods or services. \n\n***Input and output VAT***            \nIt is important to distinguish between input and output VAT: \n\n- Businesses pay input VAT on their purchases of goods and services. \n- Input VAT is reclaimable from HMRC. \n- Registered businesses charge output VAT on their sales of taxable goods and services. \n- Output VAT is payable to HMRC. \n- Every month or quarter the input and output VAT is **netted off** and paid to or recovered from HMRC. \n\nThe business therefore accounts to HMRC for VAT on the 'value added' to the product. \n\n\n# Types of supply \n\nSupplies can be taxable, exempt or outside the scope of VAT. \n\n## Taxable supplies  \n\nVAT is charged on taxable supplies but not on exempt supplies or supplies which are outside the scope of VAT. \n\nIt is therefore important to be able to correctly classify supplies in order to determine whether VAT should be charged. \n\n- It is also important to correctly classify supplies because: \n    \n    - only taxable supplies are taken into account in determining whether a trader needs to register for VAT \n    - input VAT related to exempt supplies is not recoverable. \n\n- Taxable supplies are charged to VAT at one of three rates:  \n\n    - **zero rate:** This is a tax rate of nil. \n      No VAT is charged ",
         "backlinks": [
           "article:C04_Prop_TA",
           "article:C13_Corp_TX",
@@ -612,7 +612,7 @@
       "id": "article:C24_VAT_OS",
       "type": "article",
       "name": "C24 — VAT special and overseas issues",
-      "filePath": "C24_VAT_OS.md",
+      "filePath": "wiki/C24_VAT_OS.md",
       "summary": "VAT rules for special or overseas transactions, including place-of-supply and transaction-specific considerations.",
       "tags": [
         "vat"
@@ -625,7 +625,7 @@
           "C12_TX_ADMN"
         ],
         "category": "VAT",
-        "content": "# C24 — VAT special and overseas issues\n\nVAT rules for special or overseas transactions, including place-of-supply and transaction-specific considerations.\n\nOriginal notes: [C24_VAT_OS.qmd](../C24_VAT_OS.qmd)\n\nRelated: [[C23_VAT]], [[C01_TX_SYS]], [[C12_TX_ADMN]]\n",
+        "content": "# C24 — VAT special and overseas issues\n\nVAT rules for special or overseas transactions, including place-of-supply and transaction-specific considerations.\n\nOriginal notes: [C24_VAT_OS.qmd](../C24_VAT_OS.qmd)\n\nRelated: [[C23_VAT]], [[C01_TX_SYS]], [[C12_TX_ADMN]]\n\n## Original note content\n\n---\ntitle: \"Chapter 24: VAT Overseas Aspects\"\nabstract: |\n    1. understand how VAT is accounted for and administered.  <br>\n    2. list the information that must be given on a VAT invoice. <br>\n    3. understand when the penalties for late submission/filing and late payment, and the interest for late payment will be applied. <br>\n    4. understand the VAT treatment of imports, exports and trade outside the UK. <br>\n    5. understand postponed accounting for VAT on imports. <br>\n    6. understand the operation of, and when it will be advantageous to use the VAT special schemes: <br>\n        - Cash accounting scheme \n        - Annual accounting scheme \n        - Flat rate scheme. \n---\n\n# VAT: Administration and overseas aspects\n\n## VAT computation\n\nAll registered traders have to: \n\n- complete a VAT return every return period', and \n- pay net VAT due to HMRC or reclaim net VAT repayable from HMRC. \n\nDetails of output and input VAT must be included, together with claims for *relief for impairment losses* and *any errors* made on earlier returns below a (***de minimis limit***). \n\n\n#### Example 1: VAT computation\n\nCart Ltd is registered for VAT, and its sales are all **standard-rated**.            \n\nThe following information relates to the company’s VAT return for the quarter ended 31 December 2025: \n\n1. Standard-rated sales amounted to £240,000. \n2. In addition to the above Cart Ltd issued a sales invoice for **£25,000** on 1 December 2025. The customer was offered a **5% discount** if the invoice was paid within 14 days. The customer paid within the 14 day period. \n3. Standard-rated *purchases and expenses* amounted to **£71,280**. This *figure includes £960 for entertaining UK customers*. \n4. On 15 December 2025, the company wrote off **irrecoverable debts** of £4,000 and £1,680, in respect of invoices due for payment on 10 May and 5 August 2025 respectively. ---> Only accept 6m prior \n5. On 30 December 2025, the company purchased a car at a cost of £32,900, for the use of a director, and machinery at a cost of £42,300. Both these figures are **inclusive of VAT**. The car is used for both business and private mileage. \n\nUnless stated otherwise, all of the above figures are exclusive of VAT.              \n***Calculate the amount of VAT payable by Cart Ltd for the quarter.*** \n\n**Solution**\n\n| ***Output VAT***                                              | £        |\n|---------------------------------------------------------------|----------|\n| Sales (£240,000 × 20%)                                        | 48,000   |\n| Discounted sale (£25,000 × 95% × 20%)                         | 4,750    |\n| **Total output VAT**                                          |**52,7",
         "backlinks": [
           "article:C23_VAT"
         ]
@@ -635,7 +635,7 @@
       "id": "article:Exam_Connections",
       "type": "article",
       "name": "Exam connections",
-      "filePath": "Exam_Connections.md",
+      "filePath": "wiki/Exam_Connections.md",
       "summary": "Most exam questions combine classification, computation, reliefs, administration, and deadlines. Start by identifying the taxpayer and tax, classify the income or transaction, apply exemptions or r...",
       "tags": [
         "study workflow"
@@ -660,7 +660,7 @@
       "id": "article:Study_Workflow",
       "type": "article",
       "name": "Study workflow",
-      "filePath": "Study_Workflow.md",
+      "filePath": "wiki/Study_Workflow.md",
       "summary": "Use the map in passes: learn the tax system, practise computation chapters, connect reliefs and administration, then finish with mixed exam questions. Each map page points to the corresponding orig...",
       "tags": [
         "study workflow"
@@ -750,91 +750,6 @@
       "complexity": "simple"
     },
     {
-      "id": "entity:hmrc",
-      "type": "entity",
-      "name": "HM Revenue and Customs",
-      "summary": "The UK tax authority responsible for administering and collecting taxes.",
-      "tags": [
-        "tax administration",
-        "foundations"
-      ],
-      "complexity": "simple"
-    },
-    {
-      "id": "entity:uk-tax-system",
-      "type": "entity",
-      "name": "UK tax system",
-      "summary": "The overall structure of UK taxes, including direct and indirect taxes and their legal sources.",
-      "tags": [
-        "tax system",
-        "foundations"
-      ],
-      "complexity": "moderate"
-    },
-    {
-      "id": "entity:direct-taxes",
-      "type": "entity",
-      "name": "Direct taxes",
-      "summary": "Taxes imposed directly on income, profits, or gains of taxpayers.",
-      "tags": [
-        "tax classification"
-      ],
-      "complexity": "simple"
-    },
-    {
-      "id": "entity:indirect-taxes",
-      "type": "entity",
-      "name": "Indirect taxes",
-      "summary": "Taxes charged through transactions or consumption rather than directly on a taxpayer's income or gains.",
-      "tags": [
-        "tax classification"
-      ],
-      "complexity": "simple"
-    },
-    {
-      "id": "entity:income-tax",
-      "type": "entity",
-      "name": "Income tax",
-      "summary": "A direct tax computed by applying the income-tax framework to taxable income after relevant allowances and reliefs.",
-      "tags": [
-        "income taxes"
-      ],
-      "complexity": "moderate"
-    },
-    {
-      "id": "entity:taxable-income",
-      "type": "entity",
-      "name": "Taxable income",
-      "summary": "Income falling within the income-tax charge after classification and permitted deductions, allowances, or reliefs.",
-      "tags": [
-        "income taxes",
-        "computation"
-      ],
-      "complexity": "moderate"
-    },
-    {
-      "id": "entity:assessment",
-      "type": "entity",
-      "name": "Tax assessment",
-      "summary": "The process of establishing or correcting the amount of tax for which a taxpayer is liable.",
-      "tags": [
-        "tax administration",
-        "assessment"
-      ],
-      "complexity": "moderate"
-    },
-    {
-      "id": "entity:property-income",
-      "type": "entity",
-      "name": "Property income",
-      "summary": "Income arising from property interests and property businesses, subject to classification and allowable-expense rules.",
-      "tags": [
-        "income taxes",
-        "property"
-      ],
-      "complexity": "moderate"
-    },
-    {
       "id": "entity:employment-income",
       "type": "entity",
       "name": "Employment income",
@@ -842,39 +757,6 @@
       "tags": [
         "income taxes",
         "employment"
-      ],
-      "complexity": "moderate"
-    },
-    {
-      "id": "entity:pension-income",
-      "type": "entity",
-      "name": "Pension income",
-      "summary": "Income from pensions and the related treatment of pension contributions in individual income-tax computations.",
-      "tags": [
-        "income taxes",
-        "pensions"
-      ],
-      "complexity": "moderate"
-    },
-    {
-      "id": "entity:trading-income",
-      "type": "entity",
-      "name": "Trading income",
-      "summary": "Income from self-employment or a trade, computed by adjusting accounting profit to arrive at taxable profit.",
-      "tags": [
-        "income taxes",
-        "self-employment"
-      ],
-      "complexity": "moderate"
-    },
-    {
-      "id": "entity:partnership-profits",
-      "type": "entity",
-      "name": "Partnership profits and losses",
-      "summary": "Partnership results allocated among partners and brought into each partner's individual tax computation.",
-      "tags": [
-        "income taxes",
-        "partnerships"
       ],
       "complexity": "moderate"
     },
@@ -888,119 +770,6 @@
         "national insurance"
       ],
       "complexity": "moderate"
-    },
-    {
-      "id": "entity:individual-tax-liability",
-      "type": "entity",
-      "name": "Individual tax liability",
-      "summary": "The combined tax outcome after bringing together an individual's income sources, allowances, rates, reliefs, and payment obligations.",
-      "tags": [
-        "income taxes",
-        "individuals",
-        "computation"
-      ],
-      "complexity": "complex"
-    },
-    {
-      "id": "claim:tax-system-classifies-taxes",
-      "type": "claim",
-      "name": "The UK tax system distinguishes direct and indirect taxes",
-      "summary": "The tax-system foundation organizes taxes by whether they are imposed directly on income, profits, or gains or arise through transactions and consumption.",
-      "tags": [
-        "foundations",
-        "tax classification"
-      ],
-      "complexity": "simple"
-    },
-    {
-      "id": "claim:income-tax-liability-starts-with-taxable-income",
-      "type": "claim",
-      "name": "Income-tax liability is derived from taxable income",
-      "summary": "The income-tax framework moves from identifying taxable income to applying allowances, rates, and reliefs to determine liability.",
-      "tags": [
-        "income taxes",
-        "computation"
-      ],
-      "complexity": "moderate"
-    },
-    {
-      "id": "claim:assessment-establishes-or-corrects-liability",
-      "type": "claim",
-      "name": "Assessment establishes or corrects a taxpayer's liability",
-      "summary": "Assessment is the administrative mechanism for establishing or correcting the liability produced by the substantive tax computation.",
-      "tags": [
-        "tax administration",
-        "assessment"
-      ],
-      "complexity": "moderate"
-    },
-    {
-      "id": "claim:income-sources-feed-individual-liability",
-      "type": "claim",
-      "name": "Multiple income sources feed an individual's total liability",
-      "summary": "Property, employment, pension, and trading income are distinct categories that can be brought together in an individual's overall income-tax computation.",
-      "tags": [
-        "income taxes",
-        "individuals",
-        "computation"
-      ],
-      "complexity": "complex"
-    },
-    {
-      "id": "claim:self-employment-profit-is-adjusted-from-accounts",
-      "type": "claim",
-      "name": "Self-employment taxable profit is derived from accounting profit",
-      "summary": "Self-employment computation requires adjustments from accounting profit to the profit recognized for tax purposes.",
-      "tags": [
-        "income taxes",
-        "self-employment",
-        "computation"
-      ],
-      "complexity": "moderate"
-    },
-    {
-      "id": "claim:partnership-results-allocated-to-partners",
-      "type": "claim",
-      "name": "Partnership results are allocated to individual partners",
-      "summary": "Partnership profits and losses are allocated among partners and then included in the partners' individual tax computations.",
-      "tags": [
-        "income taxes",
-        "partnerships"
-      ],
-      "complexity": "moderate"
-    },
-    {
-      "id": "claim:nic-interacts-with-earned-income",
-      "type": "claim",
-      "name": "National Insurance interacts with employment and self-employment income",
-      "summary": "National Insurance categories and liabilities are connected to the taxpayer's employment and self-employment status and income.",
-      "tags": [
-        "income taxes",
-        "national insurance"
-      ],
-      "complexity": "moderate"
-    },
-    {
-      "id": "claim:employment-tax-treatment-separates-remuneration-and-expenses",
-      "type": "claim",
-      "name": "Employment computation distinguishes remuneration from allowable expenses",
-      "summary": "Employment income analysis separates taxable remuneration and benefits from expenses that may be allowable for tax purposes.",
-      "tags": [
-        "income taxes",
-        "employment"
-      ],
-      "complexity": "moderate"
-    },
-    {
-      "id": "claim:administration-follows-substantive-computation",
-      "type": "claim",
-      "name": "Tax administration operationalizes substantive liability",
-      "summary": "Registration, returns, payment, assessment, records, enquiries, penalties, and appeals provide the administrative lifecycle for tax liabilities.",
-      "tags": [
-        "tax administration",
-        "compliance"
-      ],
-      "complexity": "complex"
     },
     {
       "id": "entity:self-employment-income",
@@ -1028,7 +797,7 @@
       "id": "entity:corporation-tax-computation",
       "type": "entity",
       "name": "Corporation-tax computation",
-      "summary": "Computation of a company’s taxable total profits, rates, reliefs, and payment considerations.",
+      "summary": "Computation of a company's taxable total profits, rates, reliefs, and payment considerations.",
       "tags": [
         "corporation tax",
         "computation"
@@ -1181,6 +950,216 @@
         "reliefs"
       ],
       "complexity": "moderate"
+    },
+    {
+      "id": "entity:share-identification-rules",
+      "type": "entity",
+      "name": "Share identification and pooling rules",
+      "summary": "Same-day, 30-day matching and share-pool rules identify securities disposed of by individuals; companies apply a related but distinct matching framework.",
+      "tags": [
+        "capital gains tax",
+        "shares"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "entity:qualifying-corporate-bond",
+      "type": "entity",
+      "name": "Qualifying corporate bond",
+      "summary": "A qualifying corporate bond is a sterling commercial loan instrument meeting the relevant currency, conversion and issue-date conditions and is exempt from individual CGT.",
+      "tags": [
+        "capital gains tax",
+        "securities"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "entity:private-residence-relief",
+      "type": "entity",
+      "name": "Private residence relief",
+      "summary": "Relief for qualifying gains on a dwelling that has been the individual's only or main residence, including eligible actual and deemed occupation periods.",
+      "tags": [
+        "capital gains tax",
+        "relief",
+        "property"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "entity:business-asset-disposal-relief",
+      "type": "entity",
+      "name": "Business asset disposal relief",
+      "summary": "An individual capital-gains relief associated with qualifying business disposals and subject to specific ownership, business and eligibility conditions.",
+      "tags": [
+        "capital gains tax",
+        "relief",
+        "business"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "entity:rollover-relief",
+      "type": "entity",
+      "name": "Rollover relief",
+      "summary": "A capital-gains relief that can defer a gain when qualifying business assets are replaced by qualifying replacement assets.",
+      "tags": [
+        "capital gains tax",
+        "relief",
+        "corporate tax"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "entity:corporate-chargeable-gains",
+      "type": "entity",
+      "name": "Corporate chargeable gains",
+      "summary": "Company gains and allowable losses are calculated for the accounting period and incorporated into taxable total profits for corporation tax purposes.",
+      "tags": [
+        "corporation tax",
+        "capital gains tax"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "entity:inheritance-tax-transfer-of-value",
+      "type": "entity",
+      "name": "Inheritance-tax transfer of value",
+      "summary": "A gratuitous disposition that reduces the donor's estate, potentially creating inheritance-tax consequences during lifetime or on death.",
+      "tags": [
+        "inheritance tax",
+        "transfers"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "entity:vat-input-output-accounting",
+      "type": "entity",
+      "name": "Input and output VAT accounting",
+      "summary": "Registered businesses offset recoverable input VAT on purchases against output VAT charged on taxable supplies and settle the net amount with HMRC.",
+      "tags": [
+        "VAT",
+        "compliance"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "entity:vat-place-of-supply",
+      "type": "entity",
+      "name": "VAT place of supply",
+      "summary": "The place-of-supply rules determine the VAT treatment of imports, exports and supplies involving locations outside the UK.",
+      "tags": [
+        "VAT",
+        "overseas transactions"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "entity:vat-special-schemes",
+      "type": "entity",
+      "name": "VAT special schemes",
+      "summary": "Cash accounting, annual accounting and flat-rate schemes provide alternative VAT administration or calculation methods for eligible businesses.",
+      "tags": [
+        "VAT",
+        "administration"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "entity:taxpayer-first-exam-classification",
+      "type": "entity",
+      "name": "Taxpayer-and-tax classification",
+      "summary": "The first step in a mixed tax question is to identify the taxpayer and the relevant tax before classifying the income, asset or transaction.",
+      "tags": [
+        "study workflow",
+        "exam technique"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "entity:tax-computation-workflow",
+      "type": "entity",
+      "name": "Tax computation workflow",
+      "summary": "A repeatable exam workflow links classification, exemptions or reliefs, liability computation, administration and filing or payment deadlines.",
+      "tags": [
+        "study workflow",
+        "exam technique"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "claim:individual-share-disposal-matching",
+      "type": "claim",
+      "name": "Individual share disposals require ordered matching rules",
+      "summary": "For an individual's share disposal, same-day and 30-day matching rules are applied before the relevant share pool is used to determine the allowable cost.",
+      "tags": [
+        "capital gains tax",
+        "shares"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "claim:company-gains-enter-corporation-tax",
+      "type": "claim",
+      "name": "Company gains enter corporation-tax profits",
+      "summary": "Companies pay corporation tax on chargeable gains rather than individual CGT; net gains after allowable losses are included in taxable total profits and there is no annual exempt amount.",
+      "tags": [
+        "corporation tax",
+        "capital gains tax"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "claim:capital-gains-reliefs-change-timing-or-amount",
+      "type": "claim",
+      "name": "Capital-gains reliefs alter the amount or timing of tax",
+      "summary": "Capital-gains reliefs can exempt part of a gain, reduce the rate or amount payable, or defer the gain; eligibility and interaction conditions must be checked.",
+      "tags": [
+        "capital gains tax",
+        "relief"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "claim:iht-lifetime-and-death-transfers",
+      "type": "claim",
+      "name": "Inheritance tax applies to lifetime and death transfers",
+      "summary": "The inheritance-tax framework covers death estates as well as specified lifetime transfers, including gifts that become chargeable within the relevant period and transfers into trusts.",
+      "tags": [
+        "inheritance tax"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "claim:vat-net-settlement",
+      "type": "claim",
+      "name": "VAT liability is a net input-output settlement",
+      "summary": "A registered trader's VAT return generally compares output VAT on taxable supplies with recoverable input VAT and reports the resulting amount payable or repayable.",
+      "tags": [
+        "VAT",
+        "compliance"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "claim:vat-classification-drives-registration-recovery",
+      "type": "claim",
+      "name": "VAT classification drives registration and recovery",
+      "summary": "Whether a supply is taxable, exempt or outside scope affects VAT registration calculations and whether related input VAT can be recovered.",
+      "tags": [
+        "VAT"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "claim:exam-workflow-integrates-computation-and-administration",
+      "type": "claim",
+      "name": "Exam questions integrate computation with administration",
+      "summary": "Strong exam answers connect taxpayer and transaction classification to computation, reliefs or exemptions, and the applicable filing, payment and deadline rules.",
+      "tags": [
+        "study workflow",
+        "exam technique"
+      ],
+      "complexity": "simple"
     }
   ],
   "edges": [
@@ -2025,244 +2004,6 @@
       "weight": 0.6
     },
     {
-      "source": "article:C01_TX_SYS",
-      "target": "entity:uk-tax-system",
-      "type": "related",
-      "direction": "forward",
-      "weight": 0.8
-    },
-    {
-      "source": "article:C01_TX_SYS",
-      "target": "entity:direct-taxes",
-      "type": "related",
-      "direction": "forward",
-      "weight": 0.7
-    },
-    {
-      "source": "article:C01_TX_SYS",
-      "target": "entity:indirect-taxes",
-      "type": "related",
-      "direction": "forward",
-      "weight": 0.7
-    },
-    {
-      "source": "article:C01_TX_SYS",
-      "target": "entity:hmrc",
-      "type": "related",
-      "direction": "forward",
-      "weight": 0.7
-    },
-    {
-      "source": "article:C01_TX_SYS",
-      "target": "claim:tax-system-classifies-taxes",
-      "type": "related",
-      "direction": "forward",
-      "weight": 0.8
-    },
-    {
-      "source": "article:C02_IT_ILIB",
-      "target": "entity:income-tax",
-      "type": "related",
-      "direction": "forward",
-      "weight": 0.8
-    },
-    {
-      "source": "article:C02_IT_ILIB",
-      "target": "entity:taxable-income",
-      "type": "related",
-      "direction": "forward",
-      "weight": 0.8
-    },
-    {
-      "source": "article:C02_IT_ILIB",
-      "target": "claim:income-tax-liability-starts-with-taxable-income",
-      "type": "related",
-      "direction": "forward",
-      "weight": 0.8
-    },
-    {
-      "source": "article:C03_ADD_ASS",
-      "target": "entity:assessment",
-      "type": "related",
-      "direction": "forward",
-      "weight": 0.8
-    },
-    {
-      "source": "article:C03_ADD_ASS",
-      "target": "claim:assessment-establishes-or-corrects-liability",
-      "type": "related",
-      "direction": "forward",
-      "weight": 0.8
-    },
-    {
-      "source": "article:C04_Prop_TA",
-      "target": "entity:property-income",
-      "type": "related",
-      "direction": "forward",
-      "weight": 0.8
-    },
-    {
-      "source": "article:C05_Emp_Inc",
-      "target": "entity:employment-income",
-      "type": "related",
-      "direction": "forward",
-      "weight": 0.8
-    },
-    {
-      "source": "article:C05_Emp_Inc",
-      "target": "entity:national-insurance-contributions",
-      "type": "related",
-      "direction": "forward",
-      "weight": 0.6
-    },
-    {
-      "source": "article:C05_Emp_Inc",
-      "target": "claim:employment-tax-treatment-separates-remuneration-and-expenses",
-      "type": "related",
-      "direction": "forward",
-      "weight": 0.8
-    },
-    {
-      "source": "article:C05_Emp_Inc",
-      "target": "claim:nic-interacts-with-earned-income",
-      "type": "related",
-      "direction": "forward",
-      "weight": 0.6
-    },
-    {
-      "source": "article:C06_Pension",
-      "target": "entity:pension-income",
-      "type": "related",
-      "direction": "forward",
-      "weight": 0.8
-    },
-    {
-      "source": "article:C07_INC_SELF_EP",
-      "target": "entity:trading-income",
-      "type": "related",
-      "direction": "forward",
-      "weight": 0.8
-    },
-    {
-      "source": "article:C07_INC_SELF_EP",
-      "target": "entity:national-insurance-contributions",
-      "type": "related",
-      "direction": "forward",
-      "weight": 0.6
-    },
-    {
-      "source": "article:C07_INC_SELF_EP",
-      "target": "claim:self-employment-profit-is-adjusted-from-accounts",
-      "type": "related",
-      "direction": "forward",
-      "weight": 0.8
-    },
-    {
-      "source": "article:C07_INC_SELF_EP",
-      "target": "claim:nic-interacts-with-earned-income",
-      "type": "related",
-      "direction": "forward",
-      "weight": 0.6
-    },
-    {
-      "source": "article:C09_Partner",
-      "target": "entity:partnership-profits",
-      "type": "related",
-      "direction": "forward",
-      "weight": 0.8
-    },
-    {
-      "source": "article:C09_Partner",
-      "target": "claim:partnership-results-allocated-to-partners",
-      "type": "related",
-      "direction": "forward",
-      "weight": 0.8
-    },
-    {
-      "source": "article:C10_TL_IND",
-      "target": "entity:individual-tax-liability",
-      "type": "related",
-      "direction": "forward",
-      "weight": 0.8
-    },
-    {
-      "source": "article:C10_TL_IND",
-      "target": "claim:income-sources-feed-individual-liability",
-      "type": "related",
-      "direction": "forward",
-      "weight": 0.8
-    },
-    {
-      "source": "article:C01_TX_SYS",
-      "target": "claim:administration-follows-substantive-computation",
-      "type": "builds_on",
-      "direction": "forward",
-      "weight": 0.5
-    },
-    {
-      "source": "entity:property-income",
-      "target": "entity:taxable-income",
-      "type": "builds_on",
-      "direction": "forward",
-      "weight": 0.5
-    },
-    {
-      "source": "entity:employment-income",
-      "target": "entity:taxable-income",
-      "type": "builds_on",
-      "direction": "forward",
-      "weight": 0.5
-    },
-    {
-      "source": "entity:pension-income",
-      "target": "entity:taxable-income",
-      "type": "builds_on",
-      "direction": "forward",
-      "weight": 0.5
-    },
-    {
-      "source": "entity:trading-income",
-      "target": "entity:taxable-income",
-      "type": "builds_on",
-      "direction": "forward",
-      "weight": 0.5
-    },
-    {
-      "source": "entity:partnership-profits",
-      "target": "entity:trading-income",
-      "type": "related",
-      "direction": "forward",
-      "weight": 0.6
-    },
-    {
-      "source": "entity:national-insurance-contributions",
-      "target": "entity:employment-income",
-      "type": "related",
-      "direction": "forward",
-      "weight": 0.6
-    },
-    {
-      "source": "entity:national-insurance-contributions",
-      "target": "entity:trading-income",
-      "type": "related",
-      "direction": "forward",
-      "weight": 0.6
-    },
-    {
-      "source": "entity:individual-tax-liability",
-      "target": "entity:income-tax",
-      "type": "builds_on",
-      "direction": "forward",
-      "weight": 0.6
-    },
-    {
-      "source": "claim:income-sources-feed-individual-liability",
-      "target": "entity:individual-tax-liability",
-      "type": "exemplifies",
-      "direction": "forward",
-      "weight": 0.6
-    },
-    {
       "source": "article:C11_NIC",
       "target": "entity:national-insurance-contributions",
       "type": "exemplifies",
@@ -2289,13 +2030,6 @@
       "type": "builds_on",
       "direction": "forward",
       "weight": 0.9
-    },
-    {
-      "source": "article:C10_TL_IND",
-      "target": "claim:nic-connects-income-and-liability",
-      "type": "builds_on",
-      "direction": "forward",
-      "weight": 0.7
     },
     {
       "source": "article:C12_TX_ADMN",
@@ -2446,133 +2180,247 @@
     },
     {
       "source": "article:C19_CGT_SH",
-      "target": "article:C20_CGT_Relief",
+      "target": "entity:share-identification-rules",
+      "type": "related",
+      "direction": "forward",
+      "weight": 0.9
+    },
+    {
+      "source": "article:C19_CGT_SH",
+      "target": "entity:qualifying-corporate-bond",
+      "type": "related",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "article:C19_CGT_SH",
+      "target": "claim:individual-share-disposal-matching",
       "type": "builds_on",
       "direction": "forward",
-      "weight": 0.86,
-      "inferredEntities": [
-        "share disposals",
-        "share reorganisations",
-        "capital-gains reliefs"
-      ],
-      "claim": "Share transactions may require relief analysis in addition to the ordinary gains computation."
+      "weight": 0.9
+    },
+    {
+      "source": "claim:individual-share-disposal-matching",
+      "target": "entity:share-identification-rules",
+      "type": "exemplifies",
+      "direction": "forward",
+      "weight": 0.8
     },
     {
       "source": "article:C20_CGT_Relief",
-      "target": "article:C21_CG_Corp",
+      "target": "entity:private-residence-relief",
+      "type": "related",
+      "direction": "forward",
+      "weight": 0.9
+    },
+    {
+      "source": "article:C20_CGT_Relief",
+      "target": "entity:business-asset-disposal-relief",
+      "type": "related",
+      "direction": "forward",
+      "weight": 0.9
+    },
+    {
+      "source": "article:C20_CGT_Relief",
+      "target": "entity:rollover-relief",
+      "type": "related",
+      "direction": "forward",
+      "weight": 0.9
+    },
+    {
+      "source": "article:C20_CGT_Relief",
+      "target": "claim:capital-gains-reliefs-change-timing-or-amount",
       "type": "builds_on",
       "direction": "forward",
-      "weight": 0.8,
-      "inferredEntities": [
-        "capital-gains reliefs",
-        "chargeable gains of companies"
-      ],
-      "claim": "Relief conditions can be relevant when gains arise to companies."
+      "weight": 0.9
+    },
+    {
+      "source": "claim:capital-gains-reliefs-change-timing-or-amount",
+      "target": "entity:private-residence-relief",
+      "type": "exemplifies",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "claim:capital-gains-reliefs-change-timing-or-amount",
+      "target": "entity:rollover-relief",
+      "type": "exemplifies",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "article:C21_CG_Corp",
+      "target": "entity:corporate-chargeable-gains",
+      "type": "related",
+      "direction": "forward",
+      "weight": 0.9
+    },
+    {
+      "source": "article:C21_CG_Corp",
+      "target": "entity:rollover-relief",
+      "type": "related",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "article:C21_CG_Corp",
+      "target": "claim:company-gains-enter-corporation-tax",
+      "type": "builds_on",
+      "direction": "forward",
+      "weight": 0.9
+    },
+    {
+      "source": "claim:company-gains-enter-corporation-tax",
+      "target": "entity:corporate-chargeable-gains",
+      "type": "exemplifies",
+      "direction": "forward",
+      "weight": 0.8
     },
     {
       "source": "article:C22_Inherit",
-      "target": "article:C20_CGT_Relief",
+      "target": "entity:inheritance-tax-transfer-of-value",
+      "type": "related",
+      "direction": "forward",
+      "weight": 0.9
+    },
+    {
+      "source": "article:C22_Inherit",
+      "target": "claim:iht-lifetime-and-death-transfers",
       "type": "builds_on",
       "direction": "forward",
-      "weight": 0.76,
-      "inferredEntities": [
-        "transfers and estates",
-        "capital-gains reliefs"
-      ],
-      "claim": "Inheritance-tax revision intersects with relief concepts and transfer analysis."
+      "weight": 0.9
+    },
+    {
+      "source": "claim:iht-lifetime-and-death-transfers",
+      "target": "entity:inheritance-tax-transfer-of-value",
+      "type": "exemplifies",
+      "direction": "forward",
+      "weight": 0.8
     },
     {
       "source": "article:C23_VAT",
-      "target": "article:C24_VAT_OS",
+      "target": "entity:vat-input-output-accounting",
+      "type": "related",
+      "direction": "forward",
+      "weight": 0.9
+    },
+    {
+      "source": "article:C23_VAT",
+      "target": "claim:vat-net-settlement",
       "type": "builds_on",
       "direction": "forward",
-      "weight": 0.95,
-      "inferredEntities": [
-        "taxable supplies",
-        "output tax and input tax",
-        "place of supply"
-      ],
-      "claim": "Special and overseas VAT issues extend the VAT fundamentals."
+      "weight": 0.9
+    },
+    {
+      "source": "article:C23_VAT",
+      "target": "claim:vat-classification-drives-registration-recovery",
+      "type": "builds_on",
+      "direction": "forward",
+      "weight": 0.9
+    },
+    {
+      "source": "claim:vat-net-settlement",
+      "target": "entity:vat-input-output-accounting",
+      "type": "exemplifies",
+      "direction": "forward",
+      "weight": 0.8
     },
     {
       "source": "article:C24_VAT_OS",
-      "target": "article:C01_TX_SYS",
+      "target": "entity:vat-place-of-supply",
+      "type": "related",
+      "direction": "forward",
+      "weight": 0.9
+    },
+    {
+      "source": "article:C24_VAT_OS",
+      "target": "entity:vat-special-schemes",
+      "type": "related",
+      "direction": "forward",
+      "weight": 0.9
+    },
+    {
+      "source": "article:C24_VAT_OS",
+      "target": "entity:vat-input-output-accounting",
       "type": "builds_on",
       "direction": "forward",
-      "weight": 0.7,
-      "inferredEntities": [
-        "place of supply"
-      ],
-      "claim": "Place-of-supply rules illustrate the distinction between direct and indirect tax treatment."
+      "weight": 0.7
     },
     {
       "source": "article:Study_Workflow",
-      "target": "article:Exam_Connections",
+      "target": "entity:tax-computation-workflow",
+      "type": "related",
+      "direction": "forward",
+      "weight": 0.9
+    },
+    {
+      "source": "article:Study_Workflow",
+      "target": "entity:taxpayer-first-exam-classification",
       "type": "builds_on",
       "direction": "forward",
-      "weight": 0.96,
-      "inferredEntities": [
-        "mixed exam questions"
-      ],
-      "claim": "The staged study workflow culminates in integrated exam practice."
+      "weight": 0.8
     },
     {
       "source": "article:Exam_Connections",
-      "target": "article:C23_VAT",
-      "type": "exemplifies",
+      "target": "entity:taxpayer-first-exam-classification",
+      "type": "related",
       "direction": "forward",
-      "weight": 0.8,
-      "inferredEntities": [
-        "taxpayer and tax classification"
-      ],
-      "claim": "VAT questions exemplify the need to classify the taxpayer, transaction, liability, and compliance rules."
+      "weight": 0.9
     },
     {
       "source": "article:Exam_Connections",
-      "target": "article:C19_CGT_SH",
-      "type": "exemplifies",
+      "target": "claim:exam-workflow-integrates-computation-and-administration",
+      "type": "builds_on",
       "direction": "forward",
-      "weight": 0.8,
-      "inferredEntities": [
-        "taxpayer and tax classification"
-      ],
-      "claim": "Share-disposal questions require classification, computation, relief selection, and administrative checks."
+      "weight": 0.9
     },
     {
-      "source": "article:Exam_Connections",
-      "target": "article:C22_Inherit",
+      "source": "claim:exam-workflow-integrates-computation-and-administration",
+      "target": "entity:tax-computation-workflow",
       "type": "exemplifies",
       "direction": "forward",
-      "weight": 0.75,
-      "inferredEntities": [
-        "taxpayer and tax classification",
-        "transfers and estates"
-      ],
-      "claim": "Inheritance-tax questions fit the same classify, compute, relieve, and check workflow."
+      "weight": 0.8
+    },
+    {
+      "source": "entity:private-residence-relief",
+      "target": "entity:inheritance-tax-transfer-of-value",
+      "type": "related",
+      "direction": "forward",
+      "weight": 0.5
+    },
+    {
+      "source": "entity:corporate-chargeable-gains",
+      "target": "entity:share-identification-rules",
+      "type": "related",
+      "direction": "forward",
+      "weight": 0.6
+    },
+    {
+      "source": "entity:vat-place-of-supply",
+      "target": "entity:vat-input-output-accounting",
+      "type": "builds_on",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "entity:taxpayer-first-exam-classification",
+      "target": "entity:tax-computation-workflow",
+      "type": "builds_on",
+      "direction": "forward",
+      "weight": 0.8
     }
   ],
   "layers": [
     {
       "id": "layer:foundations-and-administration",
       "name": "Foundations and administration",
-      "description": "Foundations and administration (18 nodes)",
+      "description": "Foundations and administration (7 nodes)",
       "nodeIds": [
         "article:C01_TX_SYS",
         "article:C02_IT_ILIB",
         "article:C03_ADD_ASS",
         "article:C12_TX_ADMN",
         "topic:foundations-and-administration",
-        "entity:uk-tax-system",
-        "entity:direct-taxes",
-        "entity:indirect-taxes",
-        "entity:hmrc",
-        "claim:tax-system-classifies-taxes",
-        "entity:income-tax",
-        "entity:taxable-income",
-        "claim:income-tax-liability-starts-with-taxable-income",
-        "entity:assessment",
-        "claim:assessment-establishes-or-corrects-liability",
-        "claim:administration-follows-substantive-computation",
         "entity:individual-tax-administration",
         "claim:individual-administration-is-process-oriented"
       ]
@@ -2580,7 +2428,7 @@
     {
       "id": "layer:income-taxes",
       "name": "Income taxes",
-      "description": "Income taxes (22 nodes)",
+      "description": "Income taxes (12 nodes)",
       "nodeIds": [
         "article:C04_Prop_TA",
         "article:C05_Emp_Inc",
@@ -2590,18 +2438,8 @@
         "article:C10_TL_IND",
         "article:C11_NIC",
         "topic:income-taxes",
-        "entity:property-income",
-        "entity:employment-income",
         "entity:national-insurance-contributions",
-        "claim:employment-tax-treatment-separates-remuneration-and-expenses",
-        "claim:nic-interacts-with-earned-income",
-        "entity:pension-income",
-        "entity:trading-income",
-        "claim:self-employment-profit-is-adjusted-from-accounts",
-        "entity:partnership-profits",
-        "claim:partnership-results-allocated-to-partners",
-        "entity:individual-tax-liability",
-        "claim:income-sources-feed-individual-liability",
+        "entity:employment-income",
         "entity:self-employment-income",
         "claim:nic-connects-income-and-liability"
       ]
@@ -2629,7 +2467,7 @@
     {
       "id": "layer:capital-gains-tax",
       "name": "Capital gains tax",
-      "description": "Capital gains tax (10 nodes)",
+      "description": "Capital gains tax (19 nodes)",
       "nodeIds": [
         "article:C17_CGT",
         "article:C18_CGT_Special",
@@ -2640,36 +2478,55 @@
         "entity:capital-gains-framework",
         "claim:standard-cgt-framework-precedes-special-cases",
         "entity:special-capital-gains-treatment",
-        "claim:special-cgt-interacts-with-shares-and-reliefs"
+        "claim:special-cgt-interacts-with-shares-and-reliefs",
+        "entity:share-identification-rules",
+        "entity:qualifying-corporate-bond",
+        "claim:individual-share-disposal-matching",
+        "entity:private-residence-relief",
+        "entity:business-asset-disposal-relief",
+        "entity:rollover-relief",
+        "claim:capital-gains-reliefs-change-timing-or-amount",
+        "entity:corporate-chargeable-gains",
+        "claim:company-gains-enter-corporation-tax"
       ]
     },
     {
       "id": "layer:inheritance-tax",
       "name": "Inheritance tax",
-      "description": "Inheritance tax (2 nodes)",
+      "description": "Inheritance tax (4 nodes)",
       "nodeIds": [
         "article:C22_Inherit",
-        "topic:inheritance-tax"
+        "topic:inheritance-tax",
+        "entity:inheritance-tax-transfer-of-value",
+        "claim:iht-lifetime-and-death-transfers"
       ]
     },
     {
       "id": "layer:vat",
       "name": "VAT",
-      "description": "VAT (3 nodes)",
+      "description": "VAT (8 nodes)",
       "nodeIds": [
         "article:C23_VAT",
         "article:C24_VAT_OS",
-        "topic:vat"
+        "topic:vat",
+        "entity:vat-input-output-accounting",
+        "claim:vat-net-settlement",
+        "claim:vat-classification-drives-registration-recovery",
+        "entity:vat-place-of-supply",
+        "entity:vat-special-schemes"
       ]
     },
     {
       "id": "layer:study-workflow",
       "name": "Study workflow",
-      "description": "Study workflow (3 nodes)",
+      "description": "Study workflow (6 nodes)",
       "nodeIds": [
         "article:Study_Workflow",
         "article:Exam_Connections",
-        "topic:study-workflow"
+        "topic:study-workflow",
+        "entity:tax-computation-workflow",
+        "entity:taxpayer-first-exam-classification",
+        "claim:exam-workflow-integrates-computation-and-administration"
       ]
     }
   ],
