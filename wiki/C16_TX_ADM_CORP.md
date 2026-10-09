@@ -8,18 +8,6 @@ Related: [[C12_TX_ADMN]], [[C13_Corp_TX]], [[C15_Groups]]
 
 ## Original note content
 
----
-title: "Chapter 16: Tax administration for a company"
-abstract: |
-    1. explain and apply the features of the self-assessment system as it applies to companies, including the use of iXBRL.  <br>
-    2. recognise the time limits that apply to the filing of returns and the making of claims. <br>
-    3. explain how large companies are required to account for corporation tax on a quarterly basis and compute the quarterly instalment payments. <br>
-    4. list the information and records that taxpayers need to retain for tax purposes. <br>
-    5. explain the circumstances in which HM Revenue & Customs can make a compliance check into a self-assessment tax return. <br>
-    6. explain the procedures for dealing with appeals and First and Upper Tier Tribunals. <br>
-    7. calculate late payment interest and state the penalties that can be charged. <br>   
----
-
 ![](20260812133220.png)
 
 # The self-assessment system for companies 
@@ -57,65 +45,41 @@ For other companies, commercial software applications and services enable the su
 
 
 
-::: {.columns}
-
-::: {.column width="45%"}
 
 
 
-:::
-
-::: {.column width="5%"}
-
-:::
-
-::: {.column width="45%"}
 
 
 
-:::
-
-::: {.column width="5%"}
-
-:::
-
-::: {.column width="45%"}
 
 
 
-:::
 
-::: {.column width="5%"}
 
-:::
 
-::: {.column width="45%"}
+
+
+
+
+
+
+
 
 1. Integrated software applications – automatically inserts iXBRL tags to data and produces iXBRL accounts and/or computations. 
 
-:::
 
-::: {.column width="5%"}
 
-:::
 
-::: {.column width="45%"}
 
 2. Managed tagging services – provided by agents whereby the company outsources the process of iXBRL tagging to convert non-iXBRL accounts and computations into the required format.
 
-:::
 
-::: {.column width="55%"}
 
-:::
 
-::: {.column width="50%"}
 
 3. Conversion software applications – allows the company to apply appropriate iXBRL tags to each item of data itself to convert the accounts and computation into the required format. 
 
-:::
 
-:::
 
 ***iXBRL***      
 The items to be tagged are those which appear in 'taxonomies'. HMRC has published minimum tagging lists for UK GAAP, UK IFRS® and corporation tax computation taxonomies. 
@@ -123,7 +87,6 @@ The items to be tagged are those which appear in 'taxonomies'. HMRC has publishe
 ***Making claims***    
 Any claims must be included in the self-assessment tax return. A claim for a relief, allowance or repayment must be quantified at the time that the claim is made. For example, if loss relief is claimed, then the amount of the loss must be stated. 
 
-:::{.callout}
 ***Notification of chargeability***         
 A company coming within the scope of corporation tax for the first time must notify HMRC when its first accounting period begins, *within three months* of the start of its first accounting period. 
 
@@ -133,13 +96,11 @@ The time limit for notifying HMRC of chargeability is **12 months** from the end
 
 A standard penalty may be imposed for failure to notify HMRC of chargeability (section 6). 
 
-:::
 
 ***Penalties for failure to submit a return***    
 HMRC can impose fixed penalties and tax-geared penalties for the failure to submit a return, depending on the length of the delay in submitting the return. 
 
 
-:::{.callout-note}
 ***Determination assessments***       
 To prevent companies deliberately delaying the submission of the return HMRC may determine the amount of corporation tax due by issuing a determination assessment. 
 
@@ -147,7 +108,6 @@ To prevent companies deliberately delaying the submission of the return HMRC may
 - There is no appeal against a determination assessment. Instead, the company must displace it with the actual self-assessment return. 
 - A determination assessment can be raised at any time within three years of the filing date (i.e. four years from the end of the period of account). 
 
-:::
 
 
 ***Records***    
@@ -323,10 +283,8 @@ Where the accounting period is *less than 12 months*:
 - Subsequent instalments are due at 3 monthly intervals thereafter, until the date of the final instalment is reached. 
 - Final instalment due by:  14th day of 4th month after the end of the accounting period. 
 
-:::{.callout}
 For an accounting period of 3 months or less, applying the above instalment rules would result in the date of the first instalment being later than the final instalment. Therefore, in this situation the full tax due for the accounting period is due on the date of the final instalment, i.e. 14th day of 4th month after the end of the accounting period. 
 
-:::
 
 Using formula:
 
@@ -349,9 +307,7 @@ $\text{Instalment Amount} = \text{Estimated CT Liability} \times \left(\frac{n}{
 
 
 
-::: {.columns}
 
-::: {.column width="45%"}
 
 1. Total Number of Instalments
 
@@ -362,13 +318,9 @@ $\text{Instalment Amount} = \text{Estimated CT Liability} \times \left(\frac{n}{
    * Instalment 2: 3 months
    * Instalment 3 (Final): 1 remaining month (since 3 + 3 + 1 = 7)
 
-:::
 
-::: {.column width="5%"}
 
-:::
 
-::: {.column width="45%"}
 
 2. Calculating Instalment 1 (n = 3)
 
@@ -377,26 +329,18 @@ $\text{Instalment Amount} = \text{Estimated CT Liability} \times \left(\frac{n}{
 * Answer: £180,000
 
 
-:::
 
-::: {.column width="5%"}
 
-:::
 
-::: {.column width="45%"}
 
 3. Calculating Instalment 2 (n = 3)
 
 * Formula: $\text{£420,000} \times \left(\frac{3}{7}\right)$
 * Answer: £180,000
 
-:::
 
-::: {.column width="5%"}
 
-:::
 
-::: {.column width="45%"}
 
 4. Calculating the Final Instalment (n = 1)
 
@@ -404,9 +348,7 @@ $\text{Instalment Amount} = \text{Estimated CT Liability} \times \left(\frac{n}{
 * Calculation: £420,000 ÷ 7 = £60,000 × 1
 * Answer: £60,000
 
-:::
 
-:::
 
 #### Example 7: Quarterly instalment payments - Short accounting periods 
 
@@ -429,27 +371,19 @@ Twister plc’s corporation tax liability will be due by instalments as follows:
 
 There are two key types of interest: 
 
-::: {.columns}
 
-::: {.column width="45%"}
 
 ***Late payment interest***      
 calculated at 8.5% p.a. 
 
-:::
 
-::: {.column width="5%"}
 
-:::
 
-::: {.column width="45%"}
 
 ***Repayment interest***      
 calculated at 3.5% p.a.
 
-:::
 
-:::
  
 The interest rates will be provided in the tax rates and allowances within the examination. 
 
@@ -632,7 +566,6 @@ The time limit for making a discovery assessment is:
 
 A discovery assessment may be appealed against.
 
-:::{.callout-note}
 ***Determination assessments***       
 To prevent companies deliberately delaying the submission of the return HMRC may determine the amount of corporation tax due by issuing a determination assessment. 
 
@@ -640,7 +573,6 @@ To prevent companies deliberately delaying the submission of the return HMRC may
 - There is no appeal against a determination assessment. Instead, the company must displace it with the actual self-assessment return. 
 - A determination assessment can be raised at any time within three years of the filing date (i.e. four years from the end of the period of account). 
 
-:::
 
 
 # Practices on Additional aspects
@@ -649,7 +581,6 @@ To prevent companies deliberately delaying the submission of the return HMRC may
 
 ### Q1: CT payable date 
 
-:::{.callout}
 Roberts plc prepares accounts to 31 March each year and its *taxable total profits for the year ended 31 March 2026 are £1,800,000*. Roberts plc has no subsidiaries, receives no dividend income and *its taxable total profits for the year ended 31 March 2025 were £920,000*. 
 
 Which of the following statements is correct with respect to Roberts plc's corporation tax liability for the year ended 31 March 2026? 
@@ -663,11 +594,9 @@ D. The liability is payable in 4 equal instalments beginning on 14 October 2026
 
 > Roberts plc's corporation tax liability will be payable by 9 months and 1 day after the end of the accounting period (i.e. by 1 January 2027). 
 
-:::
 
 ### Q2: Final payment of CT
 
-:::{.callout}
 
 Grape plc has been a large UK company for corporation tax payment purposes for a number of years. 
 
@@ -680,11 +609,9 @@ B. 31 December 2026
 **C. 14 April 2026**             
 D. 14 July 2026            
 
-:::
 
 ### Q3: Return date vs. Tax payable date 'Not Large'
 
-:::{.callout}
 Potassium Ltd has taxable total profits of *£800,000* and *prepares accounts to 31 December every year*. Potassium Ltd has no associated companies.
 
 By which dates must Potassium Ltd file its tax return and pay its corporation tax for the accounting period ended 31 December 2025?
@@ -698,11 +625,9 @@ By which dates must Potassium Ltd file its tax return and pay its corporation ta
 
 The return must be submitted within **12 months** of the end of the period of account and the tax paid **nine months** and one day after the end of the accounting period. 
 
-:::
 
 ### Q4: iXBRL
 
-:::{.callout}
 Which of the following statements is/are true?
 
 1. Only companies with revenue of £100,000 or more are required to file returns and pay corporation tax electronically.            
@@ -714,12 +639,10 @@ B. (1) only
 **C. (2) only**       
 D. None of them       
 
-:::
 
 
 ### Q5: Classification of Tax
 
-:::{.callout}
 
 Taxes can be either capital taxes or revenue taxes, although some taxes are neither type of tax.
 
@@ -731,7 +654,6 @@ Taxes can be either capital taxes or revenue taxes, although some taxes are neit
 | Inheritance tax (IHT)             | O           | □           | □            |
 | National insurance contributions (NICs) | □     | O           | □            |
 
-:::
 
 --- 
 
@@ -742,12 +664,10 @@ Indicate, by ticking the relevant boxes in the table below, whether each tax lis
 | Income tax                    | O      | □        | O           | □               |
 | Value added tax (VAT)         | □      | O        | □           | O               |
 
-:::
 
 
 ### Q7: Tax avoidance & tax evasion 
 
-:::{.callout}
 
 Which of the following statements correctly explains the difference between tax evasion 
 and tax avoidance? 
@@ -778,12 +698,10 @@ C. If a tax adviser becomes aware that a client has committed a tax irregularity
 D. A tax adviser acting for a client has no duties and responsibilities towards HMRC 
 
 
-:::
 
 
 ### Q8: Statutory 
 
-:::{.callout}
 
 You are a trainee Chartered Certified Accountant and your firm has a client who has refused to disclose a chargeable gain to HM Revenue & Customs (HMRC).
 
@@ -809,7 +727,6 @@ D. Guidance provided to HM Revenue & Customs’ staff in interpreting and applyi
 
 > The legality of extra-statutory concessions was successfully challenged in 2005, so they are gradually being withdrawn or made law. 
 
-:::
 
 
 
@@ -818,21 +735,4 @@ D. Guidance provided to HM Revenue & Customs’ staff in interpreting and applyi
 
 ## Constructed response questions
 
-### Q1: 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+### Q1:

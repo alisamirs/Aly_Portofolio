@@ -8,22 +8,6 @@ Related: [[C01_TX_SYS]], [[C03_ADD_ASS]], [[C10_TL_IND]], [[C16_TX_ADM_CORP]]
 
 ## Original note content
 
----
-title: "Chapter 12: Tax administration for individuals"
-abstract: |
-    1. explain and apply the features of the self-assessment system as it applies to individuals.  <br>
-    2. recognise the time limits that apply to the filing of returns and the making of claims. <br>
-    3. recognise the due dates for the payment of tax under the self-assessment system, and compute payments on account and balancing payments/repayments for individuals. <br>
-    4. list the information and records that taxpayers need to retain for tax purposes. <br>  
-    5. explain the circumstances in which HM Revenue & Customs can make a compliance check into a self-assessment tax return. <br>  
-    6. explain the procedures for dealing with appeals and First and Upper Tier Tribunals. <br> 
-    7. calculate late payment interest and state the penalties that can be charged  
-    8. explain the PAYE system, how benefits can be payrolled, and the purpose of form P11D. <br> 
-    9. recognise the circumstances in which real time reporting late filing penalties will be imposed on an employer and the amount of penalty which is charged. <br>
----
-
-
-
 # Personal tax administration 
 
 The collection of income tax Employees have their income tax and national insurance contribution (NIC) liabilities on their employment income, and in some cases on small amounts of other income, collected at source through the *PAYE system*. 
@@ -57,7 +41,6 @@ The 31 January following the end of the tax year is known as the 'filing date', 
 This must be distinguished from the date on which the return is actually filed/submitted, which is the 'actual filing date'. 
 
 
-:::{.callout-tip}
 **Content of tax return** 
 
 The taxpayer completes the main tax return form **(SA100)** to give basic details including the taxpayer’s name, address and certain types of investment income. 
@@ -76,7 +59,6 @@ If the taxpayer is completing a paper tax return, the supplementary pages that a
 
 > Partnerships: Although partners are dealt with individually, a **partnership return is required to aid self-assessment for the individual partners**. This gives details of the partners, includes a partnership statement detailing the partnership’s tax adjusted trading profit, and shows how this tax adjusted profit is allocated among the partners. 
 
-:::
 
 
 ### Return – calculation of tax 
@@ -92,7 +74,6 @@ the calculation by HMRC is treated as a self-assessment on behalf of the taxpaye
 HMRC normally communicates with the taxpayer by issuing a **statement of account**, which is a reminder of amounts owing to HMRC. 
 
 
-:::{.callout-tip}
 ***Statement of account***          
 The statement of account sets out: 
 
@@ -100,9 +81,7 @@ The statement of account sets out:
 - any charges of interest or penalties 
 - any payments already made by the taxpayer.
 
-:::
 
-:::{.callout-note}
 ***Amendments to the return***           
 Either party may amend the return: 
 
@@ -113,10 +92,8 @@ Either party may amend the return:
 
 > Note that the amendment deadline is the same regardless of whether the return was filed on paper or electronically. If an error is discovered at a later date then the taxpayer can make a claim for overpayment relief to recover any tax overpaid. 
 
-:::
 
 
-:::{.callout-important}
 ***Notification of chargeability***           
 **Self-assessment** places the responsibility on the taxpayer to notify HMRC of **all taxable income**, therefore: 
 
@@ -125,12 +102,10 @@ Either party may amend the return:
 - Notification is not necessary if there is no actual tax liability. For example, if the income or capital gain is covered by allowances or exemptions. 
 - A standard penalty may arise for failure to notify chargeability. 
 
-:::
 
 ***Penalty for failure to submit a return***           
 HMRC can impose fixed penalties and tax-geared penalties for the failure to submit a return, depending on the length of the delay. 
 
-:::{.callout-caution}
 ***Determination of tax due if no return is filed***    
 Where a self-assessment tax return is not filed by the filing date, HMRC may determine the amount of tax due. The impact of this is: 
 
@@ -140,7 +115,6 @@ Where a self-assessment tax return is not filed by the filing date, HMRC may det
 
 A determination can be made at any time within three years of the filing date (i.e. by 31 January 2030 for 2025/26 tax return). 
 
-:::
 
 
 
@@ -442,7 +416,6 @@ payable.
 
 
 
-:::{.callout-tip}
 ***Interest on incorrect claims to reduce POAs***            
 Interest is charged where an **excessive claim** is made to reduce POAs. 
 
@@ -450,7 +423,6 @@ The charge is based on the ***difference between the amounts*** actually paid an
 
 The amount that should have been paid is the lower of: – the original POAs based on the 'relevant amount' for the previous tax year – 50% of the final tax liability (excluding CGT, net of PAYE) for the current tax year. 
 
-:::
 
 
 #### Example 3: Interest 
@@ -539,12 +511,10 @@ Penalties are calculated as follows:
 | More than 12 months late        | Additional 5%          |
 
 
-:::{.callout}
 Technically the penalties apply if tax is paid more than 30 days late, 5 months and 30 days late and 11 months and 30 days late, but the TX examining team article gives these time limits to the nearest month and it is acceptable to do so in the examination. 
 
 HMRC have the discretion to reduce a penalty in special circumstances, for example if it is considered that the penalty would be inappropriate or disproportionate. However, the inability to pay will not be classified as special circumstances. 
 
-:::
 
 #### Example 1: Interest and penalties  
 
@@ -721,7 +691,6 @@ There are two tiers (layers) of the Tax Tribunal system:
 - First-tier Tribunal, and 
 - Upper Tribunal.
 
-:::{.callout-caution}
 ***First-tier Tribunal***        
 The First-tier Tribunal is the first tribunal for most issues. It deals with: 
 
@@ -737,7 +706,6 @@ The **Upper Tribunal** mainly, but not exclusively, reviews and decides appeals 
 Hearings are held in public and decisions are published.            
 A decision of the Upper Tribunal may be appealed to the Court of Appeal. However, the grounds of appeal must always relate to a point of law. 
 
-:::
 # Penalties 
 
 ***Standard penalties***         
@@ -918,7 +886,6 @@ P60 Certificate of pay and tax deducted Not later than 31 May the employer must 
 
 ### Q1: Benefites form
 
-:::{.callout}
 Jim receives a salary of £50,000 per annum and has the use of a company flat which results in a taxable benefit of £5,600 in the tax year 2025/26. 
 
 Which form should Jim’s employer use to report the benefit to HMRC and by which date must the form be submitted? 
@@ -928,12 +895,10 @@ B. Form P60 by 6 July 2026
 C. Form P11D by 31 May 2026          
 **D. Form P11D by 6 July 2026**           
 
-:::
 
 
 ### Q2: Payments on account dates
 
-:::{.callout}
 Ji-hoon has been a sole trader for a number of years. His payments on account for the tax year 2025/26 amount to £12,000. 
 
 On which dates are Ji-hoon’s **payments on account** due for the tax year 2025/26? 
@@ -943,12 +908,10 @@ B. 31 January 2027 and 31 July 2027
 C. 31 July 2026 and 31 January 2027             
 D. 31 October 2026 and 31 January 2027             
 
-:::
 
 
 ### Q4: Filing penalty
 
-:::{.callout}
 
 Claudia received a notice to submit a tax return for the tax year 2025/26 on 20 June 2026 and submitted the return on *24 August 2027*. The tax due on the return was £470. 
 
@@ -963,12 +926,10 @@ The return for the tax year 2025/26 *was due on 31 January 2027* and was therefo
 
 ![](20260808090654.png)
 
-:::
 
 
 ### Q5: Payment on account
 
-:::{.callout}
 Kaleel is required to make payments on account of his tax liability. For the tax year 2024/25, his income tax liability was £22,440, of which £2,400 was collected under PAYE. He estimates that his income tax payable for the tax year 2025/26 will be £26,400. 
 
 What is the amount of the first payment on account that Kaleel should make on 31 January 2026 in respect of his income tax liability for the tax year 2025/26?       
@@ -981,11 +942,9 @@ D £13,200
 
 > (22440 - 2400) /2
 
-:::
 
 ### Q6: Self-assessment tax return
 
-:::{.callout}
 
 Which of the following statements concerning self-assessment tax returns for individuals is true? 
 
@@ -996,12 +955,10 @@ D. The tax return for an individual covers income tax, class 1 and class 4 natio
 
 > If a taxpayer submits a paper return on time, they can ask HMRC to calculate the tax due. Tax returns submitted electronically automatically calculate the tax due. 
 
-:::
 
 
 ### Q7: keep the records
 
-:::{.callout}
 
 Geoffrey is a sole trader and is married to Harriet. Harriet is in employment. They jointly own a residential investment property which is rented out.
 
@@ -1015,11 +972,9 @@ Geoffrey is a sole trader and is married to Harriet. Harriet is in employment. T
 
 > Taxpayers who are in business, which for this purpose includes the letting of a property, must keep their records until five years after the 31 January filing date (i.e. 31 January 2032 for a 2025/26 return). 
 
-:::
 
 ### Q8: T & F
 
-:::{.callout}
 
 Which of the following statements is incorrect? 
 
@@ -1028,12 +983,10 @@ B. A taxpayer who submits a tax return two months late may receive a penalty of 
 C. An electronic tax return for the tax year 2025/26 should normally be filed by 31 January 2027            
 D. A taxpayer who submits the 2025/26 tax return electronically on 13 January 2027 has until 31 January 2028 to amend the return           
 
-:::
 
 
 ### Q9: Notify HMRC of chargeability
 
-:::{.callout}
 
 Jared, who does not normally receive a tax return must notify HMRC of any chargeability for the tax year 2025/26 by which date? 
 
@@ -1042,12 +995,10 @@ A. 30 September 2026
 C. 31 October 2026 
 D. 31 December 2026 
 
-:::
 
 
 ### Q10: Taxpayer not satisfied 
 
-:::{.callout}
 
 If Pauline, a taxpayer, is not satisfied with a decision made by HMRC, the case can be referred to: 
 
@@ -1060,12 +1011,10 @@ B. 1 only
 C. 2 only 
 **D. 1 and 2 only**
 
-:::
 
 
 ### Q11: Keep accounting records
 
-:::{.callout}
 
 Complete the following sentence relating to the length of time a sole trader is required to keep their accounting records after the end of a tax year in which a self-assessment tax return has been completed.
 
@@ -1076,12 +1025,10 @@ A sole trader is required to keep their accounting records for ______ months aft
 | 12               | end of the tax year                                       |
 | **60**           | **31 January that follows the end of the tax year**       |
 
-:::
 
 
 ### Q12: Compliance check
 
-:::{.callout}
 
 Phillip did not file his self-assessment tax return for the tax year 2024/25 until 31 March 2026. This was two months after the 31 January 2026 due date. 
 
@@ -1110,12 +1057,10 @@ What is the *deadline for Willard to make an amendment to his tax return* for th
 
 > HMRC must notify the taxpayer of their intention to open an enquiry within 12 months of the actual date the return was filed. ---> **10 August 2026**
 
-:::
 
 
 ### Q13: Payment on account (POA)
 
-:::{.callout}
 
 Abdul’s tax liabilities for the tax years 2024/25 and 2025/26 are as follows:
 
@@ -1161,12 +1106,10 @@ B. £0
 C. £3,180     
 **D. £2,420**    
 
-:::
 
 
 ### Q14: Balancing Payment
 
-:::{.callout}
 
 Jeanette’s income tax and capital gains tax liabilities for the tax year 2025/26 were £25,000 and £5,000 respectively. Of the £25,000 income tax liability, tax of £5,400 was deducted at source under PAYE. She made payments on account totalling £18,000 for the tax year 2025/26.  
 
@@ -1181,12 +1124,10 @@ What is the balancing payment Jeanette should pay and when is it due?
 > The first payment on account for the tax year 2026/27 is also due on 31 January 2027, making the total payable £16,400.
 
 
-:::
 
 
 ### Q15: Penalities 
 
-:::{.callout}
 Ruby was required to make payments on account of £5,000 in total towards her tax liability for the tax year 2025/26.  
 
 **She paid both payments on account, of £2,500 each, on 1 July 2026.** After completing her self-assessment tax return for the tax year 2025/26, Ruby calculates that her tax liability for that year is £7,000.      
@@ -1295,8 +1236,3 @@ Under the Real Time Information (RTI) system, employers must submit payroll deta
 - 10 to 49 employees: £200
 - 50 to 249 employees: £300
 - 250 or more employees: £400
-
-:::
-
-
-

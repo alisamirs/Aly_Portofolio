@@ -8,17 +8,6 @@ Related: [[C02_IT_ILIB]], [[C05_Emp_Inc]], [[C07_INC_SELF_EP]], [[C17_CGT]], [[C
 
 ## Original note content
 
----
-title: "Chapter 10: Trading losses for individuals"
-abstract: |
-    understand how trading losses can be carried forward.            <br>
-    understand how trading losses can be claimed against total income and chargeable gains and the restriction that can apply.                <br>
-    explain and compute the relief for trading losses in the early years of a trade.             <br>
-    explain and compute terminal loss relief.                   <br>
-    recognise the factors that will influence the choice of loss relief claim.                <br>
-    describe the alternative loss relief claims that are available to partners.     <br>
----
-
 ![](20260802094253.png)
 
 
@@ -239,42 +228,28 @@ Due to the wording 'and/or', and the fact that a claim can be made in any order,
 In the case of the first four options, any unrelieved loss is carried forward automatically. However, a key point to note is that if relief against total income is claimed, the taxpayer must set off the *maximum amount possible* for a given year; a partial claim is not allowed. Other points to note: 
 
 
-::: {.columns}
 
-::: {.column width="45%"} 
 
 - The personal allowance is deducted from net income (i.e. total income after deducting reliefs). Therefore, a claim for loss relief against total income may result in the personal allowance being wasted. 
 
-:::
 
-::: {.column width="5%"}
 
-:::
 
-::: {.column width="45%"}
 
 - The savings income nil rate band and dividend nil rate band could also be wasted if a claim is made to use the loss against total income. 
 
-:::
 
-::: {.column width="45%"} 
 
 - A claim must be made within one year of *31 January* following the end of the tax year of loss. 
   For a 2025/26 loss the claim must be made by 31 January 2028. 
 
-:::
 
-::: {.column width="5%"}
 
-:::
 
-::: {.column width="45%"}
 
 - A taxpayer may have losses for two consecutive tax years and wish to relieve both against total income. 
   In these circumstances the total income of a tax year is relieved by the loss of that year, in priority to the loss carried back from the following tax year. 
 
-:::
-:::
 
 
 #### Example 2: Loss against total income
@@ -405,27 +380,19 @@ The loss is deducted before both the CGT ***annual exempt amount (AEA)*** and an
 | **Net chargeable gains before brought forward losses**              | **X**     |
 
 
-::: {.columns}
 
 The maximum amount of loss relief under these rules is the **lower of**: 
 
-::: {.column width="45%"}
 
 The remaining trading loss, or
 
-:::
 
-::: {.column width="5%"}
 
-:::
 
-::: {.column width="45%"}
 
 Chargeable gains in the tax year after the deduction of current year capital losses and brought forward capital losses. 
 
-:::
 
-:::
 
 A key point to note is that if a claim is made against chargeable gains, the taxpayer must set off the maximum amount possible for a given year; ***a partial claim is not allowed***.              
  
@@ -760,7 +727,6 @@ In understanding the position of the taxpayer, it is important to understand the
 | Trading profit – terminal loss claim                         | Preceding three tax years on a LIFO basis                  | Only on cessation. <br> All or nothing.<br> Can be used with a normal claim against total income.                      |
 
 
-::: {.callout-note}
 
 ***Choice of loss relief*** 
 
@@ -776,7 +742,6 @@ Since the claim can only be made once, total income for the year is reduced as f
 
 However, at all times be mindful of the maximum restriction rules and the rate of tax relief available as the taxpayer's primary aim is usually to save as much tax as possible. 
 
-:::
 
     
 
@@ -848,26 +813,18 @@ Assume that the rates and allowances for the tax year 2025/26 apply to all years
 There are ***two possible ways to relieve the partnership loss***: 
 
 
-::: {.columns}
 
-::: {.column width="45%"}
 
 1. A claim can be made against **total income** for the tax years 2025/26 and/or 2024/25.
    Subject to this claim being made, it would then be possible to claim against chargeable gains of the same tax year. 
 
-:::
 
-::: {.column width="5%"}
 
-:::
 
-::: {.column width="45%"}
 
 2. Terminal loss relief can be claimed. 
 
-:::
 
-:::
 
 The tax adjusted trading profits and loss are split between the partners: 
 
@@ -945,7 +902,6 @@ The loss is offset before the deduction of the annual exempt amount (AEA). Thus 
 
 ### Q1: The use of the loss
 
-:::{.callout}
 
 Beverley has been trading for many years and incurred a tax adjusted trading loss for the year ended 31 March 2026.  
 
@@ -961,11 +917,9 @@ A. Wrong: Carried forward and set against future trading profits, but the loss i
 B. Wrong: There is no need for the claim for the tax year 2024/25 to be made before that of the tax year 2025/26.
 D. Wrong: The loss can be set against total income ***(not taxable income)*** of the tax years 2025/26 and/or 2024/25. 
 
-:::
 
 ### Q2: Loss Available to Carry Forward
 
-:::{.callout}
 
 Lena has been trading as a picture framer for many years. Her recent results have been as follows:
 
@@ -1014,25 +968,17 @@ Lena's trading loss occurs in the year ended 31 March 2026, which maps to the ta
 Lena can offset her £45,000 loss against the **total income** of the current year (2025/26) and/or the preceding year (2024/25).
 
 
-::: {.columns}
 
-::: {.column width="45%"}
 
 Claiming against 2025/26 (Current Year): is **inefficient**. Her total income is only £5,000, which is already *fully covered by her tax-free Personal Allowance* (£12,570). Claiming here *would save £0 tax and waste £5,000* of her loss.
 
-:::
 
-::: {.column width="5%"}
 
-:::
 
-::: {.column width="45%"}
 
 Claiming against 2024/25 (Preceding Year): This is highly efficient. Her income is well above the Personal Allowance, so offsetting here will fully eliminate her taxable income for that year to nil.
 
-:::
 
-:::
 
 3. Calculate the Loss Available to Carry Forward
 The remaining unused balance of the loss is automatically carried forward under Section 83 to the next tax year (2026/27) to be offset against future trading profits from the same business.
@@ -1040,11 +986,9 @@ $$\text{Loss Carry Forward} = £45,000 - £30,000 = \mathbf{£15,000}$$
 
 > A claim against total income can be made for the tax year of loss and/or the previous tax year in any order. 
 
-:::
 
 ### Q3: Trading losses
 
-:::{.callout}
 
 Which of the following statements about trading losses is true? 
 
@@ -1058,12 +1002,10 @@ A. is false because there is no limit on the time that a loss can be carried for
 C. is false because a claim against total income can be made for the tax year of loss and/or the previous tax year in any order.           
 D. is false because a loss claimed against total income is deducted before the personal allowance and the offset cannot be restricted to preserve the personal allowance. 
 
-:::
 
 
 ### Q4: Maximum loss relief 
 
-:::{.callout}
 
 Naomi is self-employed. For the year ended 5 April 2026 she made a trading loss of £110,000, having made a trading profit of £24,000 for the year ended 5 April 2025. Naomi also had employment income of £92,000 for the tax year 2024/25. 
 
@@ -1084,11 +1026,9 @@ $$
 £24,000 + £50,000 = \mathbf{£74,000}\
 $$
 
-:::
 
 ### Q5: Carring the trading loss forward
 
-:::{.callout}
 
 Brooke had been trading profitably as a sole trader for many years. However, in the year ended 31 March 2025 she made a trading loss of £65,000.
 
@@ -1107,11 +1047,9 @@ What is Brookes’ net income for the tax year 2025/26 assuming she carries the 
 
 ![](20260831110011.png)
 
-:::
 
 ### Q6: Trading loss available to carry forward
 
-:::{.callout}
 
 Damayanti has been trading as a sole trader for many years. Her recent tax adjusted trading profits/(losses) have been:
 
@@ -1131,11 +1069,9 @@ C. £21,000
 
 > 90-14-55-14
 
-:::
 
 ### Q7: Earliest tax year and Loss relieved
 
-:::{.callout}
 
 Sabine **started to trade as a sole trader on 1 April 2024**. Her tax adjusted trading profits/(losses) for the first two years are:
 
@@ -1158,11 +1094,9 @@ Sabine would like to relieve her loss as early as possible.
 | 2024/25    |            |
 
 
-:::
 
 ### Q8: Chargeable gain - Trading loss
 
-:::{.callout}
 
 Sally has been trading as a sole trader for many years. In the year ended 31 March 2026 she made a trading loss of **£45,000**.      
 Sally’s only other source of income is property income of **£8,000** each tax year.      
@@ -1175,11 +1109,9 @@ B. £37,000
 C. £28,000       
 **D. £10,000**      
 
-:::
 
 ### Q9: Terminal loss relief 'LIFO'
 
-:::{.callout}
 
 Carol ceased trading on 31 March 2026.
 
@@ -1200,11 +1132,9 @@ What is the amount of terminal loss that will be offset against her income in th
 
 > Terminal loss relief is set against trading profits only and carried back three years on a LIFO basis. It is therefore relieved against the trading profits of the tax year 2024/25, then the tax year 2023/24.
 
-:::
 
 ### Q10: Claim for Loss Relief
 
-:::{.callout}
 
 Humphrey is a sole trader who has been trading for a number of years. Humphrey incurred a trading loss in the tax year 2025/26. He wishes to make a claim to offset this loss against his total income of the tax year 2024/25. 
 
@@ -1217,15 +1147,8 @@ D. 5 April 2030
 
 > Loss Relief claim must be made within one year of 31 January following the end of the tax year in which the loss arose
 
-:::
 
 
 ## Constructed response questions
 
-### Q1: 
-
-:::{.callout}
-
-
-
-:::
+### Q1:

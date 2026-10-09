@@ -8,15 +8,6 @@ Related: [[C05_Emp_Inc]], [[C07_INC_SELF_EP]], [[C10_TL_IND]]
 
 ## Original note content
 
----
-title: "Chapter 11: National Insurance Contribution (NIC)"
-abstract: |
-    explain and compute national insurance contributions payable:  <br>
-        - Class 1 and 1A NIC  <br>
-        - Class 4 NIC <br>
-    understand the annual employment allowance. <br>
----
-
 ![](20260805163302.png)
 
 # National Insurance Contribution (NIC)
@@ -161,14 +152,12 @@ Class 1 employee contributions are also known as primary contributions and are p
 - aged 16 or over until 
 - attaining state pension age. 
 
-:::{.callout}
 
 ***State pension age*** 
 
 Up to 5 April 2010 the state pension age was 65 for men and 60 for women. Between 2010 and 2018 the state pension age for women gradually increased to 65 and from 2018 onwards the state pension ages for both men and women are further increasing.       
 Knowledge of the detailed rules over this transitional period is not required. 
 
-:::
 
 
 The employer is responsible for calculating the amount of class 1 employee NICs due and deducting the contributions from the employee’s wages. 
@@ -194,7 +183,6 @@ The employee contributions payable are calculated as:
 The class 1 employee rates and limits are included in the tax rates and allowances provided to you in the examination. 
 
 
-:::{.callout-tip}
 The **annual earnings limits** can be used to calculate the rate of class 1 NICs payable where the employee’s earnings do not fluctuate during the year. 
 
 However, where an employee’s earnings fluctuate during the year: 
@@ -204,7 +192,6 @@ However, where an employee’s earnings fluctuate during the year:
 
 limits, used to compute class 1 NICs on each pay date. For example, the monthly upper limit would be £4,189 (£50,270 × 1/12). 
 
-:::
 
 #### Class 1 employer's NICs 
 
@@ -277,13 +264,11 @@ Calculate the employee’s and the employer’s class 1 NIC liability for the ta
 
 
 
-:::{.callout-important}
 ***Company directors***            
 Special rules apply to company directors to prevent the avoidance of NICs by paying low weekly or monthly salaries, and then taking a large bonus in a single week or month. 
 
 Therefore, when an employee is a company director, class 1 NICs are calculated as if the director had an annual earnings period, regardless of how the employee is paid (e.g. monthly, weekly).
 
-:::
 
 ***Payment of class 1 contributions***       
 The administration and payment of class 1 NICs is carried out by the employer as follows: 
@@ -321,10 +306,8 @@ The contributions are calculated as:
 
 - 15% on the value of the taxable benefits. 
 
-:::{.callout-tip}
 Class 1A NICs are an additional cost of employment and are a ***deductible expense*** when calculating the employer’s tax adjusted trading profits. 
 
-:::
 
 
 #### Example 4: Class 1A NICs 
@@ -438,7 +421,6 @@ The definition of profits
 - plus transition profits (if any), 
 - less trading losses (if any). 
 
-:::{.callout-note}
 Note that ‘profits’ are **before deducting** the individual’s **personal allowance** that 
 is available for income tax purposes. 
 
@@ -452,7 +434,6 @@ The contributions payable are calculated as:
 
 The rate and limits for class 4 NICs are included in the tax rates and allowances provided to you in the examination. 
 
-:::
 
 #### Example 1: Class 4 NICs
 
@@ -510,7 +491,6 @@ The detailed administration and payment rules are covered in Chapter 12.
 
 ![](20260806105347.png)
 
-:::{.callout-caution}
 Total NICs payable by a self-employed individual A self-employed individual pays Class 4 NICs in respect of their trading profits 
 
 In addition, if self-employed individuals employ staff, they will also be required 
@@ -520,7 +500,6 @@ class 1 employee, class 1 employer's and class 1A NICs in respect of earnings an
 
 An examination scenario focusing on a sole trader could therefore involve consideration of all of these classes of NIC.
 
-:::
 
 
 #### Example 3: Self Employed
@@ -559,7 +538,6 @@ Calculate the total NICs that Diane must account for to HMRC in respect of the t
 
 ### Q1: Class 1 employee NICs
 
-:::{.callout}
 
 Keith is an employee of Fudge Ltd. Keith receives cash earnings of £31,400 and a car benefit valued at £5,800 in the tax year 2025/26.            
 
@@ -572,11 +550,9 @@ D. £2,976
 
 18,830 * 0.08
 
-:::
 
 ### Q2: Class 1 contributions
 
-:::{.callout}
 
 Atharv is employed and received the following from his employer for the tax year 2025/26.
 
@@ -597,12 +573,10 @@ D. £38,570
 
 > Class 1 employee contributions are not payable on either exempt benefits (the employer pension contributions) or taxable non-cash benefits, (i.e. the company car). No deduction is made for allowable expenses of employment in arriving at the earnings figure. 
 
-:::
 
 
 ### Q3: Class 1 employer's national insurance contributions
 
-:::{.callout}
 Jess is employed by Wafer Ltd and earns a salary of £50,000 per year. In addition, Jess receives taxable non-cash benefits of £3,000 every year. Wafer Ltd has 20 employees. 
 
 What are Wafer Ltd's class 1 employer's national insurance contributions in respect of Jess for the tax year 2025/26? 
@@ -614,11 +588,9 @@ C. £3,600
 
 (50000-5000) * 0.15
 
-:::
 
 ### Q4: Classes of NIC
 
-:::{.callout}
 
 Hamid runs a sole trader business, in which he employs an employee who earns £40,000 per annum and is provided with a company car for private and business use.
 
@@ -633,12 +605,10 @@ For each class of NIC select whether it is paid to HMRC by Hamid and also whethe
 
 > Although Hamid is required to pay over the employee class 1 primary NIC to HMRC, he will deduct this from the salary paid to his employee so it is not a cost that is suffered by him. 
 
-:::
 
 
 ### Q5: Employed and Self-employed NCI
 
-:::{.callout}
 
 Lorna has the choice of being either employed or self-employed. If employed, Lorna’s gross annual salary for the tax year 2025/26 will be £36,000. If self-employed, Lorna’s trading profit for the year ended 5 April 2026 will be £36,000. 
 
@@ -651,12 +621,10 @@ C. £720
 
 > (36000-12570) * 0.02
 
-:::
 
 
 ### Q6: Class 1 NIC
 
-:::{.callout}
 
 Mina's salary for the tax year 2025/26 was £68,000. Mina's employer provided her with a loan throughout the tax year 2025/26, and this resulted in a taxable benefit of £1,500. 
 
@@ -673,12 +641,10 @@ D. £65,000
 
 > The loan provided to Mina by her employer is a benefit and will be subject to Class 1A NICs, the contribution to the occupational pension scheme which Mina pays is not deductible when assessing earnings and the employer contribution is excluded from the definition of earnings.
 
-:::
 
 
 ### Q7: Class 1 NIC
 
-:::{.callout}
 
 Efe is a director of Mulch Ltd, and is paid an annual salary of £60,000. During the tax year 2025/26 he also received an annual bonus of £3,000 and free meals in the workplace canteen, open to all staff, at a cost of £1,040 to his employer. 
 
@@ -691,12 +657,10 @@ D. £4,034
 
 > (50270-12570) * 0.08 +((60000+3000-50270) * 0.02)
 
-:::
 
 
 ### Q8: Employer’s class 1 NICs
 
-:::{.callout}
 
 Isak is an employee of Dibbit Ltd, and is paid an annual salary of £50,000. He makes contributions of £3,000 into the company’s occupational pension scheme each year.     
 In the tax year 2025/26 he drove 12,000 business miles in his own car for which he was paid 50p per mile by Dibbit Ltd.   
@@ -717,12 +681,10 @@ How much employer’s class 1 NICs is Dibbit Ltd required to pay in respect of I
 
 > The excess mileage allowance above the AMAP of 45p per mile ***(regardless of the number of business miles)*** is subject to class 1 NICs.
 
-:::
 
 
 ### Q9: Class 1A NICs
 
-:::{.callout}
 
 Elsa is employed by Bee Ltd. During the tax year 2025/26, Bee Ltd provided Elsa with the following benefits:
 
@@ -742,12 +704,10 @@ D. £420
 
 > The correct answer was A because class 1A NIC is only charged on the gym membership and it is calculated based on the cost to the employer (not what the employee would have paid).
 
-:::
 
 
 ### Q10: Class 1A NIC
 
-:::{.callout}
 
 Red Dolphin Ltd provided the following benefits to its employee, Alonso, for the tax year 2025/26:
 
@@ -772,12 +732,10 @@ Red Dolphin Ltd always pays its tax liabilities and national insurance contribut
 
 > The due date is 22 July 2026. 
 
-:::
 
 
 ### Q11: Class 1A NIC
 
-:::{.callout}
 
 Broadman Ltd provides employment benefits to its employees.        
 On which TWO of the following benefits is class 1A NIC payable by Broadman Ltd? 
@@ -793,11 +751,9 @@ F. Mileage allowance of 5p per mile for cost of travel between employee’s home
 
 > The annual summer event is a taxable benefit as the cost exceeds £150 per head, and the sports club membership fee is also a taxable benefit. As non-cash benefits they are subject to class 1A NIC.
 
-:::
 
 ### Q12: Class 4 NICs
 
-:::{.callout}
 
 Paloma has been trading for a number of years. Her tax adjusted trading profit for the year ended 31 March 2025 was £57,200 and for the year ended 31 March 2026 was £58,000. 
 
@@ -810,12 +766,10 @@ C. £2,401
 
 > (37700 * 0.06) + ((58000-12570-37700) * 0.02)
 
-:::
 
 
 ### Q13: Class 4 NICs
 
-:::{.callout}
 
 Raj is self-employed and his trading profit for the tax year 2025/26 is £52,000. Raj also had property income of £5,200 from rental property for this tax year. 
 
@@ -828,7 +782,6 @@ D. £2,401
 
 > (37700 * 0.06)+((52000-12570-37700) * 0.02)
 
-:::
 
 
 ### Q14: 
@@ -901,8 +854,3 @@ However, Sarah is considering **incorporating** her business on 6 April 2025. Th
 ---
 
 #### (b)
-
-
-
-
-

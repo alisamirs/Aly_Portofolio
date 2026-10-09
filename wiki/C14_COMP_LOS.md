@@ -8,16 +8,6 @@ Related: [[C13_Corp_TX]], [[C15_Groups]], [[C19_CGT_SH]]
 
 ## Original note content
 
----
-title: "Chapter 14: Losses for companies"
-abstract: |
-    1. understand how trading losses can be carried forward.  <br>
-    2. understand how trading losses can be claimed against income of the current or previous accounting periods. <br>
-    3. recognise the factors that will influence the choice of loss relief claim. <br>
-    4. understand how relief for a property business loss is given. <br>  
-    5. explain and compute the treatment of capital losses. <br>  
----
-
 ![](20260810201010.png)
 
 
@@ -867,7 +857,6 @@ Your answer should show the amount of unrelieved trading losses as at 31 Decembe
 
 ### Q1: Trading Loss 
 
-:::{.callout}
 Bath Ltd has the following results for its first two years of trading:
 
 | Year ended 31 March            | 2025 (£) | 2026 (£) |
@@ -883,11 +872,9 @@ B. £136,000
 C. £133,000               
 **D. £130,000**             
 
-:::
 
 ### Q2: Date of Claim to Carry Back Losses
 
-:::{.callout}
 
 Dartmouth Ltd realised a trading loss of £140,000 in the year ended 31 March 2026. The loss is carried back against total profits for the year ended 31 March 2025. 
 
@@ -898,11 +885,9 @@ B. 31 March 2027
 **C. 31 March 2028**         
 D. 31 March 2029         
 
-:::
 
 ### Q3: Available loss to carry forward
 
-:::{.callout}
 Davies Ltd has the following results:
 
 | Year ended                         | 2024/25 (£) | 2025/26 (£) |
@@ -920,12 +905,10 @@ D. £30,000
 
 (60K - 3K -25K - 6K)
 
-:::
 
 
 ### Q4: Loss carried forward
 
-:::{.callout}
 
 Which of the following statements is incorrect in respect of a loss incurred by a company? 
 
@@ -934,28 +917,8 @@ B. A trading loss carried forward can be offset against total profits.
 C. A capital loss is offset against chargeable gains of the current accounting period with any excess being carried forward and offset against chargeable gains of future accounting periods. 
 D. A current year trading loss can be offset against the company’s other income and chargeable gains of the current accounting period.     
 
-:::
 
 
 ## Constructed response questions
 
-### Q1: 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+### Q1:

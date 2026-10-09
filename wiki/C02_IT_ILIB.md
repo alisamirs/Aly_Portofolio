@@ -18,8 +18,7 @@ abstract: |
     This chapter sets out the basis upon which individuals are assessed to income tax and how an individual's income tax liability is calculated. 
 ---
 
-::: {.center data-latex=""}
-```{mermaid}
+```mermaid
 %%| fig-width: 3
 %%| fig-align: center
 flowchart TD
@@ -37,7 +36,6 @@ flowchart TD
     AI & R & AL -.-> TI
     TI -.-> TL -.-> TP
 ```
-:::
 
 # The scope of income tax
 
@@ -1024,7 +1022,6 @@ Calculate Brenda's income tax liability for the tax year 2025/26.
 
 ## Objective Test (OT) questions
 
-::: {.callout}
 
 Sally has gross income for the tax year 2025/26 from property and employment totalling £52,965. She suffered **PAYE** on her employment income of £4,500. 
 
@@ -1034,11 +1031,9 @@ A. £4,118
 B. **£8,618**    
 C. £8,079    
 D. £13,646    
-:::
 
 
 
-::: {.callout}
 
 Which one of the following **interest payments** is deductible from total income to arrive at net income?
 
@@ -1046,9 +1041,7 @@ A. **Interest on a loan to buy an interest in a partnership.**
 B. Interest on a loan to invest in machinery for a sole trader's business.     
 C. Interest on a loan to purchase a UK property to be rented as furnished holiday accommodation.    
 D. Interest on a loan to purchase a foreign holiday home which will not be rented out.     
-:::
 
-::: {.callout}
 
 Harry made gift aid donations to the NSPCC of £500 in the tax year 2025/26. This is the cash amount paid. His only income is employment income of £53,000. 
 
@@ -1058,9 +1051,7 @@ A. £13,535
 B. £8,632    
 C. £8,532    
 D. **£8,507**   
-:::
 
-::: {.callout}
 
 Yusuf had net income of £109,500 and paid a gift aid donation of £2,400 in the tax year 2025/26. 
 
@@ -1084,10 +1075,8 @@ D. £6,070
 | Reduction of PA (50% × £6,500)                                         |           | (3,250)   |
 | **Adjusted PA**                                                        |           | **9,320** |
 
-:::
 
 
-::: {.callout}
 
 Lucy and Ricardo have been married for 10 years. Lucy owns 75% of a rental home and Ricardo owns the other 25%. Rental income received from the property is £15,000 p.a. They have not made any elections in relation to the property. 
 
@@ -1099,9 +1088,7 @@ C. Lucy is taxed on £11,250 and Ricardo is taxed on £3,750
 D. The income is not taxable    
 
 > Income received by a married couple on an asset held in joint names is automatically split 50:50, unless the couple elect, in which case, the split is based on the actual ownership of the asset.
-:::
 
-::: {.callout}
 
 Apple has employment income of £16,500 and savings income of £10,000 in the tax year 2025/26. How much of Apple's savings income will be taxed at 20%? 
 
@@ -1131,10 +1118,8 @@ D. £8,930
 > N1: A **starting rate** of **0%** applies to savings income where it falls ***within the first â‚¬5,000*** of taxable income.
 
 > N2: Savings income ***nil rate band*** is 1,000 for Basic rate taxpayers
-:::
 
 
-::: {.callout}
 
 Reghan received the following income during the tax year 2025/26.
 
@@ -1152,10 +1137,8 @@ D. 3 and 4 only
 
 > Proceeds from NS&I savings certificates are exempt income and ***profits on the sale of shares are subject to capital gains tax*** and not income tax. 
 
-:::
 
 
-::: {.callout}
 
 The only income Aminata received during the tax year 2025/26 was dividends of £55,000. 
 
@@ -1167,10 +1150,8 @@ C. £4,807
 D. £9,094 
 
 ![Solution](20260705054601.png)
-:::
 
 
-::: {.callout}
 
 Sasha's income for the tax year 2025/26 comprises a salary of £115,140 and dividends of £20,000. She is not entitled to a personal allowance. 
 
@@ -1181,13 +1162,11 @@ B. £500 at 0% and £10,000 at 33.75% and £9,500 at 39.35%
 C. **£500 at 0% and £9,500 at 33.75% and £10,000 at 39.35%**     
 D. £10,000 at 33.75% and £10,000 at 39.35%     
 
-:::
 
 ## Constructed response questions
 
 ### Example: Adjusted Personal Allowance (PA)
 
-::: {.callout}
 
 **Ellie**
 
@@ -1214,12 +1193,10 @@ D. £10,000 at 33.75% and £10,000 at 39.35%
 | **Adjusted PA**                                                        |           | **8,070** |
 
 > N1: The 16K Gross amount is given, so we don't need to calculate it, But if not given (eg. Made a donation of 12.8K, then we multiply it to 100/80)
-:::
 
 
 ### Example: Income tax liabilities - Different income brackets
 
-::: {.callout}
 1. Abdallah has income from self-employment of £16,336 and employment income of £2,500. 
 2. Alice has income from self-employment of £37,335 and employment income of £21,000. 
 3. Aya has income from self-employment of £238,780. 
@@ -1227,8 +1204,6 @@ D. £10,000 at 33.75% and £10,000 at 39.35%
 Assume that these taxpayers have no other income in the tax year 2025/26.    
     
 **Calculate** the income tax liabilities of Abdallah, Alice and Aya for the tax year 2025/26. 
-:::
-::: {.callout}
 **Solution**  
 
 1. **Abdallah**       
@@ -1241,8 +1216,6 @@ Assume that these taxpayers have no other income in the tax year 2025/26.
 | Less: PA                                 | (12,570) |
 | **Taxable income**                       | 6,266    |
 | **Income tax liability** (£6,266 × 20%)  | 1,253    |
-:::
-::: {.callout}
 2. **Alice**    
 
 |**Alice Taxable income** | £        |
@@ -1258,8 +1231,6 @@ Assume that these taxpayers have no other income in the tax year 2025/26.
 | Basic rate (37,700 × 20%)    | 7,540    |
 | Higher rate (8,065 × 40%)    | 3,226    |
 | **Income tax liability**     |**10,766**|
-:::
-::: {.callout}
 3. **Aya**       
 
 | **Aya Taxable income**                  | £        |
@@ -1289,19 +1260,15 @@ As for Personal allowance (PA):
 - Every individual normally has a **personal allowance (PA)** (£12,570 in recent years).  
 - But this allowance is **reduced by £1 for every £2 of ANI above £100,000**.  
 - That means once ANI exceeds **£125,140** (i.e., £100,000 + 2 × £12,570), the personal allowance is reduced to **nil**.  
-:::
 
-::: {.callout-note}
 **If ANI (Adjusted Net Income):**
 
 - Below £100,000 â†’ full PA available.  
 - Between £100,000 and £125,140 â†’ PA gradually reduced.  
 - Above £125,140 â†’ PA completely lost.  
-:::
 
 ### Example: Starting vs. Different nil Saving income rate band
 
-::: {.callout}
 **Jamie**
 
 A)
@@ -1326,9 +1293,7 @@ A)
 | **Income tax liability**                              |                           | **2,956** |
 
 > N: The starting rate for savings income is not applicable as 'non-savings income' exceeds the £5,000 band limit. The savings income nil rate band is £1,000 as Jamie is a basic rate taxpayer. The remaining savings income falls in the basic rate band and is taxed at 20%.  
-:::
 
-::: {.callout}
 
 B)
 
@@ -1354,9 +1319,7 @@ B)
 
 > N: In this situation, the starting rate for savings income is not applicable as non-savings income exceeds £5,000. Jamie is a higher rate taxpayer so his savings income **nil rate band is £500.**
 
-:::
 
-::: {.callout}
 
 **Taxable income**
 
@@ -1380,11 +1343,9 @@ B)
 
 > N: The starting rate band of £5,000 for savings income is firstly reduced by taxable non-savings income before being applied to savings income. The savings income nil rate band is £1,000 as Jamie is a basic rate taxpayer. The balance of the savings income is taxed at the basic rate of 20%.
 
-:::
 
 ### Example: Dividend income
 
-::: {.callout}
 
 **Emily**
 
@@ -1412,11 +1373,9 @@ B)
 | **Income tax liability**                              |                           | **7,995**|
 
 > N: Emily is a higher rate taxpayer as her taxable income exceeds the basic rate band limit of £37,700. She is therefore entitled to a savings income nil rate band of £500 for both saving and income dividend.
-:::
 
 ### Example: Saving vs. Dividend income nil rate for Additional Taxpayer
 
-::: {.callout}
 
 **Alfie**
 
@@ -1446,11 +1405,9 @@ B)
 > N1: As total income exceeds £100,000 by more than double the PA, the PA is reduced to £Nil. 
 
 > N2: As Alfie is an additional rate taxpayer he is not entitled to a savings income nil rate band **But** entitled to £500 dividend income nil rate.
-:::
 
 ### Example: Income tax payable - PAYE
 
-::: {.callout}
 
 **Taxable income**
 
@@ -1474,11 +1431,9 @@ B)
 | Less: PAYE                   | (3,310)  |
 | **Income tax payable**       | **4,682** |
 
-:::
 
 ### Example: Reliefs vs PAYE
 
-:::{.callout}
 
 **Emmanuel**
 
@@ -1504,11 +1459,9 @@ B)
 | **Less**: PAYE               |**(3,620)**|
 | **Income tax Payable**       | **4,592**|
 
-:::
 
 ### Example: Reliefs vs PAYE and nil rate bands for Basic Taxpayer
 
-::: {.callout}
 
 **Susan**
 
@@ -1539,7 +1492,6 @@ B)
 | **Less**: PAYE                                        |                           | (330)    |
 | **Income tax payable**                                |                           | **2,523** |
 
-:::
 
 ### Example: Extended basic rate band on Gross aid donation
 
@@ -1573,6 +1525,4 @@ B)
 
 > Despite having the same income, Grace's income tax liability is £500 lower (2,500 * 20%) than Paul's. This represents the additional 20% tax saving on the gross donation of £2,500 (£2,000 × 100/80) to the charity. 
 
-### Example: 
-
-
+### Example:

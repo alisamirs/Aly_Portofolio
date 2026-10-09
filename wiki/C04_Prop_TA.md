@@ -174,7 +174,6 @@ However, this general rule does not apply to:
 
 > This is because the purchase of such items is treated as capital expenditure, not revenue expenditure.
 
-::: {.callout-caution}
 
 Capital expenditure on land and buildings is not an allowable deduction. Therefore, it is important to distinguish between improvements (capital expenditure) and repairs (revenue expenditure).
 
@@ -182,7 +181,6 @@ Capital expenditure on land and buildings is not an allowable deduction. Therefo
 - Improvement expenditure is not allowable. 
 
 > Repair means the **restoration** of an asset by **replacing subsidiary parts** of the whole asset, for example, replacing roof tiles blown off in a storm. If significant improvements are made to the asset beyond its original condition this will be regarded as capital expenditure. For example, taking off the roof and building another storey. 
-:::
 
 ## Cars [Capital and Mileage allowances]
 
@@ -548,7 +546,6 @@ The individual may choose between:
 ## Objective Test (OT) questions
 
 
-::: {.callout}
 
 Shanaya bought a house in January 2025 which she rented out furnished to students from 1 June 2025. She charged rent of £600 per month, payable in advance. In August 2025, she paid £900 for the windows in the house to be repainted, and £500 for replacement carpets.
 
@@ -558,9 +555,7 @@ A. £4,600
 B. **£5,200**    
 C. £6,100    
 D. £5,700    
-:::
 
-::: {.callout}
 
 Ganaraj granted a **45-year lease** on a warehouse on 5 July 2025, charging a **premium of £50,000** and an annual rent of £10,000 payable in advance. 
 
@@ -570,9 +565,7 @@ A. £6,000
 B. £10,000   
 C. **£16,000**   
 D. £13,500   
-:::
 
-::: {.callout}
 
 Percy rents out a home fully furnished. For the tax year 2025/26 his rental expenses are: 
 
@@ -589,10 +582,8 @@ A. £1,260
 B. **£800**   
 C. £1,060   
 D. £5,900   
-:::
 
 
-::: {.callout}
 
 Maricel rents out a furnished room in her house at an annual rent of £8,050. Her household expenses in relation to the room are £450 (none of which are capital). 
 
@@ -601,10 +592,4 @@ Assuming she elects the most beneficial basis of assessment, what is her assessa
 A. £100   
 B. **£550**   
 C. £7,600    
-D. £7,500   
-:::
-
-
-
-
-
+D. £7,500

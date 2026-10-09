@@ -8,22 +8,6 @@ Related: [[C01_TX_SYS]], [[C10_TL_IND]], [[C17_CGT]], [[C20_CGT_Relief]]
 
 ## Original note content
 
----
-title: "Chapter 22: Inheritance tax"
-abstract: |
-    1. identify the persons chargeable.  <br>
-    2. understand and apply the meaning of transfer of value, chargeable transfer and potentially exempt transfer. <br>
-    3. demonstrate the diminution in value principle. <br>
-    4. demonstrate the seven year accumulation principle taking into account changes in the level of the nil rate band.  <br>
-    5. understand the tax implications of lifetime transfers and compute the relevant liabilities. <br>
-    6. understand and compute the tax liability on a death estate. <br>
-    7. understand and apply the transfer of any unused nil rate band between spouses and civil partners. <br>
-    8. understand and apply the residence nil rate band available when a residential property is inherited by direct descendants. <br>
-    9. understand and apply the following exemptions: small gifts exemption; annual exemption; normal expenditure out of income; gifts in consideration of marriage; gifts between spouses and civil partners. <br>
-    10. understand basic inheritance tax planning. <br>
-    11. identify who is responsible for the payment of inheritance tax and the due date for payment of inheritance tax.  <br>
----
-
 > Most inheritance tax (IHT) is collected on the death of an individual based on the value of the individual’s death estate. However, if IHT only applied on death, it would be an easy tax to avoid by giving away assets immediately before death. Therefore, there are IHT implications arising on some lifetime gifts as well as on death.
 
 
@@ -186,9 +170,7 @@ Note that transfers on death can never be PETs.
 The following table summarises the exempt transfers and reliefs available for 
 IHT that are examinable in TX.
 
-::::: {.columns}
 
-::: {.column width="45%"}
 ## 🎁 Lifetime gifts only
 
 | Relief | Summary |
@@ -197,22 +179,16 @@ IHT that are examinable in TX.
 | **Marriage exemption** | Gifts on marriage: £5,000 (parent), £2,500 (grandparent), £1,000 (others) |
 | **Normal expenditure out of income** | Gifts from regular income, provided they do not affect standard of living |
 | **Annual exemption** | £3,000 per tax year; can be carried forward one year |
-:::
 
-::: {.column width="5%"}
 
-:::
 
-::: {.column width="45%"}
 ## ⚖️ Lifetime gifts and death estate
 
 | Relief | Summary |
 |--------|---------|
 | **Inter‑spouse exemption** | Transfers between spouses/civil partners are completely exempt (UK domiciled) |
 | | • If non‑UK domiciled, exemption limited to £325,000 |
-:::
 
-:::::
 
 
 ## Exemptions available for lifetime gifts only 
@@ -1283,7 +1259,6 @@ Such planning depends on the children being independently wealthy, so that they 
 
 ### Q1: IHT Payable
 
-:::{.callout}
 
 Nicholas, a bachelor, died on 20 February 2026. During his lifetime he made the following cash gifts:
 
@@ -1307,11 +1282,9 @@ D.  None of them
 
 > To calculate the death tax, for each gift, the nil rate band on death is compared to gross chargeable transfers in the previous seven years. In all cases, this includes the CLT on 1 January 2019 which exceeds £325,000. 
 
-:::
 
 ### Q2: Gross chargeable transfer GCT & NRB
 
-:::{.callout}
 
 Lucas made a **gross chargeable transfer** of **£157,000** on *5 November 2023*. 
 
@@ -1338,12 +1311,10 @@ C. £8,000
 | **Taxable amount**                                            |             | **26,000**  |
 | IHT @ 25% (Lucas to pay tax)                                  |             | **6,500**   |
 
-:::
 
 
 ### Q3: Small gifts exemption
 
-:::{.callout}
 
 Chloe transferred **£200 into a trust** for her son Mathis in August 2025 and in the next month gave her daughter Clara **£250 cash**. Which of the gifts will be covered by the small gifts exemption? 
 
@@ -1354,12 +1325,10 @@ D. Both gifts
 
 > The gift into the trust does not qualify
 
-:::
 
 
 ### Q4: Death tax - due dates
 
-:::{.callout}
 
 Eve made a chargeable lifetime transfer on 15 August 2022 on which **£4,500** lifetime IHT was payable.
 
@@ -1375,16 +1344,7 @@ On what date is the related IHT payable?
 | D      | 30 April 2023        | 24 September 2026    |
 
 
-:::
 
 ## Constructed response questions
 
-### Q1: 
-
-
-
-
-
-
-
-
+### Q1:

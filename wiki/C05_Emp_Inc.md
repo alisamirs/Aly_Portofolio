@@ -8,12 +8,6 @@ Related: [[C02_IT_ILIB]], [[C06_Pension]], [[C07_INC_SELF_EP]], [[C11_NIC]]
 
 ## Original note content
 
----
-title: "Chapter 5: Employment income"
-abstract: |
-     to prepare computations of taxable amounts and tax liabilities according to legal requirements.  
----
-
 # The scope of employment income
 
 ## Employment or self-employment
@@ -461,11 +455,9 @@ There are specific rules for the following benefits:
 5. Beneficial loans
 6. Assets provided to employees
 
-::: {.callout-note}
 
 An employee is deemed to be provided with a benefit, not only when it is provided to the employee directly, but also when it is provided to a member of the employee’s family or household. 
 
-:::
 
 ### Vouchers and credit cards 
 
@@ -546,7 +538,6 @@ No benefit arises if the property is job-related accommodation (JRA). To qualify
 
 
 
-::: {.callout-tip}
 
 Taxable benefits and Employment benefits Comparison
 
@@ -556,7 +547,6 @@ Taxable benefits and Employment benefits Comparison
 | Includes both taxable and non-taxable benefits.                     | Excludes benefits that are specifically exempt from tax.                |
 | HR/payroll term describing employee compensation.                   | Tax law term determining what is included in taxable employment income. |
 
-:::
 
 #### Example 1: Living accommodation 
 
@@ -822,80 +812,54 @@ For hybrid-electric cars with CO2 emissions between 1 and 50 grams per kilometre
 
 ![Electric range %](20260719214308.png)
 
-::: {.callout-note}
 
 The CO2 percentages for petrol cars and diesel cars meeting the RDE2 standard are included in the tax rates and allowances provided to you in the examination. ***The 4% supplement for diesel cars not meeting the RDE2 standard and the maximum percentage of 37% are not.*** 
 
-:::
 
-::: {.columns}
 
-::: {.column width="48%"}
 
 Where an employee changes a company car during the tax year
 
-:::
 
-::: {.column width="48%"}
 
 a separate calculation needs to be performed in respect of each car, with appropriate time apportionments.
 
-:::
-
-:::
 
 
-::: {.columns}
 
-::: {.column width="48%"}
+
 
 Where the car is unavailable for a period during the tax year (but was available both before and after, e.g. if it was under repair after a crash)
 
-:::
 
-::: {.column width="48%"}
 
 the benefit charge is proportionately reduced; however, the reduction applies only if the car was unavailable for a continuous period of at least 30 days. 
 
-:::
-
-::: 
 
 
 
-::: {.columns}
 
-::: {.column width="48%"}
+
 
 If a chauffeur is provided with the car
 
-:::
 
-::: {.column width="48%"}
 
 this service constitutes an additional benefit.
 
-:::
-
-:::
 
 
 
-::: {.columns}
 
-::: {.column width="48%"}
+
 
 When more than one car is made available simultaneously to an employee
 
-:::
 
-::: {.column width="48%"}
 
 the benefit in respect of the second car is computed in the same way as set out above. 
 
-:::
 
-:::
 
 #### Example 1: Company car
 
@@ -979,7 +943,6 @@ $$18\% + 4\% = \mathbf{22\%}$$
 $$16\% + 4\% = \mathbf{20\%}$$ 
 
 
-::: {.callout-note}
 
 **Pool Car**
 
@@ -991,7 +954,6 @@ To qualify as a pool car, all of the following conditions must be met during the
 - It must not normally be kept overnight at or near the residence of any of the employees making use of it. 
 - Any private use must be merely incidental to the employee’s business use of it.
 
-:::
 
 
 #### Example 4: Company car
@@ -1103,21 +1065,15 @@ This is an entirely separate benefit from the provision of the car, and the rule
 > No benefit is charged in relation to any electricity provided for an electric or hybrid-electric car. 
 
 
-::: {.columns}
 
-::: {.column width="45%"}
 
 If, for example, fuel is provided from 6 April to 30 September 2025, then the fuel benefit for the tax year 2025/26 is only charged for six months as the provision of fuel has permanently ceased. 
 
-:::
 
-::: {.column width="47%"}
 
 If fuel is provided from 6 April to 30 September 2025, and then again from 1 January to 5 April 2026, the fuel benefit is not reduced since the cessation was only temporary.
 
-:::
 
-:::
 
 
 
@@ -1276,54 +1232,36 @@ The TX examining team will assume that the ORI is 3.75% throughout the tax year 
 
 Application:
  
-::: {.columns}
 
-::: {.column width=45%}
 
 An exemption applies for small loans where the total of all the employee’s cheap or interest-free loans (excluding loans which qualify for tax relief) is no more than £10,000, at any point in the tax year.
 
-:::
 
-::: {.column width=45%}
 
 No benefit arises.
 
-:::
 
-:::
  
-::: {.columns}
 
-::: {.column width=45%}
 
 If an interest-free or cheap loan is used by the employee for a qualifying purpose, and relief would be given on any interest paid (e.g. loan to buy plant used wholly for employment).
 
-:::
 
-::: {.column width=45%}
 
 No benefit arises.
 
-:::
 
-:::
 
  
-::: {.columns}
 
-::: {.column width=43%}
 
 If all or part of a loan to an employee (whether or not made on low-interest or interest-free terms) is written off.
 
-:::
 
-::: {.column width=45%}
 
 The amount written off is treated as a taxable benefit and charged to income tax.
 
-:::
 
-:::
 
 #### Example 1: Beneficial loans
 
@@ -1341,9 +1279,7 @@ Calculate the **taxable benefit** for the tax year 2025/26 using:
 
 **Solution**
 
-::: {.columns}
 
-::: {.column width="45%"}
 
 ***(A) Average method***
 
@@ -1358,13 +1294,9 @@ Calculate the **taxable benefit** for the tax year 2025/26 using:
 | **Taxable benefit**                                             |          | **680**  |
 
 
-:::
 
-::: {.column width="5%"}
 
-:::
 
-::: {.column width="45%"}
 
 ***(B) Precise method***
 
@@ -1381,9 +1313,7 @@ Calculate the **taxable benefit** for the tax year 2025/26 using:
 | **Less:** Interest paid by employee                             |          | **(258)**|
 | **Taxable benefit**                                             |          | **712**  |
 
-:::
 
-:::
 
 
 #### Example 2: Beneficial loans
@@ -1396,9 +1326,7 @@ Calculate the **amount taxable** on Adin in the tax year 2025/26.
 
 
 
-::: {.columns}
 
-::: {.column width="45%"}
 
 ***(A) Average method***
 
@@ -1409,13 +1337,9 @@ Calculate the **amount taxable** on Adin in the tax year 2025/26.
 | **Taxable benefit**                                             | **488**  |
 
 
-:::
 
-::: {.column width="5%"}
 
-:::
 
-::: {.column width="45%"}
 
 ***(B) Precise method***
 
@@ -1425,36 +1349,24 @@ Calculate the **amount taxable** on Adin in the tax year 2025/26.
 | (£11,000 × 3.75% × 7/12)                                        | 241      |
 | **Total benefit**                                               | **475**  |
 
-:::
 
-:::
 
-::: {.callout-tip}
 
 ***There is an exemption for loans made to employees on commercial terms by employers who lend to the general public (e.g. banks). The exemption applies where:***
 
-::: {.columns}
 
-::: {.column}
 
 The loans are made by an employer whose *business* includes the lending of money.
 
-:::
 
-::: {.column}
 
 Loans are made to employees *on the same terms* and conditions as are available to members of the public
 
-:::
 
-::: {.column}
 
 A substantial number of loans on these terms are made to public customers.
 
-:::
 
-:::
-:::
 
 ### Assets provided to employees
 
@@ -1504,21 +1416,15 @@ Where an asset is used by an employee and then subsequently given to that employ
 > n: All benefits taxed on the employee during the time the employee had the use of it, but did not own it.
 
  
-::: {.columns}
 
-::: {.column}
 
 The purpose of the special rule for gifts of used assets is to prevent employees gaining from gifts of assets that depreciate in value rapidly once they are used.
 
-:::
 
-::: {.column}
 
 Where the asset being given to an employee is a used car, van or bicycle provided for journeys to work, the above rules do not apply. Instead, the taxable benefit is always the market value at the date of transfer.
 
-:::
 
-:::
 
 
 #### Example 2: Use of asset followed by gift
@@ -1567,38 +1473,22 @@ Annual value (£300 × 20%) = 60
 
 * Part-Year Use Benefit: The suit was used from 6 April 2025 to 6 August 2025 (exactly 4 months).
 
-::: {.columns}
-::: {.column width="5%"}
-:::
-::: {.column}
 $60 \text{ (annual charge)} \times \frac{4}{12} \text{ months} = \mathbf{£20}$ 
-:::
-::: {.column width="5%"}
 
-:::
 
-:::
 * Transfer of Asset Benefit: When an asset is gifted or sold to an employee after being provided for their use, the taxable amount is the ***higher of***:
 
-::: {.columns}
 
-::: {.column width="45%"}
 
 1. The current market value at transfer: £30
 
-:::
 
-::: {.column width="5%"}
 
-:::
 
-::: {.column width="45%"}
 
 2. The original cost less all use benefits assessed to date: $300 - (60 + 20) = \mathbf{£220}$
 
-:::
 
-:::
    
 * Calculation:
 * Value chosen (Higher of above): £220
@@ -1613,7 +1503,6 @@ $60 \text{ (annual charge)} \times \frac{4}{12} \text{ months} = \mathbf{£20}$
 
 ### Q1: 
 
-::: {.callout}
 
 Shakera earns £45,000 p.a. as a graphic designer for Commercial Ltd, which prepares accounts to 31 March each year. For the last two years, Shakera has earned bonuses from her employer as follows:
 
@@ -1632,11 +1521,9 @@ C. £54,000
 D. £56,000                                  
 
 
-:::
 
 ### Q2: 
 
-::: {.callout}
 
 Nazar is the **finance director** of a large company and incurred the following costs during the tax year 2025/26. 
 
@@ -1647,12 +1534,10 @@ A. Subscription to the local health club where he frequently meets clients.
 C. Tips given to taxis drivers if he chooses to take a taxi home from work. 
 D. Cost of two new suits bought to impress clients. 
 
-:::
 
 
 ### Q3
 
-::: {.callout}
 
 Jacob was provided with a computer for private use on 1 October 2025. The market value of the computer when first provided was £4,300 and at 5 April 2026 the market value was £3,000. 
 
@@ -1665,12 +1550,10 @@ D. £300
 
 > (£4,300 × 20% × 6/12) = £430 
 
-:::
 
 
 ### Q4
 
-::: {.callout}
 
 Budget Ltd is an estate agency and provided the following benefits to a number of its employees during the tax year 2025/26. 
 
@@ -1683,12 +1566,10 @@ C. A second mobile phone provided to the chief executive of the company.
 
 > The loan is an exempt benefit as it is ≤ £10,000. 
 
-:::
 
 
 ### Q5: 
 
-::: {.callout}
 
 Carla was provided with a company car by her employer on 6 April 2025. The diesel car, which does not meet the RDE2 standard, has a list price of £35,000 and CO2 emissions of 131g/km. Carla paid a contribution of £1,000 to her employer towards the initial purchase price of the car. Carla is not provided with fuel for private purposes. 
 
@@ -1705,12 +1586,10 @@ D. £10,200
 | Relevant % (130-55 = 75) --> (75/5 = +15%)            | 21% + 15% = 36% |
 | Taxable benefit (£34,000 × 36%)                       | £12,240 |
 
-:::
 
 
 ### Q6:
 
-::: {.callout}
 
 Leo was provided with a house to live in by his employer. The employer rented the house from a local landlord and paid rent of £32,000 per annum.        
 Leo paid rent of £12,000 per annum to his employer. The property has an annual value of £9,750.
@@ -1724,29 +1603,21 @@ D. £0
 
 assessable benefit is computed on the higher of: 
  
-::: {.columns}
 
-::: {.column width="45"}
 
 The annual value of the property (i.e. £9,750), or 
 
-:::
 
-::: {.column width="45"}
 
 The rent paid by the employer (i.e. £32,000). 
 
-:::
-
-:::
 
 
 
-:::
+
 
 ### Q7:
 
-::: {.callout}
 
 Mika was provided with a company petrol driven van by his employer throughout the tax year 2025/26. Mika drives the van to work and back each day but uses his own car for all other private journeys. The van has a list price of £20,000 and CO2 emissions of 110g/km. 
 
@@ -1757,12 +1628,10 @@ B. £4,020
 C. £769 
 D. £5,600 
 
-:::
 
 
 ### Q8: Taxable and Exempt Income
 
-:::{.callout}
 
 Said has made a number of investments during the tax year.
 
@@ -1785,11 +1654,9 @@ Said has made a number of investments during the tax year.
 | Gilt edged security interest           | O       | □      |
 | NS&I savings certificate interest      | □       | O      |
 
-:::
 
 ### Q9: UK Ties
 
-:::{.callout}
 
 Samuel is planning to leave the UK to live overseas, having always previously been resident in the UK. He will not automatically be treated as either resident in the UK or not resident in the UK. Samuel has several ties with the UK and will need to visit the UK for 60 days each tax year. However, he wants to be not resident after he leaves the UK. 
 
@@ -1800,11 +1667,9 @@ B. Four
 **C. Two**     
 D. Three     
 
-:::
 
 ### Q10: Automatic non-UK residency test
 
-:::{.callout}
 
 Hana was UK resident in the tax year 2024/25. He worked full time in Egypt in the tax year 2025/26. 
 
@@ -1817,11 +1682,9 @@ D. 182
 
 > This question examines the third automatic non-UK residency test. For an individual to meet this test, and therefore be treated as automatically not resident in the UK for the tax year 2025/26, they would have to work full-time overseas and spend less than 91 days in the UK. 
 
-:::
 
 ### Q11: UK residency status
 
-:::{.callout}
 
 Ella arrived in the UK to work as a nanny on 1 February 2025. She has never previously visited the UK.    
 
@@ -1838,11 +1701,9 @@ C. Resident in 2024/25 but not in 2025/26
  
 > Ella has two UK ties, substantive work in the UK and available accommodation in the UK (she lives with the family) and is therefore UK resident in 2025/26 but not 2024/25.   
 
-:::
 
 ### Q12: Automatically UK resident
 
-:::{.callout}
 
 Which of the following will NOT cause Harper to be treated as automatically UK resident for the tax year 2025/26? 
 
@@ -1851,11 +1712,9 @@ B. Harper renting a house in the UK to live in and then occupying it (as her onl
 C. Harper accepting a 15-month contract for a full-time job in the UK on 6 April 2025       
 **D. Harper’s husband living in the UK throughout the tax year 2025/26 and Harper staying with him when she visits the UK**       
 
-:::
 
 ### Q13: Automatically not resident in the UK
 
-:::{.callout}
 
 Identify, by ticking the appropriate box, whether or not the following two individuals satisfy or do not satisfy the tests to be treated as automatically not resident in the UK for the tax year 2025/26.
 
@@ -1868,12 +1727,10 @@ Fran, who was resident in the UK for the two tax years prior to the tax year 202
 | Eric   | O         | □                |
 | Fran   | □         | O                |
 
-:::
 
 
 ### Q14: Married couple
 
-:::{.callout}
 
 Dane and Zara are a married couple.     
 They jointly own a residential property which is let to tenants. In the tax year 2025/26 the property business income from the property is £20,000. Dane owns 25% of the property and Zara owns the other 75%. No election has been made in relation to the ownership of the property. 
@@ -1905,11 +1762,9 @@ D. £5,868
 
 > ((40650-12570)*0.2)-252
 
-:::
 
 ### Q15: Child benefit
 
-:::{.callout}
 
 For the tax year 2025/26, Chi has a salary of £66,200. She received child benefit of £2,252 during this tax year. 
 
@@ -1935,11 +1790,9 @@ Amber is in employment earning an annual salary of £73,000. Her only other inco
 | **£1,801**               | **A**                | B     |
 | £1,463                   | C                    | D     |
 
-:::
 
 ### Q16: Deductible expenditure 
 
-:::{.callout}
 
 Tick the appropriate box to show which of the following items of expenditure are deductible in the calculation of an individual’s taxable income.
 
@@ -1962,11 +1815,9 @@ Ifram has been employed for many years and has also recently become a partner in
 | An amount he borrowed to finance the acquisition of 2,000 shares in a quoted company | □          | O             |
 | A loan he took to invest capital in a partnership in order to become a partner       | O          | □             |
 
-:::
 
 ### Q17: Personal Allowance PA
 
-:::{.callout}
 
 Ines is a sole trader. During the tax year 2025/26 she had taxable trading income of £106,800 and received dividend income of £1,500. Ines made a gift aid donation of £2,000 (gross) during the tax year 2025/26. 
 
@@ -1974,11 +1825,9 @@ What amount of personal allowance is Ines entitled to for the tax year 2025/26?
 
 12,570 - (6,300/2) = **9,420**
 
-:::
 
 ### Q18: Income tax liability
 
-:::{.callout}
 
 David received the following income for the tax year 2025/26:
 
@@ -1997,12 +1846,10 @@ D. £2,235
 
 ![](20260830070336.png)
 
-:::
 
 
 ### Q19: Income tax liability Dividend Income
 
-:::{.callout}
 
 Harrison’s only income in the tax year 2025/26 was dividend income of £56,950. 
 
@@ -2012,11 +1859,9 @@ What is Harrison’s income tax liability for the tax year 2025/26?
 
 ![](20260830071818.png)
 
-:::
 
 ### Q20: Savings income in respect of the gilts
 
-:::{.callout}
 
 Manon purchased £200,000 (nominal value) gilts, paying interest at 1%, for £211,000 on 1 September 2024. Interest is payable half yearly on 30 June and 31 December.       
 He sold the gilts on 1 December 2025 for £213,000 (including accrued interest).  
@@ -2044,12 +1889,10 @@ D. £183
 > 10000 * 0.02 * 9/12
 
 > From 1 June 2025 to 28 Feb 2026 --> 9m
-:::
 
 
 ### Q21: Premium Recivied
 
-:::{.callout}
 
 Since 6 April 2025, Nicolas has let out an unfurnished freehold office building. On that date, the tenant paid Nicolas a premium of £82,000 for the grant of a 15-year lease. 
 
@@ -2075,12 +1918,10 @@ D. £10,000
 
 > 20,000 * (51-25)/50
 
-:::
 
 
 ### Q22: Rent a Room
 
-:::{.callout}
 On 6 April 2025, Melinda rented out a furnished room in her house to Jenny at a rent of £750 a month. Jenny continued to rent the room on the same terms until 5 July 2026. 
 
 Melinda continued to live in the house and paid for all of the living expenses, of which £475 a month related to the room rented out to Jenny. 
@@ -2094,11 +1935,9 @@ D. £7,500
 
 > 9000-7500
 
-:::
 
 ### Q23: Property income
 
-:::{.callout}
 
 Maisy has a cottage which she lets out furnished for an annual rent of £9,600, payable monthly in advance.
 
@@ -2136,11 +1975,9 @@ Steffania’s only income is from letting out furnished residential property. Fo
 
 > Tax relief is given on the finance costs at the basic rate (20%) by deduction from the taxpayer’s final income tax liability. 
 
-:::
 
 ### Q24: Employment income - Approved Mileage Allowances  
 
-:::{.callout}
 
 Ewa earned an annual salary of £55,000 throughout the tax year 2025/26. She used her own car for business travel, and she travelled 14,500 business miles during the tax year 2025/26. 
 
@@ -2153,11 +1990,9 @@ D. £55,290
 
 > 55000+(14500*0.43)-((10000*0.45)+(4500*0.25))
 
-:::
 
 ### Q25: Employment Benefits
 
-:::{.callout}
 
 Christos, a higher rate taxpayer, is provided with the following benefits in the tax year 2025/26 by his employer: 
 
@@ -2171,11 +2006,9 @@ Christos, a higher rate taxpayer, is provided with the following benefits in the
 
 > The taxable benefit is the cost of the medical insurance to Christos’ employer. The other benefits are both exempt.  
 
-:::
 
 ### Q26: Employment Benefits - Living accommodation
 
-:::{.callout}
 
 Elin is provided with accommodation by her employer, which the employer purchased 35 years ago at a cost of £72,000. The property has an annual value of £2,600, and had a market value of £245,000 when first made available to Elin 8 years ago. Elin pays £250 per month to her employer to live in the property.           
 The accommodation does not qualify as job-related. 
@@ -2191,11 +2024,9 @@ D. £2,600
 
 > The only benefit is the basic charge based on the annual value of £2,600. Elin contributes **more** than the annual value (£250 × 12 = £3,000) and therefore the taxable benefit is £0. 
 
-:::
 
 ### Q27: Employment Benefits - Car Benefit, meets the RDE2 standard
 
-:::{.callout}
 
 Thiago is provided with a new diesel company car on 6 May 2025, which he used for both business and private purposes during the tax year 2025/26. The car has a list price of £28,000 and CO2 emissions of 152 grams per kilometre. The car meets the RDE2 standard. 
 
@@ -2213,11 +2044,9 @@ Thiago is provided with a new diesel company car on 6 May 2025, which he used fo
 
 > 28000 * 0.36 * 11/12
 
-:::
 
 ### Q28: Employment Benefits - Car Benefit, electric car with zero CO2 emissions
 
-:::{.callout}
 
 Enzo is provided with an electric car with zero CO2 emissions on 5 April 2025, which he uses 60% for business and 40% for private purposes. Enzo’s employer also allows him to charge the car at the office. The car had a list price of £45,000 but only cost his employer £42,000 due to purchasing cars for other employees at the same time. 
 
@@ -2230,11 +2059,9 @@ Enzo is provided with an electric car with zero CO2 emissions on 5 April 2025, w
 [For an Employee or Director there is no private use adjustment, Only If the business owner "Sole trader" uses a business car for private journeys, you must adjust (appropriate)]{style="text-decoration: underline; color: red;"}
 
 
-:::
 
 ### Q29: Employment Benefits - Van
 
-:::{.callout}
 
 Olayide is provided with van by her employer on 6 April 2025, which she uses 60% for business and 40% for private purposes during the tax year 2025/26. The van has a list price of £30,000 and CO2 emissions of 158 grams per kilometre. Olayide’s employer also pays for fuel used on private journeys in the van.  
 
@@ -2246,11 +2073,9 @@ Olayide is provided with van by her employer on 6 April 2025, which she uses 60%
 
 > The company van benefit scale charge is £4,020, and the van fuel benefit is £769.
 
-:::
 
 ### Q30: Employment Benefits - beneficial loan
 
-:::{.callout}
 Woojin is provided with a loan, on which he pays interest at 1% per annum, by his employer.      
 The loan was £100,000 when it was taken out on 6 April 2025 and he repaid £40,000 of the loan on 6 August 2025. 
 
@@ -2269,12 +2094,10 @@ D. £2,200
 
 > 3,000 - 333.33 - 400 = 2,267
 
-:::
 
 
 ### Q31: Use and Transfer of Assets
 
-:::{.callout}
 
 Max is employed by Star Ltd. On 6 April 2024, Star Ltd provided Max with a camera for his personal use. The camera had a market value of £2,000 on 6 April 2024.         
 On 6 April 2025, Star Ltd gave the camera to Max for free. The camera had a market value of £1,400 on 6 April 2025. 
@@ -2292,11 +2115,9 @@ C. £2,000
 
 > Original MV - UOA --> 2000 - 400 = 1,600
 
-:::
 
 ### Q32: Employment Income - Bonus 
 
-:::{.callout}
 
 Dong is employed. As well as his annual salary he is also paid a bonus in April each year. The amount of the bonus is based upon his performance to the end of the previous calendar year.
 
@@ -2307,12 +2128,10 @@ Identify, by ticking the appropriate box, the treatment of each of the following
 | Bonus of £2,800 received on 6 April 2025 in respect of the year to 31 December 2024 | O                           | □                               |
 | Bonus of £3,300 received on 3 April 2026 in respect of the year to 31 December 2025 | O                           | □                               |
 
-:::
 
 
 ### Q33: Reimbursment
 
-:::{.callout}
 
 On 6 June 2025 Albert, a marketing manager, was reimbursed £500 by his employer, Generous Ltd, in respect of subscription fees he had paid to The Chartered Institute of Marketing, and £200 in respect of train fares incurred travelling to meetings. 
 
@@ -2325,13 +2144,11 @@ B. The reimbursed travel expenses must be added to taxable pay and taxed through
 E. Albert must include the reimbursed subscription fees on his tax return          
 F. Albert must include the reimbursed travel expenses on his tax return      
 
-:::
 
 ## Constructed response questions
 
 ### Q1: Employment benefits (Bonuses and Private Car)
 
-::: {.callout}
 
 Darcy is managing director of the Pemberley Trading Co Ltd. He is paid an **annual salary of £36,000** and also bonuses based on the company’s performance. Pemberley Trading Co Ltd’s accounting year ends on 31 December ***each year and the bonuses are normally determined and paid on 31 May thereafter***. In recent years bonuses have been: 
 
@@ -2374,12 +2191,10 @@ Briefly **give reasons** for your treatment of items included or excluded, in ar
 | **Percentage**                     |              | 47% Restricted to 37% |
 
 
-:::
 
 
 ### Q2: Private Car, Use of assets, Gifts and Beneficial loans
 
-::: {.callout-caution}
 ~~~BAD KAPLAN PUBLISHING, THIS ANSER MAY CONTAIN ERROR~~~ 
 
 Lily is a senior executive with Berkeley plc. In the tax year 2025/26 her employer made the following benefits available to her:
@@ -2421,25 +2236,17 @@ Assuming Lily made the most tax efficient choice in respect of the lunch facilit
 
 ***Higher of:*** 
 
-::: {.columns}
 
-::: {.column width="45%"}
 
 Original cost less benefits for use of television **£1,200 – (£240 + £240) = 720**
 
-:::
 
-::: {.column width="5%"}
 
-:::
 
-::: {.column width="45%"}
 
 Current market value = **375**
 
-:::
 
-:::
 
 | | |
 |-|-|
@@ -2475,11 +2282,9 @@ Luncheon vouchers = 200 days × £2 = 400
 > Canteen exempted when available to all employees, Therefore Lily would have chosen the free meals in the canteen. 
 
 
-:::
 
 ### Q3: Managing director (Bonus, Company's car 'both privat and business use', Private petrol, Living accommodation and Travel
 
-::: {.callout}
 
 Basil is the ***managing director*** of Boston plc. They are also a substantial shareholder in the company. 
 
@@ -2544,41 +2349,3 @@ Calculate Basil’s employment income for the tax year 2025/26.
 | **Percentage**                          |              | 46% Restricted to 37%|
 
 > There is no deduction for the reimbursement of part of the cost of the private petrol provided.
-
-:::
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-

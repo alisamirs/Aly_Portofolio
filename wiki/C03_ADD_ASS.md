@@ -8,15 +8,7 @@ Related: [[C02_IT_ILIB]], [[C12_TX_ADMN]], [[C16_TX_ADM_CORP]]
 
 ## Original note content
 
----
-title: "Chapter 3: Income tax: Additional aspects"
-abstract: |
-    Prepare computations of taxable amounts and tax liabilities according to legal requirements and Advise on mitigating and deferring liabilities through **legitimate tax planning measures**.  
-    
----
-
-::: {.center data-latex=""}
-```{mermaid}
+```mermaid
 %%| fig-width: 6
 %%| fig-align: center
 flowchart TD
@@ -51,7 +43,6 @@ flowchart TD
     style F fill:#fff,stroke:#1e3a8a,stroke-width:2px,color:#1e3a8a
     style G fill:#fff,stroke:#1e3a8a,stroke-width:2px,color:#1e3a8a
 ```
-::: 
 
 # Tax status of an individual
 
@@ -137,7 +128,7 @@ To determine the residency status of the individual, consideration is given to:
 > N: Income tax computational questions the individual will always be resident in the UK, and liable for tax on worldwide income. You will therefore not be required to calculate tax liabilities for an individual who is not resident in the UK. 
 
 
-```{mermaid}
+```mermaid
 %%| fig-width: 6
 %%| padding: 2
 flowchart TD
@@ -190,7 +181,7 @@ flowchart TD
 
 ![Exam Table](20260621081430.png)
 
-```{python}
+```python
 #| eval: false
 #| include: false
 def check_residency_status():
@@ -501,7 +492,6 @@ The tax charge is as follows:
 
 The charge effectively **removes** the child benefit for high income individuals. 
 
-::: {.callout-caution}
 REMEMBER
 
 - The PA is gradually reduced for individuals with income in excess of £100,000. 
@@ -518,7 +508,6 @@ REMEMBER
 > It is only used to determine **how much Personal Allowance you are entitled to**.
 
 
-:::
 
 #### Example 1: Child benefit tax charge
 
@@ -585,7 +574,7 @@ $$
 $$
 
 
-```{python}
+```python
 #| eval: false
 #| include: false
 def calculate_tax():
@@ -776,11 +765,9 @@ Additionally:
 - Inside an ISA, **the full £15,000 gain** is tax‑free.
 
 
-::: {.callout-caution}
 REMEMBER
 
 ![CGT](20260627115656.png)
-:::
 
 #### SUMMARY
 
@@ -898,30 +885,23 @@ For income tax purposes, she can deduct from the next interest payment received 
 | (1 August 2025 – 30 November 2025) (£25,000 × 8% × 4/12)        | (667)   |
 | **Gilts interest income assessable in 2025/26**                 | **333** |
 
-::: {.callout-tip}
 ![Chapter summary](20260627220554.png)
-:::
 
 # Practices on Additional aspects
 
 ## Objective Test (OT) questions
 
-::: {.callout}
 
 
 
-:::
 
-::: {.callout}
 Which of the following sources of income is exempt from income tax? 
 
 A) Property income 
 B) Salary 
 C) **Dividends from shares held in an ISA** 
 D) Building society interest 
-:::
 
-::: {.callout}
 Pierre was born in France. He has been **working full time in the UK** and **been UK resident for tax purposes for the *last five years***. He plans to return to France in the tax year 2025/26.
 
 Assuming he has **two ties** with the UK in the tax year 2025/26 what is the **maximum number of days** that Pierre could spend in the UK **without being treated as UK resident** in the tax year 2025/26? 
@@ -930,11 +910,9 @@ A) 91 days
 B) **90 days** 
 C) 120 days 
 D) 121 days  
-:::
 
 ## Constructed response questions
 
-::: {.callout}
 **Residency status** 
 
 1. Dieter has been in the UK for 222 days in the tax year 2025/26, which is more than 183 days.  
@@ -957,9 +935,7 @@ He is therefore UK resident in the tax year 2025/26.
 She has not spent sufficient days in the UK and has a home in Germany therefore she is not automatically UK resident. 
 Olga has not been UK resident in any of the previous three tax years. As she has spent between 46 and 90 days in the UK in the tax year 2025/26 she must have four UK ties to be considered UK resident. 
 **Olga only meets two UK ties** (close family and house in the UK) and **so is not UK resident** in the tax year 2025/26.  
-:::
 
-::: {.callout}
 Katie and Emily
 
 **A) Income tax computation – 2025/26**
@@ -1010,9 +986,7 @@ Katie and Emily
 - Alternative calculation = (£770* unused PA × 20%) = £154
 
 > * Unused PA = (12,570 - 11,800) = 770
-:::
 
-::: {.callout}
 
 **Taxable income**
 
@@ -1057,22 +1031,3 @@ Katie and Emily
 |                                                                              |          |
 | 1% per £200 of £7,500 = 37.5% rounded down to 37%                            |          |
 | Child benefit charge = 37% of £1,355 (rounded down)                          | **501**  |
-
-:::
-
-::: {.callout}
-
-:::
-
-::: {.callout}
-
-:::
-
-
-::: {.callout}
-
-:::
-
-::: {.callout}
-
-:::

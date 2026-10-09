@@ -8,14 +8,6 @@ Related: [[C07_INC_SELF_EP]], [[C14_COMP_LOS]], [[C15_Groups]]
 
 ## Original note content
 
----
-title: "Chapter 9: Partnerships"
-abstract: |
-    explain and compute how a partnership is assessed to tax.            
-    explain and compute the assessable profits for each partner following a change in the profit sharing ratio.               
-    explain and compute the assessable profits for each partner following a change in the membership of the partnership.     
----
-
 ![](20260731082100.png)
 
 # Basis of Assessment
@@ -121,7 +113,6 @@ Calculate the trading income assessments for each partner for the tax year 2025/
 
 Capital allowances are calculated in the same way as for a sole trader. They are available to a partnership that elects to use the ***accruals basis***. If the partnership is using the cash basis, they are only available on cars (Chapter 7). 
 
-::: {.callout-important}
 
 ***Capital allowances are deducted as an expense*** in calculating the trading profit or loss of the partnership. The profit allocated between the partners is therefore after deducting capital allowances. 
 
@@ -137,7 +128,6 @@ Capital allowances are calculated in the same way as for a sole trader. They are
 
 - If a partnership prepares accounts to a year end that does not coincide with the tax year, then having allocated the partnership profits between the partners, each partner will then need to **time apportion** their share of the profits to determine the taxable profits for each tax year. 
 
-:::
 
 #### Example 1: Tax year basis
 
@@ -211,58 +201,42 @@ Show the trading income assessments for Rosalie and Logan for the tax year 2025/
 |                                        | **4,125** | **2,583** | **1,542** |
 | **Total profit alloc. of partnership** | **16,500**| **10,008**| **6,492** |
 
-::: {.columns}
 
 ***1 April 2025 to 31 December 2025 (9 Months)***              
 
-::: {.column width="45%"}
 
 ***W1: Pro-rata Salaries***                  
 Rosalie: £3,000 × 9/12 = **£2,250**                           
 Logan: £2,000 × 9/12 = **£1,500**                    
 
-:::
 
-::: {.column width="5%"}
 
-:::
 
-::: {.column width="45%"}
 
 ***W2: Pro-rata profit***                         
 The total profit of £16,500 must be time-apportioned into two distinct periods based on when the profit-sharing arrangements changed.                       
 Total Period Profit = £16,500 × 9/12 = **£12,375**                 
 Balance = 12,375 - 3,750 = **8,625**
 
-:::
 
-:::
 
-::: {.columns}
 
 ***1 January 2026 to 31 March 2026 (3 Months)***              
 
-::: {.column width="45%"}
 
 ***W3: Pro-rata Salaries***                  
 Rosalie: £6,000 × 3/12 = £1,500                    
 Logan: £4,000 × 3/12 = £1,000                  
 
-:::
 
-::: {.column width="5%"}
 
-:::
 
-::: {.column width="45%"}
 
 ***W4: Pro-rata profit***                    
 Total Period Profit: £16,500 × 3/12 = **£4,125**
 Balance = 4,125 - 2,500 = **1,625**
 
-:::
 
-:::
 
 
 
@@ -528,7 +502,6 @@ Note that the rules which may restrict the use of trading losses by LLPs are not
 
 ### Q1: Adjusted trading profits
 
-:::{.callout}
 
 Elizabeth and Henry have been in partnership for many years, preparing accounts to 31 December each year.     
 Until 31 July 2025 profits were shared in the ratio 70:30 to Elizabeth and Henry respectively, with no salary allocated to either partner. From 1 August 2025 the profit sharing ratio was adjusted to 80:20 to Elizabeth and Henry respectively, after allocating a salary of £24,000 per annum to Henry.       
@@ -543,11 +516,9 @@ C. £43,200
 
 ![](20260831090430.png)
 
-:::
 
 ### Q2: Partnership agreement
 
-:::{.callout}
 
 Albert and Jolene have been in partnership for many years, preparing accounts to 30 September each year. Albert and Jolene have balances on their capital accounts of £50,000 and £40,000 respectively.      
 The partnership agreement provides for Albert to receive an annual salary of £25,000 and both partners to receive interest on capital of 4% per year. 
@@ -561,11 +532,9 @@ How much is Albert’s taxable share of the trading profit in respect of the yea
 
 ![](20260831091721.png)
 
-:::
 
 ### Q3: Partnership agreement
 
-:::{.callout}
 
 Tim, Abhiroop and Angela have been in partnership for many years, preparing accounts to 31 December each year. 
 
@@ -584,7 +553,6 @@ D. £23,958
 
 ![](20260831093024.png)
 
-:::
 
 
 
@@ -593,7 +561,4 @@ D. £23,958
 
 ## Constructed response questions
 
-### Q1: 
-
-
-
+### Q1:

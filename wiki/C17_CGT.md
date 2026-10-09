@@ -8,17 +8,6 @@ Related: [[C18_CGT_Special]], [[C19_CGT_SH]], [[C20_CGT_Relief]], [[C21_CG_Corp]
 
 ## Original note content
 
----
-title: "Chapter 17: Computation of gains and tax payable"
-abstract: |
-    1. describe the scope of capital gains tax.  <br>
-    2. recognise those assets which are exempt. <br>
-    3. compute and explain the treatment of capital gains. <br>
-    4. compute and explain the treatment of capital losses. <br>
-    5. compute the amount of capital gains tax payable. <br>
-    6. understand basic capital gains tax planning. <br>
----
-
 ![](20260813172112.png)
 
 # Scope of capital gains tax 
@@ -35,9 +24,7 @@ In these CGT chapters we are concerned with disposals by individuals.
 - UK resident individuals are subject to UK CGT on all disposals of chargeable assets, regardless of where in the world the assets are situated. 
 - Non-UK residents only pay UK CGT on the disposal of interests in UK land. However, this is not examinable. 
 
-::::: {.columns}
 
-::: {.column width="50%" style="border-right: 2px solid #2c3e50; padding-right: 20px;"}
 ## Chargeable assets
 
 All forms of capital assets, wherever situated, are **chargeable assets**.
@@ -51,9 +38,7 @@ All forms of capital assets, wherever situated, are **chargeable assets**.
 - Certain types of chattels – Chapter 18
 
 > **Note:** Chattels are tangible movable assets (e.g. furniture, plant and machinery).
-:::
 
-::: {.column width="50%" style="padding-left: 20px;"}
 ## Exempt assets
 
 **Exempt assets include:**
@@ -71,9 +56,7 @@ All forms of capital assets, wherever situated, are **chargeable assets**.
 - Trading inventory
 - Prizes and betting winnings
 - Decorations for valour (unless purchased)
-:::
 
-:::::
 
 ## Calculation of capital gain/loss on individual disposals 
 
@@ -375,14 +358,12 @@ CGT is payable on the taxable gains arising in a tax year as follows:
 If an examination question requires calculation of income tax and CGT, two **separate** calculations must be prepared; one for income tax, and one for CGT. 
 
 
-:::{.callout-important}
 ***Rates of CGT***      
 CGT is paid at the normal rates, unless the gain is eligible for business asset disposal relief or investor relief (see chapter 20).             
 
 - Gain falling in basic rate band: 18% 
 - Gain in excess of basic rate band: 24%
 
-:::
 
 ***UK residential property disposals***      
 In practice, a taxpayer’s main residential property (i.e. the taxpayer’s home) will be exempt from CGT under the private residence relief rules (PRR) (Chapter 20). However, where the gain on the disposal of a residential property is not fully exempt (e.g. on an investment property which is let out) it is taxed at the rates given above. 
@@ -460,14 +441,12 @@ Jacob expected to be a higher rate taxpayer when the residential property dispos
 
 
 
-:::{.callout-important}
 ***Payment of CGT***     
 CGT is due as follows. 
 
 - On 31 January following the tax year (i.e. 31 January 2027 for 2025/26). 
 - Payments on account for UK residential property are deducted from the final liability.
 
-:::
 
 
 #### Example 8: CG Tax payable and state the due date
@@ -533,7 +512,6 @@ Where assets can be split and sold piecemeal (e.g. shares), selling them in tran
 
 ### Q1: CG
 
-:::{.callout}
 
 On 23 April 2025, Ander sold a commercial investment property for £174,000, before agent’s fees of 2%. They had purchased the property on 5 June 2016 for £129,600. The seller incurred fees in June 2016 of £2,400. 
 
@@ -546,12 +524,10 @@ D. £44,400
 
 > Note: The fees of £2,400 were incurred by the seller, not Ander.
 
-:::
 
 
 ### Q2: Carry Forward c/f loss
 
-:::{.callout}
 
 Owen has the following chargeable gains and losses for the tax years 2024/25 and 2025/26.
 
@@ -567,12 +543,10 @@ A. £18,500
 C. £3,100  
 D. £5,500
 
-:::
 
 
 ### Q3: CG
 
-:::{.callout}
 
 In August 2025, Robbie sold a residential investment property for £750,000 which he purchased in April 2005 for £125,000. In June 2011 the property was extended at a cost of £30,000. In November 2017 the property was redecorated at a cost of £5,000. 
 
@@ -585,12 +559,10 @@ D. £620,000
 
 > Redecoration is revenue expenditure and does not qualify as a capital improvement. 
 
-:::
 
 
 ### Q4: Exempt from CG
 
-:::{.callout}
 
 Which of the following are exempt from capital gains tax for an individual? 
 
@@ -607,12 +579,10 @@ D. 1, 3 and 5
 
 > Only the compensation for damaged assets and goodwill are subject to capital gains tax.
 
-:::
 
 
 ### Q5: CG Payable
 
-:::{.callout}
 In the tax year 2025/26 Paula had a chargeable gain (before the annual exempt amount) of £41,700. It all arose on non-residential property. Her taxable income is £22,200.
 
 **How much capital gains tax is payable by Paula for the tax year 2025/26?**
@@ -624,13 +594,8 @@ C. £9,078
 
 (15500 * 0.18)+((41700 - 15500 - 3000) * 0.24)
 
-:::
 
 
 ## Constructed response questions
 
-### Q1: 
-
-
-
-
+### Q1:

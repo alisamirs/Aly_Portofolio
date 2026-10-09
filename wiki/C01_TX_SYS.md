@@ -8,27 +8,11 @@ Related: [[C02_IT_ILIB]], [[C03_ADD_ASS]], [[C12_TX_ADMN]]
 
 ## Original note content
 
----
-title: "Chapter 1: The UK Tax System and Its Administration"
-abstract: |
-  This chapter introduces the overall structure and purpose of the United Kingdom
-  tax system within the ACCA TX-UK syllabus. It explains why taxation exists,
-  distinguishes direct and indirect taxation, identifies the main capital and
-  revenue taxes, and summarises the legal and administrative framework in which
-  HM Revenue and Customs (HMRC) operates. The chapter also outlines
-  self-assessment, filing and payment deadlines, compliance activity, and the
-  ethical responsibilities of tax advisers. The aim is to provide a professional,
-  exam-focused foundation for later computational and advisory topics.
----
-
-# Introduction {#sec-introduction}
-
+# Introduction
 This study paper provides a structured overview of the UK tax system for ACCA
 TX-UK. It is written in a concise reference style so that key definitions,
 comparisons, and administrative rules can be revised quickly.
 
-::: {.columns}
-::: {.column width="48%"}
 ## Chapter Focus
 
 - Purpose of taxation in a modern economy
@@ -37,9 +21,7 @@ comparisons, and administrative rules can be revised quickly.
 - Revenue law, practice, and HMRC guidance
 - Self-assessment and tax administration
 - Ethics, avoidance, and evasion
-:::
 
-::: {.column width="48%"}
 ## Revision Route
 
 - Start with [purpose of taxation](#sec-purpose-taxation)
@@ -47,36 +29,25 @@ comparisons, and administrative rules can be revised quickly.
 - Learn the [main UK taxes](#sec-main-taxes)
 - Review [sources of revenue law](#sec-revenue-law)
 - Finish with [ethics and professional conduct](#sec-ethics)
-:::
-:::
 
-# The UK Tax System and Its Administration {#sec-uk-tax-system}
-
-## The Overall Function and Purpose of Taxation {#sec-purpose-taxation}
-
-### Purpose of Taxation {#sec-tax-purpose}
-
+# The UK Tax System and Its Administration
+## The Overall Function and Purpose of Taxation
+### Purpose of Taxation
 Taxation serves both **economic** and **social** objectives.
 
-::: {.columns}
-::: {.column width="48%"}
 #### Economic Purpose
 
 - Funds public expenditure and public services
 - Influences inflation, employment, and trade activity
 - Encourages or discourages particular behaviour
 - Supports wider fiscal policy goals
-:::
 
-::: {.column width="48%"}
 #### Social Purpose
 
 - Contributes to redistribution of wealth
 - Supports social justice objectives
 - Shapes fairness through tax burden design
 - Can target support to specific groups
-:::
-:::
 
 The current UK tax system may encourage:
 
@@ -90,8 +61,7 @@ The current UK tax system may discourage:
 - Smoking and alcohol consumption through excise duties
 - Environmental damage through taxes such as landfill tax and the climate change levy
 
-### Principles of Taxation {#sec-tax-principles}
-
+### Principles of Taxation
 The structure of a tax system affects how wealth is accumulated and redistributed.
 The principal models are summarised in @tbl-tax-principles.
 
@@ -111,12 +81,9 @@ Examples:
 - **Proportional tax**: a flat percentage charge
 - **Ad valorem tax**: VAT charged as a percentage of selling price
 
-## Direct and Indirect Taxation {#sec-direct-indirect}
-
+## Direct and Indirect Taxation
 The distinction between **direct** and **indirect** taxation is fundamental.
 
-::: {.columns}
-::: {.column width="48%"}
 ### Direct Taxation
 
 - Paid directly to HMRC by the taxpayer
@@ -129,9 +96,7 @@ Examples:
 - Corporation tax
 - Capital gains tax
 - Inheritance tax
-:::
 
-::: {.column width="48%"}
 ### Indirect Taxation
 
 - Collected through an intermediary
@@ -141,11 +106,8 @@ Examples:
 Example:
 
 - VAT paid by the consumer to the supplier, then remitted to HMRC
-:::
-:::
 
-## The Different Types of Capital and Revenue Tax {#sec-main-taxes}
-
+## The Different Types of Capital and Revenue Tax
 The UK tax system comprises a range of examinable taxes. A concise summary is
 provided in @tbl-main-taxes.
 
@@ -189,10 +151,8 @@ Corporation tax is payable by companies on taxable income and chargeable gains.
 VAT is an [indirect tax](#sec-direct-indirect) charged on the supply of goods
 and services, with the final burden generally borne by the consumer.
 
-## Principal Sources of Revenue Law and Practice {#sec-revenue-law}
-
-### The Overall Structure of the UK Tax System {#sec-structure}
-
+## Principal Sources of Revenue Law and Practice
+### The Overall Structure of the UK Tax System
 HMRC is the UK government department responsible for administering the tax
 system. Its practical role is to collect revenue, implement tax law, and support
 the funding of public services.
@@ -209,9 +169,8 @@ calculating tax largely rests with the taxpayer. Companies must file returns and
 pay tax electronically. Individuals are strongly encouraged to file online,
 although paper filing may still be available in limited contexts.
 
-### Sources of Revenue Law {#sec-sources-law}
-
-```{mermaid}
+### Sources of Revenue Law
+```mermaid
 mindmap
   root((Sources of Revenue Law
     and Guidance))
@@ -250,8 +209,7 @@ An ESC confirms that HMRC will apply a tax law to a specific group in a more fav
 
 HMRC publishes current ESCs and all taxpayers in the stated situation can rely on these. It is government policy for the content of issued ESCs to eventually be withdrawn or enacted into law.
 
-### HMRC and Its Terms of Reference {#sec-hmrc}
-
+### HMRC and Its Terms of Reference
 HMRC is responsible for the administration, collection, and enforcement of UK
 taxes. In exam terms, its role is best understood through the following themes:
 
@@ -262,13 +220,11 @@ taxes. In exam terms, its role is best understood through the following themes:
 - Applying penalties and interest where required
 - Publishing operational and technical guidance
 
-### Tax Avoidance, Tax Evasion, and GAAR {#sec-avoidance-evasion}
-
+### Tax Avoidance, Tax Evasion, and GAAR
 The distinction between [tax avoidance](#sec-tax-avoidance) and
 [tax evasion](#sec-tax-evasion) is fundamental.
 
-#### Tax Evasion {#sec-tax-evasion}
-
+#### Tax Evasion
 Tax evasion is the illegal reduction of tax through dishonest conduct.
 
 Common examples include:
@@ -278,8 +234,7 @@ Common examples include:
 - Claiming false deductions or expenses
 - Submitting inaccurate information deliberately
 
-#### Tax Avoidance {#sec-tax-avoidance}
-
+#### Tax Avoidance
 Tax avoidance involves arranging affairs so as to reduce tax liability within
 the law. In a basic sense, this may simply be **tax planning**, such as using
 ISAs or other reliefs correctly.
@@ -287,14 +242,12 @@ ISAs or other reliefs correctly.
 However, the term may also be used for artificial schemes designed to exploit
 gaps in legislation.
 
-#### General Anti-Abuse Rule (GAAR) {#sec-gaar}
-
+#### General Anti-Abuse Rule (GAAR)
 GAAR is intended to counter **artificial and abusive arrangements** that cannot
 reasonably be regarded as a proper course of action. It targets aggressive tax
 avoidance rather than ordinary commercial or personal tax planning.
 
-### International Interaction and Double Taxation Agreements {#sec-dta}
-
+### International Interaction and Double Taxation Agreements
 Because countries operate different tax systems, the same income or gain may
 sometimes be taxed in more than one jurisdiction.
 
@@ -316,8 +269,7 @@ aligned some areas, especially VAT, through directives and related legal
 developments. In practice, this has influenced UK tax law and the treatment of
 non-residents in some cases.
 
-### The Need for an Ethical and Professional Approach {#sec-ethics}
-
+### The Need for an Ethical and Professional Approach
 Tax advice creates responsibilities both to the client and to HMRC. A
 professional adviser must never be knowingly involved in
 [tax evasion](#sec-tax-evasion).
@@ -330,8 +282,6 @@ ACCA ethical guidance does not support arrangements that:
 
 The five fundamental ethical principles may be remembered as **OPPIC**.
 
-::: {.columns}
-::: {.column width="48%"}
 #### OPPIC Principles
 
 1. Objectivity
@@ -339,9 +289,7 @@ The five fundamental ethical principles may be remembered as **OPPIC**.
 3. Professional behaviour
 4. Integrity
 5. Confidentiality
-:::
 
-::: {.column width="48%"}
 #### Professional Expectation
 
 - Act honestly
@@ -349,8 +297,6 @@ The five fundamental ethical principles may be remembered as **OPPIC**.
 - Avoid bias and conflicts
 - Protect confidential information
 - Avoid conduct that discredits the profession
-:::
-:::
 
 #### Objectivity
 
@@ -376,8 +322,7 @@ relationships.
 Members must not disclose information acquired through professional work unless
 there is proper authority or a legal or professional duty to disclose.
 
-### Errors, Disclosure, and Money Laundering Considerations {#sec-errors-ml}
-
+### Errors, Disclosure, and Money Laundering Considerations
 Where a client error is discovered, the adviser should first consider whether it
 was genuine or deliberate. The client should then be advised to make full and
 prompt disclosure to HMRC.
@@ -402,8 +347,7 @@ The MLRO decides whether a matter should be reported to the **National Crime
 Agency (NCA)**. A client must not be informed of such a report if that would
 amount to **tipping off**, which is a criminal offence.
 
-# Administrative Framework for Self-Assessment {#sec-self-assessment}
-
+# Administrative Framework for Self-Assessment
 This topic is introduced in the syllabus even where detailed computations are
 covered later. At this stage, the key ideas are procedural.
 
@@ -422,8 +366,7 @@ covered later. At this stage, the key ideas are procedural.
 - Understand claims and information time limits
 - Distinguish between taxpayer responsibility and HMRC review activity
 
-# Compliance, Appeals, and Penalties {#sec-compliance}
-
+# Compliance, Appeals, and Penalties
 ## Compliance Checks
 
 HMRC may review a self-assessment return through a compliance check where it

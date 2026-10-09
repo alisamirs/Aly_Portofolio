@@ -8,20 +8,6 @@ Related: [[C23_VAT]], [[C01_TX_SYS]], [[C12_TX_ADMN]]
 
 ## Original note content
 
----
-title: "Chapter 24: VAT Overseas Aspects"
-abstract: |
-    1. understand how VAT is accounted for and administered.  <br>
-    2. list the information that must be given on a VAT invoice. <br>
-    3. understand when the penalties for late submission/filing and late payment, and the interest for late payment will be applied. <br>
-    4. understand the VAT treatment of imports, exports and trade outside the UK. <br>
-    5. understand postponed accounting for VAT on imports. <br>
-    6. understand the operation of, and when it will be advantageous to use the VAT special schemes: <br>
-        - Cash accounting scheme 
-        - Annual accounting scheme 
-        - Flat rate scheme. 
----
-
 # VAT: Administration and overseas aspects
 
 ## VAT computation
@@ -124,7 +110,6 @@ Under the Government’s **Making Tax Digital** (MTD) regime, all VAT registered
 - VAT refunds are normally made within 30 days. 
 - Where it is discovered that VAT has been overpaid in the past, the time limit for claiming a refund is *four years* from the date by which the return for the accounting period was due.
 
-:::{.callout-tip}
 ***Substantial traders***        
 Substantial traders are those with a VAT liability exceeding ***£2.3 million p.a***. 
 
@@ -132,9 +117,7 @@ Substantial traders are those with a VAT liability exceeding ***£2.3 million p.
 - Payments at the end of months 2 and 3 in every quarter are 1/24th of the annual liability for the previous year. 
 - Any additional amounts are paid with the normal VAT return. Other methods can be agreed with HMRC for calculating the payments on account. 
 
-:::
 
-:::{.callout-tip}
 ***VAT records***     
 Records must be kept of all goods and services received and supplied in the course of a business. Records must be kept up-to-date and must be preserved for **six years**. 
 
@@ -150,9 +133,7 @@ VAT registered businesses are required to keep the records required to complete 
 
 The records must be sufficient to allow the VAT return to be completed and to allow HMRC to check the return.
 
-:::
 
-:::{.callout-tip}
 ***VAT invoices***              
 A VAT invoice must be issued when a standard-rated supply is made to a VAT registered business.       
 The invoice can be sent electronically provided the customer agrees.               
@@ -160,7 +141,6 @@ No invoice is required if the supply is exempt, zero-rated or to a non-VAT regis
 A VAT invoice should be issued *within 30 days* of the date that the taxable supply is treated as being made.                  
 The original VAT invoice is sent to the customer and forms their evidence for reclaiming input VAT, and a copy must be kept by the supplier to support the calculation of output VAT. 
 
-:::
 
 A VAT invoice must contain the following:
 
@@ -247,26 +227,20 @@ Mole Ltd’s VAT return for the quarter ended 30 June 2025, was submitted late, 
 
 **Solution**
 
-::::: {.columns}
 
-::: {.column width="50%"}
 ### 📋 Late submission 
 
 - **1 additional penalty point** for late submission
 - **£200 penalty** as threshold of four penalty points reached
 - Points will reset to zero if all quarterly returns are submitted on time for **12 month period** (i.e. quarterly returns up to and including quarter ended 30 June 2026)
-:::
 
-::: {.column width="50%"}
 ### 💰 Late payment
 
 - Payment due on or before **7 August 2025**
 - Payment made between **16‑30 days late**
 - Penalty charged: **£435** (3% × £14,500)
 - Interest charged: **£103** (£14,500 × 8.5% × ¹⁄₁₂)
-:::
 
-:::::
 
 
 #### Example 5: VAT return
@@ -628,7 +602,6 @@ Outline the VAT treatment in each case for Foreign Ltd.
 
 ### Q1: VAT payable - Flat rate scheme
 
-:::{.callout}
 
 Yannick is a sole trader. He is registered for VAT and uses the flat rate scheme. In his quarter ended 31 December 2025 he had a VAT
 inclusive turnover of £132,000.                      
@@ -642,12 +615,10 @@ B. £9,120
 C. £11,833          
 D. £12,540         
 
-:::
 
 
 ### Q2: VAT payable - Flat rate scheme
 
-:::{.callout}
 
 Y Ltd is registered for value added tax (VAT) and uses the flat rate scheme. 
 
@@ -660,12 +631,10 @@ B. £7,200
 C. £9,000             
 D. £8,100             
 
-:::
 
 
 ### Q3: Quarterly VAT returns
 
-:::{.callout}
 
 X Ltd is a VAT registered trader that prepares quarterly VAT returns. When should the VAT for the quarter ending 30 April 2025 be paid to HM Revenue & Customs (HMRC)? 
 
@@ -674,12 +643,10 @@ B. 7 June 2025
 C. 7 July 2025        
 D. 7 August 2025        
 
-:::
 
 
 ### Q4: Output VAT and Input VAT
 
-:::{.callout}
 
 Meurig runs a UK VAT registered business. He exports a large amount of goods overseas. His UK sales and purchases are all standard-rated.
 
@@ -705,12 +672,10 @@ What is Meurig’s output VAT and input VAT for the quarter?
 | C      | £14,000    | £12,180   |
 | D      | £14,000    | £4,480    |
 
-:::
 
 
 ### Q5: VAT invoice
 
-:::{.callout}
 Which of the following must be shown on a simplified (or less detailed) VAT invoice where the supply is entirely standard-rated? 
      
 1. Supplier's name and address 
@@ -723,12 +688,10 @@ B. 1 and 4
 C. 2 and 3        
 D. 1 and 3       
 
-:::
 
 
 ### Q6: Cash accounting scheme
 
-:::{.callout}
 Which of the following statements concerning the VAT cash accounting scheme is/are correct? 
 
 1. The business calculates its output tax on sales for a VAT return period by applying the VAT fraction (20/120) to gross (VAT inclusive) total cash receipts (inclusive of zero-rated and exempt supplies). 
@@ -740,13 +703,8 @@ B. 2 and 3
 C. 1 and 2      
 D. 2 only       
 
-:::
 
 
 ## Constructed response questions
 
-### Q1: 
-
-
-
-
+### Q1:

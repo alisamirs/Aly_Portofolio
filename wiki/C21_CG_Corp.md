@@ -8,18 +8,6 @@ Related: [[C13_Corp_TX]], [[C15_Groups]], [[C17_CGT]], [[C20_CGT_Relief]]
 
 ## Original note content
 
----
-title: "Chapter 21: Chargeable gains for companies"
-abstract: |
-    1. compute and explain the treatment of chargeable gains .  <br>
-    2. explain and compute the indexation allowance available using a given indexation factor. <br>
-    3. explain and compute the treatment of capital losses. <br>
-    4. understand the treatment of disposals of shares by companies and apply the identification rules including the same day and nine day matching rules.  <br>
-    5. explain and apply the pooling provisions. <br>
-    6. explain and apply the treatment of bonus issues, rights issues, takeovers and reorganisations. <br>
-    7. explain and apply rollover relief. <br>
----
-
 ![](20260818084637.png)
 
 
@@ -225,7 +213,6 @@ Calculate High Ltd’s corporation tax liability for the year ended 31 March 202
 
 The issues regarding the disposal of shares by a company are similar to those set out in Chapter 19 for disposals by individuals. 
 
-:::{.callout-tip}
 Remember that: 
 
 Shares and securities present a particular problem for capital gains computations, because any two shares in a company (of a particular class) are *indistinguishable*.            
@@ -233,7 +220,6 @@ Shares and securities present a particular problem for capital gains computation
 
 They apply when there has been more than one purchase of shares or securities of the same class, in the same company.
 
-:::
 
 ***Matching rules***       
 The matching rules for shares disposed of by companies are different from those for an individual.       
@@ -554,7 +540,6 @@ Where the consideration for the reorganisation or takeover only involves the iss
 the cost of the original shares is allocated to the new shares by reference to the market values of the various new shares on the first day of dealing in them after the reorganisation/takeover. 
 
 
-:::{.callout}
 ***Mixed consideration***     
 When both cash and shares are received on a takeover: 
 
@@ -562,7 +547,6 @@ When both cash and shares are received on a takeover:
 - A **chargeable gain** arises on the **cash element** of the consideration. 
 - The calculation of the chargeable gain is the same as for individuals (Chapter 19) except that indexation allowance must be taken into account.
 
-:::
 
 
 #### Example 1: Takeovers/reorganisations 
@@ -690,7 +674,6 @@ The only capital gains relief available to companies is **rollover relief**. The
 ***Rollover relief for companies***    
 Rollover relief (ROR) for companies operates, in general, in the same way as for individuals. The rules are summarised below.
 
-:::{.callout-important}
 ***Rollover relief***      
 
 - ROR allows a company to replace assets used in its trade, without incurring a corporation tax liability on the related chargeable gains. 
@@ -715,7 +698,6 @@ Rollover relief (ROR) for companies operates, in general, in the same way as for
 - Any asset with a predictable life of not more than 60 years, is a depreciating asset. 
 - If a new non-depreciating asset is acquired before the deferred gain becomes chargeable, ROR can be claimed and the deferred gain is deducted from the base cost of the new non-depreciating asset. 
 
-:::
 
 
 
@@ -767,9 +749,7 @@ Assume the following indexation factor applies:
 
 
 
-::::: {.columns}
 
-::: {.column width="45%"}
 ## 👤 Individuals
 
 **Taxation:**
@@ -798,13 +778,9 @@ Assume the following indexation factor applies:
 - Principal private residence (PRR) ✅
 - Investors' relief ✅
 - Rollover relief ✅
-:::
 
-::: {.column width="5%"}
 
-:::
 
-::: {.column width="50%"}
 ## 🏢 Companies
 
 **Taxation:**
@@ -835,9 +811,7 @@ Assume the following indexation factor applies:
 - Principal private residence (PRR) ❌
 - Investors' relief ❌
 - Rollover relief ✅ *(but not on goodwill)*
-:::
 
-:::::
 
 
 # Practices on Additional aspects
@@ -845,7 +819,6 @@ Assume the following indexation factor applies:
 ## Objective Test (OT) questions
 
 
-:::{.callout}
 ### Q1: Chargeable gain - Indexation
 X Ltd sold a building for proceeds of **£330,000**. The building cost **£250,000**. Surveyor and agents fees totalling **£2,500** were also paid by X Ltd when the building was purchased. 
 
@@ -857,10 +830,8 @@ B. (£2,290) loss
 **C. £0**              
 D. (£1,500) loss              
 
-:::
 
 
-:::{.callout}
 ### Q2: Chargeable gain - Part Disposal
 Walton Ltd bought 20 hectares of land on 13 January 2021 for **£30,000**. On 22 November 2025, the company sold 10 hectares for **£60,000** and the market value of the remaining land at that time was **£15,000**. 
 
@@ -875,11 +846,9 @@ C. £30,080
 
 > The enhancement to the 10 hectares which were not sold will not affect this gain.  It will be deducted when the remaining hectares are sold.
 
-:::
 
 
 
-:::{.callout}
 ### Q3: Chargeable gain - Indexation
 In August 2025, Greengrass plc sold a property for **£750,000** which it purchased in April 1999 for **£125,000**. In November 2010 the property was redecorated at a cost of **£5,000**.
 
@@ -897,10 +866,8 @@ D. £533,495
 
 >  Redecoration is revenue expenditure and does not qualify as a capital improvement.  
 
-:::
 
 
-:::{.callout}
 ### Q4: Chargeable gain - Indexation
 XYZ Ltd sold an unwanted factory for **£634,000** on 15 March 2026. The company had paid **£120,000** for the factory on 2 January 2012. XYZ Ltd had incurred expenses of **£8,000** in buying the factory. 
 
@@ -914,9 +881,7 @@ D. £506,000
 
 > Indexation allowance is calculated on the total acquisition costs of £128,000
 
-:::
 ### Q5: Indexation
-:::{.callout}
 
 Forrest Ltd bought a warehouse for £250,000 in December 2009, incurring £20,000 legal fees in connection with the acquisition. The warehouse was sold for £830,000 in May 2025, incurring legal fees of £30,000. 
 
@@ -946,9 +911,7 @@ D. £61,160
 
 > The indexation allowance cannot increase or create a loss. 
 
-:::
 
-:::{.callout}
 ### Q6: Capital loss c/f
 In the year ended 30 June 2025 Lompy Ltd had a tax adjusted trading profit of £800,200 and property income of £45,000. It also realised a chargeable gain of £25,000 and a capital loss of £80,000 on assets that were used for the purposes of the property business. In the year ended 30 June 2024 it had a tax adjusted trading profit of £520,000 and chargeable gains of £9,000. 
 
@@ -956,9 +919,7 @@ How much, if any, of the capital loss arising in the year ended 30 June 2025 is 
 
 **55k**
 
-:::
 
-:::{.callout}
 ### Q7: Indexation - Shares
 Rimbo Ltd had the following transactions in the shares of Profitable Ltd, an investment company:
 
@@ -978,9 +939,7 @@ B. £28,578
 **C. £19,705**        
 D. £10,560      
 
-:::
 
-:::{.callout}
 
 On 1 October 2025 Smooth Ltd sold a factory for £850,000, realising a gain of £250,000.       
 On 1 November 2024 the company had purchased an immovable machine for £900,000. The machine is expected to be used by the company for at least 25 years. 
@@ -995,7 +954,6 @@ The £250,000 gain which could be deferred as a result of the acquisition of the
 
 The company must make a rollover relief election by 31 December 2029
 
-:::
 
 ## Objective Test Cases (OTC)
 
@@ -1028,7 +986,6 @@ Michael incurred a capital loss of £16,800 during the tax year 2023/24, and mad
 
 Assume that the tax rates and allowances for the tax year 2025/26 apply throughout.
 
-:::{.callout}
 
 #### Q1.1: Sole trader business CG
 
@@ -1039,9 +996,7 @@ A. £124,000
 C. £60,000       
 D. £51,000      
 
-:::
 
-:::{.callout}
 #### Q1.2: Gift holdover relief - personal trading company
 What amount of gift holdover relief, if any, is available on the gift of shares in Minnow Ltd on 8 December 2025? 
 
@@ -1049,9 +1004,7 @@ What amount of gift holdover relief, if any, is available on the gift of shares 
 
 > Gift holdover relief is available as ordinary shares in an unquoted trading company are qualifying assets for gift holdover relief purposes. However full relief is not available as the shares are in Michael’s personal trading company and the company holds investments.
 
-:::
 
-:::{.callout}
 #### Q1.3: Non wasting chattels
 What is the chargeable gain, if any, arising on the sale of the painting on 28 February 2026? 
 
@@ -1062,7 +1015,6 @@ C. £1,900
 
 ![](20260904095230.png)
 
-:::
 
 ### Q2: BO
 
@@ -1078,7 +1030,6 @@ On 30 September 2025 Saffie sold a house for £282,000, resulting in a chargeabl
 
 She occupied the house as her main residence from the date of purchase until 30 September 2015. Saffie then moved in with her girlfriend and the house was unoccupied between 1 October 2015 and 30 September 2025. Throughout the period 1 October 2013 to 30 September 2025 Saffie did not have any other main residence.
 
-:::{.callout}
 #### Q2.1: Base cost for gifted shares
 What is Chi’s base cost in the 50,000 £1 ordinary shares in Botune Ltd? 
 
@@ -1089,9 +1040,7 @@ D. £210,000
 
 > Since no consideration has been paid for the shares, all of Bo’s chargeable gain can be held over (i.e. deferred) with a gift holdover relief claim.
 
-:::
 
-:::{.callout}
 #### Q2.2: Sold shares instead of gifting
 If Bo had instead sold the shares in Botune Ltd to Chi for £160,000, for each of the following statements select whether it is true or false:
 
@@ -1099,9 +1048,7 @@ Bo’s chargeable gain would have been £66,000    T
 Bo and Chi would not have been able to claim gift holdover relief     F  
 The base cost of the shares for Chi would be £210,000   F
 
-:::
 
-:::{.callout}
 #### Q2.3: CG and Claim dates
 When is the capital gains tax due date(s) for the tax year 2025/26 and by what date must Bo and Chi make the election to hold over the gain on the Botune Ltd shares? 
 
@@ -1109,9 +1056,7 @@ When is the capital gains tax due date(s) for the tax year 2025/26 and by what d
 
 > A gift holdover relief claim must be made within four years of the end of tax year of the gift i.e. 5 April 2030 for a disposal in the tax year 2025/26.  
 
-:::
 
-:::{.callout}
 #### Q2.4: CG Bands
 Assuming that no other chargeable gains arise in the tax year, how much capital gains tax would Bo pay on the disposal of the painting in the tax year 2025/26?  
 
@@ -1119,9 +1064,7 @@ Assuming that no other chargeable gains arise in the tax year, how much capital 
 
 > 1400 × 0.24 + 7000 × 0.18
 
-:::
 
-:::{.callout}
 #### Q2.5: private residence relief PRR
 How much private residence relief is Saffie entitled to on the sale of her main residence? 
 
@@ -1132,7 +1075,6 @@ D. £38,729
 
 > 172 × ((2+9/12)/12)
 
-:::
 
 ### Q3: ALPHABET LTD
 
@@ -1155,7 +1097,6 @@ Cherry had purchased her shareholding on 20 June 2017 for £4,800. On 13 Novembe
 
 Cherry died on 5 April 2026, and her remaining 2,000 £1 ordinary shares in XYZ plc were inherited by her daughter. On that date these shares were valued at £15,600.
 
-:::{.callout}
 #### Q3.1: Share as part disposal, cuz takeover bruh..
 
 What is the chargeable gain, if any, arising on Aloi on the takeover of Alphabet Ltd? 
@@ -1164,9 +1105,7 @@ What is the chargeable gain, if any, arising on Aloi on the takeover of Alphabet
 
 > 360,000 - 68,600
 
-:::
 
-:::{.callout}
 ### Q3.2: CG
 
 What is the chargeable gain or allowable loss on the disposal of shares in XYZ plc by Bon to her brother? 
@@ -1178,9 +1117,7 @@ D. (£20,800) loss
 
 > ((7.1+7.18)/2*10000)-(92200*10/25)
 
-:::
 
-:::{.callout}
 ### Q3.3: capital gains tax due date
 By what date(s) must Bon pay any capital gains tax due as a result of the disposal of shares in XYZ plc? 
 
@@ -1189,9 +1126,7 @@ B. 30 September 2026
 C. 4 March 2027        
 D. 5 December 2026        
 
-:::
 
-:::{.callout}
 ### Q3.4: Cost of Shares on Death                
 What is the allowable cost that will be used by Cherry’s daughter in the capital gains computation on a subsequent disposal of her inherited shares in XYZ plc? 
 
@@ -1202,7 +1137,6 @@ D. £3,200
 
 > Transfers on death are exempt disposals for CGT purposes. The daughter’s cost of acquisition on a subsequent disposal is the probate value i.e. the market value of the shares at the date of death. 
 
-:::
 
 ### Q4: LILY
 
@@ -1245,7 +1179,6 @@ Lily's sister has chargeable gains for the year 2025/26 of £44,200 which qualif
 
 Lily's sister does not have any taxable income for the tax year 2025/26. 
 
-:::{.callout}
 ### Q4.1: Base Cost copyright - Remaining Life Paet Disposal
 What cost figure will have been used in calculating the chargeable gain on the disposal of Lily's copyright? 
 
@@ -1254,9 +1187,7 @@ A. £22,000
 C. £4,400          
 D. £19,067          
 
-:::
 
-:::{.callout}
 #### Q4.2: Part the disposal of land - Total deductions 
 What are the total deductions which will have been allowed in calculating the chargeable gain on the disposal of Lily's four hectares of land? 
 
@@ -1267,9 +1198,7 @@ D. £58,800
 
 > 84000*140/200+14400
 
-:::
 
-:::{.callout}
 #### Q4.3: Period of occupation
 What is the total period of occupation (both actual and deemed) for the purposes of calculating the private residence relief on the disposal of Lily's house? 
 
@@ -1286,9 +1215,7 @@ D. 136 months
 
 > However, nine months of the final period of ownership are covered as deemed occupation, even if not actually occupied.   
 
-:::
 
-:::{.callout}
 #### Q4.4: CG on Cash for Takeover 
 What is Lily's chargeable gain in respect of the cash received following the takeover of Moon plc by Sun plc? 
 
@@ -1297,9 +1224,7 @@ B. £6,878
 C. £19,800      
 D. £8,640      
 
-:::
 
-:::{.callout}
 #### Q4.5: BADR & Other
 What is Lily's sister's capital gains tax liability for the tax year 2025/26? 
 
@@ -1308,7 +1233,6 @@ B. £28,982
 C. £31,544          
 **D. £31,244**         
 
-:::
 
 ### Q5: ALBERT AND CHARLES
 
@@ -1340,7 +1264,6 @@ Charles acquired his shares in the company as follows:
 
 On 4 April 2026 Daphne sold a painting for gross proceeds of £5,300. The painting had been purchased for £13,000 in September 2009. Daphne incurred auctioneer’s fees of £300 in relation to the disposal.
 
-:::{.callout}
 #### Q5.1: PRR
 What is the amount of private residence relief available on the disposal of the house by Albert? 
 
@@ -1351,9 +1274,7 @@ D. £460,575
 
 > (£840,000 – £222,900) × 3/4
 
-:::
 
-:::{.callout}
 #### Q5.2: Spouses Planning
 Albert’s brother Ernest has told Albert it would have been better to have transferred 50% ownership of the house to Victoria prior to its disposal. Which TWO of the following statements are correct? 
 
@@ -1364,9 +1285,7 @@ C. The amount of capital gains tax that would have been saved is £3,902
 
 > lower rate of CGT applied (£16,260 × (24% – 18%))
 
-:::
 
-:::{.callout}
 #### Q5.3: Base cost of Gifted Shares Using Averagea
 What is the allowable base cost used in the capital gains tax computation on Charles’ sale of shares to Daphne? 
 
@@ -1380,9 +1299,7 @@ What is the allowable base cost used in the capital gains tax computation on Cha
 | 23 October 2025     | Disposal (£47,600 × 4,000/28,000)        | (4,000)          | (6,800) |
 | **Balance c/f**      |                                          | **24,000**       | **40,800** |
 
-:::
 
-:::{.callout}
 #### Q5.4: Non Wasting Chattel
 What is Daphne’s allowable loss, if any, in respect of the sale of the painting on 4 April 2026? 
 
@@ -1391,7 +1308,6 @@ B. (£7,000) loss
 C. £0       
 D. (£8,000) loss       
 
-:::
 
 
 ### Q6: ZOYLA
@@ -1424,7 +1340,6 @@ Major plc is a quoted trading company with an issued share capital of 2,000,000 
 Zoyla will not make any other disposals in the foreseeable future, and her taxable income will remain unchanged.
 
 
-:::{.callout}
 #### Q6.1: Base Cost
 What cost figure will have been used in calculating the chargeable gain on Zoyla’s disposal of 20,000 ordinary shares in Minor Ltd? 
 
@@ -1433,10 +1348,8 @@ B. £104,000
 C. £148,000       
 D. £252,000      
 
-:::
 
 
-:::{.callout}
 #### Q6.2: Share Proceeds 
 What proceeds figure will have been used in calculating the chargeable gain on Zoyla’s disposal of 16,000 ordinary shares in Major plc? 
 
@@ -1444,9 +1357,7 @@ What proceeds figure will have been used in calculating the chargeable gain on Z
 
 Mid-price per share (£9.62 + £9.74)/2 9.68 
 
-:::
 
-:::{.callout}
 ### Q6.3:
 If Zoyla had delayed the sale of her 16,000 ordinary shares in Major plc until 6 April 2026, by how long would the related CGT liability have been deferred? 
 
@@ -1455,9 +1366,7 @@ A. 11 months
 C. 1 month      
 D. 6 months     
 
-:::
 
 ## Constructed response questions
 
-### Q1: 
-
+### Q1:

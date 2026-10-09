@@ -8,15 +8,6 @@ Related: [[C02_IT_ILIB]], [[C03_ADD_ASS]], [[C09_Partner]], [[C10_TL_IND]], [[C1
 
 ## Original note content
 
----
-title: "Chapter 7: Income from self-employment"
-abstract: |
-    recognise the basis of assessment for self-employment income under both cash and accruals bases. <br>    
-    describe and apply the badges of trade. <br>            
-    recognise the expenditure that is allowable in calculating the tax adjusted trading profit. <br> 
-    recognise the relief which can be obtained for pre-trading expenditure. <br>
----
-
 # Income from self-employment
 
 ## Basis of assessment for self-employment
@@ -121,9 +112,7 @@ To determine whether an individual is trading, a number of tests, known as the �
 Although the above is the statutory definition of a trade, in practice it is not a very helpful one. What constitutes a trade has been reviewed numerous times by the courts and criteria have been developed and were set out by a Royal Commission. These criteria which should be considered are known as the ‘badges of trade’.
 
 
-::: {.columns}
 
-::: {.column width="45%"}
 
 The badges of trade which are used to determine if an activity is in the nature of a trade are as follows (and can be remembered by using two mnemonics 'SOFIRM', and 'FAST' as indicated by the letters in the brackets below): 
 
@@ -140,13 +129,9 @@ The badges of trade which are used to determine if an activity is in the nature 
 6. The motive (M). 
     - intention to profit may indicate trading.
 
-:::
 
-::: {.column width="5%"}
 
-:::
 
-::: {.column width="45%"}
 
 In addition to the original **six badges of trade** mentioned above, HM Revenue & Customs (HMRC) guidance states that the following are also considered to indicate trading: 
 
@@ -160,9 +145,7 @@ In addition to the original **six badges of trade** mentioned above, HM Revenue 
 It is vital to appreciate that *no one badge is decisive*. In any set of circumstances some badges may indicate trading whilst others may not. 
 
 It is the overall impression, considering all relevant factors, that is important.
-:::
 
-:::
 
 ### Subject matter of the transaction (S) 
 
@@ -400,13 +383,11 @@ Where expenditure is of a **capital nature**, it is **disallowable** if it relat
 
 - The expense of renewing a short lease (i.e. less than 50 years) is allowable (as this is deemed to be revenue expenditure, rather than capital expenditure), although the legal expenses incurred on the initial granting of the lease are not.
 
-::: {.callout-note}
 
 ***Relief for pre-trading expenditure*** 
 
 Any revenue expenditure, incurred in the seven years before a business starts to trade, which would have been allowable if the business was trading, is treated as an expense on the day that the business starts trading. 
 
-:::
 
 
 #### Example 1: Relief for pre-trading expenditure
@@ -420,7 +401,6 @@ Explain how the expenditure of £6,000 on advertising is treated for tax purpose
 The £6,000 advertising expenditure is treated as a trading expense as if it had been incurred on 1 April 2025. 
 
 
-::: {.callout-note}
 
 ***Deductible expenditure not charged in the accounts***
 
@@ -432,7 +412,6 @@ In addition to this, other examples include:
 - business calls from the private telephone of the sole trader.
 - expenses that are wholly and exclusively for the trade that have been met from the private funds of the owner. 
 
-:::
 
 #### Example 2: Use of home for business
 
@@ -459,7 +438,6 @@ The total of the **remaining items** is £2,000 (£1,100 + £900).
 
 Therefore, Florencia’s allowable deduction for the use of the office is **£400** (£2,000 × 1/5).
 
-::: {.callout-tip}
 
 There are three categories of **income which should not be included in the calculation of taxable trading profit**, and which therefore need to be ***adjusted for***:
 
@@ -468,17 +446,14 @@ There are three categories of **income which should not be included in the calcu
 However, they may be subject to income tax by being included elsewhere in an individual’s income tax computation. 
 - Income that is exempt from tax (such as interest received on overpaid income tax).
 
-:::
 
 
 ### Flat rate expenses
 
-::: {.callout-note}
 Any unincorporated business can: 
 
 opt to use flat rate expense adjustments to replace the calculation of actual costs incurred in respect of certain 
 expenses. 
-:::
 
 Flat rate expenses can be used under either the ***cash basis or the accruals basis***. 
 
@@ -588,7 +563,6 @@ The distinction between revenue expenditure (allowable – and sometimes referre
 This is especially the case when deciding if expenditure is in respect of a repair to an asset (revenue expenditure) or is an improvement (capital expenditure). 
 
 
-::: {.callout-tip}
 ***Repair v Improvement*** 
 
 Whilst you are not required to know the legal cases from which the following decisions were reached, it is important to understand the legal principles behind case decisions regarding capital expenditure as this will help with examination questions: 
@@ -603,7 +577,6 @@ Where it is deemed as the renewal/replacement of a separate asset it is treated 
 For example, the replacement of an old stand with a new one at a football club, was held to be expenditure on a new asset and thus capital expenditure. 
 - The use of modern materials as part of a repair is allowable. For example, replacing single glazed windows with double glazed windows.
 
-:::
 
 Capital expenditure on plant and machinery and structures and buildings is disallowed but may qualify for capital allowances.      
 These are effectively a form of depreciation allowance for tax purposes. Capital allowances are covered in detail in Chapter 8. 
@@ -724,26 +697,18 @@ Explain the adjustment required if:
 **Solution**
 
 
-::: {.columns}
 
-::: {.column width="45%"}
 ***Mark-up***                    
 The full selling price of **£600** = £480 × 1.25 must be added back in the tax computation. 
 
-:::
 
-::: {.column width="5%"}
 
-:::
 
-::: {.column width="45%"}
 
 ***Profit margin***              
 The full selling price of £640 = £480 × 100/75 must be added back in the tax computation. 
 
-:::
 
-:::
 
 
 Deductible expenditure not charged in the statement of profit or loss 
@@ -852,7 +817,6 @@ However, they may be subject to income tax by being included elsewhere in an ind
 
 ### Q1: Disallowed expenses
 
-:::{.callout}
 
 Vicente is a sole trader. He has incurred the following expenses:
 
@@ -871,12 +835,10 @@ Vicente is a sole trader. He has incurred the following expenses:
 
 > Annual events which cost the employer more than £150 per head are a taxable benefit for the employee, but the cost is still deductible for the employer.
 
-:::
 
 
 ### Q2: Personal use of assets 
 
-:::{.callout}
 
 Haniful has taken goods from his business for personal use. The goods cost £850 and have a selling price of £1,100. He has made no entry in his business accounts in respect of the goods except to record their original purchase by the business. 
 
@@ -889,11 +851,9 @@ A. £248,350
 C. £246,400      
 D. £247,750      
 
-:::
 
 ### Q3: Sole trader - Lease Premium Paid 
 
-:::{.callout}
 
 Rosa runs a sole trader business and on 1 January 2025 she paid a £25,000 premium for a 20year lease on an office from which she will run her business.  
 
@@ -907,11 +867,9 @@ What amount can be deducted in respect of the lease premium when calculating Ros
 
 > (£15,500 ÷ 20) = £775
 
-:::
 
 ### Q4: Balancing Charge BC on the disposal of the main pool
 
-:::{.callout}
 
 Wan ceased trading on 31 December 2025, having been self-employed and preparing the accounts on the accruals basis since 1 January 2010. On 1 January 2025, the tax written down value of her plant and machinery main pool was £6,200. On 10 November 2025, Wan purchased a computer for £1,600. All of the items included in the main pool were sold for £9,800 on 31 December 2025. 
 
@@ -922,11 +880,9 @@ B. £3,404
 **C. £2,000**     
 D. £3,600      
 
-:::
 
 ### Q5: Capital Allowances
 
-:::{.callout}
 
 Olive is self-employed, preparing her accounts to 5 April each year on the cash basis. She claims capital allowances on a car used in her business. The car has a C02 emission rate of 65 grams per kilometre, with 40% of Olive’s mileage for private purposes.        
 The car had a tax written down value of £12,000 at 6 April 2025. Olive sold the car for £6,000 on 1 November 2025. 
@@ -940,11 +896,9 @@ D. £216
 
 ![](20260830202454.png)
 
-:::
 
 ### Q6: Main Pool
 
-:::{.callout}
 
 Which TWO of the following assets bought by a sole trader using the accruals basis will be allocated to the main pool for capital allowance purposes? 
 
@@ -955,11 +909,9 @@ D. Car with CO2 emissions of 75 grams per kilometre costing £16,500 used solely
 E. Factory air-conditioning system costing £110,000 with a 27-year expected life     
 **F. Packing machine costing £105,000 and with a 24-year expected life**    
 
-:::
 
 ### Q7: Capital Allowances - Short Period
 
-:::{.callout}
 
 Andrew prepared accounts for the eight months to 31 March 2026 using the accruals basis. The tax written down value of the main pool on 1 August 2025 was £18,000.    
 
@@ -969,11 +921,9 @@ On 15 January 2026 he purchased a new car with zero CO2 emissions costing £12,2
 
 **14,420** 
 
-:::
 
 ### Q8: Capital allowance - Disposed of at market value
 
-:::{.callout}
 
 Ronald has always prepared his accounts to 31 March uses the accruals basis. On 31 March 2026 Ronald ceased trading. The tax written down value of the main pool at 1 April 2025 was £15,000. 
 
@@ -989,11 +939,9 @@ C. (£800)
 
 > The laptop is treated as having been disposed of at market value. 
 
-:::
 
 ### Q9: Structure and Buildings Allowance (SBA)
 
-:::{.callout}
 
 Ciara has always prepared her accounts to 31 October and uses the accruals basis. On 1 May 2025 she purchased a building which she **brought into use on 1 June 2025**. Ciara spent £700,000 on the land, £550,000 on the structure and building and £30,000 renovating the building. 
 
@@ -1003,11 +951,9 @@ What is the maximum structure and buildings allowance (SBA) Ciara may claim for 
 
 > (550,000+30,000) * 0.03 * 5/12
 
-:::
 
 ### Q10: Capital expenditure 
 
-:::{.callout}
 
 Which TWO of the following statements concerning the tax treatment of capital expenditure are ALWAYS correct for a business that uses the accruals basis? 
 
@@ -1018,14 +964,9 @@ C. The main pool qualifies for the small pool WDA if the balance after disposals
 E. A balancing adjustment is calculated on the disposal of a building on which SBAs have been claimed    .    
 **F. On disposal of a building that qualified for SBAs the seller increases the sales price by the SBAs claimed**        
 
-:::
 
 
 
 ## Constructed response questions
 
-### Q1: 
-
-
-
-
+### Q1:

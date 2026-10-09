@@ -8,16 +8,6 @@ Related: [[C17_CGT]], [[C18_CGT_Special]], [[C20_CGT_Relief]], [[C21_CG_Corp]]
 
 ## Original note content
 
----
-title: "Chapter 19: CGT: Shares and securities for individuals"
-abstract: |
-    1. recognise the value of quoted shares where they are disposed of by way of a gift.  <br>
-    2. explain and apply the identification rules as they apply to individuals including the same day and 30 day matching rules. <br>
-    3. explain and apply the pooling provisions. <br>
-    4. explain and apply the treatment of bonus issues, rights issues, takeovers and reorganisations . <br>
-    5. identify the exemption available for gilt-edged securities and qualifying corporate bonds. <br>
----
-
 # Government securities and qualifying corporate bonds 
 
 All shares and securities disposed of by an individual are subject to capital gains tax except for the following, which are exempt: 
@@ -406,25 +396,17 @@ A takeover occurs when one company acquires the shares in another company either
 ***Consideration: shares for shares***    
 Where the consideration for the reorganisation or takeover only involves the issue of shares in the acquiring company, the tax consequences are: 
 
-::: {.columns}
 
-::: {.column width="45%"}
 
 - No CGT is charged at the time of the reorganisation/takeover. 
 
-:::
 
-::: {.column width="5%"}
 
-:::
 
-::: {.column width="45%"}
 
 - The cost of the original shares becomes the cost of the new shares. 
 
-:::
 
-:::
 
 
 
@@ -589,7 +571,6 @@ Calculate the chargeable gain as a result of the takeover in October 2025 and st
 
 ### Q1: Matching/identification rules
 
-:::{.callout}
 Peta sold 400 shares in Blue plc on 13 December 2025. She had acquired her shares in the company as follows:
 
 | Date                | Number of shares |
@@ -606,11 +587,9 @@ A. 400 of the 500 shares acquired on 14 February 2011
 C. The 200 shares acquired on 6 April 2006 then 200 of the shares acquired on 14 February 2011            
 D. The 100 shares acquired on 5 January 2026 then the 200 shares acquired on 6 April 2006 and then 100 of the shares acquired on 14 February 2011         
 
-:::
 
 #### Q2: Value of shares Gifted
 
-:::{.callout}
 Bobby made a gift of Fiddler plc shares to his son on 1 May 2025.              
 On that day, the shares in Fiddler plc are quoted in the Stock Exchange Daily Official List at 260p and 292p. 
 
@@ -621,11 +600,9 @@ B. 268p
 C. 260p               
 D. 292p               
 
-:::
 
 #### Q3: CG- Share Disposal
 
-:::{.callout}
 Polina sold 1,000 shares in Yoga plc on 14 May 2025 for **£7,400**. Her other dealings in these shares were as follows:
 
 | Date                | Transaction             | Amount  |
@@ -640,9 +617,8 @@ B. £1,360
 **C. £733**       
 D. £6,667     
 
-:::
 
 
 ## Constructed response questions
 
-### Q1: 
+### Q1:

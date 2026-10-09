@@ -8,17 +8,6 @@ Related: [[C17_CGT]], [[C19_CGT_SH]], [[C20_CGT_Relief]]
 
 ## Original note content
 
----
-title: "Chapter 18: Computation of gains: Special rules"
-abstract: |
-    1. understand the treatment of transfers between spouses or between a couple in a civil partnership.  <br>
-    2. understand the amount of allowable expenditure for a part disposal. <br>
-    3. recognise the treatment where an asset is damaged, lost or destroyed, and the implications of receiving insurance proceeds and reinvesting such proceeds. <br>
-    4. identify when chattels and wasting assets are exempt. <br>
-    5. compute the chargeable gain when a chattel or a wasting asset is disposed of. <br>
-    6. understand basic capital gains tax planning. <br>
----
-
 ![](20260814153458.png)
 
 ***Introduction***     
@@ -551,7 +540,6 @@ Wasting assets (i.e. predictable life of 50 years or less) can be split into the
 2. Chattels eligible for capital allowances. 
 3. Other wasting assets.
 
-:::{.callout}
 ***1. Chattels not eligible for capital allowances*** 
 
 This type of wasting asset is exempt from CGT. 
@@ -559,9 +547,7 @@ This type of wasting asset is exempt from CGT.
 This category of asset could include plant and machinery, even where it is used in a trade.  
 
 For example, if a sole trader is using the cash basis to calculate tax adjusted trading profits (Chapter 7), plant and machinery is not eligible for capital allowances. Instead, the original cost of plant and machinery is deductible against trading profits, and the sale proceeds included as income. Therefore, any profit on disposal would be included in trading profits, and there will be no CGT implications on disposal.
-:::
 
-:::{.callout}
 ***2. Chattels eligible for capital allowances*** 
 
 For example, plant and machinery used for the purposes of a trade. Where capital allowances have been claimed on an asset, in the gain/loss computation we must consider the *tax relief* already given for the net cost of the asset in the capital allowances computation. 
@@ -575,7 +561,6 @@ In the capital loss computation, the net capital allowances (i.e. net of balanci
 
 > Accordingly, plant and machinery which is eligible for capital allowances and sold at a loss, results in a no gain/no loss situation for CGT purposes.
 
-:::
 
 
 #### Example 7: Wasting chattels CGT 
@@ -614,7 +599,6 @@ The capital loss computation is therefore adjusted to reflect the relief for the
 | Add: Net capital allowances             | 8,500    |
 | **Adjusted loss**                       | **0**    |
 
-:::{.callout}
 ***3. Other wasting assets*** 
 
 This category covers wasting assets that are not chattels as they are not tangible and/or not movable (e.g. a copyright). The allowable expenditure on these assets is deemed to waste away over the life of the asset on a **straight line basis**.
@@ -629,7 +613,6 @@ $$
 \text{Cost} \times \frac{\text{Remaining life at disposal}}{\text{Estimated useful life}}
 $$
 
-:::
 
 
 #### Example 9: Other wasting assets
@@ -919,7 +902,6 @@ As the proceeds are fully used in restoration and the ‘rollover’ election is
 
 ### Q1: CG - Part Disposal
 
-:::{.callout}
 Denis bought 20 hectares of land on 13 September 2023 for **£30,000**. 
 
 On 22 November 2025, Denis sold 10 hectares for **£60,000** and the market value of the remaining land at that time was **£15,000**. 
@@ -931,11 +913,9 @@ B. £24,000
 C. £45,000      
 **D. £36,000**      
 
-:::
 
 ### Q2: Wasting Chattel
 
-:::{.callout}
 
 Laticia makes the following **capital disposals** in the tax year 2025/26: 
 
@@ -953,12 +933,10 @@ C. 3 and 4 only
 
 > The greyhound is a **wasting chattel** and therefore exempt. 
 
-:::
 
 
 ### Q3: Insurance Compensation
 
-:::{.callout}
 Nikhil purchased a valuable painting which was destroyed in a fire. He received compensation from his insurance company but did not purchase a replacement. 
 
 The transaction is treated as follows: 
@@ -968,12 +946,10 @@ B. The transaction is treated as a disposal at no gain/no loss
 C. The value of the insurance proceeds received are treated as a chargeable gain       
 **D. A gain/loss is computed using the normal chargeable gains rules** 
 
-:::
 
 
 ### Q4: Non-wasting chattel
 
-:::{.callout}
 Gaynor sold an antique vase for £7,800 in July 2025, incurring an auctioneer’s fee of 1% of the gross sales value. She bought the vase in December 2014 for £2,300. 
 
 What is Gaynor’s chargeable gain? 
@@ -999,8 +975,7 @@ $$
 
 > As the chattel has been sold for more than £6,000 but ***purchased for equal to or less than £6,000***, the eventual gain should be restricted to 5/3 × (gross sale proceeds – £6,000).
 
-:::
 
 ## Constructed response questions
 
-### Q1: 
+### Q1:

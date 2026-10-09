@@ -8,12 +8,6 @@ Related: [[C02_IT_ILIB]], [[C05_Emp_Inc]], [[C07_INC_SELF_EP]]
 
 ## Original note content
 
----
-title: "Chapter 6: Pensions"
-abstract: |
-     explain and compute the relief given for contributions to personal pension schemes, and to occupational pension schemes. 
----
-
 # Types of registered pension schemes (Occupational and Personal)
 
 An individual can set up an investment of funds to provide an income during retirement in a tax efficient way by making payments into a *registered* pension scheme.
@@ -59,28 +53,20 @@ Contributions into an occupational scheme may be made by both the employer and t
 ### Types of occupational pension schemes 
 
 
-::: {.columns}
 
-::: {.column width="45%"}
 
 ***Defined benefit scheme***      
 The benefits obtained when taking the pension are linked to the *level of earnings* of the employee during employment.
 
-:::
 
-::: {.column width="5%"}
 <!-- Spacer column -->
-:::
 
-::: {.column width="45%"}
 
 ***Money purchase scheme***                 
 (or ‘defined contribution’ scheme)       
 The benefits obtained when taking the pension depend upon the *performance* of the investments held by the pension fund.  
 
-:::
 
-:::
 
 
 ## Personal pension schemes 
@@ -101,56 +87,38 @@ Personal pension schemes are usually *money purchase schemes* administered by fi
 Tax relief is available for pension contributions if both: 
 
  
-::: {.columns}
 
-::: {.column width="45%"}
 
 the pension scheme is a **registered** scheme (assume this is the case in the 
 exam) 
 
-:::
 
-::: {.column width="5%"}
 
-:::
 
-::: {.column width="45%"}
 
 the individual is **resident** in the UK and **aged under 75**.
 
-:::
 
-:::
  
 
 # Tax relief for pension contributions 
 
  
-::: {.columns}
 
-::: {.column width="45%"}
 
 The amount of tax relief available for pension contributions is the same regardless of whether the scheme is an occupational or personal pension scheme. 
 
-:::
 
-::: {.column width="5%"}
 
-:::
 
-::: {.column width="45%"}
 
 The method of *obtaining* tax relief for the contributions is different depending on the type of scheme. 
 
-:::
 
-::: {.column width="45%"}
 
 Once funds are invested in a scheme, all pension schemes are governed by the same rules. 
 
-:::
 
-:::
 
 ## Maximum tax relief for individuals
 
@@ -205,57 +173,39 @@ Explain the ***maximum amount of pension contribution*** for which tax relief is
  
 ***Explanation:***  
 
-::: {.columns}
 
-::: {.column}
 
 Karima: £2,500
 
-:::
 
-::: {.column}
 
 Because Karima has £0 relevant earnings, her maximum allowable gross contribution for tax relief is the basic limit of £3,600. Since her actual contribution of £2,500 falls below this ceiling, she will receive full tax relief on her entire contribution of £2,500.
 
-:::
 
-::: {.column}
 
 Nadia: £3,600
 
-:::
 
-::: {.column}
 
 As a **non-earner** (£0 relevant earnings), Nadia's maximum tax-relieved gross contribution is strictly limited to the basic statutory threshold of £3,600. The remaining £2,400 of her £6,000 contribution does not qualify for tax relief.
 
-:::
 
-::: {.column}
 
 Kenza: £36,000
 
-:::
 
-::: {.column}
 
 has relevant earnings of £75,000, meaning her personal tax relief cap expands to 100% of her earnings. Her actual gross contribution is £36,000, which is fully covered under this cap. Thus, she receives tax relief on the full £36,000. 
 
-:::
 
-::: {.column}
 
 Yasmine: £38,000
 
-:::
 
-::: {.column}
 
 Even though Yasmine contributed £45,000, personal tax relief is strictly capped at 100% of her relevant UK earnings. Because her earnings are £38,000, she can only claim tax relief up to a maximum of £38,000. 
 
-:::
 
-:::
 
 
 ## The method of obtaining tax relief 
@@ -266,31 +216,19 @@ The method of obtaining tax relief for contributions into a **personal pension s
 
 ***Basic rate tax***
 
-::: {.columns}
 
-::: {.column width="45%"}
 *Basic rate tax* relief is automatically given by deduction at source when contributions are paid, as an individual makes contributions net of the basic rate of income tax (20%).
-:::
 
-::: {.column width="5%"}
 
-:::
 
-::: {.column width="45%"}
 Contributions into a personal pension scheme benefit from basic rate tax relief, even if the taxpayer is paying tax at the starting rate, higher rate or not paying tax at all. 
-:::
 
-::: {.column width="45%"}
 HMRC pay the 20% tax relief to the personal pension scheme.
-:::
 
-::: {.column width="45%"}
 
 If you’re a basic rate taxpayer, you get relief at 20% directly.
 
-:::
 
-:::
 
 ***Higher and additional rate tax relief*** 
 
@@ -330,85 +268,57 @@ They have no other sources of income.
 
 **Andy** 
 
-::: {.columns}
 
-::: {.column width="45%"}
 ***Tax Relief***             
 As Andy has no earnings he will obtain tax relief on a maximum gross amount of £3,600.
 
-:::
 
-::: {.column width="5%"}
 
-:::
 
-::: {.column width="45%"}
 ***Tax Relief Cal.***             
 He will obtain basic rate tax relief at source of £720 (£3,600 × 20%) and pay £4,280 (£5,000 – £720) to the pension scheme.
 
-:::
 
 
 **Brad** 
 
-::: {.columns}
 
-::: {.column width="45%"}
 ***Tax Relief***             
 Brad’s pension contributions are less than his earnings for the year and he will therefore receive tax relief on ***the full amount*** of the contributions. 
 
-:::
 
-::: {.column width="5%"}
 
-:::
 
-::: {.column width="45%"}
 ***Tax Relief Cal.***             
 He will obtain basic rate tax relief at source of £1,000 (£5,000 × 20%) and pay £4,000 (£5,000 – £1,000) to the pension scheme.          
 As Brad is not a higher rate taxpayer *no adjustment* is required in his income tax computation. 
 
-:::
 
 **Cindy** 
 
-::: {.columns}
 
-::: {.column width="45%"}
 ***Tax Relief***             
 The tax relief available on Cindy’s pension contributions is restricted to 100% of her earnings (i.e. £20,000). 
-:::
 
-::: {.column width="5%"}
 
-:::
 
-::: {.column width="45%"}
 ***Tax Relief Cal.***             
 She will obtain basic rate tax relief at source of £4,000 (£20,000 × 20%) and pay £21,000 (£25,000 – £4,000) to the pension scheme.
 
 As Cindy is not a higher rate taxpayer no adjustment is required in her income tax computation.
-:::
 
 **Don** 
 
-::: {.columns}
 
-::: {.column width="45%"}
 ***Tax Relief***             
 Don’s pension contributions are less than his earnings; he will therefore receive tax relief on the full amount of the contributions.
-:::
 
-::: {.column width="5%"}
 
-:::
 
-::: {.column width="45%"}
 ***Tax Relief Cal.***             
 He will obtain basic rate tax relief at source of £8,000 (£40,000 × 20%) and pay £32,000 (£40,000 – £8,000) to the pension scheme. 
 
 Higher rate tax relief will be given by ***extending the basic rate*** band by £40,000 from £37,700 to £77,700. 
-:::
 
 ***Tax liability***             
  
@@ -425,22 +335,15 @@ Higher rate tax relief will be given by ***extending the basic rate*** band by �
 
 **Ed** 
 
-::: {.columns}
 
-::: {.column width="45%"}
 ***Tax Relief***             
 The tax relief available on Ed’s pension contributions is restricted to 100% of his earnings (i.e. £25,000).
 
-:::
 
-::: {.column width="5%"}
 
-:::
 
-::: {.column width="45%"}
 ***Tax Relief Cal.***             
 He will obtain basic rate tax relief at source of £5,000 (£25,000 × 20%) and pay £55,000 (£60,000 – £5,000) to the scheme. 
-:::
 
 ***Tax liability***
 
@@ -455,19 +358,13 @@ He will obtain basic rate tax relief at source of £5,000 (£25,000 × 20%) and 
 
 **Fran** 
 
-::: {.columns}
 
-::: {.column width="45%"}
 ***Tax Relief***             
 Fran’s pension contributions are less than her earnings; she will therefore receive tax relief on the full amount of the contribution. 
 
-:::
 
-::: {.column width="5%"}
 
-:::
 
-::: {.column width="45%"}
 ***Tax Relief Cal.***             
 She will obtain basic rate tax relief at source of £6,000 (£30,000 × 20%) and pay £24,000 (£30,000 – £6,000) to the pension scheme. 
 
@@ -475,7 +372,6 @@ Higher rate tax relief will be given by extending the basic rate band by £30,00
 
 Additional rate tax relief will be given by extending the higher rate band by £30,000 from £125,140 to £155,140. 
 
-:::
 
 ***Tax liability***             
 
@@ -504,14 +400,12 @@ Tax relief is given at basic, higher and additional rates of tax depending on th
 1. The employer will deduct the pension contribution from the individual’s earned income, before calculating income tax under the PAYE system. 
 2. Tax relief is therefore automatically ***given at source***, at the employee's highest rate of tax. 
 
-::: {.callout-important}
 Contributions paid by an ***employer*** into a pension scheme are: 
 
 - Tax deductible in calculating the employer’s taxable trading profits, provided the contributions are paid for the purposes of the trade, and 
 - An exempt employment benefit for the employee, and 
 - Added to the pension contributions paid by the employee on which tax relief is given to determine whether the annual allowance has been exceeded.
 
-:::
 
 
 #### Example 1: Tax relief for Occupational pension schemes
@@ -526,25 +420,17 @@ Calculate Carlos’s **income tax liability** for the tax year 2025/26, showing 
 Because he is a member of an occupational pension scheme, tax relief on his contributions is obtained ***automatically*** under the PAYE. This means his personal contributions are deducted from his gross salary before income tax is calculated. Employer contributions are treated as an exempt benefit and have no impact on his personal income tax calculation
 
 
-::: {.columns}
 
-::: {.column width="45%"}
 
 Carlos's Contribution (3%): 3% of £80,000 = £2,400. This is **deducted directly** from his gross salary, **lowering** his **taxable income**. Full tax relief at Carlos's higher rate (40%) is given automatically through payroll.
 
-:::
 
-::: {.column width="5%"}
 
-:::
 
-::: {.column width="45%"}
 
 Employer's Contribution (5%): 5% of £80,000 = £4,000. This is a ***tax-free benefit*** and is ***ignored*** for income tax purposes.
 
-:::
 
-:::
 
 |                                    |Calcualtion   | £        | 
 |------------------------------------|--------------|----------|
@@ -560,7 +446,6 @@ Employer's Contribution (5%): 5% of £80,000 = £4,000. This is a ***tax-free be
 | **Income tax liability**           |              |**18,472**|
 
 
-::: {.callout-note}
 
 The deduction against the employer’s trading profits for pension contributions is given in the accounting period in which the contribution *is actually paid*; the accounting treatment is not followed. 
 
@@ -568,7 +453,6 @@ Therefore, in the adjustment to profit computation:
 
 - add back any amount charged in the statement of profit or loss, and 
 - deduct the amount paid in the accounting period. 
-:::
 
 ### Annual allowance
 
@@ -830,41 +714,27 @@ The calculation of ‘adjusted income’ for TX purposes can be simplified as sh
 | **Adjusted income**                                             | **X**    |
 
 
-::: {.columns}
 
-::: {.column width="45%"}
 
 If the ‘adjusted income’ exceeds **£260,000** the annual allowance for the tax year is reduced.
 
-:::
 
-::: {.column width="5%"}
 
-:::
 
-::: {.column width="45%"}
 
 When an individual’s adjusted income is **£360,000** or more the annual allowance is reduced to £10,000. 
 
-:::
 
-::: {.column width="45%"}
 
 It is important to note that the term ‘adjusted income’ for annual allowance purposes ***is not the same*** as ‘adjusted net income’ for purposes of restricting the personal allowance. 
 
-:::
 
-::: {.column width="5%"}
 
-:::
 
-::: {.column width="45%"}
 
 When calculating the adjusted income for annual allowance purposes, ***there is no deduction for gross gift aid donations or the individual’s gross personal pension contributions, and employer's pension contributions*** need to be added to net income. 
 
-:::
 
-::: 
 
 
 #### Example 6: Annual allowance for high income individual
@@ -1018,7 +888,6 @@ Withdrawals from the fund are taxed as non-savings income in the tax year they a
 
 ### Q1: Personal Pension Contributions PPC Extending Basic Rate Band
 
-:::{.callout}
 
 Lux is self-employed. In the tax year 2025/26 they had taxable trading profits of £70,000 and they paid personal pension contributions of £22,000.  
 
@@ -1031,11 +900,9 @@ D. £60,000
 
 22,000 * 100/80
 
-:::
 
 ### Q2: Employer’s Contributions
 
-:::{.callout}
 
 In respect of employer's contributions into a pension scheme, which of the following statements is incorrect? 
 
@@ -1052,12 +919,10 @@ Contributions paid by an employer into a pension scheme are:
 
 However, the contributions paid by the employer are not deducted in calculating the employee's income tax, only employee's contributions are deducted in this way. 
 
-:::
 
 
 ### Q3: Personal Allowance deducted by PPC and gift aid
 
-:::{.callout}
 
 Yasmin has net income of £119,500. She makes a gift aid payment of £2,400 (gross amount) and a personal pension contribution of £10,000 (gross). 
 
@@ -1074,12 +939,10 @@ D. £12,570
 
 12,570 - 3,550 = 9,020
 
-:::
 
 
 ### Q4: Grossing PPC to deducts PA reduction 
 
-:::{.callout}
 
 Hari earns £115,000 a year and has no other income. He pays personal pension contributions of £5,600 each year. 
 
@@ -1098,12 +961,10 @@ C £7,870
 
 12,570 - 4,000 = 8,570
 
-:::
 
 
 ### Q5: Personal pension scheme contribution
 
-:::{.callout}
 
 Jasper has a personal pension scheme. 
 
@@ -1114,12 +975,10 @@ B. Jasper and his employer only
 **C. Jasper, his employer and Jasper's self-employed wife**     
 D. Jasper and his self-employed wife only         
 
-:::
 
 
 ### Q6: Maximum gross pension contribution
 
-:::{.callout}
 
 Zoila is employed part-time earning £2,500 per annum. She also receives property income from an unfurnished house of £25,000 per annum and dividend income of £10,000. 
 
@@ -1130,12 +989,10 @@ A £2,500
 C £12,500 
 D £27,500
 
-:::
 
 
 ### Q7: Personal Pension scheme vs. Occupational Pension scheme
 
-:::{.callout}
 
 Roger is employed on an annual salary of £145,000. His employer has an occupational pension scheme into which Roger pays 2% of his salary and the company pays 5% of his salary. Roger also made a payment of £20,000 into a personal pension scheme in the tax year 2025/26.  
 
@@ -1151,12 +1008,10 @@ What is Roger’s net income (before deducting the personal allowance) for the t
 
 > Basic rate tax relief for personal pension scheme contributions is given at source. Tax relief at higher rates is given by extending the basic rate and higher rate tax bands. 
 
-:::
 
 
 ### Q8: Personal pension plan - extending basic rate
 
-:::{.callout}
 
 Isaac is self-employed and for the year ended 31 March 2026 he paid **£20,000 (net)** into his personal pension plan. Isaac’s relevant earnings for the tax year 2025/26 were £110,000. 
 
@@ -1170,12 +1025,10 @@ What amount of income tax will Isaac pay at the basic rate for the tax year 2025
 
 > 62700 * 0.2
 
-:::
 
 
 ### Q9: Personal pension plan - Maximum gross contribution without giving rise to an annual allowance charge
 
-:::{.callout}
 
 Abena has made the following gross contributions to her personal pension scheme over the past three tax years:
 
@@ -1196,11 +1049,9 @@ D. £72,000
 
 > There is no unused AA for 2022/23 as the gross contributions in that year exceeded the AA of £40,000. 
 
-:::
 
 ### Q10: Personal pension plan - Maximum gross contribution without giving rise to an annual allowance charge
 
-:::{.callout}
 
 Austin, age 47, runs a sole trader business. In the tax year 2025/26 his trading income was £51,200. During the tax year 2025/26 he paid £22,400 (net) into a personal pension scheme.
 
@@ -1213,12 +1064,10 @@ Petra, age 45, has employment income of £120,000 in the tax year 2025/26. She h
 | Austin | O                                        | □                                           |
 | Petra  | □                                        | O                                           |
 
-:::
 
 
 ### Q11: Personal Pension Contributions
 
-:::{.callout}
 
 Natalia’s only income in the tax year 2025/26 is trading income of £100,000. She also has an annual allowance charge of £10,000 as a result of making gross personal pension contributions of £70,000 in the tax year 2025/26.  
 
@@ -1231,12 +1080,10 @@ D. £31,432
 
 > ((100000-2570) * 0.2)
 
-:::
 
 
 ### Q12: Annual allowance AA Reducer 
 
-:::{.callout}
 Niamhe has adjusted income for the tax year 2025/26 of £330,000.     
 During the year, she made personal pension scheme contributions of £100,000 (gross).     
 Niamhe has no brought forward unused annual allowances.  
@@ -1262,96 +1109,7 @@ D. £25,000
 
 > So, Niamhe’s annual allowance for the tax year 2025/26 is £25,000. The annual allowance charge is the amount by which Niamhe’s gross personal pension scheme contributions exceed her annual allowance. 
 
-:::
 
 ## Constructed response questions
 
-### Q1: 
-
-:::{.callout}
-
-
-
-:::
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+### Q1:

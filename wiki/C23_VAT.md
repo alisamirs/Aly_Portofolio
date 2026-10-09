@@ -8,21 +8,6 @@ Related: [[C01_TX_SYS]], [[C04_Prop_TA]], [[C13_Corp_TX]], [[C24_VAT_OS]]
 
 ## Original note content
 
----
-title: "Chapter 23: VAT"
-abstract: |
-    1. recognise the circumstances in which a person must *register or deregister* for VAT (compulsory) and when a person may register or deregister for VAT (voluntary).  <br>
-    2. recognise the circumstances in which pre-registration input VAT can be recovered. <br>
-    3. explain the conditions that must be met for two or more companies to be treated as a group for VAT purposes, and the consequences of being so treated. <br>
-    4. calculate the amount of VAT payable/recoverable. <br>
-    5. recognise the tax point when goods or services are supplied. <br>
-    6. explain and apply the principles regarding the valuation of supplies. <br>
-    7. recognise the principal zero-rated and exempt supplies. <br>
-    8. recognise the circumstances in which input VAT is non-deductible. <br>
-    9. recognise the relief that is available for impairment losses on trade debts. <br>
-    10. understand the treatment of the sale of a business as a going concern. <br>
----
-
 ![](20260820151429.png)
 
 VAT is: 
@@ -83,9 +68,7 @@ Remember that taxable supplies, which are not zero-rated or chargeable at the re
 
 ## Zero-rated and exempt supplies  
 
-:::{.columns}
 
-:::{.column width="45%"}
 The most important ***zero-rated items*** are briefly described below. 
 
 - Food: Food used for human consumption unless it is either a supply in the course of catering (e.g. in a restaurant) or is classed as a luxury item, such as alcohol or confectionery. 
@@ -96,13 +79,9 @@ The most important ***zero-rated items*** are briefly described below.
 - Charities: Gifts to charities are zero-rated. 
 - Clothing and footwear: Young children’s clothing and footwear.  
 
-:::
 
-:::{.column width="5%"}
 
-:::
 
-:::{.column width="45%"}
 The most important **exempt supplies** are briefly described below. 
 
 - Land: Transfers of land and rights over land, but not buildings. 
@@ -113,9 +92,7 @@ The most important **exempt supplies** are briefly described below.
 - Sports: Entry fees to sports competitions used to provide prizes or 
 charged by non-profit-making sporting bodies. 
 
-:::
 
-:::
 
 
 # VAT registration 
@@ -267,28 +244,20 @@ HMRC will register the trader from the date of the request for voluntary registr
 
 ## **Advantages and disadvantages of voluntary registration**
 
-::::: {.columns}
 
-::: {.column width="45%"}
 ### ✅ Advantages
 
 - Avoids penalties for late registration
 - Can recover input VAT on purchases
 - Can disguise the small size of the business
-:::
 
-::: {.column width="5%"}
 
-:::
 
-::: {.column width="45%"}
 ### ❌ Disadvantages
 
 - Business will suffer the burden of compliance with all VAT administration rules
 - Business must charge VAT. This makes their goods comparatively more expensive than an unregistered business, for customers who cannot recover the VAT (i.e. final consumers)
-:::
 
-:::::
 
 Voluntary registration is therefore **beneficial** where the business is making: 
 
@@ -349,27 +318,19 @@ The effect of a group VAT registration is as follows:
 
 ## ***Advantages and disadvantages of group VAT registration***  
 
-::::: {.columns}
 
-::: {.column width="45%"}
 ### ✅ Advantages
 
 - VAT on intra‑group supplies eliminated
 - Only one VAT return required, which should save administration costs
-:::
 
-::: {.column width="5%"}
 
-:::
 
-::: {.column width="45%"}
 ### ❌ Disadvantages
 
 - All members remain jointly and severally liable
 - A single return may cause administrative difficulties collecting and collating information
-:::
 
-:::::
 
 
 # Pre-registration and Deregistration
@@ -378,9 +339,7 @@ The effect of a group VAT registration is as follows:
 
 Normally, VAT incurred before registration cannot be accounted for as input VAT. If the conditions below are satisfied, however, then it can be treated as input tax and reclaimed accordingly. 
 
-::::: {.columns}
 
-::: {.column width="50%" style="border-right: 2px solid #2c3e50; padding-right: 20px;"}
 ### 📦 Goods
 
 | | |
@@ -388,18 +347,14 @@ Normally, VAT incurred before registration cannot be accounted for as input VAT.
 | 🎯 | Business purposes |
 | 🚫 | Not sold/consumed before registration |
 | ⏰ | ≤ 4 years prior to registration |
-:::
 
-::: {.column width="50%" style="padding-left: 20px;"}
 ### 💼 Services
 
 | | |
 |---|---|
 | 🎯 | Business purposes |
 | ⏰ | ≤ 6 months prior to registration |
-:::
 
-:::::
 
 > Note that the term goods includes both current (e.g. inventory) and non-current (e.g. machinery) assets for VAT purposes. 
 
@@ -879,7 +834,6 @@ The company’s sales are all standard-rated, and the above figures are exclusiv
 
 ### Q1: Tax point
 
-:::{.callout}
 
 Eastwood Ltd sold goods to a customer for £4,400. The goods were made available to the customer on 14 June although the customer paid in full on 10 June. An invoice was issued on 15 June. The tax point for this supply is: 
 
@@ -890,12 +844,10 @@ D. 28 June
 
 As the payment was made earlier, the 14 day invoice rule is irrelevant.
 
-:::
 
 
 ### Q2: Input VAT
 
-:::{.callout}
 
 Bennett Ltd is registered for VAT and makes wholly taxable supplies.         
 Bennett Ltd incurred the following expenditure (**exclusive** of VAT unless stated otherwise).  
@@ -914,12 +866,10 @@ B. £13,220
 C. £9,820          
 **D. £10,220**        
 
-:::
 
 
 ### Q3: Output VAT
 
-:::{.callout}
 
 Banana plc is registered for VAT. In the quarter to 31 December 2025 it made the following standard-rated supplies **(all VAT-exclusive)**:
 
@@ -934,12 +884,10 @@ B. £7,135
 C. £8,456  
 D. £7,147
 
-:::
 
 
 ### Q4: Tax point
 
-:::{.callout}
 
 J Ltd received an order for 18,000 widgets on 14 December 2025. J Ltd despatched these to the customer on 18 December 2025. An invoice was sent on 31 December 2025 and full payment was received on 15 January 2026. 
 
@@ -950,11 +898,9 @@ A. 18 December 2025
 C. 15 January 2026      
 D. 14 December 2025     
 
-:::
 
 ### Q5: VAT registration
 
-:::{.callout}
 
 Which of the following VAT registration statements are true? 
 
@@ -967,14 +913,7 @@ B. 2 and 3 only
 **C. None of them**            
 D. All of them
 
-:::
 
 ## Constructed response questions
 
-### Q1: 
-
-
-
-
-
-
+### Q1:

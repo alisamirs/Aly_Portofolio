@@ -8,22 +8,6 @@ Related: [[C14_COMP_LOS]], [[C15_Groups]], [[C16_TX_ADM_CORP]], [[C21_CG_Corp]],
 
 ## Original note content
 
----
-title: "Chapter 13: Corporation tax"
-abstract: |
-     Define the terms ‘period of account’, ‘accounting period’, and ‘financial year’. <br>
-     Recognise when an accounting period starts and when an accounting period finishes. <br>
-     Explain how the residence of a company is determined. <br> 
-     Compute taxable total profits. <br>  
-     Compute the corporation tax liability and apply marginal relief. <br> 
-     Recognise the expenditure that is allowable in calculating the tax adjusted trading profit. <br> 
-     Recognise the relief which can be obtained for pre-trading expenditure. <br> 
-     Compute capital allowances as for income tax, for purchases and disposals of assets on which the 100% and 50% first year allowances have been claimed and for disposal of assets on which the main pool *super deduction* of 130% and special rate pool first year allowance of 50% for expenditure incurred from 1 April 2021 to 31 March 2023 were claimed. <br> 
-     Compute property business profits. <br> 
-     Recognise and apply the treatment of interest paid and received under the loan relationship rules. <br> 
-     Recognise and apply the treatment of qualifying charitable donations. <br>   
----
-
 ![](20260808093208.png)
 
 # Basis of assessment 
@@ -34,34 +18,24 @@ abstract: |
 It is important when dealing with corporation tax to understand the terms ‘period of account’ and ‘accounting period’. 
 
 
-::: {.columns}
 
-::: {.column width="45%"}
 
 **1. Period of account**            
 A period of account is any period for which a company prepares accounts. It is usually 12 months in length, but may be shorter or longer than this. 
 
-:::
 
-::: {.column width="5%"}
 
-:::
 
-::: {.column width="45%"}
 
 **2. Accounting period**          
 An accounting period (AP) is the period for which a charge to corporation tax is made. It is never longer than 12 months. 
 
-:::
 
-:::
 
 
 ## Accounting periods 
 
-::: {.columns}
 
-::: {.column width="45%"}
 
 When does an AP start?        
 An AP starts: 
@@ -69,13 +43,9 @@ An AP starts:
 - When a company starts to trade (or receives income chargeable to corporation tax), and 
 - When the previous accounting period ends. 
 
-:::
 
-::: {.column width="5%"}
 
-:::
 
-::: {.column width="45%"}
 
 When does an AP end? 
 
@@ -85,9 +55,7 @@ The main situations where an AP ends are:
 - the end of the company’s period of account, and 
 - the date the company begins or ceases to trade. 
 
-:::
 
-:::
 
 > Note that the date on which a company’s period of account ends is often referred to in the examination as the *accounting reference date*. It can also be referred to as the accounting date. 
 
@@ -600,13 +568,11 @@ Corporation tax on TTP = £100,000 × 25% = 25,000
 
 
 
-:::{.callout-tip}
 ***Dividends*** 
 - Dividends received by UK companies from other companies are not taxable. 
 - Normally they are included when calculating the company’s augmented profits. The company’s augmented profits then determine the rate of corporation tax payable. 
 - Dividends received from associated companies however are not included as part of augmented profits. 
 
-:::
 
 
 #### Example 9: Associated companies - Corporation tax payable
@@ -1057,14 +1023,12 @@ Calculate the capital allowances for year ended 30 September 2025.
 
 When assets which qualified for the super deduction are sold, 100% of the proceeds (***restricted to original cost***) are brought in as a balancing charge. 
 
-:::{.callout-note} 
 ***Pre-trading expenditure***         
 The rules for pre-trading expenditure are the same for companies and sole traders (Chapter 7) and are as follows: 
 
 - Any revenue expenditure incurred in the ***seven years*** before a company starts trading, is treated as an expense on the first day of trading, provided it would have been allowable had the company already been trading. 
 - Any capital expenditure is treated as if the assets were bought on the first day of trading. Any capital allowances will be claimed in the first capital allowances computation. 
 
-:::
 
 # Interest – loan relationship rules & Impaired debts  
 
@@ -1077,9 +1041,7 @@ In addition, the cost of writing down an impaired debt arising from the lending 
 ***Trade v non-trade purposes***           
 In order to apply the loan relationship rules correctly, all interest paid/received must first be identified as either ‘trading’ or ‘non-trading’. 
 
-::::: {.columns}
 
-::: {.column width="45%"}
 ## Trade purpose
 
 **Interest receivable**  
@@ -1092,13 +1054,9 @@ case in the examination).)
 - on a loan taken out to purchase property used for trading purposes e.g. office, warehouse, factory  
 - on a loan or overdraft to fund daily operations (i.e. working capital)  
 - on loan notes to fund trading operations  
-:::
 
-::: {.column width="5%"}
 
-:::
 
-::: {.column width="45%"}
 ## Non‑trade purpose
 
 **Interest receivable**  
@@ -1110,9 +1068,7 @@ case in the examination).)
 **Interest payable**  
 - on a loan to purchase a commercially let property (where the rent would be taxable as property business income – section 8)  
 - on a loan to acquire shares of another company  
-:::
 
-:::::
 
 
 ## Interest income 
@@ -1307,7 +1263,6 @@ All other donations (whether under gift aid or not); as an allowable deduction f
     - unless the company is part of a 75% group, in which case, group relief may be available (Chapter 15). 
 
 
-:::{.callout-note}
 The tax treatment of charitable donations for individuals is different to the treatment for companies. 
 
 For individuals: 
@@ -1317,7 +1272,6 @@ For individuals:
 - gift aid payments are paid net of basic rate tax. 
 - tax relief is given by extending the basic and higher rate tax bands by the gross amount of the gift aid paid in the tax year. 
 
-:::
 
 
 ### Comprehensive Example 
@@ -1640,7 +1594,6 @@ $$
 
 ### Q1: Long period of account
 
-:::{.callout}
 
 Hum Ltd started trading on 1 February 2025 and prepared its first set of accounts to 30 April 2026. 
 
@@ -1651,11 +1604,9 @@ A. 2 months ended 31 March 2025
 C. 14 months ended 31 March 2026           
 D. 15 months ended 30 April 2026          
 
-:::
 
 ### Q2: Taxable Total Profits TTP
 
-:::{.callout}
 
 Fine Ltd has the following results for the year ended 31 July 2025:
 
@@ -1671,12 +1622,10 @@ A. 123,000
 C. 133,000      
 D. 131,000    
 
-:::
 
 
 ### Q3: Corporation tax liability
 
-:::{.callout} 
 
 Cardwell Ltd prepared its first set of accounts for the **six months** to 31 March 2026. 
 
@@ -1689,12 +1638,10 @@ A. £43,750
 C. £28,500         
 D. £36,536        
 
-:::
 
 
 ### Q4: Car CO2 emissions over 50g/km
 
-:::{.callout}
 
 Bailey Ltd prepared accounts for the three-month period ended 31 March 2026. On 1 February 2026 a car costing £18,000 was 
 purchased for the sales director and used by him 60% for business purposes. The car has CO2 emissions over 50g/km. 
@@ -1708,12 +1655,10 @@ D. £162
 
 (18000 *3/12 *0.06)
 
-:::
 
 
 ### Q5: Taxable Total Profits TTP
 
-:::{.callout}
 
 Bennett Ltd prepared accounts for the year ended 31 December 2025.            
 The following information is available:  
@@ -1733,12 +1678,10 @@ B. £42,560
 C. £54,601                     
 D. £62,601                   
 
-:::
 
 
 ### Q6: Taxable Total Profits TTP
 
-:::{.callout}
 
 Smith and Jones Ltd had the following results for the year ended 31 March 2026:
 
@@ -1756,12 +1699,10 @@ B. £339,000
 C. £281,222     
 **D. £328,600**   
 
-:::
 
 
 ### Q7: Leasing costs for high emissions cars 'adjustment'
 
-:::{.callout}
 
 X Ltd has included a deduction in its accounting profit of £3,200 in respect of the annual leasing cost for a car, which has CO2 emissions of 85g/km. 
 
@@ -1778,12 +1719,10 @@ D. £2,720 add back
 
 15% of car leasing costs are disallowed if CO2 emissions exceed 50g/km. *'For both corporate and self-employed'*
 
-:::
 
 
 ### Q8: Tax adjusted trading profit 'adjustment'
 
-:::{.callout}
 Grange Ltd has the following expenses in its statement of profit or loss:
 
 1. Legal fees for the purchase of a new building £800
@@ -1803,12 +1742,8 @@ D. £1,800
 3. Staff entertainment is fully allowable, although there may be a taxable benefit for the employee if the cost exceeds £150 per head. 
 4. The bank fee on a trade related loan is a trading expense under the loan relationship rules. 
 
-:::
 
 
 ## Constructed response questions
 
-### Q1: 
-
-
-
+### Q1:

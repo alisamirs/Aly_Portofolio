@@ -8,15 +8,6 @@ Related: [[C13_Corp_TX]], [[C14_COMP_LOS]], [[C16_TX_ADM_CORP]], [[C21_CG_Corp]]
 
 ## Original note content
 
----
-title: "Chapter 15: Groups of companies"
-abstract: |
-    1. compute the corporation tax liability and apply marginal relief.  <br>
-    2. define a 75% group, and recognise the reliefs that are available to members of such a group . <br>
-    3. define a 75% chargeable gains group, and recognise the reliefs that are available to members of such a group. <br>
----
-
-
 ![](20260811173745.png)
 
 Associated companies were defined in Chapter 13. In group questions in the TX examination it is often necessary to determine the number of associates, or to state which companies are associated and potentially why. 
@@ -187,14 +178,12 @@ The taxable total profits of Cup Ltd are £24,000 and £38,000 for the 12 month 
 State the maximum amount of group relief which Cup Ltd can claim from Sugar Ltd, in each of the two accounting periods to 30 September 2026. 
 
 **Solution** 
-:::{.callout-tip}
 As the companies have non-coterminous year ends, firstly identify the corresponding accounting periods: 
 
 - 9 m/e 31.3.2026 and y/e 30.9.2025 --> The corresponding accounting period is 1 July 2025 to 30 September 2025 (i.e. three months). 
 - 9 m/e 31.3.2026 and y/e 30.9.2026 --> The corresponding accounting period is 1 October 2025 to 
 31 March 2026 (i.e. six months). 
 
-:::
 
 Cup Ltd can therefore claim the following group relief:
 
@@ -276,7 +265,6 @@ A group member with a loss has the choice of:
 - making a claim against its own profits, and/or 
 - surrendering some/all of the loss to another group member.  
 
-:::{.callout-note}
 Remember that: 
 
 - Unlike utilising current year losses against a company’s own profits (which is 'all or nothing'), group relief is very flexible. 
@@ -291,7 +279,6 @@ However, in order to make a prior year claim, an 'all or nothing' current year c
 
 > As a current year claim against the company's own profits is 'all or nothing' it is important that the optimum group relief surrender is made first, leaving the desired amount of loss available against the company's own profits.
 
-:::
 
 
 #### Example 5: 75% group relief group
@@ -644,7 +631,6 @@ Explain whether your advice would change if Beta Ltd also had £20,000 capital l
 
 
 
-:::{.callout-tip}
 ***Group rollover relief***     
 Rollover relief (ROR) is covered in detail in Chapters 20 and 21. 
 
@@ -653,7 +639,6 @@ Rollover relief (ROR) is covered in detail in Chapters 20 and 21.
     - one company within a gains group, disposes of an eligible asset and makes a chargeable gain, and 
     - another company within the same gains group, acquires an eligible replacement asset. 
 
-:::
 
 
 #### Example 6: 75% capital gains group - Group rollover relief
@@ -698,7 +683,6 @@ Ham Ltd bought a warehouse costing £750,000, in the year ended 31 December 2026
 
 ### Q1: Company(ies) to surrender loss 
 
-:::{.callout}
 Advanced Ltd has the following interests in its subsidiaries:
 
 60% in Elementary Ltd  
@@ -715,12 +699,10 @@ B. Intermediate Ltd and Standard Ltd only
 C. Elementary Ltd and Intermediate Ltd only              
 D. Elementary Ltd, Intermediate Ltd and Standard Ltd            
 
-:::
 
 
 #### Q2: Maximum loss group relief
 
-:::{.callout}
 Desire Ltd has the following losses for the year ended 31 October 2025:
 
 - Trading loss: £23,000
@@ -740,11 +722,9 @@ D. £34,000
 
 > **Note:** A separate election can be made to transfer current year capital losses to another group company, but they cannot be group relieved.    
 
-:::
 
 #### Q3: Maximum loss - Brought forward trading losses
 
-:::{.callout}
 
 Broccoli Ltd has the following income/(losses) for the year ended 31 March 2026:
 
@@ -773,11 +753,9 @@ C. £103,000
 
 > Brought forward trading losses can only be surrendered to [the extent that the surrendering company cannot use them]{style="font-size: 18px; text-decoration: underline;"}. 
 
-:::
 
 #### Q4: 
 
-:::{.callout}
 
 Orchid Ltd owns 80% of Rose Ltd and 65% of Lily Ltd.
 
@@ -796,9 +774,8 @@ Ignoring indexation allowance, and assuming no elections are made, what chargeab
 
 > Ignoring indexation allowance, the asset is transferred to Rose Ltd at Cost = £20,000.
 
-::: 
 
 
 ## Constructed response questions
 
-### Q1: 
+### Q1:
