@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Tax Exam Knowledge Map</title>
+    <link rel="stylesheet" href="./styles.css" />
+    <script src="https://cdn.jsdelivr.net/npm/d3@7"></script>
+    <script src="https://cdn.jsdelivr.net/npm/marked@15/marked.min.js"></script>
+  </head>
+  <body>
+    <header class="topbar">
+      <div>
+        <p class="eyebrow">Public student resource</p>
+        <h1>Tax Exam Knowledge Map</h1>
+      </div>
+      <a class="source-link" href="https://github.com/" target="_blank" rel="noreferrer">Source repository ↗</a>
+    </header>
+    <main class="layout">
+      <aside class="sidebar">
+        <label for="search">Search the map</label>
+        <input id="search" type="search" placeholder="Try VAT, losses, pensions…" />
+        <label for="typeFilter">Show node type</label>
+        <select id="typeFilter"><option value="all">All types</option></select>
+        <div class="stats" id="stats"></div>
+        <div class="selected" id="selected">
+          <p class="muted">Select a node to inspect its connections and open its study notes.</p>
+        </div>
+      </aside>
+      <section class="graph-panel">
+        <div class="graph-toolbar">
+          <span>Drag nodes · scroll to zoom · click a node for details</span>
+          <button id="reset">Reset view</button>
+        </div>
+        <svg id="graph" role="img" aria-label="Interactive tax exam knowledge graph"></svg>
+      </section>
+    </main>
+    <dialog id="reader">
+      <div class="reader-head"><strong id="readerTitle"></strong><button id="closeReader">Close</button></div>
+      <article id="readerContent"></article>
+    </dialog>
+    <script src="./app.js"></script>
+  </body>
+</html>
