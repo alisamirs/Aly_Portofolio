@@ -40,7 +40,7 @@ export default function PortfolioHome() {
   return (
     <main className="min-h-screen overflow-auto bg-root text-text-primary noise-overlay">
       <div className="mx-auto max-w-6xl px-5 py-10 sm:px-8 lg:py-16">
-        <div className="mb-4 flex justify-end">
+        <div className="mb-2 flex justify-end">
           <ThemePicker />
         </div>
         <header className="flex flex-wrap items-center justify-between gap-4">
