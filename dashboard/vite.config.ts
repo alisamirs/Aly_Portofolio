@@ -4,7 +4,7 @@ import tailwindcss from "@tailwindcss/vite";
 import path from "node:path";
 
 export default defineConfig({
-  base: "/TAX/",
+  base: "/Aly_Portofolio/",
   define: {
     "import.meta.env.VITE_DEMO_MODE": JSON.stringify("true"),
   },
