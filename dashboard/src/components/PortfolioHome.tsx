@@ -154,6 +154,22 @@ export default function PortfolioHome() {
 •	Translating Financial Statements. <br/> 
             </p>
           </div>
+          <div className="rounded-2xl border border-border-subtle bg-surface/60 p-6">
+            <p className="text-xs font-semibold uppercase tracking-[0.2em] text-text-muted">Assignments</p>
+            <h2 className="mt-3 font-heading text-xl text-text-primary">Assigned in the following Banks, Financial institutes and Companies:</h2>
+            <p className="mt-3 text-sm leading-6 text-text-secondary">
+•	Abu Dhabi Islamic Bank (ADIB) – Egypt <br/>
+•	Agricultural Bank of Egypt (ABE) <br/>
+•	AlexBank <br/>
+•	Attijariwafa Bank (AWBE) <br/>
+•	Emirates NDB <br/>
+•	Egyptian Arab Land Bank - EALB <br/>
+•	AdiFinance <br/>
+•	Amlak <br/>
+•	National Bank of Egypt - NBE <br/>
+•	Teleperformance <br/> 
+            </p>
+          </div>
         </section>
 
         <footer className="mt-16 border-t border-border-subtle pt-5 text-xs text-text-muted">
