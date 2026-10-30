@@ -30,8 +30,8 @@ jobs:
           mkdir -p dashboard/public
           cp .ua/knowledge-graph.json dashboard/public/knowledge-graph.json
           cp -R wiki dashboard/public/wiki
-          cp -R content/acca/tx-uk/rendered dashboard/public/acca-tx-uk
-          find . -maxdepth 1 -type f -name '*.png' -exec cp {} dashboard/public/ \;
+          cp -R content/acca/tx-uk/rendered/source dashboard/public/acca-tx-uk
+          find content/acca/tx-uk/source -maxdepth 1 -type f -name '*.png' -exec cp {} dashboard/public/acca-tx-uk/ \;
           if [ -d Snippets ]; then cp -R Snippets dashboard/public/Snippets; fi
       - name: Build full static dashboard
         working-directory: dashboard
