@@ -2,14 +2,14 @@
   "version": "1.0.0",
   "kind": "knowledge",
   "project": {
-    "name": "Tax Exam Knowledge Map",
+    "name": "Portfolio — ACCA TX-UK",
     "languages": [
       "markdown"
     ],
     "frameworks": [
       "karpathy-wiki"
     ],
-    "description": "Knowledge graph for Tax Exam Knowledge Map",
+    "description": "Professional portfolio knowledge graph, beginning with the ACCA TX-UK exam.",
     "analyzedAt": "2026-10-09T05:30:35.955295+00:00",
     "gitCommitHash": "38159dd5b4594d1bf3495017b2d8744403eadefb"
   },

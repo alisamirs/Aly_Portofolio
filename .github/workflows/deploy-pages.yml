@@ -1,4 +1,4 @@
-name: Deploy public tax knowledge map
+name: Deploy public portfolio knowledge graph
 
 on:
   push:
