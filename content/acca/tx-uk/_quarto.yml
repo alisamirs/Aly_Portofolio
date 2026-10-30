@@ -27,4 +27,5 @@ format:
 bibliography: mdpi-template.bib
 
 execute:
+  enabled: false
   freeze: auto
