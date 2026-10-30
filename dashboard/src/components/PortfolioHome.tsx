@@ -115,20 +115,34 @@ export default function PortfolioHome() {
             <p className="text-xs font-semibold uppercase tracking-[0.2em] text-text-muted">Professional profile</p>
             <h2 className="mt-3 font-heading text-xl text-text-primary">External Auditor · Senior Associate</h2>
             <p className="mt-3 text-sm leading-6 text-text-secondary">
-              External audit and assurance experience at Forvis Mazars, with work across banking, retail, and manufacturing clients. The portfolio will connect responsibilities, skills, and achievements to the knowledge graph.
+              Experienced and resourceful external auditor with more than 5 years of experience in both the audit and assurance field. I’m currently working for Forvis Mazars – Audit Firm which provides audit and tax services for many industries and sectors such as banking, retailers, and many other Manufacturing companies.
             </p>
           </div>
           <div className="rounded-2xl border border-border-subtle bg-surface/60 p-6">
-            <p className="text-xs font-semibold uppercase tracking-[0.2em] text-text-muted">CV profile</p>
-            <h2 className="mt-3 font-heading text-xl text-text-primary">Audit, IFRS, and ACCA pathway</h2>
+            <p className="text-xs font-semibold uppercase tracking-[0.2em] text-text-muted">Professional Development</p>
+            <h2 className="mt-3 font-heading text-xl text-text-primary">Certificates and Education</h2>
             <p className="mt-3 text-sm leading-6 text-text-secondary">
-              Bachelor&apos;s degree in accounting, IFRS Diploma, and ACCA studies in Audit &amp; Assurance, Financial Management, and TX-UK. Public contact details remain excluded from this portfolio page.
+              Bachelor&apos;s degree in accounting, IFRS Diploma, and Passed ACCA Exames in Audit &amp; Assurance, Financial Management, and TX-UK. Public contact details remain excluded from this portfolio page.
+            </p>
+          </div>
+          <div className="rounded-2xl border border-border-subtle bg-surface/60 p-6">
+            <p className="text-xs font-semibold uppercase tracking-[0.2em] text-text-muted">Computer Skills</p>
+            <h2 className="mt-3 font-heading text-xl text-text-primary">Technical Experience</h2>
+            <p className="mt-3 text-sm leading-6 text-text-secondary">
+              •	Microsoft office Package (Using Python in excel). <br/> •	International Online Audit Platform Forvis Mazars "Atlas". <br/> •	Using Web Search Engines professionally for accounting and audit technical matters.
+            </p>
+          </div>
+          <div className="rounded-2xl border border-border-subtle bg-surface/60 p-6">
+            <p className="text-xs font-semibold uppercase tracking-[0.2em] text-text-muted">Social Skills</p>
+            <h2 className="mt-3 font-heading text-xl text-text-primary">Personal Experience</h2>
+            <p className="mt-3 text-sm leading-6 text-text-secondary">
+              •	Effective Communication and Adaptability. <br/> •	•	Presentation and Time Management. <br/> •	Confident in working with different Cultures.
             </p>
           </div>
         </section>
 
         <footer className="mt-16 border-t border-border-subtle pt-5 text-xs text-text-muted">
-          Portfolio knowledge base · ACCA TX-UK is the first collection
+          Portfolio · Senior Associate · ACCA (IFRDip, AA, TX-UK and FM) 
         </footer>
       </div>
     </main>
