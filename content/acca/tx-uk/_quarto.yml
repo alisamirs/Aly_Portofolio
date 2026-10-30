@@ -2,7 +2,9 @@ project:
   type: default
   # Render every root-level Quarto document automatically.
   render:
-    - "*.qmd"
+    - "source/*.qmd"
+
+  output-dir: rendered
 
 format:
   html:

@@ -19,6 +19,10 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
+      - name: Set up Quarto
+        uses: quarto-dev/quarto-actions/setup@v2
+      - name: Render Quarto notes
+        run: quarto render content/acca/tx-uk
       - name: Bundle public graph and notes
         shell: bash
         run: |
@@ -26,6 +30,7 @@ jobs:
           mkdir -p dashboard/public
           cp .ua/knowledge-graph.json dashboard/public/knowledge-graph.json
           cp -R wiki dashboard/public/wiki
+          cp -R content/acca/tx-uk/rendered dashboard/public/acca-tx-uk
           find . -maxdepth 1 -type f -name '*.png' -exec cp {} dashboard/public/ \;
           if [ -d Snippets ]; then cp -R Snippets dashboard/public/Snippets; fi
       - name: Build full static dashboard

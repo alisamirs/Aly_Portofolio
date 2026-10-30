@@ -16,3 +16,10 @@ dashboard/node_modules/
 dashboard/dist/
 dashboard/public/
 dashboard/*.tsbuildinfo
+
+# Quarto output generated for the public deployment
+content/acca/tx-uk/rendered/
+
+# Source support files intentionally kept with the TX-UK notes
+!content/acca/tx-uk/mdpi-header.tex
+!content/acca/tx-uk/source/C05_Emp_Inc.tex
