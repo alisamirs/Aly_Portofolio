@@ -40,7 +40,7 @@ export default function PortfolioHome() {
   return (
     <main className="min-h-screen overflow-auto bg-root text-text-primary noise-overlay">
       <div className="mx-auto max-w-6xl px-5 py-10 sm:px-8 lg:py-16">
-        <header className="flex flex-wrap items-center justify-between gap-4">
+        <header className="flex flex-wrap items-start justify-between gap-4">
           <div className="flex items-center gap-3">
             <div className="flex h-10 w-10 items-center justify-center rounded-xl border border-accent/40 bg-accent/10 text-accent">
               <svg viewBox="0 0 24 24" className="h-5 w-5" fill="none" stroke="currentColor" strokeWidth="1.7">
@@ -55,15 +55,17 @@ export default function PortfolioHome() {
               <p className="font-heading text-sm tracking-wide text-text-secondary">Portfolio knowledge base</p>
             </div>
           </div>
-          <a
-            href="https://www.linkedin.com/in/ali-samir-ifrdip-aa-and-fm-acca-in-progress-ab2b26109/"
-            target="_blank"
-            rel="noreferrer"
-            className="rounded-lg border border-border-medium bg-elevated px-4 py-2 text-sm text-text-secondary transition-colors hover:border-accent/50 hover:text-accent"
-          >
-            LinkedIn profile ↗
-          </a>
-          <ThemePicker />
+          <div className="flex flex-col items-end gap-2">
+            <ThemePicker />
+            <a
+              href="https://www.linkedin.com/in/ali-samir-ifrdip-aa-and-fm-acca-in-progress-ab2b26109/"
+              target="_blank"
+              rel="noreferrer"
+              className="rounded-lg border border-border-medium bg-elevated px-4 py-2 text-sm text-text-secondary transition-colors hover:border-accent/50 hover:text-accent"
+            >
+              LinkedIn profile ↗
+            </a>
+          </div>
         </header>
 
         <section className="mt-16 max-w-3xl">
@@ -110,17 +112,17 @@ export default function PortfolioHome() {
 
         <section className="mt-14 grid gap-4 md:grid-cols-2">
           <div className="rounded-2xl border border-border-subtle bg-surface/60 p-6">
-            <p className="text-xs font-semibold uppercase tracking-[0.2em] text-text-muted">Profile</p>
-            <h2 className="mt-3 font-heading text-xl text-text-primary">Qualifications and experience</h2>
+            <p className="text-xs font-semibold uppercase tracking-[0.2em] text-text-muted">Professional profile</p>
+            <h2 className="mt-3 font-heading text-xl text-text-primary">External Auditor · Senior Associate</h2>
             <p className="mt-3 text-sm leading-6 text-text-secondary">
-              Qualification milestones and work experience will be connected here as additional portfolio knowledge bases.
+              External audit and assurance experience at Forvis Mazars, with work across banking, retail, and manufacturing clients. The portfolio will connect responsibilities, skills, and achievements to the knowledge graph.
             </p>
           </div>
           <div className="rounded-2xl border border-border-subtle bg-surface/60 p-6">
-            <p className="text-xs font-semibold uppercase tracking-[0.2em] text-text-muted">CV</p>
-            <h2 className="mt-3 font-heading text-xl text-text-primary">CV knowledge base coming soon</h2>
+            <p className="text-xs font-semibold uppercase tracking-[0.2em] text-text-muted">CV profile</p>
+            <h2 className="mt-3 font-heading text-xl text-text-primary">Audit, IFRS, and ACCA pathway</h2>
             <p className="mt-3 text-sm leading-6 text-text-secondary">
-              Add a CV file or structured profile data to connect roles, responsibilities, skills, and achievements to the graph.
+              Bachelor&apos;s degree in accounting, IFRS Diploma, and ACCA studies in Audit &amp; Assurance, Financial Management, and TX-UK. Public contact details remain excluded from this portfolio page.
             </p>
           </div>
         </section>
