@@ -13,6 +13,7 @@ import FilterPanel from "./components/FilterPanel";
 import ExportMenu from "./components/ExportMenu";
 import PersonaSelector from "./components/PersonaSelector";
 import ProjectOverview from "./components/ProjectOverview";
+import PortfolioHome from "./components/PortfolioHome";
 import FileExplorer from "./components/FileExplorer";
 import WarningBanner from "./components/WarningBanner";
 import StalenessBanner from "./components/StalenessBanner";
@@ -260,12 +261,16 @@ function Dashboard({ accessToken }: { accessToken: string }) {
   return (
     <I18nProvider language={outputLanguage ?? "en"}>
       <ThemeProvider metaTheme={metaTheme}>
-        <DashboardContent
-          accessToken={accessToken}
-          loadError={loadError}
-          graphIssues={graphIssues}
-          graphFreshness={graphFreshness}
-        />
+        {new URLSearchParams(window.location.search).get("collection") ? (
+          <DashboardContent
+            accessToken={accessToken}
+            loadError={loadError}
+            graphIssues={graphIssues}
+            graphFreshness={graphFreshness}
+          />
+        ) : (
+          <PortfolioHome />
+        )}
       </ThemeProvider>
     </I18nProvider>
   );
@@ -501,6 +506,15 @@ function DashboardContent({
       <header className="flex items-center px-3 sm:px-5 py-3 bg-surface border-b border-border-subtle shrink-0 gap-2 sm:gap-4">
         {/* Left â€” fixed */}
         <div className="flex items-center gap-3 sm:gap-5 shrink-0 min-w-0">
+          <button
+            type="button"
+            onClick={() => {
+              window.location.href = import.meta.env.BASE_URL;
+            }}
+            className="hidden rounded-lg border border-border-medium bg-elevated px-2.5 py-1.5 text-xs text-text-muted transition-colors hover:border-accent/50 hover:text-accent sm:inline-flex"
+          >
+            Portfolio
+          </button>
           <h1 className="font-heading text-base sm:text-lg text-text-primary tracking-wide truncate max-w-[160px] sm:max-w-[220px] lg:max-w-none">
             {graph?.project.name ?? t.common.appName}
           </h1>
