@@ -1,3 +1,5 @@
+import { ThemePicker } from "./ThemePicker";
+
 const collections = [
   {
     key: "tx-uk",
@@ -61,6 +63,7 @@ export default function PortfolioHome() {
           >
             LinkedIn profile ↗
           </a>
+          <ThemePicker />
         </header>
 
         <section className="mt-16 max-w-3xl">

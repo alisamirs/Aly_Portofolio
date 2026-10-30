@@ -19,9 +19,17 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
+      - name: Restore cached Quarto output
+        id: quarto-cache
+        uses: actions/cache@v4
+        with:
+          path: content/acca/tx-uk/rendered
+          key: quarto-html-${{ hashFiles('content/acca/tx-uk/_quarto.yml', 'content/acca/tx-uk/mdpi-header.tex', 'content/acca/tx-uk/mdpi-template.bib', 'content/acca/tx-uk/source/**') }}
       - name: Set up Quarto
+        if: steps.quarto-cache.outputs.cache-hit != 'true'
         uses: quarto-dev/quarto-actions/setup@v2
       - name: Render Quarto notes
+        if: steps.quarto-cache.outputs.cache-hit != 'true'
         run: timeout 10m quarto render content/acca/tx-uk --to html --no-execute
       - name: Bundle public graph and notes
         shell: bash
