@@ -87,7 +87,7 @@ function LayerClusterNode({
             {data.fileCount} file{data.fileCount !== 1 ? "s" : ""}
           </span>
           <span className="text-[10px] text-text-muted opacity-0 group-hover:opacity-100 transition-opacity">
-            Click to explore â†’
+          Click to explore →
           </span>
         </div>
       </div>

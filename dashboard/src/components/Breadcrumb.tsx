@@ -26,7 +26,7 @@ export default function Breadcrumb() {
           >
             {t.breadcrumb.project}
           </button>
-          <span className="text-text-muted">â€º</span>
+          <span className="text-text-muted">›</span>
           <span className="text-text-primary">
             {activeLayer?.name ?? t.layer.defaultName}
           </span>

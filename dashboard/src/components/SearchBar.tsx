@@ -27,8 +27,6 @@ export default function SearchBar() {
   const graph = useDashboardStore((s) => s.graph);
   const setSearchQuery = useDashboardStore((s) => s.setSearchQuery);
   const navigateToNodeInLayer = useDashboardStore((s) => s.navigateToNodeInLayer);
-  const searchMode = useDashboardStore((s) => s.searchMode);
-  const setSearchMode = useDashboardStore((s) => s.setSearchMode);
   const { t } = useI18n();
 
   const [dropdownOpen, setDropdownOpen] = useState(false);
@@ -110,32 +108,9 @@ export default function SearchBar() {
           data-testid="search-input"
           className="flex-1 min-w-0 bg-elevated text-text-primary text-sm rounded-lg px-3 py-1.5 border border-border-subtle focus:outline-none focus:border-accent/50 placeholder-text-muted"
         />
-        <div className="flex items-center gap-1 bg-elevated rounded-lg p-0.5 shrink-0">
-          <button
-            onClick={() => setSearchMode("fuzzy")}
-            className={`text-[10px] px-1.5 py-0.5 rounded transition-colors ${
-              searchMode === "fuzzy"
-                ? "bg-accent/20 text-accent"
-                : "text-text-muted hover:text-text-secondary"
-            }`}
-          >
-            {t.search.fuzzy}
-          </button>
-          <button
-            onClick={() => setSearchMode("semantic")}
-            className={`text-[10px] px-1.5 py-0.5 rounded transition-colors ${
-              searchMode === "semantic"
-                ? "bg-accent/20 text-accent"
-                : "text-text-muted hover:text-text-secondary"
-            }`}
-          >
-            {t.search.semantic}
-          </button>
-        </div>
         {searchQuery.trim() && (
           <span className="hidden sm:inline text-xs text-text-muted shrink-0">
-            {searchResults.length} {t.search.result}{searchResults.length !== 1 ? "s" : ""}{" "}
-            <span className="text-text-muted">({searchMode})</span>
+            {searchResults.length} {t.search.result}{searchResults.length !== 1 ? "s" : ""}
           </span>
         )}
       </div>

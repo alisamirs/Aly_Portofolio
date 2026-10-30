@@ -412,7 +412,7 @@ Income tax computation 2025/26 - *assuming no bonus*
 |                                                | £         |
 |------------------------------------------------|-----------|
 | Employment income                              | 100,000   |
-| Less: PA (ANI â‰¤ £100,000)                      | (12,570)  |
+| Less: PA (ANI ≤ £100,000)                      | (12,570)  |
 | **Total income**                               | 87,430    |
 | Income tax:                                    |           |
 | Basic rate (£37,700 × 20%)                     | 7,540     |
@@ -424,7 +424,7 @@ Income tax computation 2025/26 - *with bonus of £25,140*
 |                                                | £         |
 |------------------------------------------------|-----------|
 | Employment income                              | 125,140   |
-| Less: PA (ANI â‰¥ £125,140)                      | (0)       |
+| Less: PA (ANI ≥ £125,140)                      | (0)       |
 | **Total income**                               | 125,140   |
 | Income tax:                                    |           |
 | Basic rate (£37,700 × 20%)                     | 7,540     |
@@ -1236,7 +1236,7 @@ Assume that these taxpayers have no other income in the tax year 2025/26.
 | **Aya Taxable income**                  | £        |
 |-----------------------------------------|----------|
 | Trading income / Total income           | 238,780  |
-| Less: PA (ANI â‰¥ £125,140) (N1)          | (0)      |
+| Less: PA (ANI ≥ £125,140) (N1)          | (0)      |
 | **Taxable income**                      |**238,780**|
 
 | **Aya Income tax liability**                  | Band     | £        |
@@ -1263,9 +1263,9 @@ As for Personal allowance (PA):
 
 **If ANI (Adjusted Net Income):**
 
-- Below £100,000 â†’ full PA available.  
-- Between £100,000 and £125,140 â†’ PA gradually reduced.  
-- Above £125,140 â†’ PA completely lost.  
+- Below £100,000 → full PA available.  
+- Between £100,000 and £125,140 → PA gradually reduced.  
+- Above £125,140 → PA completely lost.  
 
 ### Example: Starting vs. Different nil Saving income rate band
 

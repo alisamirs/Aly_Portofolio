@@ -45,7 +45,7 @@ function PortalNode({
               {data.targetLayerName}
             </span>
           </div>
-          <span className="text-text-muted ml-2 shrink-0">â†’</span>
+            <span className="text-text-muted ml-2 shrink-0">→</span>
         </div>
         <div className="text-[10px] text-text-muted mt-1 pl-4">
           {data.connectionCount} connection{data.connectionCount !== 1 ? "s" : ""}

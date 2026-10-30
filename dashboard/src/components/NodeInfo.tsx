@@ -3,7 +3,7 @@ import { useDashboardStore } from "../store";
 import { useI18n } from "../contexts/I18nContext";
 import type { NodeType, EdgeType, KnowledgeGraph, GraphNode } from "@tax-dashboard/core/types";
 
-// Badge color classes keyed by NodeType â€” must be kept in sync with core NodeType union.
+// Badge color classes keyed by NodeType — must be kept in sync with core NodeType union.
 const typeBadgeColors: Record<NodeType, string> = {
   file: "text-node-file border border-node-file/30 bg-node-file/10",
   function: "text-node-function border border-node-function/30 bg-node-function/10",
@@ -332,7 +332,7 @@ export default function NodeInfo() {
     complexityBadgeColors[node.complexity] ?? complexityBadgeColors.simple;
 
   if (import.meta.env.DEV && !(knownType in typeBadgeColors)) {
-    console.warn(`[NodeInfo] Unknown node type "${node.type}" â€” using "file" badge colors`);
+    console.warn(`[NodeInfo] Unknown node type "${node.type}" — using "file" badge colors`);
   }
 
   return (
@@ -344,10 +344,10 @@ export default function NodeInfo() {
             onClick={goBackNode}
             className="text-[10px] font-semibold text-gold hover:text-gold-bright transition-colors flex items-center gap-1"
           >
-            <span>â†</span>
+            <span>←</span>
             <span>{t.common.back}</span>
           </button>
-          <span className="text-text-muted text-[10px]">â”‚</span>
+          <span className="text-text-muted text-[10px]">│</span>
           {historyNodes.slice(-3).map((h, i, arr) => (
             <span key={`${h.id}-${i}`} className="flex items-center gap-1">
               <button
@@ -361,11 +361,11 @@ export default function NodeInfo() {
                 {h.name}
               </button>
               {i < arr.length - 1 && (
-                <span className="text-text-muted text-[10px]">â€º</span>
+                <span className="text-text-muted text-[10px]">›</span>
               )}
             </span>
           ))}
-          <span className="text-text-muted text-[10px]">â€º</span>
+                <span className="text-text-muted text-[10px]">›</span>
           <span className="text-[10px] text-text-primary font-medium truncate max-w-[80px]">
             {node.name}
           </span>

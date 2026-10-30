@@ -71,7 +71,7 @@ function ContainerNodeComponent({ data, width, height }: NodeProps<ContainerFlow
           className={labelDimmed ? "opacity-50" : ""}
           style={{ display: "flex", alignItems: "center", gap: 6 }}
         >
-          {data.isExpanded && <span style={{ fontSize: 10 }}>â–¾</span>}
+        {data.isExpanded && <span style={{ fontSize: 10 }}>▾</span>}
           {labelText}
           {data.searchHitCount != null && data.searchHitCount > 0 && (
             <span
