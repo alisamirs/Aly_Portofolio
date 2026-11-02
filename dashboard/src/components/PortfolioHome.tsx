@@ -6,7 +6,7 @@ const collections = [
     eyebrow: "ACCA · PASSED EXAM",
     title: "Taxation — TX-UK",
     description:
-      "Successfully passed the ACCA Taxation (TX-UK) examination (2026), I Developed a structured knowledge base and comprehensive study notes for ACCA Taxation (TX-UK), consolidating technical concep[...]
+      "Successfully passed the ACCA Taxation (TX-UK) examination (2026), I Developed a structured knowledge base and comprehensive study notes for ACCA Taxation (TX-UK), consolidating technical concepts, and practical examination applications.",
     action: "Open Tax knowledge graph",
     available: true,
   },
@@ -68,14 +68,14 @@ export default function PortfolioHome() {
           </a>
         </header>
 
-        <section className="mt-16 w-full">
+        <section className="mt-16 max-w-3xl">
           <p className="text-xs font-semibold uppercase tracking-[0.25em] text-accent">Audit & Assurance - AA Platform</p>
           <h1 className="mt-4 font-heading text-4xl leading-tight tracking-tight text-text-primary sm:text-6xl">
 
             Assalamu alaikum! 
 
           </h1>
-          <p className="mt-6 w-full max-w-none text-base leading-7 text-text-secondary sm:text-lg">
+          <p className="mt-6 max-full text-base leading-7 text-text-secondary sm:text-lg">
             I am an Audit and Assurance professional with over five years of experience in the banking and financial services sector. I created this platform to share my professional experience, exchange knowledge, and document my continuous learning journey.<br/>
             
             I hope this website will serve as a gateway for sharing insights, exploring new ideas, and encouraging continuous professional development—not only for myself but also for others who share the same passion for learning and knowledge.
@@ -119,59 +119,59 @@ export default function PortfolioHome() {
             <p className="text-xs font-semibold uppercase tracking-[0.2em] text-text-muted">Professional profile</p>
             <h2 className="mt-3 font-heading text-xl text-text-primary">External Auditor · Senior Associate</h2>
             <p className="mt-3 text-sm leading-6 text-text-secondary">
-              Experienced and resourceful external auditor with more than 5 years of experience in both the audit and assurance field. I’m currently working for Forvis Mazars – Audit Firm which provides external audit and assurance, risk management, and financial advisory solutions to a diverse range of clients across multiple sectors.
+              Experienced and resourceful external auditor with more than 5 years of experience in both the audit and assurance field. I’m currently working for Forvis Mazars – Audit Firm which provides audit and tax services for many industries and sectors such as banking, retailers, and many other Manufacturing companies.
             </p>
           </div>
           <div className="rounded-2xl border border-border-subtle bg-surface/60 p-6">
             <p className="text-xs font-semibold uppercase tracking-[0.2em] text-text-muted">Professional Development</p>
             <h2 className="mt-3 font-heading text-xl text-text-primary">Certificates and Education</h2>
             <p className="mt-3 text-sm leading-6 text-text-secondary">
-              Bachelor&apos;s degree in accounting, IFRS Diploma, and Passed ACCA Exames in Audit &amp; Assurance, Financial Management, and TX-UK. Public contact details remain excluded from this portfolio in line with professional privacy.
+              Bachelor&apos;s degree in accounting, IFRS Diploma, and Passed ACCA Exames in Audit &amp; Assurance, Financial Management, and TX-UK. Public contact details remain excluded from this portfolio page.
             </p>
           </div>
           <div className="rounded-2xl border border-border-subtle bg-surface/60 p-6">
             <p className="text-xs font-semibold uppercase tracking-[0.2em] text-text-muted">Computer Skills</p>
             <h2 className="mt-3 font-heading text-xl text-text-primary">Technical Experience</h2>
             <p className="mt-3 text-sm leading-6 text-text-secondary">
-              • Microsoft office Package (Using Python in excel). <br/> • International Online Audit Platform Forvis Mazars "Atlas". <br/> • Using Web Search Engines professionally for accounting and audit research.
+              •	Microsoft office Package (Using Python in excel). <br/> •	International Online Audit Platform Forvis Mazars "Atlas". <br/> •	Using Web Search Engines professionally for accounting and audit technical matters.
             </p>
           </div>
           <div className="rounded-2xl border border-border-subtle bg-surface/60 p-6">
             <p className="text-xs font-semibold uppercase tracking-[0.2em] text-text-muted">Social Skills</p>
             <h2 className="mt-3 font-heading text-xl text-text-primary">Personal Experience</h2>
             <p className="mt-3 text-sm leading-6 text-text-secondary">
-              • Effective Communication and Adaptability. <br/> • Presentation and Time Management. <br/> • Confident in working with different Cultures.
+              •	Effective Communication and Adaptability. <br/> •	Presentation and Time Management. <br/> •	Confident in working with different Cultures.
             </p>
           </div>
           <div className="rounded-2xl border border-border-subtle bg-surface/60 p-6">
             <p className="text-xs font-semibold uppercase tracking-[0.2em] text-text-muted">Work Experience</p>
             <h2 className="mt-3 font-heading text-xl text-text-primary">My Work Experience are the following:</h2>
             <p className="mt-3 text-sm leading-6 text-text-secondary">
-• Understanding the nature of bank’s primary business activities and the industry in which bank operates. <br/>
-• Evaluating internal control components through performing test of control for the bank’s Internal Control. <br/>
-• Participating in Preparing Management Letters, Engagement Letters. <br/>
-• Performing analytical procedures on financial statements. <br/>
-• Checking and validating the bank’s Permanent Documents. <br/>
-• Checking company’s FS disclosures to verify the compliance with Egyptian accounting standards and Laws or any other regulations or official bodies (i.e., CBE rules). <br/>
-• Performing tailored audit procedures for specific cases under their circumstances and the nature of account and preparing working papers and obtain reasonable assurance with appropriate audit evidence. <br/>
-• Preparing the auditor’s report that reflects audit results for reviewal then document the audit work process in accordance with regulatory requirements and ISAs using audit tools (i.e., Atlas). <br/>
-• Translating Financial Statements. <br/> 
+•	Understanding the nature of bank’s primary business activities and the industry in which bank operates. <br/>
+•	Evaluating internal control components through performing test of control for the bank’s Internal Control. <br/>
+•	Participating in Preparing Management Letters, Engagement Letters. <br/>
+•	Performing analytical procedures on financial statements. <br/>
+•	Checking and validating the bank’s Permanent Documents. <br/>
+•	Checking company’s FS disclosures to verify the compliance with Egyptian accounting standards and Laws or any other regulations or official bodies (i.e., CBE rules). <br/>
+•	Performing tailored audit procedures for specific cases under their circumstances and the nature of account and preparing working papers and obtain reasonable assurance with appropriate audit evidence that the financial statements are correct and free from material misstatement. <br/>
+•	Preparing the auditor’s report that reflects audit results for reviewal then document the audit work process in accordance with regulatory requirements and ISAs using audit tools (i.e., Atlas). <br/>
+•	Translating Financial Statements. <br/> 
             </p>
           </div>
           <div className="rounded-2xl border border-border-subtle bg-surface/60 p-6">
             <p className="text-xs font-semibold uppercase tracking-[0.2em] text-text-muted">Assignments</p>
             <h2 className="mt-3 font-heading text-xl text-text-primary">Assigned to audit engagements for the following banks, financial institutions, and companies:</h2>
             <p className="mt-3 text-sm leading-6 text-text-secondary">
-• Abu Dhabi Islamic Bank (ADIB) – Egypt <br/>
-• Agricultural Bank of Egypt (ABE) <br/>
-• AlexBank <br/>
-• Attijariwafa Bank (AWBE) <br/>
-• Emirates NDB <br/>
-• Egyptian Arab Land Bank - EALB <br/>
-• AdiFinance <br/>
-• Amlak <br/>
-• National Bank of Egypt - NBE <br/>
-• Teleperformance <br/> 
+•	Abu Dhabi Islamic Bank (ADIB) – Egypt <br/>
+•	Agricultural Bank of Egypt (ABE) <br/>
+•	AlexBank <br/>
+•	Attijariwafa Bank (AWBE) <br/>
+•	Emirates NDB <br/>
+•	Egyptian Arab Land Bank - EALB <br/>
+•	AdiFinance <br/>
+•	Amlak <br/>
+•	National Bank of Egypt - NBE <br/>
+•	Teleperformance <br/> 
             </p>
           </div>
         </section>
