@@ -75,7 +75,7 @@ export default function PortfolioHome() {
             Assalamu alaikum! 
 
           </h1>
-          <p className="mt-6 w-full text-base leading-7 text-text-secondary sm:text-lg">
+          <p className="w-full px-4 sm:px-6 lg:px-8">
             I am an Audit and Assurance professional with over five years of experience in the banking and financial services sector. I created this platform to share my professional experience, exchange knowledge, and document my continuous learning journey.<br/>
             
             I hope this website will serve as a gateway for sharing insights, exploring new ideas, and encouraging continuous professional development—not only for myself but also for others who share the same passion for learning and knowledge.
