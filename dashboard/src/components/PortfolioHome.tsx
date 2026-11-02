@@ -6,7 +6,7 @@ const collections = [
     eyebrow: "ACCA · PASSED EXAM",
     title: "Taxation — TX-UK",
     description:
-      "Explore the first knowledge graph: UK tax concepts, computations, reliefs, and the links between them.",
+      "Successfully passed the ACCA Taxation (TX-UK) examination (2026), I Developed a structured knowledge base and comprehensive study notes for ACCA Taxation (TX-UK), consolidating technical concepts, and practical examination applications.",
     action: "Open Tax knowledge graph",
     available: true,
   },
@@ -55,7 +55,7 @@ export default function PortfolioHome() {
             </div>
             <div>
               <p className="text-[10px] font-semibold uppercase tracking-[0.22em] text-accent">Ali Samir</p>
-              <p className="font-heading text-sm tracking-wide text-text-secondary">Portfolio</p>
+              <p className="font-heading text-sm tracking-wide text-text-secondary">Senior Associate</p>
             </div>
           </div>
           <a
@@ -69,12 +69,14 @@ export default function PortfolioHome() {
         </header>
 
         <section className="mt-16 max-w-3xl">
-          <p className="text-xs font-semibold uppercase tracking-[0.25em] text-accent">Professional knowledge graph</p>
+          <p className="text-xs font-semibold uppercase tracking-[0.25em] text-accent">Audit & Assurance - AA Platform</p>
           <h1 className="mt-4 font-heading text-4xl leading-tight tracking-tight text-text-primary sm:text-6xl">
-            A map of what I have learned, passed, and applied.
+
+            Assalamu alaikum! I am an Audit and Assurance professional with over five years of experience in the banking and financial services sector. I created this platform to share my professional experience, exchange knowledge, and document my continuous learning journey.
+
           </h1>
           <p className="mt-6 max-w-2xl text-base leading-7 text-text-secondary sm:text-lg">
-            This portfolio connects qualifications, exam knowledge, practical skills, and experience. Choose a knowledge base below to explore one part of the journey.
+            I hope this website will serve as a gateway for sharing insights, exploring new ideas, and encouraging continuous professional development—not only for myself but also for others who share the same passion for learning and knowledge.
           </p>
         </section>
 
@@ -143,11 +145,11 @@ export default function PortfolioHome() {
             <p className="text-xs font-semibold uppercase tracking-[0.2em] text-text-muted">Work Experience</p>
             <h2 className="mt-3 font-heading text-xl text-text-primary">My Work Experience are the following:</h2>
             <p className="mt-3 text-sm leading-6 text-text-secondary">
-•	Understanding the nature of company’s primary business activities and the industry in which company operates. <br/>
-•	Evaluating internal control components through performing test of control for the company’s Internal Control. <br/>
+•	Understanding the nature of bank’s primary business activities and the industry in which bank operates. <br/>
+•	Evaluating internal control components through performing test of control for the bank’s Internal Control. <br/>
 •	Participating in Preparing Management Letters, Engagement Letters. <br/>
 •	Performing analytical procedures on financial statements. <br/>
-•	Checking and validating the Company’s Permanent Documents. <br/>
+•	Checking and validating the bank’s Permanent Documents. <br/>
 •	Checking company’s FS disclosures to verify the compliance with Egyptian accounting standards and Laws or any other regulations or official bodies (i.e., CBE rules). <br/>
 •	Performing tailored audit procedures for specific cases under their circumstances and the nature of account and preparing working papers and obtain reasonable assurance with appropriate audit evidence that the financial statements are correct and free from material misstatement. <br/>
 •	Preparing the auditor’s report that reflects audit results for reviewal then document the audit work process in accordance with regulatory requirements and ISAs using audit tools (i.e., Atlas). <br/>
@@ -156,7 +158,7 @@ export default function PortfolioHome() {
           </div>
           <div className="rounded-2xl border border-border-subtle bg-surface/60 p-6">
             <p className="text-xs font-semibold uppercase tracking-[0.2em] text-text-muted">Assignments</p>
-            <h2 className="mt-3 font-heading text-xl text-text-primary">Assigned in the following Banks, Financial institutes and Companies:</h2>
+            <h2 className="mt-3 font-heading text-xl text-text-primary">Assigned to audit engagements for the following banks, financial institutions, and companies:</h2>
             <p className="mt-3 text-sm leading-6 text-text-secondary">
 •	Abu Dhabi Islamic Bank (ADIB) – Egypt <br/>
 •	Agricultural Bank of Egypt (ABE) <br/>
