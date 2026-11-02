@@ -72,10 +72,12 @@ export default function PortfolioHome() {
           <p className="text-xs font-semibold uppercase tracking-[0.25em] text-accent">Audit & Assurance - AA Platform</p>
           <h1 className="mt-4 font-heading text-4xl leading-tight tracking-tight text-text-primary sm:text-6xl">
 
-            Assalamu alaikum! I am an Audit and Assurance professional with over five years of experience in the banking and financial services sector. I created this platform to share my professional experience, exchange knowledge, and document my continuous learning journey.
+            Assalamu alaikum! 
 
           </h1>
-          <p className="mt-6 max-w-2xl text-base leading-7 text-text-secondary sm:text-lg">
+          <p className="mt-16 max-w-2xl text-base leading-7 text-text-secondary sm:text-lg">
+            I am an Audit and Assurance professional with over five years of experience in the banking and financial services sector. I created this platform to share my professional experience, exchange knowledge, and document my continuous learning journey.
+            
             I hope this website will serve as a gateway for sharing insights, exploring new ideas, and encouraging continuous professional development—not only for myself but also for others who share the same passion for learning and knowledge.
           </p>
         </section>
