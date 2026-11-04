@@ -1,11 +1,10 @@
 # Ali Samir — Portfolio profile
 
-This is a public, privacy-safe summary derived from the private CV. Contact details are intentionally excluded.
 
 ## Current profile
 
 - External Auditor, Senior Associate — Forvis Mazars
-- More than four years of audit and assurance experience
+- More than five years of audit and assurance experience
 - Experience across banking, retail, and manufacturing engagements
 
 ## Core experience
