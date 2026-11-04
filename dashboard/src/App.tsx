@@ -104,6 +104,18 @@ function App() {
     setAccessToken(token);
   }, []);
 
+    const collection = new URLSearchParams(window.location.search).get("collection");
+
+  if (collection === "articles") {
+    return (
+      <I18nProvider language="en">
+        <ThemeProvider>
+          <ArticlesPage />
+        </ThemeProvider>
+      </I18nProvider>
+    );
+  }
+  
   // In demo mode, skip token gate entirely
   if (DEMO_MODE) {
     return <Dashboard accessToken="__demo__" />;
