@@ -76,7 +76,7 @@ export default function PortfolioHome() {
           </a>
         </header>
 
-        <section className="mt-16 w-full">
+        <section className="mt-16 max-w-3xl">
           <p className="text-xs font-semibold uppercase tracking-[0.25em] text-accent">Audit & Assurance - AA Platform</p>
           <h1 className="mt-4 font-heading text-4xl leading-tight tracking-tight text-text-primary sm:text-6xl">
 
