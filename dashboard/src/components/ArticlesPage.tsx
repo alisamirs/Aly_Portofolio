@@ -14,14 +14,14 @@ interface Article {
 
 const articles: Article[] = [
   {
-    slug: "audit-planning",
-    title: "Audit planning: a practical overview",
+    slug: "ifrs-1-first-time-adoption",
+    title: "IFRS 1: A practical guide to first-time adoption",
     summary:
-      "An introduction to audit planning, why it matters, and further reading around ISA 300.",
+      "A step-by-step overview of the transition date, opening IFRS statement of financial position, accounting policies, exemptions, exceptions, and reconciliations.",
     date: "2026-11-04",
-    readTime: "3 min read",
-    tags: ["Audit", "Planning", "ISA 300"],
-    file: "../articles/audit-planning.md",
+    readTime: "7 min read",
+    tags: ["IFRS", "Financial reporting", "Transition"],
+    file: "../articles/ifrs-1-first-time-adoption.md",
   },
 ];
 
@@ -158,9 +158,9 @@ export default function ArticlesPage() {
                 </ReactMarkdown>
               </div>
               <footer className="mt-12 border-t border-border-subtle pt-5 text-xs leading-5 text-text-muted">
-                Articles are shared for general educational purposes and are not
-                professional advice. Refer to current authoritative guidance for
-                your circumstances.
+                This article is for general educational purposes and is not
+                professional advice. IFRS requirements can change; consult the
+                current authoritative standards and guidance for your circumstances.
               </footer>
             </article>
           ) : (
