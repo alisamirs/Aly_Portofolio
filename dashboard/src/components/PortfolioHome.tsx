@@ -2,6 +2,14 @@ import { ThemePicker } from "./ThemePicker";
 
 const collections = [
   {
+  key: "articles",
+  eyebrow: "WRITING",
+  title: "Articles",
+  description: "Articles and practical insights on audit, accounting, and professional development.",
+  action: "Browse articles",
+  available: true,
+  },
+  {
     key: "tx-uk",
     eyebrow: "ACCA · PASSED EXAM",
     title: "Taxation — TX-UK",
