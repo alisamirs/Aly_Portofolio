@@ -2,7 +2,7 @@ import { useEffect, useState, useMemo, useCallback, lazy, Suspense } from "react
 import { validateGraph } from "@tax-dashboard/core/schema";
 import type { GraphIssue } from "@tax-dashboard/core/schema";
 import { useDashboardStore } from "./store";
-import ArticlesPage from "./components/ArticlesPage";
+import ArticlesPage from "./components/ArticlesCollectionPage";
 import GraphView from "./components/GraphView";
 import DomainGraphView from "./components/DomainGraphView";
 import KnowledgeGraphView from "./components/KnowledgeGraphView";
