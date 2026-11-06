@@ -87,6 +87,95 @@
 
 .font-heading { font-family: var(--font-heading); }
 
+/* Markdown article typography. Tailwind's preflight resets heading defaults,
+   so article headings need explicit hierarchy. */
+.article-prose h1,
+.article-prose h2,
+.article-prose h3,
+.article-prose h4 {
+  color: var(--color-text-primary);
+  font-family: var(--font-heading);
+  line-height: 1.25;
+}
+
+.article-prose h1 {
+  margin: 2.5rem 0 1rem;
+  font-size: 1.875rem;
+}
+
+.article-prose h2 {
+  margin: 2.25rem 0 0.75rem;
+  border-bottom: 1px solid var(--color-border-subtle);
+  padding-bottom: 0.5rem;
+  font-size: 1.5rem;
+}
+
+.article-prose h3 {
+  margin: 1.75rem 0 0.5rem;
+  font-size: 1.25rem;
+}
+
+.article-prose h4 {
+  margin: 1.5rem 0 0.5rem;
+  font-size: 1.1rem;
+}
+
+.article-prose h1:first-child,
+.article-prose h2:first-child,
+.article-prose h3:first-child {
+  margin-top: 0;
+}
+
+.article-prose p {
+  margin-bottom: 1.25rem;
+}
+
+.article-prose ul,
+.article-prose ol {
+  margin: 0 0 1.25rem;
+  padding-left: 1.5rem;
+}
+
+.article-prose ul { list-style: disc; }
+.article-prose ol { list-style: decimal; }
+.article-prose li { margin: 0.45rem 0; }
+
+.article-prose a {
+  color: var(--color-accent);
+  text-decoration: underline;
+  text-decoration-color: var(--color-accent-dim);
+  text-underline-offset: 0.2rem;
+}
+
+.article-prose blockquote {
+  margin: 1.5rem 0;
+  border-left: 2px solid var(--color-accent);
+  padding-left: 1rem;
+  color: var(--color-text-muted);
+  font-style: italic;
+}
+
+.article-prose table {
+  display: block;
+  width: 100%;
+  margin: 1.5rem 0;
+  overflow-x: auto;
+  border-collapse: collapse;
+}
+
+.article-prose th,
+.article-prose td {
+  border: 1px solid var(--color-border-subtle);
+  padding: 0.65rem 0.8rem;
+  text-align: left;
+}
+
+.article-prose th {
+  background: var(--color-elevated);
+  color: var(--color-text-primary);
+  font-weight: 600;
+}
+
 /* Base styles */
 html {
   transition: background-color 0.2s ease, color 0.2s ease;
