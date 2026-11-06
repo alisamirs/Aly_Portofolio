@@ -1,8 +1,3 @@
-# IFRS 1: A practical guide to first-time adoption
-
-*An educational overview of the transition process for entities preparing their first financial statements that explicitly and unreservedly state compliance with IFRS Accounting Standards.*
-
-> **Scope note:** This is a high-level study guide, not a complete list of IFRS 1 requirements. The standard and related requirements may change. Check the current authoritative text and obtain professional advice for a specific reporting situation.
 
 ## What IFRS 1 is for
 

@@ -14,7 +14,7 @@ export const articles: ArticleRecord[] = [
   {
     slug: "ifrs-1-first-time-adoption",
     title: "IFRS 1: A practical guide to first-time adoption",
-    summary: "A step-by-step overview of the transition date, opening IFRS statement of financial position, exemptions, exceptions, and reconciliations.",
+    summary: "The objective of this IFRS is to ensure that an entity’s first IFRS financial statements, and its interim financial reports for part of the period covered by those financial statements, contain high quality information",
     date: "2026-11-04",
     readTime: "7 min read",
     tags: ["IFRS", "Financial reporting", "Transition"],
