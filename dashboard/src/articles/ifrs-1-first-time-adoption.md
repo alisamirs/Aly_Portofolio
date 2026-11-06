@@ -1,18 +1,23 @@
 
-## What IFRS 1 is for
+## What IFRS 1 is for?
 
-IFRS 1, *First-time Adoption of International Financial Reporting Standards*, sets out how an entity moves from its previous accounting framework to IFRS Accounting Standards for its first IFRS financial statements. Its aim is to make the first IFRS information transparent and comparable across the periods presented.
+IFRS 1 aims to ensure that an entity's first IFRS financial statements:
 
-IFRS 1 applies when an entity's first IFRS financial statements contain an explicit and unreserved statement of compliance with IFRS Accounting Standards. It also addresses interim financial reports for part of the period covered by those first IFRS financial statements.
+- Are transparent and comparable across periods.
+- Provide a suitable starting point for future IFRS reporting.
+- Deliver benefits that outweigh the cost of implementation.
 
-## The adoption roadmap
+It sets out how an entity moves from its previous accounting framework to IFRS Accounting Standards for its first IFRS financial statements. Its aim is to make the first IFRS information transparent and comparable across the periods presented.
 
-| Step | What the entity does | Why it matters |
-| --- | --- | --- |
-| **1. Identify the date of transition** | Determine the beginning of the earliest comparative period presented under IFRS in the first IFRS financial statements. | This date anchors the opening IFRS statement of financial position. |
-| **2. Prepare the opening IFRS statement of financial position** | Recognise, derecognise, reclassify, and measure items as required by IFRS at the transition date. | It is the starting point for accounting under IFRS. |
-| **3. Apply consistent IFRS accounting policies** | Use the policies that comply with IFRS and are effective at the end of the first IFRS reporting period across the periods presented, subject to IFRS 1's specific reliefs and requirements. | Consistent policies make the comparative information meaningful. |
-| **4. Explain the transition** | Provide the reconciliations and other disclosures required by IFRS 1. | Users can understand how moving from previous GAAP affected the reported figures. |
+
+## Step by Step application
+
+| Step | Description | 
+| --- | --- |
+| **1. Identify the date of transition** | Determine the beginning of the earliest comparative period presented under IFRS in the first IFRS financial statements. | 
+| **2. Prepare the opening IFRS statement of financial position** | Recognise, derecognise, reclassify, and measure items as required by IFRS at the transition date. |
+| **3. Apply consistent IFRS accounting policies** | Use the policies that comply with IFRS and are effective at the end of the first IFRS reporting period across the periods presented, subject to IFRS 1's specific reliefs and requirements. | 
+| **4. Explain the transition** | Provide the reconciliations and other disclosures required by IFRS 1. So users can understand how moving from previous GAAP affected the reported figures. |
 
 ### Worked date example
 
