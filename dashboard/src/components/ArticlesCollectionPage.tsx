@@ -1,4 +1,4 @@
-import { useMemo, useState } from "react";
+import { useEffect, useMemo, useState } from "react";
 import ReactMarkdown from "react-markdown";
 import remarkGfm from "remark-gfm";
 import { articles, type ArticleRecord } from "../data/articles";
@@ -53,6 +53,13 @@ export default function ArticlesCollectionPage() {
   const [selectedSlug, setSelectedSlug] = useState(() => new URLSearchParams(window.location.search).get("article"));
   const [query, setQuery] = useState("");
   const [activeTag, setActiveTag] = useState("All topics");
+  useEffect(() => {
+    const handleHistoryChange = () => {
+      setSelectedSlug(new URLSearchParams(window.location.search).get("article"));
+    };
+    window.addEventListener("popstate", handleHistoryChange);
+    return () => window.removeEventListener("popstate", handleHistoryChange);
+  }, []);
   const go = (slug?: string) => { navigate(slug); setSelectedSlug(slug ?? null); };
   const topics = ["All topics", ...new Set(articles.flatMap((article) => article.tags))];
   const filtered = useMemo(() => articles.filter((article) => {
