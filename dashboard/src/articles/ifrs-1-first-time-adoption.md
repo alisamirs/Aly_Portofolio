@@ -36,17 +36,26 @@ IFRS 1 does not operate in isolation, it interacts extensively with numerous oth
 - Depreciation methods consistent with previous GAAP may be retained unless they materially differ from IFRS requirements (paragraph D8).
 - Changes in estimated useful life or depreciation pattern are applied **prospectively**.
 
-### 3 IFRS 1 ↔ IAS 36 (Impairment of Assets)
+### 3. IFRS 1 ↔ IAS 36 (Impairment of Assets)
+
 - An entity must test for impairment at the date of transition, based on conditions existing at that date.
 - Estimates used are consistent with previous GAAP estimates (adjusted for policy differences), unless there is objective evidence of error.
 - Subsequent reversals of impairment losses are recognised in profit or loss.
 
-### 4 IFRS 1 ↔ IAS 37 (Provisions, Contingent Liabilities & Contingent Assets)
-- Provisions recognised under previous GAAP that do not meet IFRS 3 recognition criteria (e.g., restructuring provisions) are **eliminated** on transition.
-- Estimates for provisions are consistent with previous GAAP estimates adjusted for policy differences.
-- **IFRIC 1** (Changes in Existing Decommissioning Liabilities) applies, with a transitional exemption available (paragraph D21).
+### 4. IFRS 1 ↔ IAS 37 (Provisions, Contingent Liabilities & Contingent Assets)
 
-### 5 IFRS 1 ↔ IFRS 9 / IAS 32 (Financial Instruments)
+- IFRS 1 Appendix D, Paragraph D21 provides a first-time adoption exemption related to decommissioning, restoration, and similar liabilities (for example, obligations to dismantle a plant, restore a site, or remove equipment at the end of its useful life) (paragraph D21).
+- Under IFRIC 1, when a decommissioning liability changes, the change is normally added to or deducted from the carrying amount of the related asset, and the revised depreciable amount is depreciated **prospectively**.
+- For a company adopting IFRS for the first time, reconstructing every historical change in those liabilities can be very difficult. A first-time adopter does not need to retrospectively apply IFRIC 1 to changes in these liabilities that occurred before the transition date, Instead, at the transition date the entity:
+
+    - Measures the liability under IAS 37.
+    - Estimates the amount that would originally have been included in the asset's cost when the obligation first arose by discounting the liability using an estimate of the historical risk-adjusted discount rate(s).
+    - Calculates accumulated depreciation on that estimated amount up to the transition date using:
+        
+        - the current estimate of the asset's useful life, and
+        - the depreciation policy adopted under IFRS.
+
+### 5. IFRS 1 ↔ IFRS 9 / IAS 32 (Financial Instruments)
 - All financial assets and liabilities are recognised and measured in accordance with **IFRS 9** at the date of transition.
 - Classification is based on facts and circumstances existing at the transition date.
 - **Hedge accounting** can only be applied prospectively from the date the hedge relationship is fully designated and documented.
