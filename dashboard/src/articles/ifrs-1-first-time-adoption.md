@@ -56,15 +56,30 @@ IFRS 1 does not operate in isolation, it interacts extensively with numerous oth
         - the depreciation policy adopted under IFRS.
 
 ### 5. IFRS 1 ↔ IFRS 9 / IAS 32 (Financial Instruments)
+
 - All financial assets and liabilities are recognised and measured in accordance with **IFRS 9** at the date of transition.
 - Classification is based on facts and circumstances existing at the transition date.
-- **Hedge accounting** can only be applied prospectively from the date the hedge relationship is fully designated and documented.
-- Compound instruments are classified based on circumstances when the instrument first satisfied recognition criteria.
+- **Hedge accounting** can only be applied prospectively from the date the hedge relationship is fully designated and documented hedge accounting (paragraphs B4–B6).
+- At the date of transition to IFRS, hedge accounting can only be recognized if the hedging relationship satisfies the hedge accounting requirements of IFRS 9. An entity **cannot retrospectively** create hedge relationships that did not exist or were not properly designated and documented before transition.
+- A first-time adopter must not include in its opening IFRS statement of financial position a hedging relationship that does not qualify under IFRS 9. Examples include:
+    
+    - Certain hedges using a stand-alone written option as the hedging instrument.
+    - Some net-position hedges that fail IFRS 9 requirements.
 
-### 6 IFRS 1 ↔ IFRS 16 (Leases)
+- However, if a net position was designated as a hedged item under previous GAAP, the entity may redesignate an eligible individual item or qualifying net position under IFRS 9 by the transition date.
+- If, before transition, an entity had designated a transaction as a hedge and that hedge meets IFRS 9 requirements, the entity generally:
+
+    - Continues hedge accounting from the transition date.
+    - Uses the amounts recognized under previous GAAP as the starting point, subject to IFRS requirements.
+    - Does not retrospectively designate new hedge relationships or reconstruct documentation.
+
+### 6. IFRS 1 ↔ IFRS 16 (Leases)
+
 - Lessors classify leases based on circumstances at **inception** of the lease.
-- First-time adopters have specific transition reliefs (paragraphs D9, D9B–D9E) for leases.
-- If a subsidiary was a lessee under operating leases under previous GAAP, the parent recognises lease liabilities and right-of-use assets on transition.
+- First-time adopters have specific transition reliefs (paragraphs D9) for leases.
+- a first-time adopter may assess whether a contract contains a lease at the date of transition to IFRSs, rather than reassessing all contracts retrospectively from the contract inception date.
+- Instead of reviewing every historical contract under IFRS 16 from the date each contract was entered into, an entity may apply the requirements of IFRS 16 to determine whether an arrangement contains a lease based on the facts and circumstances that exist at the date of transition to IFRSs.
+- If a subsidiary was a lessee under operating leases under previous GAAP, IFRS 1 provides a specific relief when the subsidiary adopts IFRS later than its parent. Under IFRS 1 D16(a), a subsidiary may measure its lease liability and right-of-use (ROU) asset ***using amounts that would be included in the parent's consolidated financial statements***, based on the parent's date of transition to IFRS. This exemption was introduced to simplify adoption for subsidiaries joining an IFRS-reporting group later.
 
 ### 7 IFRS 1 ↔ IAS 19 (Employee Benefits)
 - Actuarial assumptions at the date of transition are consistent with previous GAAP assumptions (after adjusting for policy differences), unless there is objective evidence of error.
@@ -108,7 +123,29 @@ IFRS 1 does not operate in isolation, it interacts extensively with numerous oth
 
 ### Case Study
 
+---
 Suppose an entity presents its first IFRS financial statements for the year ending **31 December 20X5**, with one year of comparative information for **20X4**. The earliest comparative period begins on **1 January 20X4**, so that is generally the date of transition and the date of the opening IFRS statement of financial position. Always confirm the periods actually presented and the applicable IFRS 1 requirements.
+---
+
+A company adopting IFRS for the first time on 1 January 20X5 has hundreds of service and rental contracts entered into over many years.
+
+Without the exemption:
+
+The company would need to assess each contract at inception to determine whether it contains a lease.
+
+Using D9:
+
+The company can assess the contracts based on conditions existing at 1 January 20X5 (the transition date) and determine which contracts contain leases under IFRS 16.
+
+Audit focus
+
+When a client applies the D9 exemption, verify:
+
+The election is applied consistently.
+The lease assessment is based on facts and circumstances at the transition date.
+Appropriate disclosure of significant IFRS 1 exemptions used in the transition process.
+---
+
 
 ## Retrospective application: the general principle
 
