@@ -1,0 +1,879 @@
+﻿{
+    "version":  "1.0.0",
+    "kind":  "knowledge",
+    "project":  {
+                    "name":  "IFRS Knowledge Graph",
+                    "languages":  [
+                                      "markdown"
+                                  ],
+                    "frameworks":  [
+                                       "karpathy-wiki"
+                                   ],
+                    "description":  "Public-safe study knowledge graph covering selected IFRS, IAS, and related interpretation topics.",
+                    "analyzedAt":  "2026-11-10T12:05:44.5199660Z",
+                    "gitCommitHash":  ""
+                },
+    "nodes":  [
+                  {
+                      "id":  "article:IAS_12_Income_Taxes",
+                      "type":  "article",
+                      "name":  "IAS_12_Income_Taxes",
+                      "filePath":  "IAS_12_Income_Taxes.md",
+                      "summary":  "﻿# IAS 12 â€” Income Taxes",
+                      "tags":  [
+                                   "ias standards"
+                               ],
+                      "complexity":  "simple",
+                      "knowledgeMeta":  {
+                                            "wikilinks":  [
+                                                              "IFRS_1_First_Time_Adoption",
+                                                              "IAS_16_Property_Plant_Equipment",
+                                                              "IAS_36_Impairment"
+                                                          ],
+                                            "category":  "IAS standards",
+                                            "content":  "﻿# IAS 12 â€” Income Taxes\n\nIAS 12 covers current tax and deferred tax arising from temporary differences, unused tax losses, and tax credits.\n\n## Key ideas\n\nThe core study distinction is between the current tax calculation and the deferred tax consequences of differences between accounting carrying amounts and tax bases. Recognition depends on the relevant recovery and probability conditions.\n\n## Connections\n\nIAS 12 connects to [[IFRS_1_First_Time_Adoption]], [[IAS_16_Property_Plant_Equipment]], and [[IAS_36_Impairment]].",
+                                            "backlinks":  [
+                                                              "article:IAS_16_Property_Plant_Equipment",
+                                                              "article:IAS_37_Provisions",
+                                                              "article:IFRS_Study_Method"
+                                                          ]
+                                        }
+                  },
+                  {
+                      "id":  "article:IAS_16_Property_Plant_Equipment",
+                      "type":  "article",
+                      "name":  "IAS_16_Property_Plant_Equipment",
+                      "filePath":  "IAS_16_Property_Plant_Equipment.md",
+                      "summary":  "﻿# IAS 16 â€” Property, Plant and Equipment",
+                      "tags":  [
+                                   "ias standards"
+                               ],
+                      "complexity":  "simple",
+                      "knowledgeMeta":  {
+                                            "wikilinks":  [
+                                                              "IAS_36_Impairment",
+                                                              "IFRS_1_First_Time_Adoption",
+                                                              "IAS_12_Income_Taxes"
+                                                          ],
+                                            "category":  "IAS standards",
+                                            "content":  "﻿# IAS 16 â€” Property, Plant and Equipment\n\nIAS 16 addresses recognition, initial measurement, depreciation, subsequent measurement, and derecognition of tangible operating assets.\n\n## Key ideas\n\nStudy follows the recognition criteria, component accounting, useful lives and residual values, cost and revaluation models, impairment indicators, and disposal accounting.\n\n## Connections\n\nIAS 16 connects to [[IAS_36_Impairment]], [[IFRS_1_First_Time_Adoption]], and [[IAS_12_Income_Taxes]].",
+                                            "backlinks":  [
+                                                              "article:IAS_12_Income_Taxes",
+                                                              "article:IAS_36_Impairment",
+                                                              "article:IFRS_1_First_Time_Adoption",
+                                                              "article:IFRS_Study_Method"
+                                                          ]
+                                        }
+                  },
+                  {
+                      "id":  "article:IAS_28_Investments_Associates",
+                      "type":  "article",
+                      "name":  "IAS_28_Investments_Associates",
+                      "filePath":  "IAS_28_Investments_Associates.md",
+                      "summary":  "﻿# IAS 28 â€” Investments in Associates and Joint Ventures",
+                      "tags":  [
+
+                               ],
+                      "complexity":  "simple",
+                      "knowledgeMeta":  {
+                                            "wikilinks":  [
+
+                                                          ],
+                                            "content":  "﻿# IAS 28 â€” Investments in Associates and Joint Ventures\n\nIAS 28 addresses the equity method for investments in associates and joint ventures.\n",
+                                            "backlinks":  [
+                                                              "article:IFRS_10_Consolidation"
+                                                          ]
+                                        }
+                  },
+                  {
+                      "id":  "article:IAS_2_Inventories",
+                      "type":  "article",
+                      "name":  "IAS_2_Inventories",
+                      "filePath":  "IAS_2_Inventories.md",
+                      "summary":  "﻿# IAS 2 â€” Inventories",
+                      "tags":  [
+                                   "ias standards"
+                               ],
+                      "complexity":  "simple",
+                      "knowledgeMeta":  {
+                                            "wikilinks":  [
+                                                              "IFRS_15_Revenue",
+                                                              "IAS_36_Impairment",
+                                                              "IFRS_Study_Method"
+                                                          ],
+                                            "category":  "IAS standards",
+                                            "content":  "﻿# IAS 2 â€” Inventories\n\nIAS 2 addresses the measurement and expense recognition of inventories.\n\n## Key ideas\n\nInventories are measured at the lower of cost and net realisable value. Cost formulas, write-downs, reversals, and the point at which inventory becomes an expense are central study themes.\n\n## Connections\n\nIAS 2 connects to [[IFRS_15_Revenue]], [[IAS_36_Impairment]], and [[IFRS_Study_Method]].",
+                                            "backlinks":  [
+                                                              "article:IFRS_Study_Method"
+                                                          ]
+                                        }
+                  },
+                  {
+                      "id":  "article:IAS_32_Financial_Instruments_Presentation",
+                      "type":  "article",
+                      "name":  "IAS_32_Financial_Instruments_Presentation",
+                      "filePath":  "IAS_32_Financial_Instruments_Presentation.md",
+                      "summary":  "﻿# IAS 32 â€” Financial Instruments Presentation",
+                      "tags":  [
+
+                               ],
+                      "complexity":  "simple",
+                      "knowledgeMeta":  {
+                                            "wikilinks":  [
+
+                                                          ],
+                                            "content":  "﻿# IAS 32 â€” Financial Instruments Presentation\n\nIAS 32 addresses presentation, classification, and offsetting of financial instruments.\n",
+                                            "backlinks":  [
+                                                              "article:IFRS_9_Financial_Instruments"
+                                                          ]
+                                        }
+                  },
+                  {
+                      "id":  "article:IAS_36_Impairment",
+                      "type":  "article",
+                      "name":  "IAS_36_Impairment",
+                      "filePath":  "IAS_36_Impairment.md",
+                      "summary":  "﻿# IAS 36 â€” Impairment of Assets",
+                      "tags":  [
+                                   "ias standards"
+                               ],
+                      "complexity":  "simple",
+                      "knowledgeMeta":  {
+                                            "wikilinks":  [
+                                                              "IAS_16_Property_Plant_Equipment",
+                                                              "IFRS_16_Leases",
+                                                              "IFRS_1_First_Time_Adoption"
+                                                          ],
+                                            "category":  "IAS standards",
+                                            "content":  "﻿# IAS 36 â€” Impairment of Assets\n\nIAS 36 sets out when assets and cash-generating units are tested for impairment and how recoverable amount is determined.\n\n## Key ideas\n\nThe main concepts are impairment indicators, value in use, fair value less costs of disposal, cash-generating units, allocation of impairment losses, and reversal restrictions.\n\n## Connections\n\nIAS 36 connects to [[IAS_16_Property_Plant_Equipment]], [[IFRS_16_Leases]], and [[IFRS_1_First_Time_Adoption]].",
+                                            "backlinks":  [
+                                                              "article:IAS_12_Income_Taxes",
+                                                              "article:IAS_16_Property_Plant_Equipment",
+                                                              "article:IAS_2_Inventories",
+                                                              "article:IFRS_16_Leases",
+                                                              "article:IFRS_1_First_Time_Adoption",
+                                                              "article:IFRS_Study_Method"
+                                                          ]
+                                        }
+                  },
+                  {
+                      "id":  "article:IAS_37_Provisions",
+                      "type":  "article",
+                      "name":  "IAS_37_Provisions",
+                      "filePath":  "IAS_37_Provisions.md",
+                      "summary":  "﻿# IAS 37 â€” Provisions and Contingencies",
+                      "tags":  [
+                                   "ias standards"
+                               ],
+                      "complexity":  "simple",
+                      "knowledgeMeta":  {
+                                            "wikilinks":  [
+                                                              "IFRS_1_First_Time_Adoption",
+                                                              "IAS_12_Income_Taxes",
+                                                              "IFRS_15_Revenue"
+                                                          ],
+                                            "category":  "IAS standards",
+                                            "content":  "﻿# IAS 37 â€” Provisions and Contingencies\n\nIAS 37 distinguishes provisions from contingent liabilities and contingent assets and sets recognition and measurement principles.\n\n## Key ideas\n\nA provision requires a present obligation from a past event, a probable outflow, and a reliable estimate. The standard also guides disclosure where recognition criteria are not met.\n\n## Connections\n\nIAS 37 connects to [[IFRS_1_First_Time_Adoption]], [[IAS_12_Income_Taxes]], and [[IFRS_15_Revenue]].",
+                                            "backlinks":  [
+                                                              "article:IFRS_Study_Method"
+                                                          ]
+                                        }
+                  },
+                  {
+                      "id":  "article:IFRS_10_Consolidation",
+                      "type":  "article",
+                      "name":  "IFRS_10_Consolidation",
+                      "filePath":  "IFRS_10_Consolidation.md",
+                      "summary":  "﻿# IFRS 10 â€” Consolidated Financial Statements",
+                      "tags":  [
+                                   "core ifrs standards"
+                               ],
+                      "complexity":  "simple",
+                      "knowledgeMeta":  {
+                                            "wikilinks":  [
+                                                              "IAS_28_Investments_Associates",
+                                                              "IFRS_3_Business_Combinations",
+                                                              "IFRS_12_Interests_Other_Entities"
+                                                          ],
+                                            "category":  "Core IFRS standards",
+                                            "content":  "﻿# IFRS 10 â€” Consolidated Financial Statements\n\nIFRS 10 uses control as the basis for determining when an investor consolidates an investee.\n\n## Key ideas\n\nThe control assessment considers power over the investee, exposure or rights to variable returns, and the ability to use power to affect those returns. Consolidation then requires combining the relevant financial information and eliminating intragroup effects.\n\n## Connections\n\nIFRS 10 connects to [[IAS_28_Investments_Associates]], [[IFRS_3_Business_Combinations]], and [[IFRS_12_Interests_Other_Entities]].",
+                                            "backlinks":  [
+                                                              "article:IFRS_Study_Method"
+                                                          ]
+                                        }
+                  },
+                  {
+                      "id":  "article:IFRS_12_Interests_Other_Entities",
+                      "type":  "article",
+                      "name":  "IFRS_12_Interests_Other_Entities",
+                      "filePath":  "IFRS_12_Interests_Other_Entities.md",
+                      "summary":  "﻿# IFRS 12 â€” Disclosure of Interests in Other Entities",
+                      "tags":  [
+
+                               ],
+                      "complexity":  "simple",
+                      "knowledgeMeta":  {
+                                            "wikilinks":  [
+
+                                                          ],
+                                            "content":  "﻿# IFRS 12 â€” Disclosure of Interests in Other Entities\n\nIFRS 12 focuses on transparent disclosures about subsidiaries, associates, joint arrangements, and unconsolidated structured entities.\n",
+                                            "backlinks":  [
+                                                              "article:IFRS_10_Consolidation"
+                                                          ]
+                                        }
+                  },
+                  {
+                      "id":  "article:IFRS_15_Revenue",
+                      "type":  "article",
+                      "name":  "IFRS_15_Revenue",
+                      "filePath":  "IFRS_15_Revenue.md",
+                      "summary":  "﻿# IFRS 15 â€” Revenue from Contracts with Customers",
+                      "tags":  [
+                                   "core ifrs standards"
+                               ],
+                      "complexity":  "simple",
+                      "knowledgeMeta":  {
+                                            "wikilinks":  [
+                                                              "IFRS_Study_Method",
+                                                              "IFRS_16_Leases",
+                                                              "IFRS_1_First_Time_Adoption"
+                                                          ],
+                                            "category":  "Core IFRS standards",
+                                            "content":  "﻿# IFRS 15 â€” Revenue from Contracts with Customers\n\nIFRS 15 provides a principles-based model for recognising revenue from contracts with customers.\n\n## Five-step model\n\nThe study sequence is to identify the contract, identify performance obligations, determine the transaction price, allocate that price, and recognise revenue when or as performance obligations are satisfied.\n\n## Connections\n\nIFRS 15 connects to [[IFRS_Study_Method]], [[IFRS_16_Leases]], and [[IFRS_1_First_Time_Adoption]].",
+                                            "backlinks":  [
+                                                              "article:IAS_2_Inventories",
+                                                              "article:IAS_37_Provisions",
+                                                              "article:IFRS_Study_Method"
+                                                          ]
+                                        }
+                  },
+                  {
+                      "id":  "article:IFRS_16_Leases",
+                      "type":  "article",
+                      "name":  "IFRS_16_Leases",
+                      "filePath":  "IFRS_16_Leases.md",
+                      "summary":  "﻿# IFRS 16 â€” Leases",
+                      "tags":  [
+                                   "core ifrs standards"
+                               ],
+                      "complexity":  "simple",
+                      "knowledgeMeta":  {
+                                            "wikilinks":  [
+                                                              "IFRS_Study_Method",
+                                                              "IAS_36_Impairment",
+                                                              "IFRS_1_First_Time_Adoption"
+                                                          ],
+                                            "category":  "Core IFRS standards",
+                                            "content":  "﻿# IFRS 16 â€” Leases\n\nIFRS 16 establishes a lessee model that generally recognises a right-of-use asset and lease liability, subject to specified exemptions.\n\n## Key ideas\n\nA useful study route is to identify whether an arrangement contains a lease, measure the initial liability and right-of-use asset, understand subsequent depreciation and interest, and distinguish lease modifications and exemptions.\n\n## Connections\n\nIFRS 16 connects to [[IFRS_Study_Method]], [[IAS_36_Impairment]], and [[IFRS_1_First_Time_Adoption]].",
+                                            "backlinks":  [
+                                                              "article:IAS_36_Impairment",
+                                                              "article:IFRS_15_Revenue",
+                                                              "article:IFRS_Study_Method"
+                                                          ]
+                                        }
+                  },
+                  {
+                      "id":  "article:IFRS_1_First_Time_Adoption",
+                      "type":  "article",
+                      "name":  "IFRS_1_First_Time_Adoption",
+                      "filePath":  "IFRS_1_First_Time_Adoption.md",
+                      "summary":  "﻿# IFRS 1 â€” First-time Adoption",
+                      "tags":  [
+                                   "core ifrs standards"
+                               ],
+                      "complexity":  "simple",
+                      "knowledgeMeta":  {
+                                            "wikilinks":  [
+                                                              "IFRS_Study_Method",
+                                                              "IAS_16_Property_Plant_Equipment",
+                                                              "IAS_36_Impairment",
+                                                              "IFRS_9_Financial_Instruments"
+                                                          ],
+                                            "category":  "Core IFRS standards",
+                                            "content":  "﻿# IFRS 1 â€” First-time Adoption\n\nIFRS 1 establishes the framework for an entity preparing its first financial statements that explicitly and unreservedly comply with IFRS Accounting Standards.\n\n## Key ideas\n\nThe adoption process centres on a date of transition, an opening IFRS statement of financial position, consistent accounting policies, and transparent reconciliations from previous GAAP. IFRS 1 combines a general retrospective principle with specific optional exemptions and mandatory exceptions.\n\n## Connections\n\nIFRS 1 connects to [[IFRS_Study_Method]], [[IAS_16_Property_Plant_Equipment]], [[IAS_36_Impairment]], and [[IFRS_9_Financial_Instruments]].",
+                                            "backlinks":  [
+                                                              "article:IAS_12_Income_Taxes",
+                                                              "article:IAS_16_Property_Plant_Equipment",
+                                                              "article:IAS_36_Impairment",
+                                                              "article:IAS_37_Provisions",
+                                                              "article:IFRS_15_Revenue",
+                                                              "article:IFRS_16_Leases",
+                                                              "article:IFRS_Study_Method"
+                                                          ]
+                                        }
+                  },
+                  {
+                      "id":  "article:IFRS_3_Business_Combinations",
+                      "type":  "article",
+                      "name":  "IFRS_3_Business_Combinations",
+                      "filePath":  "IFRS_3_Business_Combinations.md",
+                      "summary":  "﻿# IFRS 3 â€” Business Combinations",
+                      "tags":  [
+
+                               ],
+                      "complexity":  "simple",
+                      "knowledgeMeta":  {
+                                            "wikilinks":  [
+
+                                                          ],
+                                            "content":  "﻿# IFRS 3 â€” Business Combinations\n\nIFRS 3 addresses acquisition accounting, goodwill, and identifiable assets and liabilities in a business combination.\n",
+                                            "backlinks":  [
+                                                              "article:IFRS_10_Consolidation"
+                                                          ]
+                                        }
+                  },
+                  {
+                      "id":  "article:IFRS_7_Financial_Instruments_Disclosures",
+                      "type":  "article",
+                      "name":  "IFRS_7_Financial_Instruments_Disclosures",
+                      "filePath":  "IFRS_7_Financial_Instruments_Disclosures.md",
+                      "summary":  "﻿# IFRS 7 â€” Financial Instruments Disclosures",
+                      "tags":  [
+
+                               ],
+                      "complexity":  "simple",
+                      "knowledgeMeta":  {
+                                            "wikilinks":  [
+
+                                                          ],
+                                            "content":  "﻿# IFRS 7 â€” Financial Instruments Disclosures\n\nIFRS 7 requires disclosures that help users evaluate the significance of financial instruments and the risks arising from them.\n",
+                                            "backlinks":  [
+                                                              "article:IFRS_9_Financial_Instruments"
+                                                          ]
+                                        }
+                  },
+                  {
+                      "id":  "article:IFRS_9_Financial_Instruments",
+                      "type":  "article",
+                      "name":  "IFRS_9_Financial_Instruments",
+                      "filePath":  "IFRS_9_Financial_Instruments.md",
+                      "summary":  "﻿# IFRS 9 â€” Financial Instruments",
+                      "tags":  [
+                                   "core ifrs standards"
+                               ],
+                      "complexity":  "simple",
+                      "knowledgeMeta":  {
+                                            "wikilinks":  [
+                                                              "IAS_32_Financial_Instruments_Presentation",
+                                                              "IFRS_7_Financial_Instruments_Disclosures",
+                                                              "IFRS_Study_Method"
+                                                          ],
+                                            "category":  "Core IFRS standards",
+                                            "content":  "﻿# IFRS 9 â€” Financial Instruments\n\nIFRS 9 addresses classification and measurement of financial assets and liabilities, impairment, and hedge accounting.\n\n## Key ideas\n\nStudy commonly follows the business-model and contractual-cash-flow assessment, expected credit loss model, and the relationship between risk management and hedge accounting. The standard links closely with presentation and disclosure requirements in IAS 32 and IFRS 7.\n\n## Connections\n\nIFRS 9 connects to [[IAS_32_Financial_Instruments_Presentation]], [[IFRS_7_Financial_Instruments_Disclosures]], and [[IFRS_Study_Method]].",
+                                            "backlinks":  [
+                                                              "article:IFRS_1_First_Time_Adoption",
+                                                              "article:IFRS_Study_Method"
+                                                          ]
+                                        }
+                  },
+                  {
+                      "id":  "article:IFRS_Study_Method",
+                      "type":  "article",
+                      "name":  "IFRS_Study_Method",
+                      "filePath":  "IFRS_Study_Method.md",
+                      "summary":  "﻿# IFRS Study Method",
+                      "tags":  [
+                                   "interpretations and study method"
+                               ],
+                      "complexity":  "moderate",
+                      "knowledgeMeta":  {
+                                            "wikilinks":  [
+                                                              "IFRS_1_First_Time_Adoption",
+                                                              "IFRS_9_Financial_Instruments",
+                                                              "IFRS_15_Revenue",
+                                                              "IFRS_16_Leases",
+                                                              "IFRS_10_Consolidation",
+                                                              "IAS_2_Inventories",
+                                                              "IAS_12_Income_Taxes",
+                                                              "IAS_16_Property_Plant_Equipment",
+                                                              "IAS_36_Impairment",
+                                                              "IAS_37_Provisions"
+                                                          ],
+                                            "category":  "Interpretations and study method",
+                                            "content":  "﻿# IFRS Study Method\n\nThis collection is organised as a connected study map rather than a replacement for the authoritative standards.\n\n## Suggested route\n\nStart with the purpose and recognition model of each standard, then map measurement, presentation, disclosure, and common judgement areas. Use the original source PDFs in the IFRS Study folder for detailed requirements and exam preparation.\n\n## Connections\n\nThe study method connects every topic in this collection, including [[IFRS_1_First_Time_Adoption]], [[IFRS_9_Financial_Instruments]], [[IFRS_15_Revenue]], [[IFRS_16_Leases]], [[IFRS_10_Consolidation]], [[IAS_2_Inventories]], [[IAS_12_Income_Taxes]], [[IAS_16_Property_Plant_Equipment]], [[IAS_36_Impairment]], and [[IAS_37_Provisions]].",
+                                            "backlinks":  [
+                                                              "article:IAS_2_Inventories",
+                                                              "article:IFRS_15_Revenue",
+                                                              "article:IFRS_16_Leases",
+                                                              "article:IFRS_1_First_Time_Adoption",
+                                                              "article:IFRS_9_Financial_Instruments"
+                                                          ]
+                                        }
+                  },
+                  {
+                      "id":  "topic:core-ifrs-standards",
+                      "type":  "topic",
+                      "name":  "Core IFRS standards",
+                      "summary":  "Category from index: Core IFRS standards (5 articles)",
+                      "tags":  [
+                                   "category"
+                               ],
+                      "complexity":  "simple"
+                  },
+                  {
+                      "id":  "topic:ias-standards",
+                      "type":  "topic",
+                      "name":  "IAS standards",
+                      "summary":  "Category from index: IAS standards (5 articles)",
+                      "tags":  [
+                                   "category"
+                               ],
+                      "complexity":  "simple"
+                  },
+                  {
+                      "id":  "topic:interpretations-and-study-method",
+                      "type":  "topic",
+                      "name":  "Interpretations and study method",
+                      "summary":  "Category from index: Interpretations and study method (1 articles)",
+                      "tags":  [
+                                   "category"
+                               ],
+                      "complexity":  "simple"
+                  }
+              ],
+    "edges":  [
+                  {
+                      "source":  "article:IAS_12_Income_Taxes",
+                      "target":  "article:IFRS_1_First_Time_Adoption",
+                      "type":  "related",
+                      "direction":  "forward",
+                      "weight":  0.7
+                  },
+                  {
+                      "source":  "article:IAS_12_Income_Taxes",
+                      "target":  "article:IAS_16_Property_Plant_Equipment",
+                      "type":  "related",
+                      "direction":  "forward",
+                      "weight":  0.7
+                  },
+                  {
+                      "source":  "article:IAS_12_Income_Taxes",
+                      "target":  "article:IAS_36_Impairment",
+                      "type":  "related",
+                      "direction":  "forward",
+                      "weight":  0.7
+                  },
+                  {
+                      "source":  "article:IAS_16_Property_Plant_Equipment",
+                      "target":  "article:IAS_36_Impairment",
+                      "type":  "related",
+                      "direction":  "forward",
+                      "weight":  0.7
+                  },
+                  {
+                      "source":  "article:IAS_16_Property_Plant_Equipment",
+                      "target":  "article:IFRS_1_First_Time_Adoption",
+                      "type":  "related",
+                      "direction":  "forward",
+                      "weight":  0.7
+                  },
+                  {
+                      "source":  "article:IAS_16_Property_Plant_Equipment",
+                      "target":  "article:IAS_12_Income_Taxes",
+                      "type":  "related",
+                      "direction":  "forward",
+                      "weight":  0.7
+                  },
+                  {
+                      "source":  "article:IAS_2_Inventories",
+                      "target":  "article:IFRS_15_Revenue",
+                      "type":  "related",
+                      "direction":  "forward",
+                      "weight":  0.7
+                  },
+                  {
+                      "source":  "article:IAS_2_Inventories",
+                      "target":  "article:IAS_36_Impairment",
+                      "type":  "related",
+                      "direction":  "forward",
+                      "weight":  0.7
+                  },
+                  {
+                      "source":  "article:IAS_2_Inventories",
+                      "target":  "article:IFRS_Study_Method",
+                      "type":  "related",
+                      "direction":  "forward",
+                      "weight":  0.7
+                  },
+                  {
+                      "source":  "article:IAS_36_Impairment",
+                      "target":  "article:IAS_16_Property_Plant_Equipment",
+                      "type":  "related",
+                      "direction":  "forward",
+                      "weight":  0.7
+                  },
+                  {
+                      "source":  "article:IAS_36_Impairment",
+                      "target":  "article:IFRS_16_Leases",
+                      "type":  "related",
+                      "direction":  "forward",
+                      "weight":  0.7
+                  },
+                  {
+                      "source":  "article:IAS_36_Impairment",
+                      "target":  "article:IFRS_1_First_Time_Adoption",
+                      "type":  "related",
+                      "direction":  "forward",
+                      "weight":  0.7
+                  },
+                  {
+                      "source":  "article:IAS_37_Provisions",
+                      "target":  "article:IFRS_1_First_Time_Adoption",
+                      "type":  "related",
+                      "direction":  "forward",
+                      "weight":  0.7
+                  },
+                  {
+                      "source":  "article:IAS_37_Provisions",
+                      "target":  "article:IAS_12_Income_Taxes",
+                      "type":  "related",
+                      "direction":  "forward",
+                      "weight":  0.7
+                  },
+                  {
+                      "source":  "article:IAS_37_Provisions",
+                      "target":  "article:IFRS_15_Revenue",
+                      "type":  "related",
+                      "direction":  "forward",
+                      "weight":  0.7
+                  },
+                  {
+                      "source":  "article:IFRS_10_Consolidation",
+                      "target":  "article:IAS_28_Investments_Associates",
+                      "type":  "related",
+                      "direction":  "forward",
+                      "weight":  0.7
+                  },
+                  {
+                      "source":  "article:IFRS_10_Consolidation",
+                      "target":  "article:IFRS_3_Business_Combinations",
+                      "type":  "related",
+                      "direction":  "forward",
+                      "weight":  0.7
+                  },
+                  {
+                      "source":  "article:IFRS_10_Consolidation",
+                      "target":  "article:IFRS_12_Interests_Other_Entities",
+                      "type":  "related",
+                      "direction":  "forward",
+                      "weight":  0.7
+                  },
+                  {
+                      "source":  "article:IFRS_15_Revenue",
+                      "target":  "article:IFRS_Study_Method",
+                      "type":  "related",
+                      "direction":  "forward",
+                      "weight":  0.7
+                  },
+                  {
+                      "source":  "article:IFRS_15_Revenue",
+                      "target":  "article:IFRS_16_Leases",
+                      "type":  "related",
+                      "direction":  "forward",
+                      "weight":  0.7
+                  },
+                  {
+                      "source":  "article:IFRS_15_Revenue",
+                      "target":  "article:IFRS_1_First_Time_Adoption",
+                      "type":  "related",
+                      "direction":  "forward",
+                      "weight":  0.7
+                  },
+                  {
+                      "source":  "article:IFRS_16_Leases",
+                      "target":  "article:IFRS_Study_Method",
+                      "type":  "related",
+                      "direction":  "forward",
+                      "weight":  0.7
+                  },
+                  {
+                      "source":  "article:IFRS_16_Leases",
+                      "target":  "article:IAS_36_Impairment",
+                      "type":  "related",
+                      "direction":  "forward",
+                      "weight":  0.7
+                  },
+                  {
+                      "source":  "article:IFRS_16_Leases",
+                      "target":  "article:IFRS_1_First_Time_Adoption",
+                      "type":  "related",
+                      "direction":  "forward",
+                      "weight":  0.7
+                  },
+                  {
+                      "source":  "article:IFRS_1_First_Time_Adoption",
+                      "target":  "article:IFRS_Study_Method",
+                      "type":  "related",
+                      "direction":  "forward",
+                      "weight":  0.7
+                  },
+                  {
+                      "source":  "article:IFRS_1_First_Time_Adoption",
+                      "target":  "article:IAS_16_Property_Plant_Equipment",
+                      "type":  "related",
+                      "direction":  "forward",
+                      "weight":  0.7
+                  },
+                  {
+                      "source":  "article:IFRS_1_First_Time_Adoption",
+                      "target":  "article:IAS_36_Impairment",
+                      "type":  "related",
+                      "direction":  "forward",
+                      "weight":  0.7
+                  },
+                  {
+                      "source":  "article:IFRS_1_First_Time_Adoption",
+                      "target":  "article:IFRS_9_Financial_Instruments",
+                      "type":  "related",
+                      "direction":  "forward",
+                      "weight":  0.7
+                  },
+                  {
+                      "source":  "article:IFRS_9_Financial_Instruments",
+                      "target":  "article:IAS_32_Financial_Instruments_Presentation",
+                      "type":  "related",
+                      "direction":  "forward",
+                      "weight":  0.7
+                  },
+                  {
+                      "source":  "article:IFRS_9_Financial_Instruments",
+                      "target":  "article:IFRS_7_Financial_Instruments_Disclosures",
+                      "type":  "related",
+                      "direction":  "forward",
+                      "weight":  0.7
+                  },
+                  {
+                      "source":  "article:IFRS_9_Financial_Instruments",
+                      "target":  "article:IFRS_Study_Method",
+                      "type":  "related",
+                      "direction":  "forward",
+                      "weight":  0.7
+                  },
+                  {
+                      "source":  "article:IFRS_Study_Method",
+                      "target":  "article:IFRS_1_First_Time_Adoption",
+                      "type":  "related",
+                      "direction":  "forward",
+                      "weight":  0.7
+                  },
+                  {
+                      "source":  "article:IFRS_Study_Method",
+                      "target":  "article:IFRS_9_Financial_Instruments",
+                      "type":  "related",
+                      "direction":  "forward",
+                      "weight":  0.7
+                  },
+                  {
+                      "source":  "article:IFRS_Study_Method",
+                      "target":  "article:IFRS_15_Revenue",
+                      "type":  "related",
+                      "direction":  "forward",
+                      "weight":  0.7
+                  },
+                  {
+                      "source":  "article:IFRS_Study_Method",
+                      "target":  "article:IFRS_16_Leases",
+                      "type":  "related",
+                      "direction":  "forward",
+                      "weight":  0.7
+                  },
+                  {
+                      "source":  "article:IFRS_Study_Method",
+                      "target":  "article:IFRS_10_Consolidation",
+                      "type":  "related",
+                      "direction":  "forward",
+                      "weight":  0.7
+                  },
+                  {
+                      "source":  "article:IFRS_Study_Method",
+                      "target":  "article:IAS_2_Inventories",
+                      "type":  "related",
+                      "direction":  "forward",
+                      "weight":  0.7
+                  },
+                  {
+                      "source":  "article:IFRS_Study_Method",
+                      "target":  "article:IAS_12_Income_Taxes",
+                      "type":  "related",
+                      "direction":  "forward",
+                      "weight":  0.7
+                  },
+                  {
+                      "source":  "article:IFRS_Study_Method",
+                      "target":  "article:IAS_16_Property_Plant_Equipment",
+                      "type":  "related",
+                      "direction":  "forward",
+                      "weight":  0.7
+                  },
+                  {
+                      "source":  "article:IFRS_Study_Method",
+                      "target":  "article:IAS_36_Impairment",
+                      "type":  "related",
+                      "direction":  "forward",
+                      "weight":  0.7
+                  },
+                  {
+                      "source":  "article:IFRS_Study_Method",
+                      "target":  "article:IAS_37_Provisions",
+                      "type":  "related",
+                      "direction":  "forward",
+                      "weight":  0.7
+                  },
+                  {
+                      "source":  "article:IFRS_1_First_Time_Adoption",
+                      "target":  "topic:core-ifrs-standards",
+                      "type":  "categorized_under",
+                      "direction":  "forward",
+                      "weight":  0.6
+                  },
+                  {
+                      "source":  "article:IFRS_9_Financial_Instruments",
+                      "target":  "topic:core-ifrs-standards",
+                      "type":  "categorized_under",
+                      "direction":  "forward",
+                      "weight":  0.6
+                  },
+                  {
+                      "source":  "article:IFRS_15_Revenue",
+                      "target":  "topic:core-ifrs-standards",
+                      "type":  "categorized_under",
+                      "direction":  "forward",
+                      "weight":  0.6
+                  },
+                  {
+                      "source":  "article:IFRS_16_Leases",
+                      "target":  "topic:core-ifrs-standards",
+                      "type":  "categorized_under",
+                      "direction":  "forward",
+                      "weight":  0.6
+                  },
+                  {
+                      "source":  "article:IFRS_10_Consolidation",
+                      "target":  "topic:core-ifrs-standards",
+                      "type":  "categorized_under",
+                      "direction":  "forward",
+                      "weight":  0.6
+                  },
+                  {
+                      "source":  "article:IAS_2_Inventories",
+                      "target":  "topic:ias-standards",
+                      "type":  "categorized_under",
+                      "direction":  "forward",
+                      "weight":  0.6
+                  },
+                  {
+                      "source":  "article:IAS_12_Income_Taxes",
+                      "target":  "topic:ias-standards",
+                      "type":  "categorized_under",
+                      "direction":  "forward",
+                      "weight":  0.6
+                  },
+                  {
+                      "source":  "article:IAS_16_Property_Plant_Equipment",
+                      "target":  "topic:ias-standards",
+                      "type":  "categorized_under",
+                      "direction":  "forward",
+                      "weight":  0.6
+                  },
+                  {
+                      "source":  "article:IAS_36_Impairment",
+                      "target":  "topic:ias-standards",
+                      "type":  "categorized_under",
+                      "direction":  "forward",
+                      "weight":  0.6
+                  },
+                  {
+                      "source":  "article:IAS_37_Provisions",
+                      "target":  "topic:ias-standards",
+                      "type":  "categorized_under",
+                      "direction":  "forward",
+                      "weight":  0.6
+                  },
+                  {
+                      "source":  "article:IFRS_Study_Method",
+                      "target":  "topic:interpretations-and-study-method",
+                      "type":  "categorized_under",
+                      "direction":  "forward",
+                      "weight":  0.6
+                  }
+              ],
+    "layers":  [
+                   {
+                       "id":  "layer:core-ifrs-standards",
+                       "name":  "Core IFRS standards",
+                       "description":  "Core IFRS standards (6 nodes)",
+                       "nodeIds":  [
+                                       "article:IFRS_1_First_Time_Adoption",
+                                       "article:IFRS_9_Financial_Instruments",
+                                       "article:IFRS_15_Revenue",
+                                       "article:IFRS_16_Leases",
+                                       "article:IFRS_10_Consolidation",
+                                       "topic:core-ifrs-standards"
+                                   ]
+                   },
+                   {
+                       "id":  "layer:ias-standards",
+                       "name":  "IAS standards",
+                       "description":  "IAS standards (6 nodes)",
+                       "nodeIds":  [
+                                       "article:IAS_2_Inventories",
+                                       "article:IAS_12_Income_Taxes",
+                                       "article:IAS_16_Property_Plant_Equipment",
+                                       "article:IAS_36_Impairment",
+                                       "article:IAS_37_Provisions",
+                                       "topic:ias-standards"
+                                   ]
+                   },
+                   {
+                       "id":  "layer:interpretations-and-study-method",
+                       "name":  "Interpretations and study method",
+                       "description":  "Interpretations and study method (2 nodes)",
+                       "nodeIds":  [
+                                       "article:IFRS_Study_Method",
+                                       "topic:interpretations-and-study-method"
+                                   ]
+                   },
+                   {
+                       "id":  "layer:other",
+                       "name":  "Other",
+                       "description":  "Uncategorized nodes (5)",
+                       "nodeIds":  [
+                                       "article:IAS_28_Investments_Associates",
+                                       "article:IAS_32_Financial_Instruments_Presentation",
+                                       "article:IFRS_12_Interests_Other_Entities",
+                                       "article:IFRS_3_Business_Combinations",
+                                       "article:IFRS_7_Financial_Instruments_Disclosures"
+                                   ]
+                   }
+               ],
+    "tour":  [
+                 {
+                     "order":  1,
+                     "title":  "Core IFRS standards",
+                     "description":  "Explore the Core IFRS standards section (5 articles)",
+                     "nodeIds":  [
+                                     "article:IFRS_1_First_Time_Adoption",
+                                     "article:IFRS_9_Financial_Instruments",
+                                     "article:IFRS_15_Revenue"
+                                 ]
+                 },
+                 {
+                     "order":  2,
+                     "title":  "IAS standards",
+                     "description":  "Explore the IAS standards section (5 articles)",
+                     "nodeIds":  [
+                                     "article:IAS_2_Inventories",
+                                     "article:IAS_12_Income_Taxes",
+                                     "article:IAS_16_Property_Plant_Equipment"
+                                 ]
+                 },
+                 {
+                     "order":  3,
+                     "title":  "Interpretations and study method",
+                     "description":  "Explore the Interpretations and study method section (1 articles)",
+                     "nodeIds":  [
+                                     "article:IFRS_Study_Method"
+                                 ]
+                 }
+             ]
+}

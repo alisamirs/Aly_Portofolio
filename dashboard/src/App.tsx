@@ -147,7 +147,10 @@ function Dashboard({ accessToken }: { accessToken: string }) {
   }, []);
 
   useEffect(() => {
-    fetch(dataUrl("knowledge-graph.json", accessToken))
+    const graphFile = new URLSearchParams(window.location.search).get("collection") === "ifrs"
+      ? "ifrs-knowledge-graph.json"
+      : "knowledge-graph.json";
+    fetch(dataUrl(graphFile, accessToken))
       .then(async (res) => {
         // Guard res.ok before parsing (matching the meta.json/config.json/
         // diff-overlay.json/domain-graph.json fetches in this file). Without

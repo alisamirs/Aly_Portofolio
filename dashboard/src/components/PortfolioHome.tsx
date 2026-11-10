@@ -19,6 +19,15 @@ const collections = [
     available: true,
   },
   {
+    key: "ifrs",
+    eyebrow: "ACCOUNTING KNOWLEDGE GRAPH",
+    title: "IFRS Knowledge Graph",
+    description:
+      "Explore a connected study map of selected IFRS, IAS, and related interpretation topics, built from the IFRS Study collection.",
+    action: "Open IFRS knowledge graph",
+    available: true,
+  },
+  {
     key: "fm",
     eyebrow: "ACCA · PASSED EXAM",
     title: "Financial Management",

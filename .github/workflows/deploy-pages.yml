@@ -37,6 +37,7 @@ jobs:
           rm -rf dashboard/public dashboard/dist
           mkdir -p dashboard/public
           cp .ua/knowledge-graph.json dashboard/public/knowledge-graph.json
+          cp portfolio/knowledge-graphs/ifrs-knowledge-graph.json dashboard/public/ifrs-knowledge-graph.json
           cp -R wiki dashboard/public/wiki
           cp -R content/acca/tx-uk/rendered/source dashboard/public/acca-tx-uk
           find content/acca/tx-uk/source -maxdepth 1 -type f -name '*.png' -exec cp {} dashboard/public/acca-tx-uk/ \;
