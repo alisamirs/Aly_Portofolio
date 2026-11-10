@@ -1,23 +1,91 @@
 ﻿# IFRS Knowledge Base
 
-A structured study map of International Financial Reporting Standards and related interpretations. The original PDF study material remains in the parent study folders; this wiki contains public-safe study summaries and links for graph exploration.
+A metadata-first study graph built from the local IFRS Study PDF collection and cross-checked against the official IFRS Accounting Standards Navigator.
 
-## Core IFRS standards
+> The portfolio publishes study metadata and summaries only. The original PDFs remain local in `F:\IFRS Study`; consult the authoritative IFRS Foundation material for the requirements.
 
-- [[IFRS_1_First_Time_Adoption]]
-- [[IFRS_9_Financial_Instruments]]
-- [[IFRS_15_Revenue]]
-- [[IFRS_16_Leases]]
-- [[IFRS_10_Consolidation]]
+## Conceptual Framework
 
-## IAS standards
+- [[Conceptual_Framework]]
 
-- [[IAS_2_Inventories]]
-- [[IAS_12_Income_Taxes]]
-- [[IAS_16_Property_Plant_Equipment]]
-- [[IAS_36_Impairment]]
-- [[IAS_37_Provisions]]
+## IFRS
 
-## Interpretations and study method
+- [[]]
+- [[]]
+- [[]]
+- [[]]
+- [[]]
+- [[]]
+- [[]]
+- [[]]
+- [[]]
+- [[]]
+- [[]]
+- [[]]
+- [[]]
+- [[]]
+- [[]]
+- [[]]
+- [[]]
+- [[]]
+
+## IAS
+
+- [[]]
+- [[]]
+- [[]]
+- [[]]
+- [[]]
+- [[]]
+- [[]]
+- [[]]
+- [[]]
+- [[]]
+- [[]]
+- [[]]
+- [[]]
+- [[]]
+- [[]]
+- [[]]
+- [[]]
+- [[]]
+- [[]]
+- [[]]
+- [[]]
+- [[]]
+- [[]]
+- [[]]
+
+## IFRIC Interpretations
+
+- [[]]
+- [[]]
+- [[]]
+- [[]]
+- [[]]
+- [[]]
+- [[]]
+- [[]]
+- [[]]
+- [[]]
+- [[]]
+- [[]]
+- [[]]
+- [[]]
+- [[]]
+
+## SIC Interpretations
+
+- [[]]
+- [[]]
+- [[]]
+- [[]]
+- [[]]
+
+## Study method
 
 - [[IFRS_Study_Method]]
+
+## Official reference
+
+- [IFRS Accounting Standards Navigator](https://www.ifrs.org/issued-standards/list-of-standards/)

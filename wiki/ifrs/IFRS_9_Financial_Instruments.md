@@ -1,11 +1,18 @@
-﻿# IFRS 9 â€” Financial Instruments
+﻿# IFRS 9 Financial Instruments
 
-IFRS 9 addresses classification and measurement of financial assets and liabilities, impairment, and hedge accounting.
+**Category:** IFRS
 
-## Key ideas
+This study topic is represented by 2 local PDF source document(s) in the IFRS Study collection. The graph uses the standard or interpretation as the knowledge node and preserves the source filenames for traceability.
 
-Study commonly follows the business-model and contractual-cash-flow assessment, expected credit loss model, and the relationship between risk management and hedge accounting. The standard links closely with presentation and disclosure requirements in IAS 32 and IFRS 7.
+## Source documents
 
-## Connections
+- `08_IFRS_9_Financial_Instruments.pdf`
+- `ifrs-9-financial-instruments.pdf`
 
-IFRS 9 connects to [[IAS_32_Financial_Instruments_Presentation]], [[IFRS_7_Financial_Instruments_Disclosures]], and [[IFRS_Study_Method]].
+## Study connections
+
+This topic is interpreted within the [[Conceptual_Framework]] and can be studied alongside [[IFRS_Study_Method]].
+
+## Official reference
+
+[IFRS Accounting Standards Navigator](https://www.ifrs.org/issued-standards/list-of-standards/)

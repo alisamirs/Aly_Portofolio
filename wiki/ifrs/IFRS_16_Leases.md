@@ -1,11 +1,18 @@
-﻿# IFRS 16 â€” Leases
+﻿# IFRS 16 Leases
 
-IFRS 16 establishes a lessee model that generally recognises a right-of-use asset and lease liability, subject to specified exemptions.
+**Category:** IFRS
 
-## Key ideas
+This study topic is represented by 2 local PDF source document(s) in the IFRS Study collection. The graph uses the standard or interpretation as the knowledge node and preserves the source filenames for traceability.
 
-A useful study route is to identify whether an arrangement contains a lease, measure the initial liability and right-of-use asset, understand subsequent depreciation and interest, and distinguish lease modifications and exemptions.
+## Source documents
 
-## Connections
+- `15_IFRS_16_Leases.pdf`
+- `ifrs-16-leases.pdf`
 
-IFRS 16 connects to [[IFRS_Study_Method]], [[IAS_36_Impairment]], and [[IFRS_1_First_Time_Adoption]].
+## Study connections
+
+This topic is interpreted within the [[Conceptual_Framework]] and can be studied alongside [[IFRS_Study_Method]].
+
+## Official reference
+
+[IFRS Accounting Standards Navigator](https://www.ifrs.org/issued-standards/list-of-standards/)
