@@ -81,43 +81,50 @@ IFRS 1 does not operate in isolation, it interacts extensively with numerous oth
 - Instead of reviewing every historical contract under IFRS 16 from the date each contract was entered into, an entity may apply the requirements of IFRS 16 to determine whether an arrangement contains a lease based on the facts and circumstances that exist at the date of transition to IFRSs.
 - If a subsidiary was a lessee under operating leases under previous GAAP, IFRS 1 provides a specific relief when the subsidiary adopts IFRS later than its parent. Under IFRS 1 D16(a), a subsidiary may measure its lease liability and right-of-use (ROU) asset ***using amounts that would be included in the parent's consolidated financial statements***, based on the parent's date of transition to IFRS. This exemption was introduced to simplify adoption for subsidiaries joining an IFRS-reporting group later.
 
-### 7 IFRS 1 ↔ IAS 19 (Employee Benefits)
-- Actuarial assumptions at the date of transition are consistent with previous GAAP assumptions (after adjusting for policy differences), unless there is objective evidence of error.
-- Estimates for dates when previous GAAP did not require them reflect conditions existing at the transition date.
-- Multiple valuation dates may be used, with roll-forward/roll-back techniques.
+### 7. IFRS 1 ↔ IAS 12 (Income Taxes)
 
-### 8 IFRS 1 ↔ IAS 12 (Income Taxes)
 - Deferred tax is recognised on temporary differences between carrying amounts in the opening IFRS statement of financial position and their tax bases.
 - Tax rates reflect laws enacted or substantively enacted by the end of the reporting period.
 
-### 9 IFRS 1 ↔ IFRS 10 (Consolidated Financial Statements)
+### 8. IFRS 1 ↔ IFRS 10 (Consolidated Financial Statements)
+
 - All subsidiaries as defined in IFRS 10 are consolidated.
 - If a subsidiary was not consolidated under previous GAAP, its assets and liabilities are measured at the same carrying amounts as in its IFRS financial statements (paragraph D17).
 - Parent and subsidiary may adopt IFRSs at different dates (paragraphs D16–D17).
 
-### 10 IFRS 1 ↔ IAS 21 (Foreign Exchange)
+### 9. IFRS 1 ↔ IAS 21 (Foreign Exchange)
+
 - Entities apply IAS 21 to determine functional and presentation currency.
 - Goodwill and fair value adjustments on acquisition of foreign operations may be treated as assets/liabilities of the entity or the foreign operation, with prospective application permitted.
 
-### 11 IFRS 1 ↔ IAS 29 (Hyperinflationary Economies)
-- IAS 29 is applied to any periods during which the functional or presentation currency economy was hyperinflationary.
-- Deemed cost exemptions (fair value at transition) are available, with IAS 29 applied to periods after the revaluation date.
+### 10. IFRS 1 ↔ IAS 29 (Hyperinflationary Economies)
 
-### 12 IFRS 1 ↔ IAS 2 (Inventories)
+- If an entity has a functional currency that was, or is, the currency of a hyperinflationary economy, it shall determine whether it was subject to severe hyperinflation before the date of transition to IFRSs. This applies to entities that are adopting IFRSs for the first time, as well as entities that have previously applied IFRSs (paragraphs D26).
+- The currency of a hyperinflationary economy is subject to severe hyperinflation if it has both of the following characteristics:
+
+(a) a reliable general price index is not available to all entities with transactions and balances in the currency.
+(b) the currency is not exchangeable into a relatively stable foreign currency. Exchangeability is assessed in accordance with IAS 21       
+        
+### 11. IFRS 1 ↔ IAS 2 (Inventories)
+
 - Inventories are measured at the lower of cost and net realisable value.
 - Cost includes all costs of purchase, conversion, and other costs incurred in bringing inventories to their present location and condition.
 
-### 13 IFRS 1 ↔ IFRS 15 (Revenue from Contracts with Customers)
+### 12. IFRS 1 ↔ IFRS 15 (Revenue from Contracts with Customers)
+
 - Amounts received that do not yet qualify as revenue are recognised as liabilities, adjusted for significant financing components.
 
-### 14 IFRS 1 ↔ IAS 20 (Government Grants)
+### 13. IFRS 1 ↔ IAS 20 (Government Grants)
+
 - Government loans existing at the date of transition use their previous GAAP carrying amount as the IFRS carrying amount.
 - IAS 32 is applied to classify the loan, and IFRS 9 is applied subsequently.
 
-### 15 IFRS 1 ↔ IFRS 2 (Share-based Payment)
+### 14. IFRS 1 ↔ IFRS 2 (Share-based Payment)
+
 - First-time adopters are encouraged but not required to apply IFRS 2 to equity instruments granted after 7 November 2002 that vested before the later of the transition date and 1 January 2005.
 
-### 16 IFRS 1 ↔ IAS 34 (Interim Financial Reporting)
+### 15. IFRS 1 ↔ IAS 34 (Interim Financial Reporting)
+
 - If interim reports are presented for part of the first IFRS period, comparative information must be restated to comply with IFRSs.
 - Reconciliations of equity and total comprehensive income are required.
 
@@ -125,6 +132,7 @@ IFRS 1 does not operate in isolation, it interacts extensively with numerous oth
 
 ---
 Suppose an entity presents its first IFRS financial statements for the year ending **31 December 20X5**, with one year of comparative information for **20X4**. The earliest comparative period begins on **1 January 20X4**, so that is generally the date of transition and the date of the opening IFRS statement of financial position. Always confirm the periods actually presented and the applicable IFRS 1 requirements.
+
 ---
 
 A company adopting IFRS for the first time on 1 January 20X5 has hundreds of service and rental contracts entered into over many years.
@@ -145,7 +153,38 @@ The election is applied consistently.
 The lease assessment is based on facts and circumstances at the transition date.
 Appropriate disclosure of significant IFRS 1 exemptions used in the transition process.
 ---
+Practical effect
 
+Assume:
+
+Parent adopted IFRS on 1 January 2023.
+Subsidiary adopts IFRS for its stand-alone financial statements on 1 January 2026.
+Under previous GAAP, the lease was treated as an operating lease and therefore was off-balance-sheet.
+
+Without the exemption, the subsidiary would need to apply IFRS 16 and reconstruct lease accounting from commencement or transition requirements.
+
+Using IFRS 1 D16(a), the subsidiary can:
+
+Measure the lease liability at the carrying amount that would have been recognized under IFRS 16 in the parent's consolidated accounts.
+Measure the ROU asset on the same basis after adjusting for consolidation effects and acquisition accounting, if any.
+If the subsidiary does not use D16(a)
+
+The subsidiary applies the normal first-time adoption requirements of IFRS 1 and IFRS 16. For leases previously classified as operating leases, it generally recognizes:
+
+a lease liability for future lease payments, and
+a corresponding right-of-use asset
+
+at the date of transition. IFRS 16 requires lessees to recognize lease assets and liabilities for nearly all leases, including those previously accounted for as operating leases.
+
+Audit point
+
+When reviewing a first-time adopter subsidiary:
+
+Determine whether the parent has already adopted IFRS.
+Assess whether the subsidiary elected the D16(a) exemption.
+If elected, verify that lease balances are consistent with the amounts that would have been recognized in the parent's IFRS reporting.
+If not elected, test the lease transition calculations under IFRS 16.
+---
 
 ## Retrospective application: the general principle
 
